@@ -1,0 +1,107 @@
+Key,Korean,English
+Weapon.Stat.ATK,공격력 : {0},ATK: {0}
+Weapon.Stat.ATK_PER,공격력 : {0:P},ATK: {0:P}%
+Weapon.Stat.ARMOR_PER,방어력: {0:P},ARMOR: {0:P}%
+Weapon.Stat.HP_PER,체력: {0:P},HP: {0:P}%
+Weapon.Stat.LUCK,행운: {0},Luck: {0}
+Weapon.Stat.ELEMENT_MASTERY,원소마스터리: {0},Elemental Mastery: {0}
+Weapon.Stat.REGEN,원소충전효율: {0:P},Regen: {0:P}%
+Weapon.Stat.PHYSICS_PER,물리 대미지 : {0:P},Physics Dmg : {0:P}%
+Weapon.Sword_Favonius,페보니우스 검,Peponi Tumur
+Weapon.Sword_The_Flute,피리검,Pyrigom
+Weapon.Sword_Sacrificial,제례검,Ritual
+Weapon.Sword_Lions_Loar,용의 포효,Dragon
+Weapon.Sword_The_Alley_Flash,뒷골목의 섬광,Backborne
+Weapon.Sword_The_Black,칠흑검,Black Sword
+Weapon.Sword_Aquila_Favonia,매의 검,Sword
+Weapon.Sword_Skyword_Blade,천공의 검,Perforation
+Weapon.Sword_Summit_Shaper,참봉의 칼날,Chambong'S Blade
+Weapon.Sword_Primordial_Jade_Cutter,반암결록,Semi -Rock
+Weapon.Sword_Freedom_Sworn,오래된 자유의 서약,Vows
+Weapon.Claymore_Favonius,페보니우스 대검,Peponi Typse Sword
+Weapon.Claymore_The_Bell,시간의 검,Time
+Weapon.Claymore_Sacrificial,제례 대검,Ritual
+Weapon.Claymore_Rainslasher,빗물 베기,Rainwater
+Weapon.Claymore_Lithic_Blade,천암고검,Cheonam
+Weapon.Claymore_Serpent_Spine,이무기 검,Baulk
+Weapon.Claymore_Skyward_Pride,천공의 긍지,Pride
+Weapon.Claymore_Wolfs_Gravestone,늑대의 말로,In The Words Of The Wolf
+Weapon.Claymore_The_Unforged,무공의 검,Sword
+Weapon.Claymore_Song_Of_Broken_Pines,송뢰가 울릴 무렵,By The Time The Tights Rang
+Weapon.Spear_Dragons_Bane,용학살창,Yonghak
+Weapon.Spear_Favonius,페보니우스 장창,Peponi Typse Changchang
+Weapon.Spear_Lithic_Spear,천암장창,Cheonam Jangchang
+Weapon.Spear_Deathmatch,결투의 창,Duel
+Weapon.Spear_Primordial_Jade_Spear,화박연,Yummer
+Weapon.Spear_Skyward_Spine,천공의 마루,Perforation
+Weapon.Spear_Vortex_Vanquisher,관홍의 창,Gwanhong'S Window
+Weapon.Spear_Staff_Of_Homa,호마의 지팡이,Homa'S Cane
+Weapon.Catalist_Favonius,페보니우스 비전,Peponi Wos Vision
+Weapon.Catalist_Widsith,음유시인의 악장,Bard
+Weapon.Catalist_Sacrificial,제례의 악장,Ritual
+Weapon.Catalist_Eye_Of_Perception,소심,Timid
+Weapon.Catalist_Wine_And_Song,뒷골목의 술과 시,Liquor And Poem In The Back Alley
+Weapon.Catalist_Solar_Pearl,일월의 정수,Men'S Integer
+Weapon.Catalist_Skyward_Atlas,천공의 두루마리,Perforation
+Weapon.Catalist_Lost_Prayer_To_The_Sacered_Winds,사풍원서,Trican
+Weapon.Catalist_Memory_Of_Dust,속세의 자물쇠,Sequence
+Weapon.Bow_Favonius,페보니우스 활,Peponi Us Bow
+Weapon.Bow_The_Stringless,절현,Litness
+Weapon.Bow_Sacrificial_Bow,제례활,Ritual
+Weapon.Bow_Rust,녹슨활,Rusty
+Weapon.Bow_Alley_Hunter,뒷골목의 사냥꾼,Hunter
+Weapon.Bow_Mitternachts_Waltz,유야의 왈츠,Yuya'S Waltz
+Weapon.Bow_Viridescent_Hunt,청록의 사냥활,Turquoise
+Weapon.Bow_SkyWard_Harp,천공의 날개,Wings
+Weapon.Bow_Amos_Bow,아모스의 활,Amos' Bow
+Weapon.Bow_Elegy_For_The_End,종말 탄식의 노래,Sighing Song
+Weapon.Bow_Polar_Star,극지의 별,Polar
+Weapon.Discription.Sword_Favonius,{0}초마다 {1:P}의 확률로 원소 에너지를 6pt 회복함,Each Second Is {1: P} With The Probability Of Restoring Element Energy 6Pt 6Pt
+Weapon.Discription.Sword_The_Flute,5초마다 주변 적에게 공격력 {0:P}의 피해를 줌,"Every 5 Seconds, The Damage Of The Attack Power {0: P}"
+Weapon.Discription.Sword_Sacrificial,원소전투 스킬을 사용할 때 {0:P}의 확률로 해당 스킬의 재사용 대기시간이 초기화됨. 해당 효과는 {1}초마다 발동가능,"When Using Elemental Combat Skills, The Probability Of {0: P} Is Initialized. This Effect Can Be Activated Every Second Of {1}"
+Weapon.Discription.Sword_Lions_Loar,불 원소 또는 번개 원소가 부착된 적에게 가하는 피해가 {0:P}증가함,Damage To Enemies With Non -Element Or Lightning Elements Increases {0: P}
+Weapon.Discription.Sword_The_Alley_Flash,피해가 {0:P}증가함 적에게 체력이 감소된 경우 해당 효과가 5초동안 사라짐,"If The Damage Is Reduced By {0: P} Increase, The Relevant Effect Disappears For 5 Seconds."
+Weapon.Discription.Sword_The_Black,일반공격 피해가 {0:P}증가함. 일반공격 사용 시 공격력의 {1:P}에 해당하는 HP를 회복함. 재사용 대기시간 10초,General Attack Damage Increases {0: P}. Recovering Hp Corresponding To {1: P} Of Attack Power When Using Ordinary Attacks. Reuse Waiting Time 10 Seconds
+Weapon.Discription.Sword_Aquila_Favonia,공격력이 {0:P}증가함. 적에게 체력이 감소된 경우 공격력의 {1:P}만큼 HP를 회복하고 그 두배만큼의 피해를 주변 적에게 줌. 재사용 대기시간 15초,"The Damage Increases {0: P}. If The Enemy Has A Reduction In Stamina, He Restores Hp As Much As {1: P} Of Attack Power And Doubles The Damage To The Surrounding Enemies. Reuse Waiting Time 15 Seconds"
+Weapon.Discription.Sword_Skyword_Blade,행운이 {0} 증가함. 장착 캐릭터의 원소폭발 발동 시 이동속도와 공격속도가 10% 증가. 일반공격 대미지 {1:P} 증가. 지속 12초,Luck Increases {0}. Movement Speed And Attack Speed Increase By 10% When The Element Explosion Is Activated By The Equipped Character. General Attack Damage {1: P} Increased. 12 Seconds
+Weapon.Discription.Sword_Summit_Shaper,보호막 체력이 {0:P}증가함. 공격력이 {1:P} 증가함. 보호막이 존재하면 공격력 증가 효과가 두배가 됨,"Shield Health Increases {0: P}. The Damage Increases {1: P}. If There Is A Shield, The Effect Of Increasing Damage Is Doubled."
+Weapon.Discription.Sword_Primordial_Jade_Cutter,"HP가 {0:P} 증가하고, HP최대치의 {1:P}에 해당하는 공격력 보너스를 획득함",Hp Increases {0: P} And Acquires An Attack Bonus Corresponding To {1: P} Of Hp
+Weapon.Discription.Sword_Freedom_Sworn,"가하는 피해 {0:P}증가함. 20초마다 일반공격피해 {1:P}증가, 공격력 {2:P} 증가함. 지속 12초","Damage To The Damage {0: P} Increases. Each 20 Seconds Damage Damage {1: P}, Attack Power {2: P} Increases. 12 Seconds"
+Weapon.Discription.Claymore_Favonius,{0}초마다 {1:P}의 확률로 원소 에너지를 6pt 회복함,Each Second Is {1: P} With The Probability Of Restoring Element Energy 6Pt 6Pt
+Weapon.Discription.Claymore_The_Bell,적에게 체력이 감소된 경우 HP최대치의 {0:P}의 체력을 가진 보호막이 생성됨. 보호막은 10초동안 유지됨 재사용 대기시간 45초. 보호막이 존재할 경우 피해가 {1:P}증가함,"If The Enemy Has A Reduction In Health, A Protective Film With A Health Of {0: P} Of Hp Is Generated. The Shield Is Maintained For 10 Seconds. 45 Seconds Of Cooldown. If A Shield Is Present, The Damage Increases {1: P}"
+Weapon.Discription.Claymore_Sacrificial,원소전투 스킬을 사용할 때 {0:P}의 확률로 해당 스킬의 재사용 대기시간이 초기화됨. 해당 효과는 {1}초마다 발동가능,"When Using Elemental Combat Skills, The Probability Of {0: P} Is Initialized. This Effect Can Be Activated Every Second Of {1}"
+Weapon.Discription.Claymore_Rainslasher,물 원소 또는 번개원소가 부착된 적에게 피해 {0:P}증가함,Damage To Enemies With Water Elements Or Lightning Elements {0: P} Increases
+Weapon.Discription.Claymore_Lithic_Blade,파티의 리월 출신 캐릭터 1명당 {0:P}만큼 공격력이 증가하고 행운이 {1}증가함,"The Attack Power Increases As Much As {0: P} Per Person From Liwol'S Character, And Lucky {1} Increases."
+Weapon.Discription.Claymore_Serpent_Spine,"4초마다 피해 {0:P} 증가, 받는피해 {1:P} 증가함. 최대 중첩 5회. 피해를 받으면 중첩이 1줄어듬","Damage Every 4 Seconds {0: P}, Receiving Damage {1: P} Increases. Maximum Overlap. If You Are Damaged, The Overlapping Is Reduced By 1"
+Weapon.Discription.Claymore_Skyward_Pride,피해 {1:P}증가. 원소폭발 발동 시 가장 가까운 적에게 주기적으로 공격력의 {0:P}피해를 주는 진공의 칼날을 8회 발사함. 새로운 원소폭발을 발동할 경우 공격회수 초기화됨,"Damage {1: P} Increases. It Is A Vacuum Blade Of 8 Times To Damage The {0: P} Damage To The Nearest Enemy When The Element Explosion Is Activated. When A New Element Explosion Is Activated, The Attack Recovery Is Initialized"
+Weapon.Discription.Claymore_Wolfs_Gravestone,공격력 {0:P}증가. 30초마다 공격력 {1:P} 증가함. 지속 12초. 재사용 대기시간 30초,Attack {0: P} Increases. Attacks Every 30 Seconds {1: P} Increase. 12 Seconds. Reuse Waiting Time 30 Seconds
+Weapon.Discription.Claymore_The_Unforged,보호막 체력 {0:P}증가. 공격력이 {1:P} 증가함. 보호막이 존재할 경우 공격력 증가 효괴가 두배가 됨,"Shield Health {0: P} Increases. The Damage Increases {1: P}. If There Is A Shield, The Damage Increase Is Doubled."
+Weapon.Discription.Claymore_Song_Of_Broken_Pines,공격력 {0:P}증가. 20초마다 일반공격 재사용 대기시간 {1:P}감소. 공격력 {2:P} 증가함. 지속 12초,Attack {0: P} Increases. Each 20 Seconds Waiting Time For Regular Attacks {1: P}. Attack {2: P} Increases. 12 Seconds
+Weapon.Discription.Spear_Dragons_Bane,물 원소 또는 불원소가 부착된 적에게 가하는 피해가 {0:P}증가함,Damage To Enemies With Water Elements Or Incubators Increases {0: P}
+Weapon.Discription.Spear_Favonius,{0}초마다 {1:P}의 확률로 원소 에너지를 6pt 회복함,Each Second Is {1: P} With The Probability Of Restoring Element Energy 6Pt 6Pt
+Weapon.Discription.Spear_Lithic_Spear,파티의 리월 출신 캐릭터 1명당 {0:P}만큼 공격력이 증가하고 행운이 {1}증가함,"The Attack Power Increases As Much As {0: P} Per Person From Liwol'S Character, And Lucky {1} Increases."
+Weapon.Discription.Spear_Deathmatch,공격력 {0:P} 방어력 {1:P} 증가,Attack {0: P} Defense {1: P} Increases
+Weapon.Discription.Spear_Primordial_Jade_Spear,공격력 {0:P} 피해 {1:P}증가,Attack {0: P} Damage {1: P} Increased
+Weapon.Discription.Spear_Skyward_Spine,행운 {0} 증가 일반공격 재사용 대기시간 12% 감소. 2초마다 가장 가까운 적 방향으로 진공 칼날을 날려 {1:P}의 피해를 줌,"Lucky {0} Increases General Attack Waiting Time By 12%. Every 2 Seconds, Blows A Vacuum Blade In The Nearest Enemy Direction, Causing Damage To {1: P}."
+Weapon.Discription.Spear_Vortex_Vanquisher,보호막 체력 {0:P}증가. 공격력이 {1:P} 증가함. 보호막이 존재할 경우 공격력 증가 효괴가 두배가 됨,"Shield Health {0: P} Increases. The Damage Increases {1: P}. If There Is A Shield, The Damage Increase Is Doubled."
+Weapon.Discription.Spear_Staff_Of_Homa,최대 체력 {0:P}증가. 공격력이 HP 최대치의 {1:P}만큼 증가함 HP가 50% 미만일 경우 공격력 증가효과가 두배가 됨,Maximum Health {0: P} Increase. The Damage Is Doubled When The Damage Is Less Than 50%.
+Weapon.Discription.Catalist_Favonius,{0}초마다 {1:P}의 확률로 원소 에너지를 6pt 회복함,Each Second Is {1: P} With The Probability Of Restoring Element Energy 6Pt 6Pt
+Weapon.Discription.Catalist_Widsith,"30초마다 공격력 {0:P}, 피해 {1:P}, 원소마스터리 {2}중 하나가 랜덤으로 증가함. 지속 10초","Each 30 Seconds Attack Power {0: P}, Damage {1: P}, Elemental Mastery {2} Increases Randomly. 10 Seconds"
+Weapon.Discription.Catalist_Sacrificial,원소전투 스킬을 사용할 때 {0:P}의 확률로 해당 스킬의 재사용 대기시간이 초기화됨. 해당 효과는 {1}초마다 발동가능,"When Using Elemental Combat Skills, The Probability Of {0: P} Is Initialized. This Effect Can Be Activated Every Second Of {1}"
+Weapon.Discription.Catalist_Eye_Of_Perception,{0}초마다 적 사이를 4번 튕겨 {1:P}의 대미지를 주는 구체를 발사함,{0} Bounces The Enemy Four Times Every Second And Fires A Sphere That Deals Damage Of {1: P}.
+Weapon.Discription.Catalist_Wine_And_Song,이동속도가 {0:P} 증가함. 이동 중 공격력이 {1:P} 증가함,Movement Speed Increases {0: P}. Attack On The Move Increases {1: P}
+Weapon.Discription.Catalist_Solar_Pearl,피해 {0:P}증가,Damage {0: P} Increase
+Weapon.Discription.Catalist_Skyward_Atlas,원소 피해 보너스 {0:P} 증가. 30초마다 가장 가까운 적을 향해 발사해 {1:P}의 피해를 주는 투사체를 지속적으로 생성함. 지속 15초,Elemental Damage Bonus {0: P} Increased. It Fires Toward The Nearest Enemy Every 30 Seconds And Constantly Generates A Projectile That Damages {1: P}. 15 Seconds
+Weapon.Discription.Catalist_Lost_Prayer_To_The_Sacered_Winds,"이동속도 10%, 피해 {0:P}증가","10%Movement Speed, Damage {0: P} Increases"
+Weapon.Discription.Catalist_Memory_Of_Dust,보호막 체력이 {0:P}증가함. 공격력이 {1:P} 증가함. 보호막이 존재하면 공격력 증가 효과가 두배가 됨,"Shield Health Increases {0: P}. The Damage Increases {1: P}. If There Is A Shield, The Effect Of Increasing Damage Is Doubled."
+Weapon.Discription.Bow_Favonius,{0}초마다 {1:P}의 확률로 원소 에너지를 6pt 회복함,Each Second Is {1: P} With The Probability Of Restoring Element Energy 6Pt 6Pt
+Weapon.Discription.Bow_The_Stringless,원소 전투스킬과 원소폭발 피해가 {0:P} 증가함,Elemental Combat Skills And Element Explosion Damage Increases {0: P}
+Weapon.Discription.Bow_Sacrificial_Bow,원소전투 스킬을 사용할 때 {0:P}의 확률로 해당 스킬의 재사용 대기시간이 초기화됨. 해당 효과는 {1}초마다 발동가능,"When Using Elemental Combat Skills, The Probability Of {0: P} Is Initialized. This Effect Can Be Activated Every Second Of {1}"
+Weapon.Discription.Bow_Rust,일반 공격 피해 {0:P} 증가함,General Attack Damage {0: P} Increases
+Weapon.Discription.Bow_Alley_Hunter,무기를 장착한 캐릭터가 메인캐릭터가 아닐경우 피해 {0:P} 증가함,"If The Character With The Weapon Is Not The Main Character, The Damage {0: P} Increases."
+Weapon.Discription.Bow_Mitternachts_Waltz,일반 공격 피해와 원소전투 스킬의 피해가 {0:P} 증가함,The Damage Of General Attack Damage And Elemental Combat Skills Increases {0: P}
+Weapon.Discription.Bow_Viridescent_Hunt,{0} 초마다 제일 가까운 적 방향에 적을 끌어당기고 공격력의 {1:P}의 지속피해를 주는 공격을함. 지속 4초,{0} Attracts The Enemy To The Nearest Enemy Direction And Attacks The Sustainable Damage Of {1: P} Of Damage. 4 Seconds
+Weapon.Discription.Bow_SkyWard_Harp,행운 {0} 증가 {1}초마다 명중 시 {2:P}의 범위피해를 주는 화살을 발사함,"Lucky {0} Increases {1} Each Second, Firing An Arrow That Causes The Range Of Damage To {2: P}"
+Weapon.Discription.Bow_Amos_Bow,일반공격 피해 {0:P}증가 일반공격이 원거리 공격일 경우 해당 효과 4배 증가,"General Attack Damage {0: P} Increase In General Attacks, 4 Times The Effectiveness Of The Effect"
+Weapon.Discription.Bow_Elegy_For_The_End,"원소마스터리가 {0}증가함 20초마다 원소마스터리 {1} 증가, 공격력 {2:P}증가함 지속 12초","Elemental Mastery Increases {0} Increase Every 20 Seconds Of Element {1}, Attack Power {2: P} Increases 12 Seconds"
+Weapon.Discription.Bow_Polar_Star,원소전투 스킬과 원소폭발의 피해 {0:P}증가. 공격력 {1:P} 증가,Damage To Elemental Combat Skills And Element Explosions {0: P}. Attack {1: P} Increase

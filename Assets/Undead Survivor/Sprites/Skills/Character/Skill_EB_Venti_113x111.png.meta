@@ -1,0 +1,1460 @@
+fileFormatVersion: 2
+guid: de935924f0046c84fb58acde6402d8dd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 113
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 666
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a87f63ee43722a4eb0ce19c92dbc725
+      internalID: 332927961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 666
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7fd43a2b8664824fb30a7545334c67b
+      internalID: -1691179570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 666
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4058a5f106057474c9d3b497752b6e5b
+      internalID: 70823087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_3
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 666
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c599717280c90bb46ad79003f46182ef
+      internalID: -1616751355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_4
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 666
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cda8aa7439651f4abc02b50965d896e
+      internalID: 550698031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_5
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 666
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1853a0835f05a84997bb5638ca87ad9
+      internalID: 718632160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_6
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 666
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd3da3b68ab02544a2def244809aa6e
+      internalID: 326598095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_7
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 666
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1421c1cbe1a3e374f8fe9278fa216973
+      internalID: 198509559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_8
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 666
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2551579a68df845a784c2b031ca482
+      internalID: -1629461695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 555
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565906636ef11074d8173850122c06c4
+      internalID: -556064833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_10
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 555
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a364cc715dc7754abc60a54e9d52cdb
+      internalID: -990339608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_11
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 555
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4df2363d359ce43be86e033fd3fa9c
+      internalID: 132832881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_12
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 555
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0430bc5614d068648a012b78044e2631
+      internalID: -681021151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_13
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 555
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12216e6fc7b79644789dbe407fb0876d
+      internalID: 698284453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_14
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 555
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f171fe5d9cef94fa40832c2e2c3e06
+      internalID: 372255820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_15
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 555
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc431aa8420ae8b48994e8d1bec3b6a0
+      internalID: -1580670240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_16
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 555
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2761926545b348643a2906fa27ab76c0
+      internalID: -1242801773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_17
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 555
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8957137c0a54204487091578c65ec22
+      internalID: -865794164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 444
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1369aa15d74d38a46b28f8643f81b79c
+      internalID: -1769139123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_19
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 444
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cca4a1a7296e04469619a09adf7d836
+      internalID: 2077277974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_20
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 444
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a325c58da7e8a0744aeafc7235e18883
+      internalID: -1741530993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_21
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 444
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773924643385f424c9a96eff34eb3976
+      internalID: 631736247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_22
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 444
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30707df48d583e4d80b809e6b81a5f7
+      internalID: -2099291976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_23
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 444
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae5de27762592b439aa6b366139e229
+      internalID: 1783395490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_24
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 444
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12df75b8dcf0a3f47ab126a98bd2e7c3
+      internalID: 1980453923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_25
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 444
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99af06e06e45df4892223ecf7d875dd
+      internalID: 1538072267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_26
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 444
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf10d83552da2a45a4ede423412a8e7
+      internalID: 1742404967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 333
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058edaa57ed37bc439456d2ff8d233da
+      internalID: 1129625143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_28
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 333
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2879e86fa01eae44a10271b72ef66d2
+      internalID: 427308046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_29
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 333
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb89f8b4c4c79743b085a85be47c6f7
+      internalID: 1132065497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_30
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 333
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9083cb848a6565046932fefd0a7909a8
+      internalID: -389491517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_31
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 333
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fa72b71138126498f26b0f9db2f977
+      internalID: -15230411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_32
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 333
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4f6dc63f391504fbe0451fc3711030
+      internalID: -584076108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_33
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 333
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0242ab1cd8906f47980f4cf60e7c4e7
+      internalID: 150941293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_34
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 333
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ce5dc9a67c1254388461ac9485add4
+      internalID: 635465342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_35
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 333
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0b150f42e4c2d47b9e902d6070f100
+      internalID: -1959894345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87c83512583dc848993df8cf5f13482
+      internalID: 2020386231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_37
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 222
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e6fdf7036e2ed45be3e8052b6b4e79
+      internalID: 1207398356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_38
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 222
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8363614f4cf11644ba0c2b7b44e693c
+      internalID: -915051345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_39
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 222
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1a4d0ab97a7f44ca080176dc42a044
+      internalID: 2128134429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_40
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 222
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3862d4b85f30ed48bec2c48237feaad
+      internalID: 784824416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_41
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 222
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e561602c27d234f8f1c1bba1c86708
+      internalID: -1754450655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_42
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 222
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b14791a3d4f384e8b3c9b798a39bd6
+      internalID: 53486018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_43
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 222
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9509505da4fb2aa48a7e14ae3e82743b
+      internalID: 2084709964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_44
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 222
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5a7a3aeb89d3541b237b91a99be36c
+      internalID: -1361110304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be21e41cb59dcf941aa16a547c73a6d7
+      internalID: -287126778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_46
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 111
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526d54d6ecd826449909c844a4dd946b
+      internalID: 440344056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_47
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 111
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6553bcb3a64fb9942a35002f046424ff
+      internalID: -298293234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_48
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 111
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12dc34c75f826cb4aaa49c4106f2d8fd
+      internalID: -730335158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_49
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 111
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d236f7fa005eae468f0905626efc178
+      internalID: 453292606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_50
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 111
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c6ba5ac53b84a49b4af47f8ebc6e8d
+      internalID: 404258148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_51
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 111
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3897b584767a5104a978639bdaaaef80
+      internalID: -325243457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_52
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 111
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e009d3da65a34419e0ec686664302a
+      internalID: -1793689963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_53
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 111
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab67fbc04830e684ab2eb3cf435b1729
+      internalID: 861603520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9f32304e503ad47a69c3f1dadfde92
+      internalID: 1002306084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_55
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ff93c694ccd38458526b49f28bb5af
+      internalID: -1610425175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_56
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 0
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a471b90251fed164b8bdeec184e50ad9
+      internalID: -1704498904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_57
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 0
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b9ca389aa1ab14394c71b8bd8ac741
+      internalID: 1664524648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_58
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 0
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3234352a21502047a4cb50df805bb04
+      internalID: 178266367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Venti_113x111_59
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 0
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715f71cbb0b8dda45a7337d6a5db23bc
+      internalID: -502995173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Skill_EB_Venti_113x111_0: 332927961
+      Skill_EB_Venti_113x111_1: -1691179570
+      Skill_EB_Venti_113x111_10: -990339608
+      Skill_EB_Venti_113x111_11: 132832881
+      Skill_EB_Venti_113x111_12: -681021151
+      Skill_EB_Venti_113x111_13: 698284453
+      Skill_EB_Venti_113x111_14: 372255820
+      Skill_EB_Venti_113x111_15: -1580670240
+      Skill_EB_Venti_113x111_16: -1242801773
+      Skill_EB_Venti_113x111_17: -865794164
+      Skill_EB_Venti_113x111_18: -1769139123
+      Skill_EB_Venti_113x111_19: 2077277974
+      Skill_EB_Venti_113x111_2: 70823087
+      Skill_EB_Venti_113x111_20: -1741530993
+      Skill_EB_Venti_113x111_21: 631736247
+      Skill_EB_Venti_113x111_22: -2099291976
+      Skill_EB_Venti_113x111_23: 1783395490
+      Skill_EB_Venti_113x111_24: 1980453923
+      Skill_EB_Venti_113x111_25: 1538072267
+      Skill_EB_Venti_113x111_26: 1742404967
+      Skill_EB_Venti_113x111_27: 1129625143
+      Skill_EB_Venti_113x111_28: 427308046
+      Skill_EB_Venti_113x111_29: 1132065497
+      Skill_EB_Venti_113x111_3: -1616751355
+      Skill_EB_Venti_113x111_30: -389491517
+      Skill_EB_Venti_113x111_31: -15230411
+      Skill_EB_Venti_113x111_32: -584076108
+      Skill_EB_Venti_113x111_33: 150941293
+      Skill_EB_Venti_113x111_34: 635465342
+      Skill_EB_Venti_113x111_35: -1959894345
+      Skill_EB_Venti_113x111_36: 2020386231
+      Skill_EB_Venti_113x111_37: 1207398356
+      Skill_EB_Venti_113x111_38: -915051345
+      Skill_EB_Venti_113x111_39: 2128134429
+      Skill_EB_Venti_113x111_4: 550698031
+      Skill_EB_Venti_113x111_40: 784824416
+      Skill_EB_Venti_113x111_41: -1754450655
+      Skill_EB_Venti_113x111_42: 53486018
+      Skill_EB_Venti_113x111_43: 2084709964
+      Skill_EB_Venti_113x111_44: -1361110304
+      Skill_EB_Venti_113x111_45: -287126778
+      Skill_EB_Venti_113x111_46: 440344056
+      Skill_EB_Venti_113x111_47: -298293234
+      Skill_EB_Venti_113x111_48: -730335158
+      Skill_EB_Venti_113x111_49: 453292606
+      Skill_EB_Venti_113x111_5: 718632160
+      Skill_EB_Venti_113x111_50: 404258148
+      Skill_EB_Venti_113x111_51: -325243457
+      Skill_EB_Venti_113x111_52: -1793689963
+      Skill_EB_Venti_113x111_53: 861603520
+      Skill_EB_Venti_113x111_54: 1002306084
+      Skill_EB_Venti_113x111_55: -1610425175
+      Skill_EB_Venti_113x111_56: -1704498904
+      Skill_EB_Venti_113x111_57: 1664524648
+      Skill_EB_Venti_113x111_58: 178266367
+      Skill_EB_Venti_113x111_59: -502995173
+      Skill_EB_Venti_113x111_6: 326598095
+      Skill_EB_Venti_113x111_7: 198509559
+      Skill_EB_Venti_113x111_8: -1629461695
+      Skill_EB_Venti_113x111_9: -556064833
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

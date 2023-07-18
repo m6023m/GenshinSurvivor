@@ -1,0 +1,778 @@
+fileFormatVersion: 2
+guid: 00cca725cc9323347a447481dcad968f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 463
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skill_EB_Eula_Damage_461x463_0
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 2778
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c0a6faeddfb3644b8161553c3ff6e2
+      internalID: 771938991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Eula_Damage_461x463_1
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 2778
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343f5af2acf26c5459e904c48f1bce4c
+      internalID: 1728523092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Eula_Damage_461x463_2
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 2778
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68bb17cc571438d4da8bb75f8b4465cb
+      internalID: 832204690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Eula_Damage_461x463_3
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 2778
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de835f2373edbd248ad507a40bebb557
+      internalID: 1107324166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Eula_Damage_461x463_4
+      rect:
+        serializedVersion: 2
+        x: 2305
+        y: 2778
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b42939cdaac2d46be33d7fde4923de
+      internalID: -1140271159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Eula_Damage_461x463_5
+      rect:
+        serializedVersion: 2
+        x: 2766
+        y: 2778
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e9c4f284b36b3488d09f4fd30a6b65
+      internalID: -387167634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Eula_Damage_461x463_6
+      rect:
+        serializedVersion: 2
+        x: 3227
+        y: 2778
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e48c4b35a380b42b2733a438ff6661
+      internalID: 158927737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Eula_Damage_461x463_7
+      rect:
+        serializedVersion: 2
+        x: 3688
+        y: 2778
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c4931beefb7de4c8566f996b8b5e84
+      internalID: 443088731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Eula_Damage_461x463_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2315
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a90952fb54fa5498f995255ed8081f
+      internalID: 401677902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Eula_Damage_461x463_9
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 2315
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf25625510c9f7468165c08593b33c0
+      internalID: -435975765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Eula_Damage_461x463_10
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 2315
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e00ace0c88755f43b32c2225890b465
+      internalID: 723991920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Eula_Damage_461x463_11
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 2315
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6906ca10f94cb4db8286271cef58d7
+      internalID: 200708210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Eula_Damage_461x463_12
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 2315
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7aa4bb67da9a745bd55ecb4ec548ac
+      internalID: -399833319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Eula_Damage_461x463_13
+      rect:
+        serializedVersion: 2
+        x: 2305
+        y: 2315
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40bcc04d1115dd34db7705679338afff
+      internalID: 545629205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Eula_Damage_461x463_14
+      rect:
+        serializedVersion: 2
+        x: 2766
+        y: 2315
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7773c03091081d14e967b72041606bf1
+      internalID: -1799853200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Eula_Damage_461x463_15
+      rect:
+        serializedVersion: 2
+        x: 3227
+        y: 2315
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638e615c608958443b341d251751fda9
+      internalID: -593931746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Eula_Damage_461x463_16
+      rect:
+        serializedVersion: 2
+        x: 3688
+        y: 2315
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f329ac493ff975489e38502b37fa235
+      internalID: 206574175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Eula_Damage_461x463_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1852
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d9d3fdc43fe4e4c99a1c29db7e0906
+      internalID: 1386090908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Eula_Damage_461x463_18
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1852
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b487f0e5fe14f44a8bb71a515d44e4a
+      internalID: 1889854238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Eula_Damage_461x463_19
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1852
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06da26600698d043ac9570f98c3f0e4
+      internalID: -2047293463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Eula_Damage_461x463_20
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1852
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ba139e14411db4c9dae115eeb3adf4
+      internalID: 490388830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Eula_Damage_461x463_21
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 1852
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241d187770faa5846bc10bcab618b398
+      internalID: -143528792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Eula_Damage_461x463_22
+      rect:
+        serializedVersion: 2
+        x: 2305
+        y: 1852
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001ab0eaefbd9a6498ec099a45e988c2
+      internalID: 233471863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Eula_Damage_461x463_23
+      rect:
+        serializedVersion: 2
+        x: 2766
+        y: 1852
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8ed71f96fc3e44c81654be09efe4b4
+      internalID: 939385935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Eula_Damage_461x463_24
+      rect:
+        serializedVersion: 2
+        x: 3227
+        y: 1852
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d2447b2e67e3c4986d050d2a1aa88e
+      internalID: -1378664916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Eula_Damage_461x463_25
+      rect:
+        serializedVersion: 2
+        x: 3688
+        y: 1852
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fb4e3a638635a4ba3f7551abf8bc20
+      internalID: -1292638249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Eula_Damage_461x463_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1389
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc437e1db019be4abd12b34b5e5f7c5
+      internalID: -589134978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Eula_Damage_461x463_27
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1389
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6bc41340e121943b24332e7bad0ae5
+      internalID: -962197249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Eula_Damage_461x463_28
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1389
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6399d81c579a394eb9668c34a2c1130
+      internalID: -1238776115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Skill_EB_Eula_Damage_461x463_0: 771938991
+      Skill_EB_Eula_Damage_461x463_1: 1728523092
+      Skill_EB_Eula_Damage_461x463_10: 723991920
+      Skill_EB_Eula_Damage_461x463_11: 200708210
+      Skill_EB_Eula_Damage_461x463_12: -399833319
+      Skill_EB_Eula_Damage_461x463_13: 545629205
+      Skill_EB_Eula_Damage_461x463_14: -1799853200
+      Skill_EB_Eula_Damage_461x463_15: -593931746
+      Skill_EB_Eula_Damage_461x463_16: 206574175
+      Skill_EB_Eula_Damage_461x463_17: 1386090908
+      Skill_EB_Eula_Damage_461x463_18: 1889854238
+      Skill_EB_Eula_Damage_461x463_19: -2047293463
+      Skill_EB_Eula_Damage_461x463_2: 832204690
+      Skill_EB_Eula_Damage_461x463_20: 490388830
+      Skill_EB_Eula_Damage_461x463_21: -143528792
+      Skill_EB_Eula_Damage_461x463_22: 233471863
+      Skill_EB_Eula_Damage_461x463_23: 939385935
+      Skill_EB_Eula_Damage_461x463_24: -1378664916
+      Skill_EB_Eula_Damage_461x463_25: -1292638249
+      Skill_EB_Eula_Damage_461x463_26: -589134978
+      Skill_EB_Eula_Damage_461x463_27: -962197249
+      Skill_EB_Eula_Damage_461x463_28: -1238776115
+      Skill_EB_Eula_Damage_461x463_3: 1107324166
+      Skill_EB_Eula_Damage_461x463_4: -1140271159
+      Skill_EB_Eula_Damage_461x463_5: -387167634
+      Skill_EB_Eula_Damage_461x463_6: 158927737
+      Skill_EB_Eula_Damage_461x463_7: 443088731
+      Skill_EB_Eula_Damage_461x463_8: 401677902
+      Skill_EB_Eula_Damage_461x463_9: -435975765
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

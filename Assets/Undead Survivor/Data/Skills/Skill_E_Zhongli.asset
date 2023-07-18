@@ -1,0 +1,230 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f16caae2ed0cea4a9f1cabb809bc6a1, type: 3}
+  m_Name: Skill_E_Zhongli
+  m_EditorClassIdentifier: 
+  sequences:
+  - animation: {fileID: 7400000, guid: 6d9dccaa6b6c0504a8e2f896ab2ddec2, type: 2}
+    objectType: 0
+    damage: 0.1
+    damageStat: 2
+    elementType: 7
+    duration: 0
+    scanRange: 0
+    isProjectile: 0
+    isSummonAttack: 0
+    isConditionChange: 0
+    isContinueDamage: 0
+    isTrigger: 0
+    isTriggerAttack: 0
+    isPlayerMove: 0
+    isSkillMove: 0
+    isImmune: 0
+    isMass: 0
+    isPositionFix: 0
+    isRotationFix: 0
+    isRotate: 0
+    coolTime: 0
+    _skillCount: 1
+    isSkillAdd: 0
+    delay: 0
+    isContinue: 1
+    aim: 0
+    isTraking: 0
+    isMagnet: 0
+    isSequence: 0
+    isTransform: 0
+    isChangedElement: 0
+    isResetPosition: 0
+    defalutPosition: {x: 0, y: 0}
+    defalutRotation: {x: 0, y: 0}
+    centerOffset: {x: 0, y: 0}
+    skillSize: 8
+    createRange: 0
+    layerOrder: 0
+    moveRange: 0
+    moveTime: 0
+    randomRange: 0
+    animationSpeed: 2
+    isAnimationSpeedMatchDuration: 0
+  - animation: {fileID: 7400000, guid: b6934bbc1fb15134f9968ac1ab1460fd, type: 2}
+    objectType: 1
+    damage: 0
+    damageStat: 2
+    elementType: 7
+    duration: 10
+    scanRange: 0
+    isProjectile: 0
+    isSummonAttack: 0
+    isConditionChange: 0
+    isContinueDamage: 0
+    isTrigger: 0
+    isTriggerAttack: 0
+    isPlayerMove: 0
+    isSkillMove: 0
+    isImmune: 0
+    isMass: 1
+    isPositionFix: 1
+    isRotationFix: 1
+    isRotate: 0
+    coolTime: 0
+    _skillCount: 1
+    isSkillAdd: 1
+    delay: 0
+    isContinue: 1
+    aim: 2
+    isTraking: 0
+    isMagnet: 0
+    isSequence: 0
+    isTransform: 0
+    isChangedElement: 0
+    isResetPosition: 0
+    defalutPosition: {x: 0, y: 0}
+    defalutRotation: {x: 0, y: 1}
+    centerOffset: {x: 0, y: 0}
+    skillSize: 2
+    createRange: 3
+    layerOrder: 0
+    moveRange: 0
+    moveTime: 0
+    randomRange: 0
+    animationSpeed: 2
+    isAnimationSpeedMatchDuration: 0
+  - animation: {fileID: 7400000, guid: 041f9b79298ce504e8c2bfdf9cddef82, type: 2}
+    objectType: 0
+    damage: 0.05
+    damageStat: 2
+    elementType: 7
+    duration: 0
+    scanRange: 0
+    isProjectile: 0
+    isSummonAttack: 0
+    isConditionChange: 0
+    isContinueDamage: 0
+    isTrigger: 0
+    isTriggerAttack: 0
+    isPlayerMove: 0
+    isSkillMove: 0
+    isImmune: 0
+    isMass: 0
+    isPositionFix: 1
+    isRotationFix: 0
+    isRotate: 0
+    coolTime: 1.5
+    _skillCount: 1
+    isSkillAdd: 0
+    delay: 0
+    isContinue: 1
+    aim: 0
+    isTraking: 0
+    isMagnet: 0
+    isSequence: 0
+    isTransform: 0
+    isChangedElement: 0
+    isResetPosition: 0
+    defalutPosition: {x: 0, y: 0}
+    defalutRotation: {x: 0, y: 0}
+    centerOffset: {x: 0, y: 0}
+    skillSize: 1.5
+    createRange: 0
+    layerOrder: 0
+    moveRange: 0
+    moveTime: 0
+    randomRange: 0
+    animationSpeed: 4
+    isAnimationSpeedMatchDuration: 0
+  - animation: {fileID: 7400000, guid: 10d21181d569fc94bb40392f5602fb3a, type: 2}
+    objectType: 2
+    damage: 0.2
+    damageStat: 2
+    elementType: 7
+    duration: 12
+    scanRange: 0
+    isProjectile: 0
+    isSummonAttack: 0
+    isConditionChange: 0
+    isContinueDamage: 0
+    isTrigger: 0
+    isTriggerAttack: 0
+    isPlayerMove: 0
+    isSkillMove: 0
+    isImmune: 0
+    isMass: 0
+    isPositionFix: 0
+    isRotationFix: 0
+    isRotate: 0
+    coolTime: 1.5
+    _skillCount: 1
+    isSkillAdd: 0
+    delay: 0
+    isContinue: 1
+    aim: 0
+    isTraking: 0
+    isMagnet: 0
+    isSequence: 0
+    isTransform: 0
+    isChangedElement: 0
+    isResetPosition: 0
+    defalutPosition: {x: 0, y: 0}
+    defalutRotation: {x: 0, y: 0}
+    centerOffset: {x: 0, y: 0}
+    skillSize: 1.2
+    createRange: 0
+    layerOrder: 0
+    moveRange: 0
+    moveTime: 0
+    randomRange: 0
+    animationSpeed: 2
+    isAnimationSpeedMatchDuration: 0
+  - animation: {fileID: 7400000, guid: 4a7ed7997cb67aa47b8a6fffb5acfaec, type: 2}
+    objectType: 3
+    damage: 0.2
+    damageStat: 2
+    elementType: 7
+    duration: 12
+    scanRange: 0
+    isProjectile: 0
+    isSummonAttack: 0
+    isConditionChange: 0
+    isContinueDamage: 0
+    isTrigger: 0
+    isTriggerAttack: 0
+    isPlayerMove: 0
+    isSkillMove: 0
+    isImmune: 0
+    isMass: 0
+    isPositionFix: 0
+    isRotationFix: 0
+    isRotate: 0
+    coolTime: 1.5
+    _skillCount: 1
+    isSkillAdd: 0
+    delay: 0
+    isContinue: 1
+    aim: 0
+    isTraking: 0
+    isMagnet: 0
+    isSequence: 0
+    isTransform: 0
+    isChangedElement: 0
+    isResetPosition: 0
+    defalutPosition: {x: 0, y: 0}
+    defalutRotation: {x: 0, y: 0}
+    centerOffset: {x: 0, y: 0}
+    skillSize: 5
+    createRange: 0
+    layerOrder: 0
+    moveRange: 0
+    moveTime: 0
+    randomRange: 0
+    animationSpeed: 4
+    isAnimationSpeedMatchDuration: 0

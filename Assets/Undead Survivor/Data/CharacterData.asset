@@ -1,0 +1,1835 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d5753cc16025d4d809cb6adda50dab, type: 3}
+  m_Name: CharacterData
+  m_EditorClassIdentifier: 
+  characters:
+  - name: 0
+    type: 2
+    weaponType: 1
+    pickUpType: 0
+    elementType: 3
+    nationalType: 0
+    icon: {fileID: 866925328, guid: d4ea15bf2e526694f94aa7459588f9c7, type: 3}
+    anim: {fileID: 22100000, guid: 7772480a7cf019441ac75211cd9db8f2, type: 2}
+    wishImage: {fileID: 21300000, guid: 25e07fd14bac87a4da5c48f7ff8927d7, type: 3}
+    wishPannel: {fileID: 21300000, guid: 25e3cd77610b6644db0397467faeeb55, type: 3}
+    wishIcon: {fileID: 21300000, guid: e74ed9d9918de0047b6b0430180d6ff2, type: 3}
+    stat:
+      charNum: 0
+      isMine: 0
+      elementType: 3
+      constellation: 000000000000
+      toolTipKey: Travler.Anemo
+      constellaCount: 6
+      atk: 5
+      armor: 5
+      hp: 100
+      heal: 0
+      cooltime: 0
+      area: 1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 0
+      rankUpValue: 10
+      weaponName: 0
+    skillBasic: 0
+    skill: 5
+  - name: 1
+    type: 2
+    weaponType: 1
+    pickUpType: 0
+    elementType: 3
+    nationalType: 0
+    icon: {fileID: -730064389, guid: 1ecd87cad4dd3e944b379735cafb2976, type: 3}
+    anim: {fileID: 9100000, guid: d77a6d7552582f74b8398e78643403b9, type: 2}
+    wishImage: {fileID: 21300000, guid: 25e07fd14bac87a4da5c48f7ff8927d7, type: 3}
+    wishPannel: {fileID: 21300000, guid: 25e3cd77610b6644db0397467faeeb55, type: 3}
+    wishIcon: {fileID: 21300000, guid: e74ed9d9918de0047b6b0430180d6ff2, type: 3}
+    stat:
+      charNum: 1
+      isMine: 1
+      elementType: 3
+      constellation: 010101010101
+      toolTipKey: Travler.Anemo
+      constellaCount: 9
+      atk: 5
+      armor: 5
+      hp: 100
+      heal: 0
+      cooltime: 0
+      area: 1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 0
+      rankUpValue: 10
+      weaponName: 7
+    skillBasic: 0
+    skill: 5
+  - name: 2
+    type: 0
+    weaponType: 5
+    pickUpType: 0
+    elementType: 1
+    nationalType: 1
+    icon: {fileID: 696821066, guid: 34001698d9f081d4badd102a61bbbb30, type: 3}
+    anim: {fileID: 22100000, guid: ffff1df6f2325c949a57132bd1f979a1, type: 2}
+    wishImage: {fileID: 21300000, guid: 9c79e932c7f9cc14bb3692979cb7f8aa, type: 3}
+    wishPannel: {fileID: 21300000, guid: 25e3cd77610b6644db0397467faeeb55, type: 3}
+    wishIcon: {fileID: 21300000, guid: 9b5defdd64cc5254783cbbdb2a39284e, type: 3}
+    stat:
+      charNum: 2
+      isMine: 1
+      elementType: 1
+      constellation: 010101010101
+      toolTipKey: Amber
+      constellaCount: 6
+      atk: 5
+      armor: 5
+      hp: 90
+      heal: 0
+      cooltime: 0
+      area: 1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 0
+      rankUpValue: 10
+      weaponName: 0
+    skillBasic: 3
+    skill: 7
+  - name: 3
+    type: 0
+    weaponType: 3
+    pickUpType: 0
+    elementType: 1
+    nationalType: 2
+    icon: {fileID: 1618515167, guid: ed328134aa67646479a2023b5c213a12, type: 3}
+    anim: {fileID: 22100000, guid: 335de8e9dfa72c849bf38742bb88b864, type: 2}
+    wishImage: {fileID: 21300000, guid: ce2646af09712d24b8c07a3bda9a3a65, type: 3}
+    wishPannel: {fileID: 21300000, guid: 25e3cd77610b6644db0397467faeeb55, type: 3}
+    wishIcon: {fileID: 21300000, guid: 65c50e43eabe8c848941e7f60b11042d, type: 3}
+    stat:
+      charNum: 3
+      isMine: 1
+      elementType: 1
+      constellation: 010101010101
+      toolTipKey: Xiangling
+      constellaCount: 6
+      atk: 5
+      armor: 5
+      hp: 100
+      heal: 0
+      cooltime: 0
+      area: 1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 27
+      rankUpValue: 24
+      weaponName: 0
+    skillBasic: 2
+    skill: 10
+  - name: 4
+    type: 0
+    weaponType: 1
+    pickUpType: 0
+    elementType: 1
+    nationalType: 1
+    icon: {fileID: 32479116, guid: 4479300ad81480344942fb9e7a73929c, type: 3}
+    anim: {fileID: 22100000, guid: 654298efefcb6d446835cbcada7d6335, type: 2}
+    wishImage: {fileID: 21300000, guid: d38f839438cc29d4db1a6d3b8460aefd, type: 3}
+    wishPannel: {fileID: 21300000, guid: 25e3cd77610b6644db0397467faeeb55, type: 3}
+    wishIcon: {fileID: 21300000, guid: 6f78379b1cedb6d4ea7eb16814f65d54, type: 3}
+    stat:
+      charNum: 4
+      isMine: 1
+      elementType: 1
+      constellation: 010101010101
+      toolTipKey: Bennet
+      constellaCount: 6
+      atk: 4.5
+      armor: 5.5
+      hp: 110
+      heal: 0
+      cooltime: 0
+      area: 1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 12
+      rankUpValue: 10
+      weaponName: 0
+    skillBasic: 0
+    skill: 12
+  - name: 5
+    type: 1
+    weaponType: 2
+    pickUpType: 0
+    elementType: 1
+    nationalType: 1
+    icon: {fileID: 1392598277, guid: 3c788307c1081d744b0940fd86e0e7c5, type: 3}
+    anim: {fileID: 22100000, guid: 0a8185ee8253903458f67f6e6d36feef, type: 2}
+    wishImage: {fileID: 21300000, guid: 7763152f8ab83524eb573efecd61ab8a, type: 3}
+    wishPannel: {fileID: 21300000, guid: 97ea1ad610013fc4bb6074ed785ac54d, type: 3}
+    wishIcon: {fileID: 21300000, guid: 71acb52bf88113c4ab2bb8a29d2c55d2, type: 3}
+    stat:
+      charNum: 5
+      isMine: 1
+      elementType: 1
+      constellation: 010101010101
+      toolTipKey: Diluc
+      constellaCount: 6
+      atk: 7.5
+      armor: 5.5
+      hp: 130
+      heal: 0
+      cooltime: 0
+      area: 1.2
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3.5
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 11
+      rankUpValue: 1
+      weaponName: 0
+    skillBasic: 1
+    skill: 14
+  - name: 6
+    type: 1
+    weaponType: 4
+    pickUpType: 1
+    elementType: 1
+    nationalType: 1
+    icon: {fileID: -59149502, guid: 6700f8c92d0d930478af975c624295d6, type: 3}
+    anim: {fileID: 22100000, guid: f791ebbad5823b9498e8e4f6d3b63bd1, type: 2}
+    wishImage: {fileID: 21300000, guid: 7cc30e58e1cb9604498377c841d2c660, type: 3}
+    wishPannel: {fileID: 21300000, guid: d3e62e0c423b210468979a9f06171901, type: 3}
+    wishIcon: {fileID: 21300000, guid: 7fb48360f99a7874db2921bbefae7f50, type: 3}
+    stat:
+      charNum: 6
+      isMine: 1
+      elementType: 1
+      constellation: 010101010101
+      toolTipKey: Klee
+      constellaCount: 6
+      atk: 7.5
+      armor: 4.5
+      hp: 100
+      heal: 0
+      cooltime: 0
+      area: 0.8
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 2.5
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 20
+      rankUpValue: 7.2
+      weaponName: 0
+    skillBasic: 66
+    skill: 16
+  - name: 7
+    type: 0
+    weaponType: 4
+    pickUpType: 0
+    elementType: 2
+    nationalType: 1
+    icon: {fileID: -1206171276, guid: 20e78377cc92d5f46994799bdde4fadd, type: 3}
+    anim: {fileID: 22100000, guid: af0cac0d2c9bd194193c5e1dceb63bb4, type: 2}
+    wishImage: {fileID: 21300000, guid: 04a77d1c254b1a94bbf4e4a7078080c0, type: 3}
+    wishPannel: {fileID: 21300000, guid: 25e3cd77610b6644db0397467faeeb55, type: 3}
+    wishIcon: {fileID: 21300000, guid: 859ec4a25e8e9d34d84a5be6d2838b03, type: 3}
+    stat:
+      charNum: 7
+      isMine: 1
+      elementType: 2
+      constellation: 010101010101
+      toolTipKey: Barbara
+      constellaCount: 6
+      atk: 4
+      armor: 5
+      hp: 100
+      heal: 0
+      cooltime: 0
+      area: 1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 2
+      rankUpValue: 10
+      weaponName: 0
+    skillBasic: 4
+    skill: 18
+  - name: 8
+    type: 0
+    weaponType: 1
+    pickUpType: 0
+    elementType: 2
+    nationalType: 2
+    icon: {fileID: -101284508, guid: 9f0f18edd48d4fd42921465d1b27d2e2, type: 3}
+    anim: {fileID: 22100000, guid: 0f26d2a2c885826468392a5405ff9a28, type: 2}
+    wishImage: {fileID: 21300000, guid: 36fb25397933a034fb7cb9870504478e, type: 3}
+    wishPannel: {fileID: 21300000, guid: 25e3cd77610b6644db0397467faeeb55, type: 3}
+    wishIcon: {fileID: 21300000, guid: 2126f90a5d190634fa9f3defce7c8e31, type: 3}
+    stat:
+      charNum: 8
+      isMine: 1
+      elementType: 2
+      constellation: 010101010101
+      toolTipKey: Xingqiu
+      constellaCount: 6
+      atk: 5
+      armor: 6
+      hp: 100
+      heal: 0
+      cooltime: 0
+      area: 1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 0
+      rankUpValue: 10
+      weaponName: 0
+    skillBasic: 0
+    skill: 20
+  - name: 9
+    type: 1
+    weaponType: 4
+    pickUpType: 0
+    elementType: 2
+    nationalType: 1
+    icon: {fileID: -454489286, guid: 08f2c3e8bca41d949af2cbf4d83836a8, type: 3}
+    anim: {fileID: 22100000, guid: 2519e5491115e33438f9c15529ae4067, type: 2}
+    wishImage: {fileID: 21300000, guid: 75aeaa4445e9ef241be042cf587e9713, type: 3}
+    wishPannel: {fileID: 21300000, guid: 97ea1ad610013fc4bb6074ed785ac54d, type: 3}
+    wishIcon: {fileID: 21300000, guid: e78b8c458fe13e04eb4de10e6c6d213f, type: 3}
+    stat:
+      charNum: 9
+      isMine: 1
+      elementType: 2
+      constellation: 010101010101
+      toolTipKey: Mona
+      constellaCount: 6
+      atk: 6
+      armor: 5
+      hp: 100
+      heal: 0
+      cooltime: 0
+      area: 1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 12
+      rankUpValue: 12
+      weaponName: 0
+    skillBasic: 67
+    skill: 22
+  - name: 10
+    type: 0
+    weaponType: 4
+    pickUpType: 0
+    elementType: 3
+    nationalType: 1
+    icon: {fileID: 1479686449, guid: dbda32f281bd2974e93f0119d66191ab, type: 3}
+    anim: {fileID: 22100000, guid: 6d541f9f9efbb234c933667c53a7bce2, type: 2}
+    wishImage: {fileID: 21300000, guid: 3ade05cf66a427046ac4826239e33e82, type: 3}
+    wishPannel: {fileID: 21300000, guid: 25e3cd77610b6644db0397467faeeb55, type: 3}
+    wishIcon: {fileID: 21300000, guid: 6ceb40288f4b0164fb745790eff6f873, type: 3}
+    stat:
+      charNum: 10
+      isMine: 1
+      elementType: 3
+      constellation: 010101010101
+      toolTipKey: Sucrose
+      constellaCount: 6
+      atk: 4.5
+      armor: 5.5
+      hp: 100
+      heal: 0
+      cooltime: 0
+      area: 1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 22
+      rankUpValue: 6
+      weaponName: 0
+    skillBasic: 4
+    skill: 24
+  - name: 11
+    type: 1
+    weaponType: 1
+    pickUpType: 0
+    elementType: 3
+    nationalType: 1
+    icon: {fileID: 1317726578, guid: 84891bfc28618fc418f27895296f22bf, type: 3}
+    anim: {fileID: 22100000, guid: 19f567fb4873185439626425dbd6fb4a, type: 2}
+    wishImage: {fileID: 21300000, guid: 25e07fd14bac87a4da5c48f7ff8927d7, type: 3}
+    wishPannel: {fileID: 21300000, guid: 97ea1ad610013fc4bb6074ed785ac54d, type: 3}
+    wishIcon: {fileID: 21300000, guid: 7c655c02501e2ed4ebaa74933a784a19, type: 3}
+    stat:
+      charNum: 11
+      isMine: 1
+      elementType: 3
+      constellation: 010101010101
+      toolTipKey: Jean
+      constellaCount: 6
+      atk: 5
+      armor: 6
+      hp: 140
+      heal: 0
+      cooltime: 0
+      area: 1.1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3.5
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 3
+      rankUpValue: 6
+      weaponName: 0
+    skillBasic: 0
+    skill: 26
+  - name: 12
+    type: 1
+    weaponType: 5
+    pickUpType: 1
+    elementType: 3
+    nationalType: 1
+    icon: {fileID: 507190259, guid: c94be9c535196b44093a2b315f7e9798, type: 3}
+    anim: {fileID: 22100000, guid: 64275e743569a334c8cadf108e3125e9, type: 2}
+    wishImage: {fileID: 21300000, guid: fbb06b86938387b408d7fd567578c39b, type: 3}
+    wishPannel: {fileID: 21300000, guid: 7ad38d79045f49949a4310b8e70d1069, type: 3}
+    wishIcon: {fileID: 21300000, guid: f9c345d38b070024e9deb80c232d5db7, type: 3}
+    stat:
+      charNum: 12
+      isMine: 1
+      elementType: 3
+      constellation: 010101010101
+      toolTipKey: Venti
+      constellaCount: 6
+      atk: 5.5
+      armor: 5
+      hp: 100
+      heal: 0
+      cooltime: 0
+      area: 1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 12
+      rankUpValue: 12
+      weaponName: 0
+    skillBasic: 3
+    skill: 28
+  - name: 13
+    type: 0
+    weaponType: 4
+    pickUpType: 0
+    elementType: 5
+    nationalType: 1
+    icon: {fileID: 2066873982, guid: 9f2a51059fb26544c8786bb81faf1679, type: 3}
+    anim: {fileID: 22100000, guid: 44c41b6567c520a4889dabfa78afa40f, type: 2}
+    wishImage: {fileID: 21300000, guid: 98e09a6f2b50a544ea4735e7953eb91d, type: 3}
+    wishPannel: {fileID: 21300000, guid: 25e3cd77610b6644db0397467faeeb55, type: 3}
+    wishIcon: {fileID: 21300000, guid: 21f1368ca47a437418ecf5b2d4433797, type: 3}
+    stat:
+      charNum: 13
+      isMine: 1
+      elementType: 5
+      constellation: 010101010101
+      toolTipKey: Lisa
+      constellaCount: 6
+      atk: 5
+      armor: 4.5
+      hp: 100
+      heal: 0
+      cooltime: 0
+      area: 1.1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3.5
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 27
+      rankUpValue: 24
+      weaponName: 0
+    skillBasic: 4
+    skill: 30
+  - name: 14
+    type: 0
+    weaponType: 2
+    pickUpType: 0
+    elementType: 5
+    nationalType: 1
+    icon: {fileID: -260294635, guid: 392426a15d464ec41b72ecbf48733aec, type: 3}
+    anim: {fileID: 22100000, guid: acbc29713832b1248b12147efd461fe9, type: 2}
+    wishImage: {fileID: 21300000, guid: 2150d8273b1103f4a83740e46e42c020, type: 3}
+    wishPannel: {fileID: 21300000, guid: 25e3cd77610b6644db0397467faeeb55, type: 3}
+    wishIcon: {fileID: 21300000, guid: 3bda1f3466a72994e88a6f2b9f90425b, type: 3}
+    stat:
+      charNum: 14
+      isMine: 1
+      elementType: 5
+      constellation: 010101010101
+      toolTipKey: Razor
+      constellaCount: 6
+      atk: 5
+      armor: 6
+      hp: 110
+      heal: 0
+      cooltime: 0
+      area: 1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 19
+      rankUpValue: 6
+      weaponName: 0
+    skillBasic: 1
+    skill: 32
+  - name: 15
+    type: 0
+    weaponType: 2
+    pickUpType: 0
+    elementType: 5
+    nationalType: 2
+    icon: {fileID: -1051252169, guid: 53b0f29f6070ca74da16134416f37d0f, type: 3}
+    anim: {fileID: 22100000, guid: a0dbc52fe9815be4587c04e9bdaab3f1, type: 2}
+    wishImage: {fileID: 21300000, guid: b0708066ca3c7414d8dee9db15653250, type: 3}
+    wishPannel: {fileID: 21300000, guid: 25e3cd77610b6644db0397467faeeb55, type: 3}
+    wishIcon: {fileID: 21300000, guid: b15a95aee6772ba488431181e020eaef, type: 3}
+    stat:
+      charNum: 15
+      isMine: 1
+      elementType: 5
+      constellation: 010101010101
+      toolTipKey: Beidou
+      constellaCount: 6
+      atk: 5
+      armor: 5
+      hp: 130
+      heal: 0
+      cooltime: 0
+      area: 1.1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3.5
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 24
+      rankUpValue: 6
+      weaponName: 0
+    skillBasic: 1
+    skill: 34
+  - name: 16
+    type: 0
+    weaponType: 5
+    pickUpType: 0
+    elementType: 5
+    nationalType: 1
+    icon: {fileID: -770158534, guid: 78cea438056d47b47b08c7399ec98c70, type: 3}
+    anim: {fileID: 22100000, guid: f2404e85b933d6d4899b9a0a6fbe96cd, type: 2}
+    wishImage: {fileID: 21300000, guid: 4a50901726ac0f44492a31f624226660, type: 3}
+    wishPannel: {fileID: 21300000, guid: 25e3cd77610b6644db0397467faeeb55, type: 3}
+    wishIcon: {fileID: 21300000, guid: 73696911e54cf1449ac10c8d03fe7220, type: 3}
+    stat:
+      charNum: 16
+      isMine: 1
+      elementType: 5
+      constellation: 010101010101
+      toolTipKey: Fischl
+      constellaCount: 6
+      atk: 5
+      armor: 4.5
+      hp: 90
+      heal: 0
+      cooltime: 0
+      area: 1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 0
+      rankUpValue: 10
+      weaponName: 0
+    skillBasic: 3
+    skill: 36
+  - name: 17
+    type: 1
+    weaponType: 1
+    pickUpType: 0
+    elementType: 5
+    nationalType: 2
+    icon: {fileID: -1782029630, guid: 79d8893fd0c2ada4dadcb1258f3fa5b1, type: 3}
+    anim: {fileID: 22100000, guid: aa8a681e537f38c44aac0238dc85eace, type: 2}
+    wishImage: {fileID: 21300000, guid: 44bf4376eb5b210458d0095f641e1be6, type: 3}
+    wishPannel: {fileID: 21300000, guid: 97ea1ad610013fc4bb6074ed785ac54d, type: 3}
+    wishIcon: {fileID: 21300000, guid: f9f01191f8953804b89da51ca7888be8, type: 3}
+    stat:
+      charNum: 17
+      isMine: 1
+      elementType: 5
+      constellation: 010101010101
+      toolTipKey: Keqing
+      constellaCount: 6
+      atk: 7.5
+      armor: 6
+      hp: 130
+      heal: 0
+      cooltime: 0
+      area: 1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 11
+      rankUpValue: 1
+      weaponName: 0
+    skillBasic: 0
+    skill: 39
+  - name: 18
+    type: 0
+    weaponType: 1
+    pickUpType: 0
+    elementType: 6
+    nationalType: 1
+    icon: {fileID: 969391003, guid: 79fa82969b50da247b91ab61b95de5fa, type: 3}
+    anim: {fileID: 22100000, guid: 055add28ef86d4940941d1d9e6548b05, type: 2}
+    wishImage: {fileID: 21300000, guid: 7cd45b7ead0b138468e32aaae8b2bfe0, type: 3}
+    wishPannel: {fileID: 21300000, guid: 25e3cd77610b6644db0397467faeeb55, type: 3}
+    wishIcon: {fileID: 21300000, guid: d512a05fd7174604cbd2b803e0737c4c, type: 3}
+    stat:
+      charNum: 18
+      isMine: 1
+      elementType: 6
+      constellation: 010101010101
+      toolTipKey: Kaeya
+      constellaCount: 6
+      atk: 5
+      armor: 6.5
+      hp: 110
+      heal: 0
+      cooltime: 0
+      area: 1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 12
+      rankUpValue: 10
+      weaponName: 0
+    skillBasic: 0
+    skill: 41
+  - name: 19
+    type: 0
+    weaponType: 2
+    pickUpType: 0
+    elementType: 6
+    nationalType: 2
+    icon: {fileID: 80311183, guid: 2f2c1b4581e3dc74bba4211812ff6e27, type: 3}
+    anim: {fileID: 22100000, guid: 515abca7caa52124eb5a9c33b5081488, type: 2}
+    wishImage: {fileID: 21300000, guid: 4d2cd7d16dde2134e8d0909b5ffe8759, type: 3}
+    wishPannel: {fileID: 21300000, guid: 25e3cd77610b6644db0397467faeeb55, type: 3}
+    wishIcon: {fileID: 21300000, guid: 6ca3a68c1ebcb22409930bdf26f57545, type: 3}
+    stat:
+      charNum: 19
+      isMine: 1
+      elementType: 6
+      constellation: 010101010101
+      toolTipKey: Chongyun
+      constellaCount: 6
+      atk: 5
+      armor: 5
+      hp: 100
+      heal: 0
+      cooltime: 0
+      area: 1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 0
+      rankUpValue: 10
+      weaponName: 0
+    skillBasic: 1
+    skill: 43
+  - name: 20
+    type: 1
+    weaponType: 1
+    pickUpType: 0
+    elementType: 6
+    nationalType: 2
+    icon: {fileID: -285178974, guid: 73bb90deea96dd34dada1ea27bf5b8b9, type: 3}
+    anim: {fileID: 22100000, guid: bb2cd38d707a1ae47a113a6f22dd8c2d, type: 2}
+    wishImage: {fileID: 21300000, guid: bbda76cd833016540abd763a55582563, type: 3}
+    wishPannel: {fileID: 21300000, guid: 97ea1ad610013fc4bb6074ed785ac54d, type: 3}
+    wishIcon: {fileID: 21300000, guid: ff1a471a814dce7429cef791cfd72fe8, type: 3}
+    stat:
+      charNum: 20
+      isMine: 1
+      elementType: 6
+      constellation: 010101010101
+      toolTipKey: Qiqi
+      constellaCount: 6
+      atk: 6
+      armor: 8
+      hp: 120
+      heal: 0
+      cooltime: 0
+      area: 1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 3
+      rankUpValue: 6
+      weaponName: 0
+    skillBasic: 0
+    skill: 45
+  - name: 21
+    type: 0
+    weaponType: 4
+    pickUpType: 0
+    elementType: 7
+    nationalType: 2
+    icon: {fileID: -609111670, guid: f3e5df3c6c5215845ade00de87ef0d39, type: 3}
+    anim: {fileID: 22100000, guid: 3a10da3c8c9537a4b941f670fdf15dfb, type: 2}
+    wishImage: {fileID: 21300000, guid: 9ee1e3cede92dac48a34cdcc9ff63eda, type: 3}
+    wishPannel: {fileID: 21300000, guid: 25e3cd77610b6644db0397467faeeb55, type: 3}
+    wishIcon: {fileID: 21300000, guid: 26380fe7305d7b143a5b3fd364e067fc, type: 3}
+    stat:
+      charNum: 21
+      isMine: 1
+      elementType: 7
+      constellation: 010101010101
+      toolTipKey: Ningguang
+      constellaCount: 6
+      atk: 5
+      armor: 4.5
+      hp: 90
+      heal: 0
+      cooltime: 0
+      area: 1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 26
+      rankUpValue: 6
+      weaponName: 0
+    skillBasic: 4
+    skill: 47
+  - name: 22
+    type: 0
+    weaponType: 2
+    pickUpType: 0
+    elementType: 7
+    nationalType: 1
+    icon: {fileID: 1955800287, guid: ae61cfdab52ff2843ac5fb099ea6e219, type: 3}
+    anim: {fileID: 22100000, guid: 848eec2a307d18c4d98b41c27010dafe, type: 2}
+    wishImage: {fileID: 21300000, guid: d415aa439eaadb046b4dd2066d3d4d06, type: 3}
+    wishPannel: {fileID: 21300000, guid: 14f724a5838f16245b7f72fd6853301d, type: 3}
+    wishIcon: {fileID: 21300000, guid: c3051444f2bd98c44aeab35fde8ddd03, type: 3}
+    stat:
+      charNum: 22
+      isMine: 1
+      elementType: 7
+      constellation: 010101010101
+      toolTipKey: Noelle
+      constellaCount: 6
+      atk: 4.5
+      armor: 8
+      hp: 120
+      heal: 0
+      cooltime: 0
+      area: 1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 1
+      rankUpValue: 10
+      weaponName: 0
+    skillBasic: 1
+    skill: 49
+  - name: 23
+    type: 1
+    weaponType: 5
+    pickUpType: 1
+    elementType: 2
+    nationalType: 7
+    icon: {fileID: 1522649099, guid: 2bcc241ea9c135146aefc2dd91a96180, type: 3}
+    anim: {fileID: 22100000, guid: f68b67dce696d8f41beece442c5129d5, type: 2}
+    wishImage: {fileID: 21300000, guid: c6f4e8090c3d63a45874b0bef479b3ef, type: 3}
+    wishPannel: {fileID: 21300000, guid: 24c892bde216efa4cb33fa84e26a03a8, type: 3}
+    wishIcon: {fileID: 21300000, guid: 6a16cf0c6397e694788b5dbe1dbd5077, type: 3}
+    stat:
+      charNum: 23
+      isMine: 1
+      elementType: 2
+      constellation: 010101010101
+      toolTipKey: Tartaglia
+      constellaCount: 6
+      atk: 6.5
+      armor: 8
+      hp: 130
+      heal: 0
+      cooltime: 0
+      area: 1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 21
+      rankUpValue: 7.2
+      weaponName: 0
+    skillBasic: 3
+    skill: 68
+  - name: 24
+    type: 0
+    weaponType: 5
+    pickUpType: 0
+    elementType: 6
+    nationalType: 1
+    icon: {fileID: -1276439020, guid: 6ffbd910397745c4ebfcf4807a7eca40, type: 3}
+    anim: {fileID: 22100000, guid: 5f176576502b1dc4fb9674ec6cbf1d0c, type: 2}
+    wishImage: {fileID: 21300000, guid: e5edeb405d5933d4eaa4c1dec9d65e42, type: 3}
+    wishPannel: {fileID: 21300000, guid: 24c892bde216efa4cb33fa84e26a03a8, type: 3}
+    wishIcon: {fileID: 21300000, guid: e9443b5799c5077448d5bb3e64a11c47, type: 3}
+    stat:
+      charNum: 24
+      isMine: 1
+      elementType: 6
+      constellation: 010101010101
+      toolTipKey: Diona
+      constellaCount: 6
+      atk: 5
+      armor: 6
+      hp: 95
+      heal: 0
+      cooltime: 0
+      area: 1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 25
+      rankUpValue: 6
+      weaponName: 0
+    skillBasic: 3
+    skill: 70
+  - name: 25
+    type: 1
+    weaponType: 3
+    pickUpType: 1
+    elementType: 7
+    nationalType: 2
+    icon: {fileID: -1889502008, guid: e068d7dcdc275ec4083a9850700d49ad, type: 3}
+    anim: {fileID: 22100000, guid: c1b7c82e7fbc8ea42b0b237324d03c06, type: 2}
+    wishImage: {fileID: 21300000, guid: 938325592a1941347b30511b3b2a1512, type: 3}
+    wishPannel: {fileID: 21300000, guid: a8e853a3bda1751459e49ec7b3636563, type: 3}
+    wishIcon: {fileID: 21300000, guid: d2e6013548b87da4c8ad9bc917c6ce4f, type: 3}
+    stat:
+      charNum: 25
+      isMine: 1
+      elementType: 7
+      constellation: 010101010101
+      toolTipKey: Zhongli
+      constellaCount: 6
+      atk: 5.5
+      armor: 7
+      hp: 150
+      heal: 0
+      cooltime: 0
+      area: 1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 2
+      rankUpValue: 10
+      weaponName: 0
+    skillBasic: 2
+    skill: 72
+  - name: 26
+    type: 0
+    weaponType: 2
+    pickUpType: 0
+    elementType: 1
+    nationalType: 2
+    icon: {fileID: -1894794170, guid: db1fa99952c955c43a4d29b740186a64, type: 3}
+    anim: {fileID: 22100000, guid: 2fa90dc9a2b7665438fbdede28b9c91a, type: 2}
+    wishImage: {fileID: 21300000, guid: c1d03ef8753bf2e4d89ae656487c657d, type: 3}
+    wishPannel: {fileID: 21300000, guid: a8e853a3bda1751459e49ec7b3636563, type: 3}
+    wishIcon: {fileID: 21300000, guid: 79e3e70339a259e449c093903b83ab8f, type: 3}
+    stat:
+      charNum: 26
+      isMine: 1
+      elementType: 1
+      constellation: 010101010101
+      toolTipKey: Xinyan
+      constellaCount: 6
+      atk: 5.5
+      armor: 8
+      hp: 110
+      heal: 0
+      cooltime: 0
+      area: 1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 1
+      rankUpValue: 10
+      weaponName: 0
+    skillBasic: 1
+    skill: 74
+  - name: 27
+    type: 1
+    weaponType: 1
+    pickUpType: 1
+    elementType: 7
+    nationalType: 1
+    icon: {fileID: 1800928399, guid: 6a648606497f4414db4f88fc0ec02995, type: 3}
+    anim: {fileID: 22100000, guid: dda87255fe5f62e4a97bae51ad71578f, type: 2}
+    wishImage: {fileID: 21300000, guid: 77b293004a97a55438a6999507b8b0a4, type: 3}
+    wishPannel: {fileID: 21300000, guid: 8dcc6eaa4b23cea41af62312577a7bf6, type: 3}
+    wishIcon: {fileID: 21300000, guid: 8015b7763716ce74b8d7218e09a758d4, type: 3}
+    stat:
+      charNum: 27
+      isMine: 1
+      elementType: 7
+      constellation: 010101010101
+      toolTipKey: Albedo
+      constellaCount: 6
+      atk: 5.5
+      armor: 8.5
+      hp: 130
+      heal: 0
+      cooltime: 0
+      area: 1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 26
+      rankUpValue: 7.2
+      weaponName: 0
+    skillBasic: 0
+    skill: 76
+  - name: 28
+    type: 1
+    weaponType: 5
+    pickUpType: 1
+    elementType: 6
+    nationalType: 2
+    icon: {fileID: -1824901294, guid: 9d22f68562440a84f96ae753aee1820a, type: 3}
+    anim: {fileID: 22100000, guid: 37b5d6a1b79e4a444a224c24c39e7856, type: 2}
+    wishImage: {fileID: 21300000, guid: 2a0f3726174cc6c41947681237c43ef8, type: 3}
+    wishPannel: {fileID: 21300000, guid: 2ccaf6affd1cccf429218ce5369634b9, type: 3}
+    wishIcon: {fileID: 21300000, guid: 588efc0e931c0ff42855a7be1594a5d4, type: 3}
+    stat:
+      charNum: 28
+      isMine: 1
+      elementType: 6
+      constellation: 010101010101
+      toolTipKey: Ganyu
+      constellaCount: 6
+      atk: 7.5
+      armor: 6
+      hp: 95
+      heal: 0
+      cooltime: 0
+      area: 1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 11
+      rankUpValue: 1
+      weaponName: 0
+    skillBasic: 78
+    skill: 79
+  - name: 29
+    type: 1
+    weaponType: 3
+    pickUpType: 1
+    elementType: 3
+    nationalType: 2
+    icon: {fileID: 1964790158, guid: 1973b7bd15b863444b9ae17fc8455f22, type: 3}
+    anim: {fileID: 22100000, guid: 260acb324b775b842bf5ea129f261f87, type: 2}
+    wishImage: {fileID: 21300000, guid: 619561950b5281c42ad365b4606ab97f, type: 3}
+    wishPannel: {fileID: 21300000, guid: edc9d9507774e6546b75415fb2bfd3b5, type: 3}
+    wishIcon: {fileID: 21300000, guid: a878d7f11d4ec6f44ab31eb3cfa86cd0, type: 3}
+    stat:
+      charNum: 29
+      isMine: 1
+      elementType: 3
+      constellation: 010101010101
+      toolTipKey: Xiao
+      constellaCount: 6
+      atk: 7.5
+      armor: 8
+      hp: 125
+      heal: 0
+      cooltime: 0
+      area: 1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 11
+      rankUpValue: 1
+      weaponName: 0
+    skillBasic: 2
+    skill: 81
+  - name: 30
+    type: 1
+    weaponType: 3
+    pickUpType: 1
+    elementType: 1
+    nationalType: 2
+    icon: {fileID: 2055828921, guid: e4627d258a42bbf4b8dcdf98d0bbcc3e, type: 3}
+    anim: {fileID: 22100000, guid: c1f0c43bd0698534e9fa7ab259aadef0, type: 2}
+    wishImage: {fileID: 21300000, guid: c10fa375dd87af5429662f329682b895, type: 3}
+    wishPannel: {fileID: 21300000, guid: bb982cfd43a55a240bd23afe8e285988, type: 3}
+    wishIcon: {fileID: 21300000, guid: 0f561d34b60d92f4ea46452bb87ef193, type: 3}
+    stat:
+      charNum: 30
+      isMine: 1
+      elementType: 1
+      constellation: 000000000000
+      toolTipKey: Hutao
+      constellaCount: 2
+      atk: 2
+      armor: 8.5
+      hp: 155
+      heal: 0
+      cooltime: 0
+      area: 1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 11
+      rankUpValue: 1
+      weaponName: 0
+    skillBasic: 83
+    skill: 84
+  - name: 31
+    type: 0
+    weaponType: 3
+    pickUpType: 0
+    elementType: 6
+    nationalType: 1
+    icon: {fileID: 972886089, guid: 28a73cacf4c9bc34db9b75e2723df419, type: 3}
+    anim: {fileID: 22100000, guid: 69d17cd2c0b5ef44e8973c9b7832f5e0, type: 2}
+    wishImage: {fileID: 21300000, guid: 98ede16461e33804896716b9a4047624, type: 3}
+    wishPannel: {fileID: 21300000, guid: 2ccaf6affd1cccf429218ce5369634b9, type: 3}
+    wishIcon: {fileID: 21300000, guid: 40cf23205699d2d44a5c5cbd2164e7ed, type: 3}
+    stat:
+      charNum: 31
+      isMine: 1
+      elementType: 6
+      constellation: 000000000000
+      toolTipKey: Rosaria
+      constellaCount: 6
+      atk: 5
+      armor: 7
+      hp: 120
+      heal: 0
+      cooltime: 0
+      area: 1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 0
+      rankUpValue: 10
+      weaponName: 0
+    skillBasic: 2
+    skill: 86
+  - name: 32
+    type: 0
+    weaponType: 4
+    pickUpType: 0
+    elementType: 1
+    nationalType: 2
+    icon: {fileID: 1566201909, guid: 8454c656d927b264998f5abf7b527fa0, type: 3}
+    anim: {fileID: 22100000, guid: debd1101241759c48ac9e438bfabad19, type: 2}
+    wishImage: {fileID: 21300000, guid: 20cadc8a5ae7c8c47ae790c7bc3d3025, type: 3}
+    wishPannel: {fileID: 21300000, guid: 2ccaf6affd1cccf429218ce5369634b9, type: 3}
+    wishIcon: {fileID: 21300000, guid: edaf80ae75987d94aa9cb8c46abff017, type: 3}
+    stat:
+      charNum: 32
+      isMine: 1
+      elementType: 1
+      constellation: 000000000000
+      toolTipKey: Yanfei
+      constellaCount: 6
+      atk: 5
+      armor: 5.5
+      hp: 90
+      heal: 0
+      cooltime: 0
+      area: 1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 20
+      rankUpValue: 6
+      weaponName: 0
+    skillBasic: 4
+    skill: 88
+  - name: 33
+    type: 1
+    weaponType: 2
+    pickUpType: 1
+    elementType: 6
+    nationalType: 1
+    icon: {fileID: 703521786, guid: 506b7dd32dff7ed4993df9f3399f5bef, type: 3}
+    anim: {fileID: 22100000, guid: a0dcfef37bf6acf42af72ae2696b2506, type: 2}
+    wishImage: {fileID: 21300000, guid: e73a0780a2d3a9b4c8fce7b1818ed91f, type: 3}
+    wishPannel: {fileID: 21300000, guid: 1e568cd789c3a5749bb8edd0a430be4c, type: 3}
+    wishIcon: {fileID: 21300000, guid: 46e9542ed0a43b043ad44b80db5ba9fa, type: 3}
+    stat:
+      charNum: 33
+      isMine: 1
+      elementType: 6
+      constellation: 000000000000
+      toolTipKey: Eula
+      constellaCount: 2
+      atk: 7.5
+      armor: 7.5
+      hp: 130
+      heal: 0
+      cooltime: 0
+      area: 1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 11
+      rankUpValue: 1
+      weaponName: 0
+    skillBasic: 90
+    skill: 91
+  - name: 34
+    type: 1
+    weaponType: 1
+    pickUpType: 1
+    elementType: 3
+    nationalType: 3
+    icon: {fileID: 1520159665, guid: ae80bef6b6e7fcc4db686741c61eae47, type: 3}
+    anim: {fileID: 22100000, guid: 43839779bd40de34bbc10cd5493859e5, type: 2}
+    wishImage: {fileID: 21300000, guid: f43457a6bdf47034cb2097df9f897d7c, type: 3}
+    wishPannel: {fileID: 21300000, guid: 5d3c3331fed820c4a9e83803771379ff, type: 3}
+    wishIcon: {fileID: 21300000, guid: fc573829dff9d6d429bb3abafd0b3b3a, type: 3}
+    stat:
+      charNum: 34
+      isMine: 1
+      elementType: 3
+      constellation: 000000000000
+      toolTipKey: Kazuha
+      constellaCount: 6
+      atk: 6.5
+      armor: 8
+      hp: 130
+      heal: 0
+      cooltime: 0
+      area: 1
+      aspeed: 1
+      duration: 1
+      amount: 0
+      speed: 3
+      magnet: 1
+      luck: 5
+      regen: 1
+      exp: 1
+      greed: 1
+      curse: 1
+      resurration: 0
+      reroll: 0
+      skip: 0
+      physicsDmg: 0
+      pyroDmg: 0
+      hydroDmg: 0
+      anemoDmg: 0
+      dendroDmg: 0
+      electroDmg: 0
+      cyroDmg: 0
+      geoDmg: 0
+      elementMastery: 0
+      ownSkill: 0
+      rankUpStat: 27
+      rankUpValue: 29
+      weaponName: 0
+    skillBasic: 0
+    skill: 93

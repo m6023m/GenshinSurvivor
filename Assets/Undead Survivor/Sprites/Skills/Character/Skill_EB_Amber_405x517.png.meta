@@ -1,0 +1,2780 @@
+fileFormatVersion: 2
+guid: 1d1690ac7e88e9f4a8deeed68d333e29
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 517
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4653
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c0d0b31ce5c914692f503a3a840c7d
+      internalID: -2143726613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_1
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 4653
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31833118b0a69c4b96d3da05e5d808d
+      internalID: -117319707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_2
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 4653
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7ebfda3b9a20446874ba279fe953f8
+      internalID: -100183803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_3
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 4653
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0e5828bfd54474f9dbaf25536ac2e2
+      internalID: -845301014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_4
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 4653
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0b17f542a2194409720a9f532af327
+      internalID: -1308836703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_5
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 4653
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0afb423c317a9784baf73f5700b9d5a8
+      internalID: -1495548788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_6
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 4653
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649558d549270284fae07ae7db946dd4
+      internalID: 1797692644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_7
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 4653
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedbb6f2ee4ae044abc77ec64034c361
+      internalID: -1051274732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_8
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 4653
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767d8b8280833d24aaff78d77869d5e4
+      internalID: 892381214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_9
+      rect:
+        serializedVersion: 2
+        x: 3645
+        y: 4653
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f40affab97b0840ad9da8d1077f326
+      internalID: -1552810486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_10
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 4653
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026afd2a407b99848a54c97fbf1f268b
+      internalID: 762289207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_11
+      rect:
+        serializedVersion: 2
+        x: 4455
+        y: 4653
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6131d9004a2d5d746bfa53824b55b60c
+      internalID: 932493888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4136
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e664e893aa7bff4294797a7be35fbcf
+      internalID: -1271072236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_13
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 4136
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1051e53764b974e4294a63bef579c324
+      internalID: -1327069082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_14
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 4136
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94f03292c5392a489b3daeca0e705ba
+      internalID: 1750521212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_15
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 4136
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e9d9c8c8498a441a77776dd5e0ab70
+      internalID: -977814280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_16
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 4136
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf5f2a6ed95b9840906a4c29d511cdc
+      internalID: 1536147291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_17
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 4136
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d988ca928520449b30ad6ef5001df8
+      internalID: -1403225745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_18
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 4136
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d205a0d50b66d4383a8996e3a4c8a4
+      internalID: 1778279758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_19
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 4136
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ce2953c6f57be419b09159c4d8c5c8
+      internalID: 1044170598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_20
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 4136
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f3b735b397aea4593a35d98b24e99f
+      internalID: -1096155012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_21
+      rect:
+        serializedVersion: 2
+        x: 3645
+        y: 4136
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b0fffeb60fd5d4f896c14f09730b8c
+      internalID: 1951163290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_22
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 4136
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa02493b11db3d044b2cd12c8d828c64
+      internalID: -157073505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_23
+      rect:
+        serializedVersion: 2
+        x: 4455
+        y: 4136
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd3964ebafaa8b47a278d04a377453b
+      internalID: -1701015440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3619
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e5da3faf1c81840b553eb2200c189f
+      internalID: -1485522594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_25
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 3619
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce10a0270704fce4eab48650e9735ba5
+      internalID: 1552688020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_26
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 3619
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923c086e5183a0148bbf0ec108ebcbad
+      internalID: -472506536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_27
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 3619
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75b5e697ded90c4190132940fc2f079
+      internalID: -800414325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_28
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 3619
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db849a54c8fc14a4b874cb4146c346bb
+      internalID: 1048920246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_29
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 3619
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2d268319c19cc4d9c82dc2b478c80b
+      internalID: -301097228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_30
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 3619
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740a3b9e0026f5c488ed1bef5cb3038b
+      internalID: 70843950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_31
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 3619
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eed217c21f54eb408cef957c1f4f384
+      internalID: -1210863669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_32
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 3619
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4233810b7c968834eab8de65deed116d
+      internalID: -6743704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_33
+      rect:
+        serializedVersion: 2
+        x: 3645
+        y: 3619
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67dba53b7eb3b2447aa8ec5e341de86f
+      internalID: -1526315335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_34
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 3619
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb44e48d18ee33e46b9ad39293546b72
+      internalID: 1412072362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_35
+      rect:
+        serializedVersion: 2
+        x: 4455
+        y: 3619
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f32bb9d37837404d8478417ea741a5b
+      internalID: -2090528308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3102
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8843ab252c8ce44a8a659f69a55c90f
+      internalID: -409445321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_37
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 3102
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4195f9ce61a4844a0ff2a6daafa4ed
+      internalID: 313592623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_38
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 3102
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b5d76e94026f247ad324090726bd51
+      internalID: 1464338631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_39
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 3102
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9f96e9d007db147ac6447d4d80ae0e
+      internalID: -1142262902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_40
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 3102
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a577492aac500eb44af22f0196cca0f3
+      internalID: 891103557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_41
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 3102
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ab132d998a5db4b82a6800605d73f7
+      internalID: 1703906880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_42
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 3102
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53bc6c8f67212d3418be8de3c4e45136
+      internalID: 62704286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_43
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 3102
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40dc52afd3d8a584f9b8c4611dc34ee7
+      internalID: -360842061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_44
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 3102
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17aea0aa0905b924da7d2679c5daf6b2
+      internalID: 1223310024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_45
+      rect:
+        serializedVersion: 2
+        x: 3645
+        y: 3102
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a8f6d9679b4e449b1fe6f1efe54cb3
+      internalID: -277004243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_46
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 3102
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545d9912d2acf544c9febe67b4bedd9f
+      internalID: -1844139413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_47
+      rect:
+        serializedVersion: 2
+        x: 4455
+        y: 3102
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd374192502e934db509fb5bc6684ef
+      internalID: 676641686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2585
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6740fd658aa394da305e74922e1bc8
+      internalID: 1368586480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_49
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 2585
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297b063305725a74d871b3c3c9125209
+      internalID: 1291026799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_50
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 2585
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f88bcd6872f5f4db52240bf7c31e66
+      internalID: 1178374241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_51
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 2585
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad05186b1bb668d47989bd0bdc0b8ff9
+      internalID: 1394139613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_52
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 2585
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd28f6102c327e349b2d77b610851588
+      internalID: 648794753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_53
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 2585
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9aeecf13c096fa4f99478b4fe245628
+      internalID: -1929977547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_54
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 2585
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d338d1e81be2f44a5b7ebde728b30c
+      internalID: 144073561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_55
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 2585
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c962eaac755fe47a05be78199517d8
+      internalID: -1615320867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_56
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 2585
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a980d06c71861f429cf87f9bf7f8a85
+      internalID: 1553746744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_57
+      rect:
+        serializedVersion: 2
+        x: 3645
+        y: 2585
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8b47382667c73488d5cc21c854df6d
+      internalID: -1586056258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_58
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 2585
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aeb0bc73944bf044ba650d6076c3d69
+      internalID: -686860551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_59
+      rect:
+        serializedVersion: 2
+        x: 4455
+        y: 2585
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3184293297cf76438f435b23904c627
+      internalID: 1873234898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2068
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af05d639a89d674298ab96a82aa80a7
+      internalID: 1020822812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_61
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 2068
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830fb941fbc420641ab332680fb64399
+      internalID: -772320862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_62
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 2068
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2e6a68087f9c948be1f184eab56b65
+      internalID: -430081741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_63
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 2068
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823d9ff96ad5dcd4d87ff2ee4c75005e
+      internalID: 1220956379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_64
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 2068
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0afb8cea80d8e50489efec2590bc4dce
+      internalID: -514407847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_65
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 2068
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce7b2d2c39ee0d4f837271df22753d4
+      internalID: 1644940756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_66
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 2068
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fb74cb16e919f4eabb73b916bc80bc
+      internalID: 1497786326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_67
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 2068
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eaa831cf5fa25b49abb2d48ef2ebca9
+      internalID: -769047325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_68
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 2068
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16d2e57966f8374e963053bbf72b3f7
+      internalID: -1952954200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_69
+      rect:
+        serializedVersion: 2
+        x: 3645
+        y: 2068
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11efa6e72d8741249a6c89249f1bb681
+      internalID: -2047210853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_70
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 2068
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f47471206021a04e89917e9d4a22966
+      internalID: 1489845055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_71
+      rect:
+        serializedVersion: 2
+        x: 4455
+        y: 2068
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8f3c5b037c0f84887c6246da4d2f30
+      internalID: 1579417942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1551
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973be648224df724cb7dae081ea18ae2
+      internalID: -1840114470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_73
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1551
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea399137b1dc1847b13bed42938b2e0
+      internalID: 865704209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_74
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1551
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df3eba03b7d8394a82f540a04064e6b
+      internalID: -1982947446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_75
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1551
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7348a82a708744aa82272615a72637
+      internalID: -1468503739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_76
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1551
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc4e8582bb4b1f46a3becee64dfd2dc
+      internalID: -606359492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_77
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 1551
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6911848aee22f444ae9546162541435
+      internalID: 530422766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_78
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 1551
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521cb9b4b23d4734c855c1aac1f34fb0
+      internalID: 500476394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_79
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 1551
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd514cff834d4747acbcf121bf1f712
+      internalID: -1438218726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_80
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1551
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca713fec42f9f9478aa740eeddc9cc9
+      internalID: -1363298781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_81
+      rect:
+        serializedVersion: 2
+        x: 3645
+        y: 1551
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be74ca723be02a145aa3659ba2045d5d
+      internalID: 875840607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_82
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 1551
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616707637c855f440a8a424e0846a912
+      internalID: 1680645601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_83
+      rect:
+        serializedVersion: 2
+        x: 4455
+        y: 1551
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c5799140fae2645bb5dc448c7e61c1
+      internalID: -401339709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1034
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6313dbb6e1ce5947ad66ca56a835226
+      internalID: 827017687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_85
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1034
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92596259439347d48be89be87683ccfd
+      internalID: -2123081482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_86
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1034
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d25299fc0494144ba0041e6e289b0cf
+      internalID: 693674600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_87
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1034
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37df77165c25e174ba8ce2b651fb2928
+      internalID: 378974552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_88
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1034
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0de9c9ad33597a40bb71d7fe7349cc0
+      internalID: -1997406841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_89
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 1034
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f096c3764d6c43547a11974ebc1c069f
+      internalID: -61467689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_90
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 1034
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9069ff1fb65710e4e96325e630b1ca65
+      internalID: 1163268027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_91
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 1034
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8362ac4039304fa47ace7eab3fa3de1b
+      internalID: 1176753211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_92
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1034
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405c78797c69ed64787da31ab829b199
+      internalID: 250414235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_93
+      rect:
+        serializedVersion: 2
+        x: 3645
+        y: 1034
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f270173f18a5d7643a5f0c7f5965a2b6
+      internalID: 53176720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_94
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 1034
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df8ea7ab0d39d4419fe25a794c857bf
+      internalID: -784386497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_95
+      rect:
+        serializedVersion: 2
+        x: 4455
+        y: 1034
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34ad21c663922b4384ce5b66b44660d
+      internalID: 1937485368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 517
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ede81df8f7e814aae188ecc04cc87f
+      internalID: 303851588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_97
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 517
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31eaadc8dca3384cbef30fc4d2a332a
+      internalID: 410520786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_98
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 517
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7551944d921fddb4fa16f0fcad42eb8c
+      internalID: -1948282709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_99
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 517
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31998071e770ac149be3e76249d71d0d
+      internalID: -1599227832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_100
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 517
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1afba1c2b97333345a269f46f08fe7e1
+      internalID: -1235893808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_101
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 517
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bff6a7fc91a81148a8f6d768d9314f9
+      internalID: -986481345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_102
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 517
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680a65bdfa5e91345a8cf0d4bf364012
+      internalID: 892052947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_103
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 517
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae693037e0390a469501f7f1f0a2d42
+      internalID: 1264881073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_104
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 517
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2190e34f9f09a4abb1c678ef31e243
+      internalID: -774317717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_105
+      rect:
+        serializedVersion: 2
+        x: 3645
+        y: 517
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac472bc2a36c5040b3904d89b0d40d4
+      internalID: -486156064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_106
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 517
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2377fb9ce709d4cafd3c029f9714e4
+      internalID: 616072967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_107
+      rect:
+        serializedVersion: 2
+        x: 4455
+        y: 517
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee11e86d099e7dc4fa74f1dc64576f48
+      internalID: -1024538069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c168ff7131f09e8499ce026b14ac050c
+      internalID: -353914845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_109
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 0
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35a6b5abe3e555479dde2de0d85204c
+      internalID: -721372052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_110
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 0
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729b751bb3bd9bd4e943b64ef0f1f199
+      internalID: 1442552393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_111
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 0
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aed9abb9a41fd64d8771da3ac33ba95
+      internalID: 2054409799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_112
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 0
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c4b7243ef3e794b9bab0f8870e4673
+      internalID: 1994148810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_113
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 0
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9014ad1190f74cb4c8e570b62f22ceb4
+      internalID: -1491539278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_114
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 0
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f75c9964636884d808d939a421abe9
+      internalID: 1893453394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_115
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 0
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6f3d459b520f54da1af617706af357
+      internalID: 1632345546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_116
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 0
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949b401d95f9f0148af48d2709907ab8
+      internalID: 1015920212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_117
+      rect:
+        serializedVersion: 2
+        x: 3645
+        y: 0
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e2479c53281964d9aea936a7aa8fa7
+      internalID: 909912476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_118
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 0
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc8c6ec899739844992e1724e5686f6
+      internalID: 623044117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Amber_405x517_119
+      rect:
+        serializedVersion: 2
+        x: 4455
+        y: 0
+        width: 405
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d4d5c44218dea47811cbb8f54e389a
+      internalID: -449920200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Skill_EB_Amber_405x517_0: -2143726613
+      Skill_EB_Amber_405x517_1: -117319707
+      Skill_EB_Amber_405x517_10: 762289207
+      Skill_EB_Amber_405x517_100: -1235893808
+      Skill_EB_Amber_405x517_101: -986481345
+      Skill_EB_Amber_405x517_102: 892052947
+      Skill_EB_Amber_405x517_103: 1264881073
+      Skill_EB_Amber_405x517_104: -774317717
+      Skill_EB_Amber_405x517_105: -486156064
+      Skill_EB_Amber_405x517_106: 616072967
+      Skill_EB_Amber_405x517_107: -1024538069
+      Skill_EB_Amber_405x517_108: -353914845
+      Skill_EB_Amber_405x517_109: -721372052
+      Skill_EB_Amber_405x517_11: 932493888
+      Skill_EB_Amber_405x517_110: 1442552393
+      Skill_EB_Amber_405x517_111: 2054409799
+      Skill_EB_Amber_405x517_112: 1994148810
+      Skill_EB_Amber_405x517_113: -1491539278
+      Skill_EB_Amber_405x517_114: 1893453394
+      Skill_EB_Amber_405x517_115: 1632345546
+      Skill_EB_Amber_405x517_116: 1015920212
+      Skill_EB_Amber_405x517_117: 909912476
+      Skill_EB_Amber_405x517_118: 623044117
+      Skill_EB_Amber_405x517_119: -449920200
+      Skill_EB_Amber_405x517_12: -1271072236
+      Skill_EB_Amber_405x517_13: -1327069082
+      Skill_EB_Amber_405x517_14: 1750521212
+      Skill_EB_Amber_405x517_15: -977814280
+      Skill_EB_Amber_405x517_16: 1536147291
+      Skill_EB_Amber_405x517_17: -1403225745
+      Skill_EB_Amber_405x517_18: 1778279758
+      Skill_EB_Amber_405x517_19: 1044170598
+      Skill_EB_Amber_405x517_2: -100183803
+      Skill_EB_Amber_405x517_20: -1096155012
+      Skill_EB_Amber_405x517_21: 1951163290
+      Skill_EB_Amber_405x517_22: -157073505
+      Skill_EB_Amber_405x517_23: -1701015440
+      Skill_EB_Amber_405x517_24: -1485522594
+      Skill_EB_Amber_405x517_25: 1552688020
+      Skill_EB_Amber_405x517_26: -472506536
+      Skill_EB_Amber_405x517_27: -800414325
+      Skill_EB_Amber_405x517_28: 1048920246
+      Skill_EB_Amber_405x517_29: -301097228
+      Skill_EB_Amber_405x517_3: -845301014
+      Skill_EB_Amber_405x517_30: 70843950
+      Skill_EB_Amber_405x517_31: -1210863669
+      Skill_EB_Amber_405x517_32: -6743704
+      Skill_EB_Amber_405x517_33: -1526315335
+      Skill_EB_Amber_405x517_34: 1412072362
+      Skill_EB_Amber_405x517_35: -2090528308
+      Skill_EB_Amber_405x517_36: -409445321
+      Skill_EB_Amber_405x517_37: 313592623
+      Skill_EB_Amber_405x517_38: 1464338631
+      Skill_EB_Amber_405x517_39: -1142262902
+      Skill_EB_Amber_405x517_4: -1308836703
+      Skill_EB_Amber_405x517_40: 891103557
+      Skill_EB_Amber_405x517_41: 1703906880
+      Skill_EB_Amber_405x517_42: 62704286
+      Skill_EB_Amber_405x517_43: -360842061
+      Skill_EB_Amber_405x517_44: 1223310024
+      Skill_EB_Amber_405x517_45: -277004243
+      Skill_EB_Amber_405x517_46: -1844139413
+      Skill_EB_Amber_405x517_47: 676641686
+      Skill_EB_Amber_405x517_48: 1368586480
+      Skill_EB_Amber_405x517_49: 1291026799
+      Skill_EB_Amber_405x517_5: -1495548788
+      Skill_EB_Amber_405x517_50: 1178374241
+      Skill_EB_Amber_405x517_51: 1394139613
+      Skill_EB_Amber_405x517_52: 648794753
+      Skill_EB_Amber_405x517_53: -1929977547
+      Skill_EB_Amber_405x517_54: 144073561
+      Skill_EB_Amber_405x517_55: -1615320867
+      Skill_EB_Amber_405x517_56: 1553746744
+      Skill_EB_Amber_405x517_57: -1586056258
+      Skill_EB_Amber_405x517_58: -686860551
+      Skill_EB_Amber_405x517_59: 1873234898
+      Skill_EB_Amber_405x517_6: 1797692644
+      Skill_EB_Amber_405x517_60: 1020822812
+      Skill_EB_Amber_405x517_61: -772320862
+      Skill_EB_Amber_405x517_62: -430081741
+      Skill_EB_Amber_405x517_63: 1220956379
+      Skill_EB_Amber_405x517_64: -514407847
+      Skill_EB_Amber_405x517_65: 1644940756
+      Skill_EB_Amber_405x517_66: 1497786326
+      Skill_EB_Amber_405x517_67: -769047325
+      Skill_EB_Amber_405x517_68: -1952954200
+      Skill_EB_Amber_405x517_69: -2047210853
+      Skill_EB_Amber_405x517_7: -1051274732
+      Skill_EB_Amber_405x517_70: 1489845055
+      Skill_EB_Amber_405x517_71: 1579417942
+      Skill_EB_Amber_405x517_72: -1840114470
+      Skill_EB_Amber_405x517_73: 865704209
+      Skill_EB_Amber_405x517_74: -1982947446
+      Skill_EB_Amber_405x517_75: -1468503739
+      Skill_EB_Amber_405x517_76: -606359492
+      Skill_EB_Amber_405x517_77: 530422766
+      Skill_EB_Amber_405x517_78: 500476394
+      Skill_EB_Amber_405x517_79: -1438218726
+      Skill_EB_Amber_405x517_8: 892381214
+      Skill_EB_Amber_405x517_80: -1363298781
+      Skill_EB_Amber_405x517_81: 875840607
+      Skill_EB_Amber_405x517_82: 1680645601
+      Skill_EB_Amber_405x517_83: -401339709
+      Skill_EB_Amber_405x517_84: 827017687
+      Skill_EB_Amber_405x517_85: -2123081482
+      Skill_EB_Amber_405x517_86: 693674600
+      Skill_EB_Amber_405x517_87: 378974552
+      Skill_EB_Amber_405x517_88: -1997406841
+      Skill_EB_Amber_405x517_89: -61467689
+      Skill_EB_Amber_405x517_9: -1552810486
+      Skill_EB_Amber_405x517_90: 1163268027
+      Skill_EB_Amber_405x517_91: 1176753211
+      Skill_EB_Amber_405x517_92: 250414235
+      Skill_EB_Amber_405x517_93: 53176720
+      Skill_EB_Amber_405x517_94: -784386497
+      Skill_EB_Amber_405x517_95: 1937485368
+      Skill_EB_Amber_405x517_96: 303851588
+      Skill_EB_Amber_405x517_97: 410520786
+      Skill_EB_Amber_405x517_98: -1948282709
+      Skill_EB_Amber_405x517_99: -1599227832
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

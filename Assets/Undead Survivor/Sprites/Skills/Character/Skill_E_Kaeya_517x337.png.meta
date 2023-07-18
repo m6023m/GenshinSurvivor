@@ -1,0 +1,1460 @@
+fileFormatVersion: 2
+guid: 03cdbd4ee6f5594418e86aeadc842dc2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 517
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2022
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d0ee78b10d5fc419c249054b0a6e99
+      internalID: -2000806635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_1
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 2022
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aca3c58219256f46b4a13f6d7efe37c
+      internalID: -1150913722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_2
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 2022
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47edf4639a82cd349b8fab68f65e4386
+      internalID: 817716223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_3
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 2022
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4832d707ee9b149980e2b9cd08f3bf
+      internalID: 42506949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_4
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 2022
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ab7d8d1b9a3b440bbdbcde49f174db
+      internalID: 47202784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_5
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 2022
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366e6533def4ade429e34da3169e2c09
+      internalID: 1415452497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_6
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 2022
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f365ef9c2531a9f4a94c6044b3aa2315
+      internalID: 1835683504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_7
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 2022
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da454bbfcd38d114689cf351fa5e18ba
+      internalID: -15814524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_8
+      rect:
+        serializedVersion: 2
+        x: 4136
+        y: 2022
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda2eaefd9d6f724487cff82f0e10312
+      internalID: 988632874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1685
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4c2377fba85f34c8143d6459d655b4
+      internalID: 858526871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_10
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1685
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1baf5c1d89c5f43b64b518a61d1139
+      internalID: -149008133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_11
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1685
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59e7bb2e739620439fb7fbd55e4010c
+      internalID: 1815160182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_12
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 1685
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed403362d49a824bb8296076b2f6078
+      internalID: 429118328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_13
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 1685
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f179deca9946884f9af73df49858c15
+      internalID: -844065743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_14
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 1685
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4086399ccf875db46b5dc1ee9509b3e8
+      internalID: 1926935135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_15
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 1685
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abad70ae073f759469cfb4aa0b08c412
+      internalID: -886696532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_16
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 1685
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218d40e7858748f46988c6e6186c1e53
+      internalID: -1794161043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_17
+      rect:
+        serializedVersion: 2
+        x: 4136
+        y: 1685
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03cd128014e37aa4ebc68bb7e0026b5e
+      internalID: -74917143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1348
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4afc2eca57738a4191f73a3da887ff5
+      internalID: -782186652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_19
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1348
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae69151beeb31442810dad26eca6dcf
+      internalID: -1192583194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_20
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1348
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19871a9643ecb74469409071f65f4968
+      internalID: -104103928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_21
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 1348
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa78dfb19589054d9afe181c1df121b
+      internalID: -450543252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_22
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 1348
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406bb72164eeab247b56a11b8e5137d4
+      internalID: 1913919793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_23
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 1348
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5896ac00adc7c94c9667fbfa8050d1b
+      internalID: -515042412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_24
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 1348
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f46254c70b949b4e87f36afe8a24fa6
+      internalID: -1330325462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_25
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 1348
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7748a5e4c97f84c975d19e5358bef0
+      internalID: 393033798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_26
+      rect:
+        serializedVersion: 2
+        x: 4136
+        y: 1348
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27bee881932124b4a9e828f013acb604
+      internalID: 1117950040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1011
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90080e5bfa6bfc44ae4bbe6bf3a5b94
+      internalID: 2112648967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_28
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1011
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7528aa2f6e7bd4a8f35c509ecba066
+      internalID: -232653058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_29
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1011
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b6f37742c88d34484bf72fd66fa637
+      internalID: 433771202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_30
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 1011
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a76239505c5a146be456da64c1ea53
+      internalID: -1236742484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_31
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 1011
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e484d9966561b4d803fdfaab047c94
+      internalID: 2139969079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_32
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 1011
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7415a1c0b75894e45aa350af6d2e34fc
+      internalID: 1946909143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_33
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 1011
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba067d1919ca0b4a899b06abf1bce15
+      internalID: 8759545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_34
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 1011
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3e257d49d262e4881296ff04402cfd
+      internalID: -482812062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_35
+      rect:
+        serializedVersion: 2
+        x: 4136
+        y: 1011
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84130ff47f9bf0b4ba8b7d80431de85e
+      internalID: -419365460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 674
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd9591822c270b45b33b5dbd99e749a
+      internalID: 1539830601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_37
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 674
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f498ea069172604f8eb58bb7f8408ad
+      internalID: -1816758126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_38
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 674
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be069cb7beb55ca429853e8f814bea2a
+      internalID: -360666634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_39
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 674
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84fb775a2e5e314a887acec038fcf7e
+      internalID: 336837497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_40
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 674
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74d5f9249dae7249a8813ee43eed514
+      internalID: -1101263953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_41
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 674
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655f348e4e53a6340b053dcc1dd0359c
+      internalID: 375527947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_42
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 674
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627e8853472beb741a31674f701a20a5
+      internalID: -949738160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_43
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 674
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2bebee17bcd2604889ca57d95afb7bb
+      internalID: 2140975439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_44
+      rect:
+        serializedVersion: 2
+        x: 4136
+        y: 674
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52e41729de6f86429242c742bcf255d
+      internalID: -1605992693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 337
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ef53d698b139945af3550546ce8025
+      internalID: -1567663472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_46
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 337
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e592f2775e6ec43408bbadf6893ee88f
+      internalID: 1285062147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_47
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 337
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ffbd88e52fcc0b4e9532145bcc91270
+      internalID: 585865049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_48
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 337
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276ed4437afbba24483eec12b1efa030
+      internalID: -1507019342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_49
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 337
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad68d969d99964843b5107ada6dd5d4e
+      internalID: 1271449050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_50
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 337
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb26a15037b49d4cb44a153c959c385
+      internalID: -1017782179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_51
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 337
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be66eea53d41644381e36f6c630a54e
+      internalID: -2060002265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_52
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 337
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191242093d5fff14ca8924af5bff232d
+      internalID: -382359833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_53
+      rect:
+        serializedVersion: 2
+        x: 4136
+        y: 337
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23cba4f1e0c94d4c9595f4dfe5e6291
+      internalID: 1865515809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966ed519890ae7c418ca2fddedbe843a
+      internalID: -1454858986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_55
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 0
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b01e265da50f474fa5cd62e1535589e
+      internalID: -1040520478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_56
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 0
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8fb2d32cde7494eac0675ce2bf6383
+      internalID: 494249767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_57
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 0
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8791b667af3dc34dbad7f6b48e6109c
+      internalID: 993799989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_58
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 0
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11a2e658b961004c86031e6a455f5f8
+      internalID: 90177165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Kaeya_517x337_59
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 0
+        width: 517
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d7b76f31e183e4e81721ddc4b37622
+      internalID: -762038745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Skill_E_Kaeya_517x337_0: -2000806635
+      Skill_E_Kaeya_517x337_1: -1150913722
+      Skill_E_Kaeya_517x337_10: -149008133
+      Skill_E_Kaeya_517x337_11: 1815160182
+      Skill_E_Kaeya_517x337_12: 429118328
+      Skill_E_Kaeya_517x337_13: -844065743
+      Skill_E_Kaeya_517x337_14: 1926935135
+      Skill_E_Kaeya_517x337_15: -886696532
+      Skill_E_Kaeya_517x337_16: -1794161043
+      Skill_E_Kaeya_517x337_17: -74917143
+      Skill_E_Kaeya_517x337_18: -782186652
+      Skill_E_Kaeya_517x337_19: -1192583194
+      Skill_E_Kaeya_517x337_2: 817716223
+      Skill_E_Kaeya_517x337_20: -104103928
+      Skill_E_Kaeya_517x337_21: -450543252
+      Skill_E_Kaeya_517x337_22: 1913919793
+      Skill_E_Kaeya_517x337_23: -515042412
+      Skill_E_Kaeya_517x337_24: -1330325462
+      Skill_E_Kaeya_517x337_25: 393033798
+      Skill_E_Kaeya_517x337_26: 1117950040
+      Skill_E_Kaeya_517x337_27: 2112648967
+      Skill_E_Kaeya_517x337_28: -232653058
+      Skill_E_Kaeya_517x337_29: 433771202
+      Skill_E_Kaeya_517x337_3: 42506949
+      Skill_E_Kaeya_517x337_30: -1236742484
+      Skill_E_Kaeya_517x337_31: 2139969079
+      Skill_E_Kaeya_517x337_32: 1946909143
+      Skill_E_Kaeya_517x337_33: 8759545
+      Skill_E_Kaeya_517x337_34: -482812062
+      Skill_E_Kaeya_517x337_35: -419365460
+      Skill_E_Kaeya_517x337_36: 1539830601
+      Skill_E_Kaeya_517x337_37: -1816758126
+      Skill_E_Kaeya_517x337_38: -360666634
+      Skill_E_Kaeya_517x337_39: 336837497
+      Skill_E_Kaeya_517x337_4: 47202784
+      Skill_E_Kaeya_517x337_40: -1101263953
+      Skill_E_Kaeya_517x337_41: 375527947
+      Skill_E_Kaeya_517x337_42: -949738160
+      Skill_E_Kaeya_517x337_43: 2140975439
+      Skill_E_Kaeya_517x337_44: -1605992693
+      Skill_E_Kaeya_517x337_45: -1567663472
+      Skill_E_Kaeya_517x337_46: 1285062147
+      Skill_E_Kaeya_517x337_47: 585865049
+      Skill_E_Kaeya_517x337_48: -1507019342
+      Skill_E_Kaeya_517x337_49: 1271449050
+      Skill_E_Kaeya_517x337_5: 1415452497
+      Skill_E_Kaeya_517x337_50: -1017782179
+      Skill_E_Kaeya_517x337_51: -2060002265
+      Skill_E_Kaeya_517x337_52: -382359833
+      Skill_E_Kaeya_517x337_53: 1865515809
+      Skill_E_Kaeya_517x337_54: -1454858986
+      Skill_E_Kaeya_517x337_55: -1040520478
+      Skill_E_Kaeya_517x337_56: 494249767
+      Skill_E_Kaeya_517x337_57: 993799989
+      Skill_E_Kaeya_517x337_58: 90177165
+      Skill_E_Kaeya_517x337_59: -762038745
+      Skill_E_Kaeya_517x337_6: 1835683504
+      Skill_E_Kaeya_517x337_7: -15814524
+      Skill_E_Kaeya_517x337_8: 988632874
+      Skill_E_Kaeya_517x337_9: 858526871
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

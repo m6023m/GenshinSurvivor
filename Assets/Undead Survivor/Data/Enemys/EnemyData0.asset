@@ -1,0 +1,508 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b1c2d34ab96c04892494061c7d8e67, type: 3}
+  m_Name: EnemyData0
+  m_EditorClassIdentifier: 
+  enemtStats:
+  - name: 0
+    anim: {fileID: 9100000, guid: f2855d618fc8d9c499189d3f39b9cbbc, type: 2}
+    pattern: 0
+    enemyAttackData:
+      patternType: -1
+      targetDirection: {x: 0, y: 0, z: 0}
+      patternSize: 1
+      damage: 0
+      speed: 0
+      patternDelay: 0
+      duration: 0
+      isDamage: 0
+    patternCoolTime: 0
+    patternRange: 0
+    elementType: 2
+    health: 5
+    damage: 5
+    armor: 0
+    speed: 1
+    size: 0.8
+    exp: 2
+    PhysicsRes: 0
+    PyroRes: 0
+    HydroRes: 1
+    AnemoRes: 0
+    DendroRes: 0
+    ElectroRes: 0
+    CyroRes: 0
+    GeoRes: 0
+  - name: 1
+    anim: {fileID: 22100000, guid: 050556270436d4f4288557291a1a99c0, type: 2}
+    pattern: 0
+    enemyAttackData:
+      patternType: -1
+      targetDirection: {x: 0, y: 0, z: 0}
+      patternSize: 1
+      damage: 0
+      speed: 0
+      patternDelay: 0
+      duration: 0
+      isDamage: 0
+    patternCoolTime: 0
+    patternRange: 0
+    elementType: 1
+    health: 5
+    damage: 5
+    armor: 0
+    speed: 1
+    size: 0.8
+    exp: 2
+    PhysicsRes: 0
+    PyroRes: 1
+    HydroRes: 0
+    AnemoRes: 0
+    DendroRes: 0
+    ElectroRes: 0
+    CyroRes: 0
+    GeoRes: 0
+  - name: 2
+    anim: {fileID: 22100000, guid: 3a70ba128facd5341815ebaf85606886, type: 2}
+    pattern: 0
+    enemyAttackData:
+      patternType: -1
+      targetDirection: {x: 0, y: 0, z: 0}
+      patternSize: 1
+      damage: 0
+      speed: 0
+      patternDelay: 0
+      duration: 0
+      isDamage: 0
+    patternCoolTime: 0
+    patternRange: 0
+    elementType: 5
+    health: 5
+    damage: 5
+    armor: 0
+    speed: 1
+    size: 0.8
+    exp: 2
+    PhysicsRes: 0
+    PyroRes: 0
+    HydroRes: 0
+    AnemoRes: 0
+    DendroRes: 0
+    ElectroRes: 1
+    CyroRes: 0
+    GeoRes: 0
+  - name: 3
+    anim: {fileID: 22100000, guid: 288a1c24ea05ccf4ea0646367578142c, type: 2}
+    pattern: 0
+    enemyAttackData:
+      patternType: -1
+      targetDirection: {x: 0, y: 0, z: 0}
+      patternSize: 1
+      damage: 0
+      speed: 0
+      patternDelay: 0
+      duration: 0
+      isDamage: 0
+    patternCoolTime: 0
+    patternRange: 0
+    elementType: 5
+    health: 5
+    damage: 5
+    armor: 0
+    speed: 1
+    size: 0.8
+    exp: 2
+    PhysicsRes: 0
+    PyroRes: 0
+    HydroRes: 0
+    AnemoRes: 0
+    DendroRes: 0
+    ElectroRes: 1
+    CyroRes: 0
+    GeoRes: 0
+  - name: 4
+    anim: {fileID: 22100000, guid: d76c0bf705f2b814d89e5622b92107ba, type: 2}
+    pattern: 0
+    enemyAttackData:
+      patternType: -1
+      targetDirection: {x: 0, y: 0, z: 0}
+      patternSize: 1
+      damage: 0
+      speed: 0
+      patternDelay: 0
+      duration: 0
+      isDamage: 0
+    patternCoolTime: 0
+    patternRange: 0
+    elementType: 6
+    health: 5
+    damage: 5
+    armor: 0
+    speed: 1
+    size: 0.8
+    exp: 2
+    PhysicsRes: 0
+    PyroRes: 0
+    HydroRes: 0
+    AnemoRes: 0
+    DendroRes: 0
+    ElectroRes: 0
+    CyroRes: 1
+    GeoRes: 0
+  - name: 5
+    anim: {fileID: 22100000, guid: 496e7845f5defae4d9691f81b4506753, type: 2}
+    pattern: 0
+    enemyAttackData:
+      patternType: -1
+      targetDirection: {x: 0, y: 0, z: 0}
+      patternSize: 1
+      damage: 0
+      speed: 0
+      patternDelay: 0
+      duration: 0
+      isDamage: 0
+    patternCoolTime: 0
+    patternRange: 0
+    elementType: 7
+    health: 5
+    damage: 5
+    armor: 0
+    speed: 1
+    size: 0.8
+    exp: 2
+    PhysicsRes: 0
+    PyroRes: 0
+    HydroRes: 0
+    AnemoRes: 0
+    DendroRes: 0
+    ElectroRes: 0
+    CyroRes: 0
+    GeoRes: 1
+  - name: 6
+    anim: {fileID: 22100000, guid: 2e94c7b6ad3617f4ca70ae21b3dc7328, type: 2}
+    pattern: 0
+    enemyAttackData:
+      patternType: -1
+      targetDirection: {x: 0, y: 0, z: 0}
+      patternSize: 1
+      damage: 0
+      speed: 0
+      patternDelay: 0
+      duration: 0
+      isDamage: 0
+    patternCoolTime: 0
+    patternRange: 0
+    elementType: 0
+    health: 5
+    damage: 5
+    armor: 0
+    speed: 1
+    size: 0.8
+    exp: 2
+    PhysicsRes: 0
+    PyroRes: 0
+    HydroRes: 0
+    AnemoRes: 1
+    DendroRes: 0
+    ElectroRes: 0
+    CyroRes: 0
+    GeoRes: 0
+  - name: 7
+    anim: {fileID: 22100000, guid: f72e22dc0a536b8458d5a1f264fc6dce, type: 2}
+    pattern: 0
+    enemyAttackData:
+      patternType: -1
+      targetDirection: {x: 0, y: 0, z: 0}
+      patternSize: 1
+      damage: 0
+      speed: 0
+      patternDelay: 0
+      duration: 0
+      isDamage: 0
+    patternCoolTime: 0
+    patternRange: 0
+    elementType: 4
+    health: 5
+    damage: 5
+    armor: 0
+    speed: 1
+    size: 0.8
+    exp: 2
+    PhysicsRes: 0
+    PyroRes: 0
+    HydroRes: 0
+    AnemoRes: 0
+    DendroRes: 1
+    ElectroRes: 0
+    CyroRes: 0
+    GeoRes: 0
+  - name: 8
+    anim: {fileID: 22100000, guid: 2892552cddde4e041ab568d4c203e6b6, type: 2}
+    pattern: 0
+    enemyAttackData:
+      patternType: -1
+      targetDirection: {x: 0, y: 0, z: 0}
+      patternSize: 1
+      damage: 0
+      speed: 0
+      patternDelay: 0
+      duration: 0
+      isDamage: 0
+    patternCoolTime: 0
+    patternRange: 0
+    elementType: 0
+    health: 15
+    damage: 7
+    armor: 2
+    speed: 1.5
+    size: 1
+    exp: 5
+    PhysicsRes: 0.1
+    PyroRes: 0.1
+    HydroRes: 0.1
+    AnemoRes: 0.1
+    DendroRes: 0.1
+    ElectroRes: 0.1
+    CyroRes: 0.1
+    GeoRes: 0.1
+  - name: 9
+    anim: {fileID: 22100000, guid: 5ea8e4f0c3c3ca946aa7fd068acbbecd, type: 2}
+    pattern: 0
+    enemyAttackData:
+      patternType: -1
+      targetDirection: {x: 0, y: 0, z: 0}
+      patternSize: 1
+      damage: 0
+      speed: 0
+      patternDelay: 0
+      duration: 0
+      isDamage: 0
+    patternCoolTime: 0
+    patternRange: 0
+    elementType: 0
+    health: 15
+    damage: 7
+    armor: 2
+    speed: 1.5
+    size: 1
+    exp: 5
+    PhysicsRes: 0.1
+    PyroRes: 0.1
+    HydroRes: 0.1
+    AnemoRes: 0.1
+    DendroRes: 0.1
+    ElectroRes: 0.1
+    CyroRes: 0.1
+    GeoRes: 0.1
+  - name: 10
+    anim: {fileID: 22100000, guid: 23131c2525a05b149bd86874fe507e42, type: 2}
+    pattern: 1
+    enemyAttackData:
+      patternType: -1
+      targetDirection: {x: 0, y: 0, z: 0}
+      patternSize: 1
+      damage: 0
+      speed: 0
+      patternDelay: 0
+      duration: 0
+      isDamage: 0
+    patternCoolTime: 5
+    patternRange: 5
+    elementType: 0
+    health: 15
+    damage: 7
+    armor: 2
+    speed: 1.5
+    size: 1
+    exp: 10
+    PhysicsRes: 0.1
+    PyroRes: 0.1
+    HydroRes: 0.1
+    AnemoRes: 0.1
+    DendroRes: 0.1
+    ElectroRes: 0.1
+    CyroRes: 0.1
+    GeoRes: 0.1
+  - name: 11
+    anim: {fileID: 22100000, guid: 191ae4da236e4b744a8ef3963dbfb17c, type: 2}
+    pattern: 1
+    enemyAttackData:
+      patternType: -1
+      targetDirection: {x: 0, y: 0, z: 0}
+      patternSize: 1
+      damage: 0
+      speed: 0
+      patternDelay: 0
+      duration: 0
+      isDamage: 0
+    patternCoolTime: 5
+    patternRange: 8
+    elementType: 0
+    health: 100
+    damage: 10
+    armor: 5
+    speed: 1.5
+    size: 1.5
+    exp: 20
+    PhysicsRes: 0.3
+    PyroRes: 0.1
+    HydroRes: 0.1
+    AnemoRes: 0.1
+    DendroRes: 0.1
+    ElectroRes: 0.1
+    CyroRes: 0.1
+    GeoRes: 0.1
+  - name: 12
+    anim: {fileID: 22100000, guid: ad8c80f31f654db41b903c169c534822, type: 2}
+    pattern: 1
+    enemyAttackData:
+      patternType: -1
+      targetDirection: {x: 0, y: 0, z: 0}
+      patternSize: 1
+      damage: 0
+      speed: 0
+      patternDelay: 0
+      duration: 0
+      isDamage: 0
+    patternCoolTime: 5
+    patternRange: 8
+    elementType: 0
+    health: 100
+    damage: 10
+    armor: 7
+    speed: 1.5
+    size: 1.5
+    exp: 20
+    PhysicsRes: 0.3
+    PyroRes: 0.1
+    HydroRes: 0.1
+    AnemoRes: 0.1
+    DendroRes: 0.1
+    ElectroRes: 0.1
+    CyroRes: 0.1
+    GeoRes: 0.1
+  - name: 13
+    anim: {fileID: 22100000, guid: 95e36415fd709bb47b44386ac5a0517a, type: 2}
+    pattern: 2
+    enemyAttackData:
+      patternType: 1
+      targetDirection: {x: 0, y: 0, z: 0}
+      patternSize: 1
+      damage: 8
+      speed: 10
+      patternDelay: 2
+      duration: 0
+      isDamage: 1
+    patternCoolTime: 5
+    patternRange: 10
+    elementType: 0
+    health: 12
+    damage: 8
+    armor: 0
+    speed: 1
+    size: 1
+    exp: 5
+    PhysicsRes: 0.1
+    PyroRes: 0.1
+    HydroRes: 0.1
+    AnemoRes: 0.1
+    DendroRes: 0.1
+    ElectroRes: 0.1
+    CyroRes: 0.1
+    GeoRes: 0.1
+  - name: 14
+    anim: {fileID: 22100000, guid: 54765754f6a17b0458e9b2f66e11015a, type: 2}
+    pattern: 3
+    enemyAttackData:
+      patternType: 4
+      targetDirection: {x: 0, y: 0, z: 0}
+      patternSize: 1
+      damage: 10
+      speed: 0
+      patternDelay: 2
+      duration: 0
+      isDamage: 0
+    patternCoolTime: 10
+    patternRange: 10
+    elementType: 0
+    health: 50
+    damage: 10
+    armor: 2
+    speed: 1.5
+    size: 1.2
+    exp: 20
+    PhysicsRes: 0.35
+    PyroRes: 0.7
+    HydroRes: 0.35
+    AnemoRes: 0.35
+    DendroRes: 0.35
+    ElectroRes: 0.35
+    CyroRes: 0.35
+    GeoRes: 0.35
+  - name: 15
+    anim: {fileID: 22100000, guid: 14b99b8b7ff4c1f4b9727c6aa49bdaae, type: 2}
+    pattern: 3
+    enemyAttackData:
+      patternType: 4
+      targetDirection: {x: 0, y: 0, z: 0}
+      patternSize: 1
+      damage: 0
+      speed: 0
+      patternDelay: 2
+      duration: 0
+      isDamage: 0
+    patternCoolTime: 10
+    patternRange: 10
+    elementType: 0
+    health: 50
+    damage: 10
+    armor: 2
+    speed: 1.5
+    size: 1.2
+    exp: 20
+    PhysicsRes: 0.35
+    PyroRes: 0.35
+    HydroRes: 0.35
+    AnemoRes: 0.35
+    DendroRes: 0.35
+    ElectroRes: 0.35
+    CyroRes: 0.7
+    GeoRes: 0.35
+  - name: 16
+    anim: {fileID: 22100000, guid: 8c017164b7eb62a4684433b2e5e392cd, type: 2}
+    pattern: 3
+    enemyAttackData:
+      patternType: 4
+      targetDirection: {x: 0, y: 0, z: 0}
+      patternSize: 1
+      damage: 0
+      speed: 0
+      patternDelay: 2
+      duration: 0
+      isDamage: 0
+    patternCoolTime: 10
+    patternRange: 10
+    elementType: 0
+    health: 50
+    damage: 10
+    armor: 2
+    speed: 1.5
+    size: 1.2
+    exp: 20
+    PhysicsRes: 0.35
+    PyroRes: 0.35
+    HydroRes: 0.35
+    AnemoRes: 0.35
+    DendroRes: 0.35
+    ElectroRes: 0.7
+    CyroRes: 0.35
+    GeoRes: 0.35

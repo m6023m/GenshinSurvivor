@@ -1,0 +1,117 @@
+Key,Korean,English
+Basic.Yes,예,Yes
+Basic.No,아니오,No
+Basic.Confirm,확인,Check
+Basic.First.Name,이름 입력(최대 16자),Name Input (Up To 16 Characters)
+Basic.First.Char,"캐릭터 선택
+(한번 선택하면 ""절대"" 바꿀수 없음)","Character Selection
+(If You Select Once, You Can Never Change It)"
+Basic.First.Confirm,정말로 선택한 성별과 이름으로 할거임?,Are You Really Going To Choose With The Name And Name You Really Chose?
+Basic.Main.Start,게임시작,Game Start
+Basic.Main.Upgrade,강화,Upgrade
+Basic.Main.Weapon,무기,Weapon
+Basic.Main.Wish,기원,Wish
+Basic.Main.Achieve,업적,Achievements
+Basic.Main.Option,옵션,Option
+Basic.Main.Credit,크레딧,Credit
+Basic.Main.Exit,게임종료,Game Over
+Basic.Upgrade,강화,Upgrade
+Basic.Weapon,무기,Weapon
+Basic.Reset,리셋,Reset
+Basic.Option,옵션,Option
+Basic.Back,뒤로,Back
+Basic.UP,업,Up
+Basic.Next,다음,Next
+Basic.CharSelect,캐릭터 선택,Character Selection
+Basic.Constellation,별자리,Constellation
+Basic.MapSelect,맵 선택,Map Selection
+Basic.Pause,일시정지,Pause
+Basic.GameOver.Next,클릭하면 다음으로 넘어갑니다.,Click To Go Next.
+Basic.Surrender,항복,Surrender
+Basic.Surrender.Confirm,정말 항복하시겠습니까?,Would You Really Surrender?
+Basic.GameResult,게임 결과,Game Results
+Basic.Immune,면역,Immune
+Basic.LevelUp,레벨 업!,Level Up!
+Basic.PhysicsDmg,물리대미지: {0}%,Physics Damage: {0}%
+Basic.PyroDmg,화염대미지: {0}%,Pyro Damage: {0}%
+Basic.HydroDmg,물대미지: {0}%,Hydro Damage: {0}%
+Basic.AnemoDmg,바람대미지: {0}%,Anemo Damage: {0}%
+Basic.DendroDmg,풀대미지: {0}%,Dendro Damage: {0}%
+Basic.ElectroDmg,번개대미지: {0}%,Electro Damage: {0}%
+Basic.CyroDmg,얼음대미지: {0}%,Cyro Damage: {0}%
+Basic.GeoDmg,바위대미지: {0}%,Geo Damage: {0}%
+Basic.ElementalMastery,원소마스터리: {0},Elemental Mastery: {0} 
+Basic.SurvivorTime,생존시간 : {0:D2}:{1:D2},Survival Time : {0:D2}: {1:D2}
+Basic.Kill,처치 수 : {0},Kill : {0}
+Basic.Level,레벨 : {0},Level : {0}
+Basic.ReceiveDamage,받은 대미지 : {0:F0},Received Damage : {0:F0}
+Basic.HealHealth,회복한 체력 : {0:F0},Health Recovery : {0:F0}
+Basic.GainMora,얻은 모라 : {0},Mora Gain : {0}
+Basic.GainPrimoGem,얻은 원석 : {0},Primogem Gain : {0}
+Basic.Record,기록,
+Basic.DamageDelat,입힌 대미지,Damage Dealt
+Basic.ElementType.Physics,물리,Physics
+Basic.ElementType.Pyro,화염,Pyro
+Basic.ElementType.Hydro,물,Hydro
+Basic.ElementType.Anemo,바람,Anemo
+Basic.ElementType.Dendro,풀,Dendro
+Basic.ElementType.Electro,번개,Electro
+Basic.ElementType.Cyro,얼음,Cyro
+Basic.ElementType.Geo,바위,Geo
+Basic.Wish,기원,Wish
+Basic.WishButton_1,"기원 1회
+<sprite name=""primogem"">160","Wish 1Times
+<sprite name=""primogem"">160"
+Basic.WishButton_10,"기원 10회
+<sprite name=""primogem"">1600","Wish 10Times
+
+<sprite name=""primogem"">1600"
+Basic.Lose,도전 실패,Game Over
+Basic.Victory,도전 성공!,Victory!
+Basic.Infinite_Mode,무한모드,Infinite Mode
+Basic.Reaction.Vaporize,증발,Vaporize
+Basic.Reaction.Overloaded,과부하,Overloaded
+Basic.Reaction.Burning,연소,Burning
+Basic.Reaction.Melt,융해,Melt
+Basic.Reaction.Crystalize,결정화,Crystalize
+Basic.Reaction.Bloom,개화,Bloom
+Basic.Reaction.Bur­geon,발화,Bur­geon
+Basic.Reaction.Hyper­bloom,만개,Hyper­bloom
+Basic.Reaction.Frozen,빙결,Frozen
+Basic.Reaction.ElectroCharged,감전,ElectroCharged
+Basic.Reaction.Superconduct,초전도,Superconduct
+Basic.Reaction.Swirl,확산,Swirl
+Basic.Reaction.Quicken,격화,Quicken
+Basic.Reaction.Spread,촉진,Spread
+Basic.Reaction.Aggra­vate,발산,Aggra­vate
+Basic.LevelUp.Mora,10~100 모라를 획득,Get 10 To 100 Mora
+Basic.LevelUp.Heal,30의 체력 회복,30 Health Recovery
+Basic.Credit,크레딧,Credit
+Basic.Forms,"게임 개선을 위한 설문조사의 응답을 부탁드립니다.
+(예) 클릭 시 보상으로     <sprite name=""primogem"">1600 획득!","Please Answer The Survey To Improve The Game.
+(Example) As A Reward For Clicks <Sprite Name = ""Primogem""> 1600!"
+Basic.Forms.Link,https://forms.gle/tM4KRmNC6FTKPLzF8,https://forms.gle/tM4KRmNC6FTKPLzF8
+Basic.Achieve,업적,Achievements
+Basic.SaveBattle,중단된 게임이 있어!~ 이어서 할꺼야?,There'S A Stopped Game! ~ Are You Going To Do It?
+Basic.Yes0,응,Huh
+Basic.No0,아니,No
+Skill.ObjectType.Skill,대미지 계수,Damage Coefficient
+Skill.ObjectType.Summon,계수,Coefficient
+Skill.ObjectType.Sheild,보호막 계수,Shield
+Skill.ObjectType.Buff,계수,Coefficient
+Skill.ObjectType.SkillEffect,계수,Coefficient
+Element.Type.Physics,<color=#FFFFFF>물리</color>,<color=#FFFFFF>Physics</color>
+Element.Type.Pyro,<color=#FFA066>화염</color>,<color=#FFA066>Pyro</color>
+Element.Type.Hydro,<color=#57DEFF>물</color>,<color=#57DEFF>Hydro</color>
+Element.Type.Anemo,<color=#58F7CA>바람</color>,<color=#58F7CA>Anemo</color>
+Element.Type.Dendro,<color=#D3F583>풀</color>,<color=#D3F583>Dendro</color>
+Element.Type.Electro,<color=#E3A7FF>번개</color>,<color=#E3A7FF>Electro</color>
+Element.Type.Cyro,<color=#ADFCFC>얼음</color>,<color=#ADFCFC>Cyro</color>
+Element.Type.Geo,<color=#FFC401>바위</color>,<color=#FFC401>Geo</color>
+Element.Type.Immune,<color=#717171>면역</color>,<color=#717171>Immune</color>
+Basic.Stage.Level1,난이도 1,Level 1
+Basic.Stage.Level2,난이도 2,Level 2
+Basic.Stage.Level3,난이도 3,Level 3
+Basic.Stage.Level4,난이도 4,Level 4
+Basic.Stage.Level5,난이도 5,Level 5
+Basic.Select,선택,Select

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f16caae2ed0cea4a9f1cabb809bc6a1, type: 3}
+  m_Name: Skill_EB_Travler_Anemo
+  m_EditorClassIdentifier: 
+  sequences:
+  - animation: {fileID: 7400000, guid: 7d43b92348d00464b9d83da5a09111e7, type: 2}
+    objectType: 0
+    damage: 1.3
+    damageStat: 0
+    elementType: 3
+    duration: 6
+    scanRange: 0
+    isProjectile: 0
+    isSummonAttack: 0
+    isConditionChange: 0
+    isContinueDamage: 1
+    isTrigger: 0
+    isTriggerAttack: 0
+    isPlayerMove: 0
+    isSkillMove: 0
+    isImmune: 0
+    isMass: 0
+    isPositionFix: 1
+    isRotationFix: 0
+    isRotate: 0
+    coolTime: 0
+    _skillCount: 1
+    isSkillAdd: 0
+    delay: 0
+    isContinue: 0
+    aim: 2
+    isTraking: 0
+    isMagnet: 1
+    isSequence: 0
+    isTransform: 1
+    isChangedElement: 1
+    isResetPosition: 0
+    defalutPosition: {x: 0, y: 0}
+    defalutRotation: {x: 0, y: 0}
+    centerOffset: {x: 0, y: 0}
+    skillSize: 3
+    createRange: 1
+    layerOrder: 0
+    moveRange: 5
+    moveTime: 3
+    randomRange: 0
+    animationSpeed: 5
+    isAnimationSpeedMatchDuration: 0

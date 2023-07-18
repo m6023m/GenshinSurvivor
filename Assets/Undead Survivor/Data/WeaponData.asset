@@ -1,0 +1,1006 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ea26a6132d21f94091650990d15db3e, type: 3}
+  m_Name: WeaponData
+  m_EditorClassIdentifier: 
+  weapons:
+  - weaponName: 0
+    weaponType: 0
+    type: -1
+    pickUpType: 1
+    icon: {fileID: 0}
+    wishImage: {fileID: 0}
+    wishPannel: {fileID: 0}
+    wishIcon: {fileID: 0}
+    stat:
+      weaponType: 0
+      weaponName: 0
+      level: 0
+      rank: 0
+    atkTear: 0
+    subStat:
+      type: 0
+      value: 0
+    values: []
+  - weaponName: 1
+    weaponType: 1
+    type: 0
+    pickUpType: 0
+    icon: {fileID: 21300000, guid: 469d5796fa43e554e8f92daa89c308e1, type: 3}
+    wishImage: {fileID: 21300000, guid: 469d5796fa43e554e8f92daa89c308e1, type: 3}
+    wishPannel: {fileID: 21300000, guid: 469d5796fa43e554e8f92daa89c308e1, type: 3}
+    wishIcon: {fileID: 21300000, guid: 29952e53fe7af9149b3ea0ce2344cceb, type: 3}
+    stat:
+      weaponType: 1
+      weaponName: 1
+      level: 0
+      rank: 5
+    atkTear: 0
+    subStat:
+      type: 5
+      value: 0.0066
+    values:
+    - {x: 13.5, y: -1.5}
+    - {x: 0.5, y: 0.1}
+  - weaponName: 2
+    weaponType: 1
+    type: 0
+    pickUpType: 0
+    icon: {fileID: 21300000, guid: a229ad4331c6f394ca5c9ead70cbf679, type: 3}
+    wishImage: {fileID: 21300000, guid: a229ad4331c6f394ca5c9ead70cbf679, type: 3}
+    wishPannel: {fileID: 21300000, guid: a229ad4331c6f394ca5c9ead70cbf679, type: 3}
+    wishIcon: {fileID: 21300000, guid: 4bcef7b793f8a2b49aecb692596c7d36, type: 3}
+    stat:
+      weaponType: 1
+      weaponName: 2
+      level: 1
+      rank: 2
+    atkTear: 1
+    subStat:
+      type: 0
+      value: 0.0045
+    values:
+    - {x: 0.75, y: 0.25}
+  - weaponName: 3
+    weaponType: 1
+    type: 0
+    pickUpType: 0
+    icon: {fileID: 21300000, guid: b4dea62b8c0489a4bb7f9bb0a380c8ff, type: 3}
+    wishImage: {fileID: 21300000, guid: b4dea62b8c0489a4bb7f9bb0a380c8ff, type: 3}
+    wishPannel: {fileID: 21300000, guid: b4dea62b8c0489a4bb7f9bb0a380c8ff, type: 3}
+    wishIcon: {fileID: 21300000, guid: ece10da359d5cd4458f6c4df0a805be3, type: 3}
+    stat:
+      weaponType: 1
+      weaponName: 3
+      level: 5
+      rank: 3
+    atkTear: 0
+    subStat:
+      type: 5
+      value: 0.0066
+    values:
+    - {x: 0.3, y: 0.1}
+    - {x: 34, y: -4}
+  - weaponName: 4
+    weaponType: 1
+    type: 0
+    pickUpType: 0
+    icon: {fileID: 21300000, guid: 22cbf34a068f9bd468c5e4b6f0b74334, type: 3}
+    wishImage: {fileID: 21300000, guid: 22cbf34a068f9bd468c5e4b6f0b74334, type: 3}
+    wishPannel: {fileID: 21300000, guid: 22cbf34a068f9bd468c5e4b6f0b74334, type: 3}
+    wishIcon: {fileID: 21300000, guid: ac7168eb6e3bde842b1a580b2dc696a4, type: 3}
+    stat:
+      weaponType: 1
+      weaponName: 4
+      level: 0
+      rank: 5
+    atkTear: 1
+    subStat:
+      type: 0
+      value: 0.0045
+    values:
+    - {x: 0.2, y: 0.04}
+  - weaponName: 5
+    weaponType: 1
+    type: 0
+    pickUpType: 1
+    icon: {fileID: 21300000, guid: 6cb9ca178499ff842a6bd89775b7b01c, type: 3}
+    wishImage: {fileID: 21300000, guid: 6cb9ca178499ff842a6bd89775b7b01c, type: 3}
+    wishPannel: {fileID: 21300000, guid: 6cb9ca178499ff842a6bd89775b7b01c, type: 3}
+    wishIcon: {fileID: 21300000, guid: 5bb16e06091442944a1e09b769348e0e, type: 3}
+    stat:
+      weaponType: 1
+      weaponName: 5
+      level: 0
+      rank: 0
+    atkTear: 3
+    subStat:
+      type: 4
+      value: 0.61
+    values:
+    - {x: 0.12, y: 0.03}
+  - weaponName: 6
+    weaponType: 1
+    type: 0
+    pickUpType: 1
+    icon: {fileID: 21300000, guid: 351a0decede06ac43ac263c1fc5849b5, type: 3}
+    wishImage: {fileID: 21300000, guid: 351a0decede06ac43ac263c1fc5849b5, type: 3}
+    wishPannel: {fileID: 21300000, guid: 351a0decede06ac43ac263c1fc5849b5, type: 3}
+    wishIcon: {fileID: 21300000, guid: 83e7866e83917304796478d214aeb021, type: 3}
+    stat:
+      weaponType: 1
+      weaponName: 6
+      level: 0
+      rank: 0
+    atkTear: 1
+    subStat:
+      type: 3
+      value: 0.011
+    values:
+    - {x: 0.15, y: 0.05}
+    - {x: 0.5, y: 0.1}
+  - weaponName: 7
+    weaponType: 1
+    type: 1
+    pickUpType: 0
+    icon: {fileID: 21300000, guid: 71b79d4948068e246b03b3414d0e7ed7, type: 3}
+    wishImage: {fileID: 21300000, guid: 71b79d4948068e246b03b3414d0e7ed7, type: 3}
+    wishPannel: {fileID: 21300000, guid: 71b79d4948068e246b03b3414d0e7ed7, type: 3}
+    wishIcon: {fileID: 21300000, guid: fb57e648b9e665f48a86f77d5810cfd5, type: 3}
+    stat:
+      weaponType: 1
+      weaponName: 7
+      level: 90
+      rank: 5
+    atkTear: 5
+    subStat:
+      type: 6
+      value: 0.0045
+    values:
+    - {x: 0.15, y: 0.05}
+    - {x: 0.85, y: 0.15}
+  - weaponName: 8
+    weaponType: 1
+    type: 1
+    pickUpType: 0
+    icon: {fileID: 21300000, guid: 6cb072a695c198749adebc64249a1541, type: 3}
+    wishImage: {fileID: 21300000, guid: 6cb072a695c198749adebc64249a1541, type: 3}
+    wishPannel: {fileID: 21300000, guid: 6cb072a695c198749adebc64249a1541, type: 3}
+    wishIcon: {fileID: 21300000, guid: 395108f5448b8344a91a2ece6313a890, type: 3}
+    stat:
+      weaponType: 1
+      weaponName: 8
+      level: 1
+      rank: 1
+    atkTear: 4
+    subStat:
+      type: 5
+      value: 0.0061
+    values:
+    - {x: 0, y: 1}
+    - {x: 0.15, y: 0.05}
+  - weaponName: 9
+    weaponType: 1
+    type: 1
+    pickUpType: 1
+    icon: {fileID: 21300000, guid: b77155c2f08f8314589eeceb97d9eb1b, type: 3}
+    wishImage: {fileID: 21300000, guid: b77155c2f08f8314589eeceb97d9eb1b, type: 3}
+    wishPannel: {fileID: 21300000, guid: b77155c2f08f8314589eeceb97d9eb1b, type: 3}
+    wishIcon: {fileID: 21300000, guid: 201f3c2ccd0e85948b14f324f9cc4f74, type: 3}
+    stat:
+      weaponType: 1
+      weaponName: 9
+      level: 0
+      rank: 0
+    atkTear: 4
+    subStat:
+      type: 0
+      value: 0.0054
+    values:
+    - {x: 0.15, y: 0.05}
+    - {x: 0.15, y: 0.05}
+  - weaponName: 10
+    weaponType: 1
+    type: 1
+    pickUpType: 1
+    icon: {fileID: 21300000, guid: 525e6a3e413fca844ba4722fa77e9534, type: 3}
+    wishImage: {fileID: 21300000, guid: 525e6a3e413fca844ba4722fa77e9534, type: 3}
+    wishPannel: {fileID: 21300000, guid: 525e6a3e413fca844ba4722fa77e9534, type: 3}
+    wishIcon: {fileID: 21300000, guid: c5111746f684eab4eb89b66f45f54a34, type: 3}
+    stat:
+      weaponType: 1
+      weaponName: 10
+      level: 0
+      rank: 0
+    atkTear: 2
+    subStat:
+      type: 3
+      value: 0.11
+    values:
+    - {x: 0.15, y: 0.05}
+    - {x: 0.009, y: 0.003}
+  - weaponName: 11
+    weaponType: 1
+    type: 1
+    pickUpType: 1
+    icon: {fileID: 21300000, guid: 403c0387923c9854ea1ac9164bf47a4c, type: 3}
+    wishImage: {fileID: 21300000, guid: 403c0387923c9854ea1ac9164bf47a4c, type: 3}
+    wishPannel: {fileID: 21300000, guid: 403c0387923c9854ea1ac9164bf47a4c, type: 3}
+    wishIcon: {fileID: 21300000, guid: f3a25e136a7597d41b6d8ddb6506dd73, type: 3}
+    stat:
+      weaponType: 1
+      weaponName: 11
+      level: 0
+      rank: 0
+    atkTear: 4
+    subStat:
+      type: 4
+      value: 2.2
+    values:
+    - {x: 0.075, y: 0.025}
+    - {x: 0.12, y: 0.04}
+    - {x: 0.15, y: 0.05}
+  - weaponName: 12
+    weaponType: 2
+    type: 0
+    pickUpType: 0
+    icon: {fileID: 21300000, guid: 45b794c621cbdd2428238afd3daf06d5, type: 3}
+    wishImage: {fileID: 21300000, guid: 45b794c621cbdd2428238afd3daf06d5, type: 3}
+    wishPannel: {fileID: 21300000, guid: 45b794c621cbdd2428238afd3daf06d5, type: 3}
+    wishIcon: {fileID: 21300000, guid: d18aa78bd1c1efe4b873b4a543626f68, type: 3}
+    stat:
+      weaponType: 2
+      weaponName: 12
+      level: 0
+      rank: 5
+    atkTear: 0
+    subStat:
+      type: 5
+      value: 0.0066
+    values:
+    - {x: 13.5, y: -1.5}
+    - {x: 0.5, y: 0.1}
+  - weaponName: 13
+    weaponType: 2
+    type: 0
+    pickUpType: 0
+    icon: {fileID: 21300000, guid: fda63b75979d77c479070bbebecf887b, type: 3}
+    wishImage: {fileID: 21300000, guid: fda63b75979d77c479070bbebecf887b, type: 3}
+    wishPannel: {fileID: 21300000, guid: fda63b75979d77c479070bbebecf887b, type: 3}
+    wishIcon: {fileID: 21300000, guid: 066033de88b72574cab08626e94719d8, type: 3}
+    stat:
+      weaponType: 2
+      weaponName: 13
+      level: 0
+      rank: 4
+    atkTear: 1
+    subStat:
+      type: 2
+      value: 0.0045
+    values:
+    - {x: 0.17, y: 0.03}
+    - {x: 0.09, y: 0.03}
+  - weaponName: 14
+    weaponType: 2
+    type: 0
+    pickUpType: 0
+    icon: {fileID: 21300000, guid: bd97ac789e502564e856060d3ec0c56c, type: 3}
+    wishImage: {fileID: 21300000, guid: bd97ac789e502564e856060d3ec0c56c, type: 3}
+    wishPannel: {fileID: 21300000, guid: bd97ac789e502564e856060d3ec0c56c, type: 3}
+    wishIcon: {fileID: 21300000, guid: 3478e7a8b74ade04797e30b44a866d40, type: 3}
+    stat:
+      weaponType: 2
+      weaponName: 14
+      level: 0
+      rank: 5
+    atkTear: 2
+    subStat:
+      type: 5
+      value: 0.0033
+    values:
+    - {x: 0.3, y: 0.1}
+    - {x: 34, y: -4}
+  - weaponName: 15
+    weaponType: 2
+    type: 0
+    pickUpType: 0
+    icon: {fileID: 21300000, guid: 92f1b8b85f0d11947a0fca80b574d636, type: 3}
+    wishImage: {fileID: 21300000, guid: 92f1b8b85f0d11947a0fca80b574d636, type: 3}
+    wishPannel: {fileID: 21300000, guid: 92f1b8b85f0d11947a0fca80b574d636, type: 3}
+    wishIcon: {fileID: 21300000, guid: 79652399c99587a4e87203a0ed9b2531, type: 3}
+    stat:
+      weaponType: 2
+      weaponName: 15
+      level: 90
+      rank: 5
+    atkTear: 1
+    subStat:
+      type: 4
+      value: 1.8
+    values:
+    - {x: 0.2, y: 0.04}
+  - weaponName: 16
+    weaponType: 2
+    type: 0
+    pickUpType: 1
+    icon: {fileID: 21300000, guid: 1c79de5e72619ea48a3bae16fa9ce1ee, type: 3}
+    wishImage: {fileID: 21300000, guid: 1c79de5e72619ea48a3bae16fa9ce1ee, type: 3}
+    wishPannel: {fileID: 21300000, guid: 1c79de5e72619ea48a3bae16fa9ce1ee, type: 3}
+    wishIcon: {fileID: 21300000, guid: 68ce5b93d14200d4d9d32496806ffb43, type: 3}
+    stat:
+      weaponType: 2
+      weaponName: 16
+      level: 0
+      rank: 0
+    atkTear: 1
+    subStat:
+      type: 0
+      value: 0.0045
+    values:
+    - {x: 0.06, y: 0.01}
+    - {x: 0, y: 0.5}
+  - weaponName: 17
+    weaponType: 2
+    type: 0
+    pickUpType: 1
+    icon: {fileID: 21300000, guid: 120c40eb6725ef845afa35819a911487, type: 3}
+    wishImage: {fileID: 21300000, guid: 120c40eb6725ef845afa35819a911487, type: 3}
+    wishPannel: {fileID: 21300000, guid: 120c40eb6725ef845afa35819a911487, type: 3}
+    wishIcon: {fileID: 21300000, guid: a8c0279696508f64da083fe4f69c8f1d, type: 3}
+    stat:
+      weaponType: 2
+      weaponName: 17
+      level: 0
+      rank: 0
+    atkTear: 1
+    subStat:
+      type: 3
+      value: 0.11
+    values:
+    - {x: 0.05, y: 0.01}
+    - {x: 0.033, y: -0.003}
+  - weaponName: 18
+    weaponType: 2
+    type: 1
+    pickUpType: 0
+    icon: {fileID: 21300000, guid: 43a2616cbb37ed445b977e68d9718a61, type: 3}
+    wishImage: {fileID: 21300000, guid: 43a2616cbb37ed445b977e68d9718a61, type: 3}
+    wishPannel: {fileID: 21300000, guid: 43a2616cbb37ed445b977e68d9718a61, type: 3}
+    wishIcon: {fileID: 21300000, guid: f42fdec4b44695b47b78020f98de40c2, type: 3}
+    stat:
+      weaponType: 2
+      weaponName: 18
+      level: 0
+      rank: 0
+    atkTear: 5
+    subStat:
+      type: 5
+      value: 0.0041
+    values:
+    - {x: 0.06, y: 0.02}
+    - {x: 0.6, y: 0.2}
+  - weaponName: 19
+    weaponType: 2
+    type: 1
+    pickUpType: 0
+    icon: {fileID: 21300000, guid: e1d1af09f69882c4186dd84837d81522, type: 3}
+    wishImage: {fileID: 21300000, guid: e1d1af09f69882c4186dd84837d81522, type: 3}
+    wishPannel: {fileID: 21300000, guid: e1d1af09f69882c4186dd84837d81522, type: 3}
+    wishIcon: {fileID: 21300000, guid: 473a5b0fcc86d3d4fbe878e92d8e53bd, type: 3}
+    stat:
+      weaponType: 2
+      weaponName: 19
+      level: 90
+      rank: 1
+    atkTear: 4
+    subStat:
+      type: 0
+      value: 0.0055
+    values:
+    - {x: 0.15, y: 0.05}
+    - {x: 0.3, y: 0.1}
+  - weaponName: 20
+    weaponType: 2
+    type: 1
+    pickUpType: 1
+    icon: {fileID: 21300000, guid: 2bc3fe1c79b5397459d3bc409f22e43d, type: 3}
+    wishImage: {fileID: 21300000, guid: 2bc3fe1c79b5397459d3bc409f22e43d, type: 3}
+    wishPannel: {fileID: 21300000, guid: 2bc3fe1c79b5397459d3bc409f22e43d, type: 3}
+    wishIcon: {fileID: 21300000, guid: 5d72ea39b9b7383489c9c26ebfc41bc0, type: 3}
+    stat:
+      weaponType: 2
+      weaponName: 20
+      level: 0
+      rank: 0
+    atkTear: 4
+    subStat:
+      type: 0
+      value: 0.0055
+    values:
+    - {x: 0.15, y: 0.05}
+    - {x: 0.15, y: 0.05}
+  - weaponName: 21
+    weaponType: 2
+    type: 1
+    pickUpType: 1
+    icon: {fileID: 21300000, guid: d08915fb849a67947b7711fc8acf2ca9, type: 3}
+    wishImage: {fileID: 21300000, guid: d08915fb849a67947b7711fc8acf2ca9, type: 3}
+    wishPannel: {fileID: 21300000, guid: d08915fb849a67947b7711fc8acf2ca9, type: 3}
+    wishIcon: {fileID: 21300000, guid: 95f80b46f7be13c4b8d5ce42f261bfc6, type: 3}
+    stat:
+      weaponType: 2
+      weaponName: 21
+      level: 0
+      rank: 0
+    atkTear: 6
+    subStat:
+      type: 6
+      value: 0.0022
+    values:
+    - {x: 0.12, y: 0.04}
+    - {x: 0.09, y: 0.03}
+    - {x: 0.15, y: 0.05}
+  - weaponName: 22
+    weaponType: 3
+    type: 0
+    pickUpType: 0
+    icon: {fileID: 21300000, guid: 3a83de182a8fcbe4b9ef430ca2db5879, type: 3}
+    wishImage: {fileID: 21300000, guid: 3a83de182a8fcbe4b9ef430ca2db5879, type: 3}
+    wishPannel: {fileID: 21300000, guid: 3a83de182a8fcbe4b9ef430ca2db5879, type: 3}
+    wishIcon: {fileID: 21300000, guid: cf6db2e3fc419464aa151b9054cfc7bf, type: 3}
+    stat:
+      weaponType: 3
+      weaponName: 22
+      level: 0
+      rank: 5
+    atkTear: 0
+    subStat:
+      type: 4
+      value: 2.45
+    values:
+    - {x: 0.2, y: 0.04}
+  - weaponName: 23
+    weaponType: 3
+    type: 0
+    pickUpType: 0
+    icon: {fileID: 21300000, guid: cd346b8904c653d438d397d337dd3130, type: 3}
+    wishImage: {fileID: 21300000, guid: cd346b8904c653d438d397d337dd3130, type: 3}
+    wishPannel: {fileID: 21300000, guid: cd346b8904c653d438d397d337dd3130, type: 3}
+    wishIcon: {fileID: 21300000, guid: 7dc4030edf23d844894ae83e87cf30bb, type: 3}
+    stat:
+      weaponType: 3
+      weaponName: 23
+      level: 0
+      rank: 5
+    atkTear: 2
+    subStat:
+      type: 5
+      value: 0.0033
+    values:
+    - {x: 13.5, y: -1.5}
+    - {x: 0.5, y: 0.1}
+  - weaponName: 24
+    weaponType: 3
+    type: 0
+    pickUpType: 1
+    icon: {fileID: 21300000, guid: c33f288aab55f914897c9b08c3d939ce, type: 3}
+    wishImage: {fileID: 21300000, guid: c33f288aab55f914897c9b08c3d939ce, type: 3}
+    wishPannel: {fileID: 21300000, guid: c33f288aab55f914897c9b08c3d939ce, type: 3}
+    wishIcon: {fileID: 21300000, guid: 42f80a70a7c11ae49973437e8fecad92, type: 3}
+    stat:
+      weaponType: 3
+      weaponName: 24
+      level: 0
+      rank: 0
+    atkTear: 2
+    subStat:
+      type: 0
+      value: 0.003
+    values:
+    - {x: 0.06, y: 0.01}
+    - {x: 0, y: 0.5}
+  - weaponName: 25
+    weaponType: 3
+    type: 0
+    pickUpType: 1
+    icon: {fileID: 21300000, guid: 3a4fc0239bc58574cb5840919905b3cc, type: 3}
+    wishImage: {fileID: 21300000, guid: 3a4fc0239bc58574cb5840919905b3cc, type: 3}
+    wishPannel: {fileID: 21300000, guid: 3a4fc0239bc58574cb5840919905b3cc, type: 3}
+    wishIcon: {fileID: 21300000, guid: 0feb6eceae069c341a1cc507e4d246c9, type: 3}
+    stat:
+      weaponType: 3
+      weaponName: 25
+      level: 0
+      rank: 0
+    atkTear: 0
+    subStat:
+      type: 3
+      value: 0.11
+    values:
+    - {x: 0.16, y: 0.04}
+    - {x: 0.16, y: 0.04}
+  - weaponName: 26
+    weaponType: 3
+    type: 1
+    pickUpType: 0
+    icon: {fileID: 21300000, guid: a3e93da66bf18bf4aaffc1dc044f0468, type: 3}
+    wishImage: {fileID: 21300000, guid: a3e93da66bf18bf4aaffc1dc044f0468, type: 3}
+    wishPannel: {fileID: 21300000, guid: a3e93da66bf18bf4aaffc1dc044f0468, type: 3}
+    wishIcon: {fileID: 21300000, guid: 6f8fb9880b1b64140ab68aee46f68584, type: 3}
+    stat:
+      weaponType: 3
+      weaponName: 26
+      level: 2
+      rank: 2
+    atkTear: 5
+    subStat:
+      type: 3
+      value: 0.11
+    values:
+    - {x: 0.15, y: 0.05}
+    - {x: 0.09, y: 0.03}
+  - weaponName: 27
+    weaponType: 3
+    type: 1
+    pickUpType: 0
+    icon: {fileID: 21300000, guid: be23ea7df82b7f94db10284c2dbcd27c, type: 3}
+    wishImage: {fileID: 21300000, guid: be23ea7df82b7f94db10284c2dbcd27c, type: 3}
+    wishPannel: {fileID: 21300000, guid: be23ea7df82b7f94db10284c2dbcd27c, type: 3}
+    wishIcon: {fileID: 21300000, guid: 733f0861fa4188a4e843696178412bd1, type: 3}
+    stat:
+      weaponType: 3
+      weaponName: 27
+      level: 1
+      rank: 1
+    atkTear: 5
+    subStat:
+      type: 5
+      value: 0.0041
+    values:
+    - {x: 0, y: 1}
+    - {x: 0.25, y: 0.15}
+  - weaponName: 28
+    weaponType: 3
+    type: 1
+    pickUpType: 1
+    icon: {fileID: 21300000, guid: 73dfa907c9f752645bf9b03e90d5efdb, type: 3}
+    wishImage: {fileID: 21300000, guid: 73dfa907c9f752645bf9b03e90d5efdb, type: 3}
+    wishPannel: {fileID: 21300000, guid: 73dfa907c9f752645bf9b03e90d5efdb, type: 3}
+    wishIcon: {fileID: 21300000, guid: 215bca808979c6a49a52ea6cac9e94c2, type: 3}
+    stat:
+      weaponType: 3
+      weaponName: 28
+      level: 0
+      rank: 0
+    atkTear: 5
+    subStat:
+      type: 0
+      value: 0.0045
+    values:
+    - {x: 0.15, y: 0.05}
+    - {x: 0.15, y: 0.05}
+  - weaponName: 29
+    weaponType: 3
+    type: 1
+    pickUpType: 1
+    icon: {fileID: 21300000, guid: 77134a28dbd6320479538ada37aacded, type: 3}
+    wishImage: {fileID: 21300000, guid: 77134a28dbd6320479538ada37aacded, type: 3}
+    wishPannel: {fileID: 21300000, guid: 77134a28dbd6320479538ada37aacded, type: 3}
+    wishIcon: {fileID: 21300000, guid: 1f7aba444a76ad1489907b44fcdc67e1, type: 3}
+    stat:
+      weaponType: 3
+      weaponName: 29
+      level: 0
+      rank: 0
+    atkTear: 4
+    subStat:
+      type: 3
+      value: 0.16
+    values:
+    - {x: 0.15, y: 0.05}
+    - {x: 0.006, y: 0.002}
+  - weaponName: 30
+    weaponType: 4
+    type: 0
+    pickUpType: 0
+    icon: {fileID: 21300000, guid: e552f7cb5088a744f893c1a1d8e66a2a, type: 3}
+    wishImage: {fileID: 21300000, guid: e552f7cb5088a744f893c1a1d8e66a2a, type: 3}
+    wishPannel: {fileID: 21300000, guid: e552f7cb5088a744f893c1a1d8e66a2a, type: 3}
+    wishIcon: {fileID: 21300000, guid: cb0b557471b4d4843a210f4b323ec106, type: 3}
+    stat:
+      weaponType: 4
+      weaponName: 30
+      level: 1
+      rank: 5
+    atkTear: 1
+    subStat:
+      type: 0
+      value: 0.005
+    values:
+    - {x: 13.5, y: -1.5}
+    - {x: 0.5, y: 0.1}
+  - weaponName: 31
+    weaponType: 4
+    type: 0
+    pickUpType: 0
+    icon: {fileID: 21300000, guid: aab4e96c052c64d43a5cdc0f97d8daab, type: 3}
+    wishImage: {fileID: 21300000, guid: aab4e96c052c64d43a5cdc0f97d8daab, type: 3}
+    wishPannel: {fileID: 21300000, guid: aab4e96c052c64d43a5cdc0f97d8daab, type: 3}
+    wishIcon: {fileID: 21300000, guid: 16a2fa6b277cadc4bb281f84006e333c, type: 3}
+    stat:
+      weaponType: 4
+      weaponName: 31
+      level: 0
+      rank: 5
+    atkTear: 1
+    subStat:
+      type: 3
+      value: 0.13
+    values:
+    - {x: 0.45, y: 0.15}
+    - {x: 0.36, y: 0.12}
+    - {x: 180, y: 60}
+  - weaponName: 32
+    weaponType: 4
+    type: 0
+    pickUpType: 0
+    icon: {fileID: 21300000, guid: 2386891c569b1ff4da81623a2b48d580, type: 3}
+    wishImage: {fileID: 21300000, guid: 2386891c569b1ff4da81623a2b48d580, type: 3}
+    wishPannel: {fileID: 21300000, guid: 2386891c569b1ff4da81623a2b48d580, type: 3}
+    wishIcon: {fileID: 21300000, guid: 376fcc6e04503144f9f5b020ba894eea, type: 3}
+    stat:
+      weaponType: 4
+      weaponName: 32
+      level: 0
+      rank: 5
+    atkTear: 0
+    subStat:
+      type: 4
+      value: 2.45
+    values:
+    - {x: 0.3, y: 0.1}
+    - {x: 34, y: -4}
+  - weaponName: 33
+    weaponType: 4
+    type: 0
+    pickUpType: 0
+    icon: {fileID: 21300000, guid: 1d8f7ffdfc611074f9e6f4be5e967053, type: 3}
+    wishImage: {fileID: 21300000, guid: 1d8f7ffdfc611074f9e6f4be5e967053, type: 3}
+    wishPannel: {fileID: 21300000, guid: 1d8f7ffdfc611074f9e6f4be5e967053, type: 3}
+    wishIcon: {fileID: 21300000, guid: 81cbaecd371a16c4da13134bf9152328, type: 3}
+    stat:
+      weaponType: 4
+      weaponName: 33
+      level: 0
+      rank: 3
+    atkTear: 0
+    subStat:
+      type: 0
+      value: 0.0061
+    values:
+    - {x: 13, y: -1}
+    - {x: 2.1, y: 0.3}
+  - weaponName: 34
+    weaponType: 4
+    type: 0
+    pickUpType: 1
+    icon: {fileID: 21300000, guid: f02f86683c637a34481bb81b03c6cce7, type: 3}
+    wishImage: {fileID: 21300000, guid: f02f86683c637a34481bb81b03c6cce7, type: 3}
+    wishPannel: {fileID: 21300000, guid: f02f86683c637a34481bb81b03c6cce7, type: 3}
+    wishIcon: {fileID: 21300000, guid: 8086bf97d5fdc1241ae25a77b2d1de02, type: 3}
+    stat:
+      weaponType: 4
+      weaponName: 34
+      level: 0
+      rank: 0
+    atkTear: 2
+    subStat:
+      type: 5
+      value: 0.0033
+    values:
+    - {x: 0.1, y: 0.02}
+    - {x: 0.15, y: 0.05}
+  - weaponName: 35
+    weaponType: 4
+    type: 0
+    pickUpType: 1
+    icon: {fileID: 21300000, guid: 9c24d4cc348d7c0449c95a59f7836127, type: 3}
+    wishImage: {fileID: 21300000, guid: 9c24d4cc348d7c0449c95a59f7836127, type: 3}
+    wishPannel: {fileID: 21300000, guid: 9c24d4cc348d7c0449c95a59f7836127, type: 3}
+    wishIcon: {fileID: 21300000, guid: 6277b338bef083f4e8832463fcdebc4c, type: 3}
+    stat:
+      weaponType: 4
+      weaponName: 35
+      level: 0
+      rank: 0
+    atkTear: 1
+    subStat:
+      type: 3
+      value: 0.11
+    values:
+    - {x: 0.15, y: 0.05}
+  - weaponName: 36
+    weaponType: 4
+    type: 1
+    pickUpType: 0
+    icon: {fileID: 21300000, guid: 928724d79c449a84e98d20a61c138595, type: 3}
+    wishImage: {fileID: 21300000, guid: 928724d79c449a84e98d20a61c138595, type: 3}
+    wishPannel: {fileID: 21300000, guid: 928724d79c449a84e98d20a61c138595, type: 3}
+    wishIcon: {fileID: 21300000, guid: 4cbdde173282b4844bebd482dd99afa1, type: 3}
+    stat:
+      weaponType: 4
+      weaponName: 36
+      level: 0
+      rank: 0
+    atkTear: 5
+    subStat:
+      type: 0
+      value: 0.0036
+    values:
+    - {x: 0.09, y: 0.03}
+    - {x: 1.2, y: 0.4}
+  - weaponName: 37
+    weaponType: 4
+    type: 1
+    pickUpType: 0
+    icon: {fileID: 21300000, guid: 65219a2460a701a41a5e97cfab1a8a90, type: 3}
+    wishImage: {fileID: 21300000, guid: 65219a2460a701a41a5e97cfab1a8a90, type: 3}
+    wishPannel: {fileID: 21300000, guid: 65219a2460a701a41a5e97cfab1a8a90, type: 3}
+    wishIcon: {fileID: 21300000, guid: 75461ae261200114387f3b2c206a98a9, type: 3}
+    stat:
+      weaponType: 4
+      weaponName: 37
+      level: 0
+      rank: 0
+    atkTear: 4
+    subStat:
+      type: 3
+      value: 0.13
+    values:
+    - {x: 0.4, y: 0.08}
+  - weaponName: 38
+    weaponType: 4
+    type: 1
+    pickUpType: 1
+    icon: {fileID: 21300000, guid: 3c5cf1a235c9f9c489ea5e4f30dc4a57, type: 3}
+    wishImage: {fileID: 21300000, guid: 3c5cf1a235c9f9c489ea5e4f30dc4a57, type: 3}
+    wishPannel: {fileID: 21300000, guid: 3c5cf1a235c9f9c489ea5e4f30dc4a57, type: 3}
+    wishIcon: {fileID: 21300000, guid: 3a3c1883657b1da42a478f2c74a687b1, type: 3}
+    stat:
+      weaponType: 4
+      weaponName: 38
+      level: 0
+      rank: 0
+    atkTear: 4
+    subStat:
+      type: 0
+      value: 0.0054
+    values:
+    - {x: 0.15, y: 0.05}
+    - {x: 0.15, y: 0.05}
+  - weaponName: 39
+    weaponType: 5
+    type: 0
+    pickUpType: 0
+    icon: {fileID: 21300000, guid: 8c93b2c4abbb16a40aefdc8b2f63aea9, type: 3}
+    wishImage: {fileID: 21300000, guid: 8c93b2c4abbb16a40aefdc8b2f63aea9, type: 3}
+    wishPannel: {fileID: 21300000, guid: 8c93b2c4abbb16a40aefdc8b2f63aea9, type: 3}
+    wishIcon: {fileID: 21300000, guid: 7ee1874b815a84048b1167d9feff994e, type: 3}
+    stat:
+      weaponType: 5
+      weaponName: 39
+      level: 0
+      rank: 5
+    atkTear: 0
+    subStat:
+      type: 5
+      value: 0.0066
+    values:
+    - {x: 13.5, y: -1.5}
+    - {x: 0.5, y: 0.1}
+  - weaponName: 40
+    weaponType: 5
+    type: 0
+    pickUpType: 0
+    icon: {fileID: 21300000, guid: 2a73002fef3675f4f81c7b8bd285a669, type: 3}
+    wishImage: {fileID: 21300000, guid: 2a73002fef3675f4f81c7b8bd285a669, type: 3}
+    wishPannel: {fileID: 21300000, guid: 2a73002fef3675f4f81c7b8bd285a669, type: 3}
+    wishIcon: {fileID: 21300000, guid: 29b3cda41defc6543b54a0e79094797c, type: 3}
+    stat:
+      weaponType: 5
+      weaponName: 40
+      level: 0
+      rank: 5
+    atkTear: 1
+    subStat:
+      type: 4
+      value: 1.83
+    values:
+    - {x: 0.18, y: 0.06}
+  - weaponName: 41
+    weaponType: 5
+    type: 0
+    pickUpType: 0
+    icon: {fileID: 21300000, guid: fb3da278fb625c14b92513119fa24d6e, type: 3}
+    wishImage: {fileID: 21300000, guid: fb3da278fb625c14b92513119fa24d6e, type: 3}
+    wishPannel: {fileID: 21300000, guid: fb3da278fb625c14b92513119fa24d6e, type: 3}
+    wishIcon: {fileID: 21300000, guid: 4e33f56b337bc1040935052720d70c7c, type: 3}
+    stat:
+      weaponType: 5
+      weaponName: 41
+      level: 0
+      rank: 5
+    atkTear: 2
+    subStat:
+      type: 5
+      value: 0.0033
+    values:
+    - {x: 0.3, y: 0.1}
+    - {x: 34, y: -4}
+  - weaponName: 42
+    weaponType: 5
+    type: 0
+    pickUpType: 0
+    icon: {fileID: 21300000, guid: 3f7569f6c94d68b4db605f9b008fac9b, type: 3}
+    wishImage: {fileID: 21300000, guid: 3f7569f6c94d68b4db605f9b008fac9b, type: 3}
+    wishPannel: {fileID: 21300000, guid: 3f7569f6c94d68b4db605f9b008fac9b, type: 3}
+    wishIcon: {fileID: 21300000, guid: 0f5bb698e1bab1140b07e8890e756da2, type: 3}
+    stat:
+      weaponType: 5
+      weaponName: 42
+      level: 0
+      rank: 5
+    atkTear: 1
+    subStat:
+      type: 0
+      value: 0.0045
+    values:
+    - {x: 0.3, y: 0.1}
+  - weaponName: 43
+    weaponType: 5
+    type: 0
+    pickUpType: 1
+    icon: {fileID: 21300000, guid: 6ea560ed8155f7e4590ad9fed618b643, type: 3}
+    wishImage: {fileID: 21300000, guid: 6ea560ed8155f7e4590ad9fed618b643, type: 3}
+    wishPannel: {fileID: 21300000, guid: 6ea560ed8155f7e4590ad9fed618b643, type: 3}
+    wishIcon: {fileID: 21300000, guid: 15e3249658db4e348b3f12f116d6d497, type: 3}
+    stat:
+      weaponType: 5
+      weaponName: 43
+      level: 0
+      rank: 0
+    atkTear: 2
+    subStat:
+      type: 0
+      value: 0.003
+    values:
+    - {x: 0.15, y: 0.05}
+  - weaponName: 44
+    weaponType: 5
+    type: 0
+    pickUpType: 1
+    icon: {fileID: 21300000, guid: e5b4823aacb7831438c83e1df2618b86, type: 3}
+    wishImage: {fileID: 21300000, guid: e5b4823aacb7831438c83e1df2618b86, type: 3}
+    wishPannel: {fileID: 21300000, guid: e5b4823aacb7831438c83e1df2618b86, type: 3}
+    wishIcon: {fileID: 21300000, guid: 0f0991377d02fe84eb3678d2f8d82322, type: 3}
+    stat:
+      weaponType: 5
+      weaponName: 44
+      level: 0
+      rank: 0
+    atkTear: 1
+    subStat:
+      type: 6
+      value: 0.0056
+    values:
+    - {x: 0.15, y: 0.05}
+  - weaponName: 45
+    weaponType: 5
+    type: 0
+    pickUpType: 1
+    icon: {fileID: 21300000, guid: 5b90f1c9ab9c5324db8c4ec27bd37c4e, type: 3}
+    wishImage: {fileID: 21300000, guid: 5b90f1c9ab9c5324db8c4ec27bd37c4e, type: 3}
+    wishPannel: {fileID: 21300000, guid: 5b90f1c9ab9c5324db8c4ec27bd37c4e, type: 3}
+    wishIcon: {fileID: 21300000, guid: 1602bcbd0eff0c54bb20d7006c5afa9b, type: 3}
+    stat:
+      weaponType: 5
+      weaponName: 45
+      level: 0
+      rank: 0
+    atkTear: 1
+    subStat:
+      type: 3
+      value: 0.11
+    values:
+    - {x: 15, y: -1}
+    - {x: 0.3, y: 0.1}
+  - weaponName: 46
+    weaponType: 5
+    type: 1
+    pickUpType: 0
+    icon: {fileID: 21300000, guid: 434ee075c13f3474c802f5cc17bcef10, type: 3}
+    wishImage: {fileID: 21300000, guid: 434ee075c13f3474c802f5cc17bcef10, type: 3}
+    wishPannel: {fileID: 21300000, guid: 434ee075c13f3474c802f5cc17bcef10, type: 3}
+    wishIcon: {fileID: 21300000, guid: 9d6a668814e05f8499f135989ce0e68e, type: 3}
+    stat:
+      weaponType: 5
+      weaponName: 46
+      level: 1
+      rank: 1
+    atkTear: 5
+    subStat:
+      type: 3
+      value: 0.08
+    values:
+    - {x: 0, y: 1}
+    - {x: 4.5, y: -0.5}
+    - {x: 1, y: 0.25}
+  - weaponName: 47
+    weaponType: 5
+    type: 1
+    pickUpType: 0
+    icon: {fileID: 21300000, guid: c177c6ef24c84a043a03accc0ccb33e5, type: 3}
+    wishImage: {fileID: 21300000, guid: c177c6ef24c84a043a03accc0ccb33e5, type: 3}
+    wishPannel: {fileID: 21300000, guid: c177c6ef24c84a043a03accc0ccb33e5, type: 3}
+    wishIcon: {fileID: 21300000, guid: f2866f46ff7439843bf7aa0219635feb, type: 3}
+    stat:
+      weaponType: 5
+      weaponName: 47
+      level: 0
+      rank: 1
+    atkTear: 4
+    subStat:
+      type: 0
+      value: 0.0054
+    values:
+    - {x: 0.09, y: 0.03}
+  - weaponName: 48
+    weaponType: 5
+    type: 1
+    pickUpType: 1
+    icon: {fileID: 21300000, guid: c4ed74504bcf62940af464fb9b34247c, type: 3}
+    wishImage: {fileID: 21300000, guid: c4ed74504bcf62940af464fb9b34247c, type: 3}
+    wishPannel: {fileID: 21300000, guid: c4ed74504bcf62940af464fb9b34247c, type: 3}
+    wishIcon: {fileID: 21300000, guid: a3c1126ba5adfb14c9dd08a3504d3004, type: 3}
+    stat:
+      weaponType: 5
+      weaponName: 48
+      level: 0
+      rank: 0
+    atkTear: 4
+    subStat:
+      type: 5
+      value: 0.0061
+    values:
+    - {x: 45, y: 15}
+    - {x: 75, y: 25}
+    - {x: 0.15, y: 0.05}
+  - weaponName: 49
+    weaponType: 5
+    type: 1
+    pickUpType: 1
+    icon: {fileID: 21300000, guid: 4e2bc8e9b8cf74746a79b060b62879e4, type: 3}
+    wishImage: {fileID: 21300000, guid: 4e2bc8e9b8cf74746a79b060b62879e4, type: 3}
+    wishPannel: {fileID: 21300000, guid: 4e2bc8e9b8cf74746a79b060b62879e4, type: 3}
+    wishIcon: {fileID: 21300000, guid: 0d9af18c72be18a40a87ece1e2a67682, type: 3}
+    stat:
+      weaponType: 5
+      weaponName: 49
+      level: 0
+      rank: 0
+    atkTear: 4
+    subStat:
+      type: 3
+      value: 0.16
+    values:
+    - {x: 0.09, y: 0.03}
+    - {x: 0.36, y: 0.12}

@@ -1,0 +1,4 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+C:UniProjectGenshinSurvivor filter=lfs diff=lfs merge=lfs -text
+C:/UniProject/GenshinSurvivor filter=lfs diff=lfs merge=lfs -text

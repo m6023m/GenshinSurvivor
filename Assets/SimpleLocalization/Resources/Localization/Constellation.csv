@@ -1,0 +1,219 @@
+Key,Korean,English
+Constellation.Default0,기본0,Basic 0
+Constellation.Default1,기본1,Basic 1
+Constellation.Default2,기본2,Basic 2
+Constellation.Default3,기본3,Basic 3
+Constellation.Default4,기본4,Basic 4
+Constellation.Default5,기본5,Basic 5
+Constellation.Travler.Anemo0,회오리검의 끌어당기는 범위 20% 증가,Increasing 20% ​​Increase In Palm Vortex
+Constellation.Travler.Anemo1,원소충전효율 20% 증가,20% Increase In Elemental Charging Efficiency
+Constellation.Travler.Anemo2,격동의 바람 대미지 20% 증가,20% Increase In The Turbulent Gust Surge
+Constellation.Travler.Anemo3,회오리검을 시전하는 동안 방어력이 2증가,2 Increase Armor While Casting A Palm Vortex
+Constellation.Travler.Anemo4,회오리검 대미지 20% 증가,Palm Vortex Damage 20% Increase
+Constellation.Travler.Anemo5,격동의 바람에 피격당한 적은 바람원소 내성 20% 감소,Reduced By 20% Reduction In Gust Surge
+Constellation.Travler.Geo0,첩첩산중의 돌벽 안쪽에서 행운 3 증가,Lucky 3 Increased From The Side Of The Stone Walls In The Mt.
+Constellation.Travler.Geo1,성운검이 사라질 때 생성시 피해와 동일한 피해를 줌,"When The Nebula Sword Disappears, The Damage Is The Same As The Damage"
+Constellation.Travler.Geo2,첩첩산중 대미지 20% 증가,20% Increase In Damage In Spy Mountain
+Constellation.Travler.Geo3,첩첩산중의 최대 원소 에너지 20 감소,Maximum Element Of Energy In The Mt.
+Constellation.Travler.Geo4,성운검 대미지 20% 증가,20% Increase In Nebula Sword Damage
+Constellation.Travler.Geo5,첩첩산중과 성운검의 지속시간 30% 증가,30% Increase In Duration Of Spy And Nebula Swords
+Constellation.Amber0,일반공격의 개수가 1 증가,The Number Of General Attacks Increases By 1
+Constellation.Amber1,폭탄인형의 대미지 20% 증가,20% Increase In Damage To Bomb Dolls
+Constellation.Amber2,화살비 대미지 20% 증가,20% Increase In Arrows Damage
+Constellation.Amber3,폭탄 인형의 쿨타임 50% 감소,50% Reduction In Cooldown Of Bomb Dolls
+Constellation.Amber4,폭탄 인형의 대미지 20% 증가,20% Increase In Damage To Bomb Dolls
+Constellation.Amber5,"화살비 발동 후 10초동안 이동속도 15%, 공격력 15% 증가",10 Seconds Of Movement Speed And 15% Increase
+Constellation.Xiangling0,"누룽지의 공격에 피격된 적은 불원소 내성이 15% 감소, 지속 6초","Enemies Hit By Nurungji'S Attack Reduced 15%, 6 Seconds"
+Constellation.Xiangling1,일반공격 대미지 20% 증가,20% Increase In General Attack Damage
+Constellation.Xiangling2,화륜의 대미지 20% 증가,20% Increase In Damage To Fire Wheel
+Constellation.Xiangling3,화륜의 지속시간 40% 증가,40% Increase In Duration Of Fire Wheel
+Constellation.Xiangling4,누룽지 출격의 대미지 20% 증가,20% Increase In Damage To Nurungji Sortie
+Constellation.Xiangling5,화륜의 지속시간 동안 불 원소 피해 15% 증가,15% Increase
+Constellation.Bennet0,공격력 1 증가,1 Increase In Damage
+Constellation.Bennet1,원소충전 효율 20% 상승,Elemental Charging Efficiency 20% Increase
+Constellation.Bennet2,열정 과부하 대미지 20% 증가,20% Increase In Passion Overload Damage
+Constellation.Bennet3,열정 과부하의 쿨타임 20% 감소,20% Reduction In Cooldown Under Enthusiasm
+Constellation.Bennet4,아름다운 여정의 대미지 20% 증가,20% Increase In Damage To Beautiful Journey
+Constellation.Bennet5,아름다운 여정 영영 내에 있는 물리피해 일반공격은 불 원소 부여 효과를 얻고 불원소 피해 15% 증가,General Attacks In Physical Damage In The Beautiful Journey Have A 15% Increase In Inconveniences And Inconsistent Damage.
+Constellation.Diluc0,불원소 피해 15% 증가,15% Increase
+Constellation.Diluc1,"공격력 20%증가, 공격속도 10% 증가","20% Increase In Damage, 10% Increase In Attack Speed"
+Constellation.Diluc2,역날의 화염 대미지 20% 증가,20% Increase In Flame Damage On The Station Day
+Constellation.Diluc3,역날의 화염 대미지 40% 증가,40% Increase In Flame Damage On The Back Day
+Constellation.Diluc4,여명의 대미지 20% 증가,20% Increase In Damage To Dawn
+Constellation.Diluc5,일반공격의 쿨타임이 20% 감소하고 피해 20% 증가,The Cooldown Of General Attacks Decreases By 20% And The Damage Is Increased By 20%
+Constellation.Klee0,쾅쾅 불꽃의 개수가 1 증가,The Number Of Flames Increases By 1
+Constellation.Klee1,통통 폭탄은 적의 방어력을 20% 감소 시킴. 지속시간 10초,Tomb Bombs Reduce The Enemy'S Defense By 20%. Duration 10 Seconds
+Constellation.Klee2,통통폭탄의 대미지 20% 증가,20% Increase In Damage To Plump Bombs
+Constellation.Klee3,쾅쾅 불꽃의 관통 1증가,1 Increase In Flame Penetration 1
+Constellation.Klee4,쾅쾅불꽃의 대미지 20% 증가,20% Increase In Damage
+Constellation.Klee5,"쾅쾅 불꽃 발동 시 3초마다 원소 에너지 3pt를 지속해서 회복, 불 원소 피해 보너스 20%증가. 지속시간 12초","When The Fireworks Are Triggered, The Element Energy 3Pt Continues To Recover Every 3 Seconds, Increasing 20%Of Non -Element Damage Bonuses. Duration 12 Seconds"
+Constellation.Barbara0,10초마다 원소 에너지를 1pt 회복,Elemental Energy Is Recovered Every 10 Seconds
+Constellation.Barbara1,"공연, 시작♪의 재사용 대기시간이 15% 감소","Performance, Starting ♪ Reuse Waiting Time Is Reduced By 15%"
+Constellation.Barbara2,빛나는 기적♪의 회복량 20% 증가,Bright Miracle ♪ Increase 20% Increase
+Constellation.Barbara3,원소충전 효율 20% 증가,20% Increase In Elemental Charging Efficiency
+Constellation.Barbara4,"공연, 시작♪의 대미지 20% 증가","Performance, Starting ♪ Damage 20% Increase"
+Constellation.Barbara5,부활 회수 1 증가,1 Increase In Resurrection
+Constellation.Xingqiu0,우령검의 개수 1 증가,1 Increase In The Number Of Wu -Ryeong Sword
+Constellation.Xingqiu1,"고화검 · 재우유홍의 지속시간 20% 증가, 적 피격 시 물 원소 내성 15% 감소, 지속시간 4초","Increased Duration Of High Pain Sword And Jae -Wu -Hong 20%, Reducing Water Resistance By 15%, Duration 4 Seconds"
+Constellation.Xingqiu2,고화검 · 재우유홍의 대미지 20% 증가,20% Increase In Damage To High Pain Sword And Jae -Wu -Hong
+Constellation.Xingqiu3,고화검 · 재우유홍의 효과가 지속되는 동안 고화검 · 화우농산으로 가하는 피해가 50% 증가한다.,"During The Effects Of High Painting Swords And Jaus Urong, The Damage Caused By High Painting Swords And Hwahwa Farming Increases By 50%."
+Constellation.Xingqiu4,고화검 · 화우농산의 대미지 20% 증가,20% Increase In Damage To High Painting Swords And Hwawoo Agricultural Production
+Constellation.Xingqiu5,"고화검 · 재우유홍 사용 시 원소 에너지 10 획득, 대미지 20% 증가","10% Of Element Energy Is Acquired When Used In High Painting Swords And Jaewokhongs, 20% Increase In Damage"
+Constellation.Mona0,별의 운명의 내성감소 20% 증가,20% Increase In Resistance To The Fate Of Stars
+Constellation.Mona1,일반공격의 대미지 20% 증가,20% Increase In Damage To General Attacks
+Constellation.Mona2,별의 운명 대미지 20% 증가,20% Increase In Star Fate Damage
+Constellation.Mona3,별의 운명의 내성감소 20% 증가,20% Increase In Resistance To The Fate Of Stars
+Constellation.Mona4,수중 환원의 대미지 20% 증가,20% Increase In Damage To Underwater Reduction
+Constellation.Mona5,이동 중일때 대미지 20% 증가,20% Increase In Damage When Moving
+Constellation.Sucrose0,풍령 작성 · 육삼공팔의 쿨타임 20% 감소,"Pungryeong Preparation, 20% Reduction In Cooldown Of Six Samgong Arms"
+Constellation.Sucrose1,금기 · 풍령 작성 · 칠오 동구 이형의 지속시간 20% 증가,"Contraindication, Pungryeong, · 20% Increase In Duration Of Dong -Gu, Chilo -Gu"
+Constellation.Sucrose2,풍령 작성 · 육삼공팔의 대미지 20% 증가,"Pungryeong Preparation, Increased Damage Of Yuksamgong Arms By 20%"
+Constellation.Sucrose3,풍령 작성 · 육삼공팔의 끌어당기는 범위와 속도 20% 증가,"Pungryeong, Drawing A Ranging Range And Speed By 20% Increase"
+Constellation.Sucrose4,금기 · 풍령 작성 · 칠오 동구 이형의 대미지 20% 증가,"Contraindication, Pungryeong, · 20% Increase In Damage To Chilo Dong -Gu"
+Constellation.Sucrose5,금기 · 풍령 작성 · 칠오 동구 이형이 원소 전환이 발생하면 대응하는 원소 피해 보너스를 20% 획득한다. 지속시간 10초,"If The Taboo, Pungryeong, Chilo Dong -Gu Is Transformed, The Corresponding Elemental Damage Bonus Is Obtained. Duration 10 Seconds"
+Constellation.Jean0,풍압검의 크기 40% 증가,40% Increase In The Size Of Wind Pressure Sword
+Constellation.Jean1,"일반공격 쿨타임 10% 감소, 이동속도 10% 증가","10% Reduction In General Attack Cooldown, 10% Increase In Movement Speed"
+Constellation.Jean2,민들레 바람 대미지 20% 증가,20% Increase In Dandelion Wind Damage
+Constellation.Jean3,민들레 바람 영역 내에서 모든 적의 바람 원소 내성 40% 감소,40% Reduction In Resistance To All Enemy Wind Elements Within The Dandelion Wind Area
+Constellation.Jean4,풍압검 대미지 20% 증가,20% Increase In Damage Sword Damage
+Constellation.Jean5,민들레 바람 영역 내에서 방어력 3 증가,3 Increase In Defense In The Dandelion Wind Area
+Constellation.Venti0,일반공격의 개수가 2 증가,The Number Of General Attacks Increases By 2
+Constellation.Venti1,높은 하늘의 노래는 적의 바람원소 내성과 물리 내성을 12% 감소시킨다,The High Sky Song Reduces The Enemy'S Wind Element Resistance And Physical Resistance By 12%.
+Constellation.Venti2,바람신의 시 대미지 20% 증가,20% Increase In The Poem Damage Of Wind Gods
+Constellation.Venti3,바람 원소 피해 20% 증가,20% Increase In Wind Elements
+Constellation.Venti4,높은 하늘의 노래 대미지 20% 증가,20% Increase In Song Damage In High Sky
+Constellation.Venti5,바람 신의  시에 피격된 적은 모든 원소 내성이 20% 감소,All Element Resistance Has Been Reduced By 20% Reduced Element Resistance In The Poem Of The Wind God
+Constellation.Lisa0,원소 충전 효율 10% 증가,Elemental Charging Efficiency 10% Increase
+Constellation.Lisa1,창뢰의 대미지 주기 0.1초 감소,Reduction Of 0.1 Seconds For Damage
+Constellation.Lisa2,장미의 뇌광의 범위 20% 증가,Increase In The Range Of Brain Light Of Roses By 20%
+Constellation.Lisa3,장미의 뇌광의 범위 40% 증가,40% Increase In The Range Of Brain Light Of Roses
+Constellation.Lisa4,창뢰의 범위 20% 증가,20% Increase In The Range Of Creation
+Constellation.Lisa5,창뢰의 범위 40% 증가,40% Increase In The Range Of Crowd
+Constellation.Razor0,공격력 1 증가,1 Increase In Damage
+Constellation.Razor1,행운이 1 증가,Luck 1 Increase
+Constellation.Razor2,뇌아의 대미지 20% 증가,20% Increase In Damage To Brain Child
+Constellation.Razor3,날카로운 발톱과 창뢰에 맞은 적은 방어력이 2 감소한다. 지속 7초,The Enemy'S Defense Is Reduced By 2 Red Claws And Crowds. 7 Seconds
+Constellation.Razor4,날카로운 발톱과 창뢰의 대미지 20% 증가,20% Increase In Damage To Sharp Claws And Crisis
+Constellation.Razor5,뇌아의 최대 원소 게이지 20 감소,20 Decrease In The Maximum Element Gauge Of Brain
+Constellation.Beidou0,작뢰의 최대 원소게이지 20 감소,Maximum Elemental Gauge Decrease In The Work
+Constellation.Beidou1,작뢰의 대미지 20% 증가,20% Increase In Damage
+Constellation.Beidou2,파도잡이의 대미지 20% 증가,20% Increase In Damage To Waves
+Constellation.Beidou3,작뢰의 대미지 20% 증가,20% Increase In Damage
+Constellation.Beidou4,작뢰의 대미지 20% 증가,20% Increase In Damage
+Constellation.Beidou5,작뢰가 지속되는 동안 번개 원소 피해 20% 증가,Lightning Element Damage Increases By 20% While The Work Continues
+Constellation.Fischl0,일반공격의 대미지 20% 증가,20% Increase In Damage To General Attacks
+Constellation.Fischl1,밤을 순찰하는 그림자 날개의 관통 1 증가,1 Increase In Shadow Wings That Patrol The Night
+Constellation.Fischl2,밤을 순찰하는 그림자 날개의 대미지 20% 증가,20% Increase In Damage To Shadow Wings That Patrol The Night
+Constellation.Fischl3,"암야의 환상 발동 시 HP 20% 회복, 암야의 환상 범위 50% 증가","Hp 20% Recovery When It Is Fantastically Triggered By Dark Night, And 50% Increase In Illusions In The Night"
+Constellation.Fischl4,암야의 환상 대미지 20% 증가,20% Increase In Fantasy Damage In Dark Night
+Constellation.Fischl5,암야의 환상과 밤을 순찰하는 그림자 날개 지속시간 20% 증가,Fantasy Of Dark Night And 20% Increase In Shadow Wings That Patrol The Night
+Constellation.Keqing0,성신회귀의 범위 50% 증가,50% Increase In The Range Of Regression
+Constellation.Keqing1,원소 충전 효율 20% 증가,20% Increase In Elemental Charging Efficiency
+Constellation.Keqing2,천가 순유의 대미지 20% 증가,20% Increase In Damage To Cloth Net Oil
+Constellation.Keqing3,공격력 2 증가,Damage 2 Increase
+Constellation.Keqing4,성신 회귀의 대미지 20% 증가,20% Increase In Damage To Holy Ghost Regression
+Constellation.Keqing5,번개 원소 피해 보너스 30% 증가,Lightning Elemental Damage Bonus 30% Increase
+Constellation.Kaeya0,행운이 1 증가,Luck 1 Increase
+Constellation.Kaeya1,살을 에는 윤무의 지속시간 20% 증가,Yunmu'S Duration Increases By 20%
+Constellation.Kaeya2,서리 엄습의 대미지 20% 증가,20% Increase In Damage To Frost Strikes
+Constellation.Kaeya3,방어력 2 증가,Defense 2 Increase
+Constellation.Kaeya4,살을 에는 윤무의 대미지 20% 증가,Yunmu'S Damage By 20% Increase In Flesh
+Constellation.Kaeya5,"살을 에는 윤무의 개수 1증가, 최대 원소 에너지 15 감소","The Number Of Yunmu'S Increase In Flesh Is Increased By 1, The Maximum Elemental Energy Reduction"
+Constellation.Chongyun0,일반공격의 대미지의 10%의 얼음원소 추가피해가 생김(피해는 영도 · 중첩의 서리의 대미지로 계산),Additional Damage To 10%Of The Damage Of Ordinary Attacks Occurs (The Damage Is Calculated As The Damage Of Frost Of Yeongdo And Overlapping)
+Constellation.Chongyun1,재사용 대기시간이 10% 감소,10% Reduction In Cooldown
+Constellation.Chongyun2,영도 · 떨어지는 별의 대미지 20% 증가,20% Increase In Damage To Youngdo And Falling Stars
+Constellation.Chongyun3,원소 충전 효율 10% 증가,Elemental Charging Efficiency 10% Increase
+Constellation.Chongyun4,영도 · 중첩의 서리의 범위 20% 증가,20% Increase In The Range Of Frost Of Yeongdo And Overlapping
+Constellation.Chongyun5,영도 · 떨어지는 별의 지속시간 30% 증가,30% Increase In Duration Of Duration Of The Stars And Falling Stars
+Constellation.Qiqi0,선법 · 한병의 귀차의 발동 시 원소 에너지를 2초당 2씩 5번 회복한다,"When The Line Of The Law And The Byeonggae Are Activated, The Element Energy Is Restored Five Times Per 2 Seconds Per Two Seconds."
+Constellation.Qiqi1,일반공격의 대미지 20% 증가,20% Increase In Damage To General Attacks
+Constellation.Qiqi2,선법 · 구고도액의 대미지 20% 증가,20% Increase In Damage To Pre -Law And Oldgo Liquid
+Constellation.Qiqi3,선법 · 한병의 귀차에 피격당한 적은 공격력이 20% 감소함,The Number Of Attack Power Has Been Reduced By 20% Of The Enemy Attacked By The Line Of The Law And One Bottle.
+Constellation.Qiqi4,선법 · 한병의 귀차의 회복량 20% 증가,20% Increase In The Amount Of Recovery Of The Line Law And One Bottle
+Constellation.Qiqi5,부활 회수 2 증가,2 Increase In Resurrection
+Constellation.Ningguang0,관통이 있는 일반공격의 관통 2 증가,2 Increase In Penetration Of General Attacks With Penetration
+Constellation.Ningguang1,선기 병풍의 재사용 대기시간 20% 감소,20% Reduction In Waiting Time For Reusable Screens
+Constellation.Ningguang2,천권 봉옥의 대미지 20% 증가,20% Increase In Damage To Cheon Kwon Bongok
+Constellation.Ningguang3,선기 병풍의 지속시간 동안 방어력 2 증가,2 Increase In Defense During The Duration Of The Line Screens
+Constellation.Ningguang4,선기 병풍의 대미지 20% 증가,20% Increase In Damage To Sunscreen
+Constellation.Ningguang5,천권 붕옥의 개수 7개 증가,7 Increase In The Number Of Celestial Bores
+Constellation.Noelle0,대청소 또는 호심경 사용시 HP 20% 회복,20% Hp When Cleaning Or Use
+Constellation.Noelle1,일반공격 피해 20% 증가,20% Increase In General Attack Damage
+Constellation.Noelle2,호심경의 대미지 20% 증가,20% Increase
+Constellation.Noelle3,"호심경의 범위, 대미지 50% 증가","The Range Of Hemorrhage, 50% Increase In Damage"
+Constellation.Noelle4,대청소의 대미지 20% 증가,20% Increase In Damage To Cleansing
+Constellation.Noelle5,"대청소 발동 시 추가로 노엘 방어력의 50%만큼 공격력 증가, 지속시간 20% 증가","In Addition To 50% Of Noel'S Defense When It Is Cleaned, Damage Increases By 20% Duration."
+Constellation.Tartaglia0,마왕 무장 · 광란의 재사용 대기시간이 20% 감소한다,The Waiting Time For Reuse Of The Demon King And Frenzy Decreases By 20%
+Constellation.Tartaglia1,적 처치 시 극악기 · 진멸섬의 원소 에너지 0.5 회복,Restoration Of The Energy Energy Of Evaluation And Destructive Restaurant 0.5
+Constellation.Tartaglia2,마왕 무장 · 광란의 지속시간 20% 증가,20% Increase In Duration Of Demon King And Frenzy
+Constellation.Tartaglia3,"마왕 무장 · 광란 지속시간 동안 일반 공격의 관통 1 증가, 범위 20% 증가","Demon King Armed Forces And Frenzy Increases 1 Increase In General Attacks, 20% Increase In Range"
+Constellation.Tartaglia4,극악기 · 진멸섬의 대미지 20% 증가,20% Increase In Damage To Terrible Instruments And Extinction Islands
+Constellation.Tartaglia5,극악기 · 진멸섬 발동 후 마왕 무장 · 광란의 재사용 대기시간이 초기화됨,"After The Extreme Instrument And Destruction, The Waiting Time Of The Devil Armed Forces And Frenzy Is Initialized."
+Constellation.Diona0,특제 칵테일의 최대 원소 에너지 15 감소,Maximum Elemental Energy Of Special Cocktails Reduced
+Constellation.Diona1,꽁꽁 젤리의 관통 1 증가,One Increase In Penetration Of The Jelly Jelly
+Constellation.Diona2,특제 칵테일의 회복량 20% 증가,20% Increase In Recovery Of Special Cocktails
+Constellation.Diona3,일반 공격 재사용 대기시간이 10% 감소,The Waiting Time For General Attack Reuse Decreases By 10%
+Constellation.Diona4,꽁꽁젤리의 대미지 20% 증가,20% Increase In Damages Of Cord Jelly
+Constellation.Diona5,"특제 칵테일 영역 내의 캐릭터는 치유 보너스 30% 증가, 원소마스터리 200 증가","Characters In Special Cocktail Areas Increase By 30% Healing Bonus, 200 Elemental Mastery Increases 200"
+Constellation.Zhongli0,지핵의 재사용 대기시간 20% 감소,20% Reduction In Waiting Time For Reuse Of Tuberculosis
+Constellation.Zhongli1,천성의 발동 후 지핵의 재사용 대기시간 초기화됨,Initialization Of The Cooldown Of The Nucleus After The Activity Of Nature
+Constellation.Zhongli2,지핵의 대미지 20% 증가,20% Increase In Damage
+Constellation.Zhongli3,"천성의 범위가 20%증가, 또한 석화 지속시간 2초 증가","The Scope Of Nature Increases By 20%, Also Increases 2 Seconds Of Duration"
+Constellation.Zhongli4,천성의 대미지 20% 증가,20% Increase In Damage To Nature
+Constellation.Zhongli5,지핵의 보호막이 피해를 받은 경우 받은 피해의 100% 만큼 적에게 바위 원소 피해를 준다,"If The Protective Film Of The Nucleus Is Damaged, The Enemy Damage To The Enemy As Much As 100% Of The Damage Received."
+Constellation.Xinyan0,일반 공격의 대미지 12% 증가,12% Increase In Damage To General Attack
+Constellation.Xinyan1,반항의 피치카토로 가하는 피해는 반드시 치명타로 적용 됨,The Damage Caused By The Rebellion Of The Rebellion Is Necessarily Applied As A Critical Hit.
+Constellation.Xinyan2,정열의 연주의 범위 20% 증가,An Increase In The Range Of Passional Performance By 20%
+Constellation.Xinyan3,정열의 연주의 피해는 적의 물리 내성을 15% 감소 시킴,The Damage Of The Passion Of Passion Reduces The Enemy'S Physical Resistance By 15%.
+Constellation.Xinyan4,반항의 피치카토의 범위 20% 증가,Increase In The Range Of Rebellion Peach Kato
+Constellation.Xinyan5,일반 공격의 피해량이 방어력의 20% 만큼 증가함,The Damage Of General Attacks Increases By 20% Of The Defense.
+Constellation.Albedo0,창생법 · 모조 태양꽃 사용 시 탄생식 · 대지의 파동의 원소 에너지 5 증가,5 Increase In Element Energy Of The Waves Of The Land And The Earth When Using The Window Life Method
+Constellation.Albedo1,창생법 · 모조 태양꽃의 범위 내에서 방어력 3 증가,3 Increase In Defense Within The Scope Of Creation And Imitation Solar Flowers
+Constellation.Albedo2,창생법 · 모조 태양꽃의 대미지 20% 증가,20% Increase In Damage To Crane Law And Imitation Solar Flowers
+Constellation.Albedo3,창생법 · 모조 태양꽃의 범위 20% 증가,Increase In The Scope Of The Creation Method And The Imitation Solar Flowers By 20%
+Constellation.Albedo4,탄생식 · 대지의 파동의 대미지 20% 증가,20% Increase In Damage To The Waves Of Birth And Earth
+Constellation.Albedo5,창생법 · 모조 태양꽃의 범위 내에서 재사용 대기시간 20% 감소,20% Reduction In Waiting Time For Reuse Within The Scope Of Crown And Imitation Solar Flowers
+Constellation.Ganyu0,"감우의 일반공격에 피격당한 적은 얼음 원소 내성이 15% 감소함. 지속 6초
+또한 일반공격 사용 시 원소 에너지 0.5회복","The Enemy Was Attacked By Gamwoo'S General Attack, Reducing Ice Element Resistance By 15%. 6 Seconds
+In Addition, Element Energy 0.5 Recovery When Using A General Attack"
+Constellation.Ganyu1,산과 강의 기린 흔적의 재사용 대기시간이 20% 감소함,The Cooldown Of The Giraffe Traces Of Mountains And Rivers Decreases By 20%
+Constellation.Ganyu2,쏟아지는 천화의 대미지 20% 증가,20% Increase In Damage To Pouring Cheonhwa
+Constellation.Ganyu3,쏟아지는 천화 영역 내에서 적의 모든 내성이 20% 감소,All Enemy Resistance Decreases By 20% In The Spilling Cheonhwa Area
+Constellation.Ganyu4,산과 강의 기린 흔적의 대미지 20% 증가,20% Increase In Damage To Giraffe Traces Of Mountains And Rivers
+Constellation.Ganyu5,산과 강의 기린 흔적 발동 후 일반공격의 쿨타임 초기화,Initializing The Cooldown Of General Attack After Traces Of Giraffe Traces Of Mountains And Rivers
+Constellation.Xiao0,풍륜양립의 재사용 대기 시간이 20% 감소,20% Reduction In Cooldown Of Fungus Resources
+Constellation.Xiao1,원소 충전 효율이 25% 증가,Elemental Charging Efficiency Increases By 25%
+Constellation.Xiao2,풍륜양립의 대미지 20% 증가,20% Increase In Damage To False False Balance
+Constellation.Xiao3,HP가 50% 미만일 때 방어력이 100% 증가함,"When Hp Is Less Than 50%, The Defense Increases 100%"
+Constellation.Xiao4,나자의 춤의 대미지 20% 증가,20% Increase In Damage To Naza'S Dance
+Constellation.Xiao5,나자의 춤 지속시간 동안 풍륜양립의 재사용 대기시간이 1초가 됨,"Naza'S Dancing Duration, The Cooldown Of The Balance Of The Wind Wheel Is 1 Second."
+Constellation.Hutao0,나비의 서 지속시간 동안 일반 공격의 재사용 대기시간이 20% 감소함,The Waiting Time For Reuse Of General Attacks Decreases By 20% During The Duration Of Butterfly.
+Constellation.Hutao1,일반 공격이 가하는 피해량이 HP의 2% 만큼 증가함,The Damage Caused By General Attacks Increases By 2% Of Hp
+Constellation.Hutao2,나비의 서 지속시간 20% 증가,Butterfly'S Duration Increases By 20%
+Constellation.Hutao3,행운 3증가,Lucky 3 Increase
+Constellation.Hutao4,평안의 서 대미지 20% 증가,20% Increase In Western Damage In Peace
+Constellation.Hutao5,HP가 25% 이하로 떨어지거나 전투 불능이 될 정도의 피해를 입으면 10초동안 무적이 되며 모든 공격이 치명타가 됨 쿨타임 60초,"If The Hp Falls To 25% Or Less Or Suffers Enough To Be Unable To Combat, It Will Be Invincible For 10 Seconds And All Attacks Become A Critical Hit."
+Constellation.Rosaria0,"일반 공격 피해 10%증가, 일반 공격 재사용 대기시간 10% 감소","10% Increase In General Attack Damage, 10% Reduction In Waiting Time For General Attack Reuse"
+Constellation.Rosaria1,죽음의 성례의 지속시간 20% 증가,20% Increase In Duration Of Death Of Death
+Constellation.Rosaria2,죄를 삼키는 고해의 대미지 20% 증가,20% Increase In Damage To Confession That Swallows Sin
+Constellation.Rosaria3,죄를 삼키는 고해 사용 시 죽음의 성례의 원소 게이지 5 증가,5 Increase In Element Gauge Of Death Of Death When Using Confession That Swallows Sin
+Constellation.Rosaria4,죽음의 성례의 대미지 20% 증가,20% Increase In Damage To Death Of Death
+Constellation.Rosaria5,죽음의 성례의 공격은 적의 물리 내성을 20% 감소시킴. 지속 10초,The Sacred Attack Of Death Reduces The Enemy'S Physical Resistance By 20%. 10 Seconds
+Constellation.Yanfei0,HP가 20% 증가,Hp Increases By 20%
+Constellation.Yanfei1,행운 3증가,Lucky 3 Increase
+Constellation.Yanfei2,단홍의 계약 대미지 20% 증가,Danhong'S Contract Damage 20% Increase
+Constellation.Yanfei3,계약 성립 발동 시 HP최대치의 30%에 해당하는 피해를 흡수하는 보호막 생성. 지속 15초,Create A Protective Film That Absorbs Damage To 30%Of The Maximum Hp Maximum. 15 Seconds
+Constellation.Yanfei4,계약 성립의 대미지 20% 증가,20% Increase In Damage To Contract Establishment
+Constellation.Yanfei5,단홍의 계약의 일반 공격 추가대미지 50% 증가,50% Increase In Damage To Danhong'S Contract
+Constellation.Eula0,얼음 파도의 와류의 3스택 공격 시 물리피해가 30% 증가함 지속. 12초,Physical Damage Continues To Increase By 30% Of The Three Stack Attacks Of Ice Waves. 12 Seconds
+Constellation.Eula1,얼음 파도의 와류의 재사용 대기시간 20% 감소,20% Reduction In Cooldown Of Ice Waves
+Constellation.Eula2,파도를 얼리는 광검의 대미지 20% 증가,20% Increase In Damage To Light Swords That Freeze Waves
+Constellation.Eula3,파도를 얼리는 광검의 대미지 30% 증가,30% Increase In Damage To Light Swords That Freeze Waves
+Constellation.Eula4,얼음 파도의 와류 대미지 20% 증가,20% Increase In The Vortex Damage Of Ice Waves
+Constellation.Eula5,"파도를 얼리는 광검 시전시 즉시 5스택 획득, 일반공격으로 획득하는 스택이 1추가로 증가함",In The Case Of A Light Sword That Freezes The Waves Immediately Acquires 5 Stacks And Increases The Number Of Stacks Acquired By General Attack.
+Constellation.Kazuha0,치하야부루의 재사용 대기시간이 10% 감소. 카즈하의 일도를 발동하면 치하야부루의 재사용 대기시간이 초기화됨,"Chihaya Buru'S Cooldown Is Reduced By 10%. When You Activate Kazuha'S Ildo, The Cooldown Of Chihaya Buru Is Initialized."
+Constellation.Kazuha1,원소마스터리 200 증가. 치하야부루 또는 카즈하의 일도의 원소전환 시 해당하는 원소의 원소피해 20% 증가. 지속 12초,Elemental Mastery Increases 200. Increase 20% Damage Of Elements Corresponding To Elemental Elements When Converting Elements Of Chihaya Buru Or Kazuha. 12 Seconds
+Constellation.Kazuha2,치하야부루의 대미지 20% 증가,20% Increase In Damage To Chihaya Buru
+Constellation.Kazuha3,카즈하의 일도의 원소 에너지가 45 이하일 경우 치하야부루 사용시 카즈하의 일도의 원소에너지 10 회복,If The Element Of The Element Of Kazuha Is Less Than 45
+Constellation.Kazuha4,카즈하의 일도의 대미지 20% 증가,20% Increase In Damage To Kazuha
+Constellation.Kazuha5,일반공격 피해가 원소마스터리의 2%만큼 증가함. 치하야부루 또는 카즈하의 일도 지속시간동안 일반공격에 바람원소 부여 효과를 얻음. ,General Attack Damage Increased By 2%Of Elemental Masteries. Chihaya Buru Or Kazuha Also Has The Effect Of Granting Wind Elements For Normal Attacks For Duration.

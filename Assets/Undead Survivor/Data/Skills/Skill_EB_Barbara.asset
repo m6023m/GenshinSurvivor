@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f16caae2ed0cea4a9f1cabb809bc6a1, type: 3}
+  m_Name: Skill_EB_Barbara
+  m_EditorClassIdentifier: 
+  sequences:
+  - animation: {fileID: 7400000, guid: 792480d869cd35b4ebd9cb3184759c49, type: 2}
+    objectType: 3
+    duration: 0
+    isProjectile: 0
+    isSummonAttack: 0
+    isPositionFix: 0
+    isRotate: 0
+    coolTime: 0
+    _skillCount: 1
+    isSkillAdd: 0
+    delay: 0
+    isContinue: 0
+    aim: 0
+    isSequence: 0
+    isTransform: 0
+    defalutPosition: {x: 0, y: 0}
+    skillSize: 3
+    createRange: 0
+    layerOrder: 1000
+    moveRange: 0
+    moveTime: 0
+    randomRange: 0
+    animationSpeed: 3

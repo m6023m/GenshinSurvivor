@@ -1,0 +1,1416 @@
+fileFormatVersion: 2
+guid: 9b408c780c5ba2f468702477e3ca1232
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 59
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 780
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7ba2a779a4c744a93807457946a87f
+      internalID: -825780437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 780
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2db7519f6bdb642954cbc51ccfbcdb
+      internalID: 1559125545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_2
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 780
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db31fab536b4900419869f76cd870dbe
+      internalID: -2118695909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_3
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 780
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87441c89929e98b4d988294c3feab306
+      internalID: -1612151789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_4
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 780
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4e3a17582b16a41b366e8bb8f81693
+      internalID: -1475767509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_5
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 780
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fd4c1d51d793a4b88f463182f781ba
+      internalID: -2072672649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_6
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 780
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db6dfcec35392540b84af0f87e5d954
+      internalID: -1899442118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_7
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 780
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5e70f004d1db64ba63b6afc502a714
+      internalID: 1813973728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_8
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 780
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf00bc8674084a94d9fcad255d4a6bbc
+      internalID: 795039380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 650
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a65bf1b466f004881d38f7becbaaa2
+      internalID: -1247970640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_10
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 650
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d18e5b3bbf83b499d2f77027d1c5a7
+      internalID: 323598772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_11
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 650
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2ba642cf6b4484fa8d1e887b79e94a
+      internalID: -302648050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_12
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 650
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae5dcd851ddd224ba8e27c32d0fc5a1
+      internalID: 227732346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_13
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 650
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e814db4e5f0fe8409e6ce3a7ddcda37
+      internalID: -167516291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_14
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 650
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136263ae8a28e52459b13cffb221c20c
+      internalID: -920667041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_15
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 650
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64e002b7bc1a304eb2795ff27090fe5
+      internalID: -623590838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_16
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 650
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e2a68c24b288047a1561c7521e5254
+      internalID: -1592204430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_17
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 650
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84bb48a6d4fd8204b8909c7d8aa15087
+      internalID: 98518538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 520
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e216a2b40b3f8e448a49f61da82fd3b6
+      internalID: -1677620540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_19
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 520
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62147a14ba8d5254fa0a839cbd4cc7f7
+      internalID: -1056844019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_20
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 520
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d171810a9bcffdc46a8a0ca693091887
+      internalID: -34781545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_21
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 520
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969f5223bcc25984da87db59cce17b09
+      internalID: -1954972317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_22
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 520
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91555cade248e784cbff2975499dc4a0
+      internalID: 1688570531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_23
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 520
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3cf7fef80c6cc347901e13ca1f88768
+      internalID: 764038779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_24
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 520
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433d035604f7e4d4ba119727d3b3f72c
+      internalID: 2000949902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_25
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 520
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5afb5281205421c4da2e00fbb53f5fa2
+      internalID: -759296007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_26
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 520
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86911ce33cacec64bb0ec7638c2af574
+      internalID: -211810964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 390
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde5d485855564645a74630f61098003
+      internalID: -108587212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_28
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 390
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ef08f6860e6bc45b4128a5d014cf28
+      internalID: -224181072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_29
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 390
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758ec48a84a6c7c4ea0c329aa856b7a2
+      internalID: 1078663007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_30
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 390
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e6e9ff9eba9dd45b805a04a15ea039
+      internalID: 1007187159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_31
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 390
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c149c415d3f78e48b602559874aa224
+      internalID: 437626517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_32
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 390
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74b2f8cd6260c7488acfcacdda48839
+      internalID: 377890913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_33
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 390
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82bb2ba33eed69d4495ec5c9dfd14f6e
+      internalID: 928595650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_34
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 390
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0feeca4cdb353142a6ba509a3cd3433
+      internalID: 357769415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_35
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 390
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883566d5613a0da42bc05477166f425d
+      internalID: 915901221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff33a3918b212c4681f762bb9a11713
+      internalID: 1671617945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_37
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 260
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f6ef9092040ab4fbfc1689ded5e13a
+      internalID: 17712490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_38
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 260
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92eafad2c34e93c46a4ced198f40eb8e
+      internalID: 1215689839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_39
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 260
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b596733019a99f439a9dd46d6cbd008
+      internalID: -447949038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_40
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 260
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8cd83c41bc342479b69ce4f7ec26fc
+      internalID: -1708592846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_41
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 260
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd510f9b66af6a4292a387db8a8908c
+      internalID: 120388870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_42
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 260
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b4783cdf3f04641b58305c6c4c69a5
+      internalID: 1705727201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_43
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 260
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e4b65d980212a4ab0f6545a78f0ba1
+      internalID: 1792785072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_44
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 260
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa10a9c7db1d0f94c945132aba4cfa17
+      internalID: -1359168920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 130
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1f93948339622438f48d90c5f114ec
+      internalID: 221571959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_46
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 130
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacf5de771c5c1043996bd7454ce9383
+      internalID: -8850173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_47
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 130
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd691bb9095148b46a3086cbf2dcb10d
+      internalID: -452254195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_48
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 130
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671e01ad4ef91864f933870d68aad225
+      internalID: -44780945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_49
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 130
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7dc4f15edf33a64195c68e3fe3983e5
+      internalID: -1466291411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_50
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 130
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c42bc4118c001c47b0114342b9d1fa7
+      internalID: -1172396458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_51
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 130
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d450108be5a6b44bc2b6f2d00174a7
+      internalID: 2117696238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_52
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 130
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49866f91345ade4e93b114256589b7d
+      internalID: -1077772063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_53
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 130
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cc4f64d2f442f41ba537229c1aa5ba
+      internalID: -1564647971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2299863ec483cfe4d8430c36c3bbd831
+      internalID: 938370539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_55
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 0
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bedf9280ea3394282ff311c1e94d54
+      internalID: 2125453265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_56
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 0
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddad045d57f37434fbd0a26782126e63
+      internalID: 764846895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Xiangling_59x130_57
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 0
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb02f7d603cbaa542acb589c0380fda3
+      internalID: 1668706205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Skill_E_Xiangling_59x130_0: -825780437
+      Skill_E_Xiangling_59x130_1: 1559125545
+      Skill_E_Xiangling_59x130_10: 323598772
+      Skill_E_Xiangling_59x130_11: -302648050
+      Skill_E_Xiangling_59x130_12: 227732346
+      Skill_E_Xiangling_59x130_13: -167516291
+      Skill_E_Xiangling_59x130_14: -920667041
+      Skill_E_Xiangling_59x130_15: -623590838
+      Skill_E_Xiangling_59x130_16: -1592204430
+      Skill_E_Xiangling_59x130_17: 98518538
+      Skill_E_Xiangling_59x130_18: -1677620540
+      Skill_E_Xiangling_59x130_19: -1056844019
+      Skill_E_Xiangling_59x130_2: -2118695909
+      Skill_E_Xiangling_59x130_20: -34781545
+      Skill_E_Xiangling_59x130_21: -1954972317
+      Skill_E_Xiangling_59x130_22: 1688570531
+      Skill_E_Xiangling_59x130_23: 764038779
+      Skill_E_Xiangling_59x130_24: 2000949902
+      Skill_E_Xiangling_59x130_25: -759296007
+      Skill_E_Xiangling_59x130_26: -211810964
+      Skill_E_Xiangling_59x130_27: -108587212
+      Skill_E_Xiangling_59x130_28: -224181072
+      Skill_E_Xiangling_59x130_29: 1078663007
+      Skill_E_Xiangling_59x130_3: -1612151789
+      Skill_E_Xiangling_59x130_30: 1007187159
+      Skill_E_Xiangling_59x130_31: 437626517
+      Skill_E_Xiangling_59x130_32: 377890913
+      Skill_E_Xiangling_59x130_33: 928595650
+      Skill_E_Xiangling_59x130_34: 357769415
+      Skill_E_Xiangling_59x130_35: 915901221
+      Skill_E_Xiangling_59x130_36: 1671617945
+      Skill_E_Xiangling_59x130_37: 17712490
+      Skill_E_Xiangling_59x130_38: 1215689839
+      Skill_E_Xiangling_59x130_39: -447949038
+      Skill_E_Xiangling_59x130_4: -1475767509
+      Skill_E_Xiangling_59x130_40: -1708592846
+      Skill_E_Xiangling_59x130_41: 120388870
+      Skill_E_Xiangling_59x130_42: 1705727201
+      Skill_E_Xiangling_59x130_43: 1792785072
+      Skill_E_Xiangling_59x130_44: -1359168920
+      Skill_E_Xiangling_59x130_45: 221571959
+      Skill_E_Xiangling_59x130_46: -8850173
+      Skill_E_Xiangling_59x130_47: -452254195
+      Skill_E_Xiangling_59x130_48: -44780945
+      Skill_E_Xiangling_59x130_49: -1466291411
+      Skill_E_Xiangling_59x130_5: -2072672649
+      Skill_E_Xiangling_59x130_50: -1172396458
+      Skill_E_Xiangling_59x130_51: 2117696238
+      Skill_E_Xiangling_59x130_52: -1077772063
+      Skill_E_Xiangling_59x130_53: -1564647971
+      Skill_E_Xiangling_59x130_54: 938370539
+      Skill_E_Xiangling_59x130_55: 2125453265
+      Skill_E_Xiangling_59x130_56: 764846895
+      Skill_E_Xiangling_59x130_57: 1668706205
+      Skill_E_Xiangling_59x130_6: -1899442118
+      Skill_E_Xiangling_59x130_7: 1813973728
+      Skill_E_Xiangling_59x130_8: 795039380
+      Skill_E_Xiangling_59x130_9: -1247970640
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

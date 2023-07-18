@@ -1,0 +1,1526 @@
+fileFormatVersion: 2
+guid: e46e0970e76026d4bb7ddac7da73953d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 214
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1284
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91dfbbd023a4cc148af737549982b1ed
+      internalID: -481962146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1284
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4042ed7a74963439f0d3e3f7dc8812
+      internalID: 1204458075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_2
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1284
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d62792ef6f49645aff030d108678b1
+      internalID: 1989078504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_3
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 1284
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7827dc1013e3614cb7ee98abfd32135
+      internalID: -1653961202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_4
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1284
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7eb1a3eeca306a4fa05442beeb14efa
+      internalID: -1978637744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_5
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1284
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e807d3b4f4029140a3903b980a4c771
+      internalID: 680592278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_6
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 1284
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dbc478a47b523849865f8ec1d8cc537
+      internalID: 1485722920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_7
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 1284
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31384fd1e3d8e342b5beb8377e516dc
+      internalID: 1435608584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_8
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 1284
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69a07f2a0ac81948aa7c3b57805c027
+      internalID: 547344836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1070
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e35573c56d37f4a8815df06635e8d6
+      internalID: -2126209288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_10
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1070
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff3a51df093a3a40b8d5e8a858e2cbc
+      internalID: -902488499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_11
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1070
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a64f7deba8fe1942b9d1198420f8cd4
+      internalID: 879826920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_12
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 1070
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1484fee1bd5da49b04caca733b1c4b
+      internalID: -18392917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_13
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1070
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6a7476fb7f2fa45813429c781ab4b0
+      internalID: -1444851891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_14
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1070
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2784ce473ab09a046803f00d3e5da69d
+      internalID: -1448705964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_15
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 1070
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d0221dbb59f324e9150a045a57f4d5
+      internalID: -535106351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_16
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 1070
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700f291ba2aef1c4fadec8478fafb581
+      internalID: -2110056174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_17
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 1070
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f080463009ae714bb190c4321c1f2d2
+      internalID: 1817116085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 856
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9389920399cda409e87a68e3ab42c9
+      internalID: -1991309684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_19
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 856
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733ca3c92e82e4e4daf15a11624ca72e
+      internalID: 739764862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_20
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 856
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a5da012cd530f4cbfa4a07d849ed20
+      internalID: 1584194419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_21
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 856
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2200b9db7594b4e4f8991118304ec329
+      internalID: -568409523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_22
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 856
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304660843326c6345970f8865763b733
+      internalID: 1857281064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_23
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 856
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fe67cd52be12f449cf52d22ba9eeaf
+      internalID: 1541273740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_24
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 856
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3aeb9993448824dbc2359355d25c2f
+      internalID: 906890008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_25
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 856
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17787156c506fa74ca11d8159661ce6c
+      internalID: 1782421028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_26
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 856
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c379be236504fb44a3ee2b417712b62
+      internalID: -667339453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 642
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7d57260c2b356409211f3a704fe67a
+      internalID: -1363559439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_28
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 642
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44eb358b981cb8040ab70224ad667cf8
+      internalID: -1156864513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_29
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 642
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7cc6df7e230ea2489f5f810d62a46ba
+      internalID: 1752574615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_30
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 642
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306f8a53872d67748af951554563e43b
+      internalID: -997913877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_31
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 642
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c45b0a9c460a3408cc9726616094de
+      internalID: -1565115795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_32
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 642
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffeef7093b142849a91f10419cdb7b4
+      internalID: -123820351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_33
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 642
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad64e221c89a1474b9e9bc0076ce7bf3
+      internalID: 1644493598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_34
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 642
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367318b4f615d584783a2c1380e22275
+      internalID: -1689823349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_35
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 642
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2a5ee391cdb1d488a1a5a475500ea4
+      internalID: -1340497387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 428
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13752517e36a89d4c8764db64afce405
+      internalID: -946078005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_37
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 428
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e478e4d30729e41aa93564e875cda6
+      internalID: 64704202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_38
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 428
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acca477d53fc22b45a765629dfb88dba
+      internalID: -1477133397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_39
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 428
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42022d6a3d3a88c429da39f8347e9a82
+      internalID: 1764015990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_40
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 428
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4f1b12a8235034b814360f81b92bad
+      internalID: 1373565311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_41
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 428
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4455b169268da534aa26c9c7332164df
+      internalID: -442765545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_42
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 428
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5101e948498db5c49aa54733612d6bd6
+      internalID: -899309474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_43
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 428
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3734c42a9633b004d9fe7aecbee951ee
+      internalID: 146355220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_44
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 428
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c401b22c64bfd584db3b854eef44ca94
+      internalID: -189701155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 214
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5cc207399284c43acc9cfd66659109
+      internalID: -1046281242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_46
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 214
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3995fd6614eacbd4d97d3f8317dc125f
+      internalID: 1106977462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_47
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 214
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e269bcabc276c024899ca875f2b8fb38
+      internalID: 1365411469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_48
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 214
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b72e9aec89d6b40a86a3c4d0ad2982
+      internalID: 378470224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_49
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 214
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8585d965b580840aa850dad5e11350
+      internalID: 548943630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_50
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 214
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a3597ca2159fb40a2b02d38eb7db49
+      internalID: -297570646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_51
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 214
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbda6f5683b6dd043a26a628d2b71132
+      internalID: -1265214858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_52
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 214
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d895dbe8bc94fb544b4e0cfa51255037
+      internalID: -1840199709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_53
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 214
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ee8905df765c740af507b35ab39343
+      internalID: -1916856587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd7dcc15ea851a469547a411318b350
+      internalID: 2066673571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_55
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 0
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda0215a1fa94df4ea71bd0a79184597
+      internalID: -2108244845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_56
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 0
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669e411c82a226d4283716c9f1b6ff83
+      internalID: 1949105731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_57
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 0
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994353c8ca04c314a9c3678030c10e67
+      internalID: 2021306112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_58
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 0
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7c106d502552d4a8f45df47384490e
+      internalID: -1588359326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_59
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 0
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d03192975b8a594d9bdc099ba99d22f
+      internalID: -1254540938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_60
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 0
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733362ad704b4834f841b8bb60162dcd
+      internalID: -314751823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_61
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 0
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df163dbace855e4492aeef8a9612170
+      internalID: -1073648299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Keqing_Teleport_Damage_214x214_62
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 0
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178632c9826c40c45b80865e918ea802
+      internalID: 1045045453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Skill_E_Keqing_Teleport_Damage_214x214_0: -481962146
+      Skill_E_Keqing_Teleport_Damage_214x214_1: 1204458075
+      Skill_E_Keqing_Teleport_Damage_214x214_10: -902488499
+      Skill_E_Keqing_Teleport_Damage_214x214_11: 879826920
+      Skill_E_Keqing_Teleport_Damage_214x214_12: -18392917
+      Skill_E_Keqing_Teleport_Damage_214x214_13: -1444851891
+      Skill_E_Keqing_Teleport_Damage_214x214_14: -1448705964
+      Skill_E_Keqing_Teleport_Damage_214x214_15: -535106351
+      Skill_E_Keqing_Teleport_Damage_214x214_16: -2110056174
+      Skill_E_Keqing_Teleport_Damage_214x214_17: 1817116085
+      Skill_E_Keqing_Teleport_Damage_214x214_18: -1991309684
+      Skill_E_Keqing_Teleport_Damage_214x214_19: 739764862
+      Skill_E_Keqing_Teleport_Damage_214x214_2: 1989078504
+      Skill_E_Keqing_Teleport_Damage_214x214_20: 1584194419
+      Skill_E_Keqing_Teleport_Damage_214x214_21: -568409523
+      Skill_E_Keqing_Teleport_Damage_214x214_22: 1857281064
+      Skill_E_Keqing_Teleport_Damage_214x214_23: 1541273740
+      Skill_E_Keqing_Teleport_Damage_214x214_24: 906890008
+      Skill_E_Keqing_Teleport_Damage_214x214_25: 1782421028
+      Skill_E_Keqing_Teleport_Damage_214x214_26: -667339453
+      Skill_E_Keqing_Teleport_Damage_214x214_27: -1363559439
+      Skill_E_Keqing_Teleport_Damage_214x214_28: -1156864513
+      Skill_E_Keqing_Teleport_Damage_214x214_29: 1752574615
+      Skill_E_Keqing_Teleport_Damage_214x214_3: -1653961202
+      Skill_E_Keqing_Teleport_Damage_214x214_30: -997913877
+      Skill_E_Keqing_Teleport_Damage_214x214_31: -1565115795
+      Skill_E_Keqing_Teleport_Damage_214x214_32: -123820351
+      Skill_E_Keqing_Teleport_Damage_214x214_33: 1644493598
+      Skill_E_Keqing_Teleport_Damage_214x214_34: -1689823349
+      Skill_E_Keqing_Teleport_Damage_214x214_35: -1340497387
+      Skill_E_Keqing_Teleport_Damage_214x214_36: -946078005
+      Skill_E_Keqing_Teleport_Damage_214x214_37: 64704202
+      Skill_E_Keqing_Teleport_Damage_214x214_38: -1477133397
+      Skill_E_Keqing_Teleport_Damage_214x214_39: 1764015990
+      Skill_E_Keqing_Teleport_Damage_214x214_4: -1978637744
+      Skill_E_Keqing_Teleport_Damage_214x214_40: 1373565311
+      Skill_E_Keqing_Teleport_Damage_214x214_41: -442765545
+      Skill_E_Keqing_Teleport_Damage_214x214_42: -899309474
+      Skill_E_Keqing_Teleport_Damage_214x214_43: 146355220
+      Skill_E_Keqing_Teleport_Damage_214x214_44: -189701155
+      Skill_E_Keqing_Teleport_Damage_214x214_45: -1046281242
+      Skill_E_Keqing_Teleport_Damage_214x214_46: 1106977462
+      Skill_E_Keqing_Teleport_Damage_214x214_47: 1365411469
+      Skill_E_Keqing_Teleport_Damage_214x214_48: 378470224
+      Skill_E_Keqing_Teleport_Damage_214x214_49: 548943630
+      Skill_E_Keqing_Teleport_Damage_214x214_5: 680592278
+      Skill_E_Keqing_Teleport_Damage_214x214_50: -297570646
+      Skill_E_Keqing_Teleport_Damage_214x214_51: -1265214858
+      Skill_E_Keqing_Teleport_Damage_214x214_52: -1840199709
+      Skill_E_Keqing_Teleport_Damage_214x214_53: -1916856587
+      Skill_E_Keqing_Teleport_Damage_214x214_54: 2066673571
+      Skill_E_Keqing_Teleport_Damage_214x214_55: -2108244845
+      Skill_E_Keqing_Teleport_Damage_214x214_56: 1949105731
+      Skill_E_Keqing_Teleport_Damage_214x214_57: 2021306112
+      Skill_E_Keqing_Teleport_Damage_214x214_58: -1588359326
+      Skill_E_Keqing_Teleport_Damage_214x214_59: -1254540938
+      Skill_E_Keqing_Teleport_Damage_214x214_6: 1485722920
+      Skill_E_Keqing_Teleport_Damage_214x214_60: -314751823
+      Skill_E_Keqing_Teleport_Damage_214x214_61: -1073648299
+      Skill_E_Keqing_Teleport_Damage_214x214_62: 1045045453
+      Skill_E_Keqing_Teleport_Damage_214x214_7: 1435608584
+      Skill_E_Keqing_Teleport_Damage_214x214_8: 547344836
+      Skill_E_Keqing_Teleport_Damage_214x214_9: -2126209288
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

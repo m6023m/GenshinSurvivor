@@ -1,0 +1,1460 @@
+fileFormatVersion: 2
+guid: 9af505a404e9bb04382e8f32c72d5fc2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 259
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 636
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89e98a32e77bda438c2af991e4d8780
+      internalID: 562299456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_1
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 636
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb70e323935322d40b51ad83bb762276
+      internalID: -2066212835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_2
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 636
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba50aa26b9f70e4396485f037a51991
+      internalID: -566000180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_3
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 636
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77b2ab69170254439157a2d2cdd9a30
+      internalID: 1903455131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_4
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 636
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a7d37e8dd094e4490f1ccb2814ab08
+      internalID: -2072639960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_5
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 636
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86bbe2fea6135ce4c982390d9740428a
+      internalID: 688495511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_6
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 636
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe1def9e305c7846bf0a43d51d7c073
+      internalID: -1896200028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_7
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 636
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2639583b5f3bfa428b9525be4c916c4
+      internalID: 487595617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_8
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 636
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49eacaff8fc06c64693e13b63be7e7ef
+      internalID: -1419123551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 530
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505e4ed4a43a33940ad6c8930c058cca
+      internalID: -1768356061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_10
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 530
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d49a2b5caaad446a87bdc57698792a
+      internalID: 1516104617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_11
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 530
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d205090feafdf154db8a79bbc21555dd
+      internalID: -1232425118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_12
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 530
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c436e88b992ce346a4ffd43e8944aee
+      internalID: 893199979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_13
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 530
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f73fe62d445d44e9463e78ce48034f
+      internalID: -1209590834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_14
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 530
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f51c4c159476c94fa91d8e5fcd4fb42
+      internalID: -1417569318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_15
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 530
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09314d82fbbce184d8e10b78f20b1e76
+      internalID: -523401095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_16
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 530
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c7a7dc77b16aa4483962f4908b7ecb
+      internalID: 1419258085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_17
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 530
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4f0a37ed71a924e9351e48deb42884
+      internalID: 868605753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 424
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45eab3a68570a5249b88c077d60ca3b9
+      internalID: -1779300292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_19
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 424
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e39b5a0ab750434c8079a58e0f47983
+      internalID: 477033088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_20
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 424
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1399f180dcec8e4eb9646bacd52fa64
+      internalID: -1781254212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_21
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 424
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35db04b43cdab5948b18d7d5f1934a35
+      internalID: -1066773069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_22
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 424
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26aab496f400fbf4898a8851c97f3c35
+      internalID: 1083991817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_23
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 424
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df323d916dcccb4dbaf52e4873bb097
+      internalID: -1487950139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_24
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 424
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8492b91bc17165428f254b70dcb48b4
+      internalID: -1160304305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_25
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 424
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a09761b0e6b7b4b8697c35678a6f8a
+      internalID: -1389307959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_26
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 424
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f83d305971db544b452dc5f5a7b0ba
+      internalID: -179704564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 318
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858a96df985461f4eacd785897b74094
+      internalID: -1273457650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_28
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 318
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d8009c8de4df54494fd3f09347a989
+      internalID: -633395789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_29
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 318
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30a37f904ded274e88418b25f249388
+      internalID: -980869567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_30
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 318
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5031f462988534589afa372ab40964
+      internalID: 1231593133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_31
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 318
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cccfaa5f6e0e2d44acc50bf2f44d180
+      internalID: -1035789064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_32
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 318
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807d11bcbaa0f54449e996f739ed934b
+      internalID: -1801559228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_33
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 318
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e2ebe404624e04cb565936ae16b50d
+      internalID: -1337649378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_34
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 318
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc938ecc387899408256b1d415c63b1
+      internalID: 1110558719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_35
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 318
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b543499c58c8514c99c0184b087c1a9
+      internalID: -597536815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 212
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9125fc0097f2e824c8c396b9e0fb287b
+      internalID: -1982685938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_37
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 212
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6fee1381f949374d88a52f41bdd0cbd
+      internalID: -882962075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_38
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 212
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed2c9f9cb9e4f84c949e914f52aa2c2
+      internalID: -475061820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_39
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 212
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d2689f04a1d5d408f7452d4cb71ca6
+      internalID: 1030086857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_40
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 212
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8594a616c13de240912ed41c2785e7e
+      internalID: 1765751729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_41
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 212
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a052625b9e2a64e8cc7a86c51866eb
+      internalID: -1470995384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_42
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 212
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee1bfd8a53123943a1da35cd88855cf
+      internalID: -1265208264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_43
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 212
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8dd4a830fa57d843be562075e5bda36
+      internalID: -1165502212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_44
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 212
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c3422d9ac4a8e45ad3c352dcc636b2
+      internalID: 2046393875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5faa636b8eac4f34eaffd93409cd06cd
+      internalID: 78702463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_46
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 106
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cff1651f0fc49e4aad298b3eded9599
+      internalID: -1444701816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_47
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 106
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328daba0aa3498d4d976089668e4f783
+      internalID: -794461054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_48
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 106
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267a323c96412434f96a0056bf1044a4
+      internalID: 1471696307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_49
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 106
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af6748bd8709d5488d1b2d4eb490a51
+      internalID: -1284443210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_50
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 106
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e4b2c2fc820f64a9350472db64a670
+      internalID: 1060482625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_51
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 106
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099aaf34cdee10d4d9e302e002f04779
+      internalID: 2030261805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_52
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 106
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8b486fef7f23645833d941e4a9a128
+      internalID: -726498785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_53
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 106
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42205054a2a1c344f8b6acae20bea087
+      internalID: 2025575127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f280b70bf1af64da9bb7f805f5bd7c
+      internalID: -2106335535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_55
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 0
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d9769b1d7f09c45b42c72cfc112a62
+      internalID: -406764926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_56
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 0
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5e568b947593f4898134b0c256c003
+      internalID: 1937507823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_57
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 0
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07715788c6f478e41a45260b6b832054
+      internalID: -175233505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_58
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 0
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83fb8c3236058d4e85a2c288ff1f3b1
+      internalID: -1247707409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Razor_259x106_59
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 0
+        width: 259
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da1258490314ad4f98b95295b640493
+      internalID: 650946450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Skill_EB_Razor_259x106_0: 562299456
+      Skill_EB_Razor_259x106_1: -2066212835
+      Skill_EB_Razor_259x106_10: 1516104617
+      Skill_EB_Razor_259x106_11: -1232425118
+      Skill_EB_Razor_259x106_12: 893199979
+      Skill_EB_Razor_259x106_13: -1209590834
+      Skill_EB_Razor_259x106_14: -1417569318
+      Skill_EB_Razor_259x106_15: -523401095
+      Skill_EB_Razor_259x106_16: 1419258085
+      Skill_EB_Razor_259x106_17: 868605753
+      Skill_EB_Razor_259x106_18: -1779300292
+      Skill_EB_Razor_259x106_19: 477033088
+      Skill_EB_Razor_259x106_2: -566000180
+      Skill_EB_Razor_259x106_20: -1781254212
+      Skill_EB_Razor_259x106_21: -1066773069
+      Skill_EB_Razor_259x106_22: 1083991817
+      Skill_EB_Razor_259x106_23: -1487950139
+      Skill_EB_Razor_259x106_24: -1160304305
+      Skill_EB_Razor_259x106_25: -1389307959
+      Skill_EB_Razor_259x106_26: -179704564
+      Skill_EB_Razor_259x106_27: -1273457650
+      Skill_EB_Razor_259x106_28: -633395789
+      Skill_EB_Razor_259x106_29: -980869567
+      Skill_EB_Razor_259x106_3: 1903455131
+      Skill_EB_Razor_259x106_30: 1231593133
+      Skill_EB_Razor_259x106_31: -1035789064
+      Skill_EB_Razor_259x106_32: -1801559228
+      Skill_EB_Razor_259x106_33: -1337649378
+      Skill_EB_Razor_259x106_34: 1110558719
+      Skill_EB_Razor_259x106_35: -597536815
+      Skill_EB_Razor_259x106_36: -1982685938
+      Skill_EB_Razor_259x106_37: -882962075
+      Skill_EB_Razor_259x106_38: -475061820
+      Skill_EB_Razor_259x106_39: 1030086857
+      Skill_EB_Razor_259x106_4: -2072639960
+      Skill_EB_Razor_259x106_40: 1765751729
+      Skill_EB_Razor_259x106_41: -1470995384
+      Skill_EB_Razor_259x106_42: -1265208264
+      Skill_EB_Razor_259x106_43: -1165502212
+      Skill_EB_Razor_259x106_44: 2046393875
+      Skill_EB_Razor_259x106_45: 78702463
+      Skill_EB_Razor_259x106_46: -1444701816
+      Skill_EB_Razor_259x106_47: -794461054
+      Skill_EB_Razor_259x106_48: 1471696307
+      Skill_EB_Razor_259x106_49: -1284443210
+      Skill_EB_Razor_259x106_5: 688495511
+      Skill_EB_Razor_259x106_50: 1060482625
+      Skill_EB_Razor_259x106_51: 2030261805
+      Skill_EB_Razor_259x106_52: -726498785
+      Skill_EB_Razor_259x106_53: 2025575127
+      Skill_EB_Razor_259x106_54: -2106335535
+      Skill_EB_Razor_259x106_55: -406764926
+      Skill_EB_Razor_259x106_56: 1937507823
+      Skill_EB_Razor_259x106_57: -175233505
+      Skill_EB_Razor_259x106_58: -1247707409
+      Skill_EB_Razor_259x106_59: 650946450
+      Skill_EB_Razor_259x106_6: -1896200028
+      Skill_EB_Razor_259x106_7: 487595617
+      Skill_EB_Razor_259x106_8: -1419123551
+      Skill_EB_Razor_259x106_9: -1768356061
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

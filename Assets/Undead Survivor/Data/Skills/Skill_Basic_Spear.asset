@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f16caae2ed0cea4a9f1cabb809bc6a1, type: 3}
+  m_Name: Skill_Basic_Spear
+  m_EditorClassIdentifier: 
+  sequences:
+  - animation: {fileID: 7400000, guid: 7ac213ac8a8518c4fb0ce8effa9804ab, type: 2}
+    objectType: 0
+    duration: 0
+    isProjectile: 0
+    isSummonAttack: 0
+    isPositionFix: 0
+    isRotate: 0
+    coolTime: 0
+    _skillCount: 1
+    isSkillAdd: 1
+    delay: 0
+    isContinue: 0
+    aim: 1
+    isSequence: 0
+    isTransform: 1
+    defalutPosition: {x: 0, y: 0}
+    skillSize: 2
+    createRange: 1
+    layerOrder: 0
+    moveRange: 0
+    moveTime: 0
+    randomRange: 0
+    animationSpeed: 1

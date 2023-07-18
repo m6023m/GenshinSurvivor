@@ -1,0 +1,1438 @@
+fileFormatVersion: 2
+guid: 81093c66cf6b97046ae400ee6a1ada23
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 517
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_0
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 2694
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b935d2e380e526747a04e946cc4ca638
+      internalID: -1592123376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_1
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 2694
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f3c377bff03784dbe7b15a3e681482
+      internalID: -1476073417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_2
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 2694
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d178d29a7dc7ea4d9bb61c09b0a3978
+      internalID: 639163024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_3
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 2694
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d24755301fb8ac49ac0495d32385b04
+      internalID: -1201307013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_4
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 2694
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc72684f3a3c4434aad554507b3d338e
+      internalID: 1417136053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_5
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 2694
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981a21331323b5b408f8d3d2e62bf1c3
+      internalID: 215781130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_6
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 2694
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67739f33ff63874fb5aabface18c3f7
+      internalID: -1557702378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_7
+      rect:
+        serializedVersion: 2
+        x: 4136
+        y: 2694
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c362536eb985443478857e0f1e23bd36
+      internalID: 528309597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2245
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec581d0f58875954eaacad7c4c22c14d
+      internalID: -1229459615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_9
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 2245
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967a4da4383114749898acec3314d78e
+      internalID: 1733531224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_10
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 2245
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ef4134b05d2f047b6d2858542b38b0
+      internalID: 572787933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_11
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 2245
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7de54b6fd34cf4aa4958a6f7b8c522
+      internalID: -1391849483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_12
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 2245
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd291ee84e360964bb165f9fa04bdf02
+      internalID: -1528491202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_13
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 2245
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6c188717e00b345913bf39b68b7ac3
+      internalID: -6810419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_14
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 2245
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878f9059d62d85842a5170f383780519
+      internalID: 450125839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_15
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 2245
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42d5f5d700845749bb637ebaba9c590
+      internalID: -1688241836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_16
+      rect:
+        serializedVersion: 2
+        x: 4136
+        y: 2245
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6de96a0f29d72347b30a7ae9ece9f3c
+      internalID: 2078880489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1796
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26ea0f94e83ee64faf037f6412cd14a
+      internalID: -1240867841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_18
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1796
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed1db8b95fc8d741b8f8f53288b20c5
+      internalID: -1477237764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_19
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1796
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8a01a03f9e4004785570a82598d401
+      internalID: 552783215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_20
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 1796
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c2d0d414084944480b2e09a062ab4d
+      internalID: 564928693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_21
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 1796
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faadce87338bf4b4598992c6740ff698
+      internalID: 688988934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_22
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 1796
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69aeb305af7c8a4a90bd2ddc9cb8631
+      internalID: 301266705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_23
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 1796
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aec942c3ce706d4f8aeb9c84418eb5a
+      internalID: -546477082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_24
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 1796
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5ee78ab36164e4598aa3a2ea25ceb7
+      internalID: -1392010575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_25
+      rect:
+        serializedVersion: 2
+        x: 4136
+        y: 1796
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b8c584f66c25d4ba38c42fd25685bb
+      internalID: 2080712992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1347
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfaf8827ba9765e40b3461a89d215ed6
+      internalID: -1293477251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_27
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1347
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915dbb6f4f9bb6e4fa7740ebd7ceba5d
+      internalID: 1658343767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_28
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1347
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd53e11e856f6e4b8f957eda128ab7e
+      internalID: -197520127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_29
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 1347
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47e13abb264d5046a06b4415dab3b57
+      internalID: 1572278726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_30
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 1347
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935e91c8ed706fd41b7e4d81cb965847
+      internalID: -1034014390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_31
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 1347
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c34f0119c14fec46a3646872cc31127
+      internalID: -1712961752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_32
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 1347
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fff156aa50dfe469797ec15fc783c9
+      internalID: 1084110982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_33
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 1347
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70e22db98aebe347b234104e3625876
+      internalID: -1198337130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_34
+      rect:
+        serializedVersion: 2
+        x: 4136
+        y: 1347
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b676e5dae182f4a8a6075e5a59eaeb
+      internalID: 1249791445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 898
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae33e86b096945e4982d0bb9bfd27923
+      internalID: -1666322148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_36
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 898
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082ed8e27a362384fa6cacb12e922ce5
+      internalID: -685481946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_37
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 898
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274d02d6c6790df4f817483ad496990f
+      internalID: -1651611488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_38
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 898
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3938bc7408ff44cb6c602b1c2685f8
+      internalID: -1199028300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_39
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 898
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e66d8d36f8cf3c4ca1a975a13b928d1
+      internalID: 1578967262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_40
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 898
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82880594f42ebc44ac60775859042b3
+      internalID: -1988969410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_41
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 898
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd5f31d9a405c7488a8d11c67fc42df
+      internalID: 1676458471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_42
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 898
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99aa285c352ebf746bae43e089dd506d
+      internalID: 570133520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_43
+      rect:
+        serializedVersion: 2
+        x: 4136
+        y: 898
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d4a6ab53708184f8cb13f69aafda2f
+      internalID: -1054880555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 449
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e997df8ed7b90b94590b6cb19392f561
+      internalID: 1622780187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_45
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 449
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e56f4788972b14499dea2f978931cba
+      internalID: -1775950537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_46
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 449
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d028cae56b1a9c44b9803420a2bc404c
+      internalID: 336839234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_47
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 449
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7d8f4355876714b9ffcabcb0431b3a
+      internalID: 1279674501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_48
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 449
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c0687001662954ca3c80b54a426c70
+      internalID: -1857309044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_49
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 449
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b7a0b7bd0cee74986135bb28945503
+      internalID: 1613854133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_50
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 449
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eeb8a81c23852547ad13a261469049e
+      internalID: 411027286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_51
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 449
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d503d674f74fa4ca38021f8f51d74b
+      internalID: -282671649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_52
+      rect:
+        serializedVersion: 2
+        x: 4136
+        y: 449
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e84b447216d33f4a83604733908098e
+      internalID: 2108449514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5924cb0b094962c4d88c27c28b301c9a
+      internalID: -711204808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_54
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 0
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d7d1269cae683479faf109ac4c21c0
+      internalID: -1790696612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_55
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 0
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0777f114afa4b44a2ff2b0f48f890d
+      internalID: -1716607142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_56
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 0
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ee069fb03e53c4a9f890bfb1d4ad9a
+      internalID: 1492330699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_57
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 0
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999869d7bc50f104797b4416135ec43a
+      internalID: 1827044508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Bennet_517x449_58
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 0
+        width: 517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c843c5d35e81ce343b16a5e420bd92f4
+      internalID: -1791125092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Skill_E_Bennet_517x449_0: -1592123376
+      Skill_E_Bennet_517x449_1: -1476073417
+      Skill_E_Bennet_517x449_10: 572787933
+      Skill_E_Bennet_517x449_11: -1391849483
+      Skill_E_Bennet_517x449_12: -1528491202
+      Skill_E_Bennet_517x449_13: -6810419
+      Skill_E_Bennet_517x449_14: 450125839
+      Skill_E_Bennet_517x449_15: -1688241836
+      Skill_E_Bennet_517x449_16: 2078880489
+      Skill_E_Bennet_517x449_17: -1240867841
+      Skill_E_Bennet_517x449_18: -1477237764
+      Skill_E_Bennet_517x449_19: 552783215
+      Skill_E_Bennet_517x449_2: 639163024
+      Skill_E_Bennet_517x449_20: 564928693
+      Skill_E_Bennet_517x449_21: 688988934
+      Skill_E_Bennet_517x449_22: 301266705
+      Skill_E_Bennet_517x449_23: -546477082
+      Skill_E_Bennet_517x449_24: -1392010575
+      Skill_E_Bennet_517x449_25: 2080712992
+      Skill_E_Bennet_517x449_26: -1293477251
+      Skill_E_Bennet_517x449_27: 1658343767
+      Skill_E_Bennet_517x449_28: -197520127
+      Skill_E_Bennet_517x449_29: 1572278726
+      Skill_E_Bennet_517x449_3: -1201307013
+      Skill_E_Bennet_517x449_30: -1034014390
+      Skill_E_Bennet_517x449_31: -1712961752
+      Skill_E_Bennet_517x449_32: 1084110982
+      Skill_E_Bennet_517x449_33: -1198337130
+      Skill_E_Bennet_517x449_34: 1249791445
+      Skill_E_Bennet_517x449_35: -1666322148
+      Skill_E_Bennet_517x449_36: -685481946
+      Skill_E_Bennet_517x449_37: -1651611488
+      Skill_E_Bennet_517x449_38: -1199028300
+      Skill_E_Bennet_517x449_39: 1578967262
+      Skill_E_Bennet_517x449_4: 1417136053
+      Skill_E_Bennet_517x449_40: -1988969410
+      Skill_E_Bennet_517x449_41: 1676458471
+      Skill_E_Bennet_517x449_42: 570133520
+      Skill_E_Bennet_517x449_43: -1054880555
+      Skill_E_Bennet_517x449_44: 1622780187
+      Skill_E_Bennet_517x449_45: -1775950537
+      Skill_E_Bennet_517x449_46: 336839234
+      Skill_E_Bennet_517x449_47: 1279674501
+      Skill_E_Bennet_517x449_48: -1857309044
+      Skill_E_Bennet_517x449_49: 1613854133
+      Skill_E_Bennet_517x449_5: 215781130
+      Skill_E_Bennet_517x449_50: 411027286
+      Skill_E_Bennet_517x449_51: -282671649
+      Skill_E_Bennet_517x449_52: 2108449514
+      Skill_E_Bennet_517x449_53: -711204808
+      Skill_E_Bennet_517x449_54: -1790696612
+      Skill_E_Bennet_517x449_55: -1716607142
+      Skill_E_Bennet_517x449_56: 1492330699
+      Skill_E_Bennet_517x449_57: 1827044508
+      Skill_E_Bennet_517x449_58: -1791125092
+      Skill_E_Bennet_517x449_6: -1557702378
+      Skill_E_Bennet_517x449_7: 528309597
+      Skill_E_Bennet_517x449_8: -1229459615
+      Skill_E_Bennet_517x449_9: 1733531224
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

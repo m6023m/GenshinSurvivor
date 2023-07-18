@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AcBossTartaglia2
+  m_Controller: {fileID: 9100000, guid: 123cd8ec92a6d43428ea6075eeeee80a, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: c9bc63410c6e2b5418cb24fc0198d11b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 76012d104c5c7ba43b11817a5b959656, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: dda9b0f60da298e4b8f86c36a8e527c1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 76012d104c5c7ba43b11817a5b959656, type: 2}
