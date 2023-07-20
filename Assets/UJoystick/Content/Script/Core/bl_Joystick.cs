@@ -29,6 +29,7 @@ public class bl_Joystick : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     private Canvas m_Canvas;
     CanvasScaler cs;
     Vector3 addPosition;
+    Vector3 addStickPosition;
     private float diff;
     private Vector3 PressScaleVector;
 
@@ -81,10 +82,13 @@ public class bl_Joystick : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
             hRatio * (cs.matchWidthOrHeight);
 
         // 현재 스크린에서 RectTransform의 실제 너비, 높이
-        float pixelWidth = rectTransform.rect.width * ratio / 2;
-        float pixelHeight = rectTransform.rect.height * ratio / 2;
+        float pixelWidth = rectTransform.rect.width * hRatio;
+        float pixelHeight = rectTransform.rect.height * hRatio;
+        float pixelRectWidth = StickRect.rect.width * hRatio;
+        float pixelRectHeight = StickRect.rect.height * hRatio;
 
-        addPosition = new Vector3(pixelWidth / 2, pixelHeight / 2);
+        addPosition = new Vector3(pixelHeight / 2, pixelHeight / 2);
+        addStickPosition = new Vector3(pixelRectWidth / 2, pixelRectHeight / 2);
     }
 
 
@@ -124,7 +128,7 @@ public class bl_Joystick : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
             // Vector3 position = bl_JoystickUtils.TouchPosition(m_Canvas, GetTouchID);
             Vector3 position = data.position;
             transform.position = position - addPosition;
-            StickRect.position = position;
+            StickRect.position = position - addStickPosition;
             //Rotate into the area circumferential of joystick
             lastId = data.pointerId;
             StopAllCoroutines();
