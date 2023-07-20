@@ -134,7 +134,7 @@ Skill.Discription.EB_Travler_Anemo,적과 아이템을 끌어당기는 회오리
 Skill.Discription.E_Travler_Geo,플레이어 근처에 바위 원소 창조물을 소환하며 바위 원소 대미지를 입힘,
 Skill.Discription.EB_Travler_Geo,플레이어 주변에 바위 원소 지속피해를 입힌 뒤 바위 원소 창조물을 소환함,
 Skill.Discription.E_Amber,일정 시간 후에 폭발하여 화염 속성 피해를 주는 인형 생성,"After A Certain Time, It Explodes And Produces A Doll That Causes Damage"
-Skill.Discription.EB_Amber,범위에 화염 속성 지속피해를 주는 장판 생성,Create A Floor Plate That Causes Damage To Flame Properties In The Range
+Skill.Discription.EB_Amber,범위에 화염 속성 지속피해를 주는 장판 생성,Create A Board That Causes Damage To Flame Properties In The Range
 Skill.Discription.E_Xiangling,화염 속성 지속 범위피해를 주는 인형 생성,Doll Generation That Causes Damage To The Flame Properties Continuous Range
 Skill.Discription.EB_Xiangling,플레이어 주위를 회전하며 화염 속성 피해를 주는 화륜을 생성,Create A Ring That Rotates Around The Player And Causes Flame Property Damage
 Skill.Discription.E_Bennet,플레이어 전방에 화염 피해를 주는 공격을 함,Attacks That Cause Flame Damage In Front Of The Player

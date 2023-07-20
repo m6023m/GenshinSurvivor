@@ -12,12 +12,12 @@ public class CreditTexts : MonoBehaviour
         string textResult = "";
         foreach (CreditText creditText in creditTexts)
         {
-            textResult.AddString(creditText.discription);
+            textResult = textResult.AddString(creditText.discription);
             if (creditText.link.Length > 0)
             {
-                textResult.AddString(" ".AddString(creditText.link.FormatLink()));
+                textResult = textResult.AddString(" ".AddString(creditText.link.FormatLink()));
             }
-            textResult.AddString("\n");
+            textResult = textResult.AddString("\n");
         }
         text.text = textResult;
     }
