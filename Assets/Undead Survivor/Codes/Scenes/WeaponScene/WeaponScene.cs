@@ -9,6 +9,7 @@ public class WeaponScene : MonoBehaviour
 {
     private void Awake()
     {
+        WeaponManager.instance.InitUI();
         WeaponManager.instance.SetEnable(true);
     }
     private void OnDisable()

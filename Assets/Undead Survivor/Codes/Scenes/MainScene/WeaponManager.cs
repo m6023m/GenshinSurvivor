@@ -32,15 +32,10 @@ public class WeaponManager : MonoBehaviour
     LongClickButton longClickUpgrade;
     public WeaponButton[] weaponButtons;
     int buttonIndex = 0;
+    public GameObject activeGroup;
     private void Awake()
     {
         instance = this;
-        Init();
-    }
-
-    void Init()
-    {
-        InitUI();
         InitButton();
     }
 
@@ -58,8 +53,9 @@ public class WeaponManager : MonoBehaviour
 
     }
 
-    void InitUI()
+    public void InitUI()
     {
+        SetEnable(true);
         DisableAllWeapon();
         WriteMora();
         SetupWeaponObjects(WeaponData.Type.Rare);
@@ -71,10 +67,10 @@ public class WeaponManager : MonoBehaviour
 
     public void InitUIWithPlayer(WeaponType weaponType)
     {
+        SetEnable(true);
         DisableAllWeapon();
         WriteMora();
         SetupWeaponPlayer(weaponType);
-        SetEnable(true);
         VisibleSelectButton(true);
     }
     void WriteMora()
@@ -235,6 +231,7 @@ public class WeaponManager : MonoBehaviour
     {
         canvasGroup.alpha = enabled ? 1.0f : 0.0f;
         canvasGroup.blocksRaycasts = enabled;
+        activeGroup.SetActive(enabled);
     }
 
     public void VisibleSelectButton(bool visible)

@@ -17,11 +17,12 @@ public class TooltipPanel : MonoBehaviour
         textMeshPro = GetComponentInChildren<TextMeshProUGUI>();
         canvasGroup = GetComponent<CanvasGroup>();
 
-        buttonClose = GetComponentInChildren<Button>();
+        buttonClose = GetComponentInChildren<Button>(true);
         buttonClose.onClick.AddListener(() =>
         {
             canvasGroup.alpha = 0.0f;
             buttonClose.image.raycastTarget = false;
+            buttonClose.gameObject.SetActive(false);
             canvasGroup.blocksRaycasts = false;
         });
         if (!GameDataManager.instance.isMobile) buttonClose.gameObject.SetActive(false);
@@ -33,6 +34,7 @@ public class TooltipPanel : MonoBehaviour
         textMeshPro.text = text;
         buttonClose.image.raycastTarget = true;
         canvasGroup.blocksRaycasts = true;
+        if (GameDataManager.instance.isMobile) buttonClose.gameObject.SetActive(true);
         canvasGroup.alpha = 1.0f;
         float canvasX = canvasTransform.rect.width / 2;
         transform.position = new Vector2(canvasX, y - transform.localScale.y / 2 + 100.0f);
@@ -44,5 +46,6 @@ public class TooltipPanel : MonoBehaviour
         canvasGroup.alpha = 0.0f;
         buttonClose.image.raycastTarget = false;
         canvasGroup.blocksRaycasts = false;
+        buttonClose.gameObject.SetActive(false);
     }
 }
