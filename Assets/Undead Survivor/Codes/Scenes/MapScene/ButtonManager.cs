@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
 
 public class ButtonManager : MonoBehaviour
 {
@@ -62,6 +63,7 @@ public class ButtonManager : MonoBehaviour
             pauseWindow.SetActive(true);
             GameManager.instance.infoManager.Init();
             GameDataManager.instance.saveData.record.clickPaimonCount++;
+            btnContinue.gameObject.SelectObject();
         }
     }
 
@@ -77,6 +79,7 @@ public class ButtonManager : MonoBehaviour
         AudioManager.instance.PlaySFX(AudioManager.SFX.Click);
         pauseWindow.SetActive(true);
         optionWindow.SetActive(false);
+        btnContinue.gameObject.SelectObject();
     }
 
     void OnClickOption()
@@ -84,6 +87,7 @@ public class ButtonManager : MonoBehaviour
         AudioManager.instance.PlaySFX(AudioManager.SFX.Click);
         pauseWindow.SetActive(false);
         optionWindow.SetActive(true);
+        btnCloseOption.gameObject.SelectObject();
     }
 
     void OnClickSurrender()
@@ -91,6 +95,7 @@ public class ButtonManager : MonoBehaviour
         AudioManager.instance.PlaySFX(AudioManager.SFX.Click);
         surrenderConfirmWindow.SetActive(true);
         pauseWindow.SetActive(false);
+        btnSurrenderCancel.gameObject.SelectObject();
     }
 
     void OnClickSurrenderOk()
@@ -105,6 +110,7 @@ public class ButtonManager : MonoBehaviour
         AudioManager.instance.PlaySFX(AudioManager.SFX.Click);
         surrenderConfirmWindow.SetActive(false);
         pauseWindow.SetActive(true);
+        btnContinue.gameObject.SelectObject();
     }
     public void PopNextDefeat()
     {

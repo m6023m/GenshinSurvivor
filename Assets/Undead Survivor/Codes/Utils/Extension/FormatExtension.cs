@@ -3,6 +3,7 @@ using System.Text;
 using System.Collections.Generic;
 using Assets.SimpleLocalization;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public static class FormatExtension
 {
@@ -166,5 +167,9 @@ public static class FormatExtension
         return stringBuilder.ToString();
     }
 
+    public static void SelectObject(this GameObject obj)
+    {
+        EventSystem.current.SetSelectedGameObject(obj);
+    }
 
 }

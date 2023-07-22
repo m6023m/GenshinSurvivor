@@ -6,13 +6,14 @@ using TMPro;
 
 public class SlotButton : MonoBehaviour
 {
+    public Material highlightMaterial;
     protected Image image
     {
         get
         {
             if (_image == null)
             {
-                _image = GetComponentsInChildren<Image>()[2];
+                _image = GetComponentsInChildren<Image>()[1];
             }
             return _image;
         }
@@ -23,7 +24,7 @@ public class SlotButton : MonoBehaviour
         {
             if (_rarityBackgroundImage == null)
             {
-                _rarityBackgroundImage = GetComponentsInChildren<Image>()[1];
+                _rarityBackgroundImage = GetComponent<Image>();
             }
             return _rarityBackgroundImage;
         }
@@ -39,13 +40,15 @@ public class SlotButton : MonoBehaviour
             return _title;
         }
     }
-    protected Button button
+    protected EventButton button
     {
         get
         {
             if (_button == null)
             {
-                _button = GetComponentInChildren<Button>();
+                _button = GetComponentInChildren<EventButton>();
+                _button.onSelect = () => { _button.image.material = highlightMaterial; };
+                _button.onDeselect = () => { _button.image.material = null; };
             }
             return _button;
         }
@@ -59,12 +62,12 @@ public class SlotButton : MonoBehaviour
     protected void SetEnable()
     {
         image.color = new Color(1f, 1f, 1f, 1);
-        rarityBackgroundImage.color =  new Color(1f, 1f, 1f, 1);
+        rarityBackgroundImage.color = new Color(1f, 1f, 1f, 1);
     }
     private Image _image;
     private Image _rarityBackgroundImage;
     private TextMeshProUGUI _title;
-    private Button _button;
+    private EventButton _button;
     public Sprite[] raritySprite;
 }
 
