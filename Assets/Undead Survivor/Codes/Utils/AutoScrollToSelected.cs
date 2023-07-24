@@ -40,8 +40,9 @@ public class AutoScrollToSelected : MonoBehaviour
 
         // Calculate the position of the selected UI element relative to the scroll rect
         RectTransform selectedRectTransform = selected.GetComponent<RectTransform>();
-        float selectedPosition = -((scrollRect.content.rect.height * 0.5f) - selectedRectTransform.anchoredPosition.y - (selectedRectTransform.sizeDelta.y * 0.5f));
-        selectedPosition /= scrollRect.content.rect.height;
+        // float selectedPosition = -((scrollRect.content.rect.height * 0.5f) - selectedRectTransform.anchoredPosition.y - (selectedRectTransform.sizeDelta.y * 0.5f));
+        // selectedPosition /= scrollRect.content.rect.height;
+        float selectedPosition = selected.transform.position.y;
 
         // Scroll the scroll rect to the selected position
         scrollRect.verticalNormalizedPosition = Mathf.Lerp(scrollRect.verticalNormalizedPosition, selectedPosition, Time.deltaTime * 10);
