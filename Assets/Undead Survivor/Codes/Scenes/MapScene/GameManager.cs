@@ -237,7 +237,6 @@ public class GameManager : MonoBehaviour
     public void Pause(bool pause)
     {
         IsPause = pause;
-        // touchPanel.SetActive(!pause);
         touchController.gameObject.SetActive(!pause);
         AudioManager.instance.EffectBgm(pause);
         Time.timeScale = pause ? 0 : 1;

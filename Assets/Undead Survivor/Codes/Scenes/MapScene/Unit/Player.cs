@@ -103,7 +103,7 @@ public class Player : SkillOwner
     {
         if (vec == Vector3.zero)
         {
-            inputVec = new Vector3(rewiredPlayer.GetAxis("UIHorizontal"), rewiredPlayer.GetAxis("UIVertical"));
+            inputVec = new Vector3(rewiredPlayer.GetAxis("UIHorizontal"), rewiredPlayer.GetAxis("UIVertical")).normalized;
             SetDir();
         }
         Vector2 nextVec = inputVec * GameManager.instance.statCalcuator.Speed * Time.fixedDeltaTime;

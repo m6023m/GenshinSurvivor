@@ -40,6 +40,7 @@ MonoBehaviour:
     isContinue: 0
     aim: 1
     isTraking: 0
+    isMagnet: 0
     isSequence: 0
     isTransform: 1
     isChangedElement: 0
@@ -48,12 +49,13 @@ MonoBehaviour:
     defalutRotation: {x: 0, y: 0}
     centerOffset: {x: 0, y: 0}
     skillSize: 2
-    createRange: 0.5
+    createRange: 1
     layerOrder: 0
     moveRange: 0
     moveTime: 0
     randomRange: 0
     animationSpeed: 1
+    isAnimationSpeedMatchDuration: 0
   - animation: {fileID: 7400000, guid: 7ac213ac8a8518c4fb0ce8effa9804ab, type: 2}
     objectType: 0
     damage: 3
@@ -81,6 +83,7 @@ MonoBehaviour:
     isContinue: 0
     aim: 1
     isTraking: 0
+    isMagnet: 0
     isSequence: 0
     isTransform: 1
     isChangedElement: 0
@@ -95,3 +98,4 @@ MonoBehaviour:
     moveTime: 0
     randomRange: 0
     animationSpeed: 1
+    isAnimationSpeedMatchDuration: 0
