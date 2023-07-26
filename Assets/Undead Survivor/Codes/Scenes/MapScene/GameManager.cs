@@ -4,7 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
-
+using Rewired;
+using Rewired.ComponentControls;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
@@ -31,7 +32,7 @@ public class GameManager : MonoBehaviour
     public ArtifactData artifactData;
     public ButtonManager buttonManager;
     public DamageManager damageManager;
-    public TouchPanel touchPanel;
+    public TouchController touchController;
     public LevelUpManager levelUpManager;
     public BattleResult battleResult;
     public CharacterData characterData;
@@ -236,7 +237,8 @@ public class GameManager : MonoBehaviour
     public void Pause(bool pause)
     {
         IsPause = pause;
-        touchPanel.SetActive(!pause);
+        // touchPanel.SetActive(!pause);
+        touchController.gameObject.SetActive(!pause);
         AudioManager.instance.EffectBgm(pause);
         Time.timeScale = pause ? 0 : 1;
     }

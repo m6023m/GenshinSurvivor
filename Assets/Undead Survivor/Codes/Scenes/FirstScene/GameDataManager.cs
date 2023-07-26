@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Rewired;
 
 public class GameDataManager : MonoBehaviour
 {
@@ -34,6 +35,8 @@ public class GameDataManager : MonoBehaviour
         {
             SceneManager.LoadScene("MainScene");
         }
+
+        UnityInputOverride.enabled = true;
     }
 
     public void SaveInstance()

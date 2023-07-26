@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
 using System;
+using Rewired;
 public class Player : SkillOwner
 {
     public Vector3 inputVec;
@@ -16,6 +17,7 @@ public class Player : SkillOwner
     public SpriteRenderer spriter;
     public Animator animator;
     public Collider2D coll;
+    Rewired.Player rewiredPlayer;
     int rebirthCnt = 0;
     public RuntimeAnimatorController[] animCon;
     Dictionary<SkillName, Sheild> _sheilds;
@@ -57,6 +59,7 @@ public class Player : SkillOwner
         weapons = GetComponentsInChildren<Weapon>();
         moraAttach = GetComponentInChildren<DamageAttach>();
         rebirthCnt = 0;
+        rewiredPlayer = ReInput.players.GetPlayer(0);
         Init();
     }
 
@@ -100,7 +103,7 @@ public class Player : SkillOwner
     {
         if (vec == Vector3.zero)
         {
-            inputVec = GameManager.instance.touchPanel.GetDir().normalized;
+            inputVec = new Vector3(rewiredPlayer.GetAxis("UIHorizontal"), rewiredPlayer.GetAxis("UIVertical"));
             SetDir();
         }
         Vector2 nextVec = inputVec * GameManager.instance.statCalcuator.Speed * Time.fixedDeltaTime;
