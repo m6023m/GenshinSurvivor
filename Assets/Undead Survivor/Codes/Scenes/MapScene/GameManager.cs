@@ -133,9 +133,9 @@ public class GameManager : MonoBehaviour
         levelUpManager.SkillUp(skillName);
 
 #if UNITY_EDITOR
-        // SkillName skillBurst = GameManager.instance.skillData.Get(skillName).burst;
-        // AddBurst(skillBurst);
-        // GameManager.instance.gameInfoData.getBursts.AddOrUpdate(skillBurst, 1);
+        SkillName skillBurst = GameManager.instance.skillData.Get(skillName).burst;
+        AddBurst(skillBurst);
+        GameManager.instance.gameInfoData.getBursts.AddOrUpdate(skillBurst, 1);
 #endif
 
         for (int i = 1; i < GameDataManager.instance.saveData.userData.selectChars.Length; i++)

@@ -385,13 +385,13 @@ public class WeaponStarter
             if (isSword_Skyword_Blade) return;
             isSword_Skyword_Blade = true;
             WeaponFade(true);
-            statBuff.baseCooltime += weaponParameter.valueSums[0];
-            statBuff.speed += weaponParameter.valueSums[0];
+            statBuff.baseCooltime += 0.1f;
+            statBuff.speed += 0.1f;
             statBuff.baseDamage += weaponParameter.valueSums[1];
             weapon.PatternDelay(12.0f).OnComplete(() =>
             {
-                statBuff.baseCooltime -= weaponParameter.valueSums[0];
-                statBuff.speed -= weaponParameter.valueSums[0];
+                statBuff.baseCooltime -= 0.1f;
+                statBuff.speed -= 0.1f;
                 statBuff.baseDamage -= weaponParameter.valueSums[1];
                 isSword_Skyword_Blade = false;
                 WeaponFade(true);
