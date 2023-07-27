@@ -1361,7 +1361,7 @@ public class ConstellationData
         float buffValue = player.stat.armor;
         while (true)
         {
-            float healthPer = player.health / GameManager.instance.statCalcuator.Helath;
+            float healthPer = player.health / GameManager.instance.statCalcuator.Health;
             if (healthPer <= 0.5f && !isBuff)
             {
                 isBuff = true;

@@ -107,7 +107,7 @@ public class Buff : SkillMoveSet
                 player.HealHealth(GameManager.instance.statCalcuator.Atk * 1.0f * parameterWithKey.parameter.healPer);
                 break;
             case SkillName.EB_Diona:
-                player.HealHealth(GameManager.instance.statCalcuator.Helath * 0.1f * parameterWithKey.parameter.healPer);
+                player.HealHealth(GameManager.instance.statCalcuator.Health * 0.1f * parameterWithKey.parameter.healPer);
                 break;
         }
     }
@@ -221,8 +221,8 @@ public class Buff : SkillMoveSet
             case SkillName.E_Hutao:
                 float loseHp = GameManager.instance.player.health * 0.3f;
                 GameManager.instance.player.health -= loseHp;
-                buffValue0 = GameManager.instance.statCalcuator.Helath * 0.02f;
-                if (GameManager.instance.player.health / GameManager.instance.statCalcuator.Helath <= 0.5f)
+                buffValue0 = GameManager.instance.statCalcuator.Health * 0.02f;
+                if (GameManager.instance.player.health / GameManager.instance.statCalcuator.Health <= 0.5f)
                 {
                     buffValue0 *= 1.5f;
                 }

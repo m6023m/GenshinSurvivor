@@ -59,7 +59,7 @@ public class HUD : MonoBehaviour
                 break;
             case InfoType.Health:
                 float curHP = player.health;
-                float maxHP = player.maxHealth + (player.maxHealth * GameManager.instance.artifactData.HealthMultiplier);
+                float maxHP = GameManager.instance.statCalcuator.Health;
                 float progressHP = (curHP / maxHP) * 100;
                 slider.value = progressHP;
                 break;

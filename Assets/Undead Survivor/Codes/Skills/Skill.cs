@@ -104,14 +104,14 @@ public class Skill : SkillMoveSet
                 skillDamage = GameManager.instance.statCalcuator.CalcDamageSkill(skillSequence, baseAttackParameter, Element.Type.Electro);
                 break;
             case SkillName.EB_Hutao:
-                if (GameManager.instance.player.health / GameManager.instance.statCalcuator.Helath <= 0.5f)
+                if (GameManager.instance.player.health / GameManager.instance.statCalcuator.Health <= 0.5f)
                 {
                     skillDamage *= 1.5f;
-                    GameManager.instance.player.HealHealth(GameManager.instance.statCalcuator.Helath * 0.45f);
+                    GameManager.instance.player.HealHealth(GameManager.instance.statCalcuator.Health * 0.45f);
                 }
                 else
                 {
-                    GameManager.instance.player.HealHealth(GameManager.instance.statCalcuator.Helath * 0.3f);
+                    GameManager.instance.player.HealHealth(GameManager.instance.statCalcuator.Health * 0.3f);
                 }
                 break;
             case SkillName.EB_Eula:

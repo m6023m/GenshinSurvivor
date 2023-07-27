@@ -79,9 +79,16 @@ public class Player : SkillOwner
         rigid.simulated = true;
     }
 
+    public void ResetHealth()
+    {
+        health = GameManager.instance.statCalcuator.Health;
+        maxHealth = GameManager.instance.statCalcuator.Health;
+    }
+
     private void Start()
     {
         InitWeapon();
+        ResetHealth();
     }
     void InitWeapon()
     {
@@ -120,7 +127,7 @@ public class Player : SkillOwner
 
         if (GameManager.instance.statBuff.hutaoConstell5)
         {
-            if (health / GameManager.instance.statCalcuator.Helath <= 0.25f)
+            if (health / GameManager.instance.statCalcuator.Health <= 0.25f)
             {
                 health = 1;
                 ReceiveDamage(0, 10.0f);
@@ -180,6 +187,7 @@ public class Player : SkillOwner
         if (rebirthCnt < (int)GameManager.instance.statCalcuator.Rebirth)
         {
             Init();
+            ResetHealth();
             rebirthCnt++;
             animator.SetTrigger("Rebirth");
             Hit(0, 3);
@@ -264,14 +272,14 @@ public class Player : SkillOwner
 
     public void HealHealth(float value)
     {
-        float maxHealthResult = maxHealth + (maxHealth * GameManager.instance.artifactData.HealthMultiplier);
+        float maxHealth = GameManager.instance.statCalcuator.Health;
         float healResult = value + (value * GameManager.instance.statCalcuator.HealBonus);
 
         health += healResult;
         GameManager.instance.battleResult.healHealth += healResult;
         GameDataManager.instance.saveData.record.healTotalHealth += healResult;
 
-        if (health > maxHealthResult) health = maxHealthResult;
+        if (health > maxHealth) health = maxHealth;
 
         AudioManager.instance.PlaySFX(AudioManager.SFX.Heal);
     }

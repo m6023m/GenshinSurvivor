@@ -677,7 +677,7 @@ public class WeaponStarter
         bool isBuff = false;
         while (true)
         {
-            float healthPer = player.health / GameManager.instance.statCalcuator.Helath;
+            float healthPer = player.health / GameManager.instance.statCalcuator.Health;
             if (healthPer < 0.5f && !isBuff)
             {
                 statBuff.healthDamagePer += weaponParameter.valueSums[1];

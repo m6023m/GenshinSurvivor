@@ -150,7 +150,7 @@ public class InfoPanel : MonoBehaviour
                 health = sheild * GameManager.instance.statCalcuator.Armor * sheildPer * GameManager.instance.statCalcuator.SheildMultipllier;
                 break;
             case SkillSet.SkillDamageStat.HP:
-                health = sheild * GameManager.instance.statCalcuator.Helath * sheildPer * GameManager.instance.statCalcuator.SheildMultipllier;
+                health = sheild * GameManager.instance.statCalcuator.Health * sheildPer * GameManager.instance.statCalcuator.SheildMultipllier;
                 break;
             case SkillSet.SkillDamageStat.ELEMENT_MASTERY:
                 health = sheild * GameManager.instance.statCalcuator.ElementalMastery * sheildPer * GameManager.instance.statCalcuator.SheildMultipllier;

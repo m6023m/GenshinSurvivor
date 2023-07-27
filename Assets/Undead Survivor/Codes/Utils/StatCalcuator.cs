@@ -61,7 +61,7 @@ public class StatCalculator
             {
                 result += (result * weaponStat.ATK_PER);
                 result += weaponStat.ATK;
-                result += Helath * statBuff.healthDamagePer;
+                result += Health * statBuff.healthDamagePer;
             }
             result += GetRankUpValue(stat, Character.StatType.ATK);
             result += (stat.atk * upgradeComponents[(int)UpgradeType.ATK].GetValue());
@@ -87,7 +87,7 @@ public class StatCalculator
             return result + statBuff.armor;
         }
     }
-    public float Helath
+    public float Health
     {
         get
         {
@@ -694,7 +694,7 @@ public class StatCalculator
                 {
                     if (character.constellation[1])
                     {
-                        result += (Helath * 0.02f);
+                        result += (Health * 0.02f);
                     }
                 }
                 if (character.charNum == CharacterData.Name.Kazuha)
@@ -722,7 +722,7 @@ public class StatCalculator
                 result = Armor;
                 break;
             case SkillSet.SkillDamageStat.HP:
-                result = Helath;
+                result = Health;
                 break;
             case SkillSet.SkillDamageStat.ELEMENT_MASTERY:
                 result = ElementalMastery;
@@ -995,7 +995,7 @@ public class StatCalculator
         result.Add(("Basic.ElementType.".AddString(stat.elementType.ToString())).Localize());
         result.Add(upComps[(int)UpgradeType.ATK].GetTooltip(stat.atk, Atk));
         result.Add(upComps[(int)UpgradeType.ARMOR].GetTooltip(stat.armor, Armor));
-        result.Add(upComps[(int)UpgradeType.HP].GetTooltip(stat.hp, Helath));
+        result.Add(upComps[(int)UpgradeType.HP].GetTooltip(stat.hp, Health));
         result.Add(upComps[(int)UpgradeType.HEAL].GetTooltip(stat.heal, HealBonus));
         result.Add(upComps[(int)UpgradeType.COOL].GetTooltip(stat.cooltime, Cooltime));
         result.Add(upComps[(int)UpgradeType.AREA].GetTooltip(stat.area, Area));
