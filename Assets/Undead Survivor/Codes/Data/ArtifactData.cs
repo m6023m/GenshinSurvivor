@@ -417,7 +417,7 @@ public class ArtifactData : ScriptableObject
     float Blizzard_Strayer()//행운 +10
     {
         if (Get(ArtifactName.Blizzard_Strayer).level < SET_COUNT) return 0;
-        return 5;
+        return 10;
     }
 
     float Heart_of_Depth(SkillName skillName)

@@ -872,7 +872,7 @@ public class StatCalculator
 
     public float GetRankUpValue(Character character, Character.StatType statType)
     {
-        int rank = level / 10;
+        int rank = GameManager.instance.gameInfoData.level / 10;
         float multiplier = (character.rankUpValue * rank / 100.0f);
         float result = 0;
 
