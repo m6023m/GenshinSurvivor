@@ -24,7 +24,7 @@ public class OptionSettings : MonoBehaviour
         volMaster.value = GameDataManager.instance.saveData.option.masterVolume;
         volBGM.value = GameDataManager.instance.saveData.option.bgmVolume;
         volSE.value = GameDataManager.instance.saveData.option.seVolume;
-        joystickVisible.isOn = joystickVisible;
+        joystickVisible.isOn = GameDataManager.instance.saveData.option.isVisibleJoystick;
 
         volMaster.onValueChanged.AddListener((float value) =>
         {

@@ -15372,6 +15372,7 @@ GameObject:
   - component: {fileID: 1354409813}
   - component: {fileID: 1354409812}
   - component: {fileID: 1354409811}
+  - component: {fileID: 1354409814}
   m_Layer: 0
   m_Name: Scroll Weapon
   m_TagString: Untagged
@@ -15469,6 +15470,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1354409809}
   m_CullTransparentMesh: 1
+--- !u!114 &1354409814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354409809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15437c32fe6396b449a4f6122b05949b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollSpeed: 0.02
+  scrollButtonText: Vertical
 --- !u!1 &1402472469
 GameObject:
   m_ObjectHideFlags: 0
