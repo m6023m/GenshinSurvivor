@@ -4,9 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
+using Rewired;
 
 public class ButtonManager : MonoBehaviour
 {
+
+    [Header("# Rewiered")]
+    Rewired.Player rewiredPlayer;
     [Header("# Buttons")]
     public Button btnPaimon;
     public Button btnContinue;
@@ -23,6 +27,7 @@ public class ButtonManager : MonoBehaviour
     public GameObject surrenderConfirmWindow;
     public GameObject nextWindow;
     public GameObject levelUpWindow;
+    EventSystem eventSystem;
     void Awake()
     {
         btnPaimon.onClick.AddListener(OnClickPaimon);
@@ -33,13 +38,15 @@ public class ButtonManager : MonoBehaviour
         btnSurrenderOk.onClick.AddListener(OnClickSurrenderOk);
         btnSurrenderCancel.onClick.AddListener(OnClickSurrenderCancel);
         btnNext.onClick.AddListener(OnClickNext);
+        rewiredPlayer = Rewired.ReInput.players.GetPlayer(0);
+
+        eventSystem = EventSystem.current;
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (rewiredPlayer.GetButtonDown("escape"))
         {
-            Event.current.Use();
             if (levelUpWindow.activeSelf) return;
             if (GameManager.instance.IsPause)
             {
@@ -80,6 +87,7 @@ public class ButtonManager : MonoBehaviour
         pauseWindow.SetActive(true);
         optionWindow.SetActive(false);
         btnContinue.gameObject.SelectObject();
+        eventSystem.SetSelectedGameObject(btnOption.gameObject);
     }
 
     void OnClickOption()
@@ -88,6 +96,7 @@ public class ButtonManager : MonoBehaviour
         pauseWindow.SetActive(false);
         optionWindow.SetActive(true);
         btnCloseOption.gameObject.SelectObject();
+        eventSystem.SetSelectedGameObject(optionWindow.GetComponentInChildren<Button>().gameObject);
     }
 
     void OnClickSurrender()
@@ -96,6 +105,7 @@ public class ButtonManager : MonoBehaviour
         surrenderConfirmWindow.SetActive(true);
         pauseWindow.SetActive(false);
         btnSurrenderCancel.gameObject.SelectObject();
+        eventSystem.SetSelectedGameObject(btnSurrenderCancel.gameObject);
     }
 
     void OnClickSurrenderOk()
@@ -111,6 +121,7 @@ public class ButtonManager : MonoBehaviour
         surrenderConfirmWindow.SetActive(false);
         pauseWindow.SetActive(true);
         btnContinue.gameObject.SelectObject();
+        eventSystem.SetSelectedGameObject(btnSurrender.gameObject);
     }
     public void PopNextDefeat()
     {
@@ -118,6 +129,7 @@ public class ButtonManager : MonoBehaviour
         AudioManager.instance.PlayBGM(AudioManager.BGM.Battle0, false);
         GameDataManager.instance.saveData.record.gameOverCount++;
         nextWindow.SetActive(true);
+        eventSystem.SetSelectedGameObject(nextWindow);
     }
     public void PopNextVictory()
     {
@@ -125,6 +137,7 @@ public class ButtonManager : MonoBehaviour
         AudioManager.instance.PlayBGM(AudioManager.BGM.Battle0, false);
         GameDataManager.instance.saveData.record.gameClearCount++;
         nextWindow.SetActive(true);
+        eventSystem.SetSelectedGameObject(nextWindow);
     }
     void OnClickNext()
     {

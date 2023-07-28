@@ -4,10 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using Newtonsoft.Json;
-
+using UnityEngine.EventSystems;
 public class LevelUpManager : MonoBehaviour
 {
-    public Button[] buttons;
+    public EventButton[] buttons;
     public InfoButton[] InfoButtons;
     public TextMeshProUGUI[] tooltips;
     public Image[] images;
@@ -30,6 +30,9 @@ public class LevelUpManager : MonoBehaviour
     int maxArtifactLevel = 5;
     string textMora = "Basic.LevelUp.Mora";
     string textHeal = "Basic.LevelUp.Heal";
+    int selectedButtonIndex = 0;
+    EventSystem eventSystem;
+    Rewired.Player rewiredPlayer;
 
     private void Awake()
     {
@@ -39,6 +42,15 @@ public class LevelUpManager : MonoBehaviour
         rerollCount.text = reroll.ToString();
         btnSkip.onClick.AddListener(OnClickSkip);
         btnReroll.onClick.AddListener(OnClickReroll);
+        eventSystem = EventSystem.current;
+        rewiredPlayer = Rewired.ReInput.players.GetPlayer(0);
+    }
+    private void Update()
+    {
+        if (rewiredPlayer.GetButtonDown("special"))
+        {
+            InfoButtons[selectedButtonIndex].Click();
+        }
     }
 
     void OnClickSkip()
@@ -164,6 +176,7 @@ public class LevelUpManager : MonoBehaviour
         AudioManager.instance.PlaySFX(AudioManager.SFX.LevelUp);
         levelUpManager.gameObject.SetActive(true);
         ShowRandomSkillOrArtifact();
+        eventSystem.SetSelectedGameObject(buttons[0].gameObject);
     }
 
     void ShowRandomSkillOrArtifact()
@@ -244,6 +257,10 @@ public class LevelUpManager : MonoBehaviour
         InfoButtons[index].Init(skill.name, ArtifactName.Artifact_None);
         buttons[index].onClick.RemoveAllListeners();
         buttons[index].onClick.AddListener(() => OnClickLevelUpSkill(skill));
+        buttons[index].onSelect = () =>
+        {
+            selectedButtonIndex = index;
+        };
     }
 
     void DisplayArtifact(ArtifactData.ParameterWithKey artifact, int idx)
@@ -255,6 +272,10 @@ public class LevelUpManager : MonoBehaviour
         InfoButtons[index].Init(SkillName.Skill_None, artifact.name);
         buttons[index].onClick.RemoveAllListeners();
         buttons[index].onClick.AddListener(() => OnClickLevelUpArtifact(artifact));
+        buttons[index].onSelect = () =>
+        {
+            selectedButtonIndex = index;
+        };
     }
 
     void DisplayRandomItem(int index)

@@ -6,9 +6,12 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.Video;
 using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
 using DG.Tweening;
 public class WishManager : MonoBehaviour
 {
+    [Header("# Rewiered")]
+    Rewired.Player rewiredPlayer;
     public enum WishType
     {
         Noraml,
@@ -67,6 +70,8 @@ public class WishManager : MonoBehaviour
     List<WeaponData.Parameter> pickableWeaponList;
     List<WeaponData.Parameter> pickUpWeaponResult;
 
+    EventSystem eventSystem;
+
 
 
     int selectPickUp = 0;
@@ -91,7 +96,9 @@ public class WishManager : MonoBehaviour
     int RARE_PER = 10;
     void Awake()
     {
+        eventSystem = EventSystem.current;
         SetPrimogem();
+        rewiredPlayer = Rewired.ReInput.players.GetPlayer(0);
         wishSlotPools = new List<GameObject>();
         wishVideoPlayer.loopPointReached += OnVideoEnd;
         buttonWish1.onClick.AddListener(() => ClickWish(WISH_1));
@@ -128,6 +135,14 @@ public class WishManager : MonoBehaviour
 
         InitPickUpCharacter();
         InitChangeWish();
+    }
+
+    private void Update()
+    {
+        if (rewiredPlayer.GetButtonDown("special"))
+        {
+            buttonWishChange.onClick.Invoke();
+        }
     }
 
     void InitChangeWish()
@@ -372,6 +387,7 @@ public class WishManager : MonoBehaviour
                 AudioManager.instance.EffectBgm(true);
                 AudioManager.instance.PlaySFX(AudioManager.SFX.WishEffect);
             }
+            eventSystem.SetSelectedGameObject(buttonWishVideo.gameObject);
         }
     }
 
@@ -402,6 +418,7 @@ public class WishManager : MonoBehaviour
             item.SetActive(false);
         }
         GameDataManager.instance.SaveInstance();
+        eventSystem.SetSelectedGameObject(buttonWish10.gameObject);
     }
     void VisibleWishResult()
     {
@@ -415,6 +432,8 @@ public class WishManager : MonoBehaviour
         {
             DisplayWishWeapons();
         }
+
+        eventSystem.SetSelectedGameObject(buttonWishResultClose.gameObject);
         GameDataManager.instance.SaveInstance();
     }
 

@@ -9,6 +9,9 @@ public class SwipePanel : MonoBehaviour
     private Vector2 startPos;
     private bool isSwipe;
 
+    [Header("# Rewiered")]
+    Rewired.Player rewiredPlayer;
+
     List<UnityAction<Swipe>> _swipeListener;
     List<UnityAction<Swipe>> swipeListeners
     {
@@ -25,6 +28,7 @@ public class SwipePanel : MonoBehaviour
     private void Awake()
     {
         touchArea = GetComponent<RectTransform>();
+        rewiredPlayer = Rewired.ReInput.players.GetPlayer(0);
     }
 
     private void Update()
@@ -41,6 +45,14 @@ public class SwipePanel : MonoBehaviour
                 Vector2 endPos = Input.mousePosition;
                 HandleSwipe(startPos, endPos);
             }
+        }
+        if (rewiredPlayer.GetButtonDown("R1"))
+        {
+            InvokeSwipeListener(Swipe.LEFT);
+        }
+        else if (rewiredPlayer.GetButtonDown("L1"))
+        {
+            InvokeSwipeListener(Swipe.RIGHT);
         }
     }
 

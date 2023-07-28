@@ -1922,6 +1922,7 @@ GameObject:
   - component: {fileID: 160194273}
   - component: {fileID: 160194272}
   - component: {fileID: 160194271}
+  - component: {fileID: 160194274}
   m_Layer: 0
   m_Name: ButtonClose
   m_TagString: Untagged
@@ -2031,6 +2032,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 160194269}
   m_CullTransparentMesh: 1
+--- !u!114 &160194274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160194269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b03b540cc5b5294489e7a224304f14b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keys: 1b000000
 --- !u!1001 &163251177
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12920,7 +12934,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 131063
 --- !u!114 &1410538539
 MonoBehaviour:
   m_ObjectHideFlags: 0
