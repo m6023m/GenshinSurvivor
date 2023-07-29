@@ -33,12 +33,28 @@ public class WeaponManager : MonoBehaviour
     public WeaponButton[] weaponButtons;
     int buttonIndex = 0;
     public GameObject activeGroup;
+    Rewired.Player rewiredPlayer;
     private void Awake()
     {
+        rewiredPlayer = Rewired.ReInput.players.GetPlayer(0);
         instance = this;
         InitButton();
     }
-
+    void Update()
+    {
+        if (rewiredPlayer.GetButtonDown("L1"))
+        {
+            longClickUpgrade.onLongClickStart.Invoke();
+            longClickUpgrade.isPointerDown = true;
+        }
+        if (rewiredPlayer.GetButtonUp("L1"))
+        {
+            longClickUpgrade.onLongClickCancel.Invoke();
+            longClickUpgrade.isPointerDown = false;
+            longClickUpgrade.CheckClick();
+            longClickUpgrade.ResetButtonState();
+        }
+    }
     void DisableAllWeapon()
     {
         buttonIndex = 0;

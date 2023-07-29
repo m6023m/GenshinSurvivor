@@ -9,6 +9,7 @@ public class ButtonClicker : MonoBehaviour
     Rewired.Player rewiredPlayer;
     Button button; // Assign your buttons in the inspector
     public KeyCode[] keys; // Assign the corresponding keys in the inspector
+    public string[] keyCustoms; // Assign the corresponding keys in the inspector
     void Awake()
     {
         rewiredPlayer = Rewired.ReInput.players.GetPlayer(0);
@@ -18,9 +19,16 @@ public class ButtonClicker : MonoBehaviour
 
     void Update()
     {
-        for (int i = 0; i < keys.Length; i++)
+        foreach (KeyCode key in keys)
         {
-            if (rewiredPlayer.GetButtonDown(keys[i].ToString()))
+            if (rewiredPlayer.GetButtonDown(key.ToString()))
+            {
+                button.onClick.Invoke();
+            }
+        }
+        foreach (string key in keyCustoms)
+        {
+            if (rewiredPlayer.GetButtonDown(key))
             {
                 button.onClick.Invoke();
             }

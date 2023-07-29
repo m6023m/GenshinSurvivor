@@ -90,7 +90,7 @@ Skill.Travler.Geo1,레벨 10오를 때 마다 공격력 10% 증가,Each Time You
 Skill.Amber0,게임 시작 시 폭탄 인형을 가진 채로 시작,Start With A Bomb Doll At The Start Of The Game
 Skill.Amber1,레벨 10 오를 때 마다 공격력 10% 증가,Each Time You Go Up To 10% Of Damage Increases By 10%
 Skill.Xiangling0,게임 시작 시 누룽지 출격을 가진 채로 시작,Starting With A Nurungji Sortie At The Start Of The Game
-Skill.Xiangling1,레벨 10 오를 때 마다 원소마스터리 24 증가,Element Mastery Increased 24 Every Time You Climb Level 10
+Skill.Xiangling1,레벨 10 오를 때 마다 원소마스터리 24 증가,Elemental Mastery Increases Every Time You Go Up To Level 10
 Skill.Bennet0,게임 시작 시 열정 과부하를 가진 채로 시작,Start With A Passion Overload At The Start Of The Game
 Skill.Bennet1,레벨 10 오를 때 마다 원소충전효율 10% 증가,Elemental Charging Efficiency Increases By 10% Every Time You Go Up To Level 10
 Skill.Diluc0,게임 시작 시 역날의 화염을 가진 채로 시작,Start With The Flame Of The Reverse Day At The Start Of The Game
@@ -110,7 +110,7 @@ Skill.Jean1,레벨 10 오를 때 마다 치유강화 6% 증가,6% Increase In He
 Skill.Venti0,게임 시작 시 높은 하늘의 노래를 가진 채로 시작,Start With A High Sky Song At The Start Of The Game
 Skill.Venti1,레벨 10 오를 때 마다 원소 충전 효율 12% 증가,Elemental Charging Efficiency Increases 12% Every Time You Go Up To Level 10
 Skill.Lisa0,게임 시작 시 창뢰를 가진 채로 시작,Starting With A Grievous Light At The Start Of The Game
-Skill.Lisa1,레벨 10 오를 때 마다 원소마스터리 24 증가,Element Mastery Increased 24 Every Time You Climb Level 10
+Skill.Lisa1,레벨 10 오를 때 마다 원소마스터리 24 증가,Elemental Mastery Increases Every Time You Go Up To Level 10
 Skill.Razor0,게임 시작 시 날카로운 발톱과 창뢰를 가진 채로 시작,Start With Sharp Claws And Groom At The Start Of The Game
 Skill.Razor1,레벨 10 오를 때 마다 물리대미지가 6% 증가,"Every Time Level 10 Climbs, Physiotherapy Increases 6%"
 Skill.Beidou0,게임 시작 시 파도잡이를 가진 채로 시작,Start With A Waves At The Start Of The Game
@@ -176,7 +176,7 @@ Skill.Discription.EB_Ninguang,바위 원소 피해를 주는 투사체를 던짐
 Skill.Discription.E_Noelle,바위 원소 범위 피해를 주고 보호막 생성,Create A Protective Film By Causing Damage To Rock Elements
 Skill.Discription.EB_Noelle,"바위 원소 범위 피해를 줌 그 후 일정 시간 일반공격 크기 증가, 방어력의 80%만큼 공격력 증가, 일반공격의 속성을 바위로 만듬","After The Damage To The Rock Element, It Increased The Size Of The General Attack For A Certain Time, Increased The Attack Power By 80%Of The Defense, And Made The Properties Of The General Attack Into The Rock."
 Skill.E_Tartaglia,마왕 무장 · 광란,"Demon King, Frenzy"
-Skill.EB_Tartaglia,극악기 · 진멸섬,Earth Instruments And Destruction
+Skill.EB_Tartaglia,극악기 · 진멸섬,Earth Instrument And Destruction
 Skill.Discription.E_Tartaglia,일반 공격 쿨타임을 스킬 레벨 x 5% 줄이고 일반 공격을 물 속성으로 바꿈,Skill Level X 5% Reduction Of General Attack Cooldown And Change The General Attack To Water Attributes
 Skill.Discription.EB_Tartaglia,일반공격의 근점/원거리 타입에 따라 공격 타입이 변화하는 광역피해를 줌,The Attack Type Changes Due To The Nearest Attacks Of General Attacks/Ranged Types.
 Skill.Tartaglia0,게임 시작 시 마왕 무장 · 광란을 가진 채로 시작,Start With The Demon King And Frenzy At The Start Of The Game
@@ -208,7 +208,7 @@ Skill.Albedo1,레벨이 10 오를 때 마다 바위 원소 피해 7.2% 증가,"E
 Skill.E_Ganyu,산과 강의 기린 흔적,Traces Of Giraffe In Mountains And Rivers
 Skill.EB_Ganyu,"쏟아지는 천화","Pouring"
 Skill.Discription.E_Ganyu,주변 적과 아이템을 끌어들이고 얼음 원소 피해를 주는 소환물 생성,Summoned To Attract Surrounding Enemies And Items And To Damage Ice Elements
-Skill.Discription.EB_Ganyu,넓은 범위에 얼음 원소 지속 피해를 주는 장판 생성,Create A Board That Continues To Damage Ice Elements In A Wide Range
+Skill.Discription.EB_Ganyu,넓은 범위에 얼음 원소 지속 피해를 주는 장판 생성,Create A Plate That Continues To Damage Ice Elements In A Wide Range
 Skill.Ganyu0,산과 강의 기린 흔적을 가진 채로 시작,Start With Traces Of Giraffes Of Mountains And Rivers
 Skill.Ganyu1,레벨이 10 오를 때 마다 행운 1 증가,Luck 1 Increase Every Time The Level Is Up 10
 Skill.E_Xiao,풍륜양립,Bandy Wheel
@@ -243,7 +243,7 @@ Skill.Eula0,게임 시작 시 얼음 파도의 와류를 가진 채로 시작,St
 Skill.Eula1,레벨이 10 오를 때 마다 행운 1 증가,Luck 1 Increase Every Time The Level Is Up 10
 Skill.E_Kazuha,치하야부루,Chihaya Buru
 Skill.EB_Kazuha,카즈하의 일도,Kazuha'S Work
-Skill.Discription.E_Kazuha,바람 원소 피해를 주며 주변 적과 아이템을 끌어당기고 일정 시간 주변 지형지물과 적을 통과할 수 있게된다. 지속시간이 끝나면 주변에 바람 원소피해를 주고 적들을 밀어낸다 원소전환이 발생할 수 있음,"It Can Damage The Wind Element, Attract The Surrounding Enemies And Items, And Pass Through The Terrain And Enemies Around For A Certain Time. At The End Of The Duration, The Winding Element Damage And The Enemies Are Pushed Out."
+Skill.Discription.E_Kazuha,바람 원소 피해를 주며 주변 적과 아이템을 끌어당기고 일정 시간 주변 지형지물과 적을 통과할 수 있게된다. 지속시간이 끝나면 주변에 바람 원소피해를 주고 적들을 밀어낸다 원소전환이 발생할 수 있음,"It Can Damage The Wind Element, Attract The Surrounding Enemies And Items, And Pass Through The Terrain And Enemies Around Them For A Certain Period Of Time. At The End Of The Duration, The Winding Element Damage And The Enemies Are Pushed Out."
 Skill.Discription.EB_Kazuha,바람 속성 범위 피해를 주는 장판 생성 원소전환이 발생할 수 있음,The Transition To The Plate Generating Element That Causes Damage To The Wind Attribute Can Occur
 Skill.Kazuha0,게임 시작 시 치하야부루를 가진 채로 시작,Start With Chihaya Buru At The Start Of The Game
 Skill.Kazuha1,레벨이 10 오를 때 마다 원소마스터리 29 증가,Element Mastery 29 Increases Every 10 Levels Up

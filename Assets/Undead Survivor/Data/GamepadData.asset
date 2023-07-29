@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82317e9741655f44a94a09c49f82ddf, type: 3}
+  m_Name: GamepadData
+  m_EditorClassIdentifier: 
+  gamepadTextures:
+  - gamepadType: 1
+    gamepadSprite: {fileID: 21300000, guid: 512f460763e60884b96fa8116cfd2f2e, type: 3}
+  - gamepadType: 2
+    gamepadSprite: {fileID: 21300000, guid: 0b981d478f3d34c4a87591820d9a5352, type: 3}
+  - gamepadType: 3
+    gamepadSprite: {fileID: 21300000, guid: c1f6aaa86b500af4dac73b5a2a52f537, type: 3}
+  - gamepadType: 4
+    gamepadSprite: {fileID: 21300000, guid: d08558c604b9dbc41b0eb748fd8862c3, type: 3}
+  - gamepadType: 5
+    gamepadSprite: {fileID: 21300000, guid: b6767d36ab6628541b50358bd6591da9, type: 3}
+  - gamepadType: 6
+    gamepadSprite: {fileID: 21300000, guid: 1e074297cb570ce469c0d366a6ca8768, type: 3}
+  - gamepadType: 7
+    gamepadSprite: {fileID: 21300000, guid: bfadf8d2db68619478c8831e47dc16fe, type: 3}
+  - gamepadType: 8
+    gamepadSprite: {fileID: 21300000, guid: decbb3e90eaeb06479aa5d75e5bd3408, type: 3}
+  - gamepadType: 9
+    gamepadSprite: {fileID: 21300000, guid: 3435f1da6476e49409730518f83ed47e, type: 3}
+  - gamepadType: 10
+    gamepadSprite: {fileID: 21300000, guid: a4c2a4534f2fe1a4d8477b617ca41464, type: 3}
+  - gamepadType: 11
+    gamepadSprite: {fileID: 21300000, guid: bef8c561ce8000b4db0c66f512ebee0e, type: 3}
+  - gamepadType: 12
+    gamepadSprite: {fileID: 21300000, guid: 67a6677eb3f23244b9f34fd419284e11, type: 3}
+  - gamepadType: 13
+    gamepadSprite: {fileID: 21300000, guid: ade91b724ec205e40b105cc807ddb7a8, type: 3}
+  - gamepadType: 14
+    gamepadSprite: {fileID: 21300000, guid: b0e522da54eb6c94e855f800285c62b4, type: 3}
+  - gamepadType: 15
+    gamepadSprite: {fileID: 21300000, guid: 17609c5eaf9a88a428ec2167f23d77ed, type: 3}

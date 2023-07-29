@@ -115,3 +115,7 @@ Basic.Stage.Level3,난이도 3,Level 3
 Basic.Stage.Level4,난이도 4,Level 4
 Basic.Stage.Level5,난이도 5,Level 5
 Basic.Select,선택,Select
+Basic.Key.Select,선택,Select
+Basic.Key.Confirm,확인,Confirm
+Basic.Key.Upgrade,강화,Upgrade
+Basic.Key.Back,뒤로,Back
