@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using Newtonsoft.Json;
-using UnityEngine.EventSystems;
 public class LevelUpManager : MonoBehaviour
 {
     public EventButton[] buttons;
@@ -31,7 +30,6 @@ public class LevelUpManager : MonoBehaviour
     string textMora = "Basic.LevelUp.Mora";
     string textHeal = "Basic.LevelUp.Heal";
     int selectedButtonIndex = 0;
-    EventSystem eventSystem;
     Rewired.Player rewiredPlayer;
 
     private void Awake()
@@ -42,7 +40,6 @@ public class LevelUpManager : MonoBehaviour
         rerollCount.text = reroll.ToString();
         btnSkip.onClick.AddListener(OnClickSkip);
         btnReroll.onClick.AddListener(OnClickReroll);
-        eventSystem = EventSystem.current;
         rewiredPlayer = Rewired.ReInput.players.GetPlayer(0);
     }
     private void Update()
@@ -176,7 +173,7 @@ public class LevelUpManager : MonoBehaviour
         AudioManager.instance.PlaySFX(AudioManager.SFX.LevelUp);
         levelUpManager.gameObject.SetActive(true);
         ShowRandomSkillOrArtifact();
-        eventSystem.SetSelectedGameObject(buttons[0].gameObject);
+        buttons[0].gameObject.SelectObject();
     }
 
     void ShowRandomSkillOrArtifact()

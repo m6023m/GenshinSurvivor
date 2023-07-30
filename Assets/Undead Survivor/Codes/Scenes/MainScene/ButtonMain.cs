@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using UnityEngine.EventSystems;
 using DG.Tweening;
 
 public class ButtonMain : MonoBehaviour
@@ -12,7 +11,6 @@ public class ButtonMain : MonoBehaviour
     public MainOption optionPannel;
     public GameObject saveBattlePanel;
     public Button saveBattleYes, saveBattleNo;
-    EventSystem eventSystem;
     void Start()
     {
         btnStart.onClick.AddListener(OnClickStart);
@@ -25,13 +23,12 @@ public class ButtonMain : MonoBehaviour
         btnWeapon.onClick.AddListener(OnClickWeapon);
         saveBattleYes.onClick.AddListener(OnClickBattleYes);
         saveBattleNo.onClick.AddListener(OnClickBattleNo);
-        eventSystem = EventSystem.current;
         Time.timeScale = 1;
         AudioManager.instance.PlayBGM(AudioManager.BGM.Main, true);
         if (GameDataManager.instance.saveData.gameInfoData.isGameContinue)
         {
             saveBattlePanel.SetActive(true);
-            eventSystem.SetSelectedGameObject(saveBattleYes.gameObject);
+            saveBattleYes.gameObject.SelectObject();
         }
     }
 
@@ -43,7 +40,7 @@ public class ButtonMain : MonoBehaviour
     void OnClickBattleNo()
     {
         GameDataManager.instance.saveData.gameInfoData.isGameContinue = false;
-        eventSystem.SetSelectedGameObject(btnStart.gameObject);
+        btnStart.gameObject.SelectObject();
         saveBattlePanel.SetActive(false);
     }
     void OnClickStart()
@@ -82,9 +79,9 @@ public class ButtonMain : MonoBehaviour
         optionPannel.gameObject.SetActive(true);
         optionPannel.closeAction = () =>
         {
-            eventSystem.SetSelectedGameObject(btnStart.gameObject);
+            btnStart.gameObject.SelectObject();
         };
-        eventSystem.SetSelectedGameObject(saveBattleYes.gameObject);
+        saveBattleYes.gameObject.SelectObject();
     }
 
     void OnClickCredit()

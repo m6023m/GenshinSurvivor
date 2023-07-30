@@ -54,8 +54,10 @@ public class CharSelectManager : MonoBehaviour
     [Header("# element")]
     public DropdownElement dropdownElement;
 
+    Rewired.Player rewiredPlayer;
     private void Awake()
     {
+        rewiredPlayer = Rewired.ReInput.players.GetPlayer(0);
         Init();
         slotSpriteDefault = charSlot[0].GetComponentsInChildren<Image>()[1].sprite;
         SetupCharSlotButtons();
@@ -65,6 +67,16 @@ public class CharSelectManager : MonoBehaviour
         InitWeaponButton();
     }
 
+    void Update()
+    {
+        if (rewiredPlayer.GetButtonDown("Square"))
+        {
+            if (selectSlot != -1)
+            {
+                charSlot[selectSlot].GetComponentsInChildren<Button>(true)[1].onClick.Invoke();
+            }
+        }
+    }
     private void Start()
     {
 

@@ -6,7 +6,6 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.Video;
 using UnityEngine.SceneManagement;
-using UnityEngine.EventSystems;
 using DG.Tweening;
 public class WishManager : MonoBehaviour
 {
@@ -70,7 +69,6 @@ public class WishManager : MonoBehaviour
     List<WeaponData.Parameter> pickableWeaponList;
     List<WeaponData.Parameter> pickUpWeaponResult;
 
-    EventSystem eventSystem;
 
 
 
@@ -96,7 +94,6 @@ public class WishManager : MonoBehaviour
     int RARE_PER = 10;
     void Awake()
     {
-        eventSystem = EventSystem.current;
         SetPrimogem();
         rewiredPlayer = Rewired.ReInput.players.GetPlayer(0);
         wishSlotPools = new List<GameObject>();
@@ -387,7 +384,7 @@ public class WishManager : MonoBehaviour
                 AudioManager.instance.EffectBgm(true);
                 AudioManager.instance.PlaySFX(AudioManager.SFX.WishEffect);
             }
-            eventSystem.SetSelectedGameObject(buttonWishVideo.gameObject);
+            buttonWishVideo.gameObject.SelectObject();
         }
     }
 
@@ -418,7 +415,7 @@ public class WishManager : MonoBehaviour
             item.SetActive(false);
         }
         GameDataManager.instance.SaveInstance();
-        eventSystem.SetSelectedGameObject(buttonWish10.gameObject);
+        buttonWish10.gameObject.SelectObject();
     }
     void VisibleWishResult()
     {
@@ -433,7 +430,7 @@ public class WishManager : MonoBehaviour
             DisplayWishWeapons();
         }
 
-        eventSystem.SetSelectedGameObject(buttonWishResultClose.gameObject);
+        buttonWishResultClose.gameObject.SelectObject();
         GameDataManager.instance.SaveInstance();
     }
 
