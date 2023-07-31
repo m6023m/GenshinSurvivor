@@ -32,7 +32,7 @@ public class LoadingScreenController : MonoBehaviour
 
         while (!operation.isDone)
         {
-            float progress = Mathf.Clamp01(operation.progress / 0.9f);
+            float progress = operation.progress / 0.9f;
             progressBar.value = progress;
             yield return null;
         }
