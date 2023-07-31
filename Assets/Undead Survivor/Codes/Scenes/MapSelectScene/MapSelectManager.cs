@@ -43,7 +43,7 @@ public class MapSelectManager : MonoBehaviour
     void OnClickBack()
     {
         AudioManager.instance.PlaySFX(AudioManager.SFX.Click);
-        SceneManager.LoadScene("CharacterSelectScene");
+        LoadingScreenController.instance.LoadScene("CharacterSelectScene");
     }
 
     void OnClickNext()
@@ -52,7 +52,7 @@ public class MapSelectManager : MonoBehaviour
         if (selectedMap != null)
         {
             GameDataManager.instance.SaveInstance();
-            SceneManager.LoadScene(selectedMap);
+            LoadingScreenController.instance.LoadScene(selectedMap);
         }
     }
 

@@ -178,7 +178,7 @@ public class CharSelectManager : MonoBehaviour
         AudioManager.instance.PlaySFX(AudioManager.SFX.Click);
         SortCharacters();
         GameDataManager.instance.SaveInstance();
-        SceneManager.LoadScene("MapSelectScene");
+        LoadingScreenController.instance.LoadScene("MapSelectScene");
     }
 
     void SortCharacters()
@@ -330,7 +330,7 @@ public class CharSelectManager : MonoBehaviour
 
     void MoveMain()
     {
-        SceneManager.LoadScene("MainScene");
+        LoadingScreenController.instance.LoadScene("MainScene");
     }
     private void HandleSelectedCharacter(Character selectedCharacter, int characterIndex)
     {
@@ -468,5 +468,9 @@ public class CharSelectManager : MonoBehaviour
             elemetalTypes.Add(characterParameter.elementType);
             dropdownElement.ResetDropdown(elemetalTypes);
         }
+    }
+    private void OnDisable()
+    {
+        WeaponManager.instance.SetEnable(false);
     }
 }

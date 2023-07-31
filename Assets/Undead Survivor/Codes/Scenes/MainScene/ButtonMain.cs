@@ -35,7 +35,7 @@ public class ButtonMain : MonoBehaviour
     void OnClickBattleYes()
     {
         saveBattlePanel.SetActive(false);
-        SceneManager.LoadScene(GameDataManager.instance.saveData.gameInfoData.currentScene);
+        LoadingScreenController.instance.LoadScene(GameDataManager.instance.saveData.gameInfoData.currentScene);
     }
     void OnClickBattleNo()
     {
@@ -46,31 +46,31 @@ public class ButtonMain : MonoBehaviour
     void OnClickStart()
     {
         AudioManager.instance.PlaySFX(AudioManager.SFX.Click);
-        SceneManager.LoadScene("CharacterSelectScene");
+        LoadingScreenController.instance.LoadScene("CharacterSelectScene");
     }
 
     void OnClickUpgrade()
     {
         AudioManager.instance.PlaySFX(AudioManager.SFX.Click);
-        SceneManager.LoadScene("UpgradeScene");
+        LoadingScreenController.instance.LoadScene("UpgradeScene");
     }
 
     void OnClickGatcha()
     {
         AudioManager.instance.PlaySFX(AudioManager.SFX.Click);
-        SceneManager.LoadScene("WishScene");
+        LoadingScreenController.instance.LoadScene("WishScene");
     }
 
     void OnClickArchive()
     {
         AudioManager.instance.PlaySFX(AudioManager.SFX.Click);
-        SceneManager.LoadScene("AchieveScene");
+        LoadingScreenController.instance.LoadScene("AchieveScene");
     }
 
     void OnClickWeapon()
     {
         AudioManager.instance.PlaySFX(AudioManager.SFX.Click);
-        SceneManager.LoadScene("WeaponScene");
+        LoadingScreenController.instance.LoadScene("WeaponScene");
     }
 
     void OnClickOption()
@@ -87,7 +87,7 @@ public class ButtonMain : MonoBehaviour
     void OnClickCredit()
     {
         AudioManager.instance.PlaySFX(AudioManager.SFX.Click);
-        SceneManager.LoadScene("CreditScene");
+        LoadingScreenController.instance.LoadScene("CreditScene");
     }
     void OnClickExit()
     {
@@ -98,6 +98,6 @@ public class ButtonMain : MonoBehaviour
 
     void MoveMain()
     {
-        SceneManager.LoadScene("MainScene");
+        LoadingScreenController.instance.LoadScene("MainScene");
     }
 }

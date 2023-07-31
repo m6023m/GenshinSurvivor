@@ -401,7 +401,7 @@ public class WishManager : MonoBehaviour
     void ClickWishClose()
     {
         AudioManager.instance.PlaySFX(AudioManager.SFX.Click_Wish);
-        SceneManager.LoadScene("MainScene");
+        LoadingScreenController.instance.LoadScene("MainScene");
     }
 
     void ClickWishResultClose()

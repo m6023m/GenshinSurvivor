@@ -73,6 +73,6 @@ public class ButtonSelect : MonoBehaviour
 
     void MoveMain()
     {
-        SceneManager.LoadScene("MainScene");
+        LoadingScreenController.instance.LoadScene("MainScene");
     }
 }

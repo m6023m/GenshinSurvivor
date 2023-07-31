@@ -21,6 +21,6 @@ public class ButtonUpgrade : MonoBehaviour
     }
 
     void GoBack() {
-        SceneManager.LoadScene("MainScene");
+        LoadingScreenController.instance.LoadScene("MainScene");
     }
 }

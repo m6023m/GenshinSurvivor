@@ -92,7 +92,7 @@ public class GameResultManager : MonoBehaviour
     void OnClickNext()
     {
         AudioManager.instance.PlaySFX(AudioManager.SFX.Click);
-        SceneManager.LoadScene("MainScene");
+        LoadingScreenController.instance.LoadScene("MainScene");
     }
 
     void WriteImageTextLeft(int index, string text, Sprite sprite)

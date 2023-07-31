@@ -126,7 +126,7 @@ public class UpgradeManager : MonoBehaviour
     }
     void MoveMain()
     {
-        SceneManager.LoadScene("MainScene");
+        LoadingScreenController.instance.LoadScene("MainScene");
     }
 
     void WriteMora()

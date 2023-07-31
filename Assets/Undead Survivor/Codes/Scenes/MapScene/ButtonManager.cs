@@ -140,6 +140,6 @@ public class ButtonManager : MonoBehaviour
         GameDataManager.instance.saveData.userData.primoGem += GameManager.instance.battleResult.gainPrimoGem;
         GameManager.instance.gameInfoData.isGameContinue = false;
         GameDataManager.instance.SaveInstance();
-        SceneManager.LoadScene("ResultScene");
+        LoadingScreenController.instance.LoadScene("ResultScene");
     }
 }

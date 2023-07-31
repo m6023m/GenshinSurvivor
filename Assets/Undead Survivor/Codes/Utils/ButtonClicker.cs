@@ -10,6 +10,7 @@ public class ButtonClicker : MonoBehaviour
     Button button; // Assign your buttons in the inspector
     public KeyCode[] keys; // Assign the corresponding keys in the inspector
     public string[] keyCustoms; // Assign the corresponding keys in the inspector
+    public bool interactable = true;
     void Awake()
     {
         rewiredPlayer = Rewired.ReInput.players.GetPlayer(0);
@@ -19,6 +20,7 @@ public class ButtonClicker : MonoBehaviour
 
     void Update()
     {
+        if (!interactable) return;
         foreach (KeyCode key in keys)
         {
             if (rewiredPlayer.GetButtonDown(key.ToString()))
@@ -26,6 +28,7 @@ public class ButtonClicker : MonoBehaviour
                 button.onClick.Invoke();
             }
         }
+        if (keyCustoms == null) return;
         foreach (string key in keyCustoms)
         {
             if (rewiredPlayer.GetButtonDown(key))
