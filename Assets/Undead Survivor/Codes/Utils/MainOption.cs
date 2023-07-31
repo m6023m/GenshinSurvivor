@@ -7,6 +7,8 @@ public class MainOption : MonoBehaviour
 {
     Button buttonBack;
     public UnityAction closeAction;
+    public GameObject disablePanel;
+    public OptionSettings optionSettings;
     void Awake()
     {
         buttonBack = GetComponentInChildren<Button>();
@@ -17,5 +19,17 @@ public class MainOption : MonoBehaviour
             gameObject.SetActive(false);
         });
         buttonBack.gameObject.SelectObject();
+    }
+
+    void OnEnable()
+    {
+        if (disablePanel == null) return;
+        disablePanel.SetActive(false);
+        optionSettings.SelectFirst();
+    }
+    void OnDisable()
+    {
+        if (disablePanel == null) return;
+        disablePanel.SetActive(true);
     }
 }

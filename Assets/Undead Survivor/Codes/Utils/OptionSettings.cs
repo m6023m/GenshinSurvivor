@@ -49,4 +49,8 @@ public class OptionSettings : MonoBehaviour
             GameDataManager.instance.saveData.option.isVisibleJoystick = isVisible;
         });
     }
+
+    public void SelectFirst(){
+        volMaster.gameObject.SelectObject();
+    }
 }

@@ -1886,7 +1886,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -2414,6 +2414,7 @@ GameObject:
   - component: {fileID: 568636359}
   - component: {fileID: 568636358}
   - component: {fileID: 568636360}
+  - component: {fileID: 568636361}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -2433,7 +2434,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 1287258261}
+  m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &568636359
@@ -2488,6 +2489,18 @@ MonoBehaviour:
   m_deselectIfBackgroundClicked: 1
   m_deselectBeforeSelecting: 1
   m_ForceModuleActive: 0
+--- !u!114 &568636361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568636356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4457ba3fdfacee048ab7bf4a9d090bfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &619345897
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7962,6 +7975,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   keys: 1b000000
+  keyCustoms: []
+  interactable: 1
 --- !u!1 &1327117290
 GameObject:
   m_ObjectHideFlags: 0
@@ -9962,7 +9977,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}

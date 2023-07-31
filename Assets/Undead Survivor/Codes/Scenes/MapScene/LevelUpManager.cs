@@ -46,6 +46,7 @@ public class LevelUpManager : MonoBehaviour
     {
         if (rewiredPlayer.GetButtonDown("special"))
         {
+            if (selectedButtonIndex == -1) return;
             InfoButtons[selectedButtonIndex].Click();
         }
     }
@@ -85,6 +86,7 @@ public class LevelUpManager : MonoBehaviour
         GameManager.instance.Pause(false);
         levelUpManager.gameObject.SetActive(false);
         GameManager.instance.GetExp(0);
+        selectedButtonIndex = -1;
     }
 
     public void SkillUp(SkillName skillName)
