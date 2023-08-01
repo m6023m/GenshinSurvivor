@@ -18,6 +18,7 @@ public class LoadingScreenController : MonoBehaviour
         instance = this;
     }
 
+
     // 씬을 비동기적으로 로드하는 코루틴을 시작하는 메서드입니다.
     public void LoadScene(string sceneName)
     {

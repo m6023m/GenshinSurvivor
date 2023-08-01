@@ -42,6 +42,7 @@ public class GamepadPanel : MonoBehaviour
         index = 0;
         foreach (GamepadPair gamepadUI in gamepadUIs)
         {
+            if(gamepadUI.Key == GamepadData.GamepadType.None) continue;
             panelGamepadUIs[index].gameObject.SetActive(true);
             Sprite gamepadTexture = gamepadData.Get(gamepadUI.Key).gamepadSprite;
             panelGamepadUIs[index].sprite = gamepadTexture;

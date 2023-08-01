@@ -137,7 +137,7 @@ Constellation.Ningguang2,천권 봉옥의 대미지 20% 증가,20% Increase In D
 Constellation.Ningguang3,선기 병풍의 지속시간 동안 방어력 2 증가,2 Increase In Defense During The Duration Of The Line Screens
 Constellation.Ningguang4,선기 병풍의 대미지 20% 증가,20% Increase In Damage To Sunscreen
 Constellation.Ningguang5,천권 붕옥의 개수 7개 증가,7 Increase In The Number Of Celestial Bores
-Constellation.Noelle0,대청소 또는 호심경 사용시 HP 20% 회복,20% Hp When Cleaning Up Or Using Ahim.
+Constellation.Noelle0,대청소 또는 호심경 사용시 HP 20% 회복,20% Hp When Cleaning Or Use
 Constellation.Noelle1,일반공격 피해 20% 증가,20% Increase In General Attack Damage
 Constellation.Noelle2,호심경의 대미지 20% 증가,20% Increase
 Constellation.Noelle3,"호심경의 범위, 대미지 50% 증가","The Range Of Hemorrhage, 50% Increase In Damage"
@@ -180,7 +180,7 @@ Constellation.Ganyu1,산과 강의 기린 흔적의 재사용 대기시간이 20
 Constellation.Ganyu2,쏟아지는 천화의 대미지 20% 증가,20% Increase In Damage To Pouring Cheonhwa
 Constellation.Ganyu3,쏟아지는 천화 영역 내에서 적의 모든 내성이 20% 감소,All Enemy Resistance Decreases By 20% In The Spilling Cheonhwa Area
 Constellation.Ganyu4,산과 강의 기린 흔적의 대미지 20% 증가,20% Increase In Damage To Giraffe Traces Of Mountains And Rivers
-Constellation.Ganyu5,산과 강의 기린 흔적 발동 후 일반공격의 쿨타임 초기화,Initialization Of Cooldown Of General Attack After Traces Of Giraffe Traces Of Mountains
+Constellation.Ganyu5,산과 강의 기린 흔적 발동 후 일반공격의 쿨타임 초기화,Initializing The Cooldown Of General Attack After Traces Of Giraffe Traces Of Mountains And Rivers
 Constellation.Xiao0,풍륜양립의 재사용 대기 시간이 20% 감소,20% Reduction In Cooldown Of Fungus Resources
 Constellation.Xiao1,원소 충전 효율이 25% 증가,Elemental Charging Efficiency Increases By 25%
 Constellation.Xiao2,풍륜양립의 대미지 20% 증가,20% Increase In Damage To False False Balance
@@ -192,7 +192,7 @@ Constellation.Hutao1,일반 공격이 가하는 피해량이 HP의 2% 만큼 증
 Constellation.Hutao2,나비의 서 지속시간 20% 증가,Butterfly'S Duration Increases By 20%
 Constellation.Hutao3,행운 3증가,Lucky 3 Increase
 Constellation.Hutao4,평안의 서 대미지 20% 증가,20% Increase In Western Damage In Peace
-Constellation.Hutao5,HP가 25% 이하로 떨어지거나 전투 불능이 될 정도의 피해를 입으면 10초동안 무적이 되며 모든 공격이 치명타가 됨 쿨타임 60초,"If The Hp Falls Below 25% Or Suffers Enough To Be Unable To Combat, It Will Be Invincible For 10 Seconds And All Attacks Become Critical. Cool Time 60 Seconds"
+Constellation.Hutao5,HP가 25% 이하로 떨어지거나 전투 불능이 될 정도의 피해를 입으면 10초동안 무적이 되며 모든 공격이 치명타가 됨 쿨타임 60초,"If The Hp Falls To 25% Or Less Or Suffers Enough To Be Unable To Combat, It Will Be Invincible For 10 Seconds And All Attacks Become A Critical Hit."
 Constellation.Rosaria0,"일반 공격 피해 10%증가, 일반 공격 재사용 대기시간 10% 감소","10% Increase In General Attack Damage, 10% Reduction In Waiting Time For General Attack Reuse"
 Constellation.Rosaria1,죽음의 성례의 지속시간 20% 증가,20% Increase In Duration Of Death Of Death
 Constellation.Rosaria2,죄를 삼키는 고해의 대미지 20% 증가,20% Increase In Damage To Confession That Swallows Sin

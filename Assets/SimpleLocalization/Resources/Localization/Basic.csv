@@ -119,3 +119,9 @@ Basic.Key.Select,선택,Select
 Basic.Key.Confirm,확인,Confirm
 Basic.Key.Upgrade,강화,Upgrade
 Basic.Key.Back,뒤로,Back
+Basic.Key.Scroll,스크롤,Scroll
+Basic.Key.ScrollL,왼쪽 스크롤,Left Scroll
+Basic.Key.ScrollR,오른쪽 스크롤,Right Scroll
+Basic.Key.Weapon,무기,Weapon
+Basic.Key.Wish,기원 선택,Wish Select
+Basic.Key.WishChange,기원 종류 변경,Change Wish

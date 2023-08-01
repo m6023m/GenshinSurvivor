@@ -31,14 +31,16 @@ public class GameDataManager : MonoBehaviour
         saveData.InitWeapons();
         characterData.Init();
         weaponData.Init();
-        if (saveData.userData.defaultChar != -1)
-        {
-            SceneManager.LoadScene("MainScene");
-        }
-
         UnityInputOverride.enabled = true;
+
     }
 
+    private void Start() {
+        if (saveData.userData.defaultChar != -1)
+        {
+            LoadingScreenController.instance.LoadScene("MainScene");
+        }
+    }
     public void SaveInstance()
     {
         SaveManager.Save(GameDataManager.instance.saveData);
