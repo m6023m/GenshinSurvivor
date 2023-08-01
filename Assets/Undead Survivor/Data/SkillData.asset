@@ -46,7 +46,7 @@ MonoBehaviour:
     - name: 2
       value: 0.2
     - name: 8
-      value: 0.2
+      value: 1
     - name: 0
       value: 0.3
     - name: 0
@@ -178,7 +178,7 @@ MonoBehaviour:
       value: 0.2
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 67e1113aa434a22408d7482e0b8adafd, type: 3}
-    level: 1
+    level: 0
     name: 4
     type: 0
     burst: 4
@@ -627,7 +627,7 @@ MonoBehaviour:
     skillUps: []
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 256044139b509194ebe33eb0a8870777, type: 3}
-    level: 1
+    level: 0
     name: 18
     type: 1
     burst: 19
@@ -646,7 +646,7 @@ MonoBehaviour:
       magnetSpeed: 0
       skillTick: 0
       count: 0
-      coolTime: 27.2
+      coolTime: 32
       elementGaugeMax: 0
       elementGauge: 0
       isDebuffable: 0
@@ -666,7 +666,7 @@ MonoBehaviour:
       value: 0.2
     - name: 11
       value: 0.2
-    changeElementType: 3
+    changeElementType: 0
   - icon: {fileID: 21300000, guid: f3c1597f2378ea646ba5584e64de67c5, type: 3}
     level: 0
     name: 19
@@ -689,7 +689,7 @@ MonoBehaviour:
       count: 0
       coolTime: 20
       elementGaugeMax: 80
-      elementGauge: 21.4
+      elementGauge: 0
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: 3e1ad47e076da2a44abee8b75ea304c2, type: 2}
     skillUps: []
@@ -3485,7 +3485,7 @@ MonoBehaviour:
     - name: 2
       value: 0.2
     - name: 8
-      value: 0.2
+      value: 1
     - name: 0
       value: 0.3
     - name: 0
