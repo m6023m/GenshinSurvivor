@@ -42,6 +42,8 @@ public class WeaponManager : MonoBehaviour
     }
     void Update()
     {
+        if(!canvasGroup.blocksRaycasts) return;
+        
         if (rewiredPlayer.GetButtonDown("L1"))
         {
             longClickUpgrade.onLongClickStart.Invoke();
