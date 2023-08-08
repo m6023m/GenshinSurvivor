@@ -1,0 +1,1 @@
+This game is created for non-profit purposes and respects the copyright of the original author. The content of this game is based on the work of the original author, but is not affiliated with the original author or their sponsors. This game should not be sold or used commercially. All profits obtained from this game should go to the original author. 
