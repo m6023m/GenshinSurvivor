@@ -25,6 +25,7 @@ public class GamepadPanel : MonoBehaviour
         panel = GetComponent<RectTransform>();
         lastCount = Input.GetJoystickNames().Length;
         panelGamepadUIs = GetComponentsInChildren<GamepadUI>(true);
+        CheckGamepadAndVisibleUI();
         InitPanel();
     }
     public void InitPanel(List<GamepadPair> gamepadUIs)
@@ -42,7 +43,7 @@ public class GamepadPanel : MonoBehaviour
         index = 0;
         foreach (GamepadPair gamepadUI in gamepadUIs)
         {
-            if(gamepadUI.Key == GamepadData.GamepadType.None) continue;
+            if (gamepadUI.Key == GamepadData.GamepadType.None) continue;
             panelGamepadUIs[index].gameObject.SetActive(true);
             Sprite gamepadTexture = gamepadData.Get(gamepadUI.Key).gamepadSprite;
             panelGamepadUIs[index].sprite = gamepadTexture;
@@ -52,6 +53,11 @@ public class GamepadPanel : MonoBehaviour
     }
 
     void Update()
+    {
+        CheckGamepadAndVisibleUI();
+    }
+
+    void CheckGamepadAndVisibleUI()
     {
         int count = Input.GetJoystickNames().Length;
 
@@ -69,6 +75,10 @@ public class GamepadPanel : MonoBehaviour
             }
 
             lastCount = count;
+        }
+        else if (count == 0)
+        {
+            panel.anchoredPosition = hiddenPosition;
         }
     }
 }
