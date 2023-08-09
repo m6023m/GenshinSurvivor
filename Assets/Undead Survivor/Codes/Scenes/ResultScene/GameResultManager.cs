@@ -36,10 +36,13 @@ public class GameResultManager : MonoBehaviour
     void WriteRecords()
     {
 
+        int hours = (int)(battleResult.suvivorTime / 3600);
         int minutes = (int)((battleResult.suvivorTime % 3600) / 60);
         int seconds = (int)(battleResult.suvivorTime % 60);
+
+
         WriteImageTextLeft(0, "Basic.Record".Localize(), null);
-        WriteImageTextLeft(1, "Basic.SurvivorTime".Localize(minutes, seconds), textIconsLeft[0]);
+        WriteImageTextLeft(1, "Basic.SurvivorTime".Localize(hours, minutes, seconds), textIconsLeft[0]);
         WriteImageTextLeft(2, "Basic.Kill".Localize(battleResult.kill), textIconsLeft[1]);
         WriteImageTextLeft(3, "Basic.Level".Localize(battleResult.level), textIconsLeft[2]);
         WriteImageTextLeft(4, "Basic.ReceiveDamage".Localize(battleResult.receiveDamage), textIconsLeft[3]);
