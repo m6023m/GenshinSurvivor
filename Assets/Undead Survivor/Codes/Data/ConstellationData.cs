@@ -164,7 +164,7 @@ public class ConstellationData
         }
         if (character.constellation[1])
         { //원소 충전 효율이 20% 증가
-            player.stat.regen *= 1.2f;
+            statBuff.regen += 0.2f;
         }
         if (character.constellation[2])
         { //격동의 바람의 대미지 20% 증가
@@ -174,11 +174,11 @@ public class ConstellationData
         { //회오리검을 시전하는 동안 방어력이 2증가
             skill.AddStartListener(() =>
             {
-                player.stat.armor += 2;
+                statBuff.armor += 2;
             });
             skill.AddEndListener(() =>
             {
-                player.stat.armor -= 2;
+                statBuff.armor -= 2;
             });
         }
         if (character.constellation[4])
@@ -267,11 +267,11 @@ public class ConstellationData
     {
         float addSpeed = player.stat.speed * 0.15f;
         float addAtk = player.stat.atk * 0.15f;
-        player.stat.speed += addSpeed;
-        player.stat.atk += addAtk;
+        statBuff.speed += addSpeed;
+        statBuff.atk += addAtk;
         yield return new WaitForSecondsRealtime(10.0f);
-        player.stat.speed -= addSpeed;
-        player.stat.atk -= addAtk;
+        statBuff.speed -= addSpeed;
+        statBuff.atk -= addAtk;
     }
 
 
@@ -312,9 +312,9 @@ public class ConstellationData
     IEnumerator XianglingBuff(SkillData.ParameterWithKey burst)
     {
         float addPyroDamage = 0.15f;
-        player.stat.pyroDmg += addPyroDamage;
+        statBuff.pyroDmg += addPyroDamage;
         yield return new WaitForSecondsRealtime(burst.parameter.duration);
-        player.stat.pyroDmg -= addPyroDamage;
+        statBuff.pyroDmg -= addPyroDamage;
     }
 
     void Bennet(Character character)
@@ -324,11 +324,11 @@ public class ConstellationData
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Bennet);
         if (character.constellation[0])
         { //공격력 1 증가
-            player.stat.atk += 1.0f;
+            statBuff.atk += 1.0f;
         }
         if (character.constellation[1])
         { //원소충전 효율 20% 상승
-            player.stat.regen *= 1.3f;
+            statBuff.regen += 0.2f;
         }
         if (character.constellation[2])
         { //열정 과부하 대미지 20% 증가
@@ -356,12 +356,12 @@ public class ConstellationData
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Diluc);
         if (character.constellation[0])
         { //불원소 피해 15% 증가
-            player.stat.pyroDmg += 0.15f;
+            statBuff.pyroDmg += 0.15f;
         }
         if (character.constellation[1])
         { //공격력 20%증가, 공격속도 10% 증가
             baseAttack.parameter.coolTime *= 0.9f;
-            player.stat.atk *= 1.2f;
+            statBuff.atk += player.stat.atk * 1.2f;
         }
         if (character.constellation[2])
         { //역날의 화염 대미지 20% 증가
@@ -418,7 +418,7 @@ public class ConstellationData
 
     IEnumerator KleeBuff()
     {
-        player.stat.pyroDmg += 0.2f;
+        statBuff.pyroDmg += 0.2f;
         for (int i = 0; i < 4; i++)
         {
             foreach (SkillData.ParameterWithKey parameterWithKey in GameManager.instance.ownBursts)
@@ -427,7 +427,7 @@ public class ConstellationData
                 yield return new WaitForSecondsRealtime(3.0f);
             }
         }
-        player.stat.pyroDmg -= 0.2f;
+        statBuff.pyroDmg -= 0.2f;
     }
     void Barbara(Character character)
     {
@@ -449,7 +449,7 @@ public class ConstellationData
         }
         if (character.constellation[3])
         { //원소충전 효율 20% 증가
-            player.stat.regen *= 1.2f;
+            statBuff.regen += 0.2f;
         }
         if (character.constellation[4])
         { //공연, 시작♪의 대미지 20% 증가
@@ -563,27 +563,27 @@ public class ConstellationData
             if (movePosition != Vector3.zero && !isBuff)
             {
                 isBuff = true;
-                player.stat.physicsDmg += buffValue;
-                player.stat.pyroDmg += buffValue;
-                player.stat.hydroDmg += buffValue;
-                player.stat.anemoDmg += buffValue;
-                player.stat.dendroDmg += buffValue;
-                player.stat.electroDmg += buffValue;
-                player.stat.cyroDmg += buffValue;
-                player.stat.geoDmg += buffValue;
+                statBuff.physicsDmg += buffValue;
+                statBuff.pyroDmg += buffValue;
+                statBuff.hydroDmg += buffValue;
+                statBuff.anemoDmg += buffValue;
+                statBuff.dendroDmg += buffValue;
+                statBuff.electroDmg += buffValue;
+                statBuff.cyroDmg += buffValue;
+                statBuff.geoDmg += buffValue;
             }
 
             if (movePosition == Vector3.zero && isBuff)
             {
                 isBuff = false;
-                player.stat.physicsDmg -= buffValue;
-                player.stat.pyroDmg -= buffValue;
-                player.stat.hydroDmg -= buffValue;
-                player.stat.anemoDmg -= buffValue;
-                player.stat.dendroDmg -= buffValue;
-                player.stat.electroDmg -= buffValue;
-                player.stat.cyroDmg -= buffValue;
-                player.stat.geoDmg -= buffValue;
+                statBuff.physicsDmg -= buffValue;
+                statBuff.pyroDmg -= buffValue;
+                statBuff.hydroDmg -= buffValue;
+                statBuff.anemoDmg -= buffValue;
+                statBuff.dendroDmg -= buffValue;
+                statBuff.electroDmg -= buffValue;
+                statBuff.cyroDmg -= buffValue;
+                statBuff.geoDmg -= buffValue;
             }
             yield return null;
         }
@@ -629,16 +629,16 @@ public class ConstellationData
         switch (type)
         {
             case Element.Type.Pyro:
-                player.stat.pyroDmg += buffValue;
+                statBuff.pyroDmg += buffValue;
                 break;
             case Element.Type.Hydro:
-                player.stat.hydroDmg += buffValue;
+                statBuff.hydroDmg += buffValue;
                 break;
             case Element.Type.Electro:
-                player.stat.electroDmg += buffValue;
+                statBuff.electroDmg += buffValue;
                 break;
             case Element.Type.Cyro:
-                player.stat.cyroDmg += buffValue;
+                statBuff.cyroDmg += buffValue;
                 break;
         }
         yield return new WaitForSecondsRealtime(10.0f);
@@ -646,16 +646,16 @@ public class ConstellationData
         switch (type)
         {
             case Element.Type.Pyro:
-                player.stat.pyroDmg -= buffValue;
+                statBuff.pyroDmg -= buffValue;
                 break;
             case Element.Type.Hydro:
-                player.stat.hydroDmg -= buffValue;
+                statBuff.hydroDmg -= buffValue;
                 break;
             case Element.Type.Electro:
-                player.stat.electroDmg -= buffValue;
+                statBuff.electroDmg -= buffValue;
                 break;
             case Element.Type.Cyro:
-                player.stat.cyroDmg -= buffValue;
+                statBuff.cyroDmg -= buffValue;
                 break;
         }
     }
@@ -672,7 +672,7 @@ public class ConstellationData
         if (character.constellation[1])
         { //일반공격 쿨타임 10% 감소, 이동속도 10% 증가
             baseAttack.parameter.coolTime *= 0.9f;
-            player.stat.speed *= 1.1f;
+            statBuff.speed += 0.1f;
         }
         if (character.constellation[2])
         { //민들레 바람 대미지 20% 증가
@@ -712,7 +712,7 @@ public class ConstellationData
         }
         if (character.constellation[3])
         { //바람 원소 피해 20% 증가
-            player.stat.anemoDmg += 0.2f;
+            statBuff.anemoDmg += 0.2f;
         }
         if (character.constellation[4])
         { //높은 하늘의 노래 대미지 20% 증가
@@ -732,7 +732,7 @@ public class ConstellationData
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Lisa);
         if (character.constellation[0])
         { //원소 충전 효율 10% 증가
-            player.stat.regen += 0.1f;
+            statBuff.regen += 0.1f;
         }
         if (character.constellation[1])
         { //창뢰의 대미지 주기 0.1초 감소
@@ -763,11 +763,11 @@ public class ConstellationData
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Razor);
         if (character.constellation[0])
         { //공격력 1 증가
-            player.stat.atk++;
+            statBuff.atk++;
         }
         if (character.constellation[1])
         { //행운이 1 증가
-            player.stat.luck++;
+            statBuff.luck++;
         }
         if (character.constellation[2])
         { //뇌아의 대미지 20% 증가
@@ -816,11 +816,11 @@ public class ConstellationData
         { //작뢰가 지속되는 동안 번개 원소 피해 20% 증가
             burst.AddStartListener(() =>
             {
-                player.stat.electroDmg += 0.2f;
+                statBuff.electroDmg += 0.2f;
             });
             burst.AddEndListener(() =>
             {
-                player.stat.electroDmg -= 0.2f;
+                statBuff.electroDmg -= 0.2f;
             });
         }
     }
@@ -876,7 +876,7 @@ public class ConstellationData
         }
         if (character.constellation[1])
         { //원소 충전 효율 20% 증가
-            player.stat.regen += 1.2f;
+            statBuff.regen += 0.2f;
         }
         if (character.constellation[2])
         { //천가 순유의 대미지 20% 증가
@@ -884,7 +884,7 @@ public class ConstellationData
         }
         if (character.constellation[3])
         { //공격력 2 증가
-            player.stat.atk += 2;
+            statBuff.atk += 2;
         }
         if (character.constellation[4])
         { //성신 회귀의 대미지 20% 증가
@@ -892,7 +892,7 @@ public class ConstellationData
         }
         if (character.constellation[5])
         { //번개 원소 피해 보너스 30% 증가
-            player.stat.electroDmg += 0.3f;
+            statBuff.electroDmg += 0.3f;
         }
     }
 
@@ -903,7 +903,7 @@ public class ConstellationData
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Kaeya);
         if (character.constellation[0])
         { //행운이 1 증가
-            player.stat.luck++;
+            statBuff.luck++;
         }
         if (character.constellation[1])
         { //살을 에는 윤무의 지속시간 20% 증가
@@ -939,7 +939,7 @@ public class ConstellationData
         }
         if (character.constellation[1])
         { //재사용 대기시간이 10% 감소
-            player.stat.cooltime += 0.1f;
+            statBuff.cooltime += 0.1f;
         }
         if (character.constellation[2])
         { //영도 · 떨어지는 별의 대미지 20% 증가
@@ -947,7 +947,7 @@ public class ConstellationData
         }
         if (character.constellation[3])
         { //원소 충전 효율 10% 증가
-            player.stat.regen *= 0.1f;
+            statBuff.regen += 0.1f;
         }
         if (character.constellation[4])
         { //영도 · 중첩의 서리의 범위 20% 증가
@@ -1024,11 +1024,11 @@ public class ConstellationData
         { //선기 병풍의 지속시간 동안 방어력 2 증가
             skill.AddStartListener(() =>
             {
-                player.stat.armor += 2;
+                statBuff.armor += 2;
             });
             skill.AddEndListener(() =>
             {
-                player.stat.armor -= 2;
+                statBuff.armor -= 2;
             });
         }
         if (character.constellation[4])
@@ -1079,17 +1079,17 @@ public class ConstellationData
         }
         if (character.constellation[5])
         { //대청소 발동 시 추가로 노엘 방어력의 50%만큼 공격력 증가, 지속시간 20% 증가
-            float buffValue = player.stat.armor * 0.5f;
+            float buffValue = 0;
             burst.parameter.duration *= 1.2f;
             burst.AddStartListener(() =>
             {
-                buffValue = player.stat.armor = 0.5f;
-                player.stat.atk += buffValue;
+                buffValue = player.statCalcuator.Armor * 0.5f;
+                statBuff.atk += buffValue;
             });
 
             burst.AddEndListener(() =>
             {
-                player.stat.atk -= buffValue;
+                statBuff.atk -= buffValue;
             });
         }
     }
@@ -1334,7 +1334,7 @@ public class ConstellationData
         }
         if (character.constellation[1])
         { //원소 충전 효율이 25% 증가
-            player.stat.regen *= 1.25f;
+            statBuff.regen += 0.25f;
         }
         if (character.constellation[2])
         { //풍륜양립의 대미지 20% 증가
@@ -1406,7 +1406,7 @@ public class ConstellationData
         }
         if (character.constellation[3])
         { //행운 3증가
-            player.stat.luck += 3;
+            statBuff.luck += 3;
         }
         if (character.constellation[4])
         { //평안의 서 대미지 20% 증가
@@ -1494,11 +1494,11 @@ public class ConstellationData
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Yanfei);
         if (character.constellation[0])
         { //HP가 20% 증가
-            player.stat.hp *= 1.2f;
+            statBuff.hp += player.stat * 0.2f;
         }
         if (character.constellation[1])
         { //행운 3증가
-            player.stat.luck += 3;
+            statBuff.luck += 3;
         }
         if (character.constellation[2])
         { //단홍의 계약 대미지 20% 증가
@@ -1581,7 +1581,7 @@ public class ConstellationData
         }
         if (character.constellation[1])
         { //원소마스터리 200 증가. 치하야부루 또는 카즈하의 일도의 원소전환 시 해당하는 원소의 원소피해 20% 증가. 지속 12초
-            player.stat.elementMastery += 200;
+            statBuff.elementMastery += 200;
             skill.AddElementChangeListener((type) =>
             {
                 player.StartCoroutine(KazuhaBuff(type));
@@ -1637,16 +1637,16 @@ public class ConstellationData
         switch (type)
         {
             case Element.Type.Pyro:
-                player.stat.pyroDmg += buffValue;
+                statBuff.pyroDmg += buffValue;
                 break;
             case Element.Type.Hydro:
-                player.stat.hydroDmg += buffValue;
+                statBuff.hydroDmg += buffValue;
                 break;
             case Element.Type.Electro:
-                player.stat.electroDmg += buffValue;
+                statBuff.electroDmg += buffValue;
                 break;
             case Element.Type.Cyro:
-                player.stat.cyroDmg += buffValue;
+                statBuff.cyroDmg += buffValue;
                 break;
         }
         yield return new WaitForSecondsRealtime(10.0f);
@@ -1654,16 +1654,16 @@ public class ConstellationData
         switch (type)
         {
             case Element.Type.Pyro:
-                player.stat.pyroDmg -= buffValue;
+                statBuff.pyroDmg -= buffValue;
                 break;
             case Element.Type.Hydro:
-                player.stat.hydroDmg -= buffValue;
+                statBuff.hydroDmg -= buffValue;
                 break;
             case Element.Type.Electro:
-                player.stat.electroDmg -= buffValue;
+                statBuff.electroDmg -= buffValue;
                 break;
             case Element.Type.Cyro:
-                player.stat.cyroDmg -= buffValue;
+                statBuff.cyroDmg -= buffValue;
                 break;
         }
     }
