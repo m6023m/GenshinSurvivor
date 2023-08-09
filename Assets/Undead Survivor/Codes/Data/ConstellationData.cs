@@ -1083,7 +1083,7 @@ public class ConstellationData
             burst.parameter.duration *= 1.2f;
             burst.AddStartListener(() =>
             {
-                buffValue = player.statCalcuator.Armor * 0.5f;
+                buffValue = GameManager.instance.statCalcuator.Armor * 0.5f;
                 statBuff.atk += buffValue;
             });
 
@@ -1494,7 +1494,7 @@ public class ConstellationData
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Yanfei);
         if (character.constellation[0])
         { //HP가 20% 증가
-            statBuff.hp += player.stat * 0.2f;
+            statBuff.hp += player.stat.hp * 0.2f;
         }
         if (character.constellation[1])
         { //행운 3증가
