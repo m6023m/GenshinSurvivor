@@ -22,8 +22,12 @@ MonoBehaviour:
     scanRange: 0
     isProjectile: 0
     isSummonAttack: 0
+    isConditionChange: 0
+    isContinueDamage: 0
     isTrigger: 0
     isTriggerAttack: 0
+    isPlayerMove: 0
+    isSkillMove: 0
     isImmune: 0
     isMass: 0
     isPositionFix: 0
@@ -36,11 +40,14 @@ MonoBehaviour:
     isContinue: 0
     aim: 0
     isTraking: 0
+    isMagnet: 0
     isSequence: 0
     isTransform: 0
     isChangedElement: 0
+    isResetPosition: 0
     defalutPosition: {x: 0, y: 0}
     defalutRotation: {x: 0, y: 0}
+    centerOffset: {x: 0, y: 0}
     skillSize: 4
     createRange: 0
     layerOrder: 0
@@ -48,6 +55,7 @@ MonoBehaviour:
     moveTime: 0
     randomRange: 0
     animationSpeed: 2
+    isAnimationSpeedMatchDuration: 0
   - animation: {fileID: 7400000, guid: 6ce307778e0ab9e438b399e3e203e102, type: 2}
     objectType: 3
     damage: 1
@@ -57,8 +65,12 @@ MonoBehaviour:
     scanRange: 0
     isProjectile: 0
     isSummonAttack: 0
+    isConditionChange: 0
+    isContinueDamage: 0
     isTrigger: 0
     isTriggerAttack: 0
+    isPlayerMove: 0
+    isSkillMove: 0
     isImmune: 0
     isMass: 0
     isPositionFix: 0
@@ -71,11 +83,14 @@ MonoBehaviour:
     isContinue: 1
     aim: 0
     isTraking: 0
+    isMagnet: 0
     isSequence: 0
     isTransform: 0
     isChangedElement: 0
+    isResetPosition: 0
     defalutPosition: {x: 0, y: 0}
     defalutRotation: {x: 0, y: 0}
+    centerOffset: {x: 0, y: 0}
     skillSize: 2
     createRange: 0
     layerOrder: 0
@@ -83,38 +98,4 @@ MonoBehaviour:
     moveTime: 0
     randomRange: 0
     animationSpeed: 2
-  - animation: {fileID: 7400000, guid: 6ce307778e0ab9e438b399e3e203e102, type: 2}
-    objectType: 2
-    damage: 1
-    damageStat: 0
-    elementType: 0
-    duration: 15
-    scanRange: 0
-    isProjectile: 0
-    isSummonAttack: 0
-    isTrigger: 0
-    isTriggerAttack: 0
-    isImmune: 0
-    isMass: 0
-    isPositionFix: 0
-    isRotationFix: 0
-    isRotate: 0
-    coolTime: 0
-    _skillCount: 1
-    isSkillAdd: 1
-    delay: 0
-    isContinue: 0
-    aim: 1
-    isTraking: 0
-    isSequence: 0
-    isTransform: 0
-    isChangedElement: 0
-    defalutPosition: {x: 0, y: 0}
-    defalutRotation: {x: 0, y: 0}
-    skillSize: 2
-    createRange: 0
-    layerOrder: 0
-    moveRange: 0
-    moveTime: 0
-    randomRange: 0
-    animationSpeed: 2
+    isAnimationSpeedMatchDuration: 0
