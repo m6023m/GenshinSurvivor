@@ -448,10 +448,6 @@ public class SkillMoveSet : MonoBehaviour
         }
     }
 
-    protected virtual void OnTriggerStay2D(Collider2D collision)
-    {
-
-    }
     protected virtual void OnTriggerExit2D(Collider2D collision)
     {
 

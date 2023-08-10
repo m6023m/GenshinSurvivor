@@ -87,6 +87,7 @@ public class LevelUpManager : MonoBehaviour
         levelUpManager.gameObject.SetActive(false);
         GameManager.instance.GetExp(0);
         selectedButtonIndex = -1;
+        GameDataManager.instance.SaveInstance();
     }
 
     public void SkillUp(SkillName skillName)
@@ -152,7 +153,6 @@ public class LevelUpManager : MonoBehaviour
             GameManager.instance.gameInfoData.getBursts.AddOrUpdate(skill.burst, 1);
         }
         GameManager.instance.gameInfoData.getSkills.AddOrUpdate(skillName, skillLevel);
-        GameDataManager.instance.SaveInstance();
     }
 
     public void ArtifactUp(ArtifactName artifactName)
@@ -165,7 +165,6 @@ public class LevelUpManager : MonoBehaviour
         }
         artifact.level++;
         GameManager.instance.gameInfoData.getArtifacts.AddOrUpdate(artifactName, artifact.level);
-        GameDataManager.instance.SaveInstance();
     }
 
 

@@ -109,7 +109,6 @@ public class GameManager : MonoBehaviour
         InitSkill();
         InitConstellation();
         InitEditorMode();
-        GameDataManager.instance.SaveInstance();
     }
 
     void InitEditorMode()
