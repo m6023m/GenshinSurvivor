@@ -104,10 +104,6 @@ public class GameManager : MonoBehaviour
         battleResult = gameInfoData.battleResult;
     }
 
-    private void OnApplicationQuit()
-    {
-        GameDataManager.instance.SaveInstance();
-    }
     void Start()
     {
         InitSkill();
