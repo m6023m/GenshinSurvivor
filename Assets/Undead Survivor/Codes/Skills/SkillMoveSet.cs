@@ -350,12 +350,17 @@ public class SkillMoveSet : MonoBehaviour
         {
             animationEndTime = duration;
         }
+        
+        if(skillSequence.moveTimeInDuration) {
+            animationEndTime = skillSequence.moveTime;
+        }
         animationTime = 0.0f;
     }
 
     void AnimationEnd()
     {
         if (skillSequence.duration == -1) return;
+        if (!gameObject.activeInHierarchy) return;
         gameObject.SetActive(false);
         animationTime = 0.0f;
     }

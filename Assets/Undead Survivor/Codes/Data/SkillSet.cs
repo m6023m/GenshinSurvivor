@@ -106,6 +106,8 @@ public class SkillSet : ScriptableObject
         public float moveRange;
         [Tooltip("moveTime 스킬 이동 시간 0이면 moveRange만큼 이동하고 끝")]
         public float moveTime;
+        [Tooltip("moveTimeInDuration 지속시간이 이동시간이 됨")]
+        public bool moveTimeInDuration;
         [Tooltip("randomRange 0이상이면 스킬이 랜덤한 범위에서 생성됨")]
         public float randomRange;
         [Tooltip("animationSpeed 애니메이션 속도")]

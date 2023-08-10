@@ -18,7 +18,8 @@ public class DropItem : MonoBehaviour
     private Renderer objectRenderer;
     float disableTime = 30.0f;
     float gameTime = 0;
-
+    private HashSet<Collider2D> dropColliders = new HashSet<Collider2D>();
+    private HashSet<SkillMoveSet> skillMoveSets = new HashSet<SkillMoveSet>();
 
     public enum Name
     {
@@ -41,17 +42,35 @@ public class DropItem : MonoBehaviour
         createTime = 0;
         mainCamera = Camera.main;
         objectRenderer = GetComponent<Renderer>();
+        dropColliders = new HashSet<Collider2D>();
+        skillMoveSets = new HashSet<SkillMoveSet>();
     }
-    private void Update()
-    {
-        CheckDisable();
-        Rect screenRect = new Rect(0, 0, Screen.width, Screen.height);
 
+    private void LateUpdate()
+    {
+        magnetVec = new Vector2(0, 0);
         if (createTime > maxLiveTime)
         {
             gameObject.SetActive(false);
         }
         if (rigid == null) return;
+        foreach (var collider in dropColliders)
+        {
+            Magnet(collider.gameObject.transform.position, speed * 3);
+        }
+        foreach (var skill in skillMoveSets)
+        {
+            if (skill.gameObject.activeInHierarchy)
+            {
+                Magnet(skill.transform.position, skill.parameterWithKey.parameter.magnetSpeed);
+            }
+        }
+
+        Move();
+        CheckDisable();
+    }
+    private void Move()
+    {
         Vector2 nextVec = magnetVec * speed * Time.deltaTime;
         rigid.MovePosition(rigid.position + nextVec);
         rigid.velocity = Vector2.zero;
@@ -67,21 +86,7 @@ public class DropItem : MonoBehaviour
             gameObject.SetActive(false);
         }
     }
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.CompareTag("DropArea"))
-        {
-            Magnet(collision.gameObject.transform.position, speed);
-        }
-        if (collision.CompareTag("SkillEffectArea"))
-        {
-            SkillMoveSet skill = collision.GetComponentInParent<SkillMoveSet>();
-            if (skill.parameterWithKey.parameter.magnet != 0 && skill.skillSequence.isMagnet)
-            {
-                Magnet(collision.gameObject.transform.position, skill.parameterWithKey.parameter.magnetSpeed);
-            }
-        }
-    }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -90,7 +95,37 @@ public class DropItem : MonoBehaviour
             DropPlayer();
             gameObject.SetActive(false);
         }
+
+        if (collision.CompareTag("DropArea"))
+        {
+            dropColliders.Add(collision);
+        }
+
+        if (collision.CompareTag("SkillEffectArea"))
+        {
+            SkillMoveSet skill = collision.GetComponentInParent<SkillMoveSet>();
+            if (skill.parameterWithKey.parameter.magnet != 0 && skill.skillSequence.isMagnet)
+            {
+                skillMoveSets.Add(skill);
+            }
+        }
+
     }
+
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        if (dropColliders.Contains(collision))
+        {
+            dropColliders.Remove(collision);
+        }
+
+        SkillMoveSet skill = collision.GetComponentInParent<SkillMoveSet>();
+        if (skillMoveSets.Contains(skill))
+        {
+            skillMoveSets.Remove(skill);
+        }
+    }
+
 
     void DropPlayer()
     {
@@ -135,17 +170,9 @@ public class DropItem : MonoBehaviour
     }
 
 
-    void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player") || collision.CompareTag("SkillEffectArea"))
-        {
-            magnetVec = new Vector2(0, 0);
-        }
-    }
-
     void Magnet(Vector3 target, float magnetSpeed)
     {
         Vector3 targetPosition = target;
-        magnetVec = (targetPosition - transform.position) * magnetSpeed * 0.3f;
+        magnetVec = (targetPosition - transform.position).normalized * magnetSpeed * 0.3f;
     }
 }

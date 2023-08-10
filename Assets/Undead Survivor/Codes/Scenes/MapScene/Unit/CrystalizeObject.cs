@@ -13,20 +13,39 @@ public class CrystalizeObject : MonoBehaviour
     Element.Type elementType;
     float disableTime = 3.0f;
     float gameTime = 0;
+    private HashSet<Collider2D> dropColliders = new HashSet<Collider2D>();
+    private HashSet<SkillMoveSet> skillMoveSets = new HashSet<SkillMoveSet>();
 
     private void Awake()
     {
         InitValues();
     }
-    private void Update()
+    private void LateUpdate()
     {
+        magnetVec = new Vector2(0, 0);
+        foreach (var collider in dropColliders)
+        {
+            Magnet(collider.gameObject.transform.position, speed * 3);
+        }
+        foreach (var skill in skillMoveSets)
+        {
+            if (skill.gameObject.activeInHierarchy)
+            {
+                Magnet(skill.transform.position, skill.parameterWithKey.parameter.magnetSpeed);
+            }
+        }
+
+        Move();
+        CheckDisable();
+    }
+
+    void CheckDisable() {
         gameTime += Time.deltaTime;
         if (gameTime > disableTime)
         {
             gameTime = 0;
             gameObject.SetActive(false);
         }
-
     }
 
     void InitValues()
@@ -41,26 +60,14 @@ public class CrystalizeObject : MonoBehaviour
     {
         InitValues();
         spriteRenderer.color = Element.Color(elementType);
+        dropColliders = new HashSet<Collider2D>();
+        skillMoveSets = new HashSet<SkillMoveSet>();
     }
-    private void FixedUpdate()
+    private void Move()
     {
-        Vector2 nextVec = magnetVec * speed * Time.fixedDeltaTime;
+        Vector2 nextVec = magnetVec * speed * Time.deltaTime;
         rigid.MovePosition(rigid.position + nextVec);
         rigid.velocity = Vector2.zero;
-    }
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.CompareTag("DropArea"))
-        {
-            Magnet(collision.gameObject.transform.position, speed);
-        }
-        if (collision.CompareTag("SkillEffectArea"))
-        {
-            if (collision.GetComponentInParent<SkillMoveSet>().parameterWithKey.parameter.magnet != 0)
-            {
-                Magnet(collision.gameObject.transform.position, collision.GetComponentInParent<SkillMoveSet>().parameterWithKey.parameter.magnetSpeed);
-            }
-        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -73,19 +80,41 @@ public class CrystalizeObject : MonoBehaviour
             AudioManager.instance.PlaySFX(AudioManager.SFX.Regen);
             gameObject.SetActive(false);
         }
+
+        if (collision.CompareTag("DropArea"))
+        {
+            dropColliders.Add(collision);
+        }
+
+        if (collision.CompareTag("SkillEffectArea"))
+        {
+            SkillMoveSet skill = collision.GetComponentInParent<SkillMoveSet>();
+            if (skill.parameterWithKey.parameter.magnet != 0 && skill.skillSequence.isMagnet)
+            {
+                skillMoveSets.Add(skill);
+            }
+        }
+
     }
 
     void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") || collision.CompareTag("SkillEffectArea"))
+        if (dropColliders.Contains(collision))
         {
-            magnetVec = new Vector2(0, 0);
+            dropColliders.Remove(collision);
+        }
+
+        SkillMoveSet skill = collision.GetComponentInParent<SkillMoveSet>();
+        if (skillMoveSets.Contains(skill))
+        {
+            skillMoveSets.Remove(skill);
         }
     }
+
 
     void Magnet(Vector3 target, float magnetSpeed)
     {
         Vector3 targetPosition = target;
-        magnetVec = (targetPosition - transform.position) * magnetSpeed;
+        magnetVec = (targetPosition - transform.position).normalized * magnetSpeed * 0.3f;
     }
 }

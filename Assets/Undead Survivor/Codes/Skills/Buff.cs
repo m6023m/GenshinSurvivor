@@ -18,6 +18,9 @@ public class Buff : SkillMoveSet
     float reactionTime;
     float reactionTickTime;
     StatBuff statBuff;
+    bool isPlayerInside;
+    private float timeSinceLastCheck = 0f;
+    private const float checkInterval = 1f; 
 
     Enemy enemy;
     float skillDamage;
@@ -25,6 +28,7 @@ public class Buff : SkillMoveSet
     protected override void Update()
     {
         base.Update();
+        CheckPlayerInside();
         if (parameterWithKey.type != Skill.Type.Reaction) return;
         reactionTime += (1 * Time.deltaTime);
         reactionTickTime += (1 * Time.deltaTime);
@@ -39,6 +43,67 @@ public class Buff : SkillMoveSet
             }
 
             reactionTickTime = 0;
+        }
+    }
+    void CheckPlayerInside()
+    {
+        if (isPlayerInside)
+        {
+            timeSinceLastCheck += Time.deltaTime;
+            if (timeSinceLastCheck >= checkInterval)
+            {
+                CheckPlayerEffect();
+                timeSinceLastCheck = 0f;
+            }
+        }
+    }
+    void CheckPlayerEffect() {
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        switch (parameterWithKey.name)
+        {
+            case SkillName.EB_Bennet:
+                float healthPercentage = player.health / player.maxHealth * 100.0f;
+                buffTrigger = healthPercentage > 70;
+                if (parameterWithKey.constellations.num5)
+                {
+                    baseAttack.parameter.SetElementType(baseAttack, Element.Type.Pyro);
+                }
+                break;
+            case SkillName.EB_Diluc:
+                baseAttack.parameter.SetElementType(baseAttack, Element.Type.Pyro);
+                break;
+            case SkillName.E_Keqing:
+                baseAttack.parameter.SetElementType(baseAttack, Element.Type.Electro);
+                break;
+            case SkillName.E_Chongyun:
+                baseAttack.parameter.SetElementType(baseAttack, Element.Type.Cyro);
+                break;
+            case SkillName.EB_Noelle:
+                baseAttack.parameter.SetElementType(baseAttack, Element.Type.Geo);
+                baseAttack.parameter.isTypeFix = true;
+                break;
+            case SkillName.E_Tartaglia:
+                baseAttack.parameter.SetElementType(baseAttack, Element.Type.Hydro);
+                baseAttack.parameter.isTypeFix = true;
+                break;
+            case SkillName.E_Zhongli:
+                statBuff.isResonance = true;
+                break;
+            case SkillName.EB_Xiao:
+                baseAttack.parameter.SetElementType(baseAttack, Element.Type.Anemo);
+                baseAttack.parameter.isTypeFix = true;
+                if (parameterWithKey.constellations.num5)
+                {
+                    GameManager.instance.skillData.Get(SkillName.E_Xiao).parameter.coolTime = 1.0f;
+                }
+                break;
+            case SkillName.E_Hutao:
+                baseAttack.parameter.SetElementType(baseAttack, Element.Type.Pyro);
+                baseAttack.parameter.isTypeFix = true;
+                break;
+            case SkillName.E_Kazuha:
+                GameManager.instance.player.coll.isTrigger = true;
+                break;
         }
     }
 
@@ -262,6 +327,7 @@ public class Buff : SkillMoveSet
     {
         if (!collider.CompareTag("Player")) return;
 
+        isPlayerInside = true;
         float buffValue0 = 0;
         float buffValue1 = 0;
         SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
@@ -347,58 +413,6 @@ public class Buff : SkillMoveSet
         }
     }
 
-    protected override void OnTriggerStay2D(Collider2D collider)
-    {
-        base.OnTriggerStay2D(collider);
-        if (!collider.CompareTag("Player")) return;
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
-        switch (parameterWithKey.name)
-        {
-            case SkillName.EB_Bennet:
-                float healthPercentage = player.health / player.maxHealth * 100.0f;
-                buffTrigger = healthPercentage > 70;
-                if (parameterWithKey.constellations.num5)
-                {
-                    baseAttack.parameter.SetElementType(baseAttack, Element.Type.Pyro);
-                }
-                break;
-            case SkillName.EB_Diluc:
-                baseAttack.parameter.SetElementType(baseAttack, Element.Type.Pyro);
-                break;
-            case SkillName.E_Keqing:
-                baseAttack.parameter.SetElementType(baseAttack, Element.Type.Electro);
-                break;
-            case SkillName.E_Chongyun:
-                baseAttack.parameter.SetElementType(baseAttack, Element.Type.Cyro);
-                break;
-            case SkillName.EB_Noelle:
-                baseAttack.parameter.SetElementType(baseAttack, Element.Type.Geo);
-                baseAttack.parameter.isTypeFix = true;
-                break;
-            case SkillName.E_Tartaglia:
-                baseAttack.parameter.SetElementType(baseAttack, Element.Type.Hydro);
-                baseAttack.parameter.isTypeFix = true;
-                break;
-            case SkillName.E_Zhongli:
-                statBuff.isResonance = true;
-                break;
-            case SkillName.EB_Xiao:
-                baseAttack.parameter.SetElementType(baseAttack, Element.Type.Anemo);
-                baseAttack.parameter.isTypeFix = true;
-                if (parameterWithKey.constellations.num5)
-                {
-                    GameManager.instance.skillData.Get(SkillName.E_Xiao).parameter.coolTime = 1.0f;
-                }
-                break;
-            case SkillName.E_Hutao:
-                baseAttack.parameter.SetElementType(baseAttack, Element.Type.Pyro);
-                baseAttack.parameter.isTypeFix = true;
-                break;
-            case SkillName.E_Kazuha:
-                GameManager.instance.player.coll.isTrigger = true;
-                break;
-        }
-    }
     protected override void OnTriggerExit2D(Collider2D collider)
     {
         base.OnTriggerExit2D(collider);
@@ -409,6 +423,7 @@ public class Buff : SkillMoveSet
     void OnTriggerExitPlayer(Collider2D collider)
     {
         if (!collider.CompareTag("Player")) return;
+        isPlayerInside = false;
         SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
         switch (parameterWithKey.name)
         {
