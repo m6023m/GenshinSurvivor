@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -1571,6 +1572,7 @@ public class ConstellationData
         SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Kazuha);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Kazuha);
+        InitializeDictionaries();
         if (character.constellation[0])
         { //치하야부루의 재사용 대기시간이 10% 감소. 카즈하의 일도를 발동하면 치하야부루의 재사용 대기시간이 초기화됨
             skill.parameter.coolTime *= 0.9f;
@@ -1630,11 +1632,46 @@ public class ConstellationData
             });
         }
     }
+
+    private Dictionary<Element.Type, bool> buffActiveFlags = new Dictionary<Element.Type, bool>();
+    private Dictionary<Element.Type, float> buffDurations = new Dictionary<Element.Type, float>();
+
+    private void InitializeDictionaries()
+    {
+        foreach (Element.Type type in Enum.GetValues(typeof(Element.Type)))
+        {
+            buffActiveFlags[type] = false;
+            buffDurations[type] = 0f;
+        }
+    }
+
     IEnumerator KazuhaBuff(Element.Type elementType)
     {
-        Element.Type type = elementType;
+        if (buffActiveFlags[elementType])
+        {
+            buffDurations[elementType] = 10.0f;
+            yield break;
+        }
+
+        buffActiveFlags[elementType] = true;
+
         float buffValue = 0.2f;
-        switch (type)
+        ApplyBuff(elementType, buffValue);
+        buffDurations[elementType] = 10.0f;
+
+        while (buffDurations[elementType] > 0)
+        {
+            yield return new WaitForSecondsRealtime(1.0f);
+            buffDurations[elementType] -= 1.0f;
+        }
+
+        RemoveBuff(elementType, buffValue);
+        buffActiveFlags[elementType] = false;
+    }
+
+    void ApplyBuff(Element.Type elementType, float buffValue)
+    {
+        switch (elementType)
         {
             case Element.Type.Pyro:
                 statBuff.pyroDmg += buffValue;
@@ -1649,9 +1686,11 @@ public class ConstellationData
                 statBuff.cyroDmg += buffValue;
                 break;
         }
-        yield return new WaitForSecondsRealtime(10.0f);
+    }
 
-        switch (type)
+    void RemoveBuff(Element.Type elementType, float buffValue)
+    {
+        switch (elementType)
         {
             case Element.Type.Pyro:
                 statBuff.pyroDmg -= buffValue;
