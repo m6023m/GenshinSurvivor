@@ -9,11 +9,13 @@ public class Player : SkillOwner
 {
     public Vector3 inputVec;
     public Vector3 playerVec;
+    private Vector2 moveVector;
     public Vector3 vec;
     public PlayerHit playerHit;
     public int rotation;
     public Rigidbody2D rigid;
     public float speed;
+    bool isMove = false;
     public SpriteRenderer spriter;
     public Animator animator;
     public Collider2D coll;
@@ -108,18 +110,35 @@ public class Player : SkillOwner
 
     void FixedUpdate()
     {
-        if (vec == Vector3.zero)
-        {
-            inputVec = new Vector3(rewiredPlayer.GetAxis("UIHorizontal"), rewiredPlayer.GetAxis("UIVertical")).normalized;
-            SetDir();
-        }
-        Vector2 nextVec = inputVec * GameManager.instance.statCalcuator.Speed * Time.fixedDeltaTime;
+        GetInput();
+        ProcessInput();
+        Vector2 nextVec = inputVec.normalized * GameManager.instance.statCalcuator.Speed * Time.fixedDeltaTime;
         rigid.MovePosition(rigid.position + nextVec);
 
 
         if (!CheckIsAlive())
         {
             OnDead();
+        }
+    }
+
+    private void GetInput()
+    {
+        moveVector.x = rewiredPlayer.GetAxis("UIHorizontal");
+        moveVector.y = rewiredPlayer.GetAxis("UIVertical");
+    }
+
+    private void ProcessInput()
+    {
+        if (moveVector != Vector2.zero)
+        {
+            OnMove(moveVector);
+            isMove = true;
+        }
+        if (isMove && moveVector == Vector2.zero)
+        {
+            OnMove(moveVector);
+            isMove = false;
         }
     }
     protected override bool CheckIsAlive()
@@ -142,6 +161,12 @@ public class Player : SkillOwner
     {
         inputVec = value.Get<Vector2>();
         vec = value.Get<Vector2>();
+        SetDir();
+    }
+    private void OnMove(Vector2 inputVec)
+    {
+        this.inputVec = inputVec;
+        vec = inputVec;
         SetDir();
     }
 
