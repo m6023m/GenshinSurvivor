@@ -314,7 +314,7 @@ public class ElementReaction : MonoBehaviour
         parentMaterial.SetFloat(frozenMaterialID, fade);
         isFrozen = fade == 1;
         EnemyStop(isFrozen);
-        if (isFrozen) GameManager.instance.damageManager.WriteReaction(parentEnemy.transform, skillData.Get(SkillName.Frozen), Element.Type.Cyro);
+        if (isFrozen) GameManager.instance.damageAttach.WriteReaction(parentEnemy.transform, skillData.Get(SkillName.Frozen), Element.Type.Cyro);
     }
 
     public void Petrification(float fade)
@@ -334,7 +334,7 @@ public class ElementReaction : MonoBehaviour
     void DropCrystalize(ElementAttach elementAttach)
     {
         SkillData.ParameterWithKey parameterWithKey = skillData.Get(SkillName.Crystalize);
-        GameManager.instance.damageManager.WriteReaction(parentEnemy.transform, parameterWithKey, elementAttach.elementType);
+        GameManager.instance.damageAttach.WriteReaction(parentEnemy.transform, parameterWithKey, elementAttach.elementType);
 
 
         GameObject crystalizeObject = GameManager.instance.poolManager.Get(PoolManager.Type.Crystalize);

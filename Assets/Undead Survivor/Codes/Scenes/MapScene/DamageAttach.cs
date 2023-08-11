@@ -24,21 +24,18 @@ public class DamageAttach : MonoBehaviour
         damageText.transform.rotation = Quaternion.Euler(0, 0, 0);
         float randomRangeX = Random.Range(0, 2);
         float randomRangeY = Random.Range(-1, 1);
-        damageText.transform.localPosition = new Vector3(randomRangeX, randomRangeY);
+        damageText.transform.position = parentTranform.position + new Vector3(randomRangeX, randomRangeY);
         if (movePositionX != 0 || movePositionY != 0)
         {
-            damageText.transform.localPosition = new Vector2(movePositionX, movePositionY);
+            damageText.transform.position = parentTranform.position +  new Vector3(movePositionX, movePositionY);
         }
         string damageString = Mathf.Round(damage).ToString();
         Color damageColor = color;
-        Vector2 childScale = damageText.transform.localScale;
-        Vector2 parentScale = parentTranform.localScale;
         if (damage == 0)//면역
         {
             damageString = ("Basic.Immune").Localize();
             damageColor = Element.Color(Element.Type.Immune);
         }
-        damageText.transform.localScale = new Vector2(1.0f / parentScale.x, 1.0f / parentScale.y);
         damageText.color = damageColor;
         damageText.text = damageString;
         Animator animator = damageText.GetComponent<Animator>();
@@ -56,13 +53,10 @@ public class DamageAttach : MonoBehaviour
         TextMeshPro damageText = texts[textNumber];
         damageText.gameObject.SetActive(true);
         damageText.transform.rotation = Quaternion.Euler(0, 0, 0);
-        damageText.transform.localPosition = new Vector2(-1, 0);
+        damageText.transform.position = parentTranform.position + new Vector3(-1, 0);
 
         Color damageColor = Element.Color(elementType);
-        Vector2 childScale = damageText.transform.localScale;
-        Vector2 parentScale = parentTranform.localScale;
         string text = "Basic.Reaction.".AddString(parameterWithKey.name.ToString()).Localize();
-        damageText.transform.localScale = new Vector2(1.0f / parentScale.x, 1.0f / parentScale.y);
         damageText.color = damageColor;
         damageText.text = text;
         Animator animator = damageText.GetComponent<Animator>();

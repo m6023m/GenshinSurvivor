@@ -39,7 +39,7 @@ public class Enemy : MonoBehaviour
         {
             if (_damageAttach == null)
             {
-                _damageAttach = GetComponentInChildren<DamageAttach>();
+                _damageAttach = GameManager.instance.damageAttach;
             }
             return _damageAttach;
         }

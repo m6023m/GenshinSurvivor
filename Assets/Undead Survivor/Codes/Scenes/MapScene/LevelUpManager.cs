@@ -225,13 +225,14 @@ public class LevelUpManager : MonoBehaviour
     List<SkillData.ParameterWithKey> GetAvailableSkills()
     {
         List<SkillData.ParameterWithKey> availableSkills = new List<SkillData.ParameterWithKey>();
-        foreach (SkillData.ParameterWithKey skill in skillData.skills)
+        foreach (SkillData.ParameterWithKey skill in skillData.skillsDictionary.Values)
         {
             if (CheckSkillTerm(skill))
             {
                 availableSkills.Add(skill);
             }
         }
+
         return availableSkills;
     }
     List<ArtifactData.ParameterWithKey> GetAvailableArtifacts()

@@ -27,6 +27,7 @@ public class PoolManager : MonoBehaviour
     public GameObject[] prefabs;
     List<GameObject>[] pools;
     public List<GameObject> enemys;
+    public List<GameObject> elementalSpheres;
 
     void Awake()
     {
@@ -37,6 +38,7 @@ public class PoolManager : MonoBehaviour
             pools[i] = new List<GameObject>();
         }
         pools[(int)Type.Enemy] = enemys;
+        pools[(int)Type.ElementalSphere] = elementalSpheres;
     }
 
     public GameObject Get(Type type)

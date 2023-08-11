@@ -31,7 +31,6 @@ public class GameManager : MonoBehaviour
     public SkillData skillData;
     public ArtifactData artifactData;
     public ButtonManager buttonManager;
-    public DamageManager damageManager;
     public TouchController touchController;
     public LevelUpManager levelUpManager;
     public BattleResult battleResult;
@@ -47,6 +46,7 @@ public class GameManager : MonoBehaviour
     public List<SkillData.ParameterWithKey> ownSkills;
     public List<ArtifactData.ParameterWithKey> ownArtifacts;
     public List<SkillData.ParameterWithKey> ownBursts;
+    public DamageAttach damageAttach;
     public string mapName = "MapScene0";
     int deviceWidth = 1600;
     int maxBurstCount = 4;

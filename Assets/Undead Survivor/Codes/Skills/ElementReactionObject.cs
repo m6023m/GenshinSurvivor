@@ -30,7 +30,7 @@ public class ElementReactionObject : MonoBehaviour
     {
         if (parent != null && parent.isLive)
         {
-            GameManager.instance.damageManager.WriteReaction(parent.transform, parameterWithKey, elementType);
+            GameManager.instance.damageAttach.WriteReaction(parent.transform, parameterWithKey, elementType);
         }
         AudioManager.instance.PlaySFX(AudioManager.SFX.Melee);
         GameDataManager.instance.saveData.record.useElementReactionCount++;

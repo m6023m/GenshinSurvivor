@@ -27,7 +27,8 @@ public class SkillData : ScriptableObject
         SheildPer
 
     }
-    public List<ParameterWithKey> skills;
+    public Dictionary<SkillName, ParameterWithKey> skillsDictionary = new Dictionary<SkillName, ParameterWithKey>();
+
     [Searchable]
     public List<ParameterWithKey> skillDefaults;
     [System.Serializable]
@@ -151,7 +152,7 @@ public class SkillData : ScriptableObject
             skillDefaults = new List<ParameterWithKey>();
         }
 
-        skills = new List<ParameterWithKey>();
+        skillsDictionary.Clear();
         foreach (ParameterWithKey defaultParam in skillDefaults)
         {
             ParameterWithKey newParam = new ParameterWithKey();
@@ -168,7 +169,8 @@ public class SkillData : ScriptableObject
             {
                 defaultParam.skillUps = new List<SkillUp>();
             }
-            skills.Add(newParam);
+
+            skillsDictionary[defaultParam.name] = newParam;
         }
 
     }
@@ -187,14 +189,10 @@ public class SkillData : ScriptableObject
 
     public ParameterWithKey Get(SkillName name)
     {
-        foreach (ParameterWithKey param in skills)
+        if (skillsDictionary.TryGetValue(name, out ParameterWithKey param))
         {
-            if (param.name.Equals(name))
-            {
-                return param;
-            }
+            return param;
         }
         return null;
     }
-
 }
