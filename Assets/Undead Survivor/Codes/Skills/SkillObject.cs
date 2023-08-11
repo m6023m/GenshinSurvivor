@@ -330,28 +330,32 @@ public class SkillObject : MonoBehaviour
                     currentTransform = currentTransforms[idx];
                 }
 
-                if (skill == null) return;
+
                 switch (skillSequence.objectType)
                 {
                     case Skill.ObjectType.Skill:
+                        if (!gameObject.activeInHierarchy) return;
                         skill.GetComponent<Skill>()
                         .SetSubSkill(subSkillSequence)
                         .Init(parameterWithKey, skillSequence, currentTransform, idx)
                         .AddEndListener(() => AddCurrentTransform(skill, skillSequence, idx));
                         break;
                     case Skill.ObjectType.Buff:
+                        if (!gameObject.activeInHierarchy) return;
                         skill.GetComponent<Buff>()
                         .SetSubSkill(subSkillSequence)
                         .Init(parameterWithKey, skillSequence, currentTransform, idx)
                         .AddEndListener(() => AddCurrentTransform(skill, skillSequence, idx));
                         break;
                     case Skill.ObjectType.Sheild:
+                        if (!gameObject.activeInHierarchy) return;
                         skill.GetComponent<Sheild>()
                         .SetSubSkill(subSkillSequence)
                         .Init(parameterWithKey, skillSequence, currentTransform, idx)
                         .AddEndListener(() => AddCurrentTransform(skill, skillSequence, idx));
                         break;
                     case Skill.ObjectType.Summon:
+                        if (!gameObject.activeInHierarchy) return;
                         skill.GetComponent<Summon>()
                         .SetSubSkill(subSkillSequence)
                         .Init(parameterWithKey, skillSequence, currentTransform, idx)

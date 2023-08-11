@@ -51,9 +51,9 @@ MonoBehaviour:
     skillSize: 8
     createRange: 2
     layerOrder: 1000
-    moveRange: 0
-    moveTime: 0
-    moveTimeInDuration: 0
+    moveRange: 0.01
+    moveTime: 1.5
+    moveTimeInDuration: 1
     randomRange: 0
     animationSpeed: 2
     isAnimationSpeedMatchDuration: 0
