@@ -173,6 +173,6 @@ public class DropItem : MonoBehaviour
     void Magnet(Vector3 target, float magnetSpeed)
     {
         Vector3 targetPosition = target;
-        magnetVec = (targetPosition - transform.position).normalized * magnetSpeed * 0.3f;
+        magnetVec = (targetPosition - transform.position).normalized * magnetSpeed;
     }
 }
