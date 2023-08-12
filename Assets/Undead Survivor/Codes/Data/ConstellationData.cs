@@ -1613,23 +1613,44 @@ public class ConstellationData
         }
         if (character.constellation[5])
         { //일반공격 피해가 원소마스터리의 2%만큼 증가함. 치하야부루 또는 카즈하의 일도 지속시간동안 일반공격에 바람원소 부여 효과를 얻음. 
-            //StatCalculator.cs
+          //StatCalculator.cs
             skill.AddStartListener(() =>
             {
-                baseAttack.parameter.SetElementType(baseAttack, Element.Type.Anemo);
+                StartChangeElementType();
             });
             skill.AddEndListener(() =>
             {
-                baseAttack.parameter.SetElementType(baseAttack, Element.Type.Physics);
+                EndChangeElementType();
             });
             burst.AddStartListener(() =>
             {
-                baseAttack.parameter.SetElementType(baseAttack, Element.Type.Anemo);
+                StartChangeElementType();
             });
             burst.AddEndListener(() =>
             {
-                baseAttack.parameter.SetElementType(baseAttack, Element.Type.Physics);
+                EndChangeElementType();
             });
+        }
+    }
+    private int elementTypeChangeCount = 0;
+
+    private void StartChangeElementType()
+    {
+        if (elementTypeChangeCount == 0)
+        {
+            baseAttack.parameter.SetElementType(baseAttack, Element.Type.Anemo);
+        }
+        elementTypeChangeCount++;
+    }
+
+    private void EndChangeElementType()
+    {
+        elementTypeChangeCount--;
+
+        if (elementTypeChangeCount <= 0)
+        {
+            baseAttack.parameter.SetElementType(baseAttack, Element.Type.Physics);
+            elementTypeChangeCount = 0;  // 음수 방지
         }
     }
 
