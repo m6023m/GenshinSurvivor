@@ -1636,6 +1636,7 @@ public class ConstellationData
 
     private void StartChangeElementType()
     {
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
         if (elementTypeChangeCount == 0)
         {
             baseAttack.parameter.SetElementType(baseAttack, Element.Type.Anemo);
@@ -1645,6 +1646,7 @@ public class ConstellationData
 
     private void EndChangeElementType()
     {
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
         elementTypeChangeCount--;
 
         if (elementTypeChangeCount <= 0)
