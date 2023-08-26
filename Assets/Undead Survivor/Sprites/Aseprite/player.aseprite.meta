@@ -90,7 +90,7 @@ ScriptedImporter:
     importHiddenLayers: 1
     layerImportMode: 0
     defaultPivotSpace: 1
-    defaultPivotAlignment: 7
+    defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
     spritePadding: 0
     generateModelPrefab: 1
@@ -102,7 +102,7 @@ ScriptedImporter:
     importHiddenLayers: 1
     layerImportMode: 0
     defaultPivotSpace: 1
-    defaultPivotAlignment: 7
+    defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
     spritePadding: 0
     generateModelPrefab: 1
@@ -110,7 +110,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638285717980052818
+  platformSettingsDirtyTick: 638286631147521001
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -137,7 +137,7 @@ ScriptedImporter:
   - name: noelle_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -157,7 +157,7 @@ ScriptedImporter:
   - name: noelle_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -177,7 +177,7 @@ ScriptedImporter:
   - name: noelle_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -197,7 +197,7 @@ ScriptedImporter:
   - name: noelle_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -217,7 +217,7 @@ ScriptedImporter:
   - name: noelle_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -237,7 +237,7 @@ ScriptedImporter:
   - name: noelle_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -257,7 +257,7 @@ ScriptedImporter:
   - name: noelle_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -277,7 +277,7 @@ ScriptedImporter:
   - name: noelle_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -297,7 +297,7 @@ ScriptedImporter:
   - name: noelle_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -317,7 +317,7 @@ ScriptedImporter:
   - name: noelle_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -337,7 +337,7 @@ ScriptedImporter:
   - name: noelle_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -357,7 +357,7 @@ ScriptedImporter:
   - name: ningguang_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -377,7 +377,7 @@ ScriptedImporter:
   - name: ningguang_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -397,7 +397,7 @@ ScriptedImporter:
   - name: ningguang_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -417,7 +417,7 @@ ScriptedImporter:
   - name: ningguang_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -437,7 +437,7 @@ ScriptedImporter:
   - name: ningguang_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -457,7 +457,7 @@ ScriptedImporter:
   - name: ningguang_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -477,7 +477,7 @@ ScriptedImporter:
   - name: ningguang_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -497,7 +497,7 @@ ScriptedImporter:
   - name: ningguang_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -517,7 +517,7 @@ ScriptedImporter:
   - name: ningguang_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -537,7 +537,7 @@ ScriptedImporter:
   - name: ningguang_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -557,7 +557,7 @@ ScriptedImporter:
   - name: ningguang_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -577,7 +577,7 @@ ScriptedImporter:
   - name: qiqi_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -597,7 +597,7 @@ ScriptedImporter:
   - name: qiqi_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -617,7 +617,7 @@ ScriptedImporter:
   - name: qiqi_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -637,7 +637,7 @@ ScriptedImporter:
   - name: qiqi_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -657,7 +657,7 @@ ScriptedImporter:
   - name: qiqi_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -677,7 +677,7 @@ ScriptedImporter:
   - name: qiqi_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -697,7 +697,7 @@ ScriptedImporter:
   - name: qiqi_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -717,7 +717,7 @@ ScriptedImporter:
   - name: qiqi_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -737,7 +737,7 @@ ScriptedImporter:
   - name: qiqi_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -757,7 +757,7 @@ ScriptedImporter:
   - name: qiqi_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -777,7 +777,7 @@ ScriptedImporter:
   - name: qiqi_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -797,7 +797,7 @@ ScriptedImporter:
   - name: chongyun_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -817,7 +817,7 @@ ScriptedImporter:
   - name: chongyun_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -837,7 +837,7 @@ ScriptedImporter:
   - name: chongyun_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -857,7 +857,7 @@ ScriptedImporter:
   - name: chongyun_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -877,7 +877,7 @@ ScriptedImporter:
   - name: chongyun_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -897,7 +897,7 @@ ScriptedImporter:
   - name: chongyun_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -917,7 +917,7 @@ ScriptedImporter:
   - name: chongyun_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -937,7 +937,7 @@ ScriptedImporter:
   - name: chongyun_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -957,7 +957,7 @@ ScriptedImporter:
   - name: chongyun_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -977,7 +977,7 @@ ScriptedImporter:
   - name: chongyun_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -997,7 +997,7 @@ ScriptedImporter:
   - name: chongyun_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1017,7 +1017,7 @@ ScriptedImporter:
   - name: kaeya_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1037,7 +1037,7 @@ ScriptedImporter:
   - name: kaeya_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1057,7 +1057,7 @@ ScriptedImporter:
   - name: kaeya_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1077,7 +1077,7 @@ ScriptedImporter:
   - name: kaeya_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1097,7 +1097,7 @@ ScriptedImporter:
   - name: kaeya_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1117,7 +1117,7 @@ ScriptedImporter:
   - name: kaeya_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1137,7 +1137,7 @@ ScriptedImporter:
   - name: kaeya_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1157,7 +1157,7 @@ ScriptedImporter:
   - name: kaeya_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1177,7 +1177,7 @@ ScriptedImporter:
   - name: kaeya_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1197,7 +1197,7 @@ ScriptedImporter:
   - name: kaeya_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1217,7 +1217,7 @@ ScriptedImporter:
   - name: kaeya_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1237,7 +1237,7 @@ ScriptedImporter:
   - name: keging_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1257,7 +1257,7 @@ ScriptedImporter:
   - name: keging_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1277,7 +1277,7 @@ ScriptedImporter:
   - name: keging_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1297,7 +1297,7 @@ ScriptedImporter:
   - name: keging_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1317,7 +1317,7 @@ ScriptedImporter:
   - name: keging_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1337,7 +1337,7 @@ ScriptedImporter:
   - name: keging_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1357,7 +1357,7 @@ ScriptedImporter:
   - name: keging_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1377,7 +1377,7 @@ ScriptedImporter:
   - name: keging_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1397,7 +1397,7 @@ ScriptedImporter:
   - name: keging_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1417,7 +1417,7 @@ ScriptedImporter:
   - name: keging_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1437,7 +1437,7 @@ ScriptedImporter:
   - name: keging_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1457,7 +1457,7 @@ ScriptedImporter:
   - name: fischl_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1477,7 +1477,7 @@ ScriptedImporter:
   - name: fischl_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1497,7 +1497,7 @@ ScriptedImporter:
   - name: fischl_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1517,7 +1517,7 @@ ScriptedImporter:
   - name: fischl_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1537,7 +1537,7 @@ ScriptedImporter:
   - name: fischl_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1557,7 +1557,7 @@ ScriptedImporter:
   - name: fischl_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1577,7 +1577,7 @@ ScriptedImporter:
   - name: fischl_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1597,7 +1597,7 @@ ScriptedImporter:
   - name: fischl_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1617,7 +1617,7 @@ ScriptedImporter:
   - name: fischl_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1637,7 +1637,7 @@ ScriptedImporter:
   - name: fischl_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1657,7 +1657,7 @@ ScriptedImporter:
   - name: fischl_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1677,7 +1677,7 @@ ScriptedImporter:
   - name: beidou_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1697,7 +1697,7 @@ ScriptedImporter:
   - name: beidou_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1717,7 +1717,7 @@ ScriptedImporter:
   - name: beidou_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1737,7 +1737,7 @@ ScriptedImporter:
   - name: beidou_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1757,7 +1757,7 @@ ScriptedImporter:
   - name: beidou_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1777,7 +1777,7 @@ ScriptedImporter:
   - name: beidou_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1797,7 +1797,7 @@ ScriptedImporter:
   - name: beidou_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1817,7 +1817,7 @@ ScriptedImporter:
   - name: beidou_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1837,7 +1837,7 @@ ScriptedImporter:
   - name: beidou_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1857,7 +1857,7 @@ ScriptedImporter:
   - name: beidou_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1877,7 +1877,7 @@ ScriptedImporter:
   - name: beidou_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1897,7 +1897,7 @@ ScriptedImporter:
   - name: razor_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1917,7 +1917,7 @@ ScriptedImporter:
   - name: razor_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1937,7 +1937,7 @@ ScriptedImporter:
   - name: razor_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1957,7 +1957,7 @@ ScriptedImporter:
   - name: razor_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1977,7 +1977,7 @@ ScriptedImporter:
   - name: razor_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1997,7 +1997,7 @@ ScriptedImporter:
   - name: razor_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2017,7 +2017,7 @@ ScriptedImporter:
   - name: razor_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2037,7 +2037,7 @@ ScriptedImporter:
   - name: razor_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2057,7 +2057,7 @@ ScriptedImporter:
   - name: razor_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2077,7 +2077,7 @@ ScriptedImporter:
   - name: razor_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2097,7 +2097,7 @@ ScriptedImporter:
   - name: razor_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2117,7 +2117,7 @@ ScriptedImporter:
   - name: lisa_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2137,7 +2137,7 @@ ScriptedImporter:
   - name: lisa_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2157,7 +2157,7 @@ ScriptedImporter:
   - name: lisa_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2177,7 +2177,7 @@ ScriptedImporter:
   - name: lisa_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2197,7 +2197,7 @@ ScriptedImporter:
   - name: lisa_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2217,7 +2217,7 @@ ScriptedImporter:
   - name: lisa_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2237,7 +2237,7 @@ ScriptedImporter:
   - name: lisa_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2257,7 +2257,7 @@ ScriptedImporter:
   - name: lisa_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2277,7 +2277,7 @@ ScriptedImporter:
   - name: lisa_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2297,7 +2297,7 @@ ScriptedImporter:
   - name: lisa_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2317,7 +2317,7 @@ ScriptedImporter:
   - name: lisa_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2337,7 +2337,7 @@ ScriptedImporter:
   - name: venti_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2357,7 +2357,7 @@ ScriptedImporter:
   - name: venti_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2377,7 +2377,7 @@ ScriptedImporter:
   - name: venti_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2397,7 +2397,7 @@ ScriptedImporter:
   - name: venti_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2417,7 +2417,7 @@ ScriptedImporter:
   - name: venti_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2437,7 +2437,7 @@ ScriptedImporter:
   - name: venti_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2457,7 +2457,7 @@ ScriptedImporter:
   - name: venti_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2477,7 +2477,7 @@ ScriptedImporter:
   - name: venti_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2497,7 +2497,7 @@ ScriptedImporter:
   - name: venti_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2517,7 +2517,7 @@ ScriptedImporter:
   - name: venti_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2537,7 +2537,7 @@ ScriptedImporter:
   - name: venti_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2557,7 +2557,7 @@ ScriptedImporter:
   - name: jean_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2577,7 +2577,7 @@ ScriptedImporter:
   - name: jean_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2597,7 +2597,7 @@ ScriptedImporter:
   - name: jean_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2617,7 +2617,7 @@ ScriptedImporter:
   - name: jean_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2637,7 +2637,7 @@ ScriptedImporter:
   - name: jean_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2657,7 +2657,7 @@ ScriptedImporter:
   - name: jean_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2677,7 +2677,7 @@ ScriptedImporter:
   - name: jean_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2697,7 +2697,7 @@ ScriptedImporter:
   - name: jean_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2717,7 +2717,7 @@ ScriptedImporter:
   - name: jean_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2737,7 +2737,7 @@ ScriptedImporter:
   - name: jean_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2757,7 +2757,7 @@ ScriptedImporter:
   - name: jean_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2777,7 +2777,7 @@ ScriptedImporter:
   - name: sucrose_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2797,7 +2797,7 @@ ScriptedImporter:
   - name: sucrose_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2817,7 +2817,7 @@ ScriptedImporter:
   - name: sucrose_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2837,7 +2837,7 @@ ScriptedImporter:
   - name: sucrose_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2857,7 +2857,7 @@ ScriptedImporter:
   - name: sucrose_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2877,7 +2877,7 @@ ScriptedImporter:
   - name: sucrose_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2897,7 +2897,7 @@ ScriptedImporter:
   - name: sucrose_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2917,7 +2917,7 @@ ScriptedImporter:
   - name: sucrose_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2937,7 +2937,7 @@ ScriptedImporter:
   - name: sucrose_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2957,7 +2957,7 @@ ScriptedImporter:
   - name: sucrose_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2977,7 +2977,7 @@ ScriptedImporter:
   - name: sucrose_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -2997,7 +2997,7 @@ ScriptedImporter:
   - name: mona_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3017,7 +3017,7 @@ ScriptedImporter:
   - name: mona_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3037,7 +3037,7 @@ ScriptedImporter:
   - name: mona_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3057,7 +3057,7 @@ ScriptedImporter:
   - name: mona_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3077,7 +3077,7 @@ ScriptedImporter:
   - name: mona_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3097,7 +3097,7 @@ ScriptedImporter:
   - name: mona_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3117,7 +3117,7 @@ ScriptedImporter:
   - name: mona_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3137,7 +3137,7 @@ ScriptedImporter:
   - name: mona_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3157,7 +3157,7 @@ ScriptedImporter:
   - name: mona_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3177,7 +3177,7 @@ ScriptedImporter:
   - name: mona_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3197,7 +3197,7 @@ ScriptedImporter:
   - name: mona_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3217,7 +3217,7 @@ ScriptedImporter:
   - name: xingqiu_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3237,7 +3237,7 @@ ScriptedImporter:
   - name: xingqiu_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3257,7 +3257,7 @@ ScriptedImporter:
   - name: xingqiu_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3277,7 +3277,7 @@ ScriptedImporter:
   - name: xingqiu_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3297,7 +3297,7 @@ ScriptedImporter:
   - name: xingqiu_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3317,7 +3317,7 @@ ScriptedImporter:
   - name: xingqiu_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3337,7 +3337,7 @@ ScriptedImporter:
   - name: xingqiu_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3357,7 +3357,7 @@ ScriptedImporter:
   - name: xingqiu_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3377,7 +3377,7 @@ ScriptedImporter:
   - name: xingqiu_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3397,7 +3397,7 @@ ScriptedImporter:
   - name: xingqiu_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3417,7 +3417,7 @@ ScriptedImporter:
   - name: xingqiu_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3437,7 +3437,7 @@ ScriptedImporter:
   - name: xingqiu_Frame_11
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3457,7 +3457,7 @@ ScriptedImporter:
   - name: barbara_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3477,7 +3477,7 @@ ScriptedImporter:
   - name: barbara_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3497,7 +3497,7 @@ ScriptedImporter:
   - name: barbara_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3517,7 +3517,7 @@ ScriptedImporter:
   - name: barbara_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3537,7 +3537,7 @@ ScriptedImporter:
   - name: barbara_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3557,7 +3557,7 @@ ScriptedImporter:
   - name: barbara_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3577,7 +3577,7 @@ ScriptedImporter:
   - name: barbara_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3597,7 +3597,7 @@ ScriptedImporter:
   - name: barbara_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3617,7 +3617,7 @@ ScriptedImporter:
   - name: barbara_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3637,7 +3637,7 @@ ScriptedImporter:
   - name: barbara_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3657,7 +3657,7 @@ ScriptedImporter:
   - name: barbara_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3677,7 +3677,7 @@ ScriptedImporter:
   - name: klee_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3697,7 +3697,7 @@ ScriptedImporter:
   - name: klee_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3717,7 +3717,7 @@ ScriptedImporter:
   - name: klee_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3737,7 +3737,7 @@ ScriptedImporter:
   - name: klee_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3757,7 +3757,7 @@ ScriptedImporter:
   - name: klee_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3777,7 +3777,7 @@ ScriptedImporter:
   - name: klee_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3797,7 +3797,7 @@ ScriptedImporter:
   - name: klee_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3817,7 +3817,7 @@ ScriptedImporter:
   - name: klee_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3837,7 +3837,7 @@ ScriptedImporter:
   - name: klee_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3857,7 +3857,7 @@ ScriptedImporter:
   - name: klee_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3877,7 +3877,7 @@ ScriptedImporter:
   - name: klee_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3897,7 +3897,7 @@ ScriptedImporter:
   - name: diluc_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3917,7 +3917,7 @@ ScriptedImporter:
   - name: diluc_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3937,7 +3937,7 @@ ScriptedImporter:
   - name: diluc_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3957,7 +3957,7 @@ ScriptedImporter:
   - name: diluc_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3977,7 +3977,7 @@ ScriptedImporter:
   - name: diluc_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -3997,7 +3997,7 @@ ScriptedImporter:
   - name: diluc_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4017,7 +4017,7 @@ ScriptedImporter:
   - name: diluc_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4037,7 +4037,7 @@ ScriptedImporter:
   - name: diluc_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4057,7 +4057,7 @@ ScriptedImporter:
   - name: diluc_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4077,7 +4077,7 @@ ScriptedImporter:
   - name: diluc_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4097,7 +4097,7 @@ ScriptedImporter:
   - name: diluc_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4117,7 +4117,7 @@ ScriptedImporter:
   - name: bennet_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4137,7 +4137,7 @@ ScriptedImporter:
   - name: bennet_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4157,7 +4157,7 @@ ScriptedImporter:
   - name: bennet_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4177,7 +4177,7 @@ ScriptedImporter:
   - name: bennet_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4197,7 +4197,7 @@ ScriptedImporter:
   - name: bennet_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4217,7 +4217,7 @@ ScriptedImporter:
   - name: bennet_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4237,7 +4237,7 @@ ScriptedImporter:
   - name: bennet_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4257,7 +4257,7 @@ ScriptedImporter:
   - name: bennet_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4277,7 +4277,7 @@ ScriptedImporter:
   - name: bennet_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4297,7 +4297,7 @@ ScriptedImporter:
   - name: bennet_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4317,7 +4317,7 @@ ScriptedImporter:
   - name: bennet_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4337,7 +4337,7 @@ ScriptedImporter:
   - name: bennet_Frame_11
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4357,7 +4357,7 @@ ScriptedImporter:
   - name: xiangling_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4377,7 +4377,7 @@ ScriptedImporter:
   - name: xiangling_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4397,7 +4397,7 @@ ScriptedImporter:
   - name: xiangling_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4417,7 +4417,7 @@ ScriptedImporter:
   - name: xiangling_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4437,7 +4437,7 @@ ScriptedImporter:
   - name: xiangling_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4457,7 +4457,7 @@ ScriptedImporter:
   - name: xiangling_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4477,7 +4477,7 @@ ScriptedImporter:
   - name: xiangling_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4497,7 +4497,7 @@ ScriptedImporter:
   - name: xiangling_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4517,7 +4517,7 @@ ScriptedImporter:
   - name: xiangling_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4537,7 +4537,7 @@ ScriptedImporter:
   - name: xiangling_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4557,7 +4557,7 @@ ScriptedImporter:
   - name: xiangling_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4577,7 +4577,7 @@ ScriptedImporter:
   - name: xiangling_Frame_11
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4597,7 +4597,7 @@ ScriptedImporter:
   - name: amber_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4617,7 +4617,7 @@ ScriptedImporter:
   - name: amber_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4637,7 +4637,7 @@ ScriptedImporter:
   - name: amber_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4657,7 +4657,7 @@ ScriptedImporter:
   - name: amber_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4677,7 +4677,7 @@ ScriptedImporter:
   - name: amber_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4697,7 +4697,7 @@ ScriptedImporter:
   - name: amber_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4717,7 +4717,7 @@ ScriptedImporter:
   - name: amber_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4737,7 +4737,7 @@ ScriptedImporter:
   - name: amber_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4757,7 +4757,7 @@ ScriptedImporter:
   - name: amber_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4777,7 +4777,7 @@ ScriptedImporter:
   - name: amber_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4797,7 +4797,7 @@ ScriptedImporter:
   - name: amber_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4817,7 +4817,7 @@ ScriptedImporter:
   - name: amber_Frame_11
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4837,7 +4837,7 @@ ScriptedImporter:
   - name: aether_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4857,7 +4857,7 @@ ScriptedImporter:
   - name: aether_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4877,7 +4877,7 @@ ScriptedImporter:
   - name: aether_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4897,7 +4897,7 @@ ScriptedImporter:
   - name: aether_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4917,7 +4917,7 @@ ScriptedImporter:
   - name: aether_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4937,7 +4937,7 @@ ScriptedImporter:
   - name: aether_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4957,7 +4957,7 @@ ScriptedImporter:
   - name: aether_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4977,7 +4977,7 @@ ScriptedImporter:
   - name: aether_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -4997,7 +4997,7 @@ ScriptedImporter:
   - name: aether_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5017,7 +5017,7 @@ ScriptedImporter:
   - name: aether_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5037,7 +5037,7 @@ ScriptedImporter:
   - name: aether_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5057,7 +5057,7 @@ ScriptedImporter:
   - name: aether_Frame_11
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5077,7 +5077,7 @@ ScriptedImporter:
   - name: lumine_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5097,7 +5097,7 @@ ScriptedImporter:
   - name: lumine_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5117,7 +5117,7 @@ ScriptedImporter:
   - name: lumine_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5137,7 +5137,7 @@ ScriptedImporter:
   - name: lumine_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5157,7 +5157,7 @@ ScriptedImporter:
   - name: lumine_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5177,7 +5177,7 @@ ScriptedImporter:
   - name: lumine_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5197,7 +5197,7 @@ ScriptedImporter:
   - name: lumine_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5217,7 +5217,7 @@ ScriptedImporter:
   - name: lumine_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5237,7 +5237,7 @@ ScriptedImporter:
   - name: lumine_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5257,7 +5257,7 @@ ScriptedImporter:
   - name: lumine_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5277,7 +5277,7 @@ ScriptedImporter:
   - name: lumine_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5297,7 +5297,7 @@ ScriptedImporter:
   - name: lumine_Frame_11
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5317,7 +5317,7 @@ ScriptedImporter:
   - name: tartaglia_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5337,7 +5337,7 @@ ScriptedImporter:
   - name: tartaglia_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5357,7 +5357,7 @@ ScriptedImporter:
   - name: tartaglia_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5377,7 +5377,7 @@ ScriptedImporter:
   - name: tartaglia_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5397,7 +5397,7 @@ ScriptedImporter:
   - name: tartaglia_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5417,7 +5417,7 @@ ScriptedImporter:
   - name: tartaglia_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5437,7 +5437,7 @@ ScriptedImporter:
   - name: tartaglia_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5457,7 +5457,7 @@ ScriptedImporter:
   - name: tartaglia_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5477,7 +5477,7 @@ ScriptedImporter:
   - name: tartaglia_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5497,7 +5497,7 @@ ScriptedImporter:
   - name: tartaglia_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5517,7 +5517,7 @@ ScriptedImporter:
   - name: tartaglia_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5537,7 +5537,7 @@ ScriptedImporter:
   - name: diona_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5557,7 +5557,7 @@ ScriptedImporter:
   - name: diona_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5577,7 +5577,7 @@ ScriptedImporter:
   - name: diona_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5597,7 +5597,7 @@ ScriptedImporter:
   - name: diona_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5617,7 +5617,7 @@ ScriptedImporter:
   - name: diona_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5637,7 +5637,7 @@ ScriptedImporter:
   - name: diona_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5657,7 +5657,7 @@ ScriptedImporter:
   - name: diona_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5677,7 +5677,7 @@ ScriptedImporter:
   - name: diona_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5697,7 +5697,7 @@ ScriptedImporter:
   - name: diona_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5717,7 +5717,7 @@ ScriptedImporter:
   - name: diona_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5737,7 +5737,7 @@ ScriptedImporter:
   - name: diona_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5757,7 +5757,7 @@ ScriptedImporter:
   - name: zhongli_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5777,7 +5777,7 @@ ScriptedImporter:
   - name: zhongli_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5797,7 +5797,7 @@ ScriptedImporter:
   - name: zhongli_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5817,7 +5817,7 @@ ScriptedImporter:
   - name: zhongli_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5837,7 +5837,7 @@ ScriptedImporter:
   - name: zhongli_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5857,7 +5857,7 @@ ScriptedImporter:
   - name: zhongli_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5877,7 +5877,7 @@ ScriptedImporter:
   - name: zhongli_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5897,7 +5897,7 @@ ScriptedImporter:
   - name: zhongli_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5917,7 +5917,7 @@ ScriptedImporter:
   - name: zhongli_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5937,7 +5937,7 @@ ScriptedImporter:
   - name: zhongli_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5957,7 +5957,7 @@ ScriptedImporter:
   - name: zhongli_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5977,7 +5977,7 @@ ScriptedImporter:
   - name: xinyan_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -5997,7 +5997,7 @@ ScriptedImporter:
   - name: xinyan_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6017,7 +6017,7 @@ ScriptedImporter:
   - name: xinyan_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6037,7 +6037,7 @@ ScriptedImporter:
   - name: xinyan_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6057,7 +6057,7 @@ ScriptedImporter:
   - name: xinyan_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6077,7 +6077,7 @@ ScriptedImporter:
   - name: xinyan_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6097,7 +6097,7 @@ ScriptedImporter:
   - name: xinyan_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6117,7 +6117,7 @@ ScriptedImporter:
   - name: xinyan_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6137,7 +6137,7 @@ ScriptedImporter:
   - name: xinyan_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6157,7 +6157,7 @@ ScriptedImporter:
   - name: xinyan_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6177,7 +6177,7 @@ ScriptedImporter:
   - name: xinyan_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6197,7 +6197,7 @@ ScriptedImporter:
   - name: albedo_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6217,7 +6217,7 @@ ScriptedImporter:
   - name: albedo_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6237,7 +6237,7 @@ ScriptedImporter:
   - name: albedo_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6257,7 +6257,7 @@ ScriptedImporter:
   - name: albedo_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6277,7 +6277,7 @@ ScriptedImporter:
   - name: albedo_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6297,7 +6297,7 @@ ScriptedImporter:
   - name: albedo_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6317,7 +6317,7 @@ ScriptedImporter:
   - name: albedo_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6337,7 +6337,7 @@ ScriptedImporter:
   - name: albedo_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6357,7 +6357,7 @@ ScriptedImporter:
   - name: albedo_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6377,7 +6377,7 @@ ScriptedImporter:
   - name: albedo_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6397,7 +6397,7 @@ ScriptedImporter:
   - name: albedo_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6417,7 +6417,7 @@ ScriptedImporter:
   - name: ganyu_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6437,7 +6437,7 @@ ScriptedImporter:
   - name: ganyu_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6457,7 +6457,7 @@ ScriptedImporter:
   - name: ganyu_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6477,7 +6477,7 @@ ScriptedImporter:
   - name: ganyu_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6497,7 +6497,7 @@ ScriptedImporter:
   - name: ganyu_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6517,7 +6517,7 @@ ScriptedImporter:
   - name: ganyu_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6537,7 +6537,7 @@ ScriptedImporter:
   - name: ganyu_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6557,7 +6557,7 @@ ScriptedImporter:
   - name: ganyu_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6577,7 +6577,7 @@ ScriptedImporter:
   - name: ganyu_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6597,7 +6597,7 @@ ScriptedImporter:
   - name: ganyu_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6617,7 +6617,7 @@ ScriptedImporter:
   - name: ganyu_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6637,7 +6637,7 @@ ScriptedImporter:
   - name: xiao_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6657,7 +6657,7 @@ ScriptedImporter:
   - name: xiao_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6677,7 +6677,7 @@ ScriptedImporter:
   - name: xiao_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6697,7 +6697,7 @@ ScriptedImporter:
   - name: xiao_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6717,7 +6717,7 @@ ScriptedImporter:
   - name: xiao_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6737,7 +6737,7 @@ ScriptedImporter:
   - name: xiao_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6757,7 +6757,7 @@ ScriptedImporter:
   - name: xiao_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6777,7 +6777,7 @@ ScriptedImporter:
   - name: xiao_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6797,7 +6797,7 @@ ScriptedImporter:
   - name: xiao_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6817,7 +6817,7 @@ ScriptedImporter:
   - name: xiao_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6837,7 +6837,7 @@ ScriptedImporter:
   - name: xiao_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6857,7 +6857,7 @@ ScriptedImporter:
   - name: hutao_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6877,7 +6877,7 @@ ScriptedImporter:
   - name: hutao_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6897,7 +6897,7 @@ ScriptedImporter:
   - name: hutao_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6917,7 +6917,7 @@ ScriptedImporter:
   - name: hutao_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6937,7 +6937,7 @@ ScriptedImporter:
   - name: hutao_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6957,7 +6957,7 @@ ScriptedImporter:
   - name: hutao_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6977,7 +6977,7 @@ ScriptedImporter:
   - name: hutao_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -6997,7 +6997,7 @@ ScriptedImporter:
   - name: hutao_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7017,7 +7017,7 @@ ScriptedImporter:
   - name: hutao_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7037,7 +7037,7 @@ ScriptedImporter:
   - name: hutao_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7057,7 +7057,7 @@ ScriptedImporter:
   - name: hutao_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7077,7 +7077,7 @@ ScriptedImporter:
   - name: rosaria_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7097,7 +7097,7 @@ ScriptedImporter:
   - name: rosaria_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7117,7 +7117,7 @@ ScriptedImporter:
   - name: rosaria_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7137,7 +7137,7 @@ ScriptedImporter:
   - name: rosaria_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7157,7 +7157,7 @@ ScriptedImporter:
   - name: rosaria_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7177,7 +7177,7 @@ ScriptedImporter:
   - name: rosaria_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7197,7 +7197,7 @@ ScriptedImporter:
   - name: rosaria_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7217,7 +7217,7 @@ ScriptedImporter:
   - name: rosaria_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7237,7 +7237,7 @@ ScriptedImporter:
   - name: rosaria_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7257,7 +7257,7 @@ ScriptedImporter:
   - name: rosaria_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7277,7 +7277,7 @@ ScriptedImporter:
   - name: rosaria_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7297,7 +7297,7 @@ ScriptedImporter:
   - name: yanfei_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7317,7 +7317,7 @@ ScriptedImporter:
   - name: yanfei_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7337,7 +7337,7 @@ ScriptedImporter:
   - name: yanfei_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7357,7 +7357,7 @@ ScriptedImporter:
   - name: yanfei_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7377,7 +7377,7 @@ ScriptedImporter:
   - name: yanfei_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7397,7 +7397,7 @@ ScriptedImporter:
   - name: yanfei_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7417,7 +7417,7 @@ ScriptedImporter:
   - name: yanfei_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7437,7 +7437,7 @@ ScriptedImporter:
   - name: yanfei_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7457,7 +7457,7 @@ ScriptedImporter:
   - name: yanfei_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7477,7 +7477,7 @@ ScriptedImporter:
   - name: yanfei_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7497,7 +7497,7 @@ ScriptedImporter:
   - name: yanfei_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7517,7 +7517,7 @@ ScriptedImporter:
   - name: eula_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7537,7 +7537,7 @@ ScriptedImporter:
   - name: eula_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7557,7 +7557,7 @@ ScriptedImporter:
   - name: eula_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7577,7 +7577,7 @@ ScriptedImporter:
   - name: eula_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7597,7 +7597,7 @@ ScriptedImporter:
   - name: eula_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7617,7 +7617,7 @@ ScriptedImporter:
   - name: eula_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7637,7 +7637,7 @@ ScriptedImporter:
   - name: eula_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7657,7 +7657,7 @@ ScriptedImporter:
   - name: eula_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7677,7 +7677,7 @@ ScriptedImporter:
   - name: eula_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7697,7 +7697,7 @@ ScriptedImporter:
   - name: eula_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7717,7 +7717,7 @@ ScriptedImporter:
   - name: eula_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7737,7 +7737,7 @@ ScriptedImporter:
   - name: kazuha_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7757,7 +7757,7 @@ ScriptedImporter:
   - name: kazuha_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7777,7 +7777,7 @@ ScriptedImporter:
   - name: kazuha_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7797,7 +7797,7 @@ ScriptedImporter:
   - name: kazuha_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7817,7 +7817,7 @@ ScriptedImporter:
   - name: kazuha_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7837,7 +7837,7 @@ ScriptedImporter:
   - name: kazuha_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7857,7 +7857,7 @@ ScriptedImporter:
   - name: kazuha_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7877,7 +7877,7 @@ ScriptedImporter:
   - name: kazuha_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7897,7 +7897,7 @@ ScriptedImporter:
   - name: kazuha_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7917,7 +7917,7 @@ ScriptedImporter:
   - name: kazuha_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7937,7 +7937,7 @@ ScriptedImporter:
   - name: kazuha_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7957,7 +7957,7 @@ ScriptedImporter:
   - name: tartaglia_boss1_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7977,7 +7977,7 @@ ScriptedImporter:
   - name: tartaglia_boss1_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -7997,7 +7997,7 @@ ScriptedImporter:
   - name: tartaglia_boss1_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8017,7 +8017,7 @@ ScriptedImporter:
   - name: tartaglia_boss1_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8037,7 +8037,7 @@ ScriptedImporter:
   - name: tartaglia_boss1_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8057,7 +8057,7 @@ ScriptedImporter:
   - name: tartaglia_boss1_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8077,7 +8077,7 @@ ScriptedImporter:
   - name: tartaglia_boss2_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8097,7 +8097,7 @@ ScriptedImporter:
   - name: tartaglia_boss2_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8117,7 +8117,7 @@ ScriptedImporter:
   - name: tartaglia_boss3_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8137,7 +8137,7 @@ ScriptedImporter:
   - name: tartaglia_boss3_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8157,7 +8157,7 @@ ScriptedImporter:
   - name: lumine_template
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8177,7 +8177,7 @@ ScriptedImporter:
   - name: ayaka_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8197,7 +8197,7 @@ ScriptedImporter:
   - name: ayaka_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8217,7 +8217,7 @@ ScriptedImporter:
   - name: ayaka_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8237,7 +8237,7 @@ ScriptedImporter:
   - name: ayaka_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8257,7 +8257,7 @@ ScriptedImporter:
   - name: ayaka_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8277,7 +8277,7 @@ ScriptedImporter:
   - name: ayaka_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8297,7 +8297,7 @@ ScriptedImporter:
   - name: ayaka_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8317,7 +8317,7 @@ ScriptedImporter:
   - name: ayaka_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8337,7 +8337,7 @@ ScriptedImporter:
   - name: ayaka_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8357,7 +8357,7 @@ ScriptedImporter:
   - name: ayaka_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8377,7 +8377,7 @@ ScriptedImporter:
   - name: ayaka_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8397,7 +8397,7 @@ ScriptedImporter:
   - name: yoimiya_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8417,7 +8417,7 @@ ScriptedImporter:
   - name: yoimiya_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8437,7 +8437,7 @@ ScriptedImporter:
   - name: yoimiya_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8457,7 +8457,7 @@ ScriptedImporter:
   - name: yoimiya_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8477,7 +8477,7 @@ ScriptedImporter:
   - name: yoimiya_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8497,7 +8497,7 @@ ScriptedImporter:
   - name: yoimiya_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8517,7 +8517,7 @@ ScriptedImporter:
   - name: yoimiya_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8537,7 +8537,7 @@ ScriptedImporter:
   - name: yoimiya_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8557,7 +8557,7 @@ ScriptedImporter:
   - name: yoimiya_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8577,7 +8577,7 @@ ScriptedImporter:
   - name: yoimiya_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8597,7 +8597,7 @@ ScriptedImporter:
   - name: yoimiya_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8617,7 +8617,7 @@ ScriptedImporter:
   - name: sayu_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8637,7 +8637,7 @@ ScriptedImporter:
   - name: sayu_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8657,7 +8657,7 @@ ScriptedImporter:
   - name: sayu_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8677,7 +8677,7 @@ ScriptedImporter:
   - name: sayu_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8697,7 +8697,7 @@ ScriptedImporter:
   - name: sayu_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8717,7 +8717,7 @@ ScriptedImporter:
   - name: sayu_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8737,7 +8737,7 @@ ScriptedImporter:
   - name: sayu_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8757,7 +8757,7 @@ ScriptedImporter:
   - name: sayu_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8777,7 +8777,7 @@ ScriptedImporter:
   - name: sayu_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8797,7 +8797,7 @@ ScriptedImporter:
   - name: sayu_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8817,7 +8817,7 @@ ScriptedImporter:
   - name: sayu_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8837,7 +8837,7 @@ ScriptedImporter:
   - name: raiden_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8857,7 +8857,7 @@ ScriptedImporter:
   - name: raiden_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8877,7 +8877,7 @@ ScriptedImporter:
   - name: raiden_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8897,7 +8897,7 @@ ScriptedImporter:
   - name: raiden_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8917,7 +8917,7 @@ ScriptedImporter:
   - name: raiden_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8937,7 +8937,7 @@ ScriptedImporter:
   - name: raiden_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8957,7 +8957,7 @@ ScriptedImporter:
   - name: raiden_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8977,7 +8977,7 @@ ScriptedImporter:
   - name: raiden_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -8997,7 +8997,7 @@ ScriptedImporter:
   - name: raiden_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9017,7 +9017,7 @@ ScriptedImporter:
   - name: raiden_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9037,7 +9037,7 @@ ScriptedImporter:
   - name: raiden_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9057,7 +9057,7 @@ ScriptedImporter:
   - name: sara_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9077,7 +9077,7 @@ ScriptedImporter:
   - name: sara_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9097,7 +9097,7 @@ ScriptedImporter:
   - name: sara_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9117,7 +9117,7 @@ ScriptedImporter:
   - name: sara_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9137,7 +9137,7 @@ ScriptedImporter:
   - name: sara_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9157,7 +9157,7 @@ ScriptedImporter:
   - name: sara_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9177,7 +9177,7 @@ ScriptedImporter:
   - name: sara_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9197,7 +9197,7 @@ ScriptedImporter:
   - name: sara_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9217,7 +9217,7 @@ ScriptedImporter:
   - name: sara_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9237,7 +9237,7 @@ ScriptedImporter:
   - name: sara_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9257,7 +9257,7 @@ ScriptedImporter:
   - name: sara_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9277,7 +9277,7 @@ ScriptedImporter:
   - name: kokomi_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9297,7 +9297,7 @@ ScriptedImporter:
   - name: kokomi_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9317,7 +9317,7 @@ ScriptedImporter:
   - name: kokomi_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9337,7 +9337,7 @@ ScriptedImporter:
   - name: kokomi_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9357,7 +9357,7 @@ ScriptedImporter:
   - name: kokomi_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9377,7 +9377,7 @@ ScriptedImporter:
   - name: kokomi_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9397,7 +9397,7 @@ ScriptedImporter:
   - name: kokomi_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9417,7 +9417,7 @@ ScriptedImporter:
   - name: kokomi_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9437,7 +9437,7 @@ ScriptedImporter:
   - name: kokomi_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9457,7 +9457,7 @@ ScriptedImporter:
   - name: kokomi_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9477,7 +9477,7 @@ ScriptedImporter:
   - name: kokomi_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9497,7 +9497,7 @@ ScriptedImporter:
   - name: ito_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9517,7 +9517,7 @@ ScriptedImporter:
   - name: ito_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9537,7 +9537,7 @@ ScriptedImporter:
   - name: ito_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9557,7 +9557,7 @@ ScriptedImporter:
   - name: ito_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9577,7 +9577,7 @@ ScriptedImporter:
   - name: ito_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9597,7 +9597,7 @@ ScriptedImporter:
   - name: ito_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9617,7 +9617,7 @@ ScriptedImporter:
   - name: ito_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9637,7 +9637,7 @@ ScriptedImporter:
   - name: ito_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9657,7 +9657,7 @@ ScriptedImporter:
   - name: ito_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9677,7 +9677,7 @@ ScriptedImporter:
   - name: ito_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9697,7 +9697,7 @@ ScriptedImporter:
   - name: ito_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9717,7 +9717,7 @@ ScriptedImporter:
   - name: goro_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9737,7 +9737,7 @@ ScriptedImporter:
   - name: goro_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9757,7 +9757,7 @@ ScriptedImporter:
   - name: goro_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9777,7 +9777,7 @@ ScriptedImporter:
   - name: goro_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9797,7 +9797,7 @@ ScriptedImporter:
   - name: goro_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9817,7 +9817,7 @@ ScriptedImporter:
   - name: goro_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9837,7 +9837,7 @@ ScriptedImporter:
   - name: goro_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9857,7 +9857,7 @@ ScriptedImporter:
   - name: goro_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9877,7 +9877,7 @@ ScriptedImporter:
   - name: goro_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9897,7 +9897,7 @@ ScriptedImporter:
   - name: goro_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9917,7 +9917,7 @@ ScriptedImporter:
   - name: goro_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9937,7 +9937,7 @@ ScriptedImporter:
   - name: thoma_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9957,7 +9957,7 @@ ScriptedImporter:
   - name: thoma_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9977,7 +9977,7 @@ ScriptedImporter:
   - name: thoma_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -9997,7 +9997,7 @@ ScriptedImporter:
   - name: thoma_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10017,7 +10017,7 @@ ScriptedImporter:
   - name: thoma_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10037,7 +10037,7 @@ ScriptedImporter:
   - name: thoma_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10057,7 +10057,7 @@ ScriptedImporter:
   - name: thoma_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10077,7 +10077,7 @@ ScriptedImporter:
   - name: thoma_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10097,7 +10097,7 @@ ScriptedImporter:
   - name: thoma_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10117,7 +10117,7 @@ ScriptedImporter:
   - name: thoma_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10137,7 +10137,7 @@ ScriptedImporter:
   - name: thoma_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10157,7 +10157,7 @@ ScriptedImporter:
   - name: shenhe_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10177,7 +10177,7 @@ ScriptedImporter:
   - name: shenhe_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10197,7 +10197,7 @@ ScriptedImporter:
   - name: shenhe_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10217,7 +10217,7 @@ ScriptedImporter:
   - name: shenhe_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10237,7 +10237,7 @@ ScriptedImporter:
   - name: shenhe_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10257,7 +10257,7 @@ ScriptedImporter:
   - name: shenhe_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10277,7 +10277,7 @@ ScriptedImporter:
   - name: shenhe_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10297,7 +10297,7 @@ ScriptedImporter:
   - name: shenhe_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10317,7 +10317,7 @@ ScriptedImporter:
   - name: shenhe_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10337,7 +10337,7 @@ ScriptedImporter:
   - name: shenhe_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10357,7 +10357,7 @@ ScriptedImporter:
   - name: shenhe_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10377,7 +10377,7 @@ ScriptedImporter:
   - name: yunjin_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10397,7 +10397,7 @@ ScriptedImporter:
   - name: yunjin_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10417,7 +10417,7 @@ ScriptedImporter:
   - name: yunjin_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10437,7 +10437,7 @@ ScriptedImporter:
   - name: yunjin_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10457,7 +10457,7 @@ ScriptedImporter:
   - name: yunjin_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10477,7 +10477,7 @@ ScriptedImporter:
   - name: yunjin_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10497,7 +10497,7 @@ ScriptedImporter:
   - name: yunjin_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10517,7 +10517,7 @@ ScriptedImporter:
   - name: yunjin_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10537,7 +10537,7 @@ ScriptedImporter:
   - name: yunjin_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10557,7 +10557,7 @@ ScriptedImporter:
   - name: yunjin_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10577,7 +10577,7 @@ ScriptedImporter:
   - name: yunjin_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10597,7 +10597,7 @@ ScriptedImporter:
   - name: miko_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10617,7 +10617,7 @@ ScriptedImporter:
   - name: miko_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10637,7 +10637,7 @@ ScriptedImporter:
   - name: miko_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10657,7 +10657,7 @@ ScriptedImporter:
   - name: miko_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10677,7 +10677,7 @@ ScriptedImporter:
   - name: miko_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10697,7 +10697,7 @@ ScriptedImporter:
   - name: miko_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10717,7 +10717,7 @@ ScriptedImporter:
   - name: miko_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10737,7 +10737,7 @@ ScriptedImporter:
   - name: miko_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10757,7 +10757,7 @@ ScriptedImporter:
   - name: miko_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10777,7 +10777,7 @@ ScriptedImporter:
   - name: miko_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10797,7 +10797,7 @@ ScriptedImporter:
   - name: miko_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10817,7 +10817,7 @@ ScriptedImporter:
   - name: ayato_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10837,7 +10837,7 @@ ScriptedImporter:
   - name: ayato_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10857,7 +10857,7 @@ ScriptedImporter:
   - name: ayato_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10877,7 +10877,7 @@ ScriptedImporter:
   - name: ayato_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10897,7 +10897,7 @@ ScriptedImporter:
   - name: ayato_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10917,7 +10917,7 @@ ScriptedImporter:
   - name: ayato_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10937,7 +10937,7 @@ ScriptedImporter:
   - name: ayato_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10957,7 +10957,7 @@ ScriptedImporter:
   - name: ayato_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10977,7 +10977,7 @@ ScriptedImporter:
   - name: ayato_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -10997,7 +10997,7 @@ ScriptedImporter:
   - name: ayato_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11017,7 +11017,7 @@ ScriptedImporter:
   - name: ayato_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11037,7 +11037,7 @@ ScriptedImporter:
   - name: yelan_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11057,7 +11057,7 @@ ScriptedImporter:
   - name: yelan_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11077,7 +11077,7 @@ ScriptedImporter:
   - name: yelan_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11097,7 +11097,7 @@ ScriptedImporter:
   - name: yelan_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11117,7 +11117,7 @@ ScriptedImporter:
   - name: yelan_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11137,7 +11137,7 @@ ScriptedImporter:
   - name: yelan_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11157,7 +11157,7 @@ ScriptedImporter:
   - name: yelan_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11177,7 +11177,7 @@ ScriptedImporter:
   - name: yelan_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11197,7 +11197,7 @@ ScriptedImporter:
   - name: yelan_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11217,7 +11217,7 @@ ScriptedImporter:
   - name: yelan_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11237,7 +11237,7 @@ ScriptedImporter:
   - name: yelan_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11257,7 +11257,7 @@ ScriptedImporter:
   - name: heizo_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11277,7 +11277,7 @@ ScriptedImporter:
   - name: heizo_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11297,7 +11297,7 @@ ScriptedImporter:
   - name: heizo_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11317,7 +11317,7 @@ ScriptedImporter:
   - name: heizo_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11337,7 +11337,7 @@ ScriptedImporter:
   - name: heizo_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11357,7 +11357,7 @@ ScriptedImporter:
   - name: heizo_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11377,7 +11377,7 @@ ScriptedImporter:
   - name: heizo_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11397,7 +11397,7 @@ ScriptedImporter:
   - name: heizo_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11417,7 +11417,7 @@ ScriptedImporter:
   - name: heizo_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11437,7 +11437,7 @@ ScriptedImporter:
   - name: heizo_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11457,7 +11457,7 @@ ScriptedImporter:
   - name: heizo_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11477,7 +11477,7 @@ ScriptedImporter:
   - name: shinobu_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11497,7 +11497,7 @@ ScriptedImporter:
   - name: shinobu_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11517,7 +11517,7 @@ ScriptedImporter:
   - name: shinobu_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11537,7 +11537,7 @@ ScriptedImporter:
   - name: shinobu_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11557,7 +11557,7 @@ ScriptedImporter:
   - name: shinobu_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11577,7 +11577,7 @@ ScriptedImporter:
   - name: shinobu_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11597,7 +11597,7 @@ ScriptedImporter:
   - name: shinobu_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11617,7 +11617,7 @@ ScriptedImporter:
   - name: shinobu_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11637,7 +11637,7 @@ ScriptedImporter:
   - name: shinobu_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11657,7 +11657,7 @@ ScriptedImporter:
   - name: shinobu_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -11677,7 +11677,7 @@ ScriptedImporter:
   - name: shinobu_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 7
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2

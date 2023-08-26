@@ -12,5 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d94fedf1e95f754c8557df27a3d26e4, type: 3}
   m_Name: AnimationSpriteChanger
   m_EditorClassIdentifier: 
-  animationClip: {fileID: 0}
-  newSprites: []
+  animationClips:
+  - {fileID: 7400000, guid: 0e9756102ff08d0409ad2488c625b93f, type: 2}
+  - {fileID: 7400000, guid: 1957d56921910d74b9261b99cf7642b7, type: 2}
+  - {fileID: 7400000, guid: 96b1ab8032ed0fd41a19cd2e83cc89a2, type: 2}
+  spritesPerClip: 020000000400000006000000
+  newSprites:
+  - {fileID: 441092255042021051, guid: 0dc2f6f33761dd44b9047797f8daa195, type: 3}
+  - {fileID: -8175049846898944731, guid: 0dc2f6f33761dd44b9047797f8daa195, type: 3}
+  - {fileID: 6229259861422005372, guid: 0dc2f6f33761dd44b9047797f8daa195, type: 3}
+  - {fileID: 6589027325142829856, guid: 0dc2f6f33761dd44b9047797f8daa195, type: 3}
+  - {fileID: -6423928846093342287, guid: 0dc2f6f33761dd44b9047797f8daa195, type: 3}
+  - {fileID: 5204507590414110947, guid: 0dc2f6f33761dd44b9047797f8daa195, type: 3}
+  - {fileID: -2039870510825667294, guid: 0dc2f6f33761dd44b9047797f8daa195, type: 3}
+  - {fileID: -7709848617720952746, guid: 0dc2f6f33761dd44b9047797f8daa195, type: 3}
+  - {fileID: 8660002442830803154, guid: 0dc2f6f33761dd44b9047797f8daa195, type: 3}
+  - {fileID: 6504014634150744517, guid: 0dc2f6f33761dd44b9047797f8daa195, type: 3}
+  - {fileID: -1348849451439183522, guid: 0dc2f6f33761dd44b9047797f8daa195, type: 3}
+  - {fileID: 0}
