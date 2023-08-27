@@ -8,6 +8,8 @@ public class AnimationSpriteChanger : ScriptableObject
     public AnimationClip[] animationClips;
     public int[] spritesPerClip;
     public Sprite[] newSprites;
+    [SerializeField, Tooltip("If true, empty sprites will be used when there are more keyframes than new sprites.")]
+    private bool useEmptyForExcessFrames = false;
 
     [Button]
     public void ChangeSprites()
@@ -34,7 +36,14 @@ public class AnimationSpriteChanger : ScriptableObject
                 for (int keyFrameIndex = 0; keyFrameIndex < keyframes.Length; keyFrameIndex++)
                 {
                     // 키 프레임의 스프라이트를 새로운 스프라이트로 변경
-                    keyframes[keyFrameIndex].value = newSprites[spriteIndex % newSprites.Length];
+                    if (spriteIndex < newSprites.Length || !useEmptyForExcessFrames)
+                    {
+                        keyframes[keyFrameIndex].value = newSprites[spriteIndex % newSprites.Length];
+                    }
+                    else
+                    {
+                        keyframes[keyFrameIndex].value = null;
+                    }
                     spriteIndex++;
                 }
 

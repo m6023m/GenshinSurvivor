@@ -43,7 +43,23 @@ public class CharacterData : ScriptableObject
         Rosaria,
         Yanfei,
         Eula,
-        Kazuha
+        Kazuha,
+        Ayaka,
+        Yoimiya,
+        Sayu,
+        Raiden,
+        Sara,
+        Kokomi,
+        Ito,
+        Goro,
+        Thoma,
+        Shenhe,
+        Yunjin,
+        Miko,
+        Ayato,
+        Yelan,
+        Heizo,
+        Shinobu
     }
 
     public enum Type

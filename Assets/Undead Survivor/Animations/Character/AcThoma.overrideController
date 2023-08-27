@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AcThoma
+  m_Controller: {fileID: 9100000, guid: d77a6d7552582f74b8398e78643403b9, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 01859d6a72d857e48a0d9d8200224170, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e44cbcad51f98b747b2e5b7f40ac6aeb, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 0eef7a3061f5d6f478ef66fc9da736fd, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: cf4019cf807d93541a6ee0b38513d7d9, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 0b4129d4c1c70c641b5c8f4ac337984f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c9a9226c3cfa3774eb32ac40451156cc, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 695c0e16d133c1b44a277e5e7b634638, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 695c0e16d133c1b44a277e5e7b634638, type: 2}
