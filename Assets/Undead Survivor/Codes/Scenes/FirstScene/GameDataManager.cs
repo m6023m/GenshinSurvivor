@@ -11,7 +11,7 @@ public class GameDataManager : MonoBehaviour
     public WeaponData weaponData;
     public SaveData saveData;
     public bool isMobile = false;
-    public static int version = 4;
+    public static int version = 5;
     private void Awake()
     {
 

@@ -30,7 +30,7 @@ MonoBehaviour:
       elementType: 3
       constellation: 000000000000
       toolTipKey: Travler.Anemo
-      constellaCount: 6
+      constellaCount: 0
       atk: 5
       armor: 5
       hp: 100
@@ -79,10 +79,10 @@ MonoBehaviour:
     stat:
       charNum: 1
       isMine: 1
-      elementType: 3
-      constellation: 010101010101
-      toolTipKey: Travler.Anemo
-      constellaCount: 9
+      elementType: 7
+      constellation: 000000000000
+      toolTipKey: Travler.Geo
+      constellaCount: 7
       atk: 5
       armor: 5
       hp: 100
@@ -114,7 +114,7 @@ MonoBehaviour:
       ownSkill: 0
       rankUpStat: 0
       rankUpValue: 10
-      weaponName: 7
+      weaponName: 1
     skillBasic: 0
     skill: 5
   - name: 2
@@ -132,7 +132,7 @@ MonoBehaviour:
       charNum: 2
       isMine: 1
       elementType: 1
-      constellation: 010101010101
+      constellation: 000000000000
       toolTipKey: Amber
       constellaCount: 6
       atk: 5
@@ -184,7 +184,7 @@ MonoBehaviour:
       charNum: 3
       isMine: 1
       elementType: 1
-      constellation: 010101010101
+      constellation: 000000000000
       toolTipKey: Xiangling
       constellaCount: 6
       atk: 5
@@ -236,7 +236,7 @@ MonoBehaviour:
       charNum: 4
       isMine: 1
       elementType: 1
-      constellation: 010101010101
+      constellation: 000000000000
       toolTipKey: Bennet
       constellaCount: 6
       atk: 4.5
@@ -288,7 +288,7 @@ MonoBehaviour:
       charNum: 5
       isMine: 1
       elementType: 1
-      constellation: 010101010101
+      constellation: 000000000000
       toolTipKey: Diluc
       constellaCount: 6
       atk: 7.5
@@ -338,11 +338,11 @@ MonoBehaviour:
     wishIcon: {fileID: 21300000, guid: 7fb48360f99a7874db2921bbefae7f50, type: 3}
     stat:
       charNum: 6
-      isMine: 1
+      isMine: 0
       elementType: 1
-      constellation: 010101010101
+      constellation: 000000000000
       toolTipKey: Klee
-      constellaCount: 6
+      constellaCount: 0
       atk: 7.5
       armor: 4.5
       hp: 100
@@ -392,7 +392,7 @@ MonoBehaviour:
       charNum: 7
       isMine: 1
       elementType: 2
-      constellation: 010101010101
+      constellation: 000000000000
       toolTipKey: Barbara
       constellaCount: 6
       atk: 4
@@ -444,7 +444,7 @@ MonoBehaviour:
       charNum: 8
       isMine: 1
       elementType: 2
-      constellation: 010101010101
+      constellation: 000000000000
       toolTipKey: Xingqiu
       constellaCount: 6
       atk: 5
@@ -496,9 +496,9 @@ MonoBehaviour:
       charNum: 9
       isMine: 1
       elementType: 2
-      constellation: 010101010101
+      constellation: 000000000000
       toolTipKey: Mona
-      constellaCount: 6
+      constellaCount: 4
       atk: 6
       armor: 5
       hp: 100
@@ -548,7 +548,7 @@ MonoBehaviour:
       charNum: 10
       isMine: 1
       elementType: 3
-      constellation: 010101010101
+      constellation: 000000000000
       toolTipKey: Sucrose
       constellaCount: 6
       atk: 4.5
@@ -600,9 +600,9 @@ MonoBehaviour:
       charNum: 11
       isMine: 1
       elementType: 3
-      constellation: 010101010101
+      constellation: 000000000000
       toolTipKey: Jean
-      constellaCount: 6
+      constellaCount: 3
       atk: 5
       armor: 6
       hp: 140
@@ -650,11 +650,11 @@ MonoBehaviour:
     wishIcon: {fileID: 21300000, guid: f9c345d38b070024e9deb80c232d5db7, type: 3}
     stat:
       charNum: 12
-      isMine: 1
+      isMine: 0
       elementType: 3
-      constellation: 010101010101
+      constellation: 000000000000
       toolTipKey: Venti
-      constellaCount: 6
+      constellaCount: 0
       atk: 5.5
       armor: 5
       hp: 100
@@ -704,7 +704,7 @@ MonoBehaviour:
       charNum: 13
       isMine: 1
       elementType: 5
-      constellation: 010101010101
+      constellation: 000000000000
       toolTipKey: Lisa
       constellaCount: 6
       atk: 5
@@ -756,7 +756,7 @@ MonoBehaviour:
       charNum: 14
       isMine: 1
       elementType: 5
-      constellation: 010101010101
+      constellation: 000000000000
       toolTipKey: Razor
       constellaCount: 6
       atk: 5
@@ -808,7 +808,7 @@ MonoBehaviour:
       charNum: 15
       isMine: 1
       elementType: 5
-      constellation: 010101010101
+      constellation: 000000000000
       toolTipKey: Beidou
       constellaCount: 6
       atk: 5
@@ -860,7 +860,7 @@ MonoBehaviour:
       charNum: 16
       isMine: 1
       elementType: 5
-      constellation: 010101010101
+      constellation: 000000000000
       toolTipKey: Fischl
       constellaCount: 6
       atk: 5
@@ -912,9 +912,9 @@ MonoBehaviour:
       charNum: 17
       isMine: 1
       elementType: 5
-      constellation: 010101010101
+      constellation: 000000000000
       toolTipKey: Keqing
-      constellaCount: 6
+      constellaCount: 2
       atk: 7.5
       armor: 6
       hp: 130
@@ -964,7 +964,7 @@ MonoBehaviour:
       charNum: 18
       isMine: 1
       elementType: 6
-      constellation: 010101010101
+      constellation: 000000000000
       toolTipKey: Kaeya
       constellaCount: 6
       atk: 5
@@ -1016,7 +1016,7 @@ MonoBehaviour:
       charNum: 19
       isMine: 1
       elementType: 6
-      constellation: 010101010101
+      constellation: 000000000000
       toolTipKey: Chongyun
       constellaCount: 6
       atk: 5
@@ -1102,7 +1102,7 @@ MonoBehaviour:
       ownSkill: 0
       rankUpStat: 3
       rankUpValue: 6
-      weaponName: 0
+      weaponName: 10
     skillBasic: 0
     skill: 45
   - name: 21
@@ -1120,7 +1120,7 @@ MonoBehaviour:
       charNum: 21
       isMine: 1
       elementType: 7
-      constellation: 010101010101
+      constellation: 000000000000
       toolTipKey: Ningguang
       constellaCount: 6
       atk: 5
@@ -1172,7 +1172,7 @@ MonoBehaviour:
       charNum: 22
       isMine: 1
       elementType: 7
-      constellation: 010101010101
+      constellation: 000000000000
       toolTipKey: Noelle
       constellaCount: 6
       atk: 4.5
@@ -1224,9 +1224,9 @@ MonoBehaviour:
       charNum: 23
       isMine: 1
       elementType: 2
-      constellation: 010101010101
+      constellation: 000000000000
       toolTipKey: Tartaglia
-      constellaCount: 6
+      constellaCount: 0
       atk: 6.5
       armor: 8
       hp: 130
@@ -1236,7 +1236,7 @@ MonoBehaviour:
       aspeed: 1
       duration: 1
       amount: 0
-      speed: 3
+      speed: 3.5
       magnet: 1
       luck: 5
       regen: 1
@@ -1276,7 +1276,7 @@ MonoBehaviour:
       charNum: 24
       isMine: 1
       elementType: 6
-      constellation: 010101010101
+      constellation: 000000000000
       toolTipKey: Diona
       constellaCount: 6
       atk: 5
@@ -1288,7 +1288,7 @@ MonoBehaviour:
       aspeed: 1
       duration: 1
       amount: 0
-      speed: 3
+      speed: 2.5
       magnet: 1
       luck: 5
       regen: 1
@@ -1340,7 +1340,7 @@ MonoBehaviour:
       aspeed: 1
       duration: 1
       amount: 0
-      speed: 3
+      speed: 3.5
       magnet: 1
       luck: 5
       regen: 1
@@ -1362,7 +1362,7 @@ MonoBehaviour:
       ownSkill: 0
       rankUpStat: 2
       rankUpValue: 10
-      weaponName: 0
+      weaponName: 29
     skillBasic: 2
     skill: 72
   - name: 26
@@ -1380,7 +1380,7 @@ MonoBehaviour:
       charNum: 26
       isMine: 1
       elementType: 1
-      constellation: 010101010101
+      constellation: 000000000000
       toolTipKey: Xinyan
       constellaCount: 6
       atk: 5.5
@@ -1432,9 +1432,9 @@ MonoBehaviour:
       charNum: 27
       isMine: 1
       elementType: 7
-      constellation: 010101010101
+      constellation: 000000000000
       toolTipKey: Albedo
-      constellaCount: 6
+      constellaCount: 0
       atk: 5.5
       armor: 8.5
       hp: 130
@@ -1466,7 +1466,7 @@ MonoBehaviour:
       ownSkill: 0
       rankUpStat: 26
       rankUpValue: 7.2
-      weaponName: 0
+      weaponName: 10
     skillBasic: 0
     skill: 76
   - name: 28
@@ -1484,9 +1484,9 @@ MonoBehaviour:
       charNum: 28
       isMine: 1
       elementType: 6
-      constellation: 010101010101
+      constellation: 000000000000
       toolTipKey: Ganyu
-      constellaCount: 6
+      constellaCount: 4
       atk: 7.5
       armor: 6
       hp: 95
@@ -1518,7 +1518,7 @@ MonoBehaviour:
       ownSkill: 0
       rankUpStat: 11
       rankUpValue: 1
-      weaponName: 0
+      weaponName: 42
     skillBasic: 78
     skill: 79
   - name: 29
@@ -1536,9 +1536,9 @@ MonoBehaviour:
       charNum: 29
       isMine: 1
       elementType: 3
-      constellation: 010101010101
+      constellation: 000000000000
       toolTipKey: Xiao
-      constellaCount: 6
+      constellaCount: 4
       atk: 7.5
       armor: 8
       hp: 125
@@ -1588,9 +1588,9 @@ MonoBehaviour:
       charNum: 30
       isMine: 1
       elementType: 1
-      constellation: 000000000000
+      constellation: 010101010101
       toolTipKey: Hutao
-      constellaCount: 2
+      constellaCount: 6
       atk: 2
       armor: 8.5
       hp: 155
@@ -1622,7 +1622,7 @@ MonoBehaviour:
       ownSkill: 0
       rankUpStat: 11
       rankUpValue: 1
-      weaponName: 0
+      weaponName: 29
     skillBasic: 83
     skill: 84
   - name: 31
@@ -1746,7 +1746,7 @@ MonoBehaviour:
       elementType: 6
       constellation: 000000000000
       toolTipKey: Eula
-      constellaCount: 2
+      constellaCount: 6
       atk: 7.5
       armor: 7.5
       hp: 130
@@ -1796,7 +1796,7 @@ MonoBehaviour:
       charNum: 34
       isMine: 1
       elementType: 3
-      constellation: 000000000000
+      constellation: 010101010101
       toolTipKey: Kazuha
       constellaCount: 6
       atk: 6.5
@@ -1830,7 +1830,7 @@ MonoBehaviour:
       ownSkill: 0
       rankUpStat: 27
       rankUpValue: 29
-      weaponName: 0
+      weaponName: 10
     skillBasic: 0
     skill: 93
   - name: 35
@@ -1845,15 +1845,15 @@ MonoBehaviour:
     wishPannel: {fileID: 21300000, guid: 29f110a0d36d00b4a9dccfe03ec1e8fc, type: 3}
     wishIcon: {fileID: 21300000, guid: 3360cb1cb5e0d4b41ac773d8ee12e912, type: 3}
     stat:
-      charNum: 0
+      charNum: 35
       isMine: 0
-      elementType: 0
+      elementType: 6
       constellation: 000000000000
-      toolTipKey: 
+      toolTipKey: Ayaka
       constellaCount: 0
-      atk: 5
-      armor: 5
-      hp: 100
+      atk: 7.5
+      armor: 8
+      hp: 130
       heal: 0
       cooltime: 0
       area: 1
@@ -1880,8 +1880,8 @@ MonoBehaviour:
       geoDmg: 0
       elementMastery: 0
       ownSkill: 0
-      rankUpStat: 0
-      rankUpValue: 0
+      rankUpStat: 11
+      rankUpValue: 1
       weaponName: 0
     skillBasic: 108
     skill: 109
@@ -1897,14 +1897,14 @@ MonoBehaviour:
     wishPannel: {fileID: 21300000, guid: e2d563b991edce547b254de941c113f2, type: 3}
     wishIcon: {fileID: 21300000, guid: 8db115d657eea104b80ccdebeb1602d0, type: 3}
     stat:
-      charNum: 0
+      charNum: 36
       isMine: 0
-      elementType: 0
+      elementType: 1
       constellation: 000000000000
-      toolTipKey: 
+      toolTipKey: Yoimiya
       constellaCount: 0
-      atk: 5
-      armor: 5
+      atk: 7
+      armor: 6
       hp: 100
       heal: 0
       cooltime: 0
@@ -1932,8 +1932,8 @@ MonoBehaviour:
       geoDmg: 0
       elementMastery: 0
       ownSkill: 0
-      rankUpStat: 0
-      rankUpValue: 0
+      rankUpStat: 11
+      rankUpValue: 1
       weaponName: 0
     skillBasic: 3
     skill: 111
@@ -1949,15 +1949,15 @@ MonoBehaviour:
     wishPannel: {fileID: 21300000, guid: ef2bd4f9ed68ff741b6038ece04bdb78, type: 3}
     wishIcon: {fileID: 21300000, guid: ce100bfb651d2a44d8333f8d9f7626c8, type: 3}
     stat:
-      charNum: 0
+      charNum: 37
       isMine: 0
-      elementType: 0
+      elementType: 3
       constellation: 000000000000
-      toolTipKey: 
+      toolTipKey: Sayu
       constellaCount: 0
       atk: 5
-      armor: 5
-      hp: 100
+      armor: 7.5
+      hp: 120
       heal: 0
       cooltime: 0
       area: 1
@@ -1984,8 +1984,8 @@ MonoBehaviour:
       geoDmg: 0
       elementMastery: 0
       ownSkill: 0
-      rankUpStat: 0
-      rankUpValue: 0
+      rankUpStat: 27
+      rankUpValue: 24
       weaponName: 0
     skillBasic: 1
     skill: 113
@@ -2001,15 +2001,15 @@ MonoBehaviour:
     wishPannel: {fileID: 21300000, guid: 5065039eb0da8e743b4a4bcb9f45d69c, type: 3}
     wishIcon: {fileID: 21300000, guid: 0920f8aec57ad1d498d9d2e761023772, type: 3}
     stat:
-      charNum: 0
+      charNum: 38
       isMine: 0
-      elementType: 0
+      elementType: 5
       constellation: 000000000000
-      toolTipKey: 
+      toolTipKey: Raiden
       constellaCount: 0
-      atk: 5
-      armor: 5
-      hp: 100
+      atk: 7.5
+      armor: 8
+      hp: 130
       heal: 0
       cooltime: 0
       area: 1
@@ -2019,7 +2019,7 @@ MonoBehaviour:
       speed: 3
       magnet: 1
       luck: 5
-      regen: 1
+      regen: 8
       exp: 1
       greed: 1
       curse: 1
@@ -2036,7 +2036,7 @@ MonoBehaviour:
       geoDmg: 0
       elementMastery: 0
       ownSkill: 0
-      rankUpStat: 0
+      rankUpStat: 12
       rankUpValue: 0
       weaponName: 0
     skillBasic: 2
@@ -2053,15 +2053,15 @@ MonoBehaviour:
     wishPannel: {fileID: 21300000, guid: 5065039eb0da8e743b4a4bcb9f45d69c, type: 3}
     wishIcon: {fileID: 21300000, guid: 24b5171cb52001c4a9a3c114a9b052b9, type: 3}
     stat:
-      charNum: 0
+      charNum: 39
       isMine: 0
-      elementType: 0
+      elementType: 3
       constellation: 000000000000
-      toolTipKey: 
+      toolTipKey: Sara
       constellaCount: 0
-      atk: 5
-      armor: 5
-      hp: 100
+      atk: 6.5
+      armor: 8
+      hp: 130
       heal: 0
       cooltime: 0
       area: 1
@@ -2088,8 +2088,8 @@ MonoBehaviour:
       geoDmg: 0
       elementMastery: 0
       ownSkill: 0
-      rankUpStat: 0
-      rankUpValue: 0
+      rankUpStat: 27
+      rankUpValue: 29
       weaponName: 0
     skillBasic: 3
     skill: 117
@@ -2105,15 +2105,15 @@ MonoBehaviour:
     wishPannel: {fileID: 21300000, guid: 83f24aa3c3b05ba4d9f6d47d5777c7b4, type: 3}
     wishIcon: {fileID: 21300000, guid: 3944fc4935b93294a94c70426e336933, type: 3}
     stat:
-      charNum: 0
+      charNum: 40
       isMine: 0
-      elementType: 0
+      elementType: 2
       constellation: 000000000000
-      toolTipKey: 
+      toolTipKey: Kokomi
       constellaCount: 0
       atk: 5
-      armor: 5
-      hp: 100
+      armor: 6.5
+      hp: 135
       heal: 0
       cooltime: 0
       area: 1
@@ -2140,8 +2140,8 @@ MonoBehaviour:
       geoDmg: 0
       elementMastery: 0
       ownSkill: 0
-      rankUpStat: 0
-      rankUpValue: 0
+      rankUpStat: 21
+      rankUpValue: 7.2
       weaponName: 0
     skillBasic: 4
     skill: 119
@@ -2157,15 +2157,15 @@ MonoBehaviour:
     wishPannel: {fileID: 21300000, guid: 2cf0a1ec9f385b24ab4943d6186bb80d, type: 3}
     wishIcon: {fileID: 21300000, guid: 2d25b51d4efa39348a7dfb1819741ff9, type: 3}
     stat:
-      charNum: 0
+      charNum: 41
       isMine: 0
-      elementType: 0
+      elementType: 7
       constellation: 000000000000
-      toolTipKey: 
+      toolTipKey: Ito
       constellaCount: 0
-      atk: 5
-      armor: 5
-      hp: 100
+      atk: 4.5
+      armor: 9.5
+      hp: 130
       heal: 0
       cooltime: 0
       area: 1
@@ -2192,8 +2192,8 @@ MonoBehaviour:
       geoDmg: 0
       elementMastery: 0
       ownSkill: 0
-      rankUpStat: 0
-      rankUpValue: 0
+      rankUpStat: 11
+      rankUpValue: 1
       weaponName: 0
     skillBasic: 121
     skill: 122
@@ -2209,15 +2209,15 @@ MonoBehaviour:
     wishPannel: {fileID: 21300000, guid: 2cf0a1ec9f385b24ab4943d6186bb80d, type: 3}
     wishIcon: {fileID: 21300000, guid: 5f064df46e974cf46b3981cc27b2f0e0, type: 3}
     stat:
-      charNum: 0
+      charNum: 42
       isMine: 0
-      elementType: 0
+      elementType: 7
       constellation: 000000000000
-      toolTipKey: 
+      toolTipKey: Goro
       constellaCount: 0
-      atk: 5
-      armor: 5
-      hp: 100
+      atk: 4
+      armor: 6.5
+      hp: 95
       heal: 0
       cooltime: 0
       area: 1
@@ -2244,8 +2244,8 @@ MonoBehaviour:
       geoDmg: 0
       elementMastery: 0
       ownSkill: 0
-      rankUpStat: 0
-      rankUpValue: 0
+      rankUpStat: 26
+      rankUpValue: 6
       weaponName: 0
     skillBasic: 3
     skill: 124
@@ -2261,14 +2261,14 @@ MonoBehaviour:
     wishPannel: {fileID: 21300000, guid: 2cf0a1ec9f385b24ab4943d6186bb80d, type: 3}
     wishIcon: {fileID: 21300000, guid: 8dde8d91369316e4e9df7ef496da5a47, type: 3}
     stat:
-      charNum: 0
+      charNum: 43
       isMine: 0
-      elementType: 0
+      elementType: 1
       constellation: 000000000000
-      toolTipKey: 
+      toolTipKey: Thoma
       constellaCount: 0
-      atk: 5
-      armor: 5
+      atk: 4.5
+      armor: 7.5
       hp: 100
       heal: 0
       cooltime: 0
@@ -2297,7 +2297,7 @@ MonoBehaviour:
       elementMastery: 0
       ownSkill: 0
       rankUpStat: 0
-      rankUpValue: 0
+      rankUpValue: 6
       weaponName: 0
     skillBasic: 2
     skill: 126
@@ -2313,14 +2313,14 @@ MonoBehaviour:
     wishPannel: {fileID: 21300000, guid: 344aaa91cfdf4f9418441eb7a36fce70, type: 3}
     wishIcon: {fileID: 21300000, guid: a7dcf645cf432dd428ee7608e596cab3, type: 3}
     stat:
-      charNum: 0
+      charNum: 44
       isMine: 0
-      elementType: 0
+      elementType: 6
       constellation: 000000000000
-      toolTipKey: 
+      toolTipKey: Shenhe
       constellaCount: 0
-      atk: 5
-      armor: 5
+      atk: 4.5
+      armor: 7.5
       hp: 100
       heal: 0
       cooltime: 0
@@ -2349,7 +2349,7 @@ MonoBehaviour:
       elementMastery: 0
       ownSkill: 0
       rankUpStat: 0
-      rankUpValue: 0
+      rankUpValue: 6
       weaponName: 0
     skillBasic: 2
     skill: 128
@@ -2365,15 +2365,15 @@ MonoBehaviour:
     wishPannel: {fileID: 21300000, guid: 344aaa91cfdf4f9418441eb7a36fce70, type: 3}
     wishIcon: {fileID: 21300000, guid: d28df1e2c4c95fd40b50d4fe06f111af, type: 3}
     stat:
-      charNum: 0
+      charNum: 45
       isMine: 0
-      elementType: 0
+      elementType: 7
       constellation: 000000000000
-      toolTipKey: 
+      toolTipKey: Yunjin
       constellaCount: 0
-      atk: 5
-      armor: 5
-      hp: 100
+      atk: 4
+      armor: 7.5
+      hp: 105
       heal: 0
       cooltime: 0
       area: 1
@@ -2400,8 +2400,8 @@ MonoBehaviour:
       geoDmg: 0
       elementMastery: 0
       ownSkill: 0
-      rankUpStat: 0
-      rankUpValue: 0
+      rankUpStat: 12
+      rankUpValue: 6.7
       weaponName: 0
     skillBasic: 2
     skill: 134
@@ -2417,14 +2417,14 @@ MonoBehaviour:
     wishPannel: {fileID: 21300000, guid: c2f8c2686d1067b44a57fbd885ea0da4, type: 3}
     wishIcon: {fileID: 21300000, guid: eb144f6f5b7871e459df646e80eb0f22, type: 3}
     stat:
-      charNum: 0
+      charNum: 46
       isMine: 0
-      elementType: 0
+      elementType: 5
       constellation: 000000000000
-      toolTipKey: 
+      toolTipKey: Miko
       constellaCount: 0
-      atk: 5
-      armor: 5
+      atk: 7.5
+      armor: 5.5
       hp: 100
       heal: 0
       cooltime: 0
@@ -2452,8 +2452,8 @@ MonoBehaviour:
       geoDmg: 0
       elementMastery: 0
       ownSkill: 0
-      rankUpStat: 0
-      rankUpValue: 0
+      rankUpStat: 11
+      rankUpValue: 1
       weaponName: 0
     skillBasic: 4
     skill: 130
@@ -2469,15 +2469,15 @@ MonoBehaviour:
     wishPannel: {fileID: 21300000, guid: 2a077c1c81a340d408f2a611a5da6363, type: 3}
     wishIcon: {fileID: 21300000, guid: 8a9f485c0bd42d54e94b0e6731fb9704, type: 3}
     stat:
-      charNum: 0
+      charNum: 47
       isMine: 0
-      elementType: 0
+      elementType: 2
       constellation: 000000000000
-      toolTipKey: 
+      toolTipKey: Ayato
       constellaCount: 0
-      atk: 5
-      armor: 5
-      hp: 100
+      atk: 6.5
+      armor: 7.5
+      hp: 135
       heal: 0
       cooltime: 0
       area: 1
@@ -2504,8 +2504,8 @@ MonoBehaviour:
       geoDmg: 0
       elementMastery: 0
       ownSkill: 0
-      rankUpStat: 0
-      rankUpValue: 0
+      rankUpStat: 11
+      rankUpValue: 1
       weaponName: 0
     skillBasic: 0
     skill: 132
@@ -2515,21 +2515,21 @@ MonoBehaviour:
     pickUpType: 1
     elementType: 2
     nationalType: 3
-    icon: {fileID: 21300000, guid: a88240e311c3f014ab501c1c76c39249, type: 3}
+    icon: {fileID: -6550469402392588831, guid: 0dc2f6f33761dd44b9047797f8daa195, type: 3}
     anim: {fileID: 22100000, guid: 6440c5fd266e1504c86d3e51a69bf129, type: 2}
     wishImage: {fileID: 21300000, guid: 31dab1168c9ad184092ad422a99e1d71, type: 3}
     wishPannel: {fileID: 21300000, guid: f7498f7c59ef83f4f9b3db2f7cfc604a, type: 3}
     wishIcon: {fileID: 21300000, guid: d84eb44d02db2af4ea28ff7559730184, type: 3}
     stat:
-      charNum: 0
+      charNum: 48
       isMine: 0
-      elementType: 0
+      elementType: 2
       constellation: 000000000000
-      toolTipKey: 
+      toolTipKey: Yelan
       constellaCount: 0
       atk: 5
-      armor: 5
-      hp: 100
+      armor: 5.5
+      hp: 145
       heal: 0
       cooltime: 0
       area: 1
@@ -2556,8 +2556,8 @@ MonoBehaviour:
       geoDmg: 0
       elementMastery: 0
       ownSkill: 0
-      rankUpStat: 0
-      rankUpValue: 0
+      rankUpStat: 11
+      rankUpValue: 1
       weaponName: 0
     skillBasic: 3
     skill: 136
@@ -2566,22 +2566,22 @@ MonoBehaviour:
     weaponType: 4
     pickUpType: 0
     elementType: 0
-    nationalType: 0
+    nationalType: 3
     icon: {fileID: -309736167096006915, guid: 0dc2f6f33761dd44b9047797f8daa195, type: 3}
     anim: {fileID: 22100000, guid: 12219e875834ffb4898c2ad8154430c8, type: 2}
     wishImage: {fileID: 21300000, guid: c0117d023f9506841966b8a5d3a321ee, type: 3}
     wishPannel: {fileID: 21300000, guid: f7498f7c59ef83f4f9b3db2f7cfc604a, type: 3}
     wishIcon: {fileID: 21300000, guid: e698a1484fe499d429ee4a174d42ea51, type: 3}
     stat:
-      charNum: 0
+      charNum: 49
       isMine: 0
-      elementType: 0
+      elementType: 3
       constellation: 000000000000
-      toolTipKey: 
+      toolTipKey: Heizo
       constellaCount: 0
       atk: 5
-      armor: 5
-      hp: 100
+      armor: 6.5
+      hp: 105
       heal: 0
       cooltime: 0
       area: 1
@@ -2608,8 +2608,8 @@ MonoBehaviour:
       geoDmg: 0
       elementMastery: 0
       ownSkill: 0
-      rankUpStat: 0
-      rankUpValue: 0
+      rankUpStat: 22
+      rankUpValue: 6
       weaponName: 0
     skillBasic: 138
     skill: 139
@@ -2625,15 +2625,15 @@ MonoBehaviour:
     wishPannel: {fileID: 21300000, guid: f7498f7c59ef83f4f9b3db2f7cfc604a, type: 3}
     wishIcon: {fileID: 21300000, guid: 4ed0f2d183928a14fa52a736c0bffc01, type: 3}
     stat:
-      charNum: 0
+      charNum: 50
       isMine: 0
-      elementType: 0
+      elementType: 5
       constellation: 000000000000
-      toolTipKey: 
+      toolTipKey: Shinobu
       constellaCount: 0
       atk: 5
-      armor: 5
-      hp: 100
+      armor: 7.5
+      hp: 120
       heal: 0
       cooltime: 0
       area: 1
@@ -2660,8 +2660,8 @@ MonoBehaviour:
       geoDmg: 0
       elementMastery: 0
       ownSkill: 0
-      rankUpStat: 0
-      rankUpValue: 0
+      rankUpStat: 2
+      rankUpValue: 6
       weaponName: 0
     skillBasic: 0
     skill: 141

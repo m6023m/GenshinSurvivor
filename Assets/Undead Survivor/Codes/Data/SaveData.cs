@@ -123,6 +123,26 @@ public class SaveData
         {
             GameDataManager.instance.saveData.record.formPlayCount = 0;
         }
+        if (currentVersion < version && currentVersion < 5)
+        {
+            charactors.Add(InitChar.Ayaka());
+            charactors.Add(InitChar.Yoimiya());
+            charactors.Add(InitChar.Sayu());
+            charactors.Add(InitChar.Raiden());
+            charactors.Add(InitChar.Sara());
+            charactors.Add(InitChar.Kokomi());
+            charactors.Add(InitChar.Ito());
+            charactors.Add(InitChar.Goro());
+            charactors.Add(InitChar.Thoma());
+            charactors.Add(InitChar.Shenhe());
+            charactors.Add(InitChar.Yunjin());
+            charactors.Add(InitChar.Miko());
+            charactors.Add(InitChar.Ayato());
+            charactors.Add(InitChar.Yelan());
+            charactors.Add(InitChar.Heizo());
+            charactors.Add(InitChar.Shinobu());
+            GameDataManager.instance.saveData.record.formPlayCount = 0;
+        }
 
         this.currentVersion = version;
     }

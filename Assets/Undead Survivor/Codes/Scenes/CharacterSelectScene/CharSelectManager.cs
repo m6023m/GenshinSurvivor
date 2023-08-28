@@ -26,13 +26,12 @@ public class CharSelectManager : MonoBehaviour
     [Header("# List")]
     public GameObject panel;
     private ImageText[] imageTexts;
-    private List<GameObject> characterObjects;
     private List<List<GameObject>> charArray;
 
     public CharacterData characterData;
 
     [Header("# Prefab")]
-    public GameObject charPrefab;
+    public CharButton[] charPrefabs;
     public GameObject imageTextPrefab;
 
     [Header("# Stella")]
@@ -53,11 +52,13 @@ public class CharSelectManager : MonoBehaviour
 
     [Header("# element")]
     public DropdownElement dropdownElement;
+    int characterIndex = 0;
 
     Rewired.Player rewiredPlayer;
     private void Awake()
     {
         rewiredPlayer = Rewired.ReInput.players.GetPlayer(0);
+        charPrefabs = panel.GetComponentsInChildren<CharButton>(true);
         Init();
         slotSpriteDefault = charSlot[0].GetComponentsInChildren<Image>()[1].sprite;
         SetupCharSlotButtons();
@@ -201,18 +202,18 @@ public class CharSelectManager : MonoBehaviour
 
     void InitUI()
     {
+        characterIndex = 0;
         InitializeVariables();
-        SetupCharacterObjects(CharacterData.Type.Player);
-        SetupCharacterObjects(CharacterData.Type.Rare);
-        SetupCharacterObjects(CharacterData.Type.Normal);
-        SetupCharacterObjectsOnNotMine(CharacterData.Type.Rare);
-        SetupCharacterObjectsOnNotMine(CharacterData.Type.Normal);
+        SetupCharacterObjects(CharacterData.Type.Player, true);
+        SetupCharacterObjects(CharacterData.Type.Rare, true);
+        SetupCharacterObjects(CharacterData.Type.Normal, true);
+        SetupCharacterObjects(CharacterData.Type.Rare, false);
+        SetupCharacterObjects(CharacterData.Type.Normal, false);
         SetupStellaToggles();
     }
 
     private void InitializeVariables()
     {
-        characterObjects = new List<GameObject>();
         for (int i = 0; i < 4; i++)
         {
             GameDataManager.instance.saveData.userData.selectChars[i] = null;
@@ -220,42 +221,22 @@ public class CharSelectManager : MonoBehaviour
         imageTexts = contentDiscription.GetComponentsInChildren<ImageText>(true);
     }
 
-    private void SetupCharacterObjects(CharacterData.Type rarityType)
+    private void SetupCharacterObjects(CharacterData.Type rarityType, bool isMine)
     {
         for (int i = 0; i < GameDataManager.instance.saveData.charactors.Count; i++)
         {
             int idx = i;
             if (characterData.characters[idx].type != rarityType) continue;
-            GameObject charObject = Instantiate(charPrefab, new Vector3(0, 0, 0), Quaternion.identity);
+            CharButton charObject = charPrefabs[characterIndex];
+            charObject.gameObject.SetActive(true);
             Character character = GameDataManager.instance.saveData.charactors[idx];
             Sprite charSprite = characterData.characters[idx].icon;
 
-            if (characterData.characters[idx].stat.isMine)
+            if (characterData.characters[idx].stat.isMine == isMine)
             {
-                SetupCharButton(charObject, charSprite, character, idx);
+                SetupCharButton(charObject.gameObject, charSprite, character, idx);
                 charObject.transform.parent = panel.transform;
-                characterObjects.Add(charObject);
-            }
-        }
-    }
-    private void SetupCharacterObjectsOnNotMine(CharacterData.Type rarityType)
-    {
-        for (int i = 0; i < GameDataManager.instance.saveData.charactors.Count; i++)
-        {
-            int idx = i;
-            if (idx == UserData.AETHER || idx == UserData.LUMINE) continue;
-            if (characterData.characters[idx].type != rarityType) continue;
-
-            Character character = GameDataManager.instance.saveData.charactors[idx];
-            GameObject charObject = Instantiate(charPrefab, new Vector3(0, 0, 0), Quaternion.identity);
-
-            Sprite charSprite = characterData.characters[idx].icon;
-
-            if (!characterData.characters[idx].stat.isMine)
-            {
-                SetupCharButton(charObject, charSprite, character, idx);
-                charObject.transform.parent = panel.transform;
-                characterObjects.Add(charObject);
+                characterIndex++;
             }
         }
     }

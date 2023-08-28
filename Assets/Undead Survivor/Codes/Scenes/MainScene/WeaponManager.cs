@@ -42,8 +42,8 @@ public class WeaponManager : MonoBehaviour
     }
     void Update()
     {
-        if(!canvasGroup.blocksRaycasts) return;
-        
+        if (!canvasGroup.blocksRaycasts) return;
+
         if (rewiredPlayer.GetButtonDown("L1"))
         {
             longClickUpgrade.onLongClickStart.Invoke();
@@ -244,12 +244,18 @@ public class WeaponManager : MonoBehaviour
 
         ChangeUpgradePrice(defalutPrice.CalcUpgradeWeapon(addPrice, selectedWeapon.stat.level, selectedWeapon.stat.level + 1, GameDataManager.instance.saveData.userData.mora));
     }
-
     public void SetEnable(bool enabled)
     {
-        canvasGroup.alpha = enabled ? 1.0f : 0.0f;
-        canvasGroup.blocksRaycasts = enabled;
-        activeGroup.SetActive(enabled);
+        if (canvasGroup != null)
+        {
+            canvasGroup.alpha = enabled ? 1.0f : 0.0f;
+            canvasGroup.blocksRaycasts = enabled;
+        }
+
+        if (activeGroup != null)
+        {
+            activeGroup.SetActive(enabled);
+        }
     }
 
     public void VisibleSelectButton(bool visible)
