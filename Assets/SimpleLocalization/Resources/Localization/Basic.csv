@@ -41,14 +41,14 @@ Basic.ElectroDmg,번개대미지: {0}%,Electro Damage: {0}%
 Basic.CyroDmg,얼음대미지: {0}%,Cyro Damage: {0}%
 Basic.GeoDmg,바위대미지: {0}%,Geo Damage: {0}%
 Basic.ElementalMastery,원소마스터리: {0},Elemental Mastery: {0} 
-Basic.SurvivorTime,생존시간 : {0:D2}:{1:D2},Survival Time : {0:D2}: {1:D2}
+Basic.SurvivorTime,생존시간 : {0:D2}:{0:D2}:{1:D2},Survival Time : {0:D2}:{0:D2}: {1:D2}
 Basic.Kill,처치 수 : {0},Kill : {0}
 Basic.Level,레벨 : {0},Level : {0}
 Basic.ReceiveDamage,받은 대미지 : {0:F0},Received Damage : {0:F0}
 Basic.HealHealth,회복한 체력 : {0:F0},Health Recovery : {0:F0}
 Basic.GainMora,얻은 모라 : {0},Mora Gain : {0}
 Basic.GainPrimoGem,얻은 원석 : {0},Primogem Gain : {0}
-Basic.Record,기록,
+Basic.Record,기록,Record
 Basic.DamageDelat,입힌 대미지,Damage Dealt
 Basic.ElementType.Physics,물리,Physics
 Basic.ElementType.Pyro,화염,Pyro

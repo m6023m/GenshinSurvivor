@@ -63,7 +63,7 @@ Skill.EB_Kaeya,살을 에는 윤무,Yunmu
 Skill.E_Chongyun,영도 · 중첩의 서리,Frost Of Yeongdo And Overlapping
 Skill.EB_Chongyun,영도 · 떨어지는 별,Youngdo And Falling Stars
 Skill.E_Qiqi,선법 · 한병의 귀차,The Line Of The Line And One Bottle
-Skill.EB_Qiqi,선법 · 구고도액,Law And Gogo Island
+Skill.EB_Qiqi,선법 · 구고도액,Law And Gogo Design
 Skill.E_Ninguang,선기 병풍,Screenshill
 Skill.EB_Ninguang,천권 붕옥,Celestial
 Skill.E_Noelle,호심경,Hosimkyung
@@ -167,7 +167,7 @@ Skill.Discription.E_Keqing,전방에 표식을 생성하고 일정 시간 후에
 Skill.Discription.EB_Keqing,큰 범위에 번개 속성 지속피해를 주는 장판 생성,Create A Plate That Continues To Damage Lightning Attributes In A Large Range
 Skill.Discription.E_Kaeya,전방에 얼음 속성 피해를 줌,Ice Attribute Damage Ahead
 Skill.Discription.EB_Kaeya,플레이어 주변을 돌며 얼음 속성 피해를 주는 스킬 생성,Create A Skill That Turns Around The Player Around The Player
-Skill.Discription.E_Chongyun,전방에 얼음 속성 범위 피해를 주고 초기 속성이 물리 속성인 기본 공격을 얼음 속성으로 바꿔주는 장판 생성 ,"Create A Floor Plate That Causes The Ice Properties To Damage The Front Attack To The Ice Properties, Which The Initial Attribute Is Physical Attribute."
+Skill.Discription.E_Chongyun,전방에 얼음 속성 범위 피해를 주고 초기 속성이 물리 속성인 기본 공격을 얼음 속성으로 바꿔주는 장판 생성 ,"Create A Floorboard That Causes The Ice Properties To Damage The Front Attack To The Ice Properties, Which The Initial Attribute Is Physical Attribute."
 Skill.Discription.EB_Chongyun,범위에 얼음 속성 지속 피해를 줌,Ice Properties In The Range
 Skill.Discription.E_Qiqi,얼음 속성 피해를 주고 플레이어를 지속적으로 회복시키는 장판을 플레이어 주변에 소환,Summon The Blanket That Causes Ice Properties And Continues To Restore The Player Around The Player
 Skill.Discription.EB_Qiqi,범위에 얼음 속성 피해를 주고 플레이어 HP를 대량으로 회복함,Ice Attribute Damage To The Range And Recovers The Player Hp In Large Quantities
