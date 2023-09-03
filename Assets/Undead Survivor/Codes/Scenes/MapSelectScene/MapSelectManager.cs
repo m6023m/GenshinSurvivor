@@ -51,8 +51,7 @@ public class MapSelectManager : MonoBehaviour
         AudioManager.instance.PlaySFX(AudioManager.SFX.Click);
         if (selectedMap != null)
         {
-            GameDataManager.instance.SaveInstance();
-            LoadingScreenController.instance.LoadScene(selectedMap);
+            LoadingScreenController.instance.LoadScene("MapScene0");
         }
     }
 
@@ -78,9 +77,11 @@ public class MapSelectManager : MonoBehaviour
             {
                 AudioManager.instance.PlaySFX(AudioManager.SFX.Click);
                 selectedMap = scenes[idx];
+                GameDataManager.instance.saveData.userData.currentMapNumber = idx;
                 imgDiscription.sprite = mapSprites[idx];
                 nameDiscription.text = sceneNames[idx].Localize();
                 btnNext.interactable = true;
+                GameDataManager.instance.SaveInstance();
             });
         }
 

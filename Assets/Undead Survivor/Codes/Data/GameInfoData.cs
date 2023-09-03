@@ -20,6 +20,13 @@ public class GameInfoData
     public Dictionary<SkillName, int> getBursts;
     public Dictionary<ArtifactName, int> getArtifacts;
     public BattleResult battleResult;
+    public enum Mapnumber
+    {
+        MOND = 2,
+        LIYUE = 4,
+        INAZUMA = 6,
+        SUMERU = 8,
+    }
     public GameInfoData()
     {
         isGameContinue = false;

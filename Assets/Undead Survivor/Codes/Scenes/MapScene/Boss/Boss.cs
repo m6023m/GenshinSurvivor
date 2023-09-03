@@ -7,6 +7,7 @@ public class Boss : Enemy
 {
     public bool isEnable = false;
     protected Transform playerTransform;
+    public Sprite bossIcon;
     public enum BossName
     {
         Dvalin,

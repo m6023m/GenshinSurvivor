@@ -35,7 +35,7 @@ public class ButtonMain : MonoBehaviour
     void OnClickBattleYes()
     {
         saveBattlePanel.SetActive(false);
-        LoadingScreenController.instance.LoadScene(GameDataManager.instance.saveData.gameInfoData.currentScene);
+        LoadingScreenController.instance.LoadScene("MapScene0");
     }
     void OnClickBattleNo()
     {

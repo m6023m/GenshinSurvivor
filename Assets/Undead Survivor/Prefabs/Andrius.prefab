@@ -1352,6 +1352,7 @@ MonoBehaviour:
   elementType: 0
   isLive: 0
   isEnable: 0
+  bossIcon: {fileID: 21300000, guid: afdaf4e92d611394997e72da8bc20e2a, type: 3}
   bossName: 0
   enemyAttack: {fileID: 0}
   overrideControllers:

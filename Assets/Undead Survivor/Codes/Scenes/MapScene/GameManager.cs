@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 using TMPro;
 using Rewired;
 using Rewired.ComponentControls;
+using Unity.VisualScripting;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
@@ -48,11 +49,14 @@ public class GameManager : MonoBehaviour
     public List<SkillData.ParameterWithKey> ownBursts;
     public DamageAttach damageAttach;
     public string mapName = "MapScene0";
+    public GameObject[] maps;
     int deviceWidth = 1600;
     int maxBurstCount = 4;
+    public ObjectTracker bossTracker;
     void Awake()
     {
         InitBattleSave();
+        InitMap();
         instance = this;
         Pause(false);
         IsVictory = false;
@@ -72,19 +76,20 @@ public class GameManager : MonoBehaviour
     }
     void PlayBattleBGM()
     {
-        if (mapName.Equals("MapScene0") || mapName.Equals("MapScene1"))
+        int currentMapNum = GameDataManager.instance.saveData.userData.currentMapNumber;
+        if (currentMapNum < (int)GameInfoData.Mapnumber.MOND)
         {
             AudioManager.instance.PlayBGM(AudioManager.BGM.Battle0, true);
         }
-        else if (mapName.Equals("MapScene2") || mapName.Equals("MapScene3"))
+        else if (currentMapNum < (int)GameInfoData.Mapnumber.LIYUE)
         {
             AudioManager.instance.PlayBGM(AudioManager.BGM.Battle1, true);
         }
-        else if (mapName.Equals("MapScene4") || mapName.Equals("MapScene5"))
+        else if (currentMapNum < (int)GameInfoData.Mapnumber.INAZUMA)
         {
             AudioManager.instance.PlayBGM(AudioManager.BGM.Battle2, true);
         }
-        else if (mapName.Equals("MapScene6") || mapName.Equals("MapScene7"))
+        else if (currentMapNum < (int)GameInfoData.Mapnumber.SUMERU)
         {
             AudioManager.instance.PlayBGM(AudioManager.BGM.Battle3, true);
         }
@@ -102,6 +107,17 @@ public class GameManager : MonoBehaviour
         GameDataManager.instance.saveData.gameInfoData = gameInfoData;
         gameInfoData.currentScene = mapName;
         battleResult = gameInfoData.battleResult;
+    }
+
+    void InitMap()
+    {
+        GameObject map = maps[GameDataManager.instance.saveData.userData.currentMapNumber];
+        Spawner spawner = map.GetComponentInChildren<Spawner>(true);
+        spawner.transform.parent = player.transform;
+        map.SetActive(true);
+        Boss boss = map.GetComponentInChildren<Boss>(true);
+        bossTracker.trackedObject = boss.gameObject;
+        bossTracker.objectIcon = boss.bossIcon;
     }
 
     void Start()

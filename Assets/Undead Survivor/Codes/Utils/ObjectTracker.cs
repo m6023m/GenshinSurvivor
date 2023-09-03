@@ -20,7 +20,7 @@ public class ObjectTracker : MonoBehaviour
         canvasRect = icon.canvas.GetComponent<RectTransform>();
         iconRect = icon.GetComponent<RectTransform>();
 
-        canvasGroup.alpha = 1; // Default alpha to visible
+        canvasGroup.alpha = 0; // Default alpha to visible
     }
 
     private void Update()
@@ -65,7 +65,7 @@ public class ObjectTracker : MonoBehaviour
         // Check if target is visible on screen
         Vector3 targetScreenPos = Camera.main.WorldToScreenPoint(targetPosition);
         bool isScreenInVisible = Camera.main.pixelRect.Contains(targetScreenPos);
-        bool isObjectActive = trackedObject.activeSelf;
+        bool isObjectActive = trackedObject.activeInHierarchy;
         canvasGroup.alpha = !isScreenInVisible && isObjectActive ? 1 : 0;
     }
 }

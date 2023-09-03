@@ -16,6 +16,7 @@ public class UserData
     public Character[] selectChars;
     public List<CharacterData.Name> getCharacters;
     public int stageLevel = 0;
+    public int currentMapNumber = 0;
     public float stageHP
     {
         get
