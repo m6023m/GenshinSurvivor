@@ -304,7 +304,7 @@ public class SkillObject : MonoBehaviour
         {
             int idx = i;
 
-            Transform skill = GetSkillObject(idx, objectType);
+            Transform skill = GetSkillObject(objectType);
 
             if (skill != null)
             {
@@ -391,10 +391,9 @@ public class SkillObject : MonoBehaviour
     }
 
 
-    private Transform GetSkillObject(int idx, PoolManager.Type type)
+    private Transform GetSkillObject(PoolManager.Type type)
     {
-        Transform skillObject = null;
-        skillObject = GameManager.instance.poolManager.Get(type, skillObjects).transform;
+        Transform skillObject = GameManager.instance.poolManager.Get(type, skillObjects).transform;
         skillObjects.Add(skillObject.gameObject);
         return skillObject;
     }

@@ -21,7 +21,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 0
+  isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 67
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,9 +72,9 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 3
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0
@@ -121,7 +121,427 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Skill_EB_Thoma_Summon_63x71_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 213
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Thoma_Summon_63x71_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 213
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Thoma_Summon_63x71_2
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 213
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Thoma_Summon_63x71_3
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 213
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Thoma_Summon_63x71_4
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 213
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Thoma_Summon_63x71_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 142
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Thoma_Summon_63x71_6
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 142
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Thoma_Summon_63x71_7
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 142
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Thoma_Summon_63x71_8
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 142
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Thoma_Summon_63x71_9
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 142
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Thoma_Summon_63x71_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 71
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Thoma_Summon_63x71_11
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 71
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Thoma_Summon_63x71_12
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 71
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Thoma_Summon_63x71_13
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 71
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Thoma_Summon_63x71_14
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 71
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Thoma_Summon_63x71_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Thoma_Summon_63x71_16
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Thoma_Summon_63x71_17
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Thoma_Summon_63x71_18
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 0
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Thoma_Summon_63x71_19
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +552,56 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      : 0
+      Skill_EB_Thoma_Summon_63x71_0: 0
+      Skill_EB_Thoma_Summon_63x71_0_0: 6265199357654149464
+      Skill_EB_Thoma_Summon_63x71_0_142: 3197106429044246645
+      Skill_EB_Thoma_Summon_63x71_0_213: -8597037266099234604
+      Skill_EB_Thoma_Summon_63x71_0_71: -449047348822093886
+      Skill_EB_Thoma_Summon_63x71_1: 0
+      Skill_EB_Thoma_Summon_63x71_10: 0
+      Skill_EB_Thoma_Summon_63x71_11: 0
+      Skill_EB_Thoma_Summon_63x71_12: 0
+      Skill_EB_Thoma_Summon_63x71_126_0: -1687486173758710088
+      Skill_EB_Thoma_Summon_63x71_126_142: 5037354792677393877
+      Skill_EB_Thoma_Summon_63x71_126_213: 9192760602608985709
+      Skill_EB_Thoma_Summon_63x71_126_71: 6608077018036229403
+      Skill_EB_Thoma_Summon_63x71_13: 0
+      Skill_EB_Thoma_Summon_63x71_14: 0
+      Skill_EB_Thoma_Summon_63x71_15: 0
+      Skill_EB_Thoma_Summon_63x71_16: 0
+      Skill_EB_Thoma_Summon_63x71_17: 0
+      Skill_EB_Thoma_Summon_63x71_18: 0
+      Skill_EB_Thoma_Summon_63x71_189_0: 2882196875931804944
+      Skill_EB_Thoma_Summon_63x71_189_142: -2148101387021294009
+      Skill_EB_Thoma_Summon_63x71_189_213: 2527690215585173812
+      Skill_EB_Thoma_Summon_63x71_189_71: 3201476213237187780
+      Skill_EB_Thoma_Summon_63x71_19: 0
+      Skill_EB_Thoma_Summon_63x71_2: 0
+      Skill_EB_Thoma_Summon_63x71_20: 0
+      Skill_EB_Thoma_Summon_63x71_21: 0
+      Skill_EB_Thoma_Summon_63x71_22: 0
+      Skill_EB_Thoma_Summon_63x71_24: 0
+      Skill_EB_Thoma_Summon_63x71_25: 0
+      Skill_EB_Thoma_Summon_63x71_252_0: -9034237226240606899
+      Skill_EB_Thoma_Summon_63x71_252_142: -1927830920106738769
+      Skill_EB_Thoma_Summon_63x71_252_213: -5653543769750488192
+      Skill_EB_Thoma_Summon_63x71_252_71: -7169313912930769688
+      Skill_EB_Thoma_Summon_63x71_26: 0
+      Skill_EB_Thoma_Summon_63x71_27: 0
+      Skill_EB_Thoma_Summon_63x71_28: 0
+      Skill_EB_Thoma_Summon_63x71_3: 0
+      Skill_EB_Thoma_Summon_63x71_4: 0
+      Skill_EB_Thoma_Summon_63x71_5: 0
+      Skill_EB_Thoma_Summon_63x71_6: 0
+      Skill_EB_Thoma_Summon_63x71_63_0: -1783488617520374869
+      Skill_EB_Thoma_Summon_63x71_63_142: -4170155618298728624
+      Skill_EB_Thoma_Summon_63x71_63_213: -6447757635472120768
+      Skill_EB_Thoma_Summon_63x71_63_71: -6491705798741475319
+      Skill_EB_Thoma_Summon_63x71_7: 0
+      Skill_EB_Thoma_Summon_63x71_8: 0
+      Skill_EB_Thoma_Summon_63x71_9: 0
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

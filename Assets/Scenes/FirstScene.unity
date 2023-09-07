@@ -3422,6 +3422,7 @@ MonoBehaviour:
         weaponName: 0
       getCharacters: 
       stageLevel: 0
+      currentMapNumber: 0
     record:
       playCount: 0
       formPlayCount: 0

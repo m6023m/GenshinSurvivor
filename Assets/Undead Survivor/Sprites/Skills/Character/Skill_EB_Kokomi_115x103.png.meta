@@ -21,7 +21,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 0
+  isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 109
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,9 +72,9 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 3
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0
@@ -121,7 +121,427 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Skill_EB_Kokomi_115x103_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 309
+        width: 115
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Kokomi_115x103_1
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 309
+        width: 115
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Kokomi_115x103_2
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 309
+        width: 115
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Kokomi_115x103_3
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 309
+        width: 115
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Kokomi_115x103_4
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 309
+        width: 115
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Kokomi_115x103_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 206
+        width: 115
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Kokomi_115x103_6
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 206
+        width: 115
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Kokomi_115x103_7
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 206
+        width: 115
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Kokomi_115x103_8
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 206
+        width: 115
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Kokomi_115x103_9
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 206
+        width: 115
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Kokomi_115x103_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 103
+        width: 115
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Kokomi_115x103_11
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 103
+        width: 115
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Kokomi_115x103_12
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 103
+        width: 115
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Kokomi_115x103_13
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 103
+        width: 115
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Kokomi_115x103_14
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 103
+        width: 115
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Kokomi_115x103_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 115
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Kokomi_115x103_16
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 0
+        width: 115
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Kokomi_115x103_17
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 0
+        width: 115
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Kokomi_115x103_18
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 0
+        width: 115
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Kokomi_115x103_19
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 0
+        width: 115
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +552,56 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      : 0
+      Skill_EB_Kokomi_115x103_0: 0
+      Skill_EB_Kokomi_115x103_0_0: -8171207983550338796
+      Skill_EB_Kokomi_115x103_0_103: 1053452560102828629
+      Skill_EB_Kokomi_115x103_0_206: -2116304556625533093
+      Skill_EB_Kokomi_115x103_0_309: 7718993350164758798
+      Skill_EB_Kokomi_115x103_1: 0
+      Skill_EB_Kokomi_115x103_10: 0
+      Skill_EB_Kokomi_115x103_11: 0
+      Skill_EB_Kokomi_115x103_115_0: 7746321149725520226
+      Skill_EB_Kokomi_115x103_115_103: 164431802787703460
+      Skill_EB_Kokomi_115x103_115_206: -1141247969982382462
+      Skill_EB_Kokomi_115x103_115_309: -1891408325270806685
+      Skill_EB_Kokomi_115x103_12: 0
+      Skill_EB_Kokomi_115x103_13: 0
+      Skill_EB_Kokomi_115x103_14: 0
+      Skill_EB_Kokomi_115x103_15: 0
+      Skill_EB_Kokomi_115x103_16: 0
+      Skill_EB_Kokomi_115x103_17: 0
+      Skill_EB_Kokomi_115x103_18: 0
+      Skill_EB_Kokomi_115x103_19: 0
+      Skill_EB_Kokomi_115x103_2: 0
+      Skill_EB_Kokomi_115x103_20: 0
+      Skill_EB_Kokomi_115x103_21: 0
+      Skill_EB_Kokomi_115x103_22: 0
+      Skill_EB_Kokomi_115x103_230_0: 8232242075253874278
+      Skill_EB_Kokomi_115x103_230_103: 3484253208652379983
+      Skill_EB_Kokomi_115x103_230_206: 9052076445202811010
+      Skill_EB_Kokomi_115x103_230_309: -7462536448454649743
+      Skill_EB_Kokomi_115x103_24: 0
+      Skill_EB_Kokomi_115x103_25: 0
+      Skill_EB_Kokomi_115x103_26: 0
+      Skill_EB_Kokomi_115x103_27: 0
+      Skill_EB_Kokomi_115x103_28: 0
+      Skill_EB_Kokomi_115x103_3: 0
+      Skill_EB_Kokomi_115x103_345_0: -6968054671231765432
+      Skill_EB_Kokomi_115x103_345_103: 4290347664077513635
+      Skill_EB_Kokomi_115x103_345_206: -6872460661469650790
+      Skill_EB_Kokomi_115x103_345_309: -1636014347031335043
+      Skill_EB_Kokomi_115x103_4: 0
+      Skill_EB_Kokomi_115x103_460_0: 2324816218788016698
+      Skill_EB_Kokomi_115x103_460_103: -6604208494831566017
+      Skill_EB_Kokomi_115x103_460_206: 2220330634396381639
+      Skill_EB_Kokomi_115x103_460_309: 1145107342426323664
+      Skill_EB_Kokomi_115x103_5: 0
+      Skill_EB_Kokomi_115x103_6: 0
+      Skill_EB_Kokomi_115x103_7: 0
+      Skill_EB_Kokomi_115x103_8: 0
+      Skill_EB_Kokomi_115x103_9: 0
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

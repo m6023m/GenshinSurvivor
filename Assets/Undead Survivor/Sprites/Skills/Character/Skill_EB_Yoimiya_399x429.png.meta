@@ -21,7 +21,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 0
+  isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 414
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -74,7 +74,7 @@ TextureImporter:
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0
@@ -121,7 +121,427 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Skill_EB_Yoimiya_399x429_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1287
+        width: 399
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Yoimiya_399x429_1
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1287
+        width: 399
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Yoimiya_399x429_2
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1287
+        width: 399
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Yoimiya_399x429_3
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 1287
+        width: 399
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Yoimiya_399x429_4
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 1287
+        width: 399
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Yoimiya_399x429_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 858
+        width: 399
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Yoimiya_399x429_6
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 858
+        width: 399
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Yoimiya_399x429_7
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 858
+        width: 399
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Yoimiya_399x429_8
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 858
+        width: 399
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Yoimiya_399x429_9
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 858
+        width: 399
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Yoimiya_399x429_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 429
+        width: 399
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Yoimiya_399x429_11
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 429
+        width: 399
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Yoimiya_399x429_12
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 429
+        width: 399
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Yoimiya_399x429_13
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 429
+        width: 399
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Yoimiya_399x429_14
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 429
+        width: 399
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Yoimiya_399x429_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 399
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Yoimiya_399x429_16
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 0
+        width: 399
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Yoimiya_399x429_17
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 0
+        width: 399
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Yoimiya_399x429_18
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 0
+        width: 399
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_EB_Yoimiya_399x429_19
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 0
+        width: 399
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +552,56 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      : 0
+      Skill_EB_Yoimiya_399x429_0: 0
+      Skill_EB_Yoimiya_399x429_0_0: -991523686447737337
+      Skill_EB_Yoimiya_399x429_0_1287: 5986806906203565566
+      Skill_EB_Yoimiya_399x429_0_429: -1826277941714840192
+      Skill_EB_Yoimiya_399x429_0_858: -8228269702805809750
+      Skill_EB_Yoimiya_399x429_1: 0
+      Skill_EB_Yoimiya_399x429_10: 0
+      Skill_EB_Yoimiya_399x429_11: 0
+      Skill_EB_Yoimiya_399x429_1197_0: -5296236494076817732
+      Skill_EB_Yoimiya_399x429_1197_1287: -1483469911341941604
+      Skill_EB_Yoimiya_399x429_1197_429: 7564044877389873561
+      Skill_EB_Yoimiya_399x429_1197_858: -7200510368416142366
+      Skill_EB_Yoimiya_399x429_12: 0
+      Skill_EB_Yoimiya_399x429_13: 0
+      Skill_EB_Yoimiya_399x429_14: 0
+      Skill_EB_Yoimiya_399x429_15: 0
+      Skill_EB_Yoimiya_399x429_1596_0: 1814170188484600872
+      Skill_EB_Yoimiya_399x429_1596_1287: -1845973617420627827
+      Skill_EB_Yoimiya_399x429_1596_429: 8628527398493270874
+      Skill_EB_Yoimiya_399x429_1596_858: -4723162482938809833
+      Skill_EB_Yoimiya_399x429_16: 0
+      Skill_EB_Yoimiya_399x429_17: 0
+      Skill_EB_Yoimiya_399x429_18: 0
+      Skill_EB_Yoimiya_399x429_19: 0
+      Skill_EB_Yoimiya_399x429_2: 0
+      Skill_EB_Yoimiya_399x429_20: 0
+      Skill_EB_Yoimiya_399x429_21: 0
+      Skill_EB_Yoimiya_399x429_22: 0
+      Skill_EB_Yoimiya_399x429_24: 0
+      Skill_EB_Yoimiya_399x429_25: 0
+      Skill_EB_Yoimiya_399x429_26: 0
+      Skill_EB_Yoimiya_399x429_27: 0
+      Skill_EB_Yoimiya_399x429_28: 0
+      Skill_EB_Yoimiya_399x429_3: 0
+      Skill_EB_Yoimiya_399x429_399_0: -1824017006483051118
+      Skill_EB_Yoimiya_399x429_399_1287: 7903512188102674993
+      Skill_EB_Yoimiya_399x429_399_429: 5224818378928742525
+      Skill_EB_Yoimiya_399x429_399_858: -8335519801409501672
+      Skill_EB_Yoimiya_399x429_4: 0
+      Skill_EB_Yoimiya_399x429_5: 0
+      Skill_EB_Yoimiya_399x429_6: 0
+      Skill_EB_Yoimiya_399x429_7: 0
+      Skill_EB_Yoimiya_399x429_798_0: -6085753558412515244
+      Skill_EB_Yoimiya_399x429_798_1287: -2568748869421229563
+      Skill_EB_Yoimiya_399x429_798_429: 5698351635706551032
+      Skill_EB_Yoimiya_399x429_798_858: 8304685624110027067
+      Skill_EB_Yoimiya_399x429_8: 0
+      Skill_EB_Yoimiya_399x429_9: 0
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

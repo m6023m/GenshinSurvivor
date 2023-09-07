@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d6ef9895b7b8942aa54349c1bc611c, type: 3}
+  m_Name: SpriteAllSlicer
+  m_EditorClassIdentifier: 
+  texturesToSlice:
+  - {fileID: 2800000, guid: 4bd12087223f2b1499fb7ba7dc5403b3, type: 3}
+  - {fileID: 2800000, guid: 92c26301127b37d4a902d44d5687fcfc, type: 3}
+  - {fileID: 2800000, guid: 30bddf8274ef3c2438ead0c2ed1fe650, type: 3}
+  - {fileID: 2800000, guid: f95868c8bcf8a63409af7b21a795c70a, type: 3}
+  - {fileID: 2800000, guid: 3aa382a690b201040b98d8fddacf11dc, type: 3}
+  - {fileID: 2800000, guid: 25429caacd9c4c2489045d3fe43b4064, type: 3}
+  - {fileID: 2800000, guid: f327081ca3cf0c740b4c56b123a8f7a4, type: 3}
+  - {fileID: 2800000, guid: 8f56637e5c1bb5246b14be7173862224, type: 3}
+  - {fileID: 2800000, guid: f186ab406d9b19d4f876758d32cd9761, type: 3}
+  - {fileID: 2800000, guid: 72e504d652106e246a21a1a8e0adfb19, type: 3}
+  - {fileID: 2800000, guid: 43da29d4fcb527d4384f2969beb19f28, type: 3}
+  - {fileID: 2800000, guid: 535dd3a5fbfd94741835290916c34b7f, type: 3}
+  - {fileID: 2800000, guid: ff6a0b5de38f5004cb019290d290e65a, type: 3}
+  - {fileID: 2800000, guid: e8dcb142a1d8d0a4bbdba03a610d02a9, type: 3}
+  - {fileID: 2800000, guid: 27257677040946e46ba6abb75016727b, type: 3}
+  - {fileID: 2800000, guid: 3b4262b862c917e4d8f79b17794f1b0d, type: 3}
+  - {fileID: 2800000, guid: ec80f0ecc0209ea4aa38008df73b3937, type: 3}
+  - {fileID: 2800000, guid: baf5133fd1055bd49a9b0115275128f1, type: 3}
+  - {fileID: 2800000, guid: 988a44feb837977418f3d4833ca194cf, type: 3}
+  - {fileID: 2800000, guid: 7432eb5b2765c9a458c93c388c33d0ed, type: 3}
+  - {fileID: 2800000, guid: 0e4f7ddb32e775848b8de2fbab95503d, type: 3}
+  - {fileID: 2800000, guid: fb9b4af2c86d6c54d911b3c9758309bd, type: 3}
+  - {fileID: 2800000, guid: 4fd23882ff9bae74499cd97253ca0cda, type: 3}
+  - {fileID: 2800000, guid: dedfe5a7fd03fdc4092c0b0dd5a8bbd2, type: 3}
+  - {fileID: 2800000, guid: 1cdcbb91243fee34585b8b7d1534511f, type: 3}
+  - {fileID: 2800000, guid: f4e641f844d76e648929771f191b223a, type: 3}
+  - {fileID: 2800000, guid: 62e3d34f6c1369b48a92ea2cd2d0de79, type: 3}
+  - {fileID: 2800000, guid: 6ee4fb871bb94b34fa827d57e4bc4aba, type: 3}
+  - {fileID: 2800000, guid: 51eb9ca21afa54047bac6d61bcb635fd, type: 3}
+  - {fileID: 2800000, guid: 0a7cdb95eff36cb4397b43736f61ea31, type: 3}
+  - {fileID: 2800000, guid: 737b82bb2536cb0409cc035e7aa7c092, type: 3}
+  - {fileID: 2800000, guid: 8424ec27753dc5e4c9cd8f5a13c07a2a, type: 3}
+  - {fileID: 2800000, guid: 2aebd234cd0d19d4494ffd8d81b00f2d, type: 3}
+  - {fileID: 2800000, guid: 6702a7ababbd3d443a7e7e39e2aa325e, type: 3}
+  - {fileID: 2800000, guid: 285f9f9fd7e5d85439a1e18e6f08fa1b, type: 3}
+  - {fileID: 2800000, guid: 119bca64f1319e345a093937de4448ca, type: 3}
+  textureCompression: 3
+  filterMode: 1
+  excludeEmptyFrames: 0

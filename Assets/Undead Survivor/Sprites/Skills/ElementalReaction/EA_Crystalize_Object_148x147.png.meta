@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -70,11 +72,12 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -87,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -99,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -111,6 +116,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -547,29 +553,28 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      EA_Crystalize_Object_148x147_19: -1211542767
+      EA_Crystalize_Object_148x147_0: -202608861
+      EA_Crystalize_Object_148x147_1: -1104186713
+      EA_Crystalize_Object_148x147_10: -968214270
       EA_Crystalize_Object_148x147_11: -1939493985
-      EA_Crystalize_Object_148x147_7: 1283147259
+      EA_Crystalize_Object_148x147_12: -730802267
+      EA_Crystalize_Object_148x147_13: -1395195667
       EA_Crystalize_Object_148x147_14: -136208925
+      EA_Crystalize_Object_148x147_15: -1400088995
       EA_Crystalize_Object_148x147_16: 1686560559
+      EA_Crystalize_Object_148x147_17: 2020849306
+      EA_Crystalize_Object_148x147_18: -804956175
+      EA_Crystalize_Object_148x147_19: -1211542767
+      EA_Crystalize_Object_148x147_2: 38538255
       EA_Crystalize_Object_148x147_3: 965053679
-      EA_Crystalize_Object_148x147_9: -1163469856
       EA_Crystalize_Object_148x147_4: 1317539851
       EA_Crystalize_Object_148x147_5: -455304049
-      EA_Crystalize_Object_148x147_0: -202608861
-      EA_Crystalize_Object_148x147_18: -804956175
-      EA_Crystalize_Object_148x147_12: -730802267
-      EA_Crystalize_Object_148x147_8: 1107297304
-      EA_Crystalize_Object_148x147_2: 38538255
-      EA_Crystalize_Object_148x147_15: -1400088995
-      EA_Crystalize_Object_148x147_17: 2020849306
-      EA_Crystalize_Object_148x147_10: -968214270
-      EA_Crystalize_Object_148x147_13: -1395195667
       EA_Crystalize_Object_148x147_6: -477172103
-      EA_Crystalize_Object_148x147_1: -1104186713
-  spritePackingTag: 
+      EA_Crystalize_Object_148x147_7: 1283147259
+      EA_Crystalize_Object_148x147_8: 1107297304
+      EA_Crystalize_Object_148x147_9: -1163469856
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

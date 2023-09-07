@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -70,11 +72,12 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -87,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -99,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -111,6 +116,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -526,28 +532,27 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      EA_Superconduct_261x261_16: 625314566
-      EA_Superconduct_261x261_10: -2028992090
-      EA_Superconduct_261x261_3: 1986061524
-      EA_Superconduct_261x261_17: -1133145051
-      EA_Superconduct_261x261_7: 438343103
-      EA_Superconduct_261x261_2: -638766970
       EA_Superconduct_261x261_0: 280718078
-      EA_Superconduct_261x261_13: -1218777491
       EA_Superconduct_261x261_1: 51615548
+      EA_Superconduct_261x261_10: -2028992090
       EA_Superconduct_261x261_11: -71986232
-      EA_Superconduct_261x261_8: -553766541
-      EA_Superconduct_261x261_15: -2143179455
-      EA_Superconduct_261x261_5: -1980716974
-      EA_Superconduct_261x261_4: -1378161508
-      EA_Superconduct_261x261_9: 706238092
-      EA_Superconduct_261x261_6: 1688769838
-      EA_Superconduct_261x261_18: 422119917
-      EA_Superconduct_261x261_14: -1397137208
       EA_Superconduct_261x261_12: 1674143552
-  spritePackingTag: 
+      EA_Superconduct_261x261_13: -1218777491
+      EA_Superconduct_261x261_14: -1397137208
+      EA_Superconduct_261x261_15: -2143179455
+      EA_Superconduct_261x261_16: 625314566
+      EA_Superconduct_261x261_17: -1133145051
+      EA_Superconduct_261x261_18: 422119917
+      EA_Superconduct_261x261_2: -638766970
+      EA_Superconduct_261x261_3: 1986061524
+      EA_Superconduct_261x261_4: -1378161508
+      EA_Superconduct_261x261_5: -1980716974
+      EA_Superconduct_261x261_6: 1688769838
+      EA_Superconduct_261x261_7: 438343103
+      EA_Superconduct_261x261_8: -553766541
+      EA_Superconduct_261x261_9: 706238092
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
