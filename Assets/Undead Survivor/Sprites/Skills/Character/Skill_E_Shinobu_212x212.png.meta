@@ -119,6 +119,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 3
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -126,7 +139,7 @@ TextureImporter:
       name: Skill_E_Shinobu_212x212_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 212
         y: 636
         width: 212
         height: 212
@@ -135,10 +148,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: fe75724cd8fac9d4db8b0dc61bdfea91
+      internalID: 1203479975
       vertices: []
       indices: 
       edges: []
@@ -147,7 +160,7 @@ TextureImporter:
       name: Skill_E_Shinobu_212x212_1
       rect:
         serializedVersion: 2
-        x: 212
+        x: 424
         y: 636
         width: 212
         height: 212
@@ -156,10 +169,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 5e144446c44d2114db52d6361fb3b026
+      internalID: -1360246895
       vertices: []
       indices: 
       edges: []
@@ -168,7 +181,7 @@ TextureImporter:
       name: Skill_E_Shinobu_212x212_2
       rect:
         serializedVersion: 2
-        x: 424
+        x: 636
         y: 636
         width: 212
         height: 212
@@ -177,10 +190,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 8b4d6001327325848a60717bebf29465
+      internalID: -501251920
       vertices: []
       indices: 
       edges: []
@@ -189,7 +202,7 @@ TextureImporter:
       name: Skill_E_Shinobu_212x212_3
       rect:
         serializedVersion: 2
-        x: 636
+        x: 848
         y: 636
         width: 212
         height: 212
@@ -198,10 +211,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 5d662729a385f854da86e028a94257ea
+      internalID: -1923232154
       vertices: []
       indices: 
       edges: []
@@ -210,8 +223,8 @@ TextureImporter:
       name: Skill_E_Shinobu_212x212_4
       rect:
         serializedVersion: 2
-        x: 848
-        y: 636
+        x: 0
+        y: 424
         width: 212
         height: 212
       alignment: 0
@@ -219,10 +232,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: a3eacaca0d3f4ac46a73747d8c81f188
+      internalID: -1299780762
       vertices: []
       indices: 
       edges: []
@@ -231,7 +244,7 @@ TextureImporter:
       name: Skill_E_Shinobu_212x212_5
       rect:
         serializedVersion: 2
-        x: 0
+        x: 212
         y: 424
         width: 212
         height: 212
@@ -240,10 +253,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 618a0c6cc2f78c440af61f701ffc05e4
+      internalID: 2034976492
       vertices: []
       indices: 
       edges: []
@@ -252,7 +265,7 @@ TextureImporter:
       name: Skill_E_Shinobu_212x212_6
       rect:
         serializedVersion: 2
-        x: 212
+        x: 424
         y: 424
         width: 212
         height: 212
@@ -261,10 +274,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 4ec4949d2b8f2884fa7149f9fead9011
+      internalID: 1607568725
       vertices: []
       indices: 
       edges: []
@@ -273,27 +286,6 @@ TextureImporter:
       name: Skill_E_Shinobu_212x212_7
       rect:
         serializedVersion: 2
-        x: 424
-        y: 424
-        width: 212
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_E_Shinobu_212x212_8
-      rect:
-        serializedVersion: 2
         x: 636
         y: 424
         width: 212
@@ -303,241 +295,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_E_Shinobu_212x212_9
-      rect:
-        serializedVersion: 2
-        x: 848
-        y: 424
-        width: 212
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_E_Shinobu_212x212_10
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 212
-        width: 212
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_E_Shinobu_212x212_11
-      rect:
-        serializedVersion: 2
-        x: 212
-        y: 212
-        width: 212
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_E_Shinobu_212x212_12
-      rect:
-        serializedVersion: 2
-        x: 424
-        y: 212
-        width: 212
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_E_Shinobu_212x212_13
-      rect:
-        serializedVersion: 2
-        x: 636
-        y: 212
-        width: 212
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_E_Shinobu_212x212_14
-      rect:
-        serializedVersion: 2
-        x: 848
-        y: 212
-        width: 212
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_E_Shinobu_212x212_15
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 212
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_E_Shinobu_212x212_16
-      rect:
-        serializedVersion: 2
-        x: 212
-        y: 0
-        width: 212
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_E_Shinobu_212x212_17
-      rect:
-        serializedVersion: 2
-        x: 424
-        y: 0
-        width: 212
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_E_Shinobu_212x212_18
-      rect:
-        serializedVersion: 2
-        x: 636
-        y: 0
-        width: 212
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_E_Shinobu_212x212_19
-      rect:
-        serializedVersion: 2
-        x: 848
-        y: 0
-        width: 212
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 4383656c997c23c4da96c659d42a2434
+      internalID: 1358231660
       vertices: []
       indices: 
       edges: []
@@ -553,47 +314,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      : 0
-      Skill_E_Shinobu_212x212_0: 0
-      Skill_E_Shinobu_212x212_0_0: -6307649599693100835
-      Skill_E_Shinobu_212x212_0_212: 702490275649492110
-      Skill_E_Shinobu_212x212_0_424: 2964354289020756231
-      Skill_E_Shinobu_212x212_0_636: 2010088415210294124
-      Skill_E_Shinobu_212x212_1: 0
-      Skill_E_Shinobu_212x212_10: 0
-      Skill_E_Shinobu_212x212_11: 0
-      Skill_E_Shinobu_212x212_12: 0
-      Skill_E_Shinobu_212x212_13: 0
-      Skill_E_Shinobu_212x212_14: 0
-      Skill_E_Shinobu_212x212_15: 0
-      Skill_E_Shinobu_212x212_16: 0
-      Skill_E_Shinobu_212x212_17: 0
-      Skill_E_Shinobu_212x212_18: 0
-      Skill_E_Shinobu_212x212_19: 0
-      Skill_E_Shinobu_212x212_2: 0
-      Skill_E_Shinobu_212x212_212_0: -8303839930550526745
-      Skill_E_Shinobu_212x212_212_212: -4093094271873561550
-      Skill_E_Shinobu_212x212_212_424: -1442414361304922321
-      Skill_E_Shinobu_212x212_212_636: 8644061219956727593
-      Skill_E_Shinobu_212x212_3: 0
-      Skill_E_Shinobu_212x212_4: 0
-      Skill_E_Shinobu_212x212_424_0: -6636957017923528347
-      Skill_E_Shinobu_212x212_424_212: 6138579462616691329
-      Skill_E_Shinobu_212x212_424_424: -2433642595165691611
-      Skill_E_Shinobu_212x212_424_636: -8629955528713266126
-      Skill_E_Shinobu_212x212_5: 0
-      Skill_E_Shinobu_212x212_6: 0
-      Skill_E_Shinobu_212x212_636_0: 4269534640711740795
-      Skill_E_Shinobu_212x212_636_212: 3291032334958425843
-      Skill_E_Shinobu_212x212_636_424: -917158842526429416
-      Skill_E_Shinobu_212x212_636_636: 3629407309158407658
-      Skill_E_Shinobu_212x212_7: 0
-      Skill_E_Shinobu_212x212_8: 0
-      Skill_E_Shinobu_212x212_848_0: -619623212855845251
-      Skill_E_Shinobu_212x212_848_212: -9198474026960715229
-      Skill_E_Shinobu_212x212_848_424: 5818092890049616946
-      Skill_E_Shinobu_212x212_848_636: -5743676702672564655
-      Skill_E_Shinobu_212x212_9: 0
+      Skill_E_Shinobu_212x212_0: 1140718814
+      Skill_E_Shinobu_212x212_1: 1684698325
+      Skill_E_Shinobu_212x212_2: 1414126101
+      Skill_E_Shinobu_212x212_3: 1462307776
+      Skill_E_Shinobu_212x212_4: 475795108
+      Skill_E_Shinobu_212x212_5: -747621933
+      Skill_E_Shinobu_212x212_6: 1250687522
+      Skill_E_Shinobu_212x212_7: 681130729
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

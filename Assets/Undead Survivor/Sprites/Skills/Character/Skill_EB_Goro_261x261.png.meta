@@ -119,30 +119,22 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 3
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
-    - serializedVersion: 2
-      name: Skill_EB_Goro_261x261_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 783
-        width: 261
-        height: 261
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: Skill_EB_Goro_261x261_1
       rect:
@@ -156,10 +148,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: bdbfaf71cd628b64385f5dcee49135e6
+      internalID: 453577263
       vertices: []
       indices: 
       edges: []
@@ -177,10 +169,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: b3fe0443cac4e2d478140706c2052a6a
+      internalID: 1398548517
       vertices: []
       indices: 
       edges: []
@@ -198,10 +190,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 2f8eab03f92a6de4cafaa038af4fb651
+      internalID: 1857846851
       vertices: []
       indices: 
       edges: []
@@ -219,10 +211,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: e46ee9c5dac59214091e056f0782d346
+      internalID: 1156505639
       vertices: []
       indices: 
       edges: []
@@ -240,10 +232,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 567cc6be4ff78064ba9974cf4deada7f
+      internalID: 1565071499
       vertices: []
       indices: 
       edges: []
@@ -261,10 +253,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 98b148b87c80b954eb7ebd2c4e2939a2
+      internalID: -741537152
       vertices: []
       indices: 
       edges: []
@@ -282,10 +274,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: bb53f91aa95e4154294b47c57cf339ce
+      internalID: -140989147
       vertices: []
       indices: 
       edges: []
@@ -303,10 +295,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: a9dc341076775224682ce7ffd24182d5
+      internalID: 1012343492
       vertices: []
       indices: 
       edges: []
@@ -324,10 +316,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: fef23e2f296a6ff44acdbd8793d85964
+      internalID: 1499495609
       vertices: []
       indices: 
       edges: []
@@ -345,10 +337,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: e464a349bdee28944b64a3d6464261b3
+      internalID: -1962107673
       vertices: []
       indices: 
       edges: []
@@ -366,10 +358,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: f0f77acec97a001499507a7b73f20968
+      internalID: 299047251
       vertices: []
       indices: 
       edges: []
@@ -387,10 +379,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 49fe3be08318e3a418c78fe80955c4d5
+      internalID: 666460776
       vertices: []
       indices: 
       edges: []
@@ -408,10 +400,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 362fde9e779965e4e8e90f101d7855ef
+      internalID: 13040344
       vertices: []
       indices: 
       edges: []
@@ -429,10 +421,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 5d90065346f1b44478a1eba11900d9cc
+      internalID: 611340867
       vertices: []
       indices: 
       edges: []
@@ -450,10 +442,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: aa69948be30acad4dad9029040ddfc59
+      internalID: -735050351
       vertices: []
       indices: 
       edges: []
@@ -471,10 +463,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: c90ac3cd00ce50646a4ba9365a1a7b97
+      internalID: 1511615771
       vertices: []
       indices: 
       edges: []
@@ -492,10 +484,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 2f7517079e3202b45971805477619a28
+      internalID: 1693344980
       vertices: []
       indices: 
       edges: []
@@ -513,10 +505,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: dbbd8e292db309346ad2947b1bfcd1f1
+      internalID: -276730654
       vertices: []
       indices: 
       edges: []
@@ -534,10 +526,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 4182487af2d3185479a605344d13f3f4
+      internalID: 177102505
       vertices: []
       indices: 
       edges: []
@@ -553,55 +545,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      : 0
-      Skill_EB_Goro_261x261_0: 0
-      Skill_EB_Goro_261x261_0_0: -6205588033991221515
-      Skill_EB_Goro_261x261_0_261: 3987939321571921012
-      Skill_EB_Goro_261x261_0_522: 516954742683803701
-      Skill_EB_Goro_261x261_0_783: -7434284309782323913
-      Skill_EB_Goro_261x261_1: 0
-      Skill_EB_Goro_261x261_10: 0
-      Skill_EB_Goro_261x261_1044_0: 7246646076010021087
-      Skill_EB_Goro_261x261_1044_261: -5032622730255133248
-      Skill_EB_Goro_261x261_1044_522: 3469338186114567221
-      Skill_EB_Goro_261x261_1044_783: 2053813961795657554
-      Skill_EB_Goro_261x261_11: 0
-      Skill_EB_Goro_261x261_12: 0
-      Skill_EB_Goro_261x261_13: 0
-      Skill_EB_Goro_261x261_14: 0
-      Skill_EB_Goro_261x261_15: 0
-      Skill_EB_Goro_261x261_16: 0
-      Skill_EB_Goro_261x261_17: 0
-      Skill_EB_Goro_261x261_18: 0
-      Skill_EB_Goro_261x261_19: 0
-      Skill_EB_Goro_261x261_2: 0
-      Skill_EB_Goro_261x261_20: 0
-      Skill_EB_Goro_261x261_21: 0
-      Skill_EB_Goro_261x261_22: 0
-      Skill_EB_Goro_261x261_24: 0
-      Skill_EB_Goro_261x261_25: 0
-      Skill_EB_Goro_261x261_26: 0
-      Skill_EB_Goro_261x261_261_0: -1472076898237127955
-      Skill_EB_Goro_261x261_261_261: -3586292779645950335
-      Skill_EB_Goro_261x261_261_522: 2013065834302454876
-      Skill_EB_Goro_261x261_261_783: 4202254259424242758
-      Skill_EB_Goro_261x261_27: 0
-      Skill_EB_Goro_261x261_28: 0
-      Skill_EB_Goro_261x261_3: 0
-      Skill_EB_Goro_261x261_4: 0
-      Skill_EB_Goro_261x261_5: 0
-      Skill_EB_Goro_261x261_522_0: 7786463453445972457
-      Skill_EB_Goro_261x261_522_261: -5243550989064274605
-      Skill_EB_Goro_261x261_522_522: 1410752646180484201
-      Skill_EB_Goro_261x261_522_783: -2817663774158035771
-      Skill_EB_Goro_261x261_6: 0
-      Skill_EB_Goro_261x261_7: 0
-      Skill_EB_Goro_261x261_783_0: 7816148918778193839
-      Skill_EB_Goro_261x261_783_261: 5354115546708872797
-      Skill_EB_Goro_261x261_783_522: 4745029876429945845
-      Skill_EB_Goro_261x261_783_783: 6951021705377860662
-      Skill_EB_Goro_261x261_8: 0
-      Skill_EB_Goro_261x261_9: 0
+      Skill_EB_Goro_261x261_0: -802332870
+      Skill_EB_Goro_261x261_1: -1840441254
+      Skill_EB_Goro_261x261_10: 2067936445
+      Skill_EB_Goro_261x261_11: -420134155
+      Skill_EB_Goro_261x261_12: -2002354759
+      Skill_EB_Goro_261x261_13: 1862695287
+      Skill_EB_Goro_261x261_14: 1970987695
+      Skill_EB_Goro_261x261_15: -300115255
+      Skill_EB_Goro_261x261_16: 1033892919
+      Skill_EB_Goro_261x261_17: 354931549
+      Skill_EB_Goro_261x261_18: -911610524
+      Skill_EB_Goro_261x261_19: -1034810100
+      Skill_EB_Goro_261x261_2: -1779126052
+      Skill_EB_Goro_261x261_3: 104853667
+      Skill_EB_Goro_261x261_4: 1116769203
+      Skill_EB_Goro_261x261_5: -1420596762
+      Skill_EB_Goro_261x261_6: -696391232
+      Skill_EB_Goro_261x261_7: -1549616688
+      Skill_EB_Goro_261x261_8: 754389862
+      Skill_EB_Goro_261x261_9: 259587388
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

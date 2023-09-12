@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
 using UnityEngine.Events;
+using Sirenix.Utilities.Editor;
 using Sirenix.OdinInspector;
+using System.Linq;
 
 
 [CreateAssetMenu(fileName = "SkillData", menuName = "GenshinSurvivor/SkillData", order = 0)]
@@ -31,6 +33,7 @@ public class SkillData : ScriptableObject
 
     [Searchable]
     public List<ParameterWithKey> skillDefaults;
+
     [System.Serializable]
     public class Constellations
     {
@@ -51,6 +54,7 @@ public class SkillData : ScriptableObject
         public Skill_Parameter parameter;
         public SkillSet skillSet;
         public List<SkillUp> skillUps;
+        public bool isDuplicate;
         Constellations _constellations;
         public Constellations constellations
         {
@@ -63,6 +67,7 @@ public class SkillData : ScriptableObject
                 return _constellations;
             }
         }
+
         public Element.Type changeElementType = Element.Type.Physics;
         List<UnityAction> _skillStartListener;
         public List<UnityAction> skillStartListener
@@ -102,6 +107,11 @@ public class SkillData : ScriptableObject
                 return _elementChangeListener;
             }
         }
+
+        public ParameterWithKey()
+        {
+        }
+
         public string GetToolTip()
         {
             if (skillUps.Count == 0) return "";
@@ -130,7 +140,6 @@ public class SkillData : ScriptableObject
             }
             return result.ToString();
         }
-
         public void AddStartListener(UnityAction action)
         {
             skillStartListener.Add(action);
@@ -144,6 +153,7 @@ public class SkillData : ScriptableObject
             elementChangeListener.Add(action);
         }
     }
+
 
     private void OnValidate()
     {

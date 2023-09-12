@@ -119,6 +119,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 3
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -135,10 +148,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 2ab97c47cb5a5d0419b25242d4fcdaef
+      internalID: 510716451
       vertices: []
       indices: 
       edges: []
@@ -156,10 +169,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 7f894b8548c03734dbd7accaddf4c87e
+      internalID: -505927034
       vertices: []
       indices: 
       edges: []
@@ -177,10 +190,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 816c670ed00fd924096e15a0fe527aaa
+      internalID: 1910266340
       vertices: []
       indices: 
       edges: []
@@ -198,10 +211,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 6d80f441125198946b8bec4837457e7c
+      internalID: 1373576377
       vertices: []
       indices: 
       edges: []
@@ -219,10 +232,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: a55901f8d39a80144ac7fecfc40291c1
+      internalID: 1049881093
       vertices: []
       indices: 
       edges: []
@@ -240,10 +253,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 0669acfe9a262214fbae52482a7a0931
+      internalID: 2025471559
       vertices: []
       indices: 
       edges: []
@@ -261,10 +274,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 80a942f84af86ed44ba3fe8f41b76da6
+      internalID: 1088024380
       vertices: []
       indices: 
       edges: []
@@ -282,10 +295,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 8e9bbe381eb0d1a4c9de095c64de0233
+      internalID: -892862895
       vertices: []
       indices: 
       edges: []
@@ -303,10 +316,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 1ac31ec0767433e4ebaf1f39ed9ca6b0
+      internalID: 1660990677
       vertices: []
       indices: 
       edges: []
@@ -324,10 +337,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 0d2d77b5af02664488b5fa9145a210af
+      internalID: 1619220969
       vertices: []
       indices: 
       edges: []
@@ -345,10 +358,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: c4cba030bc5f46b4d8d47f2c551f00b5
+      internalID: -410340434
       vertices: []
       indices: 
       edges: []
@@ -366,10 +379,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: fd33b60d87d768f4bbda46d325ca8122
+      internalID: -1554371710
       vertices: []
       indices: 
       edges: []
@@ -387,10 +400,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: ad788983d49a65643ba9160d078ac9c1
+      internalID: -1648486705
       vertices: []
       indices: 
       edges: []
@@ -408,10 +421,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 5ab178aa2da9c804b961a86379830154
+      internalID: 782250997
       vertices: []
       indices: 
       edges: []
@@ -429,10 +442,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 3291895c02b05b24ebcbc65d0be679b6
+      internalID: 1489587736
       vertices: []
       indices: 
       edges: []
@@ -450,10 +463,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 58acd2bf1228250458ca714942054f2e
+      internalID: 1882148218
       vertices: []
       indices: 
       edges: []
@@ -471,10 +484,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: b47bb2a82fd614446b7452e6b0eab6f0
+      internalID: -86373087
       vertices: []
       indices: 
       edges: []
@@ -492,10 +505,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: a361d750edf25464f918a93ab6306991
+      internalID: 667052214
       vertices: []
       indices: 
       edges: []
@@ -513,10 +526,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: fe2d630dddf89164fb12fc062acc0553
+      internalID: 1749895147
       vertices: []
       indices: 
       edges: []
@@ -534,10 +547,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 6a943ffb90e3dc947a72b06817551f86
+      internalID: 182152535
       vertices: []
       indices: 
       edges: []
@@ -553,55 +566,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      : 0
-      Skill_EB_Travler_Electro_81x86_0: 0
-      Skill_EB_Travler_Electro_81x86_0_0: 1432910752116624984
-      Skill_EB_Travler_Electro_81x86_0_172: -5141643144836600950
-      Skill_EB_Travler_Electro_81x86_0_258: -6371674243649812316
-      Skill_EB_Travler_Electro_81x86_0_86: -5411077208549479016
-      Skill_EB_Travler_Electro_81x86_1: 0
-      Skill_EB_Travler_Electro_81x86_10: 0
-      Skill_EB_Travler_Electro_81x86_11: 0
-      Skill_EB_Travler_Electro_81x86_12: 0
-      Skill_EB_Travler_Electro_81x86_13: 0
-      Skill_EB_Travler_Electro_81x86_14: 0
-      Skill_EB_Travler_Electro_81x86_15: 0
-      Skill_EB_Travler_Electro_81x86_16: 0
-      Skill_EB_Travler_Electro_81x86_162_0: 1118617364328451251
-      Skill_EB_Travler_Electro_81x86_162_172: 409630911514423277
-      Skill_EB_Travler_Electro_81x86_162_258: -8382495122227919420
-      Skill_EB_Travler_Electro_81x86_162_86: -8907850186466503037
-      Skill_EB_Travler_Electro_81x86_17: 0
-      Skill_EB_Travler_Electro_81x86_18: 0
-      Skill_EB_Travler_Electro_81x86_19: 0
-      Skill_EB_Travler_Electro_81x86_2: 0
-      Skill_EB_Travler_Electro_81x86_20: 0
-      Skill_EB_Travler_Electro_81x86_21: 0
-      Skill_EB_Travler_Electro_81x86_22: 0
-      Skill_EB_Travler_Electro_81x86_24: 0
-      Skill_EB_Travler_Electro_81x86_243_0: 3201321604625857349
-      Skill_EB_Travler_Electro_81x86_243_172: -5536797010046964655
-      Skill_EB_Travler_Electro_81x86_243_258: -8332749562250438941
-      Skill_EB_Travler_Electro_81x86_243_86: -7002866267181998818
-      Skill_EB_Travler_Electro_81x86_25: 0
-      Skill_EB_Travler_Electro_81x86_26: 0
-      Skill_EB_Travler_Electro_81x86_27: 0
-      Skill_EB_Travler_Electro_81x86_28: 0
-      Skill_EB_Travler_Electro_81x86_3: 0
-      Skill_EB_Travler_Electro_81x86_324_0: -6506062006520004505
-      Skill_EB_Travler_Electro_81x86_324_172: -3122340176460300400
-      Skill_EB_Travler_Electro_81x86_324_258: 4860777572280598474
-      Skill_EB_Travler_Electro_81x86_324_86: 582417287221333773
-      Skill_EB_Travler_Electro_81x86_4: 0
-      Skill_EB_Travler_Electro_81x86_5: 0
-      Skill_EB_Travler_Electro_81x86_6: 0
-      Skill_EB_Travler_Electro_81x86_7: 0
-      Skill_EB_Travler_Electro_81x86_8: 0
-      Skill_EB_Travler_Electro_81x86_81_0: -3262363814587992946
-      Skill_EB_Travler_Electro_81x86_81_172: 6051167589838807828
-      Skill_EB_Travler_Electro_81x86_81_258: 3251782126936423508
-      Skill_EB_Travler_Electro_81x86_81_86: -4155157100741707523
-      Skill_EB_Travler_Electro_81x86_9: 0
+      Skill_EB_Travler_Electro_81x86_0: -982866146
+      Skill_EB_Travler_Electro_81x86_1: -1634484293
+      Skill_EB_Travler_Electro_81x86_10: -1929343557
+      Skill_EB_Travler_Electro_81x86_11: -102378282
+      Skill_EB_Travler_Electro_81x86_12: 684997648
+      Skill_EB_Travler_Electro_81x86_13: -2078338421
+      Skill_EB_Travler_Electro_81x86_14: 1952591985
+      Skill_EB_Travler_Electro_81x86_15: 993236613
+      Skill_EB_Travler_Electro_81x86_16: 593746280
+      Skill_EB_Travler_Electro_81x86_17: 1981126316
+      Skill_EB_Travler_Electro_81x86_18: -606837977
+      Skill_EB_Travler_Electro_81x86_19: 1082301981
+      Skill_EB_Travler_Electro_81x86_2: -415995582
+      Skill_EB_Travler_Electro_81x86_3: 1270721266
+      Skill_EB_Travler_Electro_81x86_4: -1070964521
+      Skill_EB_Travler_Electro_81x86_5: -75865440
+      Skill_EB_Travler_Electro_81x86_6: 917247452
+      Skill_EB_Travler_Electro_81x86_7: -891079245
+      Skill_EB_Travler_Electro_81x86_8: -240086510
+      Skill_EB_Travler_Electro_81x86_9: 696820662
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

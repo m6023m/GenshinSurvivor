@@ -119,6 +119,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 3
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -126,7 +139,7 @@ TextureImporter:
       name: Skill_E_Sara_257x258_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 257
         y: 774
         width: 257
         height: 258
@@ -135,10 +148,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 7319f772a10866c48b023b64fe16f986
+      internalID: 1674276105
       vertices: []
       indices: 
       edges: []
@@ -147,7 +160,7 @@ TextureImporter:
       name: Skill_E_Sara_257x258_1
       rect:
         serializedVersion: 2
-        x: 257
+        x: 514
         y: 774
         width: 257
         height: 258
@@ -156,10 +169,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 3f67e578f0083094cb8b756f6c459a16
+      internalID: 1527614753
       vertices: []
       indices: 
       edges: []
@@ -168,7 +181,7 @@ TextureImporter:
       name: Skill_E_Sara_257x258_2
       rect:
         serializedVersion: 2
-        x: 514
+        x: 771
         y: 774
         width: 257
         height: 258
@@ -177,10 +190,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: c7e7b15348d9cb24c8ecd7b63c906cfa
+      internalID: 1381605929
       vertices: []
       indices: 
       edges: []
@@ -189,7 +202,7 @@ TextureImporter:
       name: Skill_E_Sara_257x258_3
       rect:
         serializedVersion: 2
-        x: 771
+        x: 1028
         y: 774
         width: 257
         height: 258
@@ -198,10 +211,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: b2f0b06358bcf9a43812fa09aa433543
+      internalID: 1449731711
       vertices: []
       indices: 
       edges: []
@@ -210,8 +223,8 @@ TextureImporter:
       name: Skill_E_Sara_257x258_4
       rect:
         serializedVersion: 2
-        x: 1028
-        y: 774
+        x: 0
+        y: 516
         width: 257
         height: 258
       alignment: 0
@@ -219,10 +232,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: a9241259399d9ec448c1bf2cdf61511d
+      internalID: -1230268902
       vertices: []
       indices: 
       edges: []
@@ -231,7 +244,7 @@ TextureImporter:
       name: Skill_E_Sara_257x258_5
       rect:
         serializedVersion: 2
-        x: 0
+        x: 257
         y: 516
         width: 257
         height: 258
@@ -240,10 +253,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 4549c983d97b0d142aef57319d14ae42
+      internalID: 1799179015
       vertices: []
       indices: 
       edges: []
@@ -252,7 +265,7 @@ TextureImporter:
       name: Skill_E_Sara_257x258_6
       rect:
         serializedVersion: 2
-        x: 257
+        x: 514
         y: 516
         width: 257
         height: 258
@@ -261,10 +274,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: d7978938b8f7b234aabcc62e00f560a5
+      internalID: 76858478
       vertices: []
       indices: 
       edges: []
@@ -273,7 +286,7 @@ TextureImporter:
       name: Skill_E_Sara_257x258_7
       rect:
         serializedVersion: 2
-        x: 514
+        x: 771
         y: 516
         width: 257
         height: 258
@@ -282,10 +295,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 53b4da1029dc9334b8751d32b8446714
+      internalID: -1123656627
       vertices: []
       indices: 
       edges: []
@@ -294,7 +307,7 @@ TextureImporter:
       name: Skill_E_Sara_257x258_8
       rect:
         serializedVersion: 2
-        x: 771
+        x: 1028
         y: 516
         width: 257
         height: 258
@@ -303,10 +316,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 31a3e1f8953f30f45960defe88e2d8ff
+      internalID: -1185960483
       vertices: []
       indices: 
       edges: []
@@ -315,8 +328,8 @@ TextureImporter:
       name: Skill_E_Sara_257x258_9
       rect:
         serializedVersion: 2
-        x: 1028
-        y: 516
+        x: 0
+        y: 258
         width: 257
         height: 258
       alignment: 0
@@ -324,10 +337,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: b93dc9fffd1ba4848a1f5bb1089bff71
+      internalID: 453020302
       vertices: []
       indices: 
       edges: []
@@ -336,7 +349,7 @@ TextureImporter:
       name: Skill_E_Sara_257x258_10
       rect:
         serializedVersion: 2
-        x: 0
+        x: 257
         y: 258
         width: 257
         height: 258
@@ -345,10 +358,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: e0c22e60c94429646a398c1687ba2e32
+      internalID: -938361395
       vertices: []
       indices: 
       edges: []
@@ -357,27 +370,6 @@ TextureImporter:
       name: Skill_E_Sara_257x258_11
       rect:
         serializedVersion: 2
-        x: 257
-        y: 258
-        width: 257
-        height: 258
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_E_Sara_257x258_12
-      rect:
-        serializedVersion: 2
         x: 514
         y: 258
         width: 257
@@ -387,16 +379,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: ecdb44509611de34b9e266c3e45063f2
+      internalID: -2032041583
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill_E_Sara_257x258_13
+      name: Skill_E_Sara_257x258_12
       rect:
         serializedVersion: 2
         x: 771
@@ -408,16 +400,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: fe51eea0bd892314aba88f61152380c5
+      internalID: -1411758072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill_E_Sara_257x258_14
+      name: Skill_E_Sara_257x258_13
       rect:
         serializedVersion: 2
         x: 1028
@@ -429,16 +421,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 17e7176fbac4f8548a8ad6f4cd9f3e82
+      internalID: 1647354718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill_E_Sara_257x258_15
+      name: Skill_E_Sara_257x258_14
       rect:
         serializedVersion: 2
         x: 0
@@ -450,16 +442,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 6ed5470401f52f343ba4660f241fc4a1
+      internalID: 1336905530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill_E_Sara_257x258_16
+      name: Skill_E_Sara_257x258_15
       rect:
         serializedVersion: 2
         x: 257
@@ -471,16 +463,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 7c59f72247517a446bcab6336a01fef9
+      internalID: -523828279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill_E_Sara_257x258_17
+      name: Skill_E_Sara_257x258_16
       rect:
         serializedVersion: 2
         x: 514
@@ -492,16 +484,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 018c32888b220094a963e85439ddde29
+      internalID: -819036635
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill_E_Sara_257x258_18
+      name: Skill_E_Sara_257x258_17
       rect:
         serializedVersion: 2
         x: 771
@@ -513,16 +505,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 46358e57f2a54b549a3329eb65e823db
+      internalID: -93978432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill_E_Sara_257x258_19
+      name: Skill_E_Sara_257x258_18
       rect:
         serializedVersion: 2
         x: 1028
@@ -534,10 +526,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 5074bf8293bab234e974e1fc6b0c1148
+      internalID: 1002066137
       vertices: []
       indices: 
       edges: []
@@ -553,54 +545,25 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      : 0
-      Skill_E_Sara_257x258_0: 0
-      Skill_E_Sara_257x258_0_0: -1999404448600833080
-      Skill_E_Sara_257x258_0_258: 6178035221558773304
-      Skill_E_Sara_257x258_0_516: -4161944523322503624
-      Skill_E_Sara_257x258_1: 0
-      Skill_E_Sara_257x258_10: 0
-      Skill_E_Sara_257x258_1028_0: -8696853835261661953
-      Skill_E_Sara_257x258_1028_258: 113063023482767948
-      Skill_E_Sara_257x258_1028_516: -4200262316034011683
-      Skill_E_Sara_257x258_1028_774: 2124192744452032448
-      Skill_E_Sara_257x258_11: 0
-      Skill_E_Sara_257x258_12: 0
-      Skill_E_Sara_257x258_13: 0
-      Skill_E_Sara_257x258_14: 0
-      Skill_E_Sara_257x258_15: 0
-      Skill_E_Sara_257x258_16: 0
-      Skill_E_Sara_257x258_17: 0
-      Skill_E_Sara_257x258_18: 0
-      Skill_E_Sara_257x258_19: 0
-      Skill_E_Sara_257x258_2: 0
-      Skill_E_Sara_257x258_20: 0
-      Skill_E_Sara_257x258_21: 0
-      Skill_E_Sara_257x258_22: 0
-      Skill_E_Sara_257x258_24: 0
-      Skill_E_Sara_257x258_25: 0
-      Skill_E_Sara_257x258_257_0: -8991350600202492563
-      Skill_E_Sara_257x258_257_258: -362703856953461123
-      Skill_E_Sara_257x258_257_516: 8601746079265816263
-      Skill_E_Sara_257x258_257_774: -5665565518854677153
-      Skill_E_Sara_257x258_26: 0
-      Skill_E_Sara_257x258_27: 0
-      Skill_E_Sara_257x258_28: 0
-      Skill_E_Sara_257x258_3: 0
-      Skill_E_Sara_257x258_4: 0
-      Skill_E_Sara_257x258_5: 0
-      Skill_E_Sara_257x258_514_0: -9185440950046143716
-      Skill_E_Sara_257x258_514_258: -5348978806651234526
-      Skill_E_Sara_257x258_514_516: -4177610194524509177
-      Skill_E_Sara_257x258_514_774: -7512257246909658265
-      Skill_E_Sara_257x258_6: 0
-      Skill_E_Sara_257x258_7: 0
-      Skill_E_Sara_257x258_771_0: 4875975758813162885
-      Skill_E_Sara_257x258_771_258: -4930444025949051460
-      Skill_E_Sara_257x258_771_516: 9211478601605936033
-      Skill_E_Sara_257x258_771_774: 9194257581499380925
-      Skill_E_Sara_257x258_8: 0
-      Skill_E_Sara_257x258_9: 0
+      Skill_E_Sara_257x258_0: 1892898190
+      Skill_E_Sara_257x258_1: -1944249934
+      Skill_E_Sara_257x258_10: 587936460
+      Skill_E_Sara_257x258_11: -730782554
+      Skill_E_Sara_257x258_12: 679198827
+      Skill_E_Sara_257x258_13: -396907166
+      Skill_E_Sara_257x258_14: 1717113811
+      Skill_E_Sara_257x258_15: 141452855
+      Skill_E_Sara_257x258_16: -1083354311
+      Skill_E_Sara_257x258_17: 2142434696
+      Skill_E_Sara_257x258_18: 524080120
+      Skill_E_Sara_257x258_2: 1091777687
+      Skill_E_Sara_257x258_3: -1850531065
+      Skill_E_Sara_257x258_4: -62341944
+      Skill_E_Sara_257x258_5: 741151394
+      Skill_E_Sara_257x258_6: -1241852288
+      Skill_E_Sara_257x258_7: -410772393
+      Skill_E_Sara_257x258_8: -1641704977
+      Skill_E_Sara_257x258_9: 107411080
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

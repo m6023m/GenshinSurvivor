@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 123
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -119,9 +119,379 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Skill_E_Yunjin_120x127_0
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 381
+        width: 120
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fffca98c837f4d7418678847258c658e
+      internalID: -1740133852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Yunjin_120x127_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 381
+        width: 120
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01da2a4f4c7331b4eb1cad82cd9fb22f
+      internalID: 1265325486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Yunjin_120x127_2
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 381
+        width: 120
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ab3c9f82b21f545ae3db42b7e695ca
+      internalID: 1263872008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Yunjin_120x127_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 381
+        width: 120
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37dd72a990e3e15439e7fa30b3f465ed
+      internalID: 234397930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Yunjin_120x127_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 254
+        width: 120
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89943470c1bf31a4f814af3ffed3db9d
+      internalID: -1729150352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Yunjin_120x127_5
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 254
+        width: 120
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32126680bb544cf40b7016d7e6aa144e
+      internalID: -1933656798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Yunjin_120x127_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 254
+        width: 120
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511a7ce85d4bc104884229f67aed8da3
+      internalID: -405244309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Yunjin_120x127_7
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 254
+        width: 120
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040c3278ee0f2d84a87f2c2365458154
+      internalID: -1108905478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Yunjin_120x127_8
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 254
+        width: 120
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade8d95276d7044499f6e7ae86cfbadd
+      internalID: 426172576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Yunjin_120x127_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 120
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2b4343b6c7357468cf954faddb40f6
+      internalID: -910654558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Yunjin_120x127_10
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 127
+        width: 120
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa722e00789bdda4aad4f98f5108ccab
+      internalID: -321449677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Yunjin_120x127_11
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 127
+        width: 120
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c1ea63506f37440901c58bdeccd11e
+      internalID: 1366344071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Yunjin_120x127_12
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 127
+        width: 120
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e422d93fbe47a14c91a6e1d40e9cac0
+      internalID: -1607790534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Yunjin_120x127_13
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 127
+        width: 120
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a651e70c3ae9a8d4ba9017c035293ca0
+      internalID: -887125507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Yunjin_120x127_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 120
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f104233fbaac634285644cbc2114372
+      internalID: 364908488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Yunjin_120x127_15
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 120
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1386fc7413ff4d45a8b6add48901b36
+      internalID: -688683336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_E_Yunjin_120x127_16
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 120
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4454c64955e790842be40cc9e3c6ac7f
+      internalID: 1734866861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +502,24 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Skill_E_Yunjin_120x127_0: -1740133852
+      Skill_E_Yunjin_120x127_1: 1265325486
+      Skill_E_Yunjin_120x127_10: -321449677
+      Skill_E_Yunjin_120x127_11: 1366344071
+      Skill_E_Yunjin_120x127_12: -1607790534
+      Skill_E_Yunjin_120x127_13: -887125507
+      Skill_E_Yunjin_120x127_14: 364908488
+      Skill_E_Yunjin_120x127_15: -688683336
+      Skill_E_Yunjin_120x127_16: 1734866861
+      Skill_E_Yunjin_120x127_2: 1263872008
+      Skill_E_Yunjin_120x127_3: 234397930
+      Skill_E_Yunjin_120x127_4: -1729150352
+      Skill_E_Yunjin_120x127_5: -1933656798
+      Skill_E_Yunjin_120x127_6: -405244309
+      Skill_E_Yunjin_120x127_7: -1108905478
+      Skill_E_Yunjin_120x127_8: 426172576
+      Skill_E_Yunjin_120x127_9: -910654558
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -87,6 +87,7 @@ public class SpriteAllSlicer : ScriptableObject
         // 변경 사항 적용
         AssetDatabase.ImportAsset(path, ImportAssetOptions.ForceUpdate);
 
+
         int textureX = originalWidth / width;
         int textureY = originalHeight / height;
         if (originalWidth % width > 0) textureX++;

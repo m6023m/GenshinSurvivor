@@ -914,7 +914,7 @@ MonoBehaviour:
       elementType: 5
       constellation: 000000000000
       toolTipKey: Keqing
-      constellaCount: 2
+      constellaCount: 4
       atk: 7.5
       armor: 6
       hp: 130
@@ -1846,7 +1846,7 @@ MonoBehaviour:
     wishIcon: {fileID: 21300000, guid: 3360cb1cb5e0d4b41ac773d8ee12e912, type: 3}
     stat:
       charNum: 35
-      isMine: 0
+      isMine: 1
       elementType: 6
       constellation: 000000000000
       toolTipKey: Ayaka
@@ -1898,7 +1898,7 @@ MonoBehaviour:
     wishIcon: {fileID: 21300000, guid: 8db115d657eea104b80ccdebeb1602d0, type: 3}
     stat:
       charNum: 36
-      isMine: 0
+      isMine: 1
       elementType: 1
       constellation: 000000000000
       toolTipKey: Yoimiya
@@ -1950,11 +1950,11 @@ MonoBehaviour:
     wishIcon: {fileID: 21300000, guid: ce100bfb651d2a44d8333f8d9f7626c8, type: 3}
     stat:
       charNum: 37
-      isMine: 0
+      isMine: 1
       elementType: 3
       constellation: 000000000000
       toolTipKey: Sayu
-      constellaCount: 0
+      constellaCount: 4
       atk: 5
       armor: 7.5
       hp: 120
@@ -2002,7 +2002,7 @@ MonoBehaviour:
     wishIcon: {fileID: 21300000, guid: 0920f8aec57ad1d498d9d2e761023772, type: 3}
     stat:
       charNum: 38
-      isMine: 0
+      isMine: 1
       elementType: 5
       constellation: 000000000000
       toolTipKey: Raiden
@@ -2051,14 +2051,14 @@ MonoBehaviour:
     anim: {fileID: 22100000, guid: 3e64db20959adad498dcd7c130df91b5, type: 2}
     wishImage: {fileID: 21300000, guid: 24b5171cb52001c4a9a3c114a9b052b9, type: 3}
     wishPannel: {fileID: 21300000, guid: 5065039eb0da8e743b4a4bcb9f45d69c, type: 3}
-    wishIcon: {fileID: 21300000, guid: 24b5171cb52001c4a9a3c114a9b052b9, type: 3}
+    wishIcon: {fileID: 21300000, guid: 7b48d602f079ec5499a54a8ded91b28f, type: 3}
     stat:
       charNum: 39
-      isMine: 0
+      isMine: 1
       elementType: 3
       constellation: 000000000000
       toolTipKey: Sara
-      constellaCount: 0
+      constellaCount: 6
       atk: 6.5
       armor: 8
       hp: 130
@@ -2106,7 +2106,7 @@ MonoBehaviour:
     wishIcon: {fileID: 21300000, guid: 3944fc4935b93294a94c70426e336933, type: 3}
     stat:
       charNum: 40
-      isMine: 0
+      isMine: 1
       elementType: 2
       constellation: 000000000000
       toolTipKey: Kokomi
@@ -2158,11 +2158,11 @@ MonoBehaviour:
     wishIcon: {fileID: 21300000, guid: 2d25b51d4efa39348a7dfb1819741ff9, type: 3}
     stat:
       charNum: 41
-      isMine: 0
+      isMine: 1
       elementType: 7
       constellation: 000000000000
       toolTipKey: Ito
-      constellaCount: 0
+      constellaCount: 1
       atk: 4.5
       armor: 9.5
       hp: 130
@@ -2210,11 +2210,11 @@ MonoBehaviour:
     wishIcon: {fileID: 21300000, guid: 5f064df46e974cf46b3981cc27b2f0e0, type: 3}
     stat:
       charNum: 42
-      isMine: 0
+      isMine: 1
       elementType: 7
       constellation: 000000000000
       toolTipKey: Goro
-      constellaCount: 0
+      constellaCount: 6
       atk: 4
       armor: 6.5
       hp: 95
@@ -2259,14 +2259,14 @@ MonoBehaviour:
     anim: {fileID: 22100000, guid: 6b94898c8f02f624da4541511ef9cf67, type: 2}
     wishImage: {fileID: 21300000, guid: 8dde8d91369316e4e9df7ef496da5a47, type: 3}
     wishPannel: {fileID: 21300000, guid: 2cf0a1ec9f385b24ab4943d6186bb80d, type: 3}
-    wishIcon: {fileID: 21300000, guid: 8dde8d91369316e4e9df7ef496da5a47, type: 3}
+    wishIcon: {fileID: 21300000, guid: 4fe11f49ff9f70b4a8c927f460707ef8, type: 3}
     stat:
       charNum: 43
-      isMine: 0
+      isMine: 1
       elementType: 1
       constellation: 000000000000
       toolTipKey: Thoma
-      constellaCount: 0
+      constellaCount: 6
       atk: 4.5
       armor: 7.5
       hp: 100
@@ -2314,7 +2314,7 @@ MonoBehaviour:
     wishIcon: {fileID: 21300000, guid: a7dcf645cf432dd428ee7608e596cab3, type: 3}
     stat:
       charNum: 44
-      isMine: 0
+      isMine: 1
       elementType: 6
       constellation: 000000000000
       toolTipKey: Shenhe
@@ -2366,11 +2366,11 @@ MonoBehaviour:
     wishIcon: {fileID: 21300000, guid: d28df1e2c4c95fd40b50d4fe06f111af, type: 3}
     stat:
       charNum: 45
-      isMine: 0
+      isMine: 1
       elementType: 7
       constellation: 000000000000
       toolTipKey: Yunjin
-      constellaCount: 0
+      constellaCount: 5
       atk: 4
       armor: 7.5
       hp: 105
@@ -2418,7 +2418,7 @@ MonoBehaviour:
     wishIcon: {fileID: 21300000, guid: eb144f6f5b7871e459df646e80eb0f22, type: 3}
     stat:
       charNum: 46
-      isMine: 0
+      isMine: 1
       elementType: 5
       constellation: 000000000000
       toolTipKey: Miko
@@ -2470,11 +2470,11 @@ MonoBehaviour:
     wishIcon: {fileID: 21300000, guid: 8a9f485c0bd42d54e94b0e6731fb9704, type: 3}
     stat:
       charNum: 47
-      isMine: 0
+      isMine: 1
       elementType: 2
       constellation: 000000000000
       toolTipKey: Ayato
-      constellaCount: 0
+      constellaCount: 1
       atk: 6.5
       armor: 7.5
       hp: 135
@@ -2522,7 +2522,7 @@ MonoBehaviour:
     wishIcon: {fileID: 21300000, guid: d84eb44d02db2af4ea28ff7559730184, type: 3}
     stat:
       charNum: 48
-      isMine: 0
+      isMine: 1
       elementType: 2
       constellation: 000000000000
       toolTipKey: Yelan
@@ -2574,11 +2574,11 @@ MonoBehaviour:
     wishIcon: {fileID: 21300000, guid: e698a1484fe499d429ee4a174d42ea51, type: 3}
     stat:
       charNum: 49
-      isMine: 0
+      isMine: 1
       elementType: 3
       constellation: 000000000000
       toolTipKey: Heizo
-      constellaCount: 0
+      constellaCount: 4
       atk: 5
       armor: 6.5
       hp: 105
@@ -2626,11 +2626,11 @@ MonoBehaviour:
     wishIcon: {fileID: 21300000, guid: 4ed0f2d183928a14fa52a736c0bffc01, type: 3}
     stat:
       charNum: 50
-      isMine: 0
+      isMine: 1
       elementType: 5
       constellation: 000000000000
       toolTipKey: Shinobu
-      constellaCount: 0
+      constellaCount: 5
       atk: 5
       armor: 7.5
       hp: 120

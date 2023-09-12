@@ -12,3445 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6c1a1b5a10708247bb10963922ee8cc, type: 3}
   m_Name: SkillData
   m_EditorClassIdentifier: 
-  skills:
-  - icon: {fileID: 21300000, guid: c49cd11851c2bbd49b67d9f262668a55, type: 3}
-    level: 0
-    name: 0
-    type: 0
-    burst: 0
-    parameter:
-      type: 0
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: -1
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 3
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 1.5
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: d0a93831dd148cb4db28e8e7c3b25684, type: 2}
-    skillUps:
-    - name: 8
-      value: 1
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 8
-      value: 1
-    - name: 0
-      value: 0.3
-    - name: 0
-      value: 0.3
-    - name: 10
-      value: 0.2
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: f3180e7b0fd811a4589df05e3c791443, type: 3}
-    level: 0
-    name: 1
-    type: 0
-    burst: 0
-    parameter:
-      type: 0
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: -1
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 6
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 3
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: c28d99fe24a9a5b4b9070a66a450dea8, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 10
-      value: 0.2
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 6b07a230369fb674db0a7d35faba79b3, type: 3}
-    level: 0
-    name: 2
-    type: 0
-    burst: 2
-    parameter:
-      type: 0
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 3
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 1
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: bb5add5fd9acefa46a3c6a9fc4dc0101, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 10
-      value: 0.2
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 4120f7ae5b640d547a6bebb11a115825, type: 3}
-    level: 0
-    name: 3
-    type: 0
-    burst: 0
-    parameter:
-      type: 0
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 10
-      knockBack: 2
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 1
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: b12c533dee67e0a44bb2e6e88e8fd139, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 1
-      value: 1
-    - name: 0
-      value: 0.2
-    - name: 10
-      value: 0.2
-    - name: 1
-      value: 1
-    - name: 0
-      value: 0.3
-    - name: 4
-      value: 0.2
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 67e1113aa434a22408d7482e0b8adafd, type: 3}
-    level: 0
-    name: 4
-    type: 0
-    burst: 4
-    parameter:
-      type: 0
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 10
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 1
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 836426952b1a14d44b8548341105fb39, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 1
-      value: 1
-    - name: 0
-      value: 0.3
-    - name: 10
-      value: 0.2
-    - name: 1
-      value: 1
-    - name: 0
-      value: 0.3
-    - name: 4
-      value: 0.2
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 82b852ea795cff34c9cc6314bf810e6f, type: 3}
-    level: 0
-    name: 5
-    type: 1
-    burst: 6
-    parameter:
-      type: 3
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: -1
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 0
-      magnet: 1.5
-      magnetSpeed: 0.3
-      skillTick: 0.3
-      count: 0
-      coolTime: 8
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: f12e8bce60f460646b4826cb94941e67, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 3
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 10
-      value: 0.2
-    - name: 6
-      value: 0.2
-    changeElementType: 3
-  - icon: {fileID: 21300000, guid: 0d824b9b9aea48941a521fa95fd6e563, type: 3}
-    level: 0
-    name: 6
-    type: 2
-    burst: 0
-    parameter:
-      type: 3
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: -1
-      area: 1
-      duration: 1
-      speed: 3
-      knockBack: 0
-      magnet: 3
-      magnetSpeed: 0.3
-      skillTick: 0.3
-      count: 0
-      coolTime: 15
-      elementGaugeMax: 60
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 24668a6a5a9d90b4a8daad3da8c2cb20, type: 2}
-    skillUps: []
-    changeElementType: 3
-  - icon: {fileID: 21300000, guid: b9323aa4c30d070418f55a989f8d51c6, type: 3}
-    level: 0
-    name: 7
-    type: 1
-    burst: 9
-    parameter:
-      type: 1
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 5
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 15
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: e1e8ed6f44fe4b44d80caff9099d8364, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 10
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 10
-      value: 0.2
-    - name: 0
-      value: 0.3
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 11f83edccfc7fcf4d9935b7d8d9e1ecb, type: 3}
-    level: 0
-    name: 9
-    type: 2
-    burst: 0
-    parameter:
-      type: 1
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0.11
-      count: 0
-      coolTime: 12
-      elementGaugeMax: 40
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 29d820d5909c3b044879bb28b73de4fe, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 4d51ffbaa9ac4c7419a65ed4ac6e0225, type: 3}
-    level: 0
-    name: 10
-    type: 1
-    burst: 11
-    parameter:
-      type: 1
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 3
-      knockBack: 3
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 12
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: f4028485719850040ab29545721219fd, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.3
-    - name: 0
-      value: 0.3
-    - name: 10
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 3
-      value: 0.2
-    - name: 0
-      value: 0.3
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: e0a6e482fdaf25347be0a6e32125594e, type: 3}
-    level: 0
-    name: 11
-    type: 2
-    burst: 0
-    parameter:
-      type: 1
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: -1
-      area: 1
-      duration: 1
-      speed: 300
-      knockBack: 3
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 20
-      elementGaugeMax: 80
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 90af74078fbf20c4bb87f37411594688, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: e9ad0847a7afc4a48ad39e201ba43305, type: 3}
-    level: 0
-    name: 12
-    type: 1
-    burst: 13
-    parameter:
-      type: 1
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 3
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 5
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: e04355dad98e8a443903fe64ef361f13, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 10
-      value: 0.2
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 5
-      value: 0.2
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 9c82bec673b4cc146acd61cf9254351b, type: 3}
-    level: 0
-    name: 13
-    type: 2
-    burst: 0
-    parameter:
-      type: 1
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 10
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 15
-      elementGaugeMax: 60
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: cca9ba31e9248f749ab33648ff552604, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 668ab3d7053aa2340a83dc7a5e30afaa, type: 3}
-    level: 0
-    name: 14
-    type: 1
-    burst: 15
-    parameter:
-      type: 1
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 3
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 10
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 075c6d80d8a3c3f449722f88bc69cfbc, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 0
-      value: 0.3
-    - name: 0
-      value: 0.3
-    - name: 0
-      value: 0.3
-    - name: 0
-      value: 0.3
-    - name: 0
-      value: 0.3
-    - name: 0
-      value: 0.3
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 43693b3fbcbf224409f81c32f1e71c52, type: 3}
-    level: 0
-    name: 15
-    type: 2
-    burst: 0
-    parameter:
-      type: 1
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 10
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0.3
-      count: 0
-      coolTime: 12
-      elementGaugeMax: 40
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: a75340bce747c154daea10d0ae2bc28a, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 45b0b52aefa22de4b91fd3d23d385212, type: 3}
-    level: 0
-    name: 16
-    type: 1
-    burst: 17
-    parameter:
-      type: 1
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 3
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0.4
-      count: 0
-      coolTime: 10
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: cd204ed5dc2e20b49823c2660bdacbd6, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 10
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 5
-      value: 0.2
-    - name: 2
-      value: 0.2
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 69df1b912426a654bbc475936bf5342f, type: 3}
-    level: 0
-    name: 17
-    type: 2
-    burst: 0
-    parameter:
-      type: 1
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 10
-      knockBack: 3
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 15
-      elementGaugeMax: 40
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 74e87a87ae605924e96cbd983ff0c2b7, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 256044139b509194ebe33eb0a8870777, type: 3}
-    level: 0
-    name: 18
-    type: 1
-    burst: 19
-    parameter:
-      type: 2
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 32
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: a4debf5c59d7e4e439f805d1f2f034a8, type: 2}
-    skillUps:
-    - name: 11
-      value: 0.2
-    - name: 0
-      value: 0.2
-    - name: 11
-      value: 0.2
-    - name: 10
-      value: 0.2
-    - name: 11
-      value: 0.2
-    - name: 3
-      value: 0.2
-    - name: 11
-      value: 0.2
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: f3c1597f2378ea646ba5584e64de67c5, type: 3}
-    level: 0
-    name: 19
-    type: 2
-    burst: 0
-    parameter:
-      type: 2
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 20
-      elementGaugeMax: 80
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 3e1ad47e076da2a44abee8b75ea304c2, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 934800b9efd3e324db2790fe377a9fa1, type: 3}
-    level: 0
-    name: 20
-    type: 1
-    burst: 21
-    parameter:
-      type: 2
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 3
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 21
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: a5c65af9408d1e04a87e11975b0900c9, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 3
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 10
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.3
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 27608bf234e38ac41a3229ec083a1092, type: 3}
-    level: 0
-    name: 21
-    type: 2
-    burst: 0
-    parameter:
-      type: 2
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 1
-      area: 1
-      duration: 1
-      speed: 15
-      knockBack: 3
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 20
-      elementGaugeMax: 80
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: c6d919e90bf43b74ca5d6ad205ea167e, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: ba853c533d045ca4ca984f298ad8c3be, type: 3}
-    level: 0
-    name: 22
-    type: 1
-    burst: 23
-    parameter:
-      type: 2
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 0
-      magnet: 0.5
-      magnetSpeed: 0.2
-      skillTick: 0
-      count: 0
-      coolTime: 12
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 244c18340623e6a44836cf35a1eab85b, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 10
-      value: 0.2
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.3
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: dabf52eb90573964b814c1eb9fa263be, type: 3}
-    level: 0
-    name: 23
-    type: 2
-    burst: 0
-    parameter:
-      type: 2
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 15
-      elementGaugeMax: 60
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 328787f1e74b12d40abb18a27ac4777a, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 9da90ff56bc50874fb44d63431ab6606, type: 3}
-    level: 0
-    name: 24
-    type: 1
-    burst: 25
-    parameter:
-      type: 3
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 0
-      magnet: 2
-      magnetSpeed: 0.3
-      skillTick: 0
-      count: 0
-      coolTime: 15
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: ef6c4cbe0bf171d41bbc9709407ddc82, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 10
-      value: 0.2
-    - name: 7
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 7
-      value: 0.2
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: b20aad10b54421443a667e77144f7896, type: 3}
-    level: 0
-    name: 25
-    type: 2
-    burst: 0
-    parameter:
-      type: 3
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 0
-      magnet: 2
-      magnetSpeed: 0.3
-      skillTick: 0
-      count: 0
-      coolTime: 20
-      elementGaugeMax: 80
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: e384c69fdfbb80a4599cd02c0834b54f, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 2dc95260c0b145d4c8924916e9190aca, type: 3}
-    level: 0
-    name: 26
-    type: 1
-    burst: 27
-    parameter:
-      type: 3
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 15
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 6
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 658907c6da24c1648a8aec28bbd5efdc, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 5
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 5
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 5
-      value: 0.2
-    - name: 0
-      value: 0.3
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 8bb5339042e53cd4484a2aec11d13e4e, type: 3}
-    level: 0
-    name: 27
-    type: 2
-    burst: 0
-    parameter:
-      type: 3
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 10
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 20
-      elementGaugeMax: 80
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 0614e706d20c74e4a93da8ce9287a571, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 6fbc19334e5ca3841bd2359a50e9e174, type: 3}
-    level: 0
-    name: 28
-    type: 1
-    burst: 29
-    parameter:
-      type: 3
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 6
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: af3c417d57c1b1c408f0ce837bad6746, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 10
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.3
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 5e867f70ac5a6b746aa68c7efacf2842, type: 3}
-    level: 0
-    name: 29
-    type: 2
-    burst: 0
-    parameter:
-      type: 3
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 0
-      magnet: 5
-      magnetSpeed: 0.7
-      skillTick: 0.3
-      count: 0
-      coolTime: 15
-      elementGaugeMax: 60
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: b0b6b17010e978746bf08d31817aba90, type: 2}
-    skillUps: []
-    changeElementType: 3
-  - icon: {fileID: 21300000, guid: f61fe750369fdbb4599398ae98e0c8ed, type: 3}
-    level: 0
-    name: 30
-    type: 1
-    burst: 31
-    parameter:
-      type: 5
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0.2
-      count: 0
-      coolTime: 0.5
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: be2483c2a3f910545b0e3d7c4f88cc25, type: 2}
-    skillUps:
-    - name: 2
-      value: 0.2
-    - name: 2
-      value: 0.2
-    - name: 2
-      value: 0.2
-    - name: 2
-      value: 0.2
-    - name: 2
-      value: 0.2
-    - name: 2
-      value: 0.2
-    - name: 2
-      value: 0.2
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 46c63c5802e71194285eb18f684ab826, type: 3}
-    level: 0
-    name: 31
-    type: 2
-    burst: 0
-    parameter:
-      type: 5
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0.3
-      count: 0
-      coolTime: 20
-      elementGaugeMax: 80
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 49c01dd48102f6c4ebf409551db1a3d1, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: e267de593f1b08842b388d697ecb42d9, type: 3}
-    level: 0
-    name: 32
-    type: 1
-    burst: 33
-    parameter:
-      type: 5
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 6
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 15
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: cb61ced3b4ff8d34c8c027fa3cffbdfa, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 10
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 5
-      value: 0.2
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: bfbf9e9f19a7b2e4ea58bcce4ab7be8c, type: 3}
-    level: 0
-    name: 33
-    type: 2
-    burst: 0
-    parameter:
-      type: 5
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 20
-      elementGaugeMax: 80
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 7ab96daf359e30545a020665ce493bc1, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: dde9762b4f489e145a06d47168ab72c0, type: 3}
-    level: 0
-    name: 34
-    type: 1
-    burst: 35
-    parameter:
-      type: 5
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 1
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 6
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 7.5
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 016bc17fb5b4e994fa88bce52aa6f7d3, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 10
-      value: 0.2
-    - name: 12
-      value: 0.2
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 5
-      value: 0.2
-    - name: 0
-      value: 0.3
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 74a4f18eda4134b4a994d234cc411e70, type: 3}
-    level: 0
-    name: 35
-    type: 2
-    burst: 0
-    parameter:
-      type: 5
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 20
-      elementGaugeMax: 80
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: ceafb3c7b9ba3c04791093519f9d520f, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 11214d2e6d5368045a48b65104c96aed, type: 3}
-    level: 0
-    name: 36
-    type: 1
-    burst: 38
-    parameter:
-      type: 5
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 8
-      knockBack: 3
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 20
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: a811e6f8679240449bad598f59658097, type: 2}
-    skillUps:
-    - name: 1
-      value: 1
-    - name: 1
-      value: 1
-    - name: 0
-      value: 0.3
-    - name: 1
-      value: 1
-    - name: 0
-      value: 0.3
-    - name: 10
-      value: 0.2
-    - name: 0
-      value: 0.3
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: e76b3c3fd697d47429fe755927e10ed5, type: 3}
-    level: 0
-    name: 38
-    type: 2
-    burst: 0
-    parameter:
-      type: 5
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 3
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 15
-      elementGaugeMax: 60
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 7c5ae24c631e5e148beef3cfb16f3b3d, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: c09942eb73a78a9459bec931a61f18f6, type: 3}
-    level: 0
-    name: 39
-    type: 1
-    burst: 40
-    parameter:
-      type: 5
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 12
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 67b6f6b803dd66f4aa712944507b6a07, type: 2}
-    skillUps:
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: d3772e91f9958cb47ade1a52b4846267, type: 3}
-    level: 0
-    name: 40
-    type: 2
-    burst: 0
-    parameter:
-      type: 5
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0.2
-      count: 0
-      coolTime: 12
-      elementGaugeMax: 40
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 5bb335e80e1060948be49281170444fd, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 960b9fdc00a143e40a753876530c8790, type: 3}
-    level: 0
-    name: 41
-    type: 1
-    burst: 42
-    parameter:
-      type: 6
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 5
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 6
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 555b873a280a9ea45b24654a24e245e7, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 10
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 2
-      value: 0.2
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 3a63818cc44960d4f83b9678e5cb06e5, type: 3}
-    level: 0
-    name: 42
-    type: 2
-    burst: 0
-    parameter:
-      type: 6
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 100
-      knockBack: 1
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 15
-      elementGaugeMax: 60
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: ad45d7cc4cdbf794bb0b89b73e75ce0f, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: d938d25583dbcd54a952ff991cda0951, type: 3}
-    level: 0
-    name: 43
-    type: 1
-    burst: 44
-    parameter:
-      type: 6
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 3
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 15
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 838b0b87f1bb1b548ac8970244f3fdcc, type: 2}
-    skillUps:
-    - name: 2
-      value: 0.2
-    - name: 2
-      value: 0.2
-    - name: 2
-      value: 0.2
-    - name: 2
-      value: 0.2
-    - name: 2
-      value: 0.2
-    - name: 2
-      value: 0.2
-    - name: 2
-      value: 0.2
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: d938d25583dbcd54a952ff991cda0951, type: 3}
-    level: 0
-    name: 44
-    type: 2
-    burst: 0
-    parameter:
-      type: 6
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0.4
-      count: 0
-      coolTime: 12
-      elementGaugeMax: 40
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: eaea62e3924b2ae44be774253df555b8, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: e42a6db2a85c66e4f95df295ae916c21, type: 3}
-    level: 0
-    name: 45
-    type: 1
-    burst: 46
-    parameter:
-      type: 6
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 1
-      count: 0
-      coolTime: 30
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: f748aad2378a44e438f298f1fbfd44f8, type: 2}
-    skillUps:
-    - name: 11
-      value: 0.2
-    - name: 11
-      value: 0.2
-    - name: 11
-      value: 0.2
-    - name: 11
-      value: 0.2
-    - name: 11
-      value: 0.2
-    - name: 11
-      value: 0.2
-    - name: 11
-      value: 0.2
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 570bf6708cd7a984793dedc84186e2c2, type: 3}
-    level: 0
-    name: 46
-    type: 2
-    burst: 0
-    parameter:
-      type: 6
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 20
-      elementGaugeMax: 80
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 0e50ff05af71b5c4f9b055146f0d949a, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 68c7b733fe24ba7448229ae24a9f7a3c, type: 3}
-    level: 0
-    name: 47
-    type: 1
-    burst: 48
-    parameter:
-      type: 7
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 3
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 12
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 8e4ea82bc2878a94987b47810059dbbf, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 10
-      value: 0.2
-    - name: 3
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: d3defaf10dabcf5429b0d7e632b9469b, type: 3}
-    level: 0
-    name: 48
-    type: 2
-    burst: 0
-    parameter:
-      type: 7
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 3
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 2
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 12
-      elementGaugeMax: 40
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 63d4a67edae702f499db7dd8a1779470, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 44b2244a2f523a74db4aff892872949a, type: 3}
-    level: 0
-    name: 49
-    type: 1
-    burst: 50
-    parameter:
-      type: 7
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 1
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 3
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 24
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 129aab45b456ebc43a992fc8ee0fd0cf, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 3
-      value: 0.2
-    - name: 10
-      value: 0.2
-    - name: 3
-      value: 0.2
-    - name: 10
-      value: 0.2
-    - name: 12
-      value: 0.2
-    - name: 0
-      value: 0.3
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 9eb2666b319821e4ebe2e9e50486c088, type: 3}
-    level: 0
-    name: 50
-    type: 2
-    burst: 0
-    parameter:
-      type: 7
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 15
-      elementGaugeMax: 60
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: a7f7ee58599697340b8ea9d1ccb39c6a, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 743ae972af3bf734b8fdd74bcfc73815, type: 3}
-    level: 0
-    name: 51
-    type: 3
-    burst: 0
-    parameter:
-      type: 1
-      isTypeFix: 0
-      damage: 2
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 0
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 1a7065cd6d2a6cf4cb1fa309f7a92522, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 48bf8f73a509c4744a7651f507143d51, type: 3}
-    level: 0
-    name: 52
-    type: 3
-    burst: 0
-    parameter:
-      type: 1
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 10
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 0
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: a521e8439f81dac49aa6373179e7b352, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 3b8b660cd6f6bde40be75f57a01f723a, type: 3}
-    level: 0
-    name: 53
-    type: 3
-    burst: 0
-    parameter:
-      type: 1
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 0
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 25eda995b1e5a4849b7191ed1dd305a1, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 93615e8170b43a8418a818614fedda54, type: 3}
-    level: 0
-    name: 54
-    type: 3
-    burst: 0
-    parameter:
-      type: 6
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 0
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: b1b672f49863a1d4a917f1b52b6ba712, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 5acf1ce3da0320a4d88371558080d3ce, type: 3}
-    level: 0
-    name: 55
-    type: 3
-    burst: 0
-    parameter:
-      type: 7
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 0
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 2b3c2f435adb78a47bbc52c02cbaac60, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 0}
-    level: 0
-    name: 56
-    type: 3
-    burst: 0
-    parameter:
-      type: 0
-      isTypeFix: 0
-      damage: 0
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 0
-      duration: 0
-      speed: 0
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 0
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 0}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 0}
-    level: 0
-    name: 57
-    type: 3
-    burst: 0
-    parameter:
-      type: 0
-      isTypeFix: 0
-      damage: 0
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 0
-      duration: 0
-      speed: 0
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 0
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 0}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 0}
-    level: 0
-    name: 58
-    type: 3
-    burst: 0
-    parameter:
-      type: 0
-      isTypeFix: 0
-      damage: 0
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 0
-      duration: 0
-      speed: 0
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 0
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 0}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 0}
-    level: 0
-    name: 59
-    type: 3
-    burst: 0
-    parameter:
-      type: 6
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 1
-      area: 0
-      duration: 1
-      speed: 0
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 0
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 0}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 4d8455941aa2d944e88087a70924b426, type: 3}
-    level: 0
-    name: 60
-    type: 3
-    burst: 0
-    parameter:
-      type: 5
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 0
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 6879cf5b10269d3409bfbc994c5b09f5, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: c40de95c6c32cdb42b49bee88dd41639, type: 3}
-    level: 0
-    name: 61
-    type: 3
-    burst: 0
-    parameter:
-      type: 6
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 2
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 0
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 4200e03a68ed85e4d9df03839b39f895, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 2165864cafae7a14c8dd550702d9c380, type: 3}
-    level: 0
-    name: 62
-    type: 3
-    burst: 0
-    parameter:
-      type: 3
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 0
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 1b6518f070d9b994d8e6323968a91423, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 0}
-    level: 0
-    name: 63
-    type: 3
-    burst: 0
-    parameter:
-      type: 0
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 0
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 0}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 0}
-    level: 0
-    name: 64
-    type: 3
-    burst: 0
-    parameter:
-      type: 0
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 0
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 0}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 0}
-    level: 0
-    name: 65
-    type: 3
-    burst: 0
-    parameter:
-      type: 0
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 0
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 0}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 67e1113aa434a22408d7482e0b8adafd, type: 3}
-    level: 0
-    name: 66
-    type: 0
-    burst: 66
-    parameter:
-      type: 1
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 6
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 4
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: f1e833dcfd169514387617d927e26a9d, type: 2}
-    skillUps:
-    - name: 2
-      value: 0.2
-    - name: 10
-      value: 0.2
-    - name: 2
-      value: 0.2
-    - name: 10
-      value: 0.2
-    - name: 2
-      value: 0.2
-    - name: 2
-      value: 0.2
-    - name: 2
-      value: 0.2
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 67e1113aa434a22408d7482e0b8adafd, type: 3}
-    level: 0
-    name: 67
-    type: 0
-    burst: 67
-    parameter:
-      type: 2
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 5
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 1
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 7f91ffa089a609b4ca8f7a0f3c6e644b, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 10
-      value: 0.2
-    - name: 0
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 10
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 10
-      value: 0.2
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 6b5141ecb88466444abdaea373a2a79f, type: 3}
-    level: 0
-    name: 68
-    type: 1
-    burst: 69
-    parameter:
-      type: 2
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 0
-      penetrate: -1
-      area: 1
-      duration: 1
-      speed: 1
-      knockBack: 3
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 20
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: bd61edf246d6a2f4bba120b165f93998, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 0
-      value: 0.3
-    - name: 0
-      value: 0.3
-    - name: 0
-      value: 0.3
-    - name: 0
-      value: 0.3
-    - name: 0
-      value: 0.2
-    - name: 2
-      value: 0.3
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 40b2c2af5359cd844b4e7294b8b0f226, type: 3}
-    level: 0
-    name: 69
-    type: 2
-    burst: 71
-    parameter:
-      type: 2
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 1
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 15
-      elementGaugeMax: 60
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 551b7652b6530c04cb6c4c3bc93766d8, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 54e54d0dcaf7ee147aca90882b089cc1, type: 3}
-    level: 0
-    name: 70
-    type: 1
-    burst: 71
-    parameter:
-      type: 6
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 1
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 10
-      knockBack: 1
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 6
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 9de599c7fb4c2ce4b930572625e7c9ce, type: 2}
-    skillUps:
-    - name: 8
-      value: 1
-    - name: 8
-      value: 1
-    - name: 8
-      value: 1
-    - name: 8
-      value: 1
-    - name: 8
-      value: 1
-    - name: 8
-      value: 1
-    - name: 8
-      value: 1
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: f711a15bb2f06c649ada6efea161dde3, type: 3}
-    level: 0
-    name: 71
-    type: 2
-    burst: 0
-    parameter:
-      type: 6
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 1
-      count: 0
-      coolTime: 20
-      elementGaugeMax: 80
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: d40f83dbfe83b9645a1264f193e97a11, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 29a2a39d33fff254293cc2acb210340c, type: 3}
-    level: 0
-    name: 72
-    type: 1
-    burst: 73
-    parameter:
-      type: 7
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 1
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 1
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 12
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: a5423c92ee411f84b84ad280c6121f7f, type: 2}
-    skillUps:
-    - name: 2
-      value: 0.2
-    - name: 2
-      value: 0.2
-    - name: 2
-      value: 0.2
-    - name: 2
-      value: 0.2
-    - name: 2
-      value: 0.2
-    - name: 2
-      value: 0.2
-    - name: 2
-      value: 0.2
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 4735423ca9a4e9c4ca1574e1a0bd4668, type: 3}
-    level: 0
-    name: 73
-    type: 2
-    burst: 0
-    parameter:
-      type: 7
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 12
-      elementGaugeMax: 40
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: fbf4005c60732ec48b0dc7396cd7756f, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 861018f10293bf545b995903b055f597, type: 3}
-    level: 0
-    name: 74
-    type: 1
-    burst: 75
-    parameter:
-      type: 1
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 1
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 3
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 18
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 5844e80760b631941adb014517566835, type: 2}
-    skillUps:
-    - name: 3
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 3
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 3
-      value: 0.2
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: bd446b93dece5424f9857828f0b2bc33, type: 3}
-    level: 0
-    name: 75
-    type: 2
-    burst: 0
-    parameter:
-      type: 1
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 5
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0.5
-      count: 0
-      coolTime: 15
-      elementGaugeMax: 60
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 2c74639b0d8c89647973dd57742dd7d7, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 3cb50360aaf1a0f489ac56f7ef8b8b77, type: 3}
-    level: 0
-    name: 76
-    type: 1
-    burst: 77
-    parameter:
-      type: 7
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 1
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 2
-      count: 0
-      coolTime: 20
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 376bb63b35287784290720fdcfdbdef0, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 3
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 3
-      value: 0.2
-    - name: 0
-      value: 0.2
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 8ef8d722d9cd7cc4290d7da8509b53ae, type: 3}
-    level: 0
-    name: 77
-    type: 2
-    burst: 0
-    parameter:
-      type: 7
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 1
-      knockBack: 3
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 12
-      elementGaugeMax: 40
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 099b9661801beb04abf0774dbda36db6, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 0e6dba5f295353d499c2fbda3c987d46, type: 3}
-    level: 0
-    name: 78
-    type: 0
-    burst: 0
-    parameter:
-      type: 6
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 10
-      knockBack: 1
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 3
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: c7110f097e604b7438e78cab0afc6c57, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.2
-    - name: 1
-      value: 1
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.2
-    - name: 2
-      value: 0.2
-    - name: 1
-      value: 1
-    - name: 0
-      value: 0.2
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 15d774617acc4df459eb72f2cec95246, type: 3}
-    level: 0
-    name: 79
-    type: 1
-    burst: 80
-    parameter:
-      type: 6
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 1
-      knockBack: 1
-      magnet: 0.4
-      magnetSpeed: 0.4
-      skillTick: 0
-      count: 0
-      coolTime: 10
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: dbfc01f2f92826f4994e00cd481a0d86, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 6
-      value: 0.2
-    - name: 7
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 10
-      value: 0.2
-    - name: 3
-      value: 0.2
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: b5389b7777762a4438e944c69047478f, type: 3}
-    level: 0
-    name: 80
-    type: 2
-    burst: 0
-    parameter:
-      type: 6
-      isTypeFix: 0
-      damage: 1
-      healPer: 0
-      sheildPer: 0
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 1
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 1.5
-      count: 0
-      coolTime: 15
-      elementGaugeMax: 60
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 06169057e4854e14da89961c3bcc241b, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 8113d6e4f30b6e44fb8a06405f17e02b, type: 3}
-    level: 0
-    name: 81
-    type: 1
-    burst: 82
-    parameter:
-      type: 3
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 1
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 1
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 10
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 3860bf952b2b4b24e8cff2ece6ac17bb, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 10
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 10
-      value: 0.2
-    - name: 0
-      value: 0.3
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 0fe75ca7d9319b444a39ff4b73a7ac6e, type: 3}
-    level: 0
-    name: 82
-    type: 2
-    burst: 0
-    parameter:
-      type: 3
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 1
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 18
-      elementGaugeMax: 70
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: bbca4d860958f754ca5d590f1850a745, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 6b07a230369fb674db0a7d35faba79b3, type: 3}
-    level: 0
-    name: 83
-    type: 0
-    burst: 0
-    parameter:
-      type: 0
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 1
-      penetrate: 1
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 3
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 4e44341b30217354ba1ca5587ea1cea8, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 2
-      value: 0.2
-    - name: 10
-      value: 0.2
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: bd5fa202932fda940848aec3b84fc983, type: 3}
-    level: 0
-    name: 84
-    type: 1
-    burst: 85
-    parameter:
-      type: 1
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 1
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 3
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 20
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 6636608122ca83448979992a3df46f4f, type: 2}
-    skillUps:
-    - name: 3
-      value: 0.2
-    - name: 5
-      value: 0.2
-    - name: 10
-      value: 0.2
-    - name: 3
-      value: 0.2
-    - name: 5
-      value: 0.2
-    - name: 3
-      value: 0.2
-    - name: 5
-      value: 0.2
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 46abb71c9d203ae488e85dc6e91bfaed, type: 3}
-    level: 0
-    name: 85
-    type: 2
-    burst: 0
-    parameter:
-      type: 1
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 1
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 15
-      elementGaugeMax: 60
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: f74dee15d9c59f54e95f2afd851421fa, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 8310d3b75f8c6d342bdcfc6df2b7ca49, type: 3}
-    level: 0
-    name: 86
-    type: 1
-    burst: 87
-    parameter:
-      type: 6
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 1
-      penetrate: 1
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 6
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 3a076fd1b80252a49bd752ad30eb2dd6, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 10
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 10
-      value: 0.2
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.3
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 70fceeae3ea9bc044af8cf0e6c44082f, type: 3}
-    level: 0
-    name: 87
-    type: 2
-    burst: 0
-    parameter:
-      type: 6
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 1
-      penetrate: 1
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 1.5
-      count: 0
-      coolTime: 15
-      elementGaugeMax: 60
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 0ec03da0abc0ccc43877d92f213b6e76, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 38fee71103623e449ba1025f5a710a0c, type: 3}
-    level: 0
-    name: 88
-    type: 1
-    burst: 89
-    parameter:
-      type: 1
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 1
-      penetrate: 1
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 9
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 6859095b58d627c4f94be0ac7fb1fb67, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 10
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 0
-      value: 0.3
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 97d5b566e76c9e9488b2ddae81996d5a, type: 3}
-    level: 0
-    name: 89
-    type: 2
-    burst: 0
-    parameter:
-      type: 1
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 1
-      penetrate: 1
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 20
-      elementGaugeMax: 80
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: c39f2f6472759ea47a670e3702797180, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: f3180e7b0fd811a4589df05e3c791443, type: 3}
-    level: 0
-    name: 90
-    type: 0
-    burst: 0
-    parameter:
-      type: 0
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 1
-      penetrate: 1
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 1
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: fa12562a5978bf8488438739878decd9, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 10
-      value: 0.2
-    - name: 0
-      value: 0.2
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 959a98c1cdbf95b468ac2ce58a140554, type: 3}
-    level: 0
-    name: 91
-    type: 1
-    burst: 92
-    parameter:
-      type: 6
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 1
-      penetrate: 1
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0.5
-      count: 0
-      coolTime: 6
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 5eb0dee4fcda6cf4b9159464b8011c25, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 10
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: f688110569d2f2e42805dcaef4f8711d, type: 3}
-    level: 0
-    name: 92
-    type: 2
-    burst: 0
-    parameter:
-      type: 6
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 1
-      penetrate: 1
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 20
-      elementGaugeMax: 80
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 0ee019c02d4f3d14bbb03f844e2f4f8c, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: a263a77316105ad4bbdb237241f8d7ed, type: 3}
-    level: 0
-    name: 93
-    type: 1
-    burst: 94
-    parameter:
-      type: 3
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 1
-      penetrate: 1
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 5
-      magnet: 2
-      magnetSpeed: 3
-      skillTick: 0
-      count: 0
-      coolTime: 9
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: ffb3ee88bcf32364a89d8c195e0e0be8, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 6
-      value: 0.2
-    - name: 7
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 10
-      value: 0.2
-    - name: 3
-      value: 0.2
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 0b2135891533cd349bc80643f97d454e, type: 3}
-    level: 0
-    name: 94
-    type: 2
-    burst: 0
-    parameter:
-      type: 3
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 1
-      penetrate: 1
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 15
-      elementGaugeMax: 60
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 4815300cac76a4e4cadbde124ade6cc1, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 91ab9e097d745774c88292e83f8b157b, type: 3}
-    level: 0
-    name: 95
-    type: 4
-    burst: 0
-    parameter:
-      type: 0
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 1
-      penetrate: 1
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 5
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: f713ed96796a7d843ab1b0f57e9d1453, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 91ab9e097d745774c88292e83f8b157b, type: 3}
-    level: 0
-    name: 96
-    type: 4
-    burst: 0
-    parameter:
-      type: 0
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 1
-      penetrate: 1
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 2000
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: f713ed96796a7d843ab1b0f57e9d1453, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 91ab9e097d745774c88292e83f8b157b, type: 3}
-    level: 0
-    name: 97
-    type: 4
-    burst: 0
-    parameter:
-      type: 0
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 1
-      penetrate: 9999
-      area: 1
-      duration: 1
-      speed: 10
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 1
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: a08ab1aed303cdb4aac4d8fc1feced38, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 91ab9e097d745774c88292e83f8b157b, type: 3}
-    level: 0
-    name: 98
-    type: 4
-    burst: 0
-    parameter:
-      type: 0
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 1
-      penetrate: 9999
-      area: 1
-      duration: 1
-      speed: 10
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 2
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: afdb5a68ab65dd24da9fd56b81f55350, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 91ab9e097d745774c88292e83f8b157b, type: 3}
-    level: 0
-    name: 99
-    type: 4
-    burst: 0
-    parameter:
-      type: 0
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 1
-      penetrate: 4
-      area: 1
-      duration: 1
-      speed: 10
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 10
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 536ccb3ae0ac91a459839e8431993d9c, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 91ab9e097d745774c88292e83f8b157b, type: 3}
-    level: 0
-    name: 100
-    type: 4
-    burst: 0
-    parameter:
-      type: 0
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 1
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 10
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 30
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 137599b6e66ba9d46bbc3d27ad8afaa4, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 0}
-    level: 0
-    name: 101
-    type: 4
-    burst: 0
-    parameter:
-      type: 0
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 1
-      penetrate: 1
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 0
-      magnet: 2
-      magnetSpeed: 0.5
-      skillTick: 0.5
-      count: 0
-      coolTime: 20
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: f25d4c2349e27904590b336337aa3899, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 91ab9e097d745774c88292e83f8b157b, type: 3}
-    level: 0
-    name: 102
-    type: 4
-    burst: 0
-    parameter:
-      type: 0
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 1
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 10
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 10
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: fc3edea01757cc84f9bf10d043d7f8c0, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 91ab9e097d745774c88292e83f8b157b, type: 3}
-    level: 0
-    name: 103
-    type: 4
-    burst: 0
-    parameter:
-      type: 0
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 1
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 9999
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 82544b7ed2b64964d95e51e573bb6d65, type: 2}
-    skillUps: []
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 92ce7529781395844b61ebd84cb1bde6, type: 3}
-    level: 0
-    name: 104
-    type: 1
-    burst: 105
-    parameter:
-      type: 7
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 1
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0
-      count: 0
-      coolTime: 8
-      elementGaugeMax: 0
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: 41b3baa169daf3b4ca160c09ba76eb2c, type: 2}
-    skillUps:
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 10
-      value: 0.2
-    - name: 0
-      value: 0.3
-    - name: 2
-      value: 0.2
-    - name: 0
-      value: 0.3
-    changeElementType: 0
-  - icon: {fileID: 21300000, guid: 6deb8ada319b18a43a3bff69104f9f37, type: 3}
-    level: 0
-    name: 105
-    type: 2
-    burst: 0
-    parameter:
-      type: 7
-      isTypeFix: 0
-      damage: 1
-      healPer: 1
-      sheildPer: 1
-      penetrate: 0
-      area: 1
-      duration: 1
-      speed: 0
-      knockBack: 0
-      magnet: 0
-      magnetSpeed: 0
-      skillTick: 0.5
-      count: 0
-      coolTime: 15
-      elementGaugeMax: 60
-      elementGauge: 0
-      isDebuffable: 0
-    skillSet: {fileID: 11400000, guid: d774cd50db7424d4386f6e3b5a25f702, type: 2}
-    skillUps: []
-    changeElementType: 0
   skillDefaults:
   - icon: {fileID: 21300000, guid: c49cd11851c2bbd49b67d9f262668a55, type: 3}
     level: 0
@@ -3492,6 +53,7 @@ MonoBehaviour:
       value: 0.3
     - name: 10
       value: 0.2
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: f3180e7b0fd811a4589df05e3c791443, type: 3}
     level: 0
@@ -3533,6 +95,7 @@ MonoBehaviour:
       value: 0.3
     - name: 2
       value: 0.2
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 6b07a230369fb674db0a7d35faba79b3, type: 3}
     level: 0
@@ -3574,6 +137,7 @@ MonoBehaviour:
       value: 0.3
     - name: 2
       value: 0.2
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 4120f7ae5b640d547a6bebb11a115825, type: 3}
     level: 0
@@ -3615,6 +179,7 @@ MonoBehaviour:
       value: 0.3
     - name: 4
       value: 0.2
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 67e1113aa434a22408d7482e0b8adafd, type: 3}
     level: 0
@@ -3656,6 +221,7 @@ MonoBehaviour:
       value: 0.3
     - name: 4
       value: 0.2
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 82b852ea795cff34c9cc6314bf810e6f, type: 3}
     level: 0
@@ -3697,6 +263,7 @@ MonoBehaviour:
       value: 0.2
     - name: 6
       value: 0.2
+    isDuplicate: 0
     changeElementType: 3
   - icon: {fileID: 21300000, guid: 0d824b9b9aea48941a521fa95fd6e563, type: 3}
     level: 0
@@ -3724,6 +291,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: 24668a6a5a9d90b4a8daad3da8c2cb20, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 3
   - icon: {fileID: 21300000, guid: b9323aa4c30d070418f55a989f8d51c6, type: 3}
     level: 0
@@ -3765,6 +333,7 @@ MonoBehaviour:
       value: 0.2
     - name: 0
       value: 0.3
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 11f83edccfc7fcf4d9935b7d8d9e1ecb, type: 3}
     level: 0
@@ -3792,6 +361,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: 29d820d5909c3b044879bb28b73de4fe, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 4d51ffbaa9ac4c7419a65ed4ac6e0225, type: 3}
     level: 0
@@ -3833,6 +403,7 @@ MonoBehaviour:
       value: 0.2
     - name: 0
       value: 0.3
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: e0a6e482fdaf25347be0a6e32125594e, type: 3}
     level: 0
@@ -3860,6 +431,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: 90af74078fbf20c4bb87f37411594688, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: e9ad0847a7afc4a48ad39e201ba43305, type: 3}
     level: 0
@@ -3901,6 +473,7 @@ MonoBehaviour:
       value: 0.3
     - name: 5
       value: 0.2
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 9c82bec673b4cc146acd61cf9254351b, type: 3}
     level: 0
@@ -3928,6 +501,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: cca9ba31e9248f749ab33648ff552604, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 668ab3d7053aa2340a83dc7a5e30afaa, type: 3}
     level: 0
@@ -3969,6 +543,7 @@ MonoBehaviour:
       value: 0.3
     - name: 0
       value: 0.3
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 43693b3fbcbf224409f81c32f1e71c52, type: 3}
     level: 0
@@ -3996,6 +571,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: a75340bce747c154daea10d0ae2bc28a, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 45b0b52aefa22de4b91fd3d23d385212, type: 3}
     level: 0
@@ -4037,6 +613,7 @@ MonoBehaviour:
       value: 0.2
     - name: 2
       value: 0.2
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 69df1b912426a654bbc475936bf5342f, type: 3}
     level: 0
@@ -4064,6 +641,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: 74e87a87ae605924e96cbd983ff0c2b7, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 256044139b509194ebe33eb0a8870777, type: 3}
     level: 0
@@ -4105,6 +683,7 @@ MonoBehaviour:
       value: 0.2
     - name: 11
       value: 0.2
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: f3c1597f2378ea646ba5584e64de67c5, type: 3}
     level: 0
@@ -4132,6 +711,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: 3e1ad47e076da2a44abee8b75ea304c2, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 934800b9efd3e324db2790fe377a9fa1, type: 3}
     level: 0
@@ -4173,6 +753,7 @@ MonoBehaviour:
       value: 0.2
     - name: 0
       value: 0.3
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 27608bf234e38ac41a3229ec083a1092, type: 3}
     level: 0
@@ -4200,6 +781,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: c6d919e90bf43b74ca5d6ad205ea167e, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: ba853c533d045ca4ca984f298ad8c3be, type: 3}
     level: 0
@@ -4241,6 +823,7 @@ MonoBehaviour:
       value: 0.2
     - name: 0
       value: 0.3
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: dabf52eb90573964b814c1eb9fa263be, type: 3}
     level: 0
@@ -4268,6 +851,7 @@ MonoBehaviour:
       isDebuffable: 1
     skillSet: {fileID: 11400000, guid: 328787f1e74b12d40abb18a27ac4777a, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 9da90ff56bc50874fb44d63431ab6606, type: 3}
     level: 0
@@ -4309,6 +893,7 @@ MonoBehaviour:
       value: 0.3
     - name: 7
       value: 0.2
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: b20aad10b54421443a667e77144f7896, type: 3}
     level: 0
@@ -4336,6 +921,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: e384c69fdfbb80a4599cd02c0834b54f, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 2dc95260c0b145d4c8924916e9190aca, type: 3}
     level: 0
@@ -4377,6 +963,7 @@ MonoBehaviour:
       value: 0.2
     - name: 0
       value: 0.3
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 8bb5339042e53cd4484a2aec11d13e4e, type: 3}
     level: 0
@@ -4404,6 +991,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: 0614e706d20c74e4a93da8ce9287a571, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 6fbc19334e5ca3841bd2359a50e9e174, type: 3}
     level: 0
@@ -4445,6 +1033,7 @@ MonoBehaviour:
       value: 0.2
     - name: 0
       value: 0.3
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 5e867f70ac5a6b746aa68c7efacf2842, type: 3}
     level: 0
@@ -4472,6 +1061,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: b0b6b17010e978746bf08d31817aba90, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 3
   - icon: {fileID: 21300000, guid: f61fe750369fdbb4599398ae98e0c8ed, type: 3}
     level: 0
@@ -4513,6 +1103,7 @@ MonoBehaviour:
       value: 0.2
     - name: 2
       value: 0.2
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 46c63c5802e71194285eb18f684ab826, type: 3}
     level: 0
@@ -4540,6 +1131,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: 49c01dd48102f6c4ebf409551db1a3d1, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: e267de593f1b08842b388d697ecb42d9, type: 3}
     level: 0
@@ -4581,6 +1173,7 @@ MonoBehaviour:
       value: 0.2
     - name: 5
       value: 0.2
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: bfbf9e9f19a7b2e4ea58bcce4ab7be8c, type: 3}
     level: 0
@@ -4608,6 +1201,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: 7ab96daf359e30545a020665ce493bc1, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: dde9762b4f489e145a06d47168ab72c0, type: 3}
     level: 0
@@ -4649,6 +1243,7 @@ MonoBehaviour:
       value: 0.2
     - name: 0
       value: 0.3
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 74a4f18eda4134b4a994d234cc411e70, type: 3}
     level: 0
@@ -4676,6 +1271,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: ceafb3c7b9ba3c04791093519f9d520f, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 11214d2e6d5368045a48b65104c96aed, type: 3}
     level: 0
@@ -4717,6 +1313,7 @@ MonoBehaviour:
       value: 0.2
     - name: 0
       value: 0.3
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: e76b3c3fd697d47429fe755927e10ed5, type: 3}
     level: 0
@@ -4744,6 +1341,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: 7c5ae24c631e5e148beef3cfb16f3b3d, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: c09942eb73a78a9459bec931a61f18f6, type: 3}
     level: 0
@@ -4785,6 +1383,7 @@ MonoBehaviour:
       value: 0.3
     - name: 2
       value: 0.2
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: d3772e91f9958cb47ade1a52b4846267, type: 3}
     level: 0
@@ -4812,6 +1411,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: 5bb335e80e1060948be49281170444fd, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 960b9fdc00a143e40a753876530c8790, type: 3}
     level: 0
@@ -4853,6 +1453,7 @@ MonoBehaviour:
       value: 0.2
     - name: 2
       value: 0.2
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 3a63818cc44960d4f83b9678e5cb06e5, type: 3}
     level: 0
@@ -4880,6 +1481,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: ad45d7cc4cdbf794bb0b89b73e75ce0f, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: d938d25583dbcd54a952ff991cda0951, type: 3}
     level: 0
@@ -4921,6 +1523,7 @@ MonoBehaviour:
       value: 0.2
     - name: 2
       value: 0.2
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: d938d25583dbcd54a952ff991cda0951, type: 3}
     level: 0
@@ -4948,6 +1551,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: eaea62e3924b2ae44be774253df555b8, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: e42a6db2a85c66e4f95df295ae916c21, type: 3}
     level: 0
@@ -4989,6 +1593,7 @@ MonoBehaviour:
       value: 0.2
     - name: 11
       value: 0.2
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 570bf6708cd7a984793dedc84186e2c2, type: 3}
     level: 0
@@ -5016,6 +1621,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: 0e50ff05af71b5c4f9b055146f0d949a, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 68c7b733fe24ba7448229ae24a9f7a3c, type: 3}
     level: 0
@@ -5057,6 +1663,7 @@ MonoBehaviour:
       value: 0.3
     - name: 2
       value: 0.2
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: d3defaf10dabcf5429b0d7e632b9469b, type: 3}
     level: 0
@@ -5084,6 +1691,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: 63d4a67edae702f499db7dd8a1779470, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 44b2244a2f523a74db4aff892872949a, type: 3}
     level: 0
@@ -5125,6 +1733,7 @@ MonoBehaviour:
       value: 0.2
     - name: 0
       value: 0.3
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 9eb2666b319821e4ebe2e9e50486c088, type: 3}
     level: 0
@@ -5152,6 +1761,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: a7f7ee58599697340b8ea9d1ccb39c6a, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 743ae972af3bf734b8fdd74bcfc73815, type: 3}
     level: 0
@@ -5179,6 +1789,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: 1a7065cd6d2a6cf4cb1fa309f7a92522, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 48bf8f73a509c4744a7651f507143d51, type: 3}
     level: 0
@@ -5206,6 +1817,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: a521e8439f81dac49aa6373179e7b352, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 3b8b660cd6f6bde40be75f57a01f723a, type: 3}
     level: 0
@@ -5233,6 +1845,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: 25eda995b1e5a4849b7191ed1dd305a1, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 93615e8170b43a8418a818614fedda54, type: 3}
     level: 0
@@ -5260,6 +1873,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: b1b672f49863a1d4a917f1b52b6ba712, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 5acf1ce3da0320a4d88371558080d3ce, type: 3}
     level: 0
@@ -5287,6 +1901,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: 2b3c2f435adb78a47bbc52c02cbaac60, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 0}
     level: 0
@@ -5314,6 +1929,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 0}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 0}
     level: 0
@@ -5341,6 +1957,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 0}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 0}
     level: 0
@@ -5368,6 +1985,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 0}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 0}
     level: 0
@@ -5395,6 +2013,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 0}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 4d8455941aa2d944e88087a70924b426, type: 3}
     level: 0
@@ -5422,6 +2041,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: 6879cf5b10269d3409bfbc994c5b09f5, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: c40de95c6c32cdb42b49bee88dd41639, type: 3}
     level: 0
@@ -5449,6 +2069,7 @@ MonoBehaviour:
       isDebuffable: 1
     skillSet: {fileID: 11400000, guid: 4200e03a68ed85e4d9df03839b39f895, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 2165864cafae7a14c8dd550702d9c380, type: 3}
     level: 0
@@ -5476,6 +2097,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: 1b6518f070d9b994d8e6323968a91423, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 0}
     level: 0
@@ -5503,6 +2125,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 0}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 0}
     level: 0
@@ -5530,6 +2153,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 0}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 0}
     level: 0
@@ -5557,6 +2181,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 0}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 67e1113aa434a22408d7482e0b8adafd, type: 3}
     level: 0
@@ -5598,6 +2223,7 @@ MonoBehaviour:
       value: 0.2
     - name: 2
       value: 0.2
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 67e1113aa434a22408d7482e0b8adafd, type: 3}
     level: 0
@@ -5639,6 +2265,7 @@ MonoBehaviour:
       value: 0.3
     - name: 10
       value: 0.2
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 6b5141ecb88466444abdaea373a2a79f, type: 3}
     level: 0
@@ -5680,6 +2307,7 @@ MonoBehaviour:
       value: 0.2
     - name: 2
       value: 0.3
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 40b2c2af5359cd844b4e7294b8b0f226, type: 3}
     level: 0
@@ -5707,6 +2335,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: 551b7652b6530c04cb6c4c3bc93766d8, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 54e54d0dcaf7ee147aca90882b089cc1, type: 3}
     level: 0
@@ -5748,6 +2377,7 @@ MonoBehaviour:
       value: 1
     - name: 8
       value: 1
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: f711a15bb2f06c649ada6efea161dde3, type: 3}
     level: 0
@@ -5775,6 +2405,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: d40f83dbfe83b9645a1264f193e97a11, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 29a2a39d33fff254293cc2acb210340c, type: 3}
     level: 0
@@ -5816,6 +2447,7 @@ MonoBehaviour:
       value: 0.2
     - name: 2
       value: 0.2
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 4735423ca9a4e9c4ca1574e1a0bd4668, type: 3}
     level: 0
@@ -5843,6 +2475,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: fbf4005c60732ec48b0dc7396cd7756f, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 861018f10293bf545b995903b055f597, type: 3}
     level: 0
@@ -5884,6 +2517,7 @@ MonoBehaviour:
       value: 0.3
     - name: 3
       value: 0.2
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: bd446b93dece5424f9857828f0b2bc33, type: 3}
     level: 0
@@ -5911,6 +2545,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: 2c74639b0d8c89647973dd57742dd7d7, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 3cb50360aaf1a0f489ac56f7ef8b8b77, type: 3}
     level: 0
@@ -5952,6 +2587,7 @@ MonoBehaviour:
       value: 0.2
     - name: 0
       value: 0.2
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 8ef8d722d9cd7cc4290d7da8509b53ae, type: 3}
     level: 0
@@ -5979,6 +2615,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: 099b9661801beb04abf0774dbda36db6, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 0e6dba5f295353d499c2fbda3c987d46, type: 3}
     level: 0
@@ -6020,6 +2657,7 @@ MonoBehaviour:
       value: 1
     - name: 0
       value: 0.2
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 15d774617acc4df459eb72f2cec95246, type: 3}
     level: 0
@@ -6061,6 +2699,7 @@ MonoBehaviour:
       value: 0.2
     - name: 3
       value: 0.2
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: b5389b7777762a4438e944c69047478f, type: 3}
     level: 0
@@ -6088,6 +2727,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: 06169057e4854e14da89961c3bcc241b, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 8113d6e4f30b6e44fb8a06405f17e02b, type: 3}
     level: 0
@@ -6129,6 +2769,7 @@ MonoBehaviour:
       value: 0.2
     - name: 0
       value: 0.3
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 0fe75ca7d9319b444a39ff4b73a7ac6e, type: 3}
     level: 0
@@ -6156,6 +2797,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: bbca4d860958f754ca5d590f1850a745, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 6b07a230369fb674db0a7d35faba79b3, type: 3}
     level: 0
@@ -6197,6 +2839,7 @@ MonoBehaviour:
       value: 0.2
     - name: 10
       value: 0.2
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: bd5fa202932fda940848aec3b84fc983, type: 3}
     level: 0
@@ -6238,6 +2881,7 @@ MonoBehaviour:
       value: 0.2
     - name: 5
       value: 0.2
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 46abb71c9d203ae488e85dc6e91bfaed, type: 3}
     level: 0
@@ -6265,6 +2909,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: f74dee15d9c59f54e95f2afd851421fa, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 8310d3b75f8c6d342bdcfc6df2b7ca49, type: 3}
     level: 0
@@ -6306,6 +2951,7 @@ MonoBehaviour:
       value: 0.2
     - name: 0
       value: 0.3
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 70fceeae3ea9bc044af8cf0e6c44082f, type: 3}
     level: 0
@@ -6333,6 +2979,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: 0ec03da0abc0ccc43877d92f213b6e76, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 38fee71103623e449ba1025f5a710a0c, type: 3}
     level: 0
@@ -6374,6 +3021,7 @@ MonoBehaviour:
       value: 0.3
     - name: 0
       value: 0.3
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 97d5b566e76c9e9488b2ddae81996d5a, type: 3}
     level: 0
@@ -6401,6 +3049,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: c39f2f6472759ea47a670e3702797180, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: f3180e7b0fd811a4589df05e3c791443, type: 3}
     level: 0
@@ -6442,6 +3091,7 @@ MonoBehaviour:
       value: 0.2
     - name: 0
       value: 0.2
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 959a98c1cdbf95b468ac2ce58a140554, type: 3}
     level: 0
@@ -6483,6 +3133,7 @@ MonoBehaviour:
       value: 0.3
     - name: 2
       value: 0.2
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: f688110569d2f2e42805dcaef4f8711d, type: 3}
     level: 0
@@ -6510,6 +3161,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: 0ee019c02d4f3d14bbb03f844e2f4f8c, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: a263a77316105ad4bbdb237241f8d7ed, type: 3}
     level: 0
@@ -6551,6 +3203,7 @@ MonoBehaviour:
       value: 0.2
     - name: 3
       value: 0.2
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 0b2135891533cd349bc80643f97d454e, type: 3}
     level: 0
@@ -6578,6 +3231,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: 4815300cac76a4e4cadbde124ade6cc1, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 91ab9e097d745774c88292e83f8b157b, type: 3}
     level: 0
@@ -6605,6 +3259,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: f713ed96796a7d843ab1b0f57e9d1453, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 91ab9e097d745774c88292e83f8b157b, type: 3}
     level: 0
@@ -6632,6 +3287,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: f713ed96796a7d843ab1b0f57e9d1453, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 91ab9e097d745774c88292e83f8b157b, type: 3}
     level: 0
@@ -6659,6 +3315,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: a08ab1aed303cdb4aac4d8fc1feced38, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 91ab9e097d745774c88292e83f8b157b, type: 3}
     level: 0
@@ -6686,6 +3343,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: afdb5a68ab65dd24da9fd56b81f55350, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 91ab9e097d745774c88292e83f8b157b, type: 3}
     level: 0
@@ -6713,6 +3371,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: 536ccb3ae0ac91a459839e8431993d9c, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 91ab9e097d745774c88292e83f8b157b, type: 3}
     level: 0
@@ -6740,8 +3399,9 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: 137599b6e66ba9d46bbc3d27ad8afaa4, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
-  - icon: {fileID: 0}
+  - icon: {fileID: 21300000, guid: 91ab9e097d745774c88292e83f8b157b, type: 3}
     level: 0
     name: 101
     type: 4
@@ -6767,6 +3427,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: f25d4c2349e27904590b336337aa3899, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 91ab9e097d745774c88292e83f8b157b, type: 3}
     level: 0
@@ -6794,6 +3455,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: fc3edea01757cc84f9bf10d043d7f8c0, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 91ab9e097d745774c88292e83f8b157b, type: 3}
     level: 0
@@ -6821,6 +3483,7 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: 82544b7ed2b64964d95e51e573bb6d65, type: 2}
     skillUps: []
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 92ce7529781395844b61ebd84cb1bde6, type: 3}
     level: 0
@@ -6862,6 +3525,7 @@ MonoBehaviour:
       value: 0.2
     - name: 0
       value: 0.3
+    isDuplicate: 0
     changeElementType: 0
   - icon: {fileID: 21300000, guid: 6deb8ada319b18a43a3bff69104f9f37, type: 3}
     level: 0
@@ -6889,4 +3553,1257 @@ MonoBehaviour:
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: d774cd50db7424d4386f6e3b5a25f702, type: 2}
     skillUps: []
+    isDuplicate: 0
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: c49cd11851c2bbd49b67d9f262668a55, type: 3}
+    level: 0
+    name: 108
+    type: 0
+    burst: 0
+    parameter:
+      type: 6
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0.2
+      count: 0
+      coolTime: 3
+      elementGaugeMax: 0
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: e5a69dffe0057a848a2f3178623c6df1, type: 2}
+    skillUps:
+    - name: 0
+      value: 0.3
+    - name: 9
+      value: 0.1
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 10
+      value: 0.2
+    - name: 0
+      value: 0.3
+    isDuplicate: 0
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: 62ccdb4192c65e44997584c97cfecb50, type: 3}
+    level: 0
+    name: 109
+    type: 1
+    burst: 110
+    parameter:
+      type: 6
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0
+      count: 0
+      coolTime: 10
+      elementGaugeMax: 0
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: c089f85f2a60c65468e3e8a8179b1e59, type: 2}
+    skillUps:
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: 393fcecb2ce8dde46948d54dd61404ec, type: 3}
+    level: 0
+    name: 110
+    type: 2
+    burst: 110
+    parameter:
+      type: 6
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0
+      count: 0
+      coolTime: 20
+      elementGaugeMax: 80
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: d748b0f7814134a448b516f6f34dd1ce, type: 2}
+    skillUps: []
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: 145d7cc183328e54f843d29070ade50e, type: 3}
+    level: 0
+    name: 111
+    type: 1
+    burst: 112
+    parameter:
+      type: 1
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 10
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0
+      count: 0
+      coolTime: 1
+      elementGaugeMax: 0
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: a5ce94005a6c56f4ba34a8a002ff3361, type: 2}
+    skillUps:
+    - name: 0
+      value: 0.3
+    - name: 1
+      value: 1
+    - name: 0
+      value: 0.3
+    - name: 0
+      value: 0.3
+    - name: 1
+      value: 1
+    - name: 0
+      value: 0.3
+    - name: 1
+      value: 1
+    - name: 0
+      value: 0.3
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: 5646d81d810b6de46a39b00b355244f1, type: 3}
+    level: 0
+    name: 112
+    type: 2
+    burst: 110
+    parameter:
+      type: 1
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0
+      count: 0
+      coolTime: 15
+      elementGaugeMax: 60
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: d5511fd51bbddc745a1f544fb5d5f0eb, type: 2}
+    skillUps: []
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: f1ee710a778affe4cbf8b117dab75f10, type: 3}
+    level: 0
+    name: 113
+    type: 1
+    burst: 114
+    parameter:
+      type: 3
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0.3
+      count: 0
+      coolTime: 20
+      elementGaugeMax: 0
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: f2159f7da9cb25240988c16b2c155333, type: 2}
+    skillUps:
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: 568f1cf8572b4f8448c2c8f4908bd9f5, type: 3}
+    level: 0
+    name: 114
+    type: 2
+    burst: 114
+    parameter:
+      type: 3
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0
+      count: 0
+      coolTime: 20
+      elementGaugeMax: 80
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: 0d7f1df403da3214b855a536203dc9ea, type: 2}
+    skillUps: []
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: 436d2b323f400c14a91b1049bef3ce01, type: 3}
+    level: 0
+    name: 115
+    type: 1
+    burst: 116
+    parameter:
+      type: 5
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0
+      count: 0
+      coolTime: 1.5
+      elementGaugeMax: 0
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: 7941a15c0672cf14581894557ff18e76, type: 2}
+    skillUps:
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: 46b816a8e02ff4540bcac1159a5659be, type: 3}
+    level: 0
+    name: 116
+    type: 2
+    burst: 115
+    parameter:
+      type: 5
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0
+      count: 0
+      coolTime: 20
+      elementGaugeMax: 999
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: eed7c67f82b0f484e8667e2f36d00c39, type: 2}
+    skillUps: []
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: b81a68d65b0230c43a39f06e7a934011, type: 3}
+    level: 0
+    name: 117
+    type: 1
+    burst: 118
+    parameter:
+      type: 5
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0
+      count: 0
+      coolTime: 10
+      elementGaugeMax: 0
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: f6096d562737b2e47ac9f78d384277bb, type: 2}
+    skillUps:
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: d9c5c6bc392e4254db90c818144569f2, type: 3}
+    level: 0
+    name: 118
+    type: 2
+    burst: 118
+    parameter:
+      type: 5
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0
+      count: 0
+      coolTime: 20
+      elementGaugeMax: 80
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: e20dfd3a07afa7f4997b2848dfe70255, type: 2}
+    skillUps: []
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: ba092f81b74e3f0459e085f8d008d7b3, type: 3}
+    level: 0
+    name: 119
+    type: 1
+    burst: 120
+    parameter:
+      type: 2
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0
+      count: 0
+      coolTime: 20
+      elementGaugeMax: 0
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: ee6ef0bb21c815843a26bfa989aa2ecc, type: 2}
+    skillUps:
+    - name: 11
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 11
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 11
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 11
+      value: 0.3
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: acceec400bb730e46a34c4f0ce3b9a30, type: 3}
+    level: 0
+    name: 120
+    type: 2
+    burst: 120
+    parameter:
+      type: 2
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0
+      count: 0
+      coolTime: 0.5
+      elementGaugeMax: 0
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: ddf9d3bfcd2aac54e9ec5f674c717c60, type: 2}
+    skillUps: []
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: f3180e7b0fd811a4589df05e3c791443, type: 3}
+    level: 0
+    name: 121
+    type: 0
+    burst: 123
+    parameter:
+      type: 0
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0
+      count: 0
+      coolTime: 10
+      elementGaugeMax: 0
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: 3c413d6c6ace3f5458bb63744b5f8842, type: 2}
+    skillUps:
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: f431a729da0f2f44bb97eedd60d29cb0, type: 3}
+    level: 0
+    name: 122
+    type: 1
+    burst: 123
+    parameter:
+      type: 7
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0
+      count: 0
+      coolTime: 10
+      elementGaugeMax: 0
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: 36281a828ee5ea04babc35fa42d1f91f, type: 2}
+    skillUps:
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: b4447279581f2b24baeb269e9cc6bae7, type: 3}
+    level: 0
+    name: 123
+    type: 2
+    burst: 123
+    parameter:
+      type: 7
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0
+      count: 0
+      coolTime: 0.5
+      elementGaugeMax: 0
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: bae4f2e131a9a7040a5a6cdc0b8cc731, type: 2}
+    skillUps: []
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: ae3bceea604b37440b8c984c9355016e, type: 3}
+    level: 0
+    name: 124
+    type: 1
+    burst: 125
+    parameter:
+      type: 7
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0
+      count: 0
+      coolTime: 10
+      elementGaugeMax: 0
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: 9e207e8d379b57f46b70db2fee198e80, type: 2}
+    skillUps:
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: 11bd7c68da2575146afbf42804314886, type: 3}
+    level: 0
+    name: 125
+    type: 2
+    burst: 125
+    parameter:
+      type: 7
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 1.5
+      count: 0
+      coolTime: 20
+      elementGaugeMax: 80
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: f1e692373e3c9124f829be6ee0f7e28a, type: 2}
+    skillUps: []
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: bb8e364f2bdb15a4a9b4c8959c34e85d, type: 3}
+    level: 0
+    name: 126
+    type: 1
+    burst: 127
+    parameter:
+      type: 1
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0
+      count: 0
+      coolTime: 15
+      elementGaugeMax: 0
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: 257b9273659d4d842a1a96e8123f59b9, type: 2}
+    skillUps:
+    - name: 0
+      value: 0.3
+    - name: 12
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 12
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 12
+      value: 0.2
+    - name: 0
+      value: 0.3
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: def979c86d489714798e79aba830135f, type: 3}
+    level: 0
+    name: 127
+    type: 2
+    burst: 127
+    parameter:
+      type: 1
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0
+      count: 0
+      coolTime: 20
+      elementGaugeMax: 80
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: f490fd474468eea4ba19bc5aec24642f, type: 2}
+    skillUps: []
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: 0c7ac7a23568d2547a56c13e0c238e86, type: 3}
+    level: 0
+    name: 128
+    type: 1
+    burst: 129
+    parameter:
+      type: 6
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0
+      count: 0
+      coolTime: 15
+      elementGaugeMax: 0
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: 5060103fa1fa22340adfcc9a283818fb, type: 2}
+    skillUps:
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: 31dc49afaccc94140bc870feda708747, type: 3}
+    level: 0
+    name: 129
+    type: 2
+    burst: 129
+    parameter:
+      type: 6
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 1
+      count: 0
+      coolTime: 20
+      elementGaugeMax: 80
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: 2aec168d40fa37349a402e2271f14f79, type: 2}
+    skillUps: []
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: 11cedae6ff22ab04db4f3e1e0ffc648c, type: 3}
+    level: 0
+    name: 130
+    type: 1
+    burst: 131
+    parameter:
+      type: 5
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0
+      count: 0
+      coolTime: 10
+      elementGaugeMax: 0
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: 10f4fc8cde7ad5442a30561d96c7c324, type: 2}
+    skillUps:
+    - name: 0
+      value: 0.3
+    - name: 10
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 10
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 10
+      value: 0.2
+    - name: 0
+      value: 0.3
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: 2dcaf91eb19c9b74998cd15e364c6f7b, type: 3}
+    level: 0
+    name: 131
+    type: 2
+    burst: 131
+    parameter:
+      type: 5
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0
+      count: 0
+      coolTime: 22
+      elementGaugeMax: 90
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: d806b527442774c468b346e6ea83a38b, type: 2}
+    skillUps: []
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: c2a04a9569b5b8f4bbdb07145ec18f5a, type: 3}
+    level: 0
+    name: 132
+    type: 1
+    burst: 133
+    parameter:
+      type: 2
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0
+      count: 0
+      coolTime: 1
+      elementGaugeMax: 0
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: 4f77dbfbf080ff24cb6f7e0f4ce98870, type: 2}
+    skillUps:
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: 0693d0aa70b645c4baa6be57baaa7b6f, type: 3}
+    level: 0
+    name: 133
+    type: 2
+    burst: 133
+    parameter:
+      type: 2
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 2
+      count: 0
+      coolTime: 20
+      elementGaugeMax: 80
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: 6568f76fe3bdbaf46b36d6d260748746, type: 2}
+    skillUps: []
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: 022d7eb383f121048a488548c8ead085, type: 3}
+    level: 0
+    name: 134
+    type: 1
+    burst: 135
+    parameter:
+      type: 7
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0
+      count: 0
+      coolTime: 9
+      elementGaugeMax: 0
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: e80ce211db3a11d469cec92577a10225, type: 2}
+    skillUps:
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: e9e9ea1b62a07e1429f97c2029684f14, type: 3}
+    level: 0
+    name: 135
+    type: 2
+    burst: 135
+    parameter:
+      type: 7
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0
+      count: 0
+      coolTime: 0.5
+      elementGaugeMax: 0
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: 6d0da09f0b653d641ab27ec4d5e97525, type: 2}
+    skillUps: []
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: 756572f318affea49bcf49d9f4d8636b, type: 3}
+    level: 0
+    name: 136
+    type: 1
+    burst: 137
+    parameter:
+      type: 2
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0
+      count: 0
+      coolTime: 10
+      elementGaugeMax: 0
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: 9707ba1185c423d46a442abdf97ba6ff, type: 2}
+    skillUps:
+    - name: 0
+      value: 0.3
+    - name: 10
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 10
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 10
+      value: 0.2
+    - name: 0
+      value: 0.3
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: a88240e311c3f014ab501c1c76c39249, type: 3}
+    level: 0
+    name: 137
+    type: 2
+    burst: 137
+    parameter:
+      type: 2
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 1
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0
+      count: 0
+      coolTime: 18
+      elementGaugeMax: 70
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: 7ad79bc55acf88c47b65da9e5f5eeeb5, type: 2}
+    skillUps: []
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: 67e1113aa434a22408d7482e0b8adafd, type: 3}
+    level: 0
+    name: 138
+    type: 0
+    burst: 140
+    parameter:
+      type: 3
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0
+      count: 0
+      coolTime: 1
+      elementGaugeMax: 0
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: 016cee005ac001c4583b47d395dd8905, type: 2}
+    skillUps:
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: 739fda880f225614b93f39f61b31e03e, type: 3}
+    level: 0
+    name: 139
+    type: 1
+    burst: 140
+    parameter:
+      type: 3
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0
+      count: 0
+      coolTime: 10
+      elementGaugeMax: 0
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: 12ffb814c8f828f4aafc686495541757, type: 2}
+    skillUps:
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: ea44f195dfab9744790ee07eb672bc89, type: 3}
+    level: 0
+    name: 140
+    type: 2
+    burst: 140
+    parameter:
+      type: 3
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0
+      count: 0
+      coolTime: 12
+      elementGaugeMax: 40
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: 86e60ab6b33f45941836700d61bff410, type: 2}
+    skillUps: []
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: 75f7d9bec5b6f2745b8138dd73c7d3fe, type: 3}
+    level: 0
+    name: 141
+    type: 1
+    burst: 142
+    parameter:
+      type: 5
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0
+      count: 0
+      coolTime: 15
+      elementGaugeMax: 0
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: 3de332eaf2f98f4409928cb8751f9fa3, type: 2}
+    skillUps:
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    - name: 2
+      value: 0.2
+    - name: 0
+      value: 0.3
+    isDuplicate: 1
+    changeElementType: 0
+  - icon: {fileID: 21300000, guid: 6f1e3006a8745a144893b4f6e778292b, type: 3}
+    level: 0
+    name: 142
+    type: 2
+    burst: 142
+    parameter:
+      type: 5
+      isTypeFix: 0
+      damage: 1
+      healPer: 1
+      sheildPer: 1
+      penetrate: 0
+      area: 1
+      duration: 1
+      speed: 0
+      knockBack: 0
+      magnet: 0
+      magnetSpeed: 0
+      skillTick: 0.3
+      count: 0
+      coolTime: 15
+      elementGaugeMax: 60
+      elementGauge: 0
+      isDebuffable: 0
+    skillSet: {fileID: 11400000, guid: e86fea63458883d4db07980f7cf7d120, type: 2}
+    skillUps: []
+    isDuplicate: 1
     changeElementType: 0

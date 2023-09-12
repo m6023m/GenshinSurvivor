@@ -119,6 +119,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 3
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -135,10 +148,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 20f388244d3add443b4f7d37ff0beddd
+      internalID: 1920128948
       vertices: []
       indices: 
       edges: []
@@ -156,10 +169,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: b5604b7622b3dc54c8f0899732a8cd02
+      internalID: -1420819897
       vertices: []
       indices: 
       edges: []
@@ -177,10 +190,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: b0dc210d595bf8447960f487ea2c6483
+      internalID: 2104631304
       vertices: []
       indices: 
       edges: []
@@ -198,10 +211,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 31098de74c249dd41b8a568b1ca7d4bc
+      internalID: -555514020
       vertices: []
       indices: 
       edges: []
@@ -219,10 +232,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 2d4e3e53d09dcac4984d57cc515766f9
+      internalID: 1628594645
       vertices: []
       indices: 
       edges: []
@@ -240,10 +253,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: e0f61a92682b2e8459cc78d71b46325a
+      internalID: -50895067
       vertices: []
       indices: 
       edges: []
@@ -261,10 +274,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 53b49a75c9138944d94b6ed4bc79175d
+      internalID: 36640861
       vertices: []
       indices: 
       edges: []
@@ -282,10 +295,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: e493ba4bb7d0b7a47ae5047e8c9361b4
+      internalID: -845058814
       vertices: []
       indices: 
       edges: []
@@ -303,10 +316,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: b8566f316f3f8014ab562809d756c595
+      internalID: 1640707991
       vertices: []
       indices: 
       edges: []
@@ -324,10 +337,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 1c93629b88728b2449d57a097fc6c96c
+      internalID: 466884589
       vertices: []
       indices: 
       edges: []
@@ -345,10 +358,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: d54d924a452724d47851d8bda4164eb6
+      internalID: 1174408722
       vertices: []
       indices: 
       edges: []
@@ -366,10 +379,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 56b0c5b20dab9b2499ad026bee74b692
+      internalID: 1485876035
       vertices: []
       indices: 
       edges: []
@@ -387,10 +400,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 7fbb4f4f86da6a742a0631fa95760f51
+      internalID: -704685612
       vertices: []
       indices: 
       edges: []
@@ -408,10 +421,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 92bcf90d5b63ab640b13fab035d2d86b
+      internalID: 154521072
       vertices: []
       indices: 
       edges: []
@@ -429,10 +442,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: bfb113e9d69ead84a963f687bced6a14
+      internalID: 1500058112
       vertices: []
       indices: 
       edges: []
@@ -450,10 +463,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 957b49372ff907049a7d535866c69be8
+      internalID: 2006763661
       vertices: []
       indices: 
       edges: []
@@ -471,10 +484,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 145ca8753800de745b0ad325ac89f12c
+      internalID: -1868479259
       vertices: []
       indices: 
       edges: []
@@ -492,10 +505,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 0a2713249319aca42b2db95cfa70b318
+      internalID: 211444670
       vertices: []
       indices: 
       edges: []
@@ -513,10 +526,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 7b68e8de1dcc4bc4a9e41f3d94a57bed
+      internalID: -911177028
       vertices: []
       indices: 
       edges: []
@@ -534,10 +547,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: ab0f566a426b5be4f874a06a3e62ae94
+      internalID: 459111463
       vertices: []
       indices: 
       edges: []
@@ -553,55 +566,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      : 0
-      Skill_EB_Kokomi_115x103_0: 0
-      Skill_EB_Kokomi_115x103_0_0: -8171207983550338796
-      Skill_EB_Kokomi_115x103_0_103: 1053452560102828629
-      Skill_EB_Kokomi_115x103_0_206: -2116304556625533093
-      Skill_EB_Kokomi_115x103_0_309: 7718993350164758798
-      Skill_EB_Kokomi_115x103_1: 0
-      Skill_EB_Kokomi_115x103_10: 0
-      Skill_EB_Kokomi_115x103_11: 0
-      Skill_EB_Kokomi_115x103_115_0: 7746321149725520226
-      Skill_EB_Kokomi_115x103_115_103: 164431802787703460
-      Skill_EB_Kokomi_115x103_115_206: -1141247969982382462
-      Skill_EB_Kokomi_115x103_115_309: -1891408325270806685
-      Skill_EB_Kokomi_115x103_12: 0
-      Skill_EB_Kokomi_115x103_13: 0
-      Skill_EB_Kokomi_115x103_14: 0
-      Skill_EB_Kokomi_115x103_15: 0
-      Skill_EB_Kokomi_115x103_16: 0
-      Skill_EB_Kokomi_115x103_17: 0
-      Skill_EB_Kokomi_115x103_18: 0
-      Skill_EB_Kokomi_115x103_19: 0
-      Skill_EB_Kokomi_115x103_2: 0
-      Skill_EB_Kokomi_115x103_20: 0
-      Skill_EB_Kokomi_115x103_21: 0
-      Skill_EB_Kokomi_115x103_22: 0
-      Skill_EB_Kokomi_115x103_230_0: 8232242075253874278
-      Skill_EB_Kokomi_115x103_230_103: 3484253208652379983
-      Skill_EB_Kokomi_115x103_230_206: 9052076445202811010
-      Skill_EB_Kokomi_115x103_230_309: -7462536448454649743
-      Skill_EB_Kokomi_115x103_24: 0
-      Skill_EB_Kokomi_115x103_25: 0
-      Skill_EB_Kokomi_115x103_26: 0
-      Skill_EB_Kokomi_115x103_27: 0
-      Skill_EB_Kokomi_115x103_28: 0
-      Skill_EB_Kokomi_115x103_3: 0
-      Skill_EB_Kokomi_115x103_345_0: -6968054671231765432
-      Skill_EB_Kokomi_115x103_345_103: 4290347664077513635
-      Skill_EB_Kokomi_115x103_345_206: -6872460661469650790
-      Skill_EB_Kokomi_115x103_345_309: -1636014347031335043
-      Skill_EB_Kokomi_115x103_4: 0
-      Skill_EB_Kokomi_115x103_460_0: 2324816218788016698
-      Skill_EB_Kokomi_115x103_460_103: -6604208494831566017
-      Skill_EB_Kokomi_115x103_460_206: 2220330634396381639
-      Skill_EB_Kokomi_115x103_460_309: 1145107342426323664
-      Skill_EB_Kokomi_115x103_5: 0
-      Skill_EB_Kokomi_115x103_6: 0
-      Skill_EB_Kokomi_115x103_7: 0
-      Skill_EB_Kokomi_115x103_8: 0
-      Skill_EB_Kokomi_115x103_9: 0
+      Skill_EB_Kokomi_115x103_0: -1143097986
+      Skill_EB_Kokomi_115x103_1: 1032132530
+      Skill_EB_Kokomi_115x103_10: -1350035588
+      Skill_EB_Kokomi_115x103_11: 419732410
+      Skill_EB_Kokomi_115x103_12: -1841541576
+      Skill_EB_Kokomi_115x103_13: -782770813
+      Skill_EB_Kokomi_115x103_14: 1029130299
+      Skill_EB_Kokomi_115x103_15: 1580168540
+      Skill_EB_Kokomi_115x103_16: -809282515
+      Skill_EB_Kokomi_115x103_17: -1067320284
+      Skill_EB_Kokomi_115x103_18: -393704607
+      Skill_EB_Kokomi_115x103_19: 1749618430
+      Skill_EB_Kokomi_115x103_2: 147993775
+      Skill_EB_Kokomi_115x103_3: 1258500143
+      Skill_EB_Kokomi_115x103_4: -533595169
+      Skill_EB_Kokomi_115x103_5: -1697478768
+      Skill_EB_Kokomi_115x103_6: -1216772337
+      Skill_EB_Kokomi_115x103_7: -2050654082
+      Skill_EB_Kokomi_115x103_8: -1318160786
+      Skill_EB_Kokomi_115x103_9: -1684168346
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -119,6 +119,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 3
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -126,7 +139,7 @@ TextureImporter:
       name: Skill_EB_Miko_Damage_223x197_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 223
         y: 591
         width: 223
         height: 197
@@ -135,10 +148,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: a2be9ad7ad0e09346bccb94f1b476daf
+      internalID: -572011703
       vertices: []
       indices: 
       edges: []
@@ -147,7 +160,7 @@ TextureImporter:
       name: Skill_EB_Miko_Damage_223x197_1
       rect:
         serializedVersion: 2
-        x: 223
+        x: 446
         y: 591
         width: 223
         height: 197
@@ -156,10 +169,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 8629414994411ce4eb5ccbca4152380d
+      internalID: -322814219
       vertices: []
       indices: 
       edges: []
@@ -168,7 +181,7 @@ TextureImporter:
       name: Skill_EB_Miko_Damage_223x197_2
       rect:
         serializedVersion: 2
-        x: 446
+        x: 669
         y: 591
         width: 223
         height: 197
@@ -177,10 +190,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: f1b040e012c23384a875f85e19746bbe
+      internalID: 348857773
       vertices: []
       indices: 
       edges: []
@@ -189,7 +202,7 @@ TextureImporter:
       name: Skill_EB_Miko_Damage_223x197_3
       rect:
         serializedVersion: 2
-        x: 669
+        x: 892
         y: 591
         width: 223
         height: 197
@@ -198,10 +211,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 55e660d5b045f9b40b74492dc87c4e34
+      internalID: 461613465
       vertices: []
       indices: 
       edges: []
@@ -210,8 +223,8 @@ TextureImporter:
       name: Skill_EB_Miko_Damage_223x197_4
       rect:
         serializedVersion: 2
-        x: 892
-        y: 591
+        x: 0
+        y: 394
         width: 223
         height: 197
       alignment: 0
@@ -219,10 +232,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 5420915f455bcde4b82dd1b6b25bf406
+      internalID: 707017983
       vertices: []
       indices: 
       edges: []
@@ -231,7 +244,7 @@ TextureImporter:
       name: Skill_EB_Miko_Damage_223x197_5
       rect:
         serializedVersion: 2
-        x: 0
+        x: 223
         y: 394
         width: 223
         height: 197
@@ -240,10 +253,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 1e313e919a3be5d479c51169dd9e6ecd
+      internalID: -86306717
       vertices: []
       indices: 
       edges: []
@@ -252,7 +265,7 @@ TextureImporter:
       name: Skill_EB_Miko_Damage_223x197_6
       rect:
         serializedVersion: 2
-        x: 223
+        x: 446
         y: 394
         width: 223
         height: 197
@@ -261,10 +274,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 9d71035a61fc84e4ab1a766ab95515fd
+      internalID: -1806126223
       vertices: []
       indices: 
       edges: []
@@ -273,7 +286,7 @@ TextureImporter:
       name: Skill_EB_Miko_Damage_223x197_7
       rect:
         serializedVersion: 2
-        x: 446
+        x: 669
         y: 394
         width: 223
         height: 197
@@ -282,10 +295,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 5c95cfe6ae11b6840a4f2bce46d21f9b
+      internalID: -533597091
       vertices: []
       indices: 
       edges: []
@@ -294,7 +307,7 @@ TextureImporter:
       name: Skill_EB_Miko_Damage_223x197_8
       rect:
         serializedVersion: 2
-        x: 669
+        x: 892
         y: 394
         width: 223
         height: 197
@@ -303,10 +316,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: efb17208699479b438a9853688fa5223
+      internalID: -1670994243
       vertices: []
       indices: 
       edges: []
@@ -315,8 +328,8 @@ TextureImporter:
       name: Skill_EB_Miko_Damage_223x197_9
       rect:
         serializedVersion: 2
-        x: 892
-        y: 394
+        x: 0
+        y: 197
         width: 223
         height: 197
       alignment: 0
@@ -324,10 +337,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 2a42ab07b29f2334180cb50b089cee35
+      internalID: -1781808433
       vertices: []
       indices: 
       edges: []
@@ -336,7 +349,7 @@ TextureImporter:
       name: Skill_EB_Miko_Damage_223x197_10
       rect:
         serializedVersion: 2
-        x: 0
+        x: 223
         y: 197
         width: 223
         height: 197
@@ -345,10 +358,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 3be7adc7ba740fd4aa97b9cc9599f75c
+      internalID: 560930552
       vertices: []
       indices: 
       edges: []
@@ -357,27 +370,6 @@ TextureImporter:
       name: Skill_EB_Miko_Damage_223x197_11
       rect:
         serializedVersion: 2
-        x: 223
-        y: 197
-        width: 223
-        height: 197
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_EB_Miko_Damage_223x197_12
-      rect:
-        serializedVersion: 2
         x: 446
         y: 197
         width: 223
@@ -387,16 +379,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: ef6af84ad85933f4b89b81b6531e707a
+      internalID: -1483882253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill_EB_Miko_Damage_223x197_13
+      name: Skill_EB_Miko_Damage_223x197_12
       rect:
         serializedVersion: 2
         x: 669
@@ -408,16 +400,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 14d1bef932f49a348af9160f30243fe0
+      internalID: -1480145703
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill_EB_Miko_Damage_223x197_14
+      name: Skill_EB_Miko_Damage_223x197_13
       rect:
         serializedVersion: 2
         x: 892
@@ -429,16 +421,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 1a8189f14fe3d5449b821387d9dc84fc
+      internalID: -839373217
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill_EB_Miko_Damage_223x197_15
+      name: Skill_EB_Miko_Damage_223x197_14
       rect:
         serializedVersion: 2
         x: 0
@@ -450,16 +442,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: cfb9740152aaefb4b8bac1e255f44e33
+      internalID: 762409966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill_EB_Miko_Damage_223x197_16
+      name: Skill_EB_Miko_Damage_223x197_15
       rect:
         serializedVersion: 2
         x: 223
@@ -471,16 +463,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 559fbd0c99fd0594696aea17b7bd8405
+      internalID: 785185457
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill_EB_Miko_Damage_223x197_17
+      name: Skill_EB_Miko_Damage_223x197_16
       rect:
         serializedVersion: 2
         x: 446
@@ -492,16 +484,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: c03472d64a540224d97113c5f3ced7ae
+      internalID: 6200583
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill_EB_Miko_Damage_223x197_18
+      name: Skill_EB_Miko_Damage_223x197_17
       rect:
         serializedVersion: 2
         x: 669
@@ -513,16 +505,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 253ea674483189343a46589244cfeb0b
+      internalID: 1938626409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill_EB_Miko_Damage_223x197_19
+      name: Skill_EB_Miko_Damage_223x197_18
       rect:
         serializedVersion: 2
         x: 892
@@ -534,10 +526,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: dd9d8e9a4d444264bb5ad5a69e4af14a
+      internalID: 1420478239
       vertices: []
       indices: 
       edges: []
@@ -553,54 +545,25 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      : 0
-      Skill_EB_Miko_Damage_223x197_0: 0
-      Skill_EB_Miko_Damage_223x197_0_0: 6235628827709762294
-      Skill_EB_Miko_Damage_223x197_0_197: 3266862631376881353
-      Skill_EB_Miko_Damage_223x197_0_394: -228011274577388449
-      Skill_EB_Miko_Damage_223x197_1: 0
-      Skill_EB_Miko_Damage_223x197_10: 0
-      Skill_EB_Miko_Damage_223x197_11: 0
-      Skill_EB_Miko_Damage_223x197_12: 0
-      Skill_EB_Miko_Damage_223x197_13: 0
-      Skill_EB_Miko_Damage_223x197_14: 0
-      Skill_EB_Miko_Damage_223x197_15: 0
-      Skill_EB_Miko_Damage_223x197_16: 0
-      Skill_EB_Miko_Damage_223x197_17: 0
-      Skill_EB_Miko_Damage_223x197_18: 0
-      Skill_EB_Miko_Damage_223x197_19: 0
-      Skill_EB_Miko_Damage_223x197_2: 0
-      Skill_EB_Miko_Damage_223x197_20: 0
-      Skill_EB_Miko_Damage_223x197_21: 0
-      Skill_EB_Miko_Damage_223x197_22: 0
-      Skill_EB_Miko_Damage_223x197_223_0: 6942351038964746331
-      Skill_EB_Miko_Damage_223x197_223_197: -4950607744925370548
-      Skill_EB_Miko_Damage_223x197_223_394: 6421338630633663865
-      Skill_EB_Miko_Damage_223x197_223_591: 6195663056302537367
-      Skill_EB_Miko_Damage_223x197_24: 0
-      Skill_EB_Miko_Damage_223x197_25: 0
-      Skill_EB_Miko_Damage_223x197_26: 0
-      Skill_EB_Miko_Damage_223x197_27: 0
-      Skill_EB_Miko_Damage_223x197_28: 0
-      Skill_EB_Miko_Damage_223x197_3: 0
-      Skill_EB_Miko_Damage_223x197_4: 0
-      Skill_EB_Miko_Damage_223x197_446_0: 7932396124356318
-      Skill_EB_Miko_Damage_223x197_446_197: -4637012166719040951
-      Skill_EB_Miko_Damage_223x197_446_394: -8681648666500859078
-      Skill_EB_Miko_Damage_223x197_446_591: -5171590431659445698
-      Skill_EB_Miko_Damage_223x197_5: 0
-      Skill_EB_Miko_Damage_223x197_6: 0
-      Skill_EB_Miko_Damage_223x197_669_0: 960367157826511471
-      Skill_EB_Miko_Damage_223x197_669_197: 1948436999107847048
-      Skill_EB_Miko_Damage_223x197_669_394: 3075697309501807912
-      Skill_EB_Miko_Damage_223x197_669_591: 3708642230443845917
-      Skill_EB_Miko_Damage_223x197_7: 0
-      Skill_EB_Miko_Damage_223x197_8: 0
-      Skill_EB_Miko_Damage_223x197_892_0: 4181058636995171298
-      Skill_EB_Miko_Damage_223x197_892_197: 1164921870323659260
-      Skill_EB_Miko_Damage_223x197_892_394: 3203413751658945002
-      Skill_EB_Miko_Damage_223x197_892_591: -7666576522263737691
-      Skill_EB_Miko_Damage_223x197_9: 0
+      Skill_EB_Miko_Damage_223x197_0: 210601959
+      Skill_EB_Miko_Damage_223x197_1: -1795340029
+      Skill_EB_Miko_Damage_223x197_10: 769017911
+      Skill_EB_Miko_Damage_223x197_11: -2030671839
+      Skill_EB_Miko_Damage_223x197_12: -1360570203
+      Skill_EB_Miko_Damage_223x197_13: -688944879
+      Skill_EB_Miko_Damage_223x197_14: -233817069
+      Skill_EB_Miko_Damage_223x197_15: -1648803
+      Skill_EB_Miko_Damage_223x197_16: 1806020670
+      Skill_EB_Miko_Damage_223x197_17: -292676811
+      Skill_EB_Miko_Damage_223x197_18: -741802525
+      Skill_EB_Miko_Damage_223x197_2: 668053649
+      Skill_EB_Miko_Damage_223x197_3: 1609892022
+      Skill_EB_Miko_Damage_223x197_4: 1671761337
+      Skill_EB_Miko_Damage_223x197_5: -1799087910
+      Skill_EB_Miko_Damage_223x197_6: -404999950
+      Skill_EB_Miko_Damage_223x197_7: -646376473
+      Skill_EB_Miko_Damage_223x197_8: 2005803167
+      Skill_EB_Miko_Damage_223x197_9: 1624786092
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

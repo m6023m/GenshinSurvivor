@@ -119,6 +119,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -135,10 +148,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 2d0316a49bb561743a4b4d4f1c0509cf
+      internalID: 1698464758
       vertices: []
       indices: 
       edges: []
@@ -156,10 +169,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 167c99bae6e8f67468d027e74fa86672
+      internalID: -2131425320
       vertices: []
       indices: 
       edges: []
@@ -177,10 +190,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: ddcc7dacb0989d14e9e15a305eb8e6aa
+      internalID: -1154049630
       vertices: []
       indices: 
       edges: []
@@ -198,10 +211,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: ca8fdf0230cf7b4438bc9b6d81d47eb2
+      internalID: -1795592772
       vertices: []
       indices: 
       edges: []
@@ -219,10 +232,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 39f50898075d2494c99bd537a70bf823
+      internalID: -467465822
       vertices: []
       indices: 
       edges: []
@@ -240,10 +253,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: e0dc0db893019414092029c15b23faef
+      internalID: 1906633222
       vertices: []
       indices: 
       edges: []
@@ -259,23 +272,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      : 0
-      Skill_E_Yoimiya_Arrow_23x107_0: 0
-      Skill_E_Yoimiya_Arrow_23x107_0_0: -1480782237431023059
-      Skill_E_Yoimiya_Arrow_23x107_0_107: -6959459111198068459
-      Skill_E_Yoimiya_Arrow_23x107_1: 0
-      Skill_E_Yoimiya_Arrow_23x107_10: 0
-      Skill_E_Yoimiya_Arrow_23x107_2: 0
-      Skill_E_Yoimiya_Arrow_23x107_23_0: -572598447106036166
-      Skill_E_Yoimiya_Arrow_23x107_23_107: 6043359656828760589
-      Skill_E_Yoimiya_Arrow_23x107_3: 0
-      Skill_E_Yoimiya_Arrow_23x107_4: 0
-      Skill_E_Yoimiya_Arrow_23x107_46_0: 3762017372367984247
-      Skill_E_Yoimiya_Arrow_23x107_46_107: -3884901924614256623
-      Skill_E_Yoimiya_Arrow_23x107_5: 0
-      Skill_E_Yoimiya_Arrow_23x107_6: 0
-      Skill_E_Yoimiya_Arrow_23x107_8: 0
-      Skill_E_Yoimiya_Arrow_23x107_9: 0
+      Skill_E_Yoimiya_Arrow_23x107_0: 1046082309
+      Skill_E_Yoimiya_Arrow_23x107_1: 55554009
+      Skill_E_Yoimiya_Arrow_23x107_2: -896989855
+      Skill_E_Yoimiya_Arrow_23x107_3: 1662205160
+      Skill_E_Yoimiya_Arrow_23x107_4: 638652897
+      Skill_E_Yoimiya_Arrow_23x107_5: 1559105282
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

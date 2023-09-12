@@ -119,6 +119,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 3
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -126,7 +139,7 @@ TextureImporter:
       name: Skill_E_Heizo_97x232_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 97
         y: 696
         width: 97
         height: 232
@@ -135,10 +148,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: c52cffa2188cb124288921b588f3c41b
+      internalID: 1876997299
       vertices: []
       indices: 
       edges: []
@@ -147,7 +160,7 @@ TextureImporter:
       name: Skill_E_Heizo_97x232_1
       rect:
         serializedVersion: 2
-        x: 97
+        x: 194
         y: 696
         width: 97
         height: 232
@@ -156,10 +169,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: dc8291e11a13f624183c897169c9b0db
+      internalID: -1609015822
       vertices: []
       indices: 
       edges: []
@@ -168,7 +181,7 @@ TextureImporter:
       name: Skill_E_Heizo_97x232_2
       rect:
         serializedVersion: 2
-        x: 194
+        x: 291
         y: 696
         width: 97
         height: 232
@@ -177,10 +190,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 201376391638838458d91f8e6e7e8872
+      internalID: -738145068
       vertices: []
       indices: 
       edges: []
@@ -189,7 +202,7 @@ TextureImporter:
       name: Skill_E_Heizo_97x232_3
       rect:
         serializedVersion: 2
-        x: 291
+        x: 388
         y: 696
         width: 97
         height: 232
@@ -198,10 +211,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 8af3d4761bdd3434f9dfbf5c9bef801d
+      internalID: -1793481661
       vertices: []
       indices: 
       edges: []
@@ -210,8 +223,8 @@ TextureImporter:
       name: Skill_E_Heizo_97x232_4
       rect:
         serializedVersion: 2
-        x: 388
-        y: 696
+        x: 0
+        y: 464
         width: 97
         height: 232
       alignment: 0
@@ -219,10 +232,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: baf83572f7748894487b2286abc55933
+      internalID: 531916750
       vertices: []
       indices: 
       edges: []
@@ -231,7 +244,7 @@ TextureImporter:
       name: Skill_E_Heizo_97x232_5
       rect:
         serializedVersion: 2
-        x: 0
+        x: 97
         y: 464
         width: 97
         height: 232
@@ -240,10 +253,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 29aa58b938dbe6640bc278276c6bbad9
+      internalID: -268404656
       vertices: []
       indices: 
       edges: []
@@ -252,7 +265,7 @@ TextureImporter:
       name: Skill_E_Heizo_97x232_6
       rect:
         serializedVersion: 2
-        x: 97
+        x: 194
         y: 464
         width: 97
         height: 232
@@ -261,10 +274,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: ab6deb371e8ba1340b991b3518e723de
+      internalID: -28756619
       vertices: []
       indices: 
       edges: []
@@ -273,7 +286,7 @@ TextureImporter:
       name: Skill_E_Heizo_97x232_7
       rect:
         serializedVersion: 2
-        x: 194
+        x: 291
         y: 464
         width: 97
         height: 232
@@ -282,10 +295,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 76e1dc60d87913a44b646659e20c204d
+      internalID: -1375112198
       vertices: []
       indices: 
       edges: []
@@ -294,7 +307,7 @@ TextureImporter:
       name: Skill_E_Heizo_97x232_8
       rect:
         serializedVersion: 2
-        x: 291
+        x: 388
         y: 464
         width: 97
         height: 232
@@ -303,10 +316,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: fc87d930176922e4692c58e1e70d49d4
+      internalID: 796144040
       vertices: []
       indices: 
       edges: []
@@ -315,8 +328,8 @@ TextureImporter:
       name: Skill_E_Heizo_97x232_9
       rect:
         serializedVersion: 2
-        x: 388
-        y: 464
+        x: 0
+        y: 232
         width: 97
         height: 232
       alignment: 0
@@ -324,10 +337,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: f8b95af650a308f408c127080057811a
+      internalID: -322329188
       vertices: []
       indices: 
       edges: []
@@ -336,27 +349,6 @@ TextureImporter:
       name: Skill_E_Heizo_97x232_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 232
-        width: 97
-        height: 232
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_E_Heizo_97x232_11
-      rect:
-        serializedVersion: 2
         x: 97
         y: 232
         width: 97
@@ -366,178 +358,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_E_Heizo_97x232_12
-      rect:
-        serializedVersion: 2
-        x: 194
-        y: 232
-        width: 97
-        height: 232
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_E_Heizo_97x232_13
-      rect:
-        serializedVersion: 2
-        x: 291
-        y: 232
-        width: 97
-        height: 232
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_E_Heizo_97x232_14
-      rect:
-        serializedVersion: 2
-        x: 388
-        y: 232
-        width: 97
-        height: 232
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_E_Heizo_97x232_15
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 97
-        height: 232
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_E_Heizo_97x232_16
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 0
-        width: 97
-        height: 232
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_E_Heizo_97x232_17
-      rect:
-        serializedVersion: 2
-        x: 194
-        y: 0
-        width: 97
-        height: 232
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_E_Heizo_97x232_18
-      rect:
-        serializedVersion: 2
-        x: 291
-        y: 0
-        width: 97
-        height: 232
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_E_Heizo_97x232_19
-      rect:
-        serializedVersion: 2
-        x: 388
-        y: 0
-        width: 97
-        height: 232
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 802b8dbdb763efb4ea0417a356654be3
+      internalID: -180518675
       vertices: []
       indices: 
       edges: []
@@ -553,38 +377,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      : 0
-      Skill_E_Heizo_97x232_0: 0
-      Skill_E_Heizo_97x232_0_232: 5645721922056204181
-      Skill_E_Heizo_97x232_0_464: 7020580036833641074
-      Skill_E_Heizo_97x232_1: 0
-      Skill_E_Heizo_97x232_10: 0
-      Skill_E_Heizo_97x232_11: 0
-      Skill_E_Heizo_97x232_12: 0
-      Skill_E_Heizo_97x232_13: 0
-      Skill_E_Heizo_97x232_14: 0
-      Skill_E_Heizo_97x232_15: 0
-      Skill_E_Heizo_97x232_16: 0
-      Skill_E_Heizo_97x232_17: 0
-      Skill_E_Heizo_97x232_18: 0
-      Skill_E_Heizo_97x232_19: 0
-      Skill_E_Heizo_97x232_194_464: 6352371909737446841
-      Skill_E_Heizo_97x232_194_696: 7450744955978631853
-      Skill_E_Heizo_97x232_2: 0
-      Skill_E_Heizo_97x232_291_464: 1229926392179549330
-      Skill_E_Heizo_97x232_291_696: 8890359305880229892
-      Skill_E_Heizo_97x232_3: 0
-      Skill_E_Heizo_97x232_388_464: 9161210886322759972
-      Skill_E_Heizo_97x232_388_696: -8442877598709828487
-      Skill_E_Heizo_97x232_4: 0
-      Skill_E_Heizo_97x232_5: 0
-      Skill_E_Heizo_97x232_6: 0
-      Skill_E_Heizo_97x232_7: 0
-      Skill_E_Heizo_97x232_8: 0
-      Skill_E_Heizo_97x232_9: 0
-      Skill_E_Heizo_97x232_97_232: -1665969841313158564
-      Skill_E_Heizo_97x232_97_464: 2591167751502184444
-      Skill_E_Heizo_97x232_97_696: 225122978487008618
+      Skill_E_Heizo_97x232_0: -723127609
+      Skill_E_Heizo_97x232_1: -1621814525
+      Skill_E_Heizo_97x232_10: -255852576
+      Skill_E_Heizo_97x232_2: -1326082540
+      Skill_E_Heizo_97x232_3: -655204341
+      Skill_E_Heizo_97x232_4: -2073154242
+      Skill_E_Heizo_97x232_5: -1648530457
+      Skill_E_Heizo_97x232_6: 355354778
+      Skill_E_Heizo_97x232_7: 875441836
+      Skill_E_Heizo_97x232_8: -111862830
+      Skill_E_Heizo_97x232_9: -1919279050
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

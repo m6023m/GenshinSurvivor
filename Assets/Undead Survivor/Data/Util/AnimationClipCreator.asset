@@ -49,5 +49,5 @@ MonoBehaviour:
   - {fileID: 2800000, guid: 6702a7ababbd3d443a7e7e39e2aa325e, type: 3}
   - {fileID: 2800000, guid: 285f9f9fd7e5d85439a1e18e6f08fa1b, type: 3}
   - {fileID: 2800000, guid: 119bca64f1319e345a093937de4448ca, type: 3}
-  framesPerSecond: 100
+  framesPerSecond: 12
   saveFolderPath: Assets/Undead Survivor/Animations/Skills

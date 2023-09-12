@@ -119,6 +119,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 3
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -126,7 +139,7 @@ TextureImporter:
       name: Skill_E_Yelan_212x118_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 212
         y: 354
         width: 212
         height: 118
@@ -135,10 +148,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: f8ec94b189c542f40815cf655f28b598
+      internalID: 1416023409
       vertices: []
       indices: 
       edges: []
@@ -147,7 +160,7 @@ TextureImporter:
       name: Skill_E_Yelan_212x118_1
       rect:
         serializedVersion: 2
-        x: 212
+        x: 424
         y: 354
         width: 212
         height: 118
@@ -156,10 +169,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: a3d68904aa184c840a2aa75c282ad1d2
+      internalID: 579769240
       vertices: []
       indices: 
       edges: []
@@ -168,7 +181,7 @@ TextureImporter:
       name: Skill_E_Yelan_212x118_2
       rect:
         serializedVersion: 2
-        x: 424
+        x: 636
         y: 354
         width: 212
         height: 118
@@ -177,10 +190,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 79c99439b5ffbbc4db5685217358c0f6
+      internalID: 1269749309
       vertices: []
       indices: 
       edges: []
@@ -189,7 +202,7 @@ TextureImporter:
       name: Skill_E_Yelan_212x118_3
       rect:
         serializedVersion: 2
-        x: 636
+        x: 848
         y: 354
         width: 212
         height: 118
@@ -198,10 +211,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: f83ae99077e6cbf40887da4bda7e6bfd
+      internalID: -1728815435
       vertices: []
       indices: 
       edges: []
@@ -210,8 +223,8 @@ TextureImporter:
       name: Skill_E_Yelan_212x118_4
       rect:
         serializedVersion: 2
-        x: 848
-        y: 354
+        x: 0
+        y: 236
         width: 212
         height: 118
       alignment: 0
@@ -219,10 +232,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 68c4307e428c9eb409410a430ba2ec3b
+      internalID: 1095339186
       vertices: []
       indices: 
       edges: []
@@ -231,7 +244,7 @@ TextureImporter:
       name: Skill_E_Yelan_212x118_5
       rect:
         serializedVersion: 2
-        x: 0
+        x: 212
         y: 236
         width: 212
         height: 118
@@ -240,10 +253,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 9bcb1d9133285b04bab7529732107988
+      internalID: 813690758
       vertices: []
       indices: 
       edges: []
@@ -252,7 +265,7 @@ TextureImporter:
       name: Skill_E_Yelan_212x118_6
       rect:
         serializedVersion: 2
-        x: 212
+        x: 424
         y: 236
         width: 212
         height: 118
@@ -261,10 +274,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: b80021d371180914c915bb1fb987a98b
+      internalID: 902844442
       vertices: []
       indices: 
       edges: []
@@ -273,7 +286,7 @@ TextureImporter:
       name: Skill_E_Yelan_212x118_7
       rect:
         serializedVersion: 2
-        x: 424
+        x: 636
         y: 236
         width: 212
         height: 118
@@ -282,10 +295,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 6c5c8f07c3f62504ca273295f391400f
+      internalID: 1401898287
       vertices: []
       indices: 
       edges: []
@@ -294,7 +307,7 @@ TextureImporter:
       name: Skill_E_Yelan_212x118_8
       rect:
         serializedVersion: 2
-        x: 636
+        x: 848
         y: 236
         width: 212
         height: 118
@@ -303,10 +316,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 870bb1a9354724e4e89e6b9ad6c9f1a1
+      internalID: -293316846
       vertices: []
       indices: 
       edges: []
@@ -315,8 +328,8 @@ TextureImporter:
       name: Skill_E_Yelan_212x118_9
       rect:
         serializedVersion: 2
-        x: 848
-        y: 236
+        x: 0
+        y: 118
         width: 212
         height: 118
       alignment: 0
@@ -324,10 +337,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: a6a9e40230df8b7468630d5097bcdf72
+      internalID: 1830668765
       vertices: []
       indices: 
       edges: []
@@ -336,7 +349,7 @@ TextureImporter:
       name: Skill_E_Yelan_212x118_10
       rect:
         serializedVersion: 2
-        x: 0
+        x: 212
         y: 118
         width: 212
         height: 118
@@ -345,10 +358,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 8a1a5c7eed6140c4f901444cd8ef1f8f
+      internalID: 679252064
       vertices: []
       indices: 
       edges: []
@@ -357,27 +370,6 @@ TextureImporter:
       name: Skill_E_Yelan_212x118_11
       rect:
         serializedVersion: 2
-        x: 212
-        y: 118
-        width: 212
-        height: 118
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_E_Yelan_212x118_12
-      rect:
-        serializedVersion: 2
         x: 424
         y: 118
         width: 212
@@ -387,16 +379,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 281eaa9431187f44aada95ea34b00ebc
+      internalID: 1425108603
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill_E_Yelan_212x118_13
+      name: Skill_E_Yelan_212x118_12
       rect:
         serializedVersion: 2
         x: 636
@@ -408,16 +400,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: e4c741c203509c940accdd1c4e298a69
+      internalID: 124928279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill_E_Yelan_212x118_14
+      name: Skill_E_Yelan_212x118_13
       rect:
         serializedVersion: 2
         x: 848
@@ -429,16 +421,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 40da49d68b331354798c40639ec9514a
+      internalID: -572139518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill_E_Yelan_212x118_15
+      name: Skill_E_Yelan_212x118_14
       rect:
         serializedVersion: 2
         x: 0
@@ -450,16 +442,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 6384142e0bc9598459e1228d9513496b
+      internalID: 274249049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill_E_Yelan_212x118_16
+      name: Skill_E_Yelan_212x118_15
       rect:
         serializedVersion: 2
         x: 212
@@ -471,16 +463,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 9f47f28c6e01a3c4a8e5307df290ab0a
+      internalID: -878139481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill_E_Yelan_212x118_17
+      name: Skill_E_Yelan_212x118_16
       rect:
         serializedVersion: 2
         x: 424
@@ -492,16 +484,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: fb3af47daa824aa489b376948dff4538
+      internalID: -1760448456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill_E_Yelan_212x118_18
+      name: Skill_E_Yelan_212x118_17
       rect:
         serializedVersion: 2
         x: 636
@@ -513,16 +505,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: e79dfc5b65fe45446b75e815817e8768
+      internalID: -240225918
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill_E_Yelan_212x118_19
+      name: Skill_E_Yelan_212x118_18
       rect:
         serializedVersion: 2
         x: 848
@@ -534,10 +526,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: aa7ad883b29da8942a7e27de32433ecd
+      internalID: -131296571
       vertices: []
       indices: 
       edges: []
@@ -553,55 +545,25 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      : 0
-      Skill_E_Yelan_212x118_0: 0
-      Skill_E_Yelan_212x118_0_0: 3029753331860085004
-      Skill_E_Yelan_212x118_0_118: -906985952814061284
-      Skill_E_Yelan_212x118_0_236: 2174876678286895176
-      Skill_E_Yelan_212x118_0_354: 6513894423301705009
-      Skill_E_Yelan_212x118_1: 0
-      Skill_E_Yelan_212x118_10: 0
-      Skill_E_Yelan_212x118_11: 0
-      Skill_E_Yelan_212x118_12: 0
-      Skill_E_Yelan_212x118_13: 0
-      Skill_E_Yelan_212x118_14: 0
-      Skill_E_Yelan_212x118_15: 0
-      Skill_E_Yelan_212x118_16: 0
-      Skill_E_Yelan_212x118_17: 0
-      Skill_E_Yelan_212x118_18: 0
-      Skill_E_Yelan_212x118_19: 0
-      Skill_E_Yelan_212x118_2: 0
-      Skill_E_Yelan_212x118_20: 0
-      Skill_E_Yelan_212x118_21: 0
-      Skill_E_Yelan_212x118_212_0: 2536392328190632755
-      Skill_E_Yelan_212x118_212_118: 5594660208636882772
-      Skill_E_Yelan_212x118_212_236: 2643629535811015442
-      Skill_E_Yelan_212x118_212_354: 503200228047931178
-      Skill_E_Yelan_212x118_22: 0
-      Skill_E_Yelan_212x118_24: 0
-      Skill_E_Yelan_212x118_25: 0
-      Skill_E_Yelan_212x118_26: 0
-      Skill_E_Yelan_212x118_27: 0
-      Skill_E_Yelan_212x118_28: 0
-      Skill_E_Yelan_212x118_3: 0
-      Skill_E_Yelan_212x118_4: 0
-      Skill_E_Yelan_212x118_424_0: 6364112244342516639
-      Skill_E_Yelan_212x118_424_118: 6993960921115827221
-      Skill_E_Yelan_212x118_424_236: -1151241769260197068
-      Skill_E_Yelan_212x118_424_354: 330086424179506824
-      Skill_E_Yelan_212x118_5: 0
-      Skill_E_Yelan_212x118_6: 0
-      Skill_E_Yelan_212x118_636_0: -4697699019988312171
-      Skill_E_Yelan_212x118_636_118: 7209304543458186299
-      Skill_E_Yelan_212x118_636_236: 1875657358160715554
-      Skill_E_Yelan_212x118_636_354: 3120084435857245371
-      Skill_E_Yelan_212x118_7: 0
-      Skill_E_Yelan_212x118_8: 0
-      Skill_E_Yelan_212x118_848_0: -3119659278581471943
-      Skill_E_Yelan_212x118_848_118: -4473186922502680500
-      Skill_E_Yelan_212x118_848_236: 256706349059926990
-      Skill_E_Yelan_212x118_848_354: 286169867308215596
-      Skill_E_Yelan_212x118_9: 0
+      Skill_E_Yelan_212x118_0: -936738458
+      Skill_E_Yelan_212x118_1: -958679686
+      Skill_E_Yelan_212x118_10: 706446784
+      Skill_E_Yelan_212x118_11: -1313838960
+      Skill_E_Yelan_212x118_12: 1878424370
+      Skill_E_Yelan_212x118_13: -473432986
+      Skill_E_Yelan_212x118_14: -2008441570
+      Skill_E_Yelan_212x118_15: -36360026
+      Skill_E_Yelan_212x118_16: -1258810783
+      Skill_E_Yelan_212x118_17: -708904426
+      Skill_E_Yelan_212x118_18: -484645560
+      Skill_E_Yelan_212x118_2: -299103714
+      Skill_E_Yelan_212x118_3: 21155065
+      Skill_E_Yelan_212x118_4: 535296890
+      Skill_E_Yelan_212x118_5: 1503378514
+      Skill_E_Yelan_212x118_6: -279570609
+      Skill_E_Yelan_212x118_7: 1710840273
+      Skill_E_Yelan_212x118_8: -1655013856
+      Skill_E_Yelan_212x118_9: 1922443286
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

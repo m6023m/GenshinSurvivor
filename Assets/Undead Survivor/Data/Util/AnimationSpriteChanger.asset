@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: AnimationSpriteChanger
   m_EditorClassIdentifier: 
   animationClips:
-  - {fileID: 7400000, guid: af830314f538fc146847a77c433d8a35, type: 2}
-  - {fileID: 7400000, guid: cba2f95315210d345b175794cf6f4609, type: 2}
-  - {fileID: 7400000, guid: 5e61134fa4ee39a44ab39b5f00090321, type: 2}
+  - {fileID: 7400000, guid: ff6f505be02556d4d94296a37f0ba926, type: 2}
+  - {fileID: 7400000, guid: 9ee9b62d9c0d2ed4bbf5c4764caf184f, type: 2}
+  - {fileID: 7400000, guid: 58e18c79db5b9a649adb12c79701392c, type: 2}
   spritesPerClip: 020000000400000005000000
   newSprites: []
   useEmptyForExcessFrames: 1

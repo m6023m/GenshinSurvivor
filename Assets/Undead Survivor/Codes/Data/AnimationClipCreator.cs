@@ -25,21 +25,31 @@ public class AnimationCreator : ScriptableObject
         {
             var sprites = AssetDatabase.LoadAllAssetsAtPath(AssetDatabase.GetAssetPath(texture));
             AnimationClip clip = new AnimationClip();
-            EditorCurveBinding spriteBinding = new EditorCurveBinding();
-            spriteBinding.type = typeof(SpriteRenderer);
-            spriteBinding.path = "";
-            spriteBinding.propertyName = "m_Sprite";
+            EditorCurveBinding spriteBinding = new EditorCurveBinding
+            {
+                type = typeof(SpriteRenderer),
+                path = "",
+                propertyName = "m_Sprite"
+            };
 
             ObjectReferenceKeyframe[] spriteKeyFrames = new ObjectReferenceKeyframe[sprites.Length];
             for (int i = 0; i < (sprites.Length - 1); i++)
             {
-                spriteKeyFrames[i] = new ObjectReferenceKeyframe();
-                spriteKeyFrames[i].time = i * (1.0f / framesPerSecond);
-                spriteKeyFrames[i].value = sprites[i + 1];
+                spriteKeyFrames[i] = new ObjectReferenceKeyframe
+                {
+                    time = i * (1.0f / framesPerSecond),
+                    value = sprites[i + 1]
+                };
             }
+
+            spriteKeyFrames[sprites.Length - 1] = new ObjectReferenceKeyframe
+            {
+                time = (sprites.Length - 1) * (1.0f / framesPerSecond)
+            };
+
             AnimationUtility.SetObjectReferenceCurve(clip, spriteBinding, spriteKeyFrames);
 
-            AssetDatabase.CreateAsset(clip, saveFolderPath +  "/" + RemoveSizeSuffix(texture.name) + ".anim");
+            AssetDatabase.CreateAsset(clip, saveFolderPath + "/" + RemoveSizeSuffix(texture.name) + ".anim");
         }
 #endif
     }

@@ -119,6 +119,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 3
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -135,10 +148,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: a7e831d2ed20909438598e06363f5d7c
+      internalID: -827795991
       vertices: []
       indices: 
       edges: []
@@ -156,10 +169,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: ecbba1a1bfda23642acca088a1baff6d
+      internalID: 1376338718
       vertices: []
       indices: 
       edges: []
@@ -177,10 +190,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 3d70c8e6a661f364cb933f43920ab5af
+      internalID: -989951982
       vertices: []
       indices: 
       edges: []
@@ -198,10 +211,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 79300f2299ddaa44784dd44c41eccc19
+      internalID: -1076541529
       vertices: []
       indices: 
       edges: []
@@ -219,94 +232,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_E_Ayato_162x104_5
-      rect:
-        serializedVersion: 2
-        x: 162
-        y: 104
-        width: 162
-        height: 104
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_E_Ayato_162x104_6
-      rect:
-        serializedVersion: 2
-        x: 324
-        y: 104
-        width: 162
-        height: 104
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_E_Ayato_162x104_7
-      rect:
-        serializedVersion: 2
-        x: 486
-        y: 104
-        width: 162
-        height: 104
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_E_Ayato_162x104_8
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 162
-        height: 104
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: d3852c71593dd5244940bb3fd1112ba7
+      internalID: -588907212
       vertices: []
       indices: 
       edges: []
@@ -315,48 +244,6 @@ TextureImporter:
       name: Skill_E_Ayato_162x104_9
       rect:
         serializedVersion: 2
-        x: 162
-        y: 0
-        width: 162
-        height: 104
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_E_Ayato_162x104_10
-      rect:
-        serializedVersion: 2
-        x: 324
-        y: 0
-        width: 162
-        height: 104
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_E_Ayato_162x104_11
-      rect:
-        serializedVersion: 2
         x: 486
         y: 0
         width: 162
@@ -366,10 +253,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: b46fda3b21117984ca20877a9ba733f7
+      internalID: -1115590568
       vertices: []
       indices: 
       edges: []
@@ -385,35 +272,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      : 0
-      Skill_E_Ayato_162x104_0: 0
-      Skill_E_Ayato_162x104_0_0: 3393866084482565689
-      Skill_E_Ayato_162x104_0_104: 2690517258922163803
-      Skill_E_Ayato_162x104_0_208: -8370822623250375494
-      Skill_E_Ayato_162x104_1: 0
-      Skill_E_Ayato_162x104_10: 0
-      Skill_E_Ayato_162x104_11: 0
-      Skill_E_Ayato_162x104_13: 0
-      Skill_E_Ayato_162x104_15: 0
-      Skill_E_Ayato_162x104_16: 0
-      Skill_E_Ayato_162x104_162_0: -7841224149597143275
-      Skill_E_Ayato_162x104_162_104: 4982051142858948364
-      Skill_E_Ayato_162x104_162_208: -7196850195734104339
-      Skill_E_Ayato_162x104_17: 0
-      Skill_E_Ayato_162x104_2: 0
-      Skill_E_Ayato_162x104_3: 0
-      Skill_E_Ayato_162x104_324_0: -2877094124665168043
-      Skill_E_Ayato_162x104_324_104: 1392817499179032523
-      Skill_E_Ayato_162x104_324_208: -3325529358826975123
-      Skill_E_Ayato_162x104_4: 0
-      Skill_E_Ayato_162x104_486_0: -7661391330729552508
-      Skill_E_Ayato_162x104_486_104: -6618934213869767010
-      Skill_E_Ayato_162x104_486_208: 5510221625300504201
-      Skill_E_Ayato_162x104_5: 0
-      Skill_E_Ayato_162x104_6: 0
-      Skill_E_Ayato_162x104_7: 0
-      Skill_E_Ayato_162x104_8: 0
-      Skill_E_Ayato_162x104_9: 0
+      Skill_E_Ayato_162x104_0: -1027603312
+      Skill_E_Ayato_162x104_1: -371089131
+      Skill_E_Ayato_162x104_2: -921938072
+      Skill_E_Ayato_162x104_3: 1935696061
+      Skill_E_Ayato_162x104_4: -1201117579
+      Skill_E_Ayato_162x104_5: 1585980087
+      Skill_E_Ayato_162x104_6: 1481890230
+      Skill_E_Ayato_162x104_7: 1550937491
+      Skill_E_Ayato_162x104_8: 930148871
+      Skill_E_Ayato_162x104_9: -149192024
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

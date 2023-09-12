@@ -119,6 +119,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -126,7 +139,7 @@ TextureImporter:
       name: Skill_Basic_Ayaka_261x261_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 261
         y: 522
         width: 261
         height: 261
@@ -135,10 +148,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: c2dad196579769c4b9e5a78ef9b5bc37
+      internalID: 859912744
       vertices: []
       indices: 
       edges: []
@@ -147,7 +160,7 @@ TextureImporter:
       name: Skill_Basic_Ayaka_261x261_1
       rect:
         serializedVersion: 2
-        x: 261
+        x: 522
         y: 522
         width: 261
         height: 261
@@ -156,10 +169,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 18a3b17deb406584d94facaee2fc3237
+      internalID: -1767179730
       vertices: []
       indices: 
       edges: []
@@ -168,7 +181,7 @@ TextureImporter:
       name: Skill_Basic_Ayaka_261x261_2
       rect:
         serializedVersion: 2
-        x: 522
+        x: 783
         y: 522
         width: 261
         height: 261
@@ -177,10 +190,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: e2d9d5defde47e84abac6e441b990ce5
+      internalID: 1817248650
       vertices: []
       indices: 
       edges: []
@@ -189,7 +202,7 @@ TextureImporter:
       name: Skill_Basic_Ayaka_261x261_3
       rect:
         serializedVersion: 2
-        x: 783
+        x: 1044
         y: 522
         width: 261
         height: 261
@@ -198,10 +211,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 0dd81dc5b95343b419c501becc989440
+      internalID: -786194319
       vertices: []
       indices: 
       edges: []
@@ -210,8 +223,8 @@ TextureImporter:
       name: Skill_Basic_Ayaka_261x261_4
       rect:
         serializedVersion: 2
-        x: 1044
-        y: 522
+        x: 0
+        y: 261
         width: 261
         height: 261
       alignment: 0
@@ -219,10 +232,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 104ec3bc487462a41b15eb7d103572ba
+      internalID: -1635309210
       vertices: []
       indices: 
       edges: []
@@ -231,7 +244,7 @@ TextureImporter:
       name: Skill_Basic_Ayaka_261x261_5
       rect:
         serializedVersion: 2
-        x: 0
+        x: 261
         y: 261
         width: 261
         height: 261
@@ -240,10 +253,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 35c74906f2c224e40b29031ae1ef7dc9
+      internalID: -1503818428
       vertices: []
       indices: 
       edges: []
@@ -252,27 +265,6 @@ TextureImporter:
       name: Skill_Basic_Ayaka_261x261_6
       rect:
         serializedVersion: 2
-        x: 261
-        y: 261
-        width: 261
-        height: 261
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_Basic_Ayaka_261x261_7
-      rect:
-        serializedVersion: 2
         x: 522
         y: 261
         width: 261
@@ -282,20 +274,20 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: c5bb126856b681e4d81fb8fc438de610
+      internalID: 1266183472
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill_Basic_Ayaka_261x261_8
+      name: Skill_Basic_Ayaka_261x261_7
       rect:
         serializedVersion: 2
         x: 783
-        y: 261
+        y: 262
         width: 261
         height: 261
       alignment: 0
@@ -303,16 +295,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 8788e04b61a28ff4096c489f5b9c5ab6
+      internalID: -1017830457
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill_Basic_Ayaka_261x261_9
+      name: Skill_Basic_Ayaka_261x261_8
       rect:
         serializedVersion: 2
         x: 1044
@@ -324,16 +316,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 8f94867081ccc2042ab95b483bc62b0a
+      internalID: 965660168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill_Basic_Ayaka_261x261_10
+      name: Skill_Basic_Ayaka_261x261_9
       rect:
         serializedVersion: 2
         x: 0
@@ -345,16 +337,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: be0c8225c62a22f4e9bf1247af481586
+      internalID: 1162118443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill_Basic_Ayaka_261x261_11
+      name: Skill_Basic_Ayaka_261x261_10
       rect:
         serializedVersion: 2
         x: 261
@@ -366,16 +358,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: 4e5e4b940c1c84745a8b6c57dbd00914
+      internalID: -490759153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill_Basic_Ayaka_261x261_12
+      name: Skill_Basic_Ayaka_261x261_11
       rect:
         serializedVersion: 2
         x: 522
@@ -387,16 +379,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: df30146cf68d23b4c9b7a197ddefcc9c
+      internalID: -1362006004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skill_Basic_Ayaka_261x261_13
+      name: Skill_Basic_Ayaka_261x261_12
       rect:
         serializedVersion: 2
         x: 783
@@ -408,31 +400,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skill_Basic_Ayaka_261x261_14
-      rect:
-        serializedVersion: 2
-        x: 1044
-        y: 0
-        width: 261
-        height: 261
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00000000000000000800000000000000
-      internalID: 0
+      spriteID: dec5bf3adc3b3f445967735b9f433b03
+      internalID: 1921046265
       vertices: []
       indices: 
       edges: []
@@ -448,43 +419,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      : 0
-      Skill_Basic_Ayaka_261x261_0: 0
-      Skill_Basic_Ayaka_261x261_0_0: 8153228442769353803
-      Skill_Basic_Ayaka_261x261_0_261: 3608777413124239757
-      Skill_Basic_Ayaka_261x261_0_522: -3371622872095509317
-      Skill_Basic_Ayaka_261x261_1: 0
-      Skill_Basic_Ayaka_261x261_10: 0
-      Skill_Basic_Ayaka_261x261_1044_0: 5080987173587141350
-      Skill_Basic_Ayaka_261x261_1044_261: -3076000293546328218
-      Skill_Basic_Ayaka_261x261_1044_522: -4934592970040725293
-      Skill_Basic_Ayaka_261x261_11: 0
-      Skill_Basic_Ayaka_261x261_12: 0
-      Skill_Basic_Ayaka_261x261_13: 0
-      Skill_Basic_Ayaka_261x261_14: 0
-      Skill_Basic_Ayaka_261x261_15: 0
-      Skill_Basic_Ayaka_261x261_16: 0
-      Skill_Basic_Ayaka_261x261_18: 0
-      Skill_Basic_Ayaka_261x261_19: 0
-      Skill_Basic_Ayaka_261x261_2: 0
-      Skill_Basic_Ayaka_261x261_20: 0
-      Skill_Basic_Ayaka_261x261_21: 0
-      Skill_Basic_Ayaka_261x261_261_0: 6002541518080762151
-      Skill_Basic_Ayaka_261x261_261_261: 3648836396477308930
-      Skill_Basic_Ayaka_261x261_261_522: 1070945085508542251
-      Skill_Basic_Ayaka_261x261_3: 0
-      Skill_Basic_Ayaka_261x261_4: 0
-      Skill_Basic_Ayaka_261x261_5: 0
-      Skill_Basic_Ayaka_261x261_522_0: 4578409726484355713
-      Skill_Basic_Ayaka_261x261_522_261: -2404830320343432046
-      Skill_Basic_Ayaka_261x261_522_522: -8635768366461796137
-      Skill_Basic_Ayaka_261x261_6: 0
-      Skill_Basic_Ayaka_261x261_7: 0
-      Skill_Basic_Ayaka_261x261_783_0: -5917466839191052399
-      Skill_Basic_Ayaka_261x261_783_261: 8980564884384206922
-      Skill_Basic_Ayaka_261x261_783_522: 6703459463677694270
-      Skill_Basic_Ayaka_261x261_8: 0
-      Skill_Basic_Ayaka_261x261_9: 0
+      Skill_Basic_Ayaka_261x261_0: -500381879
+      Skill_Basic_Ayaka_261x261_1: -1848025684
+      Skill_Basic_Ayaka_261x261_10: -1228180400
+      Skill_Basic_Ayaka_261x261_11: -520393881
+      Skill_Basic_Ayaka_261x261_12: -1526824172
+      Skill_Basic_Ayaka_261x261_2: -30566222
+      Skill_Basic_Ayaka_261x261_3: 1831833034
+      Skill_Basic_Ayaka_261x261_4: -694139787
+      Skill_Basic_Ayaka_261x261_5: 1005940598
+      Skill_Basic_Ayaka_261x261_6: -2083486996
+      Skill_Basic_Ayaka_261x261_7: -1538297765
+      Skill_Basic_Ayaka_261x261_8: 296028169
+      Skill_Basic_Ayaka_261x261_9: -1758322273
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
