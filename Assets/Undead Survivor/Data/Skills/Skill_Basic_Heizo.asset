@@ -15,7 +15,7 @@ MonoBehaviour:
   sequences:
   - animation: {fileID: 7400000, guid: 8420cfe9303d5944aa7ee56245bc4faf, type: 2}
     objectType: 0
-    damage: 0.8
+    damage: 1
     damageStat: 0
     elementType: 3
     duration: 0

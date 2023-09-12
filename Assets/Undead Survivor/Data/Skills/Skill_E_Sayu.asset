@@ -12,4 +12,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f16caae2ed0cea4a9f1cabb809bc6a1, type: 3}
   m_Name: Skill_E_Sayu
   m_EditorClassIdentifier: 
-  sequences: []
+  sequences:
+  - animation: {fileID: 7400000, guid: 6a0973c2a94e5bb4a83035fcf8d3225f, type: 2}
+    objectType: 0
+    damage: 0.65
+    damageStat: 0
+    elementType: 3
+    duration: 0
+    scanRange: 0
+    isProjectile: 0
+    isSummonAttack: 0
+    isConditionChange: 0
+    isContinueDamage: 1
+    isTrigger: 0
+    isTriggerAttack: 0
+    isPlayerMove: 0
+    isSkillMove: 0
+    isImmune: 0
+    isMass: 0
+    isPositionFix: 0
+    isRotationFix: 0
+    isRotate: 0
+    coolTime: 0
+    _skillCount: 0
+    isSkillAdd: 0
+    delay: 0
+    isContinue: 0
+    aim: 0
+    isTraking: 0
+    isMagnet: 0
+    isSequence: 0
+    isTransform: 1
+    isChangedElement: 1
+    isResetPosition: 0
+    defalutPosition: {x: 0, y: 0}
+    defalutRotation: {x: 0, y: 0}
+    centerOffset: {x: 0, y: 0}
+    skillSize: 1.5
+    createRange: 0
+    layerOrder: 0
+    moveRange: 0
+    moveTime: 0
+    moveTimeInDuration: 0
+    randomRange: 0
+    animationSpeed: 2
+    isAnimationSpeedMatchDuration: 0

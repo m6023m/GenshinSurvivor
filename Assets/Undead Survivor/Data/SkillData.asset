@@ -3655,11 +3655,11 @@ MonoBehaviour:
       penetrate: 0
       area: 1
       duration: 1
-      speed: 0
+      speed: 2
       knockBack: 0
       magnet: 0
       magnetSpeed: 0
-      skillTick: 0
+      skillTick: 0.3
       count: 0
       coolTime: 20
       elementGaugeMax: 80
@@ -3717,7 +3717,7 @@ MonoBehaviour:
     level: 0
     name: 112
     type: 2
-    burst: 110
+    burst: 112
     parameter:
       type: 1
       isTypeFix: 0
@@ -4191,7 +4191,7 @@ MonoBehaviour:
       penetrate: 0
       area: 1
       duration: 1
-      speed: 0
+      speed: 10
       knockBack: 0
       magnet: 0
       magnetSpeed: 0
@@ -4435,7 +4435,7 @@ MonoBehaviour:
       magnetSpeed: 0
       skillTick: 0
       count: 0
-      coolTime: 1
+      coolTime: 0.5
       elementGaugeMax: 0
       elementGauge: 0
       isDebuffable: 0

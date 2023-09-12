@@ -12,4 +12,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f16caae2ed0cea4a9f1cabb809bc6a1, type: 3}
   m_Name: Skill_EB_Sara
   m_EditorClassIdentifier: 
-  sequences: []
+  sequences:
+  - animation: {fileID: 7400000, guid: 5d05b9569a6142147ac3bb84bd40c634, type: 2}
+    objectType: 0
+    damage: 7
+    damageStat: 0
+    elementType: 5
+    duration: 0
+    scanRange: 0
+    isProjectile: 0
+    isSummonAttack: 0
+    isConditionChange: 0
+    isContinueDamage: 0
+    isTrigger: 0
+    isTriggerAttack: 0
+    isPlayerMove: 0
+    isSkillMove: 1
+    isImmune: 0
+    isMass: 0
+    isPositionFix: 0
+    isRotationFix: 1
+    isRotate: 0
+    coolTime: 0
+    _skillCount: 4
+    isSkillAdd: 0
+    delay: 0
+    isContinue: 0
+    aim: 0
+    isTraking: 0
+    isMagnet: 0
+    isSequence: 0
+    isTransform: 0
+    isChangedElement: 0
+    isResetPosition: 0
+    defalutPosition: {x: 0, y: 0}
+    defalutRotation: {x: 0, y: 1}
+    centerOffset: {x: 0, y: 0}
+    skillSize: 2
+    createRange: 0.5
+    layerOrder: 0
+    moveRange: 5
+    moveTime: 3
+    moveTimeInDuration: 1
+    randomRange: 0
+    animationSpeed: 3
+    isAnimationSpeedMatchDuration: 0

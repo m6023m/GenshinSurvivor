@@ -111,7 +111,7 @@ public class SkillSet : ScriptableObject
         [Tooltip("randomRange 0이상이면 스킬이 랜덤한 범위에서 생성됨")]
         public float randomRange;
         [Tooltip("animationSpeed 애니메이션 속도")]
-        public float animationSpeed;
+        public float animationSpeed = 1;
         [Tooltip("isAnimationSpeedMatchDuration 지속시간에 애니메이션 속도를 맞추는 여부")]
         public bool isAnimationSpeedMatchDuration;
     }

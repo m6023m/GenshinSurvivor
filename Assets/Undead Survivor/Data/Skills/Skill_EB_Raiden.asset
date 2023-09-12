@@ -81,7 +81,7 @@ MonoBehaviour:
     _skillCount: 0
     isSkillAdd: 0
     delay: 0
-    isContinue: 0
+    isContinue: 1
     aim: 0
     isTraking: 0
     isMagnet: 0
@@ -94,7 +94,7 @@ MonoBehaviour:
     centerOffset: {x: 0, y: 0}
     skillSize: 20
     createRange: 0
-    layerOrder: 999
+    layerOrder: 1200
     moveRange: 0
     moveTime: 0
     moveTimeInDuration: 0
@@ -124,7 +124,7 @@ MonoBehaviour:
     coolTime: 0
     _skillCount: 0
     isSkillAdd: 0
-    delay: 0
+    delay: 1.5
     isContinue: 0
     aim: 0
     isTraking: 0

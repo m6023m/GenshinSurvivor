@@ -15,7 +15,7 @@ MonoBehaviour:
   sequences:
   - animation: {fileID: 7400000, guid: 23963c03d6479b4439b8197cd6f7a5e5, type: 2}
     objectType: 0
-    damage: 1
+    damage: 4
     damageStat: 0
     elementType: 6
     duration: 0
@@ -48,12 +48,12 @@ MonoBehaviour:
     defalutPosition: {x: 0, y: 0}
     defalutRotation: {x: 0, y: 0}
     centerOffset: {x: 0, y: 0}
-    skillSize: 0
+    skillSize: 4
     createRange: 0
     layerOrder: 0
     moveRange: 0
     moveTime: 0
     moveTimeInDuration: 0
     randomRange: 0
-    animationSpeed: 0
+    animationSpeed: 4
     isAnimationSpeedMatchDuration: 0

@@ -225,6 +225,12 @@ public class SkillMoveSet : MonoBehaviour
             float y = (Mathf.Cos(radian) * skillSequence.createRange * GameManager.instance.statCalcuator.Area);
 
             transform.localPosition = new Vector3(-x, y, transform.position.z);
+            
+            if (skillSequence.aim == Skill.Aim.Basic)
+            {
+                this.targetDir = new Vector3(-x, y, transform.position.z);
+
+            }
             transform.rotation = Quaternion.Euler(0, 0, rotationAngle);
         }
 
@@ -350,8 +356,9 @@ public class SkillMoveSet : MonoBehaviour
         {
             animationEndTime = duration;
         }
-        
-        if(skillSequence.moveTimeInDuration) {
+
+        if (skillSequence.moveTimeInDuration)
+        {
             animationEndTime = skillSequence.moveTime;
         }
         animationTime = 0.0f;
