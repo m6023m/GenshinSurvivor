@@ -31,7 +31,7 @@ MonoBehaviour:
     isImmune: 0
     isMass: 0
     isPositionFix: 0
-    isRotationFix: 0
+    isRotationFix: 1
     isRotate: 1
     coolTime: 0
     _skillCount: 3
@@ -46,9 +46,9 @@ MonoBehaviour:
     isChangedElement: 0
     isResetPosition: 0
     defalutPosition: {x: 0, y: 0}
-    defalutRotation: {x: 0, y: 0}
+    defalutRotation: {x: 0, y: 1}
     centerOffset: {x: 0, y: 0}
-    skillSize: 1.5
+    skillSize: 0.8
     createRange: 1.5
     layerOrder: 0
     moveRange: 0

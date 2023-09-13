@@ -12,4 +12,92 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f16caae2ed0cea4a9f1cabb809bc6a1, type: 3}
   m_Name: Skill_EB_Yoimiya
   m_EditorClassIdentifier: 
-  sequences: []
+  sequences:
+  - animation: {fileID: 7400000, guid: 00ebf97ba04fa394a8f707ef10a5f9e6, type: 2}
+    objectType: 0
+    damage: 2
+    damageStat: 0
+    elementType: 1
+    duration: 0
+    scanRange: 0
+    isProjectile: 0
+    isSummonAttack: 0
+    isConditionChange: 0
+    isContinueDamage: 0
+    isTrigger: 1
+    isTriggerAttack: 0
+    isPlayerMove: 0
+    isSkillMove: 0
+    isImmune: 0
+    isMass: 0
+    isPositionFix: 0
+    isRotationFix: 0
+    isRotate: 0
+    coolTime: 0
+    _skillCount: 1
+    isSkillAdd: 0
+    delay: 0
+    isContinue: 0
+    aim: 0
+    isTraking: 0
+    isMagnet: 0
+    isSequence: 0
+    isTransform: 0
+    isChangedElement: 0
+    isResetPosition: 0
+    defalutPosition: {x: 0, y: 0}
+    defalutRotation: {x: 0, y: 0}
+    centerOffset: {x: 0, y: 0}
+    skillSize: 5
+    createRange: 0
+    layerOrder: 0
+    moveRange: 0
+    moveTime: 0
+    moveTimeInDuration: 0
+    randomRange: 0
+    animationSpeed: 2
+    isAnimationSpeedMatchDuration: 0
+  - animation: {fileID: 7400000, guid: 4e4742a4d23c2fa4e8d2203d5b939636, type: 2}
+    objectType: 0
+    damage: 2
+    damageStat: 0
+    elementType: 1
+    duration: 0
+    scanRange: 0
+    isProjectile: 0
+    isSummonAttack: 0
+    isConditionChange: 0
+    isContinueDamage: 0
+    isTrigger: 0
+    isTriggerAttack: 1
+    isPlayerMove: 0
+    isSkillMove: 0
+    isImmune: 0
+    isMass: 0
+    isPositionFix: 0
+    isRotationFix: 0
+    isRotate: 0
+    coolTime: 0
+    _skillCount: 1
+    isSkillAdd: 0
+    delay: 0
+    isContinue: 0
+    aim: 0
+    isTraking: 0
+    isMagnet: 0
+    isSequence: 1
+    isTransform: 0
+    isChangedElement: 0
+    isResetPosition: 0
+    defalutPosition: {x: 0, y: 0}
+    defalutRotation: {x: 0, y: 0}
+    centerOffset: {x: 0, y: 0}
+    skillSize: 2
+    createRange: 0
+    layerOrder: 0
+    moveRange: 0
+    moveTime: 0
+    moveTimeInDuration: 0
+    randomRange: 0
+    animationSpeed: 1
+    isAnimationSpeedMatchDuration: 0

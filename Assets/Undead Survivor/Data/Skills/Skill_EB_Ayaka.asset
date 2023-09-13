@@ -27,7 +27,7 @@ MonoBehaviour:
     isTrigger: 0
     isTriggerAttack: 0
     isPlayerMove: 0
-    isSkillMove: 0
+    isSkillMove: 1
     isImmune: 0
     isMass: 0
     isPositionFix: 0
@@ -35,7 +35,7 @@ MonoBehaviour:
     isRotate: 0
     coolTime: 0
     _skillCount: 1
-    isSkillAdd: 0
+    isSkillAdd: 1
     delay: 0
     isContinue: 0
     aim: 2
@@ -48,11 +48,11 @@ MonoBehaviour:
     defalutPosition: {x: 0, y: 0}
     defalutRotation: {x: 0, y: 0}
     centerOffset: {x: 0, y: 0}
-    skillSize: 0
-    createRange: 0
+    skillSize: 3
+    createRange: 1.5
     layerOrder: 0
-    moveRange: 10
-    moveTime: 0
+    moveRange: 5
+    moveTime: 5
     moveTimeInDuration: 1
     randomRange: 0
     animationSpeed: 3

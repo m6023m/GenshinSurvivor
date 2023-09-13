@@ -21,7 +21,7 @@ public class Skill : SkillMoveSet
             InvokeElementChangeListeners(parameterWithKey.changeElementType);
         }
 
-        if (isChanged)
+        if (isChanged && parameterWithKey.changeElementType != Element.Type.Physics)
         {
             GetComponent<SpriteRenderer>().color = Element.Color(parameterWithKey.changeElementType);
         }

@@ -42,7 +42,7 @@ MonoBehaviour:
     isTraking: 0
     isMagnet: 0
     isSequence: 0
-    isTransform: 0
+    isTransform: 1
     isChangedElement: 0
     isResetPosition: 0
     defalutPosition: {x: 0, y: 0}
@@ -55,5 +55,5 @@ MonoBehaviour:
     moveTime: 0
     moveTimeInDuration: 0
     randomRange: 0
-    animationSpeed: 2
+    animationSpeed: 4
     isAnimationSpeedMatchDuration: 0

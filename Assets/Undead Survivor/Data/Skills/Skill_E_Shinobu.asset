@@ -77,7 +77,7 @@ MonoBehaviour:
     isPositionFix: 0
     isRotationFix: 0
     isRotate: 0
-    coolTime: 0
+    coolTime: 1.5
     _skillCount: 0
     isSkillAdd: 0
     delay: 0

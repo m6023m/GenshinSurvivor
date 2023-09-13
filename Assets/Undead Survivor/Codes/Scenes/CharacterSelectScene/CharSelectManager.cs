@@ -98,6 +98,9 @@ public class CharSelectManager : MonoBehaviour
                 case Element.Type.Geo:
                     characterParameter.skill = SkillName.E_Travler_Geo;
                     break;
+                case Element.Type.Electro:
+                    characterParameter.skill = SkillName.E_Travler_Electro;
+                    break;
             }
             UpdateTooltip(selectedCharacterData, selectedCharacterIndex);
         });
@@ -432,6 +435,7 @@ public class CharSelectManager : MonoBehaviour
         {
             elemetalTypes.Add(Element.Type.Anemo);
             elemetalTypes.Add(Element.Type.Geo);
+            elemetalTypes.Add(Element.Type.Electro);
             dropdownElement.ResetDropdown(elemetalTypes);
             switch (selectedCharacter.elementType)
             {
@@ -440,6 +444,9 @@ public class CharSelectManager : MonoBehaviour
                     break;
                 case Element.Type.Geo:
                     dropdownElement.dropdown.value = 1;
+                    break;
+                case Element.Type.Electro:
+                    dropdownElement.dropdown.value = 2;
                     break;
             }
         }

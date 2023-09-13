@@ -65,7 +65,7 @@ public class SkillSet : ScriptableObject
         [Tooltip("skillCount 스킬 개수")]
 
 
-        public int _skillCount = 0;
+        public int _skillCount = 1;
         public int skillCount
         {
             get { return _skillCount + (isSkillAdd ? (int)GameManager.instance.player.stat.amount : 0); }
@@ -97,7 +97,7 @@ public class SkillSet : ScriptableObject
         [Tooltip("centerOffset 중앙 위치")]
         public Vector2 centerOffset;
         [Tooltip("skillSize 스킬 생성 시 크기")]
-        public float skillSize;
+        public float skillSize = 1;
         [Tooltip("createRange 스킬 생성 시 거리")]
         public float createRange;
         [Tooltip("layerOrder 화면에 표시할 순서")]

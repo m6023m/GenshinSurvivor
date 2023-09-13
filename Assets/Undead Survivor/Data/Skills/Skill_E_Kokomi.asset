@@ -46,7 +46,7 @@ MonoBehaviour:
     isChangedElement: 0
     isResetPosition: 0
     defalutPosition: {x: 0, y: 0}
-    defalutRotation: {x: 0, y: 0}
+    defalutRotation: {x: 0, y: 1}
     centerOffset: {x: 0, y: 0}
     skillSize: 4
     createRange: 2
@@ -55,7 +55,7 @@ MonoBehaviour:
     moveTime: 0
     moveTimeInDuration: 0
     randomRange: 0
-    animationSpeed: 2
+    animationSpeed: 0.5
     isAnimationSpeedMatchDuration: 0
   - animation: {fileID: 7400000, guid: 4a7ed7997cb67aa47b8a6fffb5acfaec, type: 2}
     objectType: 0
