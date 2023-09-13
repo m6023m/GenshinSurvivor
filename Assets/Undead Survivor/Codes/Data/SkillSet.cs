@@ -114,6 +114,32 @@ public class SkillSet : ScriptableObject
         public float animationSpeed = 1;
         [Tooltip("isAnimationSpeedMatchDuration 지속시간에 애니메이션 속도를 맞추는 여부")]
         public bool isAnimationSpeedMatchDuration;
+        [Tooltip("triggerSkillSequence 닿으면 생기는 스킬")]
+        public List<SkillSequence> _triggerSkillSequence = new List<SkillSequence>();
+        [Tooltip("subSkillSequence 소환물 서브스킬")]
+        public List<SkillSequence> _subSkillSequence = new List<SkillSequence>();
+        public SkillSequence triggerSkillSequence
+        {
+            get
+            {
+                if (_triggerSkillSequence.Count > 0)
+                {
+                    return _triggerSkillSequence[0];
+                }
+                return null;
+            }
+        }
+        public SkillSequence subSkillSequence
+        {
+            get
+            {
+                if (_subSkillSequence.Count > 0)
+                {
+                    return _subSkillSequence[0];
+                }
+                return null;
+            }
+        }
     }
 
     private void OnValidate()

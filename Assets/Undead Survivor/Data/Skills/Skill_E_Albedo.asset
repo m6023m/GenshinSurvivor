@@ -53,9 +53,12 @@ MonoBehaviour:
     layerOrder: 0
     moveRange: 0
     moveTime: 0
+    moveTimeInDuration: 0
     randomRange: 0
     animationSpeed: 2
     isAnimationSpeedMatchDuration: 0
+    _triggerSkillSequence: []
+    _subSkillSequence: []
   - animation: {fileID: 7400000, guid: 531e3af19906bad47825bef4ef43a464, type: 2}
     objectType: 1
     damage: 2
@@ -96,9 +99,12 @@ MonoBehaviour:
     layerOrder: 0
     moveRange: 0
     moveTime: 0
+    moveTimeInDuration: 0
     randomRange: 0
     animationSpeed: 2
     isAnimationSpeedMatchDuration: 0
+    _triggerSkillSequence: []
+    _subSkillSequence: []
   - animation: {fileID: 7400000, guid: 041f9b79298ce504e8c2bfdf9cddef82, type: 2}
     objectType: 0
     damage: 0.05
@@ -139,9 +145,12 @@ MonoBehaviour:
     layerOrder: 0
     moveRange: 0
     moveTime: 0
+    moveTimeInDuration: 0
     randomRange: 0
     animationSpeed: 4
     isAnimationSpeedMatchDuration: 0
+    _triggerSkillSequence: []
+    _subSkillSequence: []
   - animation: {fileID: 7400000, guid: 4a7ed7997cb67aa47b8a6fffb5acfaec, type: 2}
     objectType: 3
     damage: 0.05
@@ -182,6 +191,9 @@ MonoBehaviour:
     layerOrder: 0
     moveRange: 0
     moveTime: 0
+    moveTimeInDuration: 0
     randomRange: 0
     animationSpeed: 4
     isAnimationSpeedMatchDuration: 0
+    _triggerSkillSequence: []
+    _subSkillSequence: []

@@ -57,12 +57,14 @@ MonoBehaviour:
     randomRange: 0
     animationSpeed: 2
     isAnimationSpeedMatchDuration: 0
+    _triggerSkillSequence: []
+    _subSkillSequence: []
   - animation: {fileID: 7400000, guid: 8e00f063fa3deda4b8fd24bd09bda2a6, type: 2}
-    objectType: 0
+    objectType: 3
     damage: 1
     damageStat: 1
     elementType: 7
-    duration: -1
+    duration: 12
     scanRange: 0
     isProjectile: 0
     isSummonAttack: 0
@@ -101,3 +103,5 @@ MonoBehaviour:
     randomRange: 0
     animationSpeed: 1
     isAnimationSpeedMatchDuration: 0
+    _triggerSkillSequence: []
+    _subSkillSequence: []

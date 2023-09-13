@@ -85,29 +85,46 @@ public class InfoPanel : MonoBehaviour
             stringDiscription.Append("Upgrade.Skill.".AddString(skillUp.name.ToString()).Localize(skillUp.value));
         }
         textDiscription.text = stringDiscription.ToString();
+
         foreach (SkillSet.SkillSequence skillSequence in skillParameter.skillSet.sequences)
         {
-            if (skillSequence.objectType != Skill.ObjectType.Skill
-            && skillSequence.objectType != Skill.ObjectType.Sheild) continue;
-
-            float skillDamage = GameManager.instance.statCalcuator.CalcDamageSkill(skillSequence, skillParameter, skillSequence.elementType);
-            float sheildHealth = CalcHealth(skillParameter, skillSequence);
-            float calc = skillDamage;
-            if (skillSequence.objectType == Skill.ObjectType.Sheild)
+            StringBuilder sequenceInfo = GenerateSequenceInfo(skillSequence, skillParameter);
+            if (!string.IsNullOrEmpty(sequenceInfo.ToString()))
             {
-                calc = sheildHealth;
+                stringInfo.Append("\n");
+                stringInfo.Append(sequenceInfo);
             }
-            stringInfo.Append("\n");
-            stringInfo.Append("Element.Type.".AddString(skillSequence.elementType.ToString()).Localize());
-            stringInfo.Append(" ");
-            stringInfo.Append("Skill.ObjectType.".AddString(skillSequence.objectType.ToString()).Localize());
-            stringInfo.Append(" ");
-            stringInfo.Append("SkillDamageStat.".AddString(skillSequence.damageStat.ToString()).Localize(skillSequence.damage * 100.0f));
-            stringInfo.Append(" = ");
-            stringInfo.Append(calc.FormatDecimalPlaces().ToString());
         }
         textInfo.text = stringInfo.ToString();
     }
+
+    private StringBuilder GenerateSequenceInfo(SkillSet.SkillSequence skillSequence, SkillData.ParameterWithKey skillParameter)
+    {
+        StringBuilder info = new StringBuilder();
+
+        if (!IsRelevantSkillType(skillSequence.objectType) && (skillSequence.subSkillSequence == null || !IsRelevantSkillType(skillSequence.subSkillSequence.objectType)))
+            return info;
+
+        float calcValue = (skillSequence.objectType == Skill.ObjectType.Sheild) ? CalcHealth(skillParameter, skillSequence) : GameManager.instance.statCalcuator.CalcDamageSkill(skillSequence, skillParameter, skillSequence.elementType);
+
+        info.Append("Element.Type.".AddString(skillSequence.elementType.ToString()).Localize());
+        info.Append(" ");
+        info.Append("Skill.ObjectType.".AddString(skillSequence.objectType.ToString()).Localize());
+        info.Append(" ");
+        info.Append("SkillDamageStat.".AddString(skillSequence.damageStat.ToString()).Localize(skillSequence.damage * 100.0f));
+        info.Append(" = ");
+        info.Append(calcValue.FormatDecimalPlaces().ToString());
+
+        return info;
+    }
+
+    private bool IsRelevantSkillType(Skill.ObjectType type)
+    {
+        return type == Skill.ObjectType.Skill || type == Skill.ObjectType.Sheild;
+    }
+
+
+
 
     void DisplayArtifact(ArtifactName artifactName)
     {

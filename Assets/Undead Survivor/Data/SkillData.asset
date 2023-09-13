@@ -419,7 +419,7 @@ MonoBehaviour:
       penetrate: -1
       area: 1
       duration: 1
-      speed: 300
+      speed: 10
       knockBack: 3
       magnet: 0
       magnetSpeed: 0
@@ -4191,7 +4191,7 @@ MonoBehaviour:
       penetrate: 0
       area: 1
       duration: 1
-      speed: 10
+      speed: 5
       knockBack: 0
       magnet: 0
       magnetSpeed: 0
@@ -4261,7 +4261,7 @@ MonoBehaviour:
       penetrate: 0
       area: 1
       duration: 1
-      speed: 0
+      speed: 5
       knockBack: 0
       magnet: 0
       magnetSpeed: 0
@@ -4541,14 +4541,14 @@ MonoBehaviour:
       penetrate: 0
       area: 1
       duration: 1
-      speed: 10
+      speed: 2
       knockBack: 0
       magnet: 0
       magnetSpeed: 0
       skillTick: 0
       count: 0
-      coolTime: 0.5
-      elementGaugeMax: 0
+      coolTime: 15
+      elementGaugeMax: 60
       elementGauge: 0
       isDebuffable: 0
     skillSet: {fileID: 11400000, guid: 6d0da09f0b653d641ab27ec4d5e97525, type: 2}
@@ -4863,7 +4863,7 @@ MonoBehaviour:
       penetrate: 0
       area: 1
       duration: 1
-      speed: 50
+      speed: 3
       knockBack: 0
       magnet: 0
       magnetSpeed: 0

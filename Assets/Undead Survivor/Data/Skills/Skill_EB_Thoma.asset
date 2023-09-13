@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sequences:
   - animation: {fileID: 7400000, guid: e084fdc72735efc4c9b6bb8f5c309e1e, type: 2}
-    objectType: 4
+    objectType: 1
     damage: 1
     damageStat: 0
     elementType: 1
@@ -49,7 +49,7 @@ MonoBehaviour:
     defalutRotation: {x: 0, y: 1}
     centerOffset: {x: 0, y: 0}
     skillSize: 1
-    createRange: 2
+    createRange: 1
     layerOrder: 0
     moveRange: 0
     moveTime: 0
@@ -57,6 +57,54 @@ MonoBehaviour:
     randomRange: 0
     animationSpeed: 1
     isAnimationSpeedMatchDuration: 0
+    _triggerSkillSequence: []
+    _subSkillSequence:
+    - animation: {fileID: 7400000, guid: bb64b7f031933c8478dafc2d77bb078a, type: 2}
+      objectType: 0
+      damage: 0.05
+      damageStat: 2
+      elementType: 1
+      duration: 0
+      scanRange: 0
+      isProjectile: 0
+      isSummonAttack: 1
+      isConditionChange: 0
+      isContinueDamage: 0
+      isTrigger: 0
+      isTriggerAttack: 0
+      isPlayerMove: 0
+      isSkillMove: 0
+      isImmune: 0
+      isMass: 0
+      isPositionFix: 0
+      isRotationFix: 0
+      isRotate: 0
+      coolTime: 1
+      _skillCount: 1
+      isSkillAdd: 0
+      delay: 0
+      isContinue: 0
+      aim: 2
+      isTraking: 0
+      isMagnet: 0
+      isSequence: 0
+      isTransform: 0
+      isChangedElement: 0
+      isResetPosition: 0
+      defalutPosition: {x: 0, y: 0}
+      defalutRotation: {x: 0, y: 0}
+      centerOffset: {x: 0, y: 0}
+      skillSize: 2
+      createRange: 1
+      layerOrder: 0
+      moveRange: 0
+      moveTime: 0
+      moveTimeInDuration: 0
+      randomRange: 0
+      animationSpeed: 2
+      isAnimationSpeedMatchDuration: 0
+      _triggerSkillSequence: []
+      _subSkillSequence: []
   - animation: {fileID: 7400000, guid: 4a7ed7997cb67aa47b8a6fffb5acfaec, type: 2}
     objectType: 3
     damage: 1
@@ -101,47 +149,5 @@ MonoBehaviour:
     randomRange: 0
     animationSpeed: 1
     isAnimationSpeedMatchDuration: 0
-  - animation: {fileID: 7400000, guid: bb64b7f031933c8478dafc2d77bb078a, type: 2}
-    objectType: 0
-    damage: 0.05
-    damageStat: 2
-    elementType: 1
-    duration: 0
-    scanRange: 0
-    isProjectile: 0
-    isSummonAttack: 0
-    isConditionChange: 0
-    isContinueDamage: 0
-    isTrigger: 0
-    isTriggerAttack: 0
-    isPlayerMove: 0
-    isSkillMove: 0
-    isImmune: 0
-    isMass: 0
-    isPositionFix: 0
-    isRotationFix: 0
-    isRotate: 0
-    coolTime: 1
-    _skillCount: 1
-    isSkillAdd: 0
-    delay: 0
-    isContinue: 0
-    aim: 2
-    isTraking: 0
-    isMagnet: 0
-    isSequence: 0
-    isTransform: 0
-    isChangedElement: 0
-    isResetPosition: 0
-    defalutPosition: {x: 0, y: 0}
-    defalutRotation: {x: 0, y: 0}
-    centerOffset: {x: 0, y: 0}
-    skillSize: 2
-    createRange: 1
-    layerOrder: 0
-    moveRange: 0
-    moveTime: 0
-    moveTimeInDuration: 0
-    randomRange: 0
-    animationSpeed: 2
-    isAnimationSpeedMatchDuration: 0
+    _triggerSkillSequence: []
+    _subSkillSequence: []

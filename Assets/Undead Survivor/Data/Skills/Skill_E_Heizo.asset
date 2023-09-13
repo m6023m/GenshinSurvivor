@@ -34,8 +34,8 @@ MonoBehaviour:
     isRotationFix: 0
     isRotate: 0
     coolTime: 0
-    _skillCount: 0
-    isSkillAdd: 0
+    _skillCount: 1
+    isSkillAdd: 1
     delay: 0
     isContinue: 0
     aim: 1
@@ -49,7 +49,7 @@ MonoBehaviour:
     defalutRotation: {x: 0, y: 0}
     centerOffset: {x: 0, y: 0}
     skillSize: 2
-    createRange: 0
+    createRange: 0.3
     layerOrder: 0
     moveRange: 0
     moveTime: 0
@@ -57,3 +57,5 @@ MonoBehaviour:
     randomRange: 0
     animationSpeed: 2
     isAnimationSpeedMatchDuration: 0
+    _triggerSkillSequence: []
+    _subSkillSequence: []

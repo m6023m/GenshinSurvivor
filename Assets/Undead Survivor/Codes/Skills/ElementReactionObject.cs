@@ -179,7 +179,7 @@ public class ElementReactionObject : MonoBehaviour
                         skill.GetComponent<Sheild>().Init(parameterWithKey, skillSequence, transform.CopyTransformValue(), idx);
                         break;
                     case Skill.ObjectType.Summon:
-                        skill.GetComponent<Summon>().SetSubSkill(subSkillSequence).Init(parameterWithKey, skillSequence, transform.CopyTransformValue(), idx);
+                        skill.GetComponent<Summon>().Init(parameterWithKey, skillSequence, transform.CopyTransformValue(), idx);
                         break;
                     case Skill.ObjectType.SkillEffect:
                         skill.GetComponent<SkillEffect>().Init(parameterWithKey, skillSequence, transform.CopyTransformValue(), idx);

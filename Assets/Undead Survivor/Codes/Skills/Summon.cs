@@ -14,18 +14,18 @@ public class Summon : SkillMoveSet
     protected override void Update()
     {
         base.Update();
- 
+
         CheckLive();
         if (parameterWithKey == null || GameManager.instance.IsPause) return;
         Skill_Parameter skillParam = parameterWithKey.parameter;
 
         skillTime += (1 * Time.deltaTime);
-        if (subSkillSequence != null)
+        if (skillSequence.subSkillSequence != null)
         {
             if (skillTime > skillCoolTime)
             {
                 skillTime = 0;
-                StartSkillSequence(subSkillSequence);
+                StartSkillSequence(skillSequence.subSkillSequence);
             }
         }
     }
@@ -37,18 +37,16 @@ public class Summon : SkillMoveSet
         InitMass(skillSequence);
         base.Init(parameterWithKey, skillSequence, prevTransform, index);
         InitHealth(parameterWithKey, skillSequence);
-
-        return this;
-    }
-
-    public override SkillMoveSet SetSubSkill(SkillSet.SkillSequence subSkillSequence)
-    {
-        base.SetSubSkill(subSkillSequence);
-        skillTime = 0;
-        skillCoolTime = subSkillSequence.coolTime;
         InitSkillSetting();
+        skillTime = 0;
+        if (skillSequence.subSkillSequence != null)
+        {
+            skillCoolTime = skillSequence.subSkillSequence.coolTime;
+        }
+
         return this;
     }
+
     public void InitSkillSetting()
     {
         switch (parameterWithKey.name)

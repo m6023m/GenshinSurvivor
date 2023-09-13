@@ -34,7 +34,6 @@ public class SkillMoveSet : MonoBehaviour
     //SubSkill
     protected List<Vector3> currentSkillPositions;
     protected List<GameObject> skillObjects;
-    protected SkillSet.SkillSequence subSkillSequence;
     protected virtual void Update()
     {
         if (isInit == false ||
@@ -100,7 +99,7 @@ public class SkillMoveSet : MonoBehaviour
     {
         if (skillSequence.isRotate)
         {
-            GetComponentInParent<SkillObject>().transform.Rotate(Vector3.back * attackSpeed * Time.deltaTime);
+            GetComponentInParent<SkillObject>().transform.Rotate(Vector3.back * attackSpeed * 30 * Time.deltaTime);
         }
     }
 
@@ -112,12 +111,6 @@ public class SkillMoveSet : MonoBehaviour
         }
     }
 
-    public virtual SkillMoveSet SetSubSkill(SkillSet.SkillSequence subSkillSequence)
-    {
-        if (subSkillSequence == null) return this;
-        this.subSkillSequence = subSkillSequence;
-        return this;
-    }
     public virtual SkillMoveSet Init(SkillData.ParameterWithKey parameterWithKey, SkillSet.SkillSequence skillSequence, TransformValue prevTransform, int index)
     {
         isInit = false;
@@ -225,7 +218,7 @@ public class SkillMoveSet : MonoBehaviour
             float y = (Mathf.Cos(radian) * skillSequence.createRange * GameManager.instance.statCalcuator.Area);
 
             transform.localPosition = new Vector3(-x, y, transform.position.z);
-            
+
             if (skillSequence.aim == Skill.Aim.Basic)
             {
                 this.targetDir = new Vector3(-x, y, transform.position.z);
@@ -451,7 +444,7 @@ public class SkillMoveSet : MonoBehaviour
     {
         if (skillSequence.isTrigger)
         {
-            GameManager.instance.player.StartCoroutine(TriggerSkillSequence(subSkillSequence));
+            GameManager.instance.player.StartCoroutine(TriggerSkillSequence(skillSequence.triggerSkillSequence));
         }
     }
 

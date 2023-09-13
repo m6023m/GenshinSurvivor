@@ -79,9 +79,9 @@ MonoBehaviour:
     stat:
       charNum: 1
       isMine: 1
-      elementType: 7
+      elementType: 3
       constellation: 000000000000
-      toolTipKey: Travler.Geo
+      toolTipKey: Travler.Anemo
       constellaCount: 7
       atk: 5
       armor: 5
@@ -2565,7 +2565,7 @@ MonoBehaviour:
     type: 0
     weaponType: 4
     pickUpType: 0
-    elementType: 0
+    elementType: 3
     nationalType: 3
     icon: {fileID: -309736167096006915, guid: 0dc2f6f33761dd44b9047797f8daa195, type: 3}
     anim: {fileID: 22100000, guid: 12219e875834ffb4898c2ad8154430c8, type: 2}

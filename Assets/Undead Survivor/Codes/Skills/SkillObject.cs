@@ -93,18 +93,8 @@ public class SkillObject : MonoBehaviour
             {
                 isSkillActivated = true;
             }
-            if (skillSequence.objectType == Skill.ObjectType.Summon || skillSequence.isTrigger)
-            {
-                SkillSet.SkillSequence subSkillSequence = parameterWithKey.skillSet.sequences[i + 1];
-                StartSkillSequence(skillSequence, subSkillSequence);
-            }
-            else
-            {
-                if (!skillSequence.isSummonAttack && !skillSequence.isTriggerAttack)
-                {
-                    StartSkillSequence(skillSequence, null);
-                }
-            }
+            StartSkillSequence(skillSequence, null);
+
             AnimationClip animationClip = skillSequence.animation;
             float duration = animationClip.length;
             duration = duration / skillSequence.animationSpeed;
@@ -336,34 +326,29 @@ public class SkillObject : MonoBehaviour
                     case Skill.ObjectType.Skill:
                         if (!gameObject.activeInHierarchy) return;
                         skill.GetComponent<Skill>()
-                        .SetSubSkill(subSkillSequence)
                         .Init(parameterWithKey, skillSequence, currentTransform, idx)
                         .AddEndListener(() => AddCurrentTransform(skill, skillSequence, idx));
                         break;
                     case Skill.ObjectType.Buff:
                         if (!gameObject.activeInHierarchy) return;
                         skill.GetComponent<Buff>()
-                        .SetSubSkill(subSkillSequence)
                         .Init(parameterWithKey, skillSequence, currentTransform, idx)
                         .AddEndListener(() => AddCurrentTransform(skill, skillSequence, idx));
                         break;
                     case Skill.ObjectType.Sheild:
                         if (!gameObject.activeInHierarchy) return;
                         skill.GetComponent<Sheild>()
-                        .SetSubSkill(subSkillSequence)
                         .Init(parameterWithKey, skillSequence, currentTransform, idx)
                         .AddEndListener(() => AddCurrentTransform(skill, skillSequence, idx));
                         break;
                     case Skill.ObjectType.Summon:
                         if (!gameObject.activeInHierarchy) return;
                         skill.GetComponent<Summon>()
-                        .SetSubSkill(subSkillSequence)
                         .Init(parameterWithKey, skillSequence, currentTransform, idx)
                         .AddEndListener(() => AddCurrentTransform(skill, skillSequence, idx));
                         break;
                     case Skill.ObjectType.SkillEffect:
                         skill.GetComponent<SkillEffect>()
-                        .SetSubSkill(subSkillSequence)
                         .Init(parameterWithKey, skillSequence, currentTransform, idx)
                         .AddEndListener(() => AddCurrentTransform(skill, skillSequence, idx));
                         break;
