@@ -9,20 +9,28 @@ Skill.Basic_Mona,기본공격-모나,Basic Attack-Mona
 Skill.Basic_Ganyu,기본공격-감우,Basic Attack-Ganyu
 Skill.Basic_Hutao,기본공격-호두,Basic Attack-Hutao
 Skill.Basic_Eula,기본공격-유라,Basic Attack-Eula
+Skill.Basic_Ayaka,기본공격-아야카,Basic Attack-Ayaka
+Skill.Basic_Ito,기본공격-이토,Basic Attack-Itto
+Skill.Basic_Heizo,기본공격-헤이조,Basic Attack-Heizo
 Skill.Discription.Basic_Sword,전방에 공격을 가함,Attack
 Skill.Discription.Basic_Claymore,자신 주변 범위에 공격을 가함,Attack On The Area Around You
 Skill.Discription.Basic_Spear,전방에 공격을 가함,Attack
 Skill.Discription.Basic_Arrow,가장 가까운 적에게 투사체를 날리는 공격을 함,Attack To Blow A Projectile To The Nearest Enemy
 Skill.Discription.Basic_Catalist,가장 가까운 적에게 투사체를 날리는 공격을 함,Attack To Blow A Projectile To The Nearest Enemy
-Skill.Discription.Basic_Klee,약간의 딜레이 후 화염 속성 범위 피해를 줌,"After A Little Delay, The Flame Property Range Damage"
+Skill.Discription.Basic_Klee,약간의 딜레이 후 화염 속성 범위 피해를 줌,"After A Little Delay, The Flame Properties Range Damage"
 Skill.Discription.Basic_Mona,적이 있는 방향에 물 속성 범위 피해를 줌,Damage To The Water Attribute Range In The Direction Of The Enemy
 Skill.Discription.Basic_Ganyu,얼음 속성 투사체를 날리고 적에게 닿으면 폭발하며 얼음 원소 피해를 줌,"If You Blow The Ice Properties Projectile And Reach The Enemy, It Explodes And Causes Damage To The Ice Element."
 Skill.Discription.Basic_Hutao,베기 공격 이후 찌르기 공격을 가함,Picking Attack After The Cutting Attack
 Skill.Discription.Basic_Eula,빠른 속도로 주변 범위에 공격을 가함,Attacks In The Surrounding Range At A High Speed
+Skill.Discription.Basic_Ayaka,넓은 범위에 얼음원소 연속 대미지를 줌,Ice Source Continuous Damage To A Wide Range
+Skill.Discription.Basic_Ito,빠른 속도로 전방에 공격을 가함,Attacking Forward At A High Speed
+Skill.Discription.Basic_Heizo,전방에 바람속성 대미지를 주고 변격 스택을 1 추가함,Giving The Wind Attribute Damage To The Front And Adding 1 Variable Stack
 Skill.E_Travler_Anemo,회오리 검,Whirlwind
 Skill.EB_Travler_Anemo,격동의 바람,Turbulence
 Skill.E_Travler_Geo,성운검,Nebula
 Skill.EB_Travler_Geo,첩첩산중,Spy
+Skill.E_Travler_Electro,뇌영검,Brainworm
+Skill.EB_Travler_Electro,요동치는 우렛소리,Ruin
 Skill.E_Amber,폭탄 인형,Bomber
 Skill.E_Amber_Damage,폭탄 인형,Bomber
 Skill.EB_Amber,화살,Arrow
@@ -131,8 +139,10 @@ Skill.Noelle0,게임 시작 시 호심경을 가진 채로 시작,Starting With 
 Skill.Noelle1,레벨 10 오를 때 마다 방어력 10% 증가,10% Increase In Defense Whenever Level 10 Climbs
 Skill.Discription.E_Travler_Anemo,플레이어 근처에 적과 아이템을 끌어당기고 바람 속성 지속 피해를 주는 회오리 생성. 원소전환이 발생하면 스킬피해의 1/3만큼의 전환 대미지를 줌,"Create A Whirlwind That Attracts Enemies And Items Near The Player And Causes Continuous Damage To Wind Properties. If The Element Is Transformed, It Is A One -Third Of The Skill Damage."
 Skill.Discription.EB_Travler_Anemo,적과 아이템을 끌어당기는 회오리 발사,Raising A Whirlwind That Attracts Enemies And Items
-Skill.Discription.E_Travler_Geo,플레이어 근처에 바위 원소 창조물을 소환하며 바위 원소 대미지를 입힘,
-Skill.Discription.EB_Travler_Geo,플레이어 주변에 바위 원소 지속피해를 입힌 뒤 바위 원소 창조물을 소환함,
+Skill.Discription.E_Travler_Geo,플레이어 근처에 바위 원소 창조물을 소환하며 바위 원소 대미지를 입힘,Summon The Rock Element Creation Near The Player And Damage The Rock Element.
+Skill.Discription.EB_Travler_Geo,플레이어 주변에 바위 원소 지속피해를 입힌 뒤 바위 원소 창조물을 소환함,Summon The Rock Element Creation After Continuous Damage To The Rock Element Around The Player
+Skill.Discription.E_Travler_Electro,근처 적에게 번개 속성 투사체를 날려 대미지를 주고 원소 에너지를 10 회복,Nearby Enemies Blow Up Lightning Properties Projectiles To Damage And Restore Elemental Energy 10
+Skill.Discription.EB_Travler_Electro,주변을 도는 투사체를 생성하고 적에게 피해를 줌 그리고 투사체가 피해를 주면 원소에너지 0.5회복,"Create A Projectile Around The Surroundings, Damages The Enemy, And If The Projectile Damages The Element Of 0.5 Recovery"
 Skill.Discription.E_Amber,일정 시간 후에 폭발하여 화염 속성 피해를 주는 인형 생성,"After A Certain Time, It Explodes And Produces A Doll That Causes Damage"
 Skill.Discription.EB_Amber,범위에 화염 속성 지속피해를 주는 장판 생성,Create A Board That Causes Damage To Flame Properties In The Range
 Skill.Discription.E_Xiangling,화염 속성 지속 범위피해를 주는 인형 생성,Doll Generation That Causes Damage To The Flame Properties Continuous Range
@@ -167,14 +177,14 @@ Skill.Discription.E_Keqing,전방에 표식을 생성하고 일정 시간 후에
 Skill.Discription.EB_Keqing,큰 범위에 번개 속성 지속피해를 주는 장판 생성,Create A Plate That Continues To Damage Lightning Attributes In A Large Range
 Skill.Discription.E_Kaeya,전방에 얼음 속성 피해를 줌,Ice Attribute Damage Ahead
 Skill.Discription.EB_Kaeya,플레이어 주변을 돌며 얼음 속성 피해를 주는 스킬 생성,Create A Skill That Turns Around The Player Around The Player
-Skill.Discription.E_Chongyun,전방에 얼음 속성 범위 피해를 주고 초기 속성이 물리 속성인 기본 공격을 얼음 속성으로 바꿔주는 장판 생성 ,"Create A Floorboard That Causes The Ice Properties To Damage The Front Attack To The Ice Properties, Which The Initial Attribute Is Physical Attribute."
+Skill.Discription.E_Chongyun,전방에 얼음 속성 범위 피해를 주고 초기 속성이 물리 속성인 기본 공격을 얼음 속성으로 바꿔주는 장판 생성 ,"Create A Floor Plate That Causes The Ice Properties To Damage The Front Attack To The Ice Properties, Which The Initial Attribute Is Physical Attribute."
 Skill.Discription.EB_Chongyun,범위에 얼음 속성 지속 피해를 줌,Ice Properties In The Range
-Skill.Discription.E_Qiqi,얼음 속성 피해를 주고 플레이어를 지속적으로 회복시키는 장판을 플레이어 주변에 소환,Summon The Blanket That Causes Ice Properties And Continues To Restore The Player Around The Player
+Skill.Discription.E_Qiqi,얼음 속성 피해를 주고 플레이어를 지속적으로 회복시키는 장판을 플레이어 주변에 소환,Summon A Blanket That Causes Ice Properties And Continues To Restore The Player.
 Skill.Discription.EB_Qiqi,범위에 얼음 속성 피해를 주고 플레이어 HP를 대량으로 회복함,Ice Attribute Damage To The Range And Recovers The Player Hp In Large Quantities
 Skill.Discription.E_Ninguang,바위 원소 범위 피해를 주고 적의 이동경로를 방해하고 투사체를 막는 벽을 생성,"Create A Wall That Causes Damage To The Rock Element, Interferes With The Enemy'S Movement Path, And Blocks The Projectile."
 Skill.Discription.EB_Ninguang,바위 원소 피해를 주는 투사체를 던짐,Throwing A Projectile That Damages The Rock Element
 Skill.Discription.E_Noelle,바위 원소 범위 피해를 주고 보호막 생성,Create A Protective Film By Causing Damage To Rock Elements
-Skill.Discription.EB_Noelle,"바위 원소 범위 피해를 줌 그 후 일정 시간 일반공격 크기 증가, 방어력의 80%만큼 공격력 증가, 일반공격의 속성을 바위로 만듬","After The Damage To The Rock Element, It Increased The Size Of The General Attack For A Certain Time, Increased The Attack Power By 80%Of The Defense, And Made The Properties Of The General Attack Into The Rock."
+Skill.Discription.EB_Noelle,"바위 원소 범위 피해를 줌 그 후 일정 시간 일반공격 크기 증가, 방어력의 80%만큼 공격력 증가, 일반공격의 속성을 바위로 만듬","After The Damage To The Rock Element, The General Attack Size Increased For A Certain Time, The Attack Power Increased By 80%Of The Defense, And The Properties Of The General Attack Were Made Into The Rocks"
 Skill.E_Tartaglia,마왕 무장 · 광란,"Demon King, Frenzy"
 Skill.EB_Tartaglia,극악기 · 진멸섬,Earth Instruments And Destruction
 Skill.Discription.E_Tartaglia,일반 공격 쿨타임을 스킬 레벨 x 5% 줄이고 일반 공격을 물 속성으로 바꿈,Skill Level X 5% Reduction Of General Attack Cooldown And Change The General Attack To Water Attributes
@@ -189,7 +199,7 @@ Skill.Diona0,게임 시작 시 꽁꽁젤리를 가진 채로 시,"At The Start O
 Skill.Diona1,레벨 10 오를 때 마다 얼음 원소 대미지 6% 증가,"Every Time You Climb Level 10, 6% Increase In Ice Element Damage"
 Skill.E_Zhongli,지핵,Core
 Skill.EB_Zhongli,천성,Nature
-Skill.Discription.E_Zhongli,바위 원소 창조물과 바위 원소 공명을 하며 주변 적에게 피해를 주는 암주를 생성하고 적의 피해를 막고 모든 내성을 20% 감소시키는 보호막 생성,"Rock Element Creation And Rock Element Resonance, Producing A Protective Film That Produces Rocks That Cause Damage To The Surrounding Enemies, Prevents The Damage Of The Enemy, And Reduces All Resistance By 20%."
+Skill.Discription.E_Zhongli,바위 원소 창조물과 바위 원소 공명을 하며 주변 적에게 피해를 주는 암주를 생성하고 적의 피해를 막고 모든 내성을 20% 감소시키는 보호막 생성,"Rock Element Creation And Rock Element Resonance, Producing A Protective Film That Produces Rocks That Cause Damage To The Surrounding Enemies, Prevents The Damage Of The Enemy, And Reduces All Resistance By 20% Resistance"
 Skill.Discription.EB_Zhongli,넓은 범위에 바위 원소 피해를 주고 적을 4초간 석화 시킴,Damage To Rock Elements In A Wide Range And Petrifying The Enemy For 4 Seconds
 Skill.Zhongli0,지핵을 가진 채로 시작,Start With A Core
 Skill.Zhongli1,레벨이 10 오를 때 마다 체력 10% 증가,"Each Time The Level Is Up, 10% Increase In Health"
@@ -202,7 +212,7 @@ Skill.Xinyan1,레벨이 10 오를 때 마다 방어력 10% 증가,10% Increase I
 Skill.E_Albedo,창생법 · 모조 태양꽃,"Changing Method, Imitation Sun Flowers"
 Skill.EB_Albedo,탄생식 · 대지의 파동,Wave Of Birth And Earth
 Skill.Discription.E_Albedo,주변 적에게 바위 속성 지속 피해를 주는 공격을 하는 장판 생성,Creating A Board That Attacks The Sustainable Damage To The Surrounding Enemies
-Skill.Discription.EB_Albedo,넓은 범위에 바위 원소피해를 주는 공격을 하고 원소 마스터리가 180 증가,Attacks That Damage Rock Elements In A Wide Range And Increases Elemental Mastery By 180
+Skill.Discription.EB_Albedo,넓은 범위에 바위 원소피해를 주는 공격을 하고 원소 마스터리가 180 증가,Attacks That Damage Rock Elements In A Wide Range And Increase Elemental Masteries By 180
 Skill.Albedo0,창생법 · 모조 태양꽃을 가진 채로 시작,Start With A Crown And Imitation Solar Flowers
 Skill.Albedo1,레벨이 10 오를 때 마다 바위 원소 피해 7.2% 증가,"Every Time The Level Is Up, The Rock Element Is Increased By 7.2%"
 Skill.E_Ganyu,산과 강의 기린 흔적,Traces Of Giraffe In Mountains And Rivers
@@ -247,3 +257,99 @@ Skill.Discription.E_Kazuha,바람 원소 피해를 주며 주변 적과 아이�
 Skill.Discription.EB_Kazuha,바람 속성 범위 피해를 주는 장판 생성 원소전환이 발생할 수 있음,The Transition To The Plate Generating Element That Causes Damage To The Wind Attribute Can Occur
 Skill.Kazuha0,게임 시작 시 치하야부루를 가진 채로 시작,Start With Chihaya Buru At The Start Of The Game
 Skill.Kazuha1,레벨이 10 오를 때 마다 원소마스터리 29 증가,Element Mastery 29 Increases Every 10 Levels Up
+Skill.E_Ayaka,카미사토류 · 얼음꽃,Kamisa Earth · Ice Flower
+Skill.EB_Ayaka,카미사토류 · 멸망의 서리,Kamisa Earth And Destruction Frost
+Skill.Discription.E_Ayaka,주변에 얼음 원소 피해를 주고 얼음원소 피해가 30% 증가함,Ice Element Damage To The Surrounding Area And The Damage Of Ice Elements Increases By 30%
+Skill.Discription.EB_Ayaka,적 방향으로 얼음 원소 지속피해를 주는 투사체 생성,Creating A Projectile That Continues To Damage Ice Elements In An Enemy Direction
+Skill.Ayaka0,게임 시작 시 카미사토류 · 얼음꽃을 가진 채로 시작,Start With Kamisa Earth And Ice Flowers At The Start Of The Game
+Skill.Ayaka1,레벨이 10 오를 때 마다 행운 1 증가,Luck 1 Increase Every Time The Level Is Up 10
+Skill.E_Yoimiya,염초 정화(庭火)의 춤,Dance Of Yeomcho Purification
+Skill.EB_Yoimiya,"유금 운간초","Yu Geum Luck"
+Skill.Discription.E_Yoimiya,적에게 닿으면 폭발하여 화염 속성 범위 피해를 주는 화살을 발사 함,"When It Touches The Enemy, It Explodes And Fires An Arrow That Damages The Flame Properties."
+Skill.Discription.EB_Yoimiya,적에게 닿으면 폭발하여 범위피해를 주는 화염속성 범위 피해를 줌,"When It Touches The Enemy, It Explodes And Causes Damage To The Flame Resistance."
+Skill.Yoimiya0,염초 정화(庭火)의 춤,Dance Of Yeomcho Purification
+Skill.Yoimiya1,레벨이 10 오를 때 마다 행운 1 증가,Luck 1 Increase Every Time The Level Is Up 10
+Skill.E_Sayu,유후류 · 풍은 돌진,Yufu And Wind Rushes
+Skill.EB_Sayu,유후류 · 너구리 분신술,"Yufu -Yang, Raccoon"
+Skill.Discription.E_Sayu,이동속도가 50% 증가하고 주변에 바람속성 지속피해를 줌. 원소전환 가능.,The Movement Speed Increases By 50% And The Wind Property Is Continuous. Elements Can Be Converted.
+Skill.Discription.EB_Sayu,주변 적에게 바람원소 피해를 주고 캐릭터를 회복하는 장판을 생성,Create A Blanket That Damage The Surrounding Enemies And Restores The Character
+Skill.Sayu0,유후류 · 풍은 돌진,Yufu And Wind Rushes
+Skill.Sayu1,레벨이 10 오를 때 마다 원소마스터리 24 증가,Elemental Mastery Increases Every 10 Times The Level Increases
+Skill.E_Raiden,초월 · 악요개안,Transcendence / Aval
+Skill.EB_Raiden,오의 · 몽상진설,Oui And Dreams
+Skill.Discription.E_Raiden,이 스킬을 가지고 있을 경우 원소충전효율% 가 공격력%로도 취급됨. 전방에 번개원소 범위 피해를 줌,"If You Have This Skill, Elemental Charging Efficiency% Is Also Treated As An Attack Power%. Damage To The Front Of The Lightning Position In Front Of"
+Skill.Discription.EB_Raiden,화면 전체에 대량의 번개원소 피해를 주고 3초간 무적 상태가 됨,"The Entire Screen Is Damaged In Large Amounts Of Lightning, And It Becomes Invincible For 3 Seconds."
+Skill.Raiden0,게임 시작 시 초월 · 악요개안을 가진 채로 시작,Starting With A Transcendence And Males When Starting The Game
+Skill.Raiden1,레벨이 10 오를 때 마다 원소 충전 효율 8% 증가,Elemental Charging Efficiency Increases By 8% Every Time The Level Rises By 10
+Skill.E_Sara,까마귀 깃 텐구의 뇌정 소환,Summon The Brain Tablet Of Crow Feathers
+Skill.EB_Sara,빛나는 천도의 진법,Shining
+Skill.Discription.E_Sara,전방에 번개원소피해를 주고 공격력 80% 증가. 지속 6초,Lightning Sofa In Front Of It And Increased Attack Power By 80%. 6 Seconds
+Skill.Discription.EB_Sara,십자모양으로 번개원소 피해를 주고 까마귀 깃 텐구의 뇌정 소환의 공격력 증가효과를 적용,The Effect Of The Lightning Office In The Shape Of A Cross And The Effect Of Increasing The Attack Power Of The Brain Can Be Applied
+Skill.Sara0,까마귀 깃 텐구의 뇌정 소환,Summon The Brain Tablet Of Crow Feathers
+Skill.Sara1,레벨이 10 오를 때 마다 공격력 6% 증가,"Each Time The Level Is Up 10, 6% Increase In Damage"
+Skill.E_Kokomi,해파리의 서약,Jellyfish
+Skill.EB_Kokomi,해인화우(海人化羽),Haein Hua (人 化 羽)
+Skill.Discription.E_Kokomi,물 원소 범위피해를 주고 캐릭터를 회복하는 장판 생성,Create A Floorboard That Causes Damage To Water Elements And Restores Characters
+Skill.Discription.EB_Kokomi,일반공격의 대미지가 체력의 5%증가하고 일반공격이 발동 시 체력을 1 회복함,Damage Of General Attacks Increases By 5%Of Health And One Attack Is Once Restored When A General Attack Is Activated.
+Skill.Kokomi0,게임 시작 시 해파리의 서약을 가진 채로 시작,Start With A Pledge Of Jellyfish At The Start Of The Game
+Skill.Kokomi1,레벨이 10 오를 때 마다 물 원소 피해 7.2% 증가,"Each Time The Level Is Up, 7.2% Increase In Water Elements"
+Skill.E_Ito,마살 절기 · 적우발파!,Machine Season And Enemy!
+Skill.EB_Ito,최흉의 귀왕 · 이토 강림!!,"The Best King, Ito Advent !!"
+Skill.Discription.E_Ito,바위 원소 피해를 주는 소환물 생성,Summoning That Offers Damage To Rock Elements
+Skill.Discription.EB_Ito,일반공격이 대체 불가능한 바위 원소 피해로 전환됨. 일반공격 재사용 대기시간이 10% 감소하고 방어력이 15 증가함,It Is Converted Into A Rock Element Damage That Is Impossible To Replace Normal Attacks. The Waiting Time For General Attack Reuse Decreases By 10% And The Defense Is Increased By 15
+Skill.Ito0,마살 절기 · 적우발파!,Machine Season And Enemy!
+Skill.Ito1,레벨이 10 오를 때 마다 행운 1 증가,Luck 1 Increase Every Time The Level Is Up 10
+Skill.E_Goro,이누자카 멍멍 방원진,Inuzaka Duwon Bangwonjin
+Skill.EB_Goro,야수 이빨 돌격형 승전법,Beast Teeth Assault
+Skill.Discription.E_Goro,바위 원소 피해를 주고 파티내 바위원소 캐릭터 수에따라 성능이 바뀌는 장판을 생성. 최대 3명까지 적용되며 1명당 방어력 3증가. 최대 인원수일 경우 바위원소 피해 20% 증가,It Causes The Damage To The Rock Element And Generates A Floor That Changes Performance Depending On The Number Of Characters In The Party. Up To 3 People Are Applied And Increase By 3 Defense Per Person. In The Case Of The Maximum Number Of People
+Skill.Discription.EB_Goro,캐릭터를 따라다니며 이누자카 멍멍 방원진의 효과를 적용하는 장판 생성,Create A Floor Plate That Follows The Character And Applies The Effect Of Inuzaka
+Skill.Goro0,이누자카 멍멍 방원진,Inuzaka Duwon Bangwonjin
+Skill.Goro1,레벨이 10 오를 때 마다 바위 원소 피해 6% 증가,"Every Time The Level Is Up, The Rock Element Is Increased By 6%"
+Skill.E_Thoma,타오르는 우명의 보호,The Protection Of The Burning Motto
+Skill.EB_Thoma,"진홍 열화의 오오요로이","Oyoyo Roy Of Crimson Thermal"
+Skill.Discription.E_Thoma,전방에 화염속성 피해를 주고 보호막 생성,Create A Protective Film In Front Of The Flame Speed
+Skill.Discription.EB_Thoma,주변에 화염 범위피해를 주는 소환물 생성,Summoning Product That Causes Flame Range Damage To The Surrounding Area
+Skill.Thoma0,게임 시작 시 타오르는 우명의 보호를 가진 채로 시작,Starting With The Protection Of The Burning Motto At The Start Of The Game
+Skill.Thoma1,레벨이 10 오를 때 마다 체력 6% 증가,"Each Time The Level Is Up, 6% Increase In Health"
+Skill.E_Shenhe,위령 소환 구사술,Summoning Summoning
+Skill.EB_Shenhe,"신녀 강령 비결","The Secret Of The New Year'S Code"
+Skill.Discription.E_Shenhe,전방에 얼음 원소 피해를 주고 다음 7회 얼음원소 피해가 공격력의 30% 만큼 증가함,"Ice Element Damage Is Ahead, And The Next Seven Ice Element Damage Increases By 30% Of The Damage."
+Skill.Discription.EB_Shenhe,주변에 얼음 원소 피해를 주고 피해를 받은 적의 얼음원소 내성을 20% 감소 시킴,The Area Of ​​Ice Element Is Damaged Around And The Enemy'S Ice Element Resistance Is Reduced By 20%
+Skill.Shenhe0,게임 시작 시 위령 소환 구사술을 가진 채로 시작,Starting With A Memorandum Summoning Sake At The Start Of The Game
+Skill.Shenhe1,레벨이 10 오를 때 마다 공격력 7.2% 증가,"Each Time The Level Is Up By 10, 7.2% Increase In Damage"
+Skill.E_Yunjin,선운개상,Seonaegae
+Skill.EB_Yunjin,절벽을 깎는 깃발,Cutlery
+Skill.Discription.E_Yunjin,주변에 바위 원소 피해를 줌,Damage To Rock Elements Around
+Skill.Discription.EB_Yunjin,영구적으로 일반 공격에 추가로 방어력의 60% 만큼의 대미지가 추가됨,Permanently Adds 60% Damage To General Attacks.
+Skill.Yunjin0,게임 시작 시 선운개상을 가진 채로 시작,Starting With A Statue
+Skill.Yunjin1,레벨이 10 오를 때 마다 원소 충전 효율 6.7% 증가,Elemental Charging Efficiency Increases By 6.7% Every 10 Levels Up
+Skill.E_Miko,야칸의 소환 · 살생앵,Yakan'S Summoning And Killing Anchor
+Skill.EB_Miko,대비법 · 천호 현신,Preparation And Cheonho Hyunshin
+Skill.Discription.E_Miko,번개 원소 범위피해를 주는 소환물 생성. 필드에 존재하는 살생앵 개수x30% 만큼 대미지 증가,Summoning To Damage The Scope Of Lightning Elements. Damage Increases By The Number Of Killing Angles In The Field X30%
+Skill.Discription.EB_Miko,번개원소 범위피해를 3회 줌,3 Times The Damage Range
+Skill.Miko0,게임 시작 시 야칸의 소환 · 살생앵을 가진 채로 시작,Start With The Summoning And Killing Of Yakan At The Start Of The Game
+Skill.Miko1,레벨이 10 오를 때 마다 행운 1 증가,Luck 1 Increase Every Time The Level Is Up 10
+Skill.E_Ayato,카미사토류 · 거울꽃,Kamisa Earth And Mirror Flowers
+Skill.EB_Ayato,카미사토류 · 물의 영역,Kamisa Earth And Water Area
+Skill.Discription.E_Ayato,전방에 물 속성 피해를 입힘,Damage Water Attribute In Front Of
+Skill.Discription.EB_Ayato,넓은 범위에 물 속성 지속피해를 입히는 장판 생성,Create A Plate That Causes Continuous Damage To Water Properties In A Wide Range
+Skill.Ayato0,게임 시작 시 카미사토류 · 거울꽃을 가진 채로 시작,Start With Kamisa Earth And Mirror Flowers At The Start Of The Game
+Skill.Ayato1,레벨이 10 오를 때 마다 행운 1 증가,Luck 1 Increase Every Time The Level Is Up 10
+Skill.E_Yelan,뒤얽힌 생명줄,Entangled Life
+Skill.EB_Yelan,심오하고 영롱한 주사위,Profound And Brilliant Dice
+Skill.Discription.E_Yelan,이동속도가 70% 증가하고 주변에 물 원소 대미지를 줌,The Movement Speed Increases By 70% And Water Elemental Damage Around
+Skill.Discription.EB_Yelan,물 원소 대미지를 주는 투사체를 발사하는 소환물을 생성함,Creating A Summoning Material That Fires A Projectile That Damages Water Elemental Damage
+Skill.Yelan0,게임 시작 시 뒤얽힌 생명줄을 가진 채로 시작,Start With A Lifeline Line That Is Entangled At The Start Of The Game
+Skill.Yelan1,레벨이 10 오를 때 마다 행운 1 증가,Luck 1 Increase Every Time The Level Is Up 10
+Skill.E_Heizo,쇄심권,Chastity
+Skill.EB_Heizo,선풍각,Sensation
+Skill.Discription.E_Heizo,전방에 바람원소 피해를 주고 변격 스택을 모두 소모함. 변격스택 1당 대미지 50% 증가,It Also Damages The Wind In The Front And Consumes All The Stacks. 50% Damage Per Variable Stack
+Skill.Discription.EB_Heizo,주변에 바람원소 피해를 주고 적과 아이템을 끌어당기는 공격을 함,Attacks That Cause Damage To The Wind And Attract Enemies And Items
+Skill.Heizo0,게임 시작 시 쇄심권을 가진 채로 시작,Start With A Chain Right At The Start Of The Game
+Skill.Heizo1,레벨이 10 오를 때 마다 바람 원소 피해 6% 증가,"Whenever The Level Rises By 10, The Damage To Wind Elements Increases By 6%"
+Skill.E_Shinobu,제액의 뇌초지륜,Brain Grass
+Skill.EB_Shinobu,교에 나루카미 카리야마 의식,Gyoe Narukami Kariyama Consciousness
+Skill.Discription.E_Shinobu,주변에 번개 원소피해를 주고 캐릭터의 체력을 1% 회복함,It Causes Damage To Lightning Elements Around And Restores The Character'S Health 1%
+Skill.Discription.EB_Shinobu,가까운 적 방향으로 번개 원소 범위피해를 주는 공격을 함,Attacks That Damage The Scope Of Lightning Elements In The Nearest Enemy Direction
+Skill.Shinobu0,게임 시작 시 제액의 뇌초지륜을 가진 채로 시작,"When The Game Starts With A Braincycle Of The Liquid, It Starts With"
+Skill.Shinobu1,레벨이 10 오를 때 마다 체력 6% 증가,"Each Time The Level Is Up, 6% Increase In Health"
