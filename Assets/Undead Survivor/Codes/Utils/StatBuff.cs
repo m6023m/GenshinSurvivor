@@ -94,4 +94,6 @@ public class StatBuff
     public float Claymore_Serpent_SpineDamage = 0;
     public float Claymore_Serpent_SpineReceiveDamage = 0;
     public float Claymore_Skyward_PrideStack = 0;
+
+    public int E_Travler_Electro = 1;
 }

@@ -95,6 +95,20 @@ public class SkillData : ScriptableObject
             }
         }
 
+
+        List<UnityAction<Collider2D>> _skillHitListener;
+        public List<UnityAction<Collider2D>> skillHitListener
+        {
+            get
+            {
+                if (_skillHitListener == null)
+                {
+                    _skillHitListener = new List<UnityAction<Collider2D>>();
+                }
+                return _skillHitListener;
+            }
+        }
+
         List<UnityAction<Element.Type>> _elementChangeListener;
         public List<UnityAction<Element.Type>> elementChangeListener
         {
@@ -151,6 +165,9 @@ public class SkillData : ScriptableObject
         public void AddElementChangeListener(UnityAction<Element.Type> action)
         {
             elementChangeListener.Add(action);
+        }
+        public void AddHitListener(UnityAction<Collider2D> action) {
+            skillHitListener.Add(action);
         }
     }
 

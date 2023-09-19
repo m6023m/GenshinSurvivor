@@ -127,11 +127,23 @@ public class Skill : SkillMoveSet
             skillDamage = GameManager.instance.statCalcuator.ReactionDamage(parameterWithKey, reactedDamage, skillSequence.elementType);
         }
     }
+    protected override void OnTriggerEnter2D(Collider2D collider2D)
+    {
+        InvokeHitListeners(collider2D);
+    }
     void InvokeElementChangeListeners(Element.Type elmentType)
     {
         foreach (UnityAction<Element.Type> action in parameterWithKey.elementChangeListener)
         {
             action.Invoke(elmentType);
+        }
+    }
+
+    void InvokeHitListeners(Collider2D collider2D)
+    {
+        foreach (UnityAction<Collider2D> action in parameterWithKey.skillHitListener)
+        {
+            action.Invoke(collider2D);
         }
     }
 }

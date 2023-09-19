@@ -383,5 +383,7 @@ public class SkillObject : MonoBehaviour
         return skillObject;
     }
 
-
+    public void AddSkillTime(float time) {
+        skillTime += time;
+    }
 }

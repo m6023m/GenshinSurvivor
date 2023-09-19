@@ -353,4 +353,14 @@ public class GameManager : MonoBehaviour
         if (!IsVictory) GameManager.instance.buttonManager.PopNextDefeat();
         GameManager.instance.Pause(true);
     }
+
+    public void AddElementGauge(float value)
+    {
+        foreach (SkillData.ParameterWithKey param in GameManager.instance.ownBursts)
+        {
+            float result = value * GameManager.instance.statCalcuator.Regen;
+            result += GameManager.instance.artifactData.Scholar();
+            param.parameter.elementGauge += result;
+        }
+    }
 }
