@@ -1865,15 +1865,16 @@ public class ConstellationData
     private void Yoimiya(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.skills[SkillName.E_Travler_Geo];
-        SkillData.ParameterWithKey burst = skillData.skills[SkillName.EB_Travler_Geo];
+        SkillData.ParameterWithKey skill = skillData.skills[SkillName.E_Yoimiya];
+        SkillData.ParameterWithKey burst = skillData.skills[SkillName.EB_Yoimiya];
         if (character.constellation[0])
         { // 염초 정화(庭火)의 춤의 개수 2 증가
-            skill.constellations.num0 = true;
+            skill.parameter.count += 2;
         }
         if (character.constellation[1])
         { // 염초 정화(庭火)의 춤이 항상 치명타로 적중함
-            skill.parameter.coolTime *= 0.8f;
+            skill.constellations.num1 = true;
+            //StatCalulator.cs
         }
         if (character.constellation[2])
         { // 염초 정화(庭火)의 춤의 대미지 20% 증가
@@ -1881,7 +1882,7 @@ public class ConstellationData
         }
         if (character.constellation[3])
         { // 염초 정화(庭火)의 춤의 재사용 대기시간 20% 감소
-            burst.parameter.elementGaugeMax -= 20;
+            skill.parameter.coolTime *= 0.8f;
         }
         if (character.constellation[4])
         { // 유금 운간초의 대미지 20% 증가
@@ -1889,8 +1890,7 @@ public class ConstellationData
         }
         if (character.constellation[5])
         { // 염초 정화(庭火)의 춤의 재사용 대기시간 30% 감소
-            skill.parameter.duration *= 1.3f;
-            burst.parameter.duration *= 1.3f;
+            skill.parameter.coolTime *= 0.7f;
         }
     }
     private void Sayu(Character character)
@@ -1900,19 +1900,21 @@ public class ConstellationData
         SkillData.ParameterWithKey burst = skillData.skills[SkillName.EB_Travler_Geo];
         if (character.constellation[0])
         { // 유후류 · 너구리 분신술의 회복량과 대미지 20% 증가
-            skill.constellations.num0 = true;
+            burst.parameter.healPer *= 1.2f;
+            burst.parameter.damage *= 1.2f;
         }
         if (character.constellation[1])
         { // 유후류 · 풍은 돌진의 대미지 주기가 0.1초 감소
-            skill.parameter.coolTime *= 0.8f;
+            skill.parameter.skillTick -= 0.1f;
         }
         if (character.constellation[2])
         { // 유후류 · 너구리 분신술의 대미지 20% 증가
             burst.parameter.damage *= 1.2f;
         }
         if (character.constellation[3])
-        { // 확산반응 발생시 원소 에너치 2 회복. 재사용 대기시간 2초
-            burst.parameter.elementGaugeMax -= 20;
+        { // 확산반응 발생시 원소 에너지 2 회복. 재사용 대기시간 2초
+            skill.constellations.num3 = true;
+            //Skill.cs
         }
         if (character.constellation[4])
         { // 유후류 · 풍은 돌진의 대미지 20%증가
@@ -1920,30 +1922,38 @@ public class ConstellationData
         }
         if (character.constellation[5])
         { // 유후류 · 너구리 분신술의 대미지와 회복량이 원소마스터리의 20% 만큼 증가함
-            skill.parameter.duration *= 1.3f;
-            burst.parameter.duration *= 1.3f;
+            burst.constellations.num5 = true;
+            //StatCalculator.cs
         }
     }
     private void Raiden(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.skills[SkillName.E_Travler_Geo];
-        SkillData.ParameterWithKey burst = skillData.skills[SkillName.EB_Travler_Geo];
+        SkillData.ParameterWithKey skill = skillData.skills[SkillName.E_Raiden];
+        SkillData.ParameterWithKey burst = skillData.skills[SkillName.EB_Raiden];
+        float immuneTime = 3.0f;
+        burst.AddStartListener(() =>
+        {
+            player.ReceiveDamage(0, immuneTime);
+        });
         if (character.constellation[0])
         { // 초월 · 악요개안로 증가하는 공격력이 20% 증가함
             skill.constellations.num0 = true;
         }
         if (character.constellation[1])
-        { // 오의 · 몽상진설의 대미지가 고정피해로 전환됨
-            skill.parameter.coolTime *= 0.8f;
+        { // 오의 · 몽상진설의 대미지가 내성의 영향을 받지 않음
+            foreach (SkillSet.SkillSequence skillSequence in skill.skillSet.sequences)
+            {
+                skillSequence.elementType = Element.Type.Fix;
+            }
+        }
+        if (character.constellation[3])
+        { // 오의 · 몽상진설의 무적시간이 2초 증가
+            immuneTime += 2;
         }
         if (character.constellation[2])
         { // 오의 · 몽상진설의 대미지 20% 증가
             burst.parameter.damage *= 1.2f;
-        }
-        if (character.constellation[3])
-        { // 오의 · 몽상진설의 무적시간이 2초 증가
-            burst.parameter.elementGaugeMax -= 20;
         }
         if (character.constellation[4])
         { // 초월 · 악요개안의 대미지 20% 증가
@@ -1951,8 +1961,7 @@ public class ConstellationData
         }
         if (character.constellation[5])
         { // 오의 · 몽상진설의 최대 원소 에너지가 200 감소
-            skill.parameter.duration *= 1.3f;
-            burst.parameter.duration *= 1.3f;
+            burst.parameter.elementGaugeMax -= 200;
         }
     }
     private void Sara(Character character)

@@ -16,7 +16,8 @@ public class Element
         Electro,
         Cyro,
         Geo,
-        Immune
+        Immune,
+        Fix
     }
 
 
@@ -29,7 +30,8 @@ public class Element
         new Color (0.89f,0.654f,1,1), //Electro E3A7FF
         new Color (0.678f,0.988f,0.988f,1), //Cyro ADFCFC
         new Color (0.956f,0.85f,0.372f,1), //Geo FFC401
-        new Color (0.443f,0.443f,0.443f,1)}; //Immune 717171
+        new Color (0.443f,0.443f,0.443f,1), //Immune 717171
+        new Color (0.443f,0.443f,0.443f,1)};//Fix 717171
 
     public static Color Color(Type type)
     {

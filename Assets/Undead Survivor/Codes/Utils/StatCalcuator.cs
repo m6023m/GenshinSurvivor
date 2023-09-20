@@ -760,6 +760,9 @@ public class StatCalculator
             case Element.Type.Geo:
                 damageMultipllier -= enemy.GeoRes;
                 break;
+            case Element.Type.Fix:
+                damageMultipllier = 1;
+                break;
         }
 
         return damageMultipllier;
