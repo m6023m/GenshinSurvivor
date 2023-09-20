@@ -61,10 +61,10 @@ public class InfoManager : MonoBehaviour
     void UpdateSkill()
     {
         if (GameManager.instance.ownSkills == null) return;
-        foreach (SkillData.ParameterWithKey skill in GameManager.instance.ownSkills)
+        foreach (KeyValuePair<SkillName, SkillObject> ownSkill in GameManager.instance.ownSkills)
         {
             skillInfoTexts[skillCount].gameObject.SetActive(true);
-            skillInfoTexts[skillCount].Init(skill.name, ArtifactName.Artifact_None);
+            skillInfoTexts[skillCount].Init(ownSkill.Key, ArtifactName.Artifact_None);
             skillCount++;
         }
     }
@@ -73,10 +73,10 @@ public class InfoManager : MonoBehaviour
     {
         if (GameManager.instance.ownBursts == null) return;
 
-        foreach (SkillData.ParameterWithKey skill in GameManager.instance.ownBursts)
+        foreach (KeyValuePair<SkillName, SkillObject> ownSkill in GameManager.instance.ownBursts)
         {
             skillInfoTexts[skillCount].gameObject.SetActive(true);
-            skillInfoTexts[skillCount].Init(skill.name, ArtifactName.Artifact_None);
+            skillInfoTexts[skillCount].Init(ownSkill.Key, ArtifactName.Artifact_None);
             skillCount++;
         }
     }
@@ -85,10 +85,10 @@ public class InfoManager : MonoBehaviour
     {
         if (GameManager.instance.ownArtifacts == null) return;
 
-        foreach (ArtifactData.ParameterWithKey artifact in GameManager.instance.ownArtifacts)
+        foreach (KeyValuePair<ArtifactName, ArtifactData.ParameterWithKey> artifact in GameManager.instance.ownArtifacts)
         {
             skillInfoTexts[skillCount].gameObject.SetActive(true);
-            skillInfoTexts[skillCount].Init(SkillName.Skill_None, artifact.name);
+            skillInfoTexts[skillCount].Init(SkillName.Skill_None, artifact.Key);
             skillCount++;
         }
     }

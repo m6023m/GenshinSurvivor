@@ -44,15 +44,18 @@ public class GameManager : MonoBehaviour
     public SkillPanel playerSkillIcons;
     public SkillPanel playerBurstIcons;
     public SkillPanel playerArtifactIcons;
-    public List<SkillData.ParameterWithKey> ownSkills;
-    public List<ArtifactData.ParameterWithKey> ownArtifacts;
-    public List<SkillData.ParameterWithKey> ownBursts;
+    public SkillObject baseAttack;
+
+    public Dictionary<SkillName, SkillObject> ownSkills;
+    public Dictionary<ArtifactName, ArtifactData.ParameterWithKey> ownArtifacts;
+    public Dictionary<SkillName, SkillObject> ownBursts;
     public DamageAttach damageAttach;
     public string mapName = "MapScene0";
     public GameObject[] maps;
     int deviceWidth = 1600;
     int maxBurstCount = 4;
     public ObjectTracker bossTracker;
+
     void Awake()
     {
         InitBattleSave();
@@ -65,9 +68,9 @@ public class GameManager : MonoBehaviour
         artifactData.ResetArtifacts();
         statBuff = new StatBuff();
         statCalcuator = new StatCalculator(player.stat).ArtifactData(artifactData).WeaponData(weaponData.Get(player.stat.weaponName)).StatBuff(statBuff);
-        ownSkills = new List<SkillData.ParameterWithKey>();
-        ownBursts = new List<SkillData.ParameterWithKey>();
-        ownArtifacts = new List<ArtifactData.ParameterWithKey>();
+        ownSkills = new Dictionary<SkillName, SkillObject>();
+        ownBursts = new Dictionary<SkillName, SkillObject>();
+        ownArtifacts = new Dictionary<ArtifactName, ArtifactData.ParameterWithKey>();
         constellationData = new ConstellationData();
         IsInfinityMode = GameDataManager.instance.saveData.option.isInfinityMode;
         GameDataManager.instance.saveData.record.playCount++;
@@ -133,8 +136,6 @@ public class GameManager : MonoBehaviour
 
     void InitSkill()
     {
-        GameObject skillObjectBasic = poolManager.Get(PoolManager.Type.SkillObject);
-        GameObject skillObject = poolManager.Get(PoolManager.Type.SkillObject);
         Character[] characters = GameDataManager.instance.saveData.userData.selectChars;
         int charNum = (int)characters[0].charNum;
         SkillName skillNameBasic = characterData.characters[charNum].skillBasic;
@@ -144,9 +145,9 @@ public class GameManager : MonoBehaviour
         levelUpManager.SkillUp(skillName);
 
 #if UNITY_EDITOR
-        SkillName skillBurst = GameManager.instance.skillData.Get(skillName).burst;
+        SkillName skillBurst = skillData.Get(skillName).burst;
         AddBurst(skillBurst);
-        GameManager.instance.gameInfoData.getBursts.AddOrUpdate(skillBurst, 1);
+        gameInfoData.getBursts.AddOrUpdate(skillBurst, 1);
 #endif
 
         for (int i = 1; i < GameDataManager.instance.saveData.userData.selectChars.Length; i++)
@@ -157,7 +158,7 @@ public class GameManager : MonoBehaviour
                 SkillName skillNameSub = characterData.characters[(int)characters[i].charNum].skill;
                 levelUpManager.SkillUp(skillNameSub);
 #if UNITY_EDITOR
-                // SkillName skillBurstSub = GameManager.instance.skillData.Get(skillNameSub).burst;
+                // SkillName skillBurstSub = skillData.Get(skillNameSub).burst;
                 // AddBurst(skillBurstSub);
 #endif
             }
@@ -221,7 +222,7 @@ public class GameManager : MonoBehaviour
     public void GetExp(float exp)
     {
         if (gameInfoData.level == gameInfoData.maxLevel) return;
-        float result = exp * GameManager.instance.statCalcuator.Exp;
+        float result = exp * statCalcuator.Exp;
         gameInfoData.exp += result;
         if (gameInfoData.exp >= ReqExp(gameInfoData.level))
         {
@@ -255,12 +256,14 @@ public class GameManager : MonoBehaviour
 
     public void AddSkill(SkillName skillName)
     {
+        if(ownSkills.ContainsKey(skillName)) return;
         GameObject skillObject = poolManager.Get(PoolManager.Type.SkillObject);
         SkillData.ParameterWithKey param = skillData.Get(skillName);
         SkillObject skillObj = skillObject.GetComponent<SkillObject>();
         skillObj.Init(param);
         skillObject.transform.parent = playerSkills.transform;
         skillObject.transform.localPosition = Vector3.zero;
+
         if (param.name == SkillName.Basic_Catalist)
         {
             foreach (SkillSet.SkillSequence skillSequence in param.skillSet.sequences)
@@ -269,20 +272,20 @@ public class GameManager : MonoBehaviour
             }
         }
         param.level = 1;
+        if(param.type == Skill.Type.Basic) {
+            baseAttack = skillObj;
+        }
 
         playerSkillIcons.AddSkillData(param, skillObj);
 
-        ownSkills.Add(param);
+        ownSkills[skillName] = skillObj;
         GameDataManager.instance.saveData.record.levelUpSkillCount++;
     }
 
     public void AddBurst(SkillName skillName)
     {
         if (ownBursts.Count == maxBurstCount) return;
-        foreach (SkillData.ParameterWithKey parameter in ownBursts)
-        {
-            if (parameter.name == skillName) return;
-        }
+        if(ownBursts.ContainsKey(skillName)) return;
 
         GameObject skillObject = poolManager.Get(PoolManager.Type.SkillObject);
         SkillData.ParameterWithKey param = skillData.Get(skillName);
@@ -293,7 +296,7 @@ public class GameManager : MonoBehaviour
 
         playerBurstIcons.AddSkillData(param, skillObj);
 
-        ownBursts.Add(param);
+        ownBursts[skillName] = skillObj;
         GameDataManager.instance.saveData.record.getBurstCount++;
     }
 
@@ -304,7 +307,7 @@ public class GameManager : MonoBehaviour
 
         playerArtifactIcons.AddArtifactData(param);
 
-        ownArtifacts.Add(param);
+        ownArtifacts[artifactName] = param;
         GameDataManager.instance.saveData.record.levelUpArtifactCount++;
     }
 
@@ -342,24 +345,25 @@ public class GameManager : MonoBehaviour
     }
     public void Victory()
     {
-        GameManager.instance.IsVictory = true;
+        IsVictory = true;
 
         if (IsInfinityMode) return;
         PopNext();
     }
     void PopNext()
     {
-        if (IsVictory) GameManager.instance.buttonManager.PopNextVictory();
-        if (!IsVictory) GameManager.instance.buttonManager.PopNextDefeat();
-        GameManager.instance.Pause(true);
+        if (IsVictory) buttonManager.PopNextVictory();
+        if (!IsVictory) buttonManager.PopNextDefeat();
+        Pause(true);
     }
 
     public void AddElementGauge(float value)
     {
-        foreach (SkillData.ParameterWithKey param in GameManager.instance.ownBursts)
+        foreach (KeyValuePair<SkillName, SkillObject> skills in ownBursts)
         {
-            float result = value * GameManager.instance.statCalcuator.Regen;
-            result += GameManager.instance.artifactData.Scholar();
+            SkillData.ParameterWithKey param = skills.Value.parameterWithKey;
+            float result = value * statCalcuator.Regen;
+            result += artifactData.Scholar();
             param.parameter.elementGauge += result;
         }
     }

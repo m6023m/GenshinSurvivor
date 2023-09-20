@@ -335,16 +335,16 @@ public class LevelUpManager : MonoBehaviour
             return false;
         }
 
-        if (skill.type == Skill.Type.Basic && skill.name != GameManager.instance.ownSkills[0].name) //기본공격은 하나만
+        if (skill.type == Skill.Type.Basic && skill.name != GameManager.instance.baseAttack.parameterWithKey.name) //기본공격은 하나만
         {
             return false;
         }
 
         if (GameManager.instance.ownSkills.Count >= maxSkillCount) //최대 스킬 수량에 도달했을 경우
         {
-            foreach (SkillData.ParameterWithKey ownSkill in GameManager.instance.ownSkills) //스킬이 최대 개수일 경우
+            foreach (KeyValuePair<SkillName, SkillObject> ownSkill in GameManager.instance.ownSkills) //스킬이 최대 개수일 경우
             {
-                if (skill.name == ownSkill.name)
+                if (skill.name == ownSkill.Key)
                 {
                     return true;
                 }
@@ -365,9 +365,9 @@ public class LevelUpManager : MonoBehaviour
 
         if (GameManager.instance.ownArtifacts.Count >= maxArtifactCount) //최대 성유물 수량에 도달했을 경우
         {
-            foreach (ArtifactData.ParameterWithKey ownArtifact in GameManager.instance.ownArtifacts) //성유물이 최대 개수일 경우
+            foreach (KeyValuePair<ArtifactName, ArtifactData.ParameterWithKey> ownArtifact in GameManager.instance.ownArtifacts) //성유물이 최대 개수일 경우
             {
-                if (artifact.name == ownArtifact.name)
+                if (artifact.name == ownArtifact.Key)
                 {
                     return true;
                 }

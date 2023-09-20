@@ -69,12 +69,7 @@ public class ElementalSphere : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            foreach (SkillData.ParameterWithKey param in GameManager.instance.ownBursts)
-            {
-                float result = 1 * GameManager.instance.statCalcuator.Regen;
-                result += GameManager.instance.artifactData.Scholar();
-                param.parameter.elementGauge += result;
-            }
+            GameManager.instance.AddElementGauge(1 + GameManager.instance.artifactData.Scholar());
 
             AudioManager.instance.PlaySFX(AudioManager.SFX.Regen);
             gameObject.SetActive(false);

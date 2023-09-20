@@ -209,7 +209,7 @@ public class ConstellationData
 
     void Travler_Anemo(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Anemo);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Anemo);
         if (character.constellation[0])
@@ -247,7 +247,7 @@ public class ConstellationData
 
     void Travler_Geo(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
         if (character.constellation[0])
@@ -280,7 +280,7 @@ public class ConstellationData
 
     private void Travler_Electro(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Electro);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Electro);
         skill.AddStartListener(() =>
@@ -290,8 +290,9 @@ public class ConstellationData
             { // 원소폭발의 원소에너지 합계가 35% 이하일 경우 뇌영검의 원소에너지 회복이 5 증가
                 float burstGaugeMax = 0;
                 float burstGauge = 0;
-                foreach (SkillData.ParameterWithKey param in GameManager.instance.ownBursts)
+                foreach (KeyValuePair<SkillName, SkillObject> skills in GameManager.instance.ownBursts)
                 {
+                    SkillData.ParameterWithKey param = skills.Value.parameterWithKey;
                     burstGauge += param.parameter.elementGauge;
                     burstGaugeMax += param.parameter.elementGaugeMax;
                 }
@@ -337,7 +338,7 @@ public class ConstellationData
 
     void Amber(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Amber);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Amber);
         if (character.constellation[0])
@@ -383,7 +384,7 @@ public class ConstellationData
 
     void Xiangling(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Xiangling);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Xiangling);
         if (character.constellation[0])
@@ -425,7 +426,7 @@ public class ConstellationData
 
     void Bennet(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Bennet);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Bennet);
         if (character.constellation[0])
@@ -457,7 +458,7 @@ public class ConstellationData
 
     void Diluc(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Diluc);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Diluc);
         if (character.constellation[0])
@@ -490,7 +491,7 @@ public class ConstellationData
 
     void Klee(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Klee);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Klee);
         if (character.constellation[0])
@@ -527,17 +528,14 @@ public class ConstellationData
         statBuff.pyroDmg += 0.2f;
         for (int i = 0; i < 4; i++)
         {
-            foreach (SkillData.ParameterWithKey parameterWithKey in GameManager.instance.ownBursts)
-            {
-                parameterWithKey.parameter.elementGauge += 3;
-                yield return new WaitForSecondsRealtime(3.0f);
-            }
+            GameManager.instance.AddElementGauge(3.0f);
+            yield return new WaitForSecondsRealtime(3.0f);
         }
         statBuff.pyroDmg -= 0.2f;
     }
     void Barbara(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Barbara);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Barbara);
         if (character.constellation[0])
@@ -571,16 +569,13 @@ public class ConstellationData
     {
         while (true)
         {
-            foreach (SkillData.ParameterWithKey parameterWithKey in GameManager.instance.ownBursts)
-            {
-                parameterWithKey.parameter.elementGauge += 1;
-            }
+            GameManager.instance.AddElementGauge(1.0f);
             yield return new WaitForSecondsRealtime(10.0f);
         }
     }
     void Xingqiu(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Xingqiu);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Xingqiu);
         if (character.constellation[0])
@@ -618,17 +613,14 @@ public class ConstellationData
         { //고화검 · 재우유홍 사용 시 원소 에너지 10 획득, 대미지 20% 증가
             burst.AddStartListener(() =>
                 {
-                    foreach (SkillData.ParameterWithKey parameterWithKey in GameManager.instance.ownBursts)
-                    {
-                        parameterWithKey.parameter.elementGauge += 10;
-                    }
+                    GameManager.instance.AddElementGauge(10.0f);
                 });
         }
     }
 
     void Mona(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Mona);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Mona);
         if (character.constellation[0])
@@ -696,7 +688,7 @@ public class ConstellationData
     }
     void Sucrose(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Sucrose);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Sucrose);
         if (character.constellation[0])
@@ -768,7 +760,7 @@ public class ConstellationData
 
     void Jean(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Jean);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Jean);
         if (character.constellation[0])
@@ -800,12 +792,12 @@ public class ConstellationData
 
     void Venti(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Venti);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Venti);
         if (character.constellation[0])
         { //일반공격의 개수가 2 증가
-            GameManager.instance.ownSkills[0].parameter.count += 2;
+            GameManager.instance.baseAttack.parameterWithKey.parameter.count += 2;
         }
         if (character.constellation[1])
         { //높은 하늘의 노래는 적의 바람원소 내성과 물리 내성을 12% 감소시킨다
@@ -833,7 +825,7 @@ public class ConstellationData
 
     void Lisa(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Lisa);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Lisa);
         if (character.constellation[0])
@@ -864,7 +856,7 @@ public class ConstellationData
 
     void Razor(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Razor);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Razor);
         if (character.constellation[0])
@@ -895,7 +887,7 @@ public class ConstellationData
 
     void Beidou(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Beidou);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Beidou);
         if (character.constellation[0])
@@ -932,7 +924,7 @@ public class ConstellationData
     }
     void Fischl(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Fischl);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Fischl);
         burst.AddEndListener(() =>
@@ -973,7 +965,7 @@ public class ConstellationData
 
     void Keqing(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Keqing);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Keqing);
         if (character.constellation[0])
@@ -1004,7 +996,7 @@ public class ConstellationData
 
     void Kaeya(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Kaeya);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Kaeya);
         if (character.constellation[0])
@@ -1036,7 +1028,7 @@ public class ConstellationData
 
     void Chongyun(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Chongyun);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Chongyun);
         if (character.constellation[0])
@@ -1067,7 +1059,7 @@ public class ConstellationData
 
     void Qiqi(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Qiqi);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Qiqi);
         if (character.constellation[0])
@@ -1102,16 +1094,13 @@ public class ConstellationData
     {
         for (int i = 0; i < 5; i++)
         {
-            foreach (SkillData.ParameterWithKey parameterWithKey in GameManager.instance.ownBursts)
-            {
-                parameterWithKey.parameter.elementGauge += 2;
-                yield return new WaitForSecondsRealtime(2.0f);
-            }
+            GameManager.instance.AddElementGauge(2.0f);
+            yield return new WaitForSecondsRealtime(2.0f);
         }
     }
     void Ningguang(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Ninguang);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Ninguang);
         if (character.constellation[0])
@@ -1149,7 +1138,7 @@ public class ConstellationData
 
     void Noelle(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Noelle);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Noelle);
         if (character.constellation[0])
@@ -1201,7 +1190,7 @@ public class ConstellationData
     }
     void Tartaglia(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Tartaglia);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Tartaglia);
         if (character.constellation[0])
@@ -1246,7 +1235,7 @@ public class ConstellationData
     }
     void Diona(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Diona);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Diona);
         if (character.constellation[0])
@@ -1279,7 +1268,7 @@ public class ConstellationData
     }
     void Zhongli(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Zhongli);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Zhongli);
         if (character.constellation[0])
@@ -1315,7 +1304,7 @@ public class ConstellationData
     }
     void Xinyan(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Xinyan);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Xinyan);
         if (character.constellation[0])
@@ -1348,7 +1337,7 @@ public class ConstellationData
     }
     void Albedo(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Albedo);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Albedo);
         if (character.constellation[0])
@@ -1383,7 +1372,7 @@ public class ConstellationData
     }
     void Ganyu(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Ganyu);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Ganyu);
         if (character.constellation[0])
@@ -1395,10 +1384,7 @@ public class ConstellationData
             }
             baseAttack.AddStartListener(() =>
             {
-                foreach (SkillData.ParameterWithKey parameterWithKey in GameManager.instance.ownBursts)
-                {
-                    parameterWithKey.parameter.elementGauge += 0.5f;
-                }
+                GameManager.instance.AddElementGauge(0.5f);
             });
         }
         if (character.constellation[1])
@@ -1431,7 +1417,7 @@ public class ConstellationData
 
     void Xiao(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Xiao);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Xiao);
         if (character.constellation[0])
@@ -1486,7 +1472,7 @@ public class ConstellationData
 
     void Hutao(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Hutao);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Hutao);
         if (character.constellation[0])
@@ -1558,7 +1544,7 @@ public class ConstellationData
 
     void Rosaria(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Rosaria);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Rosaria);
         if (character.constellation[0])
@@ -1595,7 +1581,7 @@ public class ConstellationData
 
     void Yanfei(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Yanfei);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Yanfei);
         if (character.constellation[0])
@@ -1629,7 +1615,7 @@ public class ConstellationData
 
     void Eula(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Eula);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Eula);
 
@@ -1674,7 +1660,7 @@ public class ConstellationData
 
     void Kazuha(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Kazuha);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Kazuha);
         InitializeDictionaries();
@@ -1741,7 +1727,7 @@ public class ConstellationData
 
     private void StartChangeElementType()
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         if (elementTypeChangeCount == 0)
         {
             baseAttack.parameter.SetElementType(baseAttack, Element.Type.Anemo);
@@ -1751,7 +1737,7 @@ public class ConstellationData
 
     private void EndChangeElementType()
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         elementTypeChangeCount--;
 
         if (elementTypeChangeCount <= 0)
@@ -1838,15 +1824,16 @@ public class ConstellationData
 
     private void Ayaka(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Ayaka);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Ayaka);
         if (character.constellation[0])
         { // 일반공격 발동 시 50% 확률로 카미사토류 · 얼음꽃의 재사용 대기시간 0.3초 감소
             baseAttack.AddStartListener(() =>
             {
-                if(0.5f.CheckSuccessByRate()) {
-                    
+                if (0.5f.CheckSuccessByRate())
+                {
+
                 }
             });
         }
@@ -1874,7 +1861,7 @@ public class ConstellationData
     }
     private void Yoimiya(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
         if (character.constellation[0])
@@ -1905,7 +1892,7 @@ public class ConstellationData
     }
     private void Sayu(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
         if (character.constellation[0])
@@ -1936,7 +1923,7 @@ public class ConstellationData
     }
     private void Raiden(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
         if (character.constellation[0])
@@ -1967,7 +1954,7 @@ public class ConstellationData
     }
     private void Sara(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
         if (character.constellation[0])
@@ -1998,7 +1985,7 @@ public class ConstellationData
     }
     private void Kokomi(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
         if (character.constellation[0])
@@ -2029,7 +2016,7 @@ public class ConstellationData
     }
     private void Ito(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
         if (character.constellation[0])
@@ -2060,7 +2047,7 @@ public class ConstellationData
     }
     private void Goro(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
         if (character.constellation[0])
@@ -2091,7 +2078,7 @@ public class ConstellationData
     }
     private void Thoma(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
         if (character.constellation[0])
@@ -2122,7 +2109,7 @@ public class ConstellationData
     }
     private void Shenhe(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
         if (character.constellation[0])
@@ -2153,7 +2140,7 @@ public class ConstellationData
     }
     private void Yunjin(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
         if (character.constellation[0])
@@ -2184,7 +2171,7 @@ public class ConstellationData
     }
     private void Miko(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
         if (character.constellation[0])
@@ -2215,7 +2202,7 @@ public class ConstellationData
     }
     private void Ayato(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
         if (character.constellation[0])
@@ -2246,7 +2233,7 @@ public class ConstellationData
     }
     private void Yelan(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
         if (character.constellation[0])
@@ -2277,7 +2264,7 @@ public class ConstellationData
     }
     private void Heizo(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
         if (character.constellation[0])
@@ -2308,7 +2295,7 @@ public class ConstellationData
     }
     private void Shinobu(Character character)
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
         SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
         if (character.constellation[0])

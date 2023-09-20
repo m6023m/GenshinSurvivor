@@ -6,7 +6,6 @@ using UnityEngine.Events;
 
 public class SkillObject : MonoBehaviour
 {
-    SkillOwner skillOwner;
     private Transform nearestTarget;
     List<GameObject> _skillObjects;
     List<GameObject> skillObjects
@@ -19,7 +18,7 @@ public class SkillObject : MonoBehaviour
     }
 
     public float skillTime = 0;
-    SkillData.ParameterWithKey parameterWithKey;
+    public SkillData.ParameterWithKey parameterWithKey;
     List<TransformValue> currentTransforms;
     bool isSkillActivated = false;
 
@@ -72,18 +71,6 @@ public class SkillObject : MonoBehaviour
             GameDataManager.instance.saveData.record.useBurstCount++;
         }
 
-        Vector2 targetDir = Vector2.zero;
-        if (skillOwner == null)
-        {
-            skillOwner = GetComponentInParent<SkillOwner>();
-        }
-
-        if (skillOwner.scanner.nearestTarget != null)
-        {
-            Vector3 targetPos = skillOwner.scanner.nearestTarget.position;
-            targetDir = targetPos - skillOwner.transform.position;
-            targetDir = targetDir.normalized;
-        }
         yield return null;
         if (parameterWithKey.skillSet == null) yield break;
         for (int i = 0; i < parameterWithKey.skillSet.sequences.Count; i++)
@@ -204,7 +191,7 @@ public class SkillObject : MonoBehaviour
         switch (parameterWithKey.name)
         {
             case SkillName.EB_Tartaglia:
-                SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+                SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
                 bool isMelee =
                 baseAttack.name == SkillName.Basic_Sword
                  || baseAttack.name == SkillName.Basic_Claymore

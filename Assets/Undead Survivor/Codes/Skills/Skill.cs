@@ -88,7 +88,7 @@ public class Skill : SkillMoveSet
 
     void ChangeDamageCalc(SkillData.ParameterWithKey parameterWithKey)
     {
-        SkillData.ParameterWithKey baseAttackParameter = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttackParameter = GameManager.instance.baseAttack.parameterWithKey;
         SkillSet.SkillSequence skillSequence = baseAttackParameter.skillSet.sequences[0];
         float atk = GameManager.instance.statCalcuator.Atk;
         switch (parameterWithKey.name)
@@ -129,6 +129,7 @@ public class Skill : SkillMoveSet
     }
     protected override void OnTriggerEnter2D(Collider2D collider2D)
     {
+        base.OnTriggerEnter2D(collider2D);
         InvokeHitListeners(collider2D);
     }
     void InvokeElementChangeListeners(Element.Type elmentType)

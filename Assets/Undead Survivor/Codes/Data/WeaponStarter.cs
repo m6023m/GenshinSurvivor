@@ -220,10 +220,7 @@ public class WeaponStarter
                 int random = Random.Range(0, 10);
                 if (percentage * 10 > random)
                 {
-                    foreach (SkillData.ParameterWithKey parameterWithKey in GameManager.instance.ownBursts)
-                    {
-                        parameterWithKey.parameter.elementGauge += 6;
-                    }
+                    GameManager.instance.AddElementGauge(6.0f);
                 }
                 time = 0;
                 WeaponFade();

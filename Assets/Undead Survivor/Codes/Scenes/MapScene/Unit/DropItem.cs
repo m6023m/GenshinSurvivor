@@ -158,10 +158,7 @@ public class DropItem : MonoBehaviour
                 GameManager.instance.player.HealHealth(healResult);
                 break;
             case Name.Regen:
-                foreach (SkillData.ParameterWithKey param in GameManager.instance.ownBursts)
-                {
-                    param.parameter.elementGauge += 1000;
-                }
+                GameManager.instance.AddElementGauge(1000);
                 break;
         }
 

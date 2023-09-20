@@ -52,7 +52,7 @@ public class Summon : SkillMoveSet
         switch (parameterWithKey.name)
         {
             case SkillName.EB_Razor:
-                SkillName baseAttackName = GameManager.instance.ownSkills[0].name;
+                SkillName baseAttackName = GameManager.instance.baseAttack.parameterWithKey.name;
                 SkillData.ParameterWithKey baseAttack = GameManager.instance.skillData.Get(baseAttackName);
                 skillCoolTime = baseAttack.parameter.coolTime;
                 break;

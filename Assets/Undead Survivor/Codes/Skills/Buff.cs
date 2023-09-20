@@ -58,7 +58,7 @@ public class Buff : SkillMoveSet
         }
     }
     void CheckPlayerEffect() {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         switch (parameterWithKey.name)
         {
             case SkillName.EB_Bennet:
@@ -234,7 +234,7 @@ public class Buff : SkillMoveSet
     {
         float buffValue0 = 0;
         float buffValue1 = 0;
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         switch (parameterWithKey.name)
         {
             case SkillName.E_Barbara:
@@ -330,7 +330,7 @@ public class Buff : SkillMoveSet
         isPlayerInside = true;
         float buffValue0 = 0;
         float buffValue1 = 0;
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         switch (parameterWithKey.name)
         {
             case SkillName.EB_Bennet:
@@ -424,7 +424,7 @@ public class Buff : SkillMoveSet
     {
         if (!collider.CompareTag("Player")) return;
         isPlayerInside = false;
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         switch (parameterWithKey.name)
         {
             case SkillName.EB_Bennet:
@@ -504,7 +504,7 @@ public class Buff : SkillMoveSet
 
     void OnSkillEnd()
     {
-        SkillData.ParameterWithKey baseAttack = GameManager.instance.ownSkills[0];
+        SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         switch (parameterWithKey.name)
         {
             case SkillName.EB_Diluc:

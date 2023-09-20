@@ -327,8 +327,9 @@ public class ArtifactData : ScriptableObject
     public void The_Exile(SkillName skillName)//원소 폭발 발동 시 다른 원소폭발 게이지 +5
     {
         if (Get(ArtifactName.The_Exile).level < SET_COUNT) return;
-        foreach (SkillData.ParameterWithKey param in GameManager.instance.ownBursts)
+        foreach (KeyValuePair<SkillName, SkillObject> skills in GameManager.instance.ownBursts)
         {
+            SkillData.ParameterWithKey param = skills.Value.parameterWithKey; 
             if (param.name != skillName)
             {
                 param.parameter.elementGauge += 5;
@@ -505,13 +506,6 @@ public class ArtifactData : ScriptableObject
     {
         if (Get(ArtifactName.Husk_of_Opulent_Dreams).level < SET_COUNT) return 0;
         int sheildCount = 0;
-        // foreach (SkillData.ParameterWithKey param in GameManager.instance.ownSkills)
-        // {
-        //     if (param.objectType != Skill.ObjectType.Sheild)
-        //     {
-        //         sheildCount++;
-        //     }
-        // }
         return sheildCount * 20 / 100.0f;
     }
     float Defenders_Will()
