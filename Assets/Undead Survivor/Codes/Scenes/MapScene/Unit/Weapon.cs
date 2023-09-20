@@ -99,7 +99,7 @@ public class Weapon : MonoBehaviour
     public void AddWeaponSkill(SkillName skillName)
     {
         GameObject skillObject = GameManager.instance.poolManager.Get(PoolManager.Type.SkillObject);
-        SkillData.ParameterWithKey param = GameManager.instance.skillData.Get(skillName);
+        SkillData.ParameterWithKey param = GameManager.instance.skillData.skillsDictionary[skillName];
         skillObj = skillObject.GetComponent<SkillObject>();
         skillObj.Init(param);
         skillObject.transform.parent = transform;

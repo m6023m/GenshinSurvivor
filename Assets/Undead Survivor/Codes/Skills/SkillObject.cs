@@ -148,14 +148,14 @@ public class SkillObject : MonoBehaviour
     }
     void InvokeStartListeners()
     {
-        SkillData.ParameterWithKey skill = GameManager.instance.skillData.Get(parameterWithKey.name);
+        SkillData.ParameterWithKey skill = GameManager.instance.skillData.skillsDictionary[parameterWithKey.name];
         foreach (UnityAction action in skill.skillStartListener)
         {
             action.Invoke();
         }
         if (skill.type == Skill.Type.Basic)
         {
-            SkillData.ParameterWithKey skillEulaBurst = GameManager.instance.skillData.Get(SkillName.EB_Eula);
+            SkillData.ParameterWithKey skillEulaBurst = GameManager.instance.skillData.skillsDictionary[SkillName.EB_Eula];
             GameManager.instance.statBuff.eulaStack++;
             if (skillEulaBurst.constellations.num5)
             {
@@ -166,7 +166,7 @@ public class SkillObject : MonoBehaviour
 
     void InvokeEndListeners()
     {
-        SkillData.ParameterWithKey skill = GameManager.instance.skillData.Get(parameterWithKey.name);
+        SkillData.ParameterWithKey skill = GameManager.instance.skillData.skillsDictionary[parameterWithKey.name];
         foreach (UnityAction action in skill.skillEndListener)
         {
             action.Invoke();

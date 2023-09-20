@@ -74,7 +74,7 @@ public class InfoPanel : MonoBehaviour
     {
         StringBuilder stringDiscription = new StringBuilder();
         StringBuilder stringInfo = new StringBuilder();
-        skillParameter = GameManager.instance.skillData.Get(skillName);
+        skillParameter = GameManager.instance.skillData.skillsDictionary[skillName];
         textName.text = "Skill.".AddString(skillName.ToString()).Localize();
         stringDiscription.Append("\n");
         stringDiscription.Append("Skill.Discription.".AddString(skillName.ToString()).Localize());

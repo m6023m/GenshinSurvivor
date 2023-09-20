@@ -210,8 +210,8 @@ public class ConstellationData
     void Travler_Anemo(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Anemo);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Anemo);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Travler_Anemo];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Travler_Anemo];
         if (character.constellation[0])
         { //회오리검의 끌어당기는 범위가 20% 증가
             skill.parameter.magnet *= 1.5f;
@@ -248,8 +248,8 @@ public class ConstellationData
     void Travler_Geo(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Travler_Geo];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Travler_Geo];
         if (character.constellation[0])
         { // 첩첩산중의 돌벽 안쪽에서 행운 3 증가
             skill.constellations.num0 = true;
@@ -281,8 +281,8 @@ public class ConstellationData
     private void Travler_Electro(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Electro);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Electro);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Travler_Electro];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Travler_Electro];
         skill.AddStartListener(() =>
         {
             int regen = 0;
@@ -339,8 +339,8 @@ public class ConstellationData
     void Amber(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Amber);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Amber);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Amber];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Amber];
         if (character.constellation[0])
         { //일반공격의 개수가 1 증가
             baseAttack.parameter.count++;
@@ -385,8 +385,8 @@ public class ConstellationData
     void Xiangling(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Xiangling);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Xiangling);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Xiangling];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Xiangling];
         if (character.constellation[0])
         { //누룽지의 공격에 피격된 적은 불원소 내성이 15% 감소, 지속 6초
             skill.parameter.isDebuffable = true;
@@ -427,8 +427,8 @@ public class ConstellationData
     void Bennet(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Bennet);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Bennet);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Bennet];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Bennet];
         if (character.constellation[0])
         { //공격력 1 증가
             statBuff.atk += 1.0f;
@@ -459,8 +459,8 @@ public class ConstellationData
     void Diluc(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Diluc);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Diluc);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Diluc];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Diluc];
         if (character.constellation[0])
         { //불원소 피해 15% 증가
             statBuff.pyroDmg += 0.15f;
@@ -492,8 +492,8 @@ public class ConstellationData
     void Klee(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Klee);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Klee);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Klee];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Klee];
         if (character.constellation[0])
         { //쾅쾅 불꽃의 개수가 1 증가
             burst.parameter.count++;
@@ -536,8 +536,8 @@ public class ConstellationData
     void Barbara(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Barbara);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Barbara);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Barbara];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Barbara];
         if (character.constellation[0])
         { //10초마다 원소 에너지를 1pt 회복
             player.StartCoroutine(BarbaraBuff0());
@@ -576,8 +576,8 @@ public class ConstellationData
     void Xingqiu(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Xingqiu);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Xingqiu);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Xingqiu];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Xingqiu];
         if (character.constellation[0])
         { //우령검의 개수 1 증가
             skill.parameter.count++;
@@ -621,8 +621,8 @@ public class ConstellationData
     void Mona(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Mona);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Mona);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Mona];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Mona];
         if (character.constellation[0])
         { //별의 운명의 내성감소 20% 증가
             burst.constellations.num0 = true;
@@ -689,8 +689,8 @@ public class ConstellationData
     void Sucrose(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Sucrose);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Sucrose);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Sucrose];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Sucrose];
         if (character.constellation[0])
         { //풍령 작성 · 육삼공팔의 쿨타임 20% 감소
             skill.parameter.coolTime *= 0.8f;
@@ -761,8 +761,8 @@ public class ConstellationData
     void Jean(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Jean);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Jean);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Jean];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Jean];
         if (character.constellation[0])
         { //풍압검의 크기 40% 증가
             skill.parameter.area *= 1.4f;
@@ -793,8 +793,8 @@ public class ConstellationData
     void Venti(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Venti);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Venti);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Venti];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Venti];
         if (character.constellation[0])
         { //일반공격의 개수가 2 증가
             GameManager.instance.baseAttack.parameterWithKey.parameter.count += 2;
@@ -826,8 +826,8 @@ public class ConstellationData
     void Lisa(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Lisa);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Lisa);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Lisa];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Lisa];
         if (character.constellation[0])
         { //원소 충전 효율 10% 증가
             statBuff.regen += 0.1f;
@@ -857,8 +857,8 @@ public class ConstellationData
     void Razor(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Razor);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Razor);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Razor];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Razor];
         if (character.constellation[0])
         { //공격력 1 증가
             statBuff.atk++;
@@ -888,8 +888,8 @@ public class ConstellationData
     void Beidou(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Beidou);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Beidou);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Beidou];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Beidou];
         if (character.constellation[0])
         { //작뢰의 최대 원소게이지 20 감소
             burst.parameter.elementGaugeMax -= 20;
@@ -925,8 +925,8 @@ public class ConstellationData
     void Fischl(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Fischl);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Fischl);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Fischl];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Fischl];
         burst.AddEndListener(() =>
         {
             skill.parameter.elementGauge = 10000;
@@ -966,8 +966,8 @@ public class ConstellationData
     void Keqing(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Keqing);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Keqing);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Keqing];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Keqing];
         if (character.constellation[0])
         { //성신회귀의 범위 50% 증가
             skill.parameter.area *= 1.5f;
@@ -997,8 +997,8 @@ public class ConstellationData
     void Kaeya(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Kaeya);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Kaeya);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Kaeya];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Kaeya];
         if (character.constellation[0])
         { //행운이 1 증가
             statBuff.luck++;
@@ -1029,8 +1029,8 @@ public class ConstellationData
     void Chongyun(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Chongyun);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Chongyun);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Chongyun];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Chongyun];
         if (character.constellation[0])
         { //일반공격의 대미지의 10%의 얼음원소 추가피해가 생김(피해는 영도 · 중첩의 서리의 대미지로 계산)
             baseAttack.parameter.AddExtendDamage(skill.name, baseAttack.parameter.damage / 10.0f);
@@ -1060,8 +1060,8 @@ public class ConstellationData
     void Qiqi(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Qiqi);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Qiqi);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Qiqi];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Qiqi];
         if (character.constellation[0])
         { //선법 · 한병의 귀차의 발동 시 원소 에너지를 2초당 2씩 5번 회복한다.
             skill.AddStartListener(() =>
@@ -1101,8 +1101,8 @@ public class ConstellationData
     void Ningguang(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Ninguang);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Ninguang);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Ninguang];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Ninguang];
         if (character.constellation[0])
         { //관통이 있는 일반공격의 관통 2 증가
             baseAttack.parameter.penetrate += 2;
@@ -1139,8 +1139,8 @@ public class ConstellationData
     void Noelle(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Noelle);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Noelle);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Noelle];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Noelle];
         if (character.constellation[0])
         { //대청소 또는 호심경 사용시 HP 20% 회복
             float healValue = 0;
@@ -1191,8 +1191,8 @@ public class ConstellationData
     void Tartaglia(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Tartaglia);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Tartaglia);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Tartaglia];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Tartaglia];
         if (character.constellation[0])
         { //마왕 무장 · 광란의 재사용 대기시간이 20% 감소한다
             skill.parameter.coolTime *= 0.8f;
@@ -1230,14 +1230,14 @@ public class ConstellationData
             });
         }
 
-        SkillData.ParameterWithKey skill2 = skillData.Get(SkillName.E_Tartaglia);
+        SkillData.ParameterWithKey skill2 = skillData.skillsDictionary[SkillName.E_Tartaglia];
         skill2.constellations.num0 = true;
     }
     void Diona(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Diona);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Diona);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Diona];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Diona];
         if (character.constellation[0])
         { //특제 칵테일의 최대 원소 에너지 15 감소
             burst.parameter.elementGaugeMax -= 15;
@@ -1269,8 +1269,8 @@ public class ConstellationData
     void Zhongli(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Zhongli);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Zhongli);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Zhongli];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Zhongli];
         if (character.constellation[0])
         { //지핵의 재사용 대기시간 20% 감소
             skill.parameter.coolTime *= 0.8f;
@@ -1305,8 +1305,8 @@ public class ConstellationData
     void Xinyan(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Xinyan);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Xinyan);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Xinyan];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Xinyan];
         if (character.constellation[0])
         { //일반 공격의 대미지 12% 증가
             baseAttack.parameter.damage *= 1.12f;
@@ -1338,8 +1338,8 @@ public class ConstellationData
     void Albedo(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Albedo);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Albedo);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Albedo];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Albedo];
         if (character.constellation[0])
         { //창생법 · 모조 태양꽃 사용 시 탄생식 · 대지의 파동의 원소 에너지 5 증가
             skill.AddStartListener(() =>
@@ -1373,8 +1373,8 @@ public class ConstellationData
     void Ganyu(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Ganyu);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Ganyu);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Ganyu];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Ganyu];
         if (character.constellation[0])
         { //"감우의 일반공격에 피격당한 적은 얼음 원소 내성이 15% 감소함. 지속 6초 또한 일반공격 사용 시 원소 에너지 0.5 회복"
             if (baseAttack.name == SkillName.Basic_Ganyu)
@@ -1418,8 +1418,8 @@ public class ConstellationData
     void Xiao(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Xiao);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Xiao);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Xiao];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Xiao];
         if (character.constellation[0])
         { //"풍륜양립의 재사용 대기 시간이 20% 감소
             skill.parameter.coolTime *= 0.8f;
@@ -1473,8 +1473,8 @@ public class ConstellationData
     void Hutao(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Hutao);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Hutao);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Hutao];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Hutao];
         if (character.constellation[0])
         { //나비의 서 지속시간 동안 일반 공격의 재사용 대기시간이 20% 감소함
             float baseAttackCooltime = baseAttack.parameter.coolTime;
@@ -1545,8 +1545,8 @@ public class ConstellationData
     void Rosaria(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Rosaria);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Rosaria);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Rosaria];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Rosaria];
         if (character.constellation[0])
         { //일반 공격 피해 10%증가, 일반 공격 재사용 대기시간 10% 감소
             baseAttack.parameter.damage *= 1.1f;
@@ -1582,8 +1582,8 @@ public class ConstellationData
     void Yanfei(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Yanfei);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Yanfei);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Yanfei];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Yanfei];
         if (character.constellation[0])
         { //HP가 20% 증가
             statBuff.hp += player.stat.hp * 0.2f;
@@ -1616,8 +1616,8 @@ public class ConstellationData
     void Eula(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Eula);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Eula);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Eula];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Eula];
 
         if (character.constellation[0])
         { //얼음 파도의 와류의 3스택 공격 시 물리피해가 30% 증가함 지속. 12초
@@ -1661,8 +1661,8 @@ public class ConstellationData
     void Kazuha(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Kazuha);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Kazuha);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Kazuha];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Kazuha];
         InitializeDictionaries();
         if (character.constellation[0])
         { //치하야부루의 재사용 대기시간이 10% 감소. 카즈하의 일도를 발동하면 치하야부루의 재사용 대기시간이 초기화됨
@@ -1825,21 +1825,23 @@ public class ConstellationData
     private void Ayaka(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Ayaka);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Ayaka);
+        SkillData.ParameterWithKey baseAttackAyaka = skillData.skillsDictionary[SkillName.Basic_Ayaka];
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Ayaka];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Ayaka];
+        SkillObject skillObject = GameManager.instance.ownSkills[SkillName.E_Ayaka];
         if (character.constellation[0])
         { // 일반공격 발동 시 50% 확률로 카미사토류 · 얼음꽃의 재사용 대기시간 0.3초 감소
             baseAttack.AddStartListener(() =>
             {
                 if (0.5f.CheckSuccessByRate())
                 {
-
+                    skillObject.skillTime += 0.3f;
                 }
             });
         }
         if (character.constellation[1])
         { // 카미사토류 · 멸망의 서리의 개수 2 증가
-            skill.parameter.coolTime *= 0.8f;
+            skill.parameter.count += 2;
         }
         if (character.constellation[2])
         { // 카미사토류 · 멸망의 서리의 대미지 20% 증가
@@ -1847,7 +1849,9 @@ public class ConstellationData
         }
         if (character.constellation[3])
         { // 카미사토류 · 멸망의 서리는 적의 방어력을 30% 감소 시킴. 지속 6초
-            burst.parameter.elementGaugeMax -= 20;
+            burst.constellations.num3 = true;
+            burst.parameter.isDebuffable = true;
+            //Enemy.cs
         }
         if (character.constellation[4])
         { // 카미사토류 · 얼음꽃의 대미지 20% 증가
@@ -1855,15 +1859,14 @@ public class ConstellationData
         }
         if (character.constellation[5])
         { // 일반공격-아야카의 대미지 100% 증가
-            skill.parameter.duration *= 1.3f;
-            burst.parameter.duration *= 1.3f;
+            baseAttack.parameter.damage *= 2.0f;
         }
     }
     private void Yoimiya(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Travler_Geo];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Travler_Geo];
         if (character.constellation[0])
         { // 염초 정화(庭火)의 춤의 개수 2 증가
             skill.constellations.num0 = true;
@@ -1893,8 +1896,8 @@ public class ConstellationData
     private void Sayu(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Travler_Geo];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Travler_Geo];
         if (character.constellation[0])
         { // 유후류 · 너구리 분신술의 회복량과 대미지 20% 증가
             skill.constellations.num0 = true;
@@ -1924,8 +1927,8 @@ public class ConstellationData
     private void Raiden(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Travler_Geo];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Travler_Geo];
         if (character.constellation[0])
         { // 초월 · 악요개안로 증가하는 공격력이 20% 증가함
             skill.constellations.num0 = true;
@@ -1955,8 +1958,8 @@ public class ConstellationData
     private void Sara(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Travler_Geo];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Travler_Geo];
         if (character.constellation[0])
         { // 까마귀 깃 텐구의 뇌정 소환의 재사용 대기시간 20% 감소
             skill.constellations.num0 = true;
@@ -1986,8 +1989,8 @@ public class ConstellationData
     private void Kokomi(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Travler_Geo];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Travler_Geo];
         if (character.constellation[0])
         { // 해인화우(海人化羽) 상태에서 대미지가 체력의 2% 추가로 증가
             skill.constellations.num0 = true;
@@ -2017,8 +2020,8 @@ public class ConstellationData
     private void Ito(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Travler_Geo];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Travler_Geo];
         if (character.constellation[0])
         { // 방어력 5 증가
             skill.constellations.num0 = true;
@@ -2048,8 +2051,8 @@ public class ConstellationData
     private void Goro(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Travler_Geo];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Travler_Geo];
         if (character.constellation[0])
         { // 이누자카 멍멍 방원진의 재사용 대기시간 20% 감소
             skill.constellations.num0 = true;
@@ -2079,8 +2082,8 @@ public class ConstellationData
     private void Thoma(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Travler_Geo];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Travler_Geo];
         if (character.constellation[0])
         { // 타오르는 우명의 보호와 진홍 열화의 오오요로이의 재사용 대기시간이 20% 감소
             skill.constellations.num0 = true;
@@ -2110,8 +2113,8 @@ public class ConstellationData
     private void Shenhe(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Travler_Geo];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Travler_Geo];
         if (character.constellation[0])
         { // 위령 소환 구사술의 재사용 대기시간 20% 감소
             skill.constellations.num0 = true;
@@ -2141,8 +2144,8 @@ public class ConstellationData
     private void Yunjin(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Travler_Geo];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Travler_Geo];
         if (character.constellation[0])
         { // 선운개상의 재사용 대기시간 20% 감소함
             skill.constellations.num0 = true;
@@ -2172,8 +2175,8 @@ public class ConstellationData
     private void Miko(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Travler_Geo];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Travler_Geo];
         if (character.constellation[0])
         { // 대비법 · 천호(天狐) 현신의 최대 원소에너지가 24 감소함
             skill.constellations.num0 = true;
@@ -2203,8 +2206,8 @@ public class ConstellationData
     private void Ayato(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Travler_Geo];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Travler_Geo];
         if (character.constellation[0])
         { // 카미사토류 · 거울꽃의 대미지가 40% 증가함
             skill.constellations.num0 = true;
@@ -2234,8 +2237,8 @@ public class ConstellationData
     private void Yelan(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Travler_Geo];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Travler_Geo];
         if (character.constellation[0])
         { // 뒤얽힌 생명줄의 재사용 대기시간 20% 감소
             skill.constellations.num0 = true;
@@ -2265,8 +2268,8 @@ public class ConstellationData
     private void Heizo(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Travler_Geo];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Travler_Geo];
         if (character.constellation[0])
         { // 일반공격-헤이조로 변격 스택이 쌓일 경우 1개 더 획득함
             skill.constellations.num0 = true;
@@ -2296,8 +2299,8 @@ public class ConstellationData
     private void Shinobu(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.Get(SkillName.E_Travler_Geo);
-        SkillData.ParameterWithKey burst = skillData.Get(SkillName.EB_Travler_Geo);
+        SkillData.ParameterWithKey skill = skillData.skillsDictionary[SkillName.E_Travler_Geo];
+        SkillData.ParameterWithKey burst = skillData.skillsDictionary[SkillName.EB_Travler_Geo];
         if (character.constellation[0])
         { // 교에 나루카미 카리야마 의식의 범위 50% 증가
             skill.constellations.num0 = true;

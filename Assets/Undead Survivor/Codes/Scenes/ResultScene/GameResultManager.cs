@@ -68,12 +68,12 @@ public class GameResultManager : MonoBehaviour
         {
             if (entry.Key.ToString().Contains("Weapon"))
             {
-                skillIconWeapon = skillData.Get(entry.Key).icon;
+                skillIconWeapon = skillData.skillsDictionary[entry.Key].icon;
                 damageWeapon += entry.Value;
             }
             else
             {
-                Sprite skillIcon = skillData.Get(entry.Key).icon;
+                Sprite skillIcon = skillData.skillsDictionary[entry.Key].icon;
                 string skillName = "Skill.".AddString(entry.Key.ToString()).Localize();
                 string skillDamage = string.Format("{0:F0}", entry.Value);
                 string text = skillName.AddString(" : ", skillDamage.ToString());

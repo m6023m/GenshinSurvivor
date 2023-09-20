@@ -145,7 +145,7 @@ public class GameManager : MonoBehaviour
         levelUpManager.SkillUp(skillName);
 
 #if UNITY_EDITOR
-        SkillName skillBurst = skillData.Get(skillName).burst;
+        SkillName skillBurst = skillData.skillsDictionary[skillName].burst;
         AddBurst(skillBurst);
         gameInfoData.getBursts.AddOrUpdate(skillBurst, 1);
 #endif
@@ -158,7 +158,7 @@ public class GameManager : MonoBehaviour
                 SkillName skillNameSub = characterData.characters[(int)characters[i].charNum].skill;
                 levelUpManager.SkillUp(skillNameSub);
 #if UNITY_EDITOR
-                // SkillName skillBurstSub = skillData.Get(skillNameSub).burst;
+                // SkillName skillBurstSub = skillData.skillsDictionary[skillNameSub).burst;
                 // AddBurst(skillBurstSub);
 #endif
             }
@@ -258,7 +258,7 @@ public class GameManager : MonoBehaviour
     {
         if(ownSkills.ContainsKey(skillName)) return;
         GameObject skillObject = poolManager.Get(PoolManager.Type.SkillObject);
-        SkillData.ParameterWithKey param = skillData.Get(skillName);
+        SkillData.ParameterWithKey param = skillData.skillsDictionary[skillName];
         SkillObject skillObj = skillObject.GetComponent<SkillObject>();
         skillObj.Init(param);
         skillObject.transform.parent = playerSkills.transform;
@@ -288,7 +288,7 @@ public class GameManager : MonoBehaviour
         if(ownBursts.ContainsKey(skillName)) return;
 
         GameObject skillObject = poolManager.Get(PoolManager.Type.SkillObject);
-        SkillData.ParameterWithKey param = skillData.Get(skillName);
+        SkillData.ParameterWithKey param = skillData.skillsDictionary[skillName];
         SkillObject skillObj = skillObject.GetComponent<SkillObject>();
         skillObj.Init(param);
         skillObject.transform.parent = playerSkills.transform;

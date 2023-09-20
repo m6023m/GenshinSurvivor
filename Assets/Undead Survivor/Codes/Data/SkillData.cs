@@ -213,13 +213,4 @@ public class SkillData : ScriptableObject
         public UpgradeName name;
         public float value;
     }
-
-    public ParameterWithKey Get(SkillName name)
-    {
-        if (skillsDictionary.TryGetValue(name, out ParameterWithKey param))
-        {
-            return param;
-        }
-        return null;
-    }
 }

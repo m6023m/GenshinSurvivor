@@ -92,7 +92,7 @@ public class LevelUpManager : MonoBehaviour
 
     public void SkillUp(SkillName skillName)
     {
-        SkillData.ParameterWithKey skill = GameManager.instance.skillData.Get(skillName);
+        SkillData.ParameterWithKey skill = GameManager.instance.skillData.skillsDictionary[skillName];
         if (skill.level >= maxSkillLevel) return;
         if (skill.level == 0)
         {
