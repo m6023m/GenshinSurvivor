@@ -320,6 +320,7 @@ public class Buff : SkillMoveSet
 
     protected override void OnTriggerEnter2D(Collider2D collider)
     {
+        base.OnTriggerEnter2D(collider);
         OnTriggerEnterPlayer(collider);
         OnTriggerEnterEnemy(collider);
     }
