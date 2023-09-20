@@ -94,7 +94,7 @@ public class Buff : SkillMoveSet
                 baseAttack.parameter.isTypeFix = true;
                 if (parameterWithKey.constellations.num5)
                 {
-                    GameManager.instance.skillData.skillsDictionary[SkillName.E_Xiao].parameter.coolTime = 1.0f;
+                    GameManager.instance.skillData.skills[SkillName.E_Xiao].parameter.coolTime = 1.0f;
                 }
                 break;
             case SkillName.E_Hutao:
@@ -549,7 +549,7 @@ public class Buff : SkillMoveSet
                 baseAttack.parameter.isTypeFix = true;
                 if (parameterWithKey.constellations.num5)
                 {
-                    GameManager.instance.skillData.skillsDictionary[SkillName.E_Xiao].parameter.coolTime = 6.4f;
+                    GameManager.instance.skillData.skills[SkillName.E_Xiao].parameter.coolTime = 6.4f;
                 }
                 break;
             case SkillName.E_Hutao:

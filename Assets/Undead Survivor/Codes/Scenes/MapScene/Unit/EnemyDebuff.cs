@@ -186,7 +186,7 @@ public class EnemyDebuff : MonoBehaviour
     public void AddDebuff(SkillName skillName)
     {
         float debuffValue = 0.0f;
-        SkillData.ParameterWithKey parameterWithKey = GameManager.instance.skillData.skillsDictionary[skillName];
+        SkillData.ParameterWithKey parameterWithKey = GameManager.instance.skillData.skills[skillName];
         if (debuffTimes.ContainsKey(skillName)) //이미 존재하는 디버프면 시간만 갱신하고 리턴
         {
             debuffTimes[skillName] = 0;

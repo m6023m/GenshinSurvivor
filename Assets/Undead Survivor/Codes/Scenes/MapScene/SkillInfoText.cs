@@ -12,8 +12,8 @@ public class SkillInfoText : MonoBehaviour
 
     public void Init(SkillName skillName, ArtifactName artifactName)
     {
-        SkillData.ParameterWithKey skillParameter = GameManager.instance.skillData.skillsDictionary[skillName];
-        ArtifactData.ParameterWithKey artifactParameter = GameManager.instance.artifactData.Get(artifactName);
+        SkillData.ParameterWithKey skillParameter = GameManager.instance.skillData.skills[skillName];
+        ArtifactData.ParameterWithKey artifactParameter = GameManager.instance.artifactData.artifacts[artifactName];
         skillImage = GetComponentInChildren<Image>();
         skillNameText = GetComponentInChildren<TextMeshProUGUI>();
         buttonInfo = GetComponentInChildren<InfoButton>();

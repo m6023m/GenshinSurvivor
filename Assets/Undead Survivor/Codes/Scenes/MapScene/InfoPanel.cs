@@ -74,7 +74,7 @@ public class InfoPanel : MonoBehaviour
     {
         StringBuilder stringDiscription = new StringBuilder();
         StringBuilder stringInfo = new StringBuilder();
-        skillParameter = GameManager.instance.skillData.skillsDictionary[skillName];
+        skillParameter = GameManager.instance.skillData.skills[skillName];
         textName.text = "Skill.".AddString(skillName.ToString()).Localize();
         stringDiscription.Append("\n");
         stringDiscription.Append("Skill.Discription.".AddString(skillName.ToString()).Localize());
@@ -129,7 +129,7 @@ public class InfoPanel : MonoBehaviour
     void DisplayArtifact(ArtifactName artifactName)
     {
         StringBuilder stringDiscription = new StringBuilder();
-        artifactParameter = GameManager.instance.artifactData.Get(artifactName);
+        artifactParameter = GameManager.instance.artifactData.artifacts[artifactName];
         for (int i = 0; i < artifactParameter.level; i++)
         {
             stringDiscription.Append("\n");

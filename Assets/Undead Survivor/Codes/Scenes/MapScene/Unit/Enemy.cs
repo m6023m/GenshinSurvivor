@@ -100,7 +100,7 @@ public class Enemy : MonoBehaviour
         {
             foreach (KeyValuePair<SkillName, float> extendDamage in parameterWithKey.parameter.extendDamageDictionary)
             {
-                SkillData.ParameterWithKey extendParameter = GameManager.instance.skillData.skillsDictionary[extendDamage.Key];
+                SkillData.ParameterWithKey extendParameter = GameManager.instance.skillData.skills[extendDamage.Key];
                 Element.Type elementType = extendParameter.parameter.type;
                 if (extendParameter.changeElementType != Element.Type.Physics)
                 {
@@ -134,7 +134,7 @@ public class Enemy : MonoBehaviour
     public virtual void ReceiveDamage(SkillName skillName, float damage, Element.Type elementType)
     {
         GameManager.instance.battleResult.UpdateDamage(skillName, damage);
-        if (GameManager.instance.skillData.skillsDictionary[skillName].parameter.isDebuffable)
+        if (GameManager.instance.skillData.skills[skillName].parameter.isDebuffable)
         {
             enemyDebuff.AddDebuff(skillName);
         }

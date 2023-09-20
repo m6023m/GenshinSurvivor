@@ -92,7 +92,7 @@ public class LevelUpManager : MonoBehaviour
 
     public void SkillUp(SkillName skillName)
     {
-        SkillData.ParameterWithKey skill = GameManager.instance.skillData.skillsDictionary[skillName];
+        SkillData.ParameterWithKey skill = GameManager.instance.skillData.skills[skillName];
         if (skill.level >= maxSkillLevel) return;
         if (skill.level == 0)
         {
@@ -157,7 +157,7 @@ public class LevelUpManager : MonoBehaviour
 
     public void ArtifactUp(ArtifactName artifactName)
     {
-        ArtifactData.ParameterWithKey artifact = GameManager.instance.artifactData.Get(artifactName);
+        ArtifactData.ParameterWithKey artifact = GameManager.instance.artifactData.artifacts[artifactName];
         if (artifact.level >= maxArtifactLevel) return;
         if (artifact.level == 0)
         {
@@ -225,7 +225,7 @@ public class LevelUpManager : MonoBehaviour
     List<SkillData.ParameterWithKey> GetAvailableSkills()
     {
         List<SkillData.ParameterWithKey> availableSkills = new List<SkillData.ParameterWithKey>();
-        foreach (SkillData.ParameterWithKey skill in skillData.skillsDictionary.Values)
+        foreach (SkillData.ParameterWithKey skill in skillData.skills.Values)
         {
             if (CheckSkillTerm(skill))
             {
@@ -238,11 +238,11 @@ public class LevelUpManager : MonoBehaviour
     List<ArtifactData.ParameterWithKey> GetAvailableArtifacts()
     {
         List<ArtifactData.ParameterWithKey> availableArtifacts = new List<ArtifactData.ParameterWithKey>();
-        foreach (ArtifactData.ParameterWithKey artifact in artifactData.artifacts)
+        foreach (KeyValuePair<ArtifactName, ArtifactData.ParameterWithKey> artifact in artifactData.artifacts)
         {
-            if (CheckArtifactTerm(artifact))
+            if (CheckArtifactTerm(artifact.Value))
             {
-                availableArtifacts.Add(artifact);
+                availableArtifacts.Add(artifact.Value);
             }
         }
         return availableArtifacts;

@@ -211,7 +211,7 @@ public class ElementReaction : MonoBehaviour
         elementAttach1.elementType == Element.Type.Geo) return;
 
         ReactionSkill(SkillName.Swirl, damage, elementAttach1.elementType);
-        SkillData.ParameterWithKey parameterWithKey = GameManager.instance.skillData.skillsDictionary[reactionedSkillName];
+        SkillData.ParameterWithKey parameterWithKey = GameManager.instance.skillData.skills[reactionedSkillName];
         if (parameterWithKey.changeElementType == Element.Type.Anemo
         || parameterWithKey.changeElementType == Element.Type.Physics)
         {
@@ -314,7 +314,7 @@ public class ElementReaction : MonoBehaviour
         parentMaterial.SetFloat(frozenMaterialID, fade);
         isFrozen = fade == 1;
         EnemyStop(isFrozen);
-        if (isFrozen) GameManager.instance.damageAttach.WriteReaction(parentEnemy.transform, skillData.skillsDictionary[SkillName.Frozen], Element.Type.Cyro);
+        if (isFrozen) GameManager.instance.damageAttach.WriteReaction(parentEnemy.transform, skillData.skills[SkillName.Frozen], Element.Type.Cyro);
     }
 
     public void Petrification(float fade)
@@ -333,7 +333,7 @@ public class ElementReaction : MonoBehaviour
 
     void DropCrystalize(ElementAttach elementAttach)
     {
-        SkillData.ParameterWithKey parameterWithKey = skillData.skillsDictionary[SkillName.Crystalize];
+        SkillData.ParameterWithKey parameterWithKey = skillData.skills[SkillName.Crystalize];
         GameManager.instance.damageAttach.WriteReaction(parentEnemy.transform, parameterWithKey, elementAttach.elementType);
 
 
@@ -351,7 +351,7 @@ public class ElementReaction : MonoBehaviour
 
     void ReactionSkill(SkillName skillName, float damage, Element.Type elementType)
     {
-        SkillData.ParameterWithKey parameterWithKey = skillData.skillsDictionary[skillName];
+        SkillData.ParameterWithKey parameterWithKey = skillData.skills[skillName];
         elementReactionObject.Init(parameterWithKey, damage, elementType);
     }
 }

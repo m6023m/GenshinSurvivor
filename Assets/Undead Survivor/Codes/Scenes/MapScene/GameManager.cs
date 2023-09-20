@@ -145,7 +145,7 @@ public class GameManager : MonoBehaviour
         levelUpManager.SkillUp(skillName);
 
 #if UNITY_EDITOR
-        SkillName skillBurst = skillData.skillsDictionary[skillName].burst;
+        SkillName skillBurst = skillData.skills[skillName].burst;
         AddBurst(skillBurst);
         gameInfoData.getBursts.AddOrUpdate(skillBurst, 1);
 #endif
@@ -258,7 +258,7 @@ public class GameManager : MonoBehaviour
     {
         if(ownSkills.ContainsKey(skillName)) return;
         GameObject skillObject = poolManager.Get(PoolManager.Type.SkillObject);
-        SkillData.ParameterWithKey param = skillData.skillsDictionary[skillName];
+        SkillData.ParameterWithKey param = skillData.skills[skillName];
         SkillObject skillObj = skillObject.GetComponent<SkillObject>();
         skillObj.Init(param);
         skillObject.transform.parent = playerSkills.transform;
@@ -288,7 +288,7 @@ public class GameManager : MonoBehaviour
         if(ownBursts.ContainsKey(skillName)) return;
 
         GameObject skillObject = poolManager.Get(PoolManager.Type.SkillObject);
-        SkillData.ParameterWithKey param = skillData.skillsDictionary[skillName];
+        SkillData.ParameterWithKey param = skillData.skills[skillName];
         SkillObject skillObj = skillObject.GetComponent<SkillObject>();
         skillObj.Init(param);
         skillObject.transform.parent = playerSkills.transform;
@@ -303,7 +303,7 @@ public class GameManager : MonoBehaviour
 
     public void AddArtifact(ArtifactName artifactName)
     {
-        ArtifactData.ParameterWithKey param = artifactData.Get(artifactName);
+        ArtifactData.ParameterWithKey param = artifactData.artifacts[artifactName];
 
         playerArtifactIcons.AddArtifactData(param);
 

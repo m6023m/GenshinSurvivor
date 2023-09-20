@@ -231,7 +231,7 @@ public class WeaponStarter
 
     void Sword_The_Flute() //5초마다 주변 적에게 공격력 {0:P}의 피해를 줌
     {
-        SkillData.ParameterWithKey skillParameter = skillData.skillsDictionary[SkillName.Weapon_Sword_The_Flute];
+        SkillData.ParameterWithKey skillParameter = skillData.skills[SkillName.Weapon_Sword_The_Flute];
         skillParameter.parameter.damage = weaponParameter.valueSums[0];
         skillParameter.AddStartListener(() =>
         {
@@ -324,7 +324,7 @@ public class WeaponStarter
     {
         CharacterData.Name charname = GameDataManager.instance.saveData.userData.selectChars[0].charNum;
         CharacterData.ParameterWithKey characterParam = GameManager.instance.characterData.Get(charname);
-        SkillData.ParameterWithKey baseAttack = skillData.skillsDictionary[characterParam.skillBasic];
+        SkillData.ParameterWithKey baseAttack = skillData.skills[characterParam.skillBasic];
         baseAttack.parameter.damage += weaponParameter.valueSums[0];
         baseAttack.AddStartListener(() =>
         {
@@ -345,7 +345,7 @@ public class WeaponStarter
         float addAtk = player.stat.atk * weaponParameter.valueSums[0];
         statBuff.atk += addAtk;
 
-        SkillData.ParameterWithKey skillParameter = skillData.skillsDictionary[SkillName.Weapon_Sword_Aquila_Favonia];
+        SkillData.ParameterWithKey skillParameter = skillData.skills[SkillName.Weapon_Sword_Aquila_Favonia];
         skillParameter.parameter.damage = weaponParameter.valueSums[1] * 2;
         skillParameter.AddStartListener(() =>
         {
@@ -372,11 +372,11 @@ public class WeaponStarter
     void Sword_Skyword_Blade() //행운이 {0} 증가함. 장착 캐릭터의 원소폭발 발동 시 이동속도와 10% 증가 일반공격 쿨타임 10% 감소. 일반공격 대미지 {1:P} 증가. 지속 12초
     {
         CharacterData.ParameterWithKey characterParam = GameManager.instance.characterData.Get(character.charNum);
-        SkillData.ParameterWithKey burst = skillData.skillsDictionary[skillData.skillsDictionary[characterParam.skill].burst];
+        SkillData.ParameterWithKey burst = skillData.skills[skillData.skills[characterParam.skill].burst];
         statBuff.luck += weaponParameter.valueSums[0];
         CharacterData.Name charname = GameDataManager.instance.saveData.userData.selectChars[0].charNum;
         CharacterData.ParameterWithKey characterMain = GameManager.instance.characterData.Get(charname);
-        SkillData.ParameterWithKey baseAttack = skillData.skillsDictionary[characterMain.skillBasic];
+        SkillData.ParameterWithKey baseAttack = skillData.skills[characterMain.skillBasic];
         burst.AddStartListener(() =>
         {
             if (isSword_Skyword_Blade) return;
@@ -437,7 +437,7 @@ public class WeaponStarter
     bool isClaymore_The_Bell = false;
     void Claymore_The_Bell() //적에게 체력이 감소된 경우 HP최대치의 {0:P}의 체력을 가진 보호막이 생성됨. 보호막은 10초동안 유지됨 재사용 대기시간 45초. 보호막이 존재할 경우 피해가 {1:P}증가함
     {
-        SkillData.ParameterWithKey skillParameter = skillData.skillsDictionary[SkillName.Weapon_Claymore_The_Bell];
+        SkillData.ParameterWithKey skillParameter = skillData.skills[SkillName.Weapon_Claymore_The_Bell];
         skillParameter.parameter.sheildPer = weaponParameter.valueSums[0];
 
         skillParameter.AddStartListener(() =>
@@ -524,7 +524,7 @@ public class WeaponStarter
     void Claymore_Skyward_Pride() //피해 {0:P}증가. 원소폭발 발동 시 가장 가까운 적에게 주기적으로 공격력의 {1:P}피해를 주는 진공의 칼날을 8회 발사함. 새로운 원소폭발을 발동할 경우 공격회수 초기화됨
     {
         statBuff.allDamageAdd(weaponParameter.valueSums[0]);
-        SkillData.ParameterWithKey skillParameter = skillData.skillsDictionary[SkillName.Weapon_Claymore_Skyward_Pride];
+        SkillData.ParameterWithKey skillParameter = skillData.skills[SkillName.Weapon_Claymore_Skyward_Pride];
         skillParameter.parameter.damage = weaponParameter.valueSums[1];
         skillParameter.AddStartListener(() =>
         {
@@ -548,7 +548,7 @@ public class WeaponStarter
         {
             if (character == null) continue;
             CharacterData.ParameterWithKey characterParam = GameManager.instance.characterData.Get(character.charNum);
-            SkillData.ParameterWithKey burst = skillData.skillsDictionary[skillData.skillsDictionary[characterParam.skill].burst];
+            SkillData.ParameterWithKey burst = skillData.skills[skillData.skills[characterParam.skill].burst];
             burst.AddStartListener(() =>
             {
                 statBuff.Claymore_Skyward_PrideStack = 9;
@@ -646,7 +646,7 @@ public class WeaponStarter
     {
         statBuff.luck += weaponParameter.valueSums[0];
         statBuff.baseCooltime += 0.12f;
-        SkillData.ParameterWithKey skillParameter = skillData.skillsDictionary[SkillName.Weapon_Spear_Skyward_Spine];
+        SkillData.ParameterWithKey skillParameter = skillData.skills[SkillName.Weapon_Spear_Skyward_Spine];
         skillParameter.parameter.damage = weaponParameter.valueSums[1];
         skillParameter.AddStartListener(() =>
         {
@@ -746,7 +746,7 @@ public class WeaponStarter
     }
     void Catalist_Eye_Of_Perception() //{0}초마다 적 사이를 4번 튕겨 {1:P}의 대미지를 주는 구체를 발사함
     {
-        SkillData.ParameterWithKey skillParameter = skillData.skillsDictionary[SkillName.Weapon_Catalist_Eye_Of_Perception];
+        SkillData.ParameterWithKey skillParameter = skillData.skills[SkillName.Weapon_Catalist_Eye_Of_Perception];
         skillParameter.parameter.coolTime = weaponParameter.valueSums[0];
         skillParameter.parameter.damage = weaponParameter.valueSums[1];
         skillParameter.AddStartListener(() =>
@@ -796,7 +796,7 @@ public class WeaponStarter
     void Catalist_Skyward_Atlas() //원소 피해 보너스 {0:P} 증가. 30초마다 가장 가까운 적을 향해 발사해 {1:P}의 피해를 주는 투사체를 지속적으로 생성함. 지속 15초
     {
         statBuff.elementalDamageAdd(weaponParameter.valueSums[0]);
-        SkillData.ParameterWithKey skillParameter = skillData.skillsDictionary[SkillName.Weapon_Catalist_Skyward_Atlas];
+        SkillData.ParameterWithKey skillParameter = skillData.skills[SkillName.Weapon_Catalist_Skyward_Atlas];
         skillParameter.parameter.damage = weaponParameter.valueSums[1];
         skillParameter.AddStartListener(() =>
         {
@@ -847,7 +847,7 @@ public class WeaponStarter
     }
     void Bow_Viridescent_Hunt() //{0} 초마다 제일 가까운 적 방향에 적을 끌어당기고 공격력의 {1:P}의 지속피해를 주는 공격을함. 지속 4초
     {
-        SkillData.ParameterWithKey skillParameter = skillData.skillsDictionary[SkillName.Weapon_Bow_Viridescent_Hunt];
+        SkillData.ParameterWithKey skillParameter = skillData.skills[SkillName.Weapon_Bow_Viridescent_Hunt];
         skillParameter.parameter.coolTime = weaponParameter.valueSums[0];
         skillParameter.parameter.damage = weaponParameter.valueSums[1];
         skillParameter.AddStartListener(() =>
@@ -863,7 +863,7 @@ public class WeaponStarter
     void Bow_SkyWard_Harp() //행운 {0} 증가 {1}초마다 명중 시 {2:P}의 범위피해를 주는 화살을 발사함
     {
         statBuff.luck += weaponParameter.valueSums[0];
-        SkillData.ParameterWithKey skillParameter = skillData.skillsDictionary[SkillName.Weapon_Bow_SkyWard_Harp];
+        SkillData.ParameterWithKey skillParameter = skillData.skills[SkillName.Weapon_Bow_SkyWard_Harp];
         skillParameter.parameter.coolTime = weaponParameter.valueSums[1];
         skillParameter.parameter.damage = weaponParameter.valueSums[2];
         skillParameter.AddStartListener(() =>
@@ -881,7 +881,7 @@ public class WeaponStarter
 
         CharacterData.Name charname = GameDataManager.instance.saveData.userData.selectChars[0].charNum;
         CharacterData.ParameterWithKey characterParam = GameManager.instance.characterData.Get(charname);
-        SkillData.ParameterWithKey baseAttack = skillData.skillsDictionary[characterParam.skillBasic];
+        SkillData.ParameterWithKey baseAttack = skillData.skills[characterParam.skillBasic];
         if (baseAttack.name == SkillName.Basic_Arrow ||
         baseAttack.name == SkillName.Basic_Klee ||
         baseAttack.name == SkillName.Basic_Ganyu ||

@@ -74,7 +74,7 @@ public class CrystalizeObject : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            SkillData.ParameterWithKey parameterWithKey = GameManager.instance.skillData.skillsDictionary[SkillName.Crystalize];
+            SkillData.ParameterWithKey parameterWithKey = GameManager.instance.skillData.skills[SkillName.Crystalize];
             GameManager.instance.player.elementReactionObject.Init(parameterWithKey, 0, elementType);
 
             AudioManager.instance.PlaySFX(AudioManager.SFX.Regen);

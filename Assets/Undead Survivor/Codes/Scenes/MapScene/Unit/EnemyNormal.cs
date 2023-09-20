@@ -177,7 +177,7 @@ public class EnemyNormal : Enemy
                 {
                     OnDead = () =>
                     {
-                        GameManager.instance.skillData.skillsDictionary[SkillName.EB_Tartaglia].parameter.elementGauge += 0.5f;
+                        GameManager.instance.skillData.skills[SkillName.EB_Tartaglia].parameter.elementGauge += 0.5f;
                     };
                 }
             }
@@ -262,7 +262,7 @@ public class EnemyNormal : Enemy
         switch (skillName)
         {
             case SkillName.EB_Zhongli:
-                if (GameManager.instance.skillData.skillsDictionary[skillName].constellations.num3)
+                if (GameManager.instance.skillData.skills[skillName].constellations.num3)
                 {
                     elementReaction.Petrification(1.0f, 4.0f);
                 }
