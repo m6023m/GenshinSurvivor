@@ -1,12 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
+using static Character;
 public class StatCalculator
 {
     Character stat;
     WeaponData.Parameter weaponStat;
     ArtifactData artifactData;
     UpgradeComponent[] upgradeComponents;
+    public Dictionary<StatType, bool> isStatusChangedType = new Dictionary<StatType, bool>();
+    bool CheckChangedType(StatType type)
+    {
+        if (isStatusChangedType.ContainsKey(type))
+        {
+            return isStatusChangedType[type];
+        }
+        return true;
+    }
+    public void OnValidateStatAll()
+    {
+        foreach (var key in isStatusChangedType.Keys.ToList())
+        {
+            isStatusChangedType[key] = true;
+        }
+    }
     StatBuff _statBuff;
     StatBuff statBuff
     {
@@ -46,11 +64,12 @@ public class StatCalculator
         this.weaponStat = weaponStat;
         return this;
     }
-
+    float _Atk;
     public float Atk
     {
         get
         {
+            if (!CheckChangedType(StatType.ATK)) return _Atk;
             float result = stat.atk;
             if (artifactData != null)
             {
@@ -61,17 +80,22 @@ public class StatCalculator
             {
                 result += (result * weaponStat.ATK_PER);
                 result += weaponStat.ATK;
-                result += Health * statBuff.healthDamagePer;
+                result += Health * statBuff.HealthDamagePer;
             }
-            result += GetRankUpValue(stat, Character.StatType.ATK);
+            result += GetRankUpValue(stat, StatType.ATK);
             result += (stat.atk * upgradeComponents[(int)UpgradeType.ATK].GetValue());
-            return result + statBuff.atk;
+            result += statBuff.Atk;
+            _Atk = result;
+            isStatusChangedType[StatType.ATK] = false;
+            return _Atk;
         }
     }
+    float _Armor;
     public float Armor
     {
         get
         {
+            if (!CheckChangedType(StatType.ARMOR)) return _Armor;
             float result = stat.armor;
             if (artifactData != null)
             {
@@ -82,15 +106,20 @@ public class StatCalculator
             {
                 result += (result * weaponStat.ARMOR_PER);
             }
-            result += GetRankUpValue(stat, Character.StatType.ARMOR);
+            result += GetRankUpValue(stat, StatType.ARMOR);
             result += upgradeComponents[(int)UpgradeType.ARMOR].GetValue();
-            return result + statBuff.armor;
+            result += statBuff.Armor;
+            _Armor = result;
+            isStatusChangedType[StatType.ARMOR] = false;
+            return _Armor;
         }
     }
+    float _Health;
     public float Health
     {
         get
         {
+            if (!CheckChangedType(StatType.HP)) return _Health;
             float result = stat.hp;
             if (artifactData != null)
             {
@@ -100,140 +129,182 @@ public class StatCalculator
             {
                 result += (result * weaponStat.HP_PER);
             }
-            result += GetRankUpValue(stat, Character.StatType.HP);
+            result += GetRankUpValue(stat, StatType.HP);
             result += (stat.hp * upgradeComponents[(int)UpgradeType.HP].GetValue());
-            return result + statBuff.hp;
+            result += statBuff.Hp;
+            _Health = result;
+            isStatusChangedType[StatType.HP] = false;
+            return _Health;
         }
     }
 
+    float _Heal;
     public float HealBonus
     {
         get
         {
+            if (!CheckChangedType(StatType.HEAL)) return _Heal;
             float result = stat.heal;
             if (artifactData != null)
             {
                 result += (result * artifactData.HealBonusMultiplier);
             }
-            result += GetRankUpValue(stat, Character.StatType.HEAL);
+            result += GetRankUpValue(stat, StatType.HEAL);
             result += upgradeComponents[(int)UpgradeType.HEAL].GetValue();
-            return result + statBuff.heal;
+            result += statBuff.Heal;
+            _Heal = result;
+            isStatusChangedType[StatType.HEAL] = false;
+            return _Heal;
         }
     }
+    float _Cooltime;
     public float Cooltime
     {
         get
         {
+            if (!CheckChangedType(StatType.COOLTIME)) return _Cooltime;
             float result = stat.cooltime;
-            result += GetRankUpValue(stat, Character.StatType.COOLTIME);
+            result += GetRankUpValue(stat, StatType.COOLTIME);
             result += upgradeComponents[(int)UpgradeType.COOL].GetValue();
-            return result + statBuff.cooltime;
+            result += statBuff.Cooltime;
+            _Cooltime = result;
+            isStatusChangedType[StatType.COOLTIME] = false;
+            return _Cooltime;
         }
     }
     public float CooltimeWithArtifact(Skill.Type skillType)
     {
-        float result = stat.cooltime;
+        float result = Cooltime;
         if (artifactData != null)
         {
             result += artifactData.CoolTimeMultiplier(skillType);
         }
         if (skillType == Skill.Type.Basic)
         {
-            result += statBuff.baseCooltime;
+            result += statBuff.BaseCooltime;
         }
-        result += GetRankUpValue(stat, Character.StatType.COOLTIME);
-        result += upgradeComponents[(int)UpgradeType.COOL].GetValue();
-        return result + statBuff.cooltime;
+        return result;
     }
-
+    float _Area;
     public float Area
     {
         get
         {
+            if (!CheckChangedType(StatType.AREA)) return _Area;
             float result = stat.area;
             if (artifactData != null)
             {
                 result += (result * artifactData.AreaMultiplier);
             }
-            result += GetRankUpValue(stat, Character.StatType.AREA);
+            result += GetRankUpValue(stat, StatType.AREA);
             result += upgradeComponents[(int)UpgradeType.AREA].GetValue();
-            return result + statBuff.area;
+            result += statBuff.Area;
+            _Area = result;
+            isStatusChangedType[StatType.AREA] = false;
+            return _Area;
         }
     }
+    float _Aspeed;
     public float Aspeed
     {
         get
         {
+            if (!CheckChangedType(StatType.ASPEED)) return _Aspeed;
             float result = stat.aspeed;
             if (artifactData != null)
             {
                 result += (result * artifactData.AttackSpeedMultiplier);
             }
-            result += GetRankUpValue(stat, Character.StatType.ASPEED);
+            result += GetRankUpValue(stat, StatType.ASPEED);
             result += (stat.aspeed * upgradeComponents[(int)UpgradeType.SPEED].GetValue());
-            return result + statBuff.aspeed;
+            result += statBuff.Aspeed;
+            _Aspeed = result;
+            isStatusChangedType[StatType.ASPEED] = false;
+            return _Aspeed;
         }
     }
+    float _Duration;
     public float Duration
     {
         get
         {
+            if (!CheckChangedType(StatType.DURATION)) return _Duration;
             float result = stat.duration;
             if (artifactData != null)
             {
                 result += (result * artifactData.DurationMultiplier);
             }
-            result += GetRankUpValue(stat, Character.StatType.DURATION);
+            result += GetRankUpValue(stat, StatType.DURATION);
             result += upgradeComponents[(int)UpgradeType.DURATION].GetValue();
-            return result + statBuff.duration;
+            result += statBuff.Duration;
+            _Duration = result;
+            isStatusChangedType[StatType.DURATION] = false;
+            return _Duration;
         }
     }
+    float _Amount;
     public float Amount
     {
         get
         {
+            if (!CheckChangedType(StatType.AMOUNT)) return _Amount;
             float result = stat.amount;
             if (artifactData != null)
             {
             }
-            result += GetRankUpValue(stat, Character.StatType.AMOUNT);
+            result += GetRankUpValue(stat, StatType.AMOUNT);
             result += upgradeComponents[(int)UpgradeType.AMOUNT].GetValue();
-            return result + statBuff.amount;
+            result += statBuff.Amount;
+            _Amount = result;
+            isStatusChangedType[StatType.AMOUNT] = false;
+            return _Amount;
         }
     }
+    float _Speed;
     public float Speed
     {
         get
         {
+            if (!CheckChangedType(StatType.SPEED)) return _Speed;
             float result = stat.speed;
             if (artifactData != null)
             {
                 result += (result * artifactData.MoveSpeedMultiplier);
             }
-            result += GetRankUpValue(stat, Character.StatType.SPEED);
+            result += GetRankUpValue(stat, StatType.SPEED);
             result += (stat.speed * upgradeComponents[(int)UpgradeType.SPEED].GetValue());
-            return result + statBuff.speed;
+            result += statBuff.Speed;
+            _Speed = result;
+            isStatusChangedType[StatType.SPEED] = false;
+            return _Speed;
         }
     }
 
+    float _Magent;
     public float Magnet
     {
         get
         {
+            if (!CheckChangedType(StatType.MAGNET)) return _Magent;
             float result = stat.magnet;
             if (artifactData != null)
             {
                 result += artifactData.MagnetMultiplier;
             }
-            result += GetRankUpValue(stat, Character.StatType.MAGNET);
+            result += GetRankUpValue(stat, StatType.MAGNET);
             result += upgradeComponents[(int)UpgradeType.MAGNET].GetValue();
-            return result + statBuff.magnet;
+            result += statBuff.Magnet;
+            _Magent = result;
+            isStatusChangedType[StatType.MAGNET] = false;
+            return _Magent;
         }
     }
+    float _Luck;
     public float Luck
     {
         get
         {
+            if (!CheckChangedType(StatType.LUCK)) return _Luck;
             float result = stat.luck;
             if (artifactData != null)
             {
@@ -243,15 +314,20 @@ public class StatCalculator
             {
                 result += weaponStat.LUCK;
             }
-            result += GetRankUpValue(stat, Character.StatType.LUCK);
+            result += GetRankUpValue(stat, StatType.LUCK);
             result += upgradeComponents[(int)UpgradeType.LUCK].GetValue();
-            return result + statBuff.luck;
+            result += statBuff.Luck;
+            _Luck = result;
+            isStatusChangedType[StatType.LUCK] = false;
+            return _Luck;
         }
     }
+    float _Regen;
     public float Regen
     {
         get
         {
+            if (!CheckChangedType(StatType.REGEN)) return _Regen;
             float result = stat.regen;
             if (artifactData != null)
             {
@@ -261,251 +337,329 @@ public class StatCalculator
             {
                 result += weaponStat.REGEN;
             }
-            result += GetRankUpValue(stat, Character.StatType.REGEN);
+            result += GetRankUpValue(stat, StatType.REGEN);
             result += (stat.regen * upgradeComponents[(int)UpgradeType.GROWTH].GetValue());
-            return result + statBuff.regen;
+            result += statBuff.Regen;
+            _Regen = result;
+            isStatusChangedType[StatType.REGEN] = false;
+            return _Regen;
         }
     }
+    float _Exp;
     public float Exp
     {
         get
         {
+            if (!CheckChangedType(StatType.EXP)) return _Exp;
             float result = stat.exp;
             if (artifactData != null)
             {
                 result += artifactData.RegenMultiplier;
             }
-            result += GetRankUpValue(stat, Character.StatType.EXP);
+            result += GetRankUpValue(stat, StatType.EXP);
             result += (stat.regen * upgradeComponents[(int)UpgradeType.GROWTH].GetValue());
-            return result + statBuff.regen;
+            result += statBuff.Exp;
+            _Exp = result;
+            isStatusChangedType[StatType.EXP] = false;
+            return _Exp;
         }
     }
+    float _Greed;
     public float Greed
     {
         get
         {
+            if (!CheckChangedType(StatType.GREED)) return _Greed;
             float result = stat.greed;
             if (artifactData != null)
             {
             }
-            result += GetRankUpValue(stat, Character.StatType.GREED);
+            result += GetRankUpValue(stat, StatType.GREED);
             result += upgradeComponents[(int)UpgradeType.GREED].GetValue();
-            return result + statBuff.greed;
+            result += statBuff.Greed;
+            _Greed = result;
+            isStatusChangedType[StatType.GREED] = false;
+            return _Greed;
         }
     }
+    float _Curse;
     public float Curse
     {
         get
         {
+            if (!CheckChangedType(StatType.CURSE)) return _Curse;
             float result = stat.curse;
             if (artifactData != null)
             {
             }
-            result += GetRankUpValue(stat, Character.StatType.CURSE);
+            result += GetRankUpValue(stat, StatType.CURSE);
             result += upgradeComponents[(int)UpgradeType.CURSE].GetValue();
-            return result + statBuff.curse;
+            result += statBuff.Curse;
+            _Curse = result;
+            isStatusChangedType[StatType.CURSE] = false;
+            return _Curse;
         }
     }
+    float _Rebirth;
     public float Rebirth
     {
         get
         {
+            if (!CheckChangedType(StatType.RESURRATION)) return _Rebirth;
             float result = stat.resurration;
             if (artifactData != null)
             {
                 result += artifactData.Rebirth;
             }
-            result += GetRankUpValue(stat, Character.StatType.RESURRATION);
+            result += GetRankUpValue(stat, StatType.RESURRATION);
             result += upgradeComponents[(int)UpgradeType.REBIRTH].GetValue();
-            return result + statBuff.resurration;
+            result += statBuff.Resurraction;
+            _Rebirth = result;
+            isStatusChangedType[StatType.RESURRATION] = false;
+            return _Rebirth;
         }
     }
+    float _Reroll;
     public float Reroll
     {
         get
         {
+            if (!CheckChangedType(StatType.REROLL)) return _Reroll;
             float result = stat.reroll;
             if (artifactData != null)
             {
             }
-            result += GetRankUpValue(stat, Character.StatType.REROLL);
+            result += GetRankUpValue(stat, StatType.REROLL);
             result += upgradeComponents[(int)UpgradeType.REROLL].GetValue();
-            return result + statBuff.reroll;
+            result += statBuff.Reroll;
+            _Reroll = result;
+            isStatusChangedType[StatType.REROLL] = false;
+            return _Reroll;
         }
     }
+    float _Skip;
     public float Skip
     {
         get
         {
+            if (!CheckChangedType(StatType.SKIP)) return _Skip;
             float result = stat.skip;
             if (artifactData != null)
             {
             }
-            result += GetRankUpValue(stat, Character.StatType.SKIP);
+            result += GetRankUpValue(stat, StatType.SKIP);
             result += upgradeComponents[(int)UpgradeType.SKIP].GetValue();
-            return result + statBuff.skip;
+            result += statBuff.Skip;
+            _Skip = result;
+            isStatusChangedType[StatType.SKIP] = false;
+            return _Skip;
         }
     }
+    float _PhysicsDamage;
     public float PhysicsDamage
     {
         get
         {
+            if (!CheckChangedType(StatType.PHYSICS_DMG)) return _PhysicsDamage;
             float result = stat.physicsDmg;
             if (artifactData != null)
             {
                 result += artifactData.PhysicsDamageMultiplier;
                 result += artifactData.DamageMultiplier;
-                result += statBuff.knwooDamagePer;
+                result += statBuff.KnwooDamagePer;
                 if (GameManager.instance.player.sheilds.Count > 0)
                 {
-                    result += statBuff.knwooDamagePer;
+                    result += statBuff.KnwooDamagePer;
                 }
             }
             if (weaponStat != null)
             {
                 result += weaponStat.PHYSICS_PER;
             }
-            result += GetRankUpValue(stat, Character.StatType.PHYSICS_DMG);
-            return result + statBuff.physicsDmg;
+            result += GetRankUpValue(stat, StatType.PHYSICS_DMG);
+            result += statBuff.PhysicsDmg;
+            _PhysicsDamage = result;
+            isStatusChangedType[StatType.PHYSICS_DMG] = false;
+            return _PhysicsDamage;
         }
     }
+    float _PyroDamage;
     public float PyroDamage
     {
         get
         {
+            if (!CheckChangedType(StatType.PYRO_DMG)) return _PyroDamage;
             float result = stat.pyroDmg;
             if (artifactData != null)
             {
                 result += artifactData.DamageMultiplier;
-                result += statBuff.knwooDamagePer;
+                result += statBuff.KnwooDamagePer;
                 if (GameManager.instance.player.sheilds.Count > 0)
                 {
-                    result += statBuff.knwooDamagePer;
+                    result += statBuff.KnwooDamagePer;
                 }
             }
-            result += GetRankUpValue(stat, Character.StatType.PYRO_DMG);
-            return result + statBuff.pyroDmg;
+            result += GetRankUpValue(stat, StatType.PYRO_DMG);
+            result += statBuff.PyroDmg;
+            _PyroDamage = result;
+            isStatusChangedType[StatType.PYRO_DMG] = false;
+            return _PyroDamage;
         }
     }
+    float _HydroDamage;
     public float HydroDamage
     {
         get
         {
+            if (!CheckChangedType(StatType.HYDRO_DMG)) return _HydroDamage;
             float result = stat.hydroDmg;
             if (artifactData != null)
             {
                 result += artifactData.DamageMultiplier;
-                result += statBuff.knwooDamagePer;
+                result += statBuff.KnwooDamagePer;
                 if (GameManager.instance.player.sheilds.Count > 0)
                 {
-                    result += statBuff.knwooDamagePer;
+                    result += statBuff.KnwooDamagePer;
                 }
             }
-            result += GetRankUpValue(stat, Character.StatType.HYDRO_DMG);
-            return result + statBuff.hydroDmg;
+            result += GetRankUpValue(stat, StatType.HYDRO_DMG);
+            result += statBuff.HydroDmg;
+            _HydroDamage = result;
+            isStatusChangedType[StatType.HYDRO_DMG] = false;
+            return _HydroDamage;
         }
     }
+    float _AnemoDamage;
     public float AnemoDamage
     {
         get
         {
+            if (!CheckChangedType(StatType.ANEMO_DMG)) return _AnemoDamage;
             float result = stat.anemoDmg;
             if (artifactData != null)
             {
                 result += artifactData.DamageMultiplier;
-                result += statBuff.knwooDamagePer;
+                result += statBuff.KnwooDamagePer;
                 if (GameManager.instance.player.sheilds.Count > 0)
                 {
-                    result += statBuff.knwooDamagePer;
+                    result += statBuff.KnwooDamagePer;
                 }
             }
-            result += GetRankUpValue(stat, Character.StatType.ANEMO_DMG);
-            return result + statBuff.anemoDmg;
+            result += GetRankUpValue(stat, StatType.ANEMO_DMG);
+            result += statBuff.AnemoDmg;
+            _AnemoDamage = result;
+            isStatusChangedType[StatType.ANEMO_DMG] = false;
+            return _AnemoDamage;
         }
     }
+    float _DendroDamage;
     public float DendroDamage
     {
         get
         {
+            if (!CheckChangedType(StatType.DENDRO_DMG)) return _DendroDamage;
             float result = stat.dendroDmg;
             if (artifactData != null)
             {
                 result += artifactData.DamageMultiplier;
-                result += statBuff.knwooDamagePer;
+                result += statBuff.KnwooDamagePer;
                 if (GameManager.instance.player.sheilds.Count > 0)
                 {
-                    result += statBuff.knwooDamagePer;
+                    result += statBuff.KnwooDamagePer;
                 }
             }
-            result += GetRankUpValue(stat, Character.StatType.DENDRO_DMG);
-            return result + statBuff.dendroDmg;
+            result += GetRankUpValue(stat, StatType.DENDRO_DMG);
+            result += statBuff.DendroDmg;
+            _DendroDamage = result;
+            isStatusChangedType[StatType.DENDRO_DMG] = false;
+            return _DendroDamage;
         }
     }
+    float _ElectroDamage;
     public float ElectroDamage
     {
         get
         {
+            if (!CheckChangedType(StatType.ELECTRO_DMG)) return _ElectroDamage;
             float result = stat.electroDmg;
             if (artifactData != null)
             {
                 result += artifactData.DamageMultiplier;
-                result += statBuff.knwooDamagePer;
+                result += statBuff.KnwooDamagePer;
                 if (GameManager.instance.player.sheilds.Count > 0)
                 {
-                    result += statBuff.knwooDamagePer;
+                    result += statBuff.KnwooDamagePer;
                 }
             }
-            result += GetRankUpValue(stat, Character.StatType.ELECTRO_DMG);
-            return result + statBuff.electroDmg;
+            result += GetRankUpValue(stat, StatType.ELECTRO_DMG);
+            result += statBuff.ElectroDmg;
+            _ElectroDamage = result;
+            isStatusChangedType[StatType.ELECTRO_DMG] = false;
+            return _ElectroDamage;
         }
     }
+    float _CyroDamage;
     public float CyroDamage
     {
         get
         {
+            if (!CheckChangedType(StatType.CYRO_DMG)) return _CyroDamage;
             float result = stat.cyroDmg;
             if (artifactData != null)
             {
                 result += artifactData.DamageMultiplier;
-                result += statBuff.knwooDamagePer;
+                result += statBuff.KnwooDamagePer;
                 if (GameManager.instance.player.sheilds.Count > 0)
                 {
-                    result += statBuff.knwooDamagePer;
+                    result += statBuff.KnwooDamagePer;
                 }
             }
-            result += GetRankUpValue(stat, Character.StatType.CYRO_DMG);
-            return result + statBuff.cyroDmg;
+            result += GetRankUpValue(stat, StatType.CYRO_DMG);
+            result += statBuff.CyroDmg;
+            _CyroDamage = result;
+            isStatusChangedType[StatType.CYRO_DMG] = false;
+            return _CyroDamage;
         }
     }
+    float _GeoDamage;
     public float GeoDamage
     {
         get
         {
+            if (!CheckChangedType(StatType.GEO_DMG)) return _GeoDamage;
             float result = stat.geoDmg;
             if (artifactData != null)
             {
                 result += artifactData.DamageMultiplier;
-                result += statBuff.knwooDamagePer;
+                result += statBuff.KnwooDamagePer;
                 if (GameManager.instance.player.sheilds.Count > 0)
                 {
-                    result += statBuff.knwooDamagePer;
+                    result += statBuff.KnwooDamagePer;
                 }
             }
-            result += GetRankUpValue(stat, Character.StatType.GEO_DMG);
-            return result + statBuff.geoDmg;
+            result += GetRankUpValue(stat, StatType.GEO_DMG);
+            result += statBuff.GeoDmg;
+            _GeoDamage = result;
+            isStatusChangedType[StatType.GEO_DMG] = false;
+            return _GeoDamage;
         }
     }
+    float _ElementalMastery;
     public float ElementalMastery
     {
         get
         {
+            if (!CheckChangedType(StatType.ELEMENT_MASTERY)) return _ElementalMastery;
             float result = stat.elementMastery;
             if (artifactData != null)
             {
                 result += artifactData.ElementalMastery;
             }
-            result += GetRankUpValue(stat, Character.StatType.ELEMENT_MASTERY);
-            return result + statBuff.elementMastery;
+            result += GetRankUpValue(stat, StatType.ELEMENT_MASTERY);
+            result += statBuff.ElementMastery;
+            _ElementalMastery = result;
+            isStatusChangedType[StatType.ELEMENT_MASTERY] = false;
+            return _ElementalMastery;
         }
     }
 
@@ -518,17 +672,17 @@ public class StatCalculator
         if (parameterWithKey.type == Skill.Type.Skill)
         {
             result += artifactData.SkillDamageMultiplier;
-            result += statBuff.skillDamage;
+            result += statBuff.SkillDamage;
         }
         if (parameterWithKey.type == Skill.Type.Burst)
         {
             result += artifactData.BurstDamageMultiplier;
-            result += statBuff.burstDamage;
+            result += statBuff.BurstDamage;
         }
         if (parameterWithKey.type == Skill.Type.Basic)
         {
             result += artifactData.BaseDamageMultiplier(parameterWithKey.name);
-            result += statBuff.baseDamage;
+            result += statBuff.BaseDamage;
         }
         if (elementType == Element.Type.Physics)
         {
@@ -800,7 +954,7 @@ public class StatCalculator
         {
             float result = 1.0f;
             result += artifactData.ShieldMultiplier;
-            result += statBuff.sheildPer;
+            result += statBuff.SheildPer;
             return result;
         }
     }
@@ -873,7 +1027,7 @@ public class StatCalculator
         }
     }
 
-    public float GetRankUpValue(Character character, Character.StatType statType)
+    public float GetRankUpValue(Character character, StatType statType)
     {
         int rank = 0;
         if (GameManager.instance != null)
@@ -887,88 +1041,88 @@ public class StatCalculator
 
         switch (character.rankUpStat)
         {
-            case Character.StatType.ATK:
+            case StatType.ATK:
                 result += character.atk * multiplier;
                 break;
-            case Character.StatType.ARMOR:
+            case StatType.ARMOR:
                 result += character.armor * multiplier;
                 break;
-            case Character.StatType.HP:
+            case StatType.HP:
                 result += character.hp * multiplier;
                 break;
-            case Character.StatType.HEAL:
+            case StatType.HEAL:
                 result += multiplier;
                 break;
-            case Character.StatType.COOLTIME:
+            case StatType.COOLTIME:
                 result += multiplier;
                 break;
-            case Character.StatType.AREA:
+            case StatType.AREA:
                 result += multiplier;
                 break;
-            case Character.StatType.ASPEED:
+            case StatType.ASPEED:
                 result += multiplier;
                 break;
-            case Character.StatType.DURATION:
+            case StatType.DURATION:
                 result += multiplier;
                 break;
-            case Character.StatType.AMOUNT:
+            case StatType.AMOUNT:
                 result += (character.rankUpValue * rank);
                 break;
-            case Character.StatType.SPEED:
+            case StatType.SPEED:
                 result += character.speed * multiplier;
                 break;
-            case Character.StatType.MAGNET:
+            case StatType.MAGNET:
                 result += multiplier;
                 break;
-            case Character.StatType.LUCK:
+            case StatType.LUCK:
                 result += (character.rankUpValue * rank);
                 break;
-            case Character.StatType.REGEN:
+            case StatType.REGEN:
                 result += multiplier;
                 break;
-            case Character.StatType.EXP:
+            case StatType.EXP:
                 result += multiplier;
                 break;
-            case Character.StatType.GREED:
+            case StatType.GREED:
                 result += multiplier;
                 break;
-            case Character.StatType.CURSE:
+            case StatType.CURSE:
                 result += (character.rankUpValue * rank);
                 break;
-            case Character.StatType.RESURRATION:
+            case StatType.RESURRATION:
                 result += (character.rankUpValue * rank);
                 break;
-            case Character.StatType.REROLL:
+            case StatType.REROLL:
                 result += (character.rankUpValue * rank);
                 break;
-            case Character.StatType.SKIP:
+            case StatType.SKIP:
                 result += (character.rankUpValue * rank);
                 break;
-            case Character.StatType.PHYSICS_DMG:
+            case StatType.PHYSICS_DMG:
                 result += multiplier;
                 break;
-            case Character.StatType.PYRO_DMG:
+            case StatType.PYRO_DMG:
                 result += multiplier;
                 break;
-            case Character.StatType.HYDRO_DMG:
+            case StatType.HYDRO_DMG:
                 result += multiplier;
                 break;
-            case Character.StatType.ANEMO_DMG:
+            case StatType.ANEMO_DMG:
                 result += multiplier;
                 break;
-            case Character.StatType.DENDRO_DMG:
+            case StatType.DENDRO_DMG:
                 result += multiplier;
                 break;
-            case Character.StatType.ELECTRO_DMG:
+            case StatType.ELECTRO_DMG:
                 result += multiplier;
                 break;
-            case Character.StatType.CYRO_DMG:
+            case StatType.CYRO_DMG:
                 result += multiplier;
                 break;
-            case Character.StatType.GEO_DMG:
+            case StatType.GEO_DMG:
                 result += multiplier;
                 break;
-            case Character.StatType.ELEMENT_MASTERY:
+            case StatType.ELEMENT_MASTERY:
                 result += character.elementMastery * rank;
                 break;
             default:

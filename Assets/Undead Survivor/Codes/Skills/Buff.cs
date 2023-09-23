@@ -20,7 +20,7 @@ public class Buff : SkillMoveSet
     StatBuff statBuff;
     bool isPlayerInside;
     private float timeSinceLastCheck = 0f;
-    private const float checkInterval = 1f; 
+    private const float checkInterval = 1f;
 
     Enemy enemy;
     float skillDamage;
@@ -57,7 +57,8 @@ public class Buff : SkillMoveSet
             }
         }
     }
-    void CheckPlayerEffect() {
+    void CheckPlayerEffect()
+    {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
         switch (parameterWithKey.name)
         {
@@ -242,7 +243,7 @@ public class Buff : SkillMoveSet
                 {
                     buffValue1 = 0.15f;
                     this.buffValue1 = buffValue1;
-                    statBuff.hydroDmg += buffValue1;
+                    statBuff.HydroDmg += buffValue1;
                 }
                 break;
             case SkillName.EB_Barbara:
@@ -259,7 +260,7 @@ public class Buff : SkillMoveSet
             case SkillName.EB_Noelle:
                 buffValue0 = GameManager.instance.statCalcuator.Armor * 0.7f;
                 this.buffValue0 = buffValue0;//방어력의 70%만큼 공격력 증가
-                statBuff.atk += this.buffValue0;
+                statBuff.Atk += this.buffValue0;
                 baseAttack.parameter.area += 0.5f;
                 break;
             case SkillName.EB_Beidou:
@@ -292,10 +293,10 @@ public class Buff : SkillMoveSet
                     buffValue0 *= 1.5f;
                 }
                 this.buffValue0 = buffValue0;//체력의 5% 만큼 공격력 증가
-                statBuff.atk += this.buffValue0;
+                statBuff.Atk += this.buffValue0;
                 break;
             case SkillName.EB_Rosaria:
-                statBuff.luck += 3.0f;
+                statBuff.Luck += 3.0f;
                 break;
             case SkillName.E_Yanfei:
                 float damageResult = baseAttack.parameter.damage / 3.0f;
@@ -314,6 +315,9 @@ public class Buff : SkillMoveSet
                 {
                     statBuff.eulaStack = 5;
                 }
+                break;
+            case SkillName.EB_Raiden:
+                player.ReceiveDamage(0, GameManager.instance.statBuff.immuneTimeRaiden);
                 break;
         }
     }
@@ -338,12 +342,12 @@ public class Buff : SkillMoveSet
                 float healthPercentage = player.health / player.maxHealth * 100.0f;
                 buffValue0 += player.stat.atk;
                 this.buffValue0 = buffValue0;
-                statBuff.atk += this.buffValue0;
+                statBuff.Atk += this.buffValue0;
                 if (parameterWithKey.constellations.num5)
                 {
                     buffValue1 = 0.15f;
                     this.buffValue1 = buffValue1;
-                    statBuff.pyroDmg += buffValue1;
+                    statBuff.PyroDmg += buffValue1;
                 }
                 break;
             case SkillName.E_Chongyun:
@@ -355,7 +359,7 @@ public class Buff : SkillMoveSet
                 if (parameterWithKey.constellations.num5)
                 {
                     buffValue0 = 3.0f;
-                    statBuff.armor += buffValue0;
+                    statBuff.Armor += buffValue0;
                 }
                 break;
             case SkillName.EB_Diona:
@@ -367,22 +371,22 @@ public class Buff : SkillMoveSet
                 }
                 if (parameterWithKey.constellations.num5)
                 {
-                    statBuff.heal += 0.3f;
-                    statBuff.elementMastery += 200;
+                    statBuff.Heal += 0.3f;
+                    statBuff.ElementMastery += 200;
                 }
                 break;
             case SkillName.E_Albedo:
                 if (parameterWithKey.constellations.num1)
                 {
-                    statBuff.armor += 3.0f;
+                    statBuff.Armor += 3.0f;
                 }
                 if (parameterWithKey.constellations.num5)
                 {
-                    statBuff.cooltime += 0.2f;
+                    statBuff.Cooltime += 0.2f;
                 }
                 break;
             case SkillName.EB_Travler_Geo:
-                statBuff.luck += 3;
+                statBuff.Luck += 3;
                 break;
         }
     }
@@ -430,11 +434,11 @@ public class Buff : SkillMoveSet
         {
             case SkillName.EB_Bennet:
                 float healthPercentage = player.health / player.maxHealth * 100.0f;
-                statBuff.atk -= buffValue0;
+                statBuff.Atk -= buffValue0;
 
                 if (parameterWithKey.constellations.num5)
                 {
-                    statBuff.pyroDmg -= buffValue1;
+                    statBuff.PyroDmg -= buffValue1;
                     baseAttack.parameter.SetElementType(baseAttack, Element.Type.Physics);
                 }
                 break;
@@ -445,7 +449,7 @@ public class Buff : SkillMoveSet
             case SkillName.EB_Jean:
                 if (parameterWithKey.constellations.num5)
                 {
-                    statBuff.armor -= buffValue0;
+                    statBuff.Armor -= buffValue0;
                 }
                 break;
             case SkillName.EB_Diona:
@@ -455,25 +459,25 @@ public class Buff : SkillMoveSet
                 }
                 if (parameterWithKey.constellations.num5)
                 {
-                    statBuff.heal -= 0.3f;
-                    statBuff.elementMastery -= 200;
+                    statBuff.Heal -= 0.3f;
+                    statBuff.ElementMastery -= 200;
                 }
                 break;
             case SkillName.E_Albedo:
                 if (parameterWithKey.constellations.num1)
                 {
-                    statBuff.armor -= 3.0f;
+                    statBuff.Armor -= 3.0f;
                 }
                 if (parameterWithKey.constellations.num5)
                 {
-                    statBuff.cooltime -= 0.2f;
+                    statBuff.Cooltime -= 0.2f;
                 }
                 break;
             case SkillName.E_Zhongli:
                 statBuff.isResonance = false;
                 break;
             case SkillName.EB_Travler_Geo:
-                statBuff.luck -= 3;
+                statBuff.Luck -= 3;
                 break;
         }
     }
@@ -514,7 +518,7 @@ public class Buff : SkillMoveSet
             case SkillName.E_Barbara:
                 if (parameterWithKey.constellations.num1)
                 {
-                    statBuff.hydroDmg -= buffValue1;
+                    statBuff.HydroDmg -= buffValue1;
                 }
                 break;
             case SkillName.E_Keqing:
@@ -527,7 +531,7 @@ public class Buff : SkillMoveSet
             case SkillName.EB_Noelle:
                 baseAttack.parameter.isTypeFix = false;
                 baseAttack.parameter.SetElementType(baseAttack, Element.Type.Physics);
-                statBuff.atk -= buffValue0;
+                statBuff.Atk -= buffValue0;
                 baseAttack.parameter.area -= 0.5f;
                 break;
             case SkillName.E_Tartaglia:
@@ -555,10 +559,10 @@ public class Buff : SkillMoveSet
             case SkillName.E_Hutao:
                 baseAttack.parameter.isTypeFix = false;
                 baseAttack.parameter.SetElementType(baseAttack, Element.Type.Physics);
-                statBuff.atk -= buffValue0;
+                statBuff.Atk -= buffValue0;
                 break;
             case SkillName.EB_Rosaria:
-                statBuff.luck -= 3.0f;
+                statBuff.Luck -= 3.0f;
                 break;
             case SkillName.E_Yanfei:
                 baseAttack.parameter.RemoveExtendDamage(SkillName.E_Yanfei);

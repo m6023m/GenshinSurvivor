@@ -12,26 +12,47 @@ public class SkillInfoText : MonoBehaviour
 
     public void Init(SkillName skillName, ArtifactName artifactName)
     {
+        string name = "";
+        if (artifactName != ArtifactName.Artifact_None)
+        {
+            InitArtifactInfo(artifactName);
+        }
+        else
+        {
+            InitSkillInfo(skillName);
+        }
+    }
+
+    void InitSkillInfo(SkillName skillName)
+    {
         SkillData.ParameterWithKey skillParameter = GameManager.instance.skillData.skills[skillName];
+        skillImage = GetComponentInChildren<Image>();
+        skillNameText = GetComponentInChildren<TextMeshProUGUI>();
+        buttonInfo = GetComponentInChildren<InfoButton>();
+        Sprite sprite = null;
+        string name = "";
+        sprite = skillParameter.icon;
+        name = "Skill.".AddString(skillName.ToString()).Localize();
+
+        skillImage.sprite = sprite;
+        skillNameText.text = name;
+        buttonInfo.Init(skillName, ArtifactName.Artifact_None);
+
+    }
+    void InitArtifactInfo(ArtifactName artifactName)
+    {
+
         ArtifactData.ParameterWithKey artifactParameter = GameManager.instance.artifactData.artifacts[artifactName];
         skillImage = GetComponentInChildren<Image>();
         skillNameText = GetComponentInChildren<TextMeshProUGUI>();
         buttonInfo = GetComponentInChildren<InfoButton>();
         Sprite sprite = null;
         string name = "";
-        if (artifactName != ArtifactName.Artifact_None)
-        {
-            sprite = artifactParameter.icon;
-            name = "Artifact.".AddString(artifactName.ToString()).Localize();
-        }
-        else
-        {
-            sprite = skillParameter.icon;
-            name = "Skill.".AddString(skillName.ToString()).Localize();
-        }
+        sprite = artifactParameter.icon;
+        name = "Artifact.".AddString(artifactName.ToString()).Localize();
 
         skillImage.sprite = sprite;
         skillNameText.text = name;
-        buttonInfo.Init(skillName, artifactName);
+        buttonInfo.Init(SkillName.Skill_None, artifactName);
     }
 }

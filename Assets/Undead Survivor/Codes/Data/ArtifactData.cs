@@ -64,7 +64,7 @@ public class ArtifactData : ScriptableObject
         get
         {
             float result = 0f;
-            result = result + artifacts[ArtifactName.Resolution_of_Sojourner].level;
+            result += artifacts[ArtifactName.Resolution_of_Sojourner].level;
             return result;
         }
     }
@@ -74,9 +74,9 @@ public class ArtifactData : ScriptableObject
         get
         {
             float result = 0f;
-            result = result + (artifacts[ArtifactName.Instructor].level * 20);
-            result = result + Instructor();
-            result = result + (artifacts[ArtifactName.Wanderers_Troupe].level * 20);
+            result += (artifacts[ArtifactName.Instructor].level * 20);
+            result += Instructor();
+            result += (artifacts[ArtifactName.Wanderers_Troupe].level * 20);
             return result;
         }
     }
@@ -87,8 +87,8 @@ public class ArtifactData : ScriptableObject
         get
         {
             float result = 0f;
-            result = result + artifacts[ArtifactName.Defenders_Will].level;
-            result = result + Defenders_Will();
+            result += artifacts[ArtifactName.Defenders_Will].level;
+            result += Defenders_Will();
             return result;
         }
     }
@@ -97,20 +97,20 @@ public class ArtifactData : ScriptableObject
         get
         {
             float result = 0f;
-            result = result + artifacts[ArtifactName.Brave_Heart].level;
-            result = result + Noblesse_Oblige();
+            result += artifacts[ArtifactName.Brave_Heart].level;
+            result += Noblesse_Oblige();
             return result;
         }
     }
     public float BaseDamageMultiplier(SkillName skillName)//일반공격 피해
     {
         float result = 0f;
-        result = result + artifacts[ArtifactName.Martial_Artist].level * 10 / 100.0f;
-        result = result + Martial_Artist();
-        result = result + Gladiators_Finale(skillName);
-        result = result + Wanderers_Troupe(skillName);
-        result = result + Heart_of_Depth(skillName);
-        result = result + Retracing_Bolide();
+        result += artifacts[ArtifactName.Martial_Artist].level * 10 / 100.0f;
+        result += Martial_Artist();
+        result += Gladiators_Finale(skillName);
+        result += Wanderers_Troupe(skillName);
+        result += Heart_of_Depth(skillName);
+        result += Retracing_Bolide();
         return result;
     }
     public float SkillDamageMultiplier
@@ -118,7 +118,7 @@ public class ArtifactData : ScriptableObject
         get
         {
             float result = 0f;
-            result = result + artifacts[ArtifactName.Gambler].level * 10 / 100.0f;
+            result += artifacts[ArtifactName.Gambler].level * 10 / 100.0f;
             return result;
         }
     }
@@ -127,8 +127,8 @@ public class ArtifactData : ScriptableObject
         get
         {
             float result = 0f;
-            result = result + artifacts[ArtifactName.Scholar].level * 10 / 100.0f;
-            // result = result + artifacts[ArtifactName.Emblem_of_Severed_Fate].level * 10 / 100.0f;
+            result += artifacts[ArtifactName.Scholar].level * 10 / 100.0f;
+            // result += artifacts[ArtifactName.Emblem_of_Severed_Fate].level * 10 / 100.0f;
             return result;
         }
     }
@@ -137,7 +137,7 @@ public class ArtifactData : ScriptableObject
         get
         {
             float result = 0f;
-            result = result + artifacts[ArtifactName.Berserker].level * 10 / 100.0f;
+            result += artifacts[ArtifactName.Berserker].level * 10 / 100.0f;
             return result;
         }
     }
@@ -146,9 +146,9 @@ public class ArtifactData : ScriptableObject
         get
         {
             float result = 0f;
-            result = result + artifacts[ArtifactName.Tiny_Miracle].level;
-            result = result + Berserker();
-            result = result + Blizzard_Strayer();
+            result += artifacts[ArtifactName.Tiny_Miracle].level;
+            result += Berserker();
+            result += Blizzard_Strayer();
             return result;
         }
     }
@@ -157,8 +157,8 @@ public class ArtifactData : ScriptableObject
         get
         {
             float result = 0f;
-            result = result + artifacts[ArtifactName.Gladiators_Finale].level * 10 / 100.0f;
-            result = result + Tenacity_of_the_Millelith();
+            result += artifacts[ArtifactName.Gladiators_Finale].level * 10 / 100.0f;
+            result += Tenacity_of_the_Millelith();
             return result;
         }
     }
@@ -167,9 +167,9 @@ public class ArtifactData : ScriptableObject
         get
         {
             float result = 0f;
-            result = result + artifacts[ArtifactName.Bloodstained_Chivalry].level * 10 / 100.0f;
-            result = result + artifacts[ArtifactName.Pale_Flame].level * 10 / 100.0f;
-            result = result + Pale_Flame();
+            result += artifacts[ArtifactName.Bloodstained_Chivalry].level * 10 / 100.0f;
+            result += artifacts[ArtifactName.Pale_Flame].level * 10 / 100.0f;
+            result += Pale_Flame();
             return result;
         }
     }
@@ -178,7 +178,7 @@ public class ArtifactData : ScriptableObject
         get
         {
             float result = 0f;
-            result = result + artifacts[ArtifactName.Noblesse_Oblige].level * 10 / 100.0f;
+            result += artifacts[ArtifactName.Noblesse_Oblige].level * 10 / 100.0f;
             return result;
         }
     }
@@ -187,15 +187,15 @@ public class ArtifactData : ScriptableObject
         get
         {
             float result = 0f;
-            result = result + artifacts[ArtifactName.Blizzard_Strayer].level * 6 / 100.0f;
+            result += artifacts[ArtifactName.Blizzard_Strayer].level * 6 / 100.0f;
             return result;
         }
     }
     public float CoolTimeMultiplier(Skill.Type skillType)
     {
         float result = 0f;
-        result = result + artifacts[ArtifactName.Heart_of_Depth].level * 6 / 100.0f;
-        result = result + Bloodstained_Chivalry(skillType);
+        result += artifacts[ArtifactName.Heart_of_Depth].level * 6 / 100.0f;
+        result += Bloodstained_Chivalry(skillType);
         return result;
     }
     public float HealthMultiplier
@@ -203,7 +203,7 @@ public class ArtifactData : ScriptableObject
         get
         {
             float result = 0f;
-            result = result + artifacts[ArtifactName.Tenacity_of_the_Millelith].level * 10 / 100.0f;
+            result += artifacts[ArtifactName.Tenacity_of_the_Millelith].level * 10 / 100.0f;
             return result;
         }
     }
@@ -212,9 +212,9 @@ public class ArtifactData : ScriptableObject
         get
         {
             float result = 0f;
-            result = result + artifacts[ArtifactName.Maiden_Beloved].level * 10 / 100.0f;
-            // result = result + artifacts[ArtifactName.Ocean_Hued_Clam].level * 10 / 100.0f;
-            result = result + Maiden_Beloved();
+            result += artifacts[ArtifactName.Maiden_Beloved].level * 10 / 100.0f;
+            // result += artifacts[ArtifactName.Ocean_Hued_Clam].level * 10 / 100.0f;
+            result += Maiden_Beloved();
             return result;
         }
     }
@@ -223,8 +223,8 @@ public class ArtifactData : ScriptableObject
         get
         {
             float result = 0f;
-            result = result + artifacts[ArtifactName.Viridescent_Venerer].level * 10 / 100.0f;
-            result = result + Viridescent_Venerer(SkillName.Swirl);
+            result += artifacts[ArtifactName.Viridescent_Venerer].level * 10 / 100.0f;
+            result += Viridescent_Venerer(SkillName.Swirl);
             return result;
         }
     }
@@ -233,9 +233,9 @@ public class ArtifactData : ScriptableObject
         get
         {
             float result = 0f;
-            result = result + artifacts[ArtifactName.Retracing_Bolide].level * 10 / 100.0f;
-            result = result + Tenacity_of_the_Millelith();
-            result = result + Archaic_Petra();
+            result += artifacts[ArtifactName.Retracing_Bolide].level * 10 / 100.0f;
+            result += Tenacity_of_the_Millelith();
+            result += Archaic_Petra();
             return result;
         }
     }
@@ -244,8 +244,8 @@ public class ArtifactData : ScriptableObject
         get
         {
             float result = 0f;
-            result = result + artifacts[ArtifactName.Crimson_Witch_of_Flames].level * 10 / 100.0f;
-            // result = result + Husk_of_Opulent_Dreams();
+            result += artifacts[ArtifactName.Crimson_Witch_of_Flames].level * 10 / 100.0f;
+            // result += Husk_of_Opulent_Dreams();
             return result;
         }
     }
@@ -254,7 +254,7 @@ public class ArtifactData : ScriptableObject
         get
         {
             float result = 0f;
-            result = result + artifacts[ArtifactName.Thundering_Fury].level * 10 / 100.0f;
+            result += artifacts[ArtifactName.Thundering_Fury].level * 10 / 100.0f;
             return result;
         }
     }
@@ -263,7 +263,7 @@ public class ArtifactData : ScriptableObject
         get
         {
             float result = 0f;
-            result = result + artifacts[ArtifactName.Archaic_Petra].level * 10 / 100.0f;
+            result += artifacts[ArtifactName.Archaic_Petra].level * 10 / 100.0f;
             return result;
         }
     }
@@ -272,7 +272,7 @@ public class ArtifactData : ScriptableObject
         get
         {
             float result = 0f;
-            // result = result + artifacts[ArtifactName.Reminiscence_of_Shime].level * 10 / 100.0f;
+            // result += artifacts[ArtifactName.Reminiscence_of_Shime].level * 10 / 100.0f;
             return result;
         }
     }
@@ -281,7 +281,7 @@ public class ArtifactData : ScriptableObject
         get
         {
             float result = 0f;
-            // result = result + artifacts[ArtifactName.Husk_of_Opulent_Dreams].level * 10 / 100.0f;
+            // result += artifacts[ArtifactName.Husk_of_Opulent_Dreams].level * 10 / 100.0f;
             return result;
         }
     }
@@ -292,7 +292,7 @@ public class ArtifactData : ScriptableObject
         get
         {
             float result = 0f;
-            result = result + Resolution_of_Sojourner();
+            result += Resolution_of_Sojourner();
             return result;
         }
     }
@@ -302,7 +302,7 @@ public class ArtifactData : ScriptableObject
         get
         {
             int result = 0;
-            result = result + Tiny_Miracle();
+            result += Tiny_Miracle();
             return result;
         }
     }
@@ -534,7 +534,7 @@ public class ArtifactData : ScriptableObject
         if (GameManager.instance.player.maxHealth /
         GameManager.instance.player.health * 100 < 70)
         {
-            result = result + 10;
+            result += 10;
         }
         return result;
     }

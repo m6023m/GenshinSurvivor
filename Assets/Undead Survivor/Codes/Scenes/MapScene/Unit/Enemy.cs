@@ -49,7 +49,7 @@ public class Enemy : MonoBehaviour
     Dictionary<int, float> damageTimers = new Dictionary<int, float>();
     Dictionary<int, Skill> skills = new Dictionary<int, Skill>();
     EnemyDebuff _enemyDebuff;
-    EnemyDebuff enemyDebuff
+    public EnemyDebuff enemyDebuff
     {
         get
         {

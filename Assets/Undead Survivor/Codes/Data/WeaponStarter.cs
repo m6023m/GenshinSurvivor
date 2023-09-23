@@ -343,7 +343,7 @@ public class WeaponStarter
     void Sword_Aquila_Favonia() //공격력이 {0:P}증가함. 적에게 체력이 감소된 경우 공격력의 {1:P}만큼 HP를 회복하고 그 두배만큼의 피해를 주변 적에게 줌. 재사용 대기시간 15초
     {
         float addAtk = player.stat.atk * weaponParameter.valueSums[0];
-        statBuff.atk += addAtk;
+        statBuff.Atk += addAtk;
 
         SkillData.ParameterWithKey skillParameter = skillData.skills[SkillName.Weapon_Sword_Aquila_Favonia];
         skillParameter.parameter.damage = weaponParameter.valueSums[1] * 2;
@@ -373,7 +373,7 @@ public class WeaponStarter
     {
         CharacterData.ParameterWithKey characterParam = GameManager.instance.characterData.Get(character.charNum);
         SkillData.ParameterWithKey burst = skillData.skills[skillData.skills[characterParam.skill].burst];
-        statBuff.luck += weaponParameter.valueSums[0];
+        statBuff.Luck += weaponParameter.valueSums[0];
         CharacterData.Name charname = GameDataManager.instance.saveData.userData.selectChars[0].charNum;
         CharacterData.ParameterWithKey characterMain = GameManager.instance.characterData.Get(charname);
         SkillData.ParameterWithKey baseAttack = skillData.skills[characterMain.skillBasic];
@@ -382,14 +382,14 @@ public class WeaponStarter
             if (isSword_Skyword_Blade) return;
             isSword_Skyword_Blade = true;
             WeaponFade(true);
-            statBuff.baseCooltime += 0.1f;
-            statBuff.speed += 0.1f;
-            statBuff.baseDamage += weaponParameter.valueSums[1];
+            statBuff.BaseCooltime += 0.1f;
+            statBuff.Speed += 0.1f;
+            statBuff.BaseDamage += weaponParameter.valueSums[1];
             weapon.PatternDelay(12.0f).OnComplete(() =>
             {
-                statBuff.baseCooltime -= 0.1f;
-                statBuff.speed -= 0.1f;
-                statBuff.baseDamage -= weaponParameter.valueSums[1];
+                statBuff.BaseCooltime -= 0.1f;
+                statBuff.Speed -= 0.1f;
+                statBuff.BaseDamage -= weaponParameter.valueSums[1];
                 isSword_Skyword_Blade = false;
                 WeaponFade(true);
             });
@@ -397,13 +397,13 @@ public class WeaponStarter
     }
     void Sword_Summit_Shaper() //보호막 체력이 {0:P}증가함. 공격력이 {1:P} 증가함. 보호막이 존재하면 공격력 증가 효과가 두배가 됨
     {
-        statBuff.sheildPer += weaponParameter.valueSums[0];
-        statBuff.knwooDamagePer += weaponParameter.valueSums[1];
+        statBuff.SheildPer += weaponParameter.valueSums[0];
+        statBuff.KnwooDamagePer += weaponParameter.valueSums[1];
     }
     void Sword_Primordial_Jade_Cutter() //HP가 {0:P} 증가하고, HP최대치의 {1:P}에 해당하는 공격력 보너스를 획득함
     {
-        statBuff.hp += player.stat.hp * weaponParameter.valueSums[0];
-        statBuff.healthDamagePer += weaponParameter.valueSums[1];
+        statBuff.Hp += player.stat.hp * weaponParameter.valueSums[0];
+        statBuff.HealthDamagePer += weaponParameter.valueSums[1];
     }
     void Sword_Freedom_Sworn() //가하는 피해 {0:P}증가함. 20초마다 일반공격피해 {1:P}증가, 공격력 {2:P} 증가함. 지속 12초
     {
@@ -412,15 +412,15 @@ public class WeaponStarter
         weapon.StartCoroutine(WeaponCooltime(20.0f, time,
         () =>
         {
-            statBuff.baseDamage += weaponParameter.valueSums[1];
+            statBuff.BaseDamage += weaponParameter.valueSums[1];
             float atk = player.stat.atk * weaponParameter.valueSums[2];
-            statBuff.atk += atk;
+            statBuff.Atk += atk;
             WeaponFade(true);
 
             weapon.PatternDelay(12.0f).OnComplete(() =>
             {
-                statBuff.baseDamage -= weaponParameter.valueSums[1];
-                statBuff.atk -= atk;
+                statBuff.BaseDamage -= weaponParameter.valueSums[1];
+                statBuff.Atk -= atk;
                 WeaponFade(false);
             });
         },
@@ -484,8 +484,8 @@ public class WeaponStarter
             }
         }
 
-        statBuff.atk += player.stat.atk * weaponParameter.valueSums[0] * charCount;
-        statBuff.luck += weaponParameter.valueSums[1] * charCount;
+        statBuff.Atk += player.stat.atk * weaponParameter.valueSums[0] * charCount;
+        statBuff.Luck += weaponParameter.valueSums[1] * charCount;
     }
     bool isClaymore_Serpent_SpineStack = false;
     int stackMax = 5;
@@ -558,18 +558,18 @@ public class WeaponStarter
     void Claymore_Wolfs_Gravestone() //공격력 {0:P}증가. 30초마다 공격력 {1:P} 증가함. 지속 12초. 재사용 대기시간 30초
     {
         float time = 0;
-        statBuff.atk += player.stat.atk * weaponParameter.valueSums[0];
+        statBuff.Atk += player.stat.atk * weaponParameter.valueSums[0];
         float atk = 0;
         weapon.StartCoroutine(WeaponCooltime(30.0f, time,
         () =>
         {
             atk = player.stat.atk * weaponParameter.valueSums[1];
-            statBuff.atk += atk;
+            statBuff.Atk += atk;
             WeaponFade(true);
 
             weapon.PatternDelay(12.0f).OnComplete(() =>
             {
-                statBuff.atk -= atk;
+                statBuff.Atk -= atk;
                 WeaponFade(false);
             });
         },
@@ -580,26 +580,26 @@ public class WeaponStarter
     }
     void Claymore_The_Unforged() //보호막 체력 {0:P}증가. 공격력이 {1:P} 증가함. 보호막이 존재할 경우 공격력 증가 효괴가 두배가 됨
     {
-        statBuff.sheildPer += weaponParameter.valueSums[0];
-        statBuff.knwooDamagePer += weaponParameter.valueSums[1];
+        statBuff.SheildPer += weaponParameter.valueSums[0];
+        statBuff.KnwooDamagePer += weaponParameter.valueSums[1];
     }
     void Claymore_Song_Of_Broken_Pines() //공격력 {0:P}증가. 20초마다 일반공격 재사용 대기시간 {1:P}감소. 공격력 {2:P} 증가함. 지속 12초
     {
         float time = 0;
-        statBuff.atk += player.stat.atk * weaponParameter.valueSums[0];
+        statBuff.Atk += player.stat.atk * weaponParameter.valueSums[0];
 
         WeaponCooltime(20.0f, time,
         () =>
         {
             float atk = player.stat.atk * weaponParameter.valueSums[2];
-            statBuff.baseCooltime += weaponParameter.valueSums[1];
-            statBuff.atk += atk;
+            statBuff.BaseCooltime += weaponParameter.valueSums[1];
+            statBuff.Atk += atk;
             WeaponFade(true);
             weapon.PatternDelay(12.0f).OnComplete(() =>
             {
                 WeaponFade(false);
-                statBuff.baseCooltime -= weaponParameter.valueSums[1];
-                statBuff.atk -= atk;
+                statBuff.BaseCooltime -= weaponParameter.valueSums[1];
+                statBuff.Atk -= atk;
             });
         },
         () =>
@@ -629,23 +629,23 @@ public class WeaponStarter
             }
         }
 
-        statBuff.atk += player.stat.atk * weaponParameter.valueSums[0] * charCount;
-        statBuff.luck += weaponParameter.valueSums[1] * charCount;
+        statBuff.Atk += player.stat.atk * weaponParameter.valueSums[0] * charCount;
+        statBuff.Luck += weaponParameter.valueSums[1] * charCount;
     }
     void Spear_Deathmatch() //공격력 {0:P} 방어력 {1:P} 증가
     {
-        statBuff.atk += player.stat.atk * weaponParameter.valueSums[0];
-        statBuff.armor += player.stat.armor * weaponParameter.valueSums[1];
+        statBuff.Atk += player.stat.atk * weaponParameter.valueSums[0];
+        statBuff.Armor += player.stat.armor * weaponParameter.valueSums[1];
     }
     void Spear_Primordial_Jade_Spear() //공격력 {0:P} 피해 {1:P}증가
     {
-        statBuff.atk += player.stat.atk * weaponParameter.valueSums[0];
+        statBuff.Atk += player.stat.atk * weaponParameter.valueSums[0];
         statBuff.allDamageAdd(weaponParameter.valueSums[1]);
     }
     void Spear_Skyward_Spine() //행운 {0} 증가 일반공격 재사용 대기시간 12% 감소. 2초마다 가장 가까운 적 방향으로 진공 칼날을 날려 {1:P}의 피해를 줌
     {
-        statBuff.luck += weaponParameter.valueSums[0];
-        statBuff.baseCooltime += 0.12f;
+        statBuff.Luck += weaponParameter.valueSums[0];
+        statBuff.BaseCooltime += 0.12f;
         SkillData.ParameterWithKey skillParameter = skillData.skills[SkillName.Weapon_Spear_Skyward_Spine];
         skillParameter.parameter.damage = weaponParameter.valueSums[1];
         skillParameter.AddStartListener(() =>
@@ -659,13 +659,13 @@ public class WeaponStarter
     }
     void Spear_Vortex_Vanquisher() //보호막 체력 {0:P}증가. 공격력이 {1:P} 증가함. 보호막이 존재할 경우 공격력 증가 효괴가 두배가 됨
     {
-        statBuff.sheildPer += weaponParameter.valueSums[0];
-        statBuff.knwooDamagePer += weaponParameter.valueSums[1];
+        statBuff.SheildPer += weaponParameter.valueSums[0];
+        statBuff.KnwooDamagePer += weaponParameter.valueSums[1];
     }
     void Spear_Staff_Of_Homa() //최대 체력 {0:P}증가. 공격력이 HP 최대치의 {1:P}만큼 증가함 HP가 50% 미만일 경우 공격력 증가효과가 두배가 됨
     {
-        statBuff.hp += player.stat.hp * weaponParameter.valueSums[0];
-        statBuff.healthDamagePer += weaponParameter.valueSums[1];
+        statBuff.Hp += player.stat.hp * weaponParameter.valueSums[0];
+        statBuff.HealthDamagePer += weaponParameter.valueSums[1];
         weapon.StartCoroutine(Spear_Staff_Of_HomaBuff());
     }
 
@@ -677,13 +677,13 @@ public class WeaponStarter
             float healthPer = player.health / GameManager.instance.statCalcuator.Health;
             if (healthPer < 0.5f && !isBuff)
             {
-                statBuff.healthDamagePer += weaponParameter.valueSums[1];
+                statBuff.HealthDamagePer += weaponParameter.valueSums[1];
                 isBuff = true;
 
             }
             else if (healthPer >= 0.5f && isBuff)
             {
-                statBuff.healthDamagePer -= weaponParameter.valueSums[1];
+                statBuff.HealthDamagePer -= weaponParameter.valueSums[1];
                 isBuff = false;
             }
 
@@ -707,13 +707,13 @@ public class WeaponStarter
             {
                 case 0:
                     atk = player.stat.atk * weaponParameter.valueSums[0];
-                    statBuff.atk += atk;
+                    statBuff.Atk += atk;
                     break;
                 case 1:
                     statBuff.allDamageAdd(weaponParameter.valueSums[1]);
                     break;
                 case 2:
-                    statBuff.elementMastery += weaponParameter.valueSums[2];
+                    statBuff.ElementMastery += weaponParameter.valueSums[2];
                     break;
             }
             WeaponFade(true);
@@ -723,13 +723,13 @@ public class WeaponStarter
                 switch (randomNum)
                 {
                     case 0:
-                        statBuff.atk -= atk;
+                        statBuff.Atk -= atk;
                         break;
                     case 1:
                         statBuff.allDamageMinus(weaponParameter.valueSums[1]);
                         break;
                     case 2:
-                        statBuff.elementMastery -= weaponParameter.valueSums[2];
+                        statBuff.ElementMastery -= weaponParameter.valueSums[2];
                         break;
                 }
                 WeaponFade(false);
@@ -760,7 +760,7 @@ public class WeaponStarter
     }
     void Catalist_Wine_And_Song() //이동속도가 {0:P} 증가함. 이동 중 공격력이 {1:P} 증가함
     {
-        statBuff.speed += weaponParameter.valueSums[0];
+        statBuff.Speed += weaponParameter.valueSums[0];
         weapon.StartCoroutine(Catalist_Wine_And_SongBuff());
     }
 
@@ -776,14 +776,14 @@ public class WeaponStarter
             {
                 WeaponFade(true);
                 atk = player.stat.atk * weaponParameter.valueSums[1];
-                statBuff.atk += atk;
+                statBuff.Atk += atk;
                 isBuff = true;
             }
 
             if (movePosition == Vector3.zero && isBuff)
             {
                 WeaponFade(false);
-                statBuff.atk -= atk;
+                statBuff.Atk -= atk;
                 isBuff = false;
             }
             yield return null;
@@ -810,13 +810,13 @@ public class WeaponStarter
     }
     void Catalist_Lost_Prayer_To_The_Sacered_Winds() //이동속도 10%, 피해 {1:P}증가
     {
-        statBuff.speed += 0.1f;
+        statBuff.Speed += 0.1f;
         statBuff.allDamageAdd(weaponParameter.valueSums[0]);
     }
     void Catalist_Memory_Of_Dust() //보호막 체력이 {0:P}증가함. 공격력이 {1:P} 증가함. 보호막이 존재하면 공격력 증가 효과가 두배가 됨
     {
-        statBuff.sheildPer += weaponParameter.valueSums[0];
-        statBuff.knwooDamagePer += weaponParameter.valueSums[1];
+        statBuff.SheildPer += weaponParameter.valueSums[0];
+        statBuff.KnwooDamagePer += weaponParameter.valueSums[1];
     }
     void Bow_Favonius() //{0}초마다 {1:P}의 확률로 원소 에너지를 6pt 회복함
     {
@@ -824,8 +824,8 @@ public class WeaponStarter
     }
     void Bow_The_Stringless() //원소 전투스킬과 원소폭발 피해가 {0:P} 증가함
     {
-        statBuff.skillDamage += weaponParameter.valueSums[0];
-        statBuff.burstDamage += weaponParameter.valueSums[0];
+        statBuff.SkillDamage += weaponParameter.valueSums[0];
+        statBuff.BurstDamage += weaponParameter.valueSums[0];
     }
     void Bow_Sacrificial_Bow() //원소전투 스킬을 사용할 때 {0:P}의 확률로 해당 스킬의 재사용 대기시간이 초기화됨. 해당 효과는 {1}초마다 발동가능
     {
@@ -833,7 +833,7 @@ public class WeaponStarter
     }
     void Bow_Rust() //일반 공격 피해 {0:P} 증가함
     {
-        statBuff.baseDamage += weaponParameter.valueSums[0];
+        statBuff.BaseDamage += weaponParameter.valueSums[0];
     }
     void Bow_Alley_Hunter() //무기를 장착한 캐릭터가 메인캐릭터가 아닐경우 피해 {0:P} 증가함
     {
@@ -842,8 +842,8 @@ public class WeaponStarter
     }
     void Bow_Mitternachts_Waltz() //일반 공격 피해와 원소전투 스킬의 피해가 {0:P} 증가함
     {
-        statBuff.baseDamage += weaponParameter.valueSums[0];
-        statBuff.skillDamage += weaponParameter.valueSums[0];
+        statBuff.BaseDamage += weaponParameter.valueSums[0];
+        statBuff.SkillDamage += weaponParameter.valueSums[0];
     }
     void Bow_Viridescent_Hunt() //{0} 초마다 제일 가까운 적 방향에 적을 끌어당기고 공격력의 {1:P}의 지속피해를 주는 공격을함. 지속 4초
     {
@@ -862,7 +862,7 @@ public class WeaponStarter
     }
     void Bow_SkyWard_Harp() //행운 {0} 증가 {1}초마다 명중 시 {2:P}의 범위피해를 주는 화살을 발사함
     {
-        statBuff.luck += weaponParameter.valueSums[0];
+        statBuff.Luck += weaponParameter.valueSums[0];
         SkillData.ParameterWithKey skillParameter = skillData.skills[SkillName.Weapon_Bow_SkyWard_Harp];
         skillParameter.parameter.coolTime = weaponParameter.valueSums[1];
         skillParameter.parameter.damage = weaponParameter.valueSums[2];
@@ -890,21 +890,21 @@ public class WeaponStarter
         {
             damage *= 4.0f;
         }
-        statBuff.baseDamage += damage;
+        statBuff.BaseDamage += damage;
     }
     void Bow_Elegy_For_The_End() //원소마스터리가 {0}증가함 20초마다 원소마스터리 {1} 증가, 공격력 {2:P}증가함 지속 12초
     {
         float time = 0;
-        statBuff.elementMastery += weaponParameter.valueSums[0];
+        statBuff.ElementMastery += weaponParameter.valueSums[0];
         weapon.StartCoroutine(WeaponCooltime(20.0f, time,
         () =>
         {
-            statBuff.elementMastery += weaponParameter.valueSums[1];
+            statBuff.ElementMastery += weaponParameter.valueSums[1];
             WeaponFade(true);
 
             weapon.PatternDelay(12.0f).OnComplete(() =>
             {
-                statBuff.elementMastery -= weaponParameter.valueSums[1];
+                statBuff.ElementMastery -= weaponParameter.valueSums[1];
                 WeaponFade(false);
             });
         },
@@ -915,9 +915,9 @@ public class WeaponStarter
     }
     void Bow_Polar_Star() //원소전투 스킬과 원소폭발의 피해 {0:P}증가. 공격력 {1:P} 증가
     {
-        statBuff.skillDamage += weaponParameter.valueSums[0];
-        statBuff.burstDamage += weaponParameter.valueSums[0];
-        statBuff.atk += player.stat.atk * weaponParameter.valueSums[1];
+        statBuff.SkillDamage += weaponParameter.valueSums[0];
+        statBuff.BurstDamage += weaponParameter.valueSums[0];
+        statBuff.Atk += player.stat.atk * weaponParameter.valueSums[1];
     }
 
 }
