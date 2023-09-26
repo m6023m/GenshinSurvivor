@@ -175,6 +175,11 @@ public class Buff : SkillMoveSet
             case SkillName.EB_Diona:
                 player.HealHealth(GameManager.instance.statCalcuator.Health * 0.1f * parameterWithKey.parameter.healPer);
                 break;
+            case SkillName.EB_Sayu:
+                float sayuBonus = 0;
+                if (parameterWithKey.constellations.num5) sayuBonus += GameManager.instance.statCalcuator.ElementalMastery * 0.02f;
+                player.HealHealth((GameManager.instance.statCalcuator.Health * 0.1f * parameterWithKey.parameter.healPer) + sayuBonus);
+                break;
         }
     }
     public override SkillMoveSet Init(SkillData.ParameterWithKey parameterWithKey, SkillSet.SkillSequence skillSequence, TransformValue prevTransform, int index)
@@ -319,6 +324,43 @@ public class Buff : SkillMoveSet
             case SkillName.EB_Raiden:
                 player.ReceiveDamage(0, GameManager.instance.statBuff.immuneTimeRaiden);
                 break;
+            case SkillName.E_Sara:
+                buffValue0 += player.stat.atk * 0.8f;
+                if (parameterWithKey.constellations.num1)
+                {
+                    buffValue0 += player.stat.atk * 0.2f;
+                }
+                this.buffValue0 = buffValue0;
+                statBuff.Atk += this.buffValue0;
+                if (parameterWithKey.constellations.num5)
+                {
+                    buffValue1 = 5f;
+                    this.buffValue1 = buffValue1;
+                    statBuff.Luck += buffValue1;
+                }
+                break;
+            case SkillName.EB_Sara:
+                buffValue0 += player.stat.atk * 0.8f;
+                if (parameterWithKey.constellations.num1)
+                {
+                    buffValue0 += player.stat.atk * 0.2f;
+                }
+                this.buffValue0 = buffValue0;
+                statBuff.Atk += this.buffValue0;
+                if (parameterWithKey.constellations.num5)
+                {
+                    buffValue1 = 5f;
+                    this.buffValue1 = buffValue1;
+                    statBuff.Luck += buffValue1;
+                }
+                break;
+            case SkillName.EB_Kokomi:
+                statBuff.EB_Kokomi = 0.05f;
+                if (parameterWithKey.constellations.num0)
+                {
+                    statBuff.EB_Kokomi = 0.07f;
+                }
+                break;
         }
     }
 
@@ -433,7 +475,6 @@ public class Buff : SkillMoveSet
         switch (parameterWithKey.name)
         {
             case SkillName.EB_Bennet:
-                float healthPercentage = player.health / player.maxHealth * 100.0f;
                 statBuff.Atk -= buffValue0;
 
                 if (parameterWithKey.constellations.num5)
@@ -478,6 +519,22 @@ public class Buff : SkillMoveSet
                 break;
             case SkillName.EB_Travler_Geo:
                 statBuff.Luck -= 3;
+                break;
+            case SkillName.E_Sara:
+                statBuff.Atk -= buffValue0;
+
+                if (parameterWithKey.constellations.num5)
+                {
+                    statBuff.Luck -= buffValue1;
+                }
+                break;
+            case SkillName.EB_Sara:
+                statBuff.Atk -= buffValue0;
+
+                if (parameterWithKey.constellations.num5)
+                {
+                    statBuff.Luck -= buffValue1;
+                }
                 break;
         }
     }

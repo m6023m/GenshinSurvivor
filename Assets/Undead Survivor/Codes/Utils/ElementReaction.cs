@@ -353,5 +353,12 @@ public class ElementReaction : MonoBehaviour
     {
         SkillData.ParameterWithKey parameterWithKey = skillData.skills[skillName];
         elementReactionObject.Init(parameterWithKey, damage, elementType);
+        InvokeReaction(parameterWithKey);
+    }
+
+    void InvokeReaction(SkillData.ParameterWithKey parameterWithKey) {
+        foreach(UnityAction<SkillName> action in parameterWithKey.reactionListener) {
+            action.Invoke(parameterWithKey.name);
+        }
     }
 }

@@ -105,6 +105,9 @@ public class EnemyDebuff : MonoBehaviour
             case SkillName.E_Rosaria:
                 result = 10;
                 break;
+            case SkillName.EB_Ayaka:
+                result = 6;
+                break;
         }
         return result;
     }
@@ -179,6 +182,9 @@ public class EnemyDebuff : MonoBehaviour
                 break;
             case SkillName.E_Rosaria:
                 enemy.PhysicsRes += debuffValues[skillName];
+                break;
+            case SkillName.EB_Ayaka:
+                enemy.armor += debuffValues[skillName];
                 break;
         }
     }
@@ -301,6 +307,10 @@ public class EnemyDebuff : MonoBehaviour
             case SkillName.E_Rosaria:
                 debuffValues.AddOrUpdate(skillName, 0.2f);
                 enemy.PhysicsRes -= debuffValues[skillName];
+                break;
+            case SkillName.EB_Ayaka:
+                debuffValues.AddOrUpdate(skillName, 5);
+                enemy.armor -= debuffValues[skillName];
                 break;
         }
     }

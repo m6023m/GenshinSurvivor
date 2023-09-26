@@ -110,7 +110,7 @@ MonoBehaviour:
     damage: 1
     damageStat: 0
     elementType: 5
-    duration: 0
+    duration: 3
     scanRange: 0
     isProjectile: 0
     isSummonAttack: 0

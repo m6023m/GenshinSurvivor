@@ -122,6 +122,20 @@ public class SkillData : ScriptableObject
             }
         }
 
+
+        List<UnityAction<SkillName>> _reactionListener;
+        public List<UnityAction<SkillName>> reactionListener
+        {
+            get
+            {
+                if (_reactionListener == null)
+                {
+                    _reactionListener = new List<UnityAction<SkillName>>();
+                }
+                return _reactionListener;
+            }
+        }
+
         public ParameterWithKey()
         {
         }

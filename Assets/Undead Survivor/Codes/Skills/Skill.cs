@@ -121,6 +121,16 @@ public class Skill : SkillMoveSet
                     skillDamage *= damagePer;
                 }
                 break;
+            case SkillName.EB_Sayu:
+
+                if (parameterWithKey.constellations.num5)
+                {
+                    skillDamage += (GameManager.instance.statCalcuator.ElementalMastery * 0.02f);
+                }
+                break;
+            case SkillName.EB_Miko:
+                skillDamage *= 1.0f + (0.3f * GameManager.instance.statBuff.EB_Miko_Stack);
+                break;
         }
         if (parameterWithKey.type == Skill.Type.Reaction)
         {

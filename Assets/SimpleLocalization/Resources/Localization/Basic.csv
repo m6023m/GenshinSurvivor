@@ -109,6 +109,7 @@ Element.Type.Electro,<color=#E3A7FF>번개</color>,<color=#E3A7FF>Electro</color
 Element.Type.Cyro,<color=#ADFCFC>얼음</color>,<color=#ADFCFC>Cyro</color>
 Element.Type.Geo,<color=#FFC401>바위</color>,<color=#FFC401>Geo</color>
 Element.Type.Immune,<color=#717171>면역</color>,<color=#717171>Immune</color>
+Element.Type.Fix,<color=#717171>고정</color>,<color=#717171>Fix</color>
 Basic.Stage.Level1,난이도 1,Level 1
 Basic.Stage.Level2,난이도 2,Level 2
 Basic.Stage.Level3,난이도 3,Level 3

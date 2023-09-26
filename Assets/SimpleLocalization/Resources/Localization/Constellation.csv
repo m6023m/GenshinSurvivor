@@ -65,10 +65,10 @@ Constellation.Xingqiu2,고화검 · 재우유홍의 대미지 20% 증가,20% Inc
 Constellation.Xingqiu3,고화검 · 재우유홍의 효과가 지속되는 동안 고화검 · 화우농산으로 가하는 피해가 50% 증가한다.,"During The Effects Of High Painting Swords And Jaus Urong, The Damage Caused By High Painting Swords And Hwahwa Farming Increases By 50%."
 Constellation.Xingqiu4,고화검 · 화우농산의 대미지 20% 증가,20% Increase In Damage To High Painting Swords And Hwawoo Agricultural Production
 Constellation.Xingqiu5,"고화검 · 재우유홍 사용 시 원소 에너지 10 획득, 대미지 20% 증가","10% Of Element Energy Is Acquired When Used In High Painting Swords And Jaewokhongs, 20% Increase In Damage"
-Constellation.Mona0,별의 운명의 내성감소 20% 증가,20% Increase In Resistance To The Fate Of Stars
+Constellation.Mona0,별의 운명의 내성감소 20% 증가,20% Increase In Resistance To Star Fate
 Constellation.Mona1,일반공격의 대미지 20% 증가,20% Increase In Damage To General Attacks
 Constellation.Mona2,별의 운명 대미지 20% 증가,20% Increase In Star Fate Damage
-Constellation.Mona3,별의 운명의 내성감소 20% 증가,20% Increase In Resistance To The Fate Of Stars
+Constellation.Mona3,별의 운명의 내성감소 20% 증가,20% Increase In Resistance To Star Fate
 Constellation.Mona4,수중 환원의 대미지 20% 증가,20% Increase In Damage To Underwater Reduction
 Constellation.Mona5,이동 중일때 대미지 20% 증가,20% Increase In Damage When Moving
 Constellation.Sucrose0,풍령 작성 · 육삼공팔의 쿨타임 20% 감소,"Pungryeong Preparation, 20% Reduction In Cooldown Of Six Samgong Arms"
@@ -140,7 +140,7 @@ Constellation.Qiqi5,부활 회수 2 증가,2 Increase In Resurrection
 Constellation.Ningguang0,관통이 있는 일반공격의 관통 2 증가,2 Increase In Penetration Of General Attacks With Penetration
 Constellation.Ningguang1,선기 병풍의 재사용 대기시간 20% 감소,20% Reduction In Waiting Time For Reusable Screens
 Constellation.Ningguang2,천권 봉옥의 대미지 20% 증가,20% Increase In Damage To Cheon Kwon Bongok
-Constellation.Ningguang3,선기 병풍의 지속시간 동안 방어력 2 증가,2 Increase In Defense During The Duration Of The Line Screens
+Constellation.Ningguang3,선기 병풍의 지속시간 동안 방어력 2 증가,2 Increase In Defense During The Duration Of Sunshop Screens
 Constellation.Ningguang4,선기 병풍의 대미지 20% 증가,20% Increase In Damage To Sunscreen
 Constellation.Ningguang5,천권 붕옥의 개수 7개 증가,7 Increase In The Number Of Celestial Bores
 Constellation.Noelle0,대청소 또는 호심경 사용시 HP 20% 회복,20% Hp When Cleaning Or Use
@@ -184,7 +184,7 @@ Constellation.Ganyu0,"감우의 일반공격에 피격당한 적은 얼음 원�
 In Addition, Element Energy 0.5 Recovery When Using A General Attack"
 Constellation.Ganyu1,산과 강의 기린 흔적의 재사용 대기시간이 20% 감소함,The Cooldown Of The Giraffe Traces Of Mountains And Rivers Decreases By 20%
 Constellation.Ganyu2,쏟아지는 천화의 대미지 20% 증가,20% Increase In Damage To Pouring Cheonhwa
-Constellation.Ganyu3,쏟아지는 천화 영역 내에서 적의 모든 내성이 20% 감소,All Enemy Resistance Is Reduced By 20% In The Pouring Cheonhwa Area
+Constellation.Ganyu3,쏟아지는 천화 영역 내에서 적의 모든 내성이 20% 감소,All Enemy Resistance Decreases By 20% In The Spilling Cheonhwa Area
 Constellation.Ganyu4,산과 강의 기린 흔적의 대미지 20% 증가,20% Increase In Damage To Giraffe Traces Of Mountains And Rivers
 Constellation.Ganyu5,산과 강의 기린 흔적 발동 후 일반공격의 쿨타임 초기화,Initializing The Cooldown Of General Attack After Traces Of Giraffe Traces Of Mountains And Rivers
 Constellation.Xiao0,풍륜양립의 재사용 대기 시간이 20% 감소,20% Reduction In Cooldown Of Fungus Resources
@@ -226,7 +226,7 @@ Constellation.Kazuha5,일반공격 피해가 원소마스터리의 2%만큼 증�
 Constellation.Ayaka0,일반공격 발동 시 50% 확률로 카미사토류 · 얼음꽃의 재사용 대기시간 0.3초 감소,"The 50% Chance To Attack The General Attack, The Cooldown Of Kamisa Earth And Ice Flowers Is Reduced By 0.3 Seconds"
 Constellation.Ayaka1,카미사토류 · 멸망의 서리의 개수 2 증가,2 Increase In The Number Of Frosts Of Kamisa Earth And Destruction
 Constellation.Ayaka2,카미사토류 · 멸망의 서리의 대미지 20% 증가,20% Increase In Damage To The Frost Of Kamisa Earth And Destruction
-Constellation.Ayaka3,카미사토류 · 멸망의 서리는 적의 방어력을 30% 감소 시킴. 지속 6초,The Frost Of Kamisa Earth And Destruction Reduces The Enemy'S Defense By 30%. 6 Seconds
+Constellation.Ayaka3,카미사토류 · 멸망의 서리는 적의 방어력을 5 감소 시킴. 지속 6초,The Frost Of Kamisa Earth And Destruction Reduces The Enemy'S Defense By 5. 6 Seconds
 Constellation.Ayaka4,카미사토류 · 얼음꽃의 대미지 20% 증가,20% Increase In Damage To Kamisa Earth And Ice Flowers
 Constellation.Ayaka5,일반공격-아야카의 대미지 100% 증가,General Attack-100% Increase In Damage To Ayaka
 Constellation.Yoimiya0,염초 정화(庭火)의 춤의 개수 2 증가,2 Increase In The Number Of Dances Of Yeomcho Purification
@@ -235,20 +235,20 @@ Constellation.Yoimiya2,염초 정화(庭火)의 춤의 대미지 20% 증가,20% 
 Constellation.Yoimiya3,염초 정화(庭火)의 춤의 재사용 대기시간 20% 감소,20% Reduction In Waiting Time For Reusable Dances Of Yeomcho Purification
 Constellation.Yoimiya4,유금 운간초의 대미지 20% 증가,20% Increase In Damage To Oil Luck
 Constellation.Yoimiya5,염초 정화(庭火)의 춤의 재사용 대기시간 30% 감소,30% Reduction In Waiting Time For Reusable Dances Of Yeomcho Purification
-Constellation.Sayu0,유후류 · 너구리 분신술의 회복량과 대미지 20% 증가,The Amount Of Recovery And Damage Increase Of Yufu -Yu And Raccoons Increased By 20%
+Constellation.Sayu0,유후류 · 너구리 분신술의 회복량과 대미지 20% 증가,The Amount Of Recovery And Damage Increase Of Yufu And Raccoons Increased By 20%
 Constellation.Sayu1,유후류 · 풍은 돌진의 대미지 주기가 0.1초 감소,Yumu And Winds Are Reduced By 0.1 Seconds.
 Constellation.Sayu2,유후류 · 너구리 분신술의 대미지 20% 증가,20% Increase In Damage To Yufu And Raccoons
-Constellation.Sayu3,확산반응 발생시 원소 에너치 2 회복. 재사용 대기시간 2초,Elemental Energy Renomes In Case Of Diffusion Reaction. 2 Seconds Of Cooldown
+Constellation.Sayu3,원소충전 효율 20% 증가,20% Increase In Elemental Charging Efficiency
 Constellation.Sayu4,유후류 · 풍은 돌진의 대미지 20%증가,Yufu And Winds Increased By 20%Damage
-Constellation.Sayu5,유후류 · 너구리 분신술의 대미지와 회복량이 원소마스터리의 20% 만큼 증가함,The Damage And Recovery Amount Of Yufu And Raccoons Increases By 20% Of The Elemental Mastery.
+Constellation.Sayu5,유후류 · 너구리 분신술의 대미지와 회복량이 원소마스터리의 2% 만큼 증가함,The Damage And Recovery Amount Of Yufu And Raccoons Increases By 2% Of The Elemental Mastery.
 Constellation.Raiden0,초월 · 악요개안로 증가하는 공격력이 20% 증가함,The Increase In Damage To The Transcendental And Males' Plans Increases By 20%
-Constellation.Raiden1,오의 · 몽상진설의 대미지가 고정피해로 전환됨,Damage Of Ohui And Dreamson Is Converted To Fixed Damage
+Constellation.Raiden1,오의 · 몽상진설의 대미지가 내성의 영향을 받지 않음,Damage Of Ohui And Dreams Is Not Influenced By Resistance
 Constellation.Raiden2,오의 · 몽상진설의 대미지 20% 증가,20% Increase In Damage To Theory Of Ohui And Dreams
 Constellation.Raiden3,오의 · 몽상진설의 무적시간이 2초 증가,Invincible Time Of Ohui And Dreams Increased 2 Seconds
 Constellation.Raiden4,초월 · 악요개안의 대미지 20% 증가,20% Increase In Damage To Transcendence And Males
 Constellation.Raiden5,오의 · 몽상진설의 최대 원소 에너지가 200 감소,The Maximum Element Energy Of Ohui And Dreams Decreased 200
 Constellation.Sara0,까마귀 깃 텐구의 뇌정 소환의 재사용 대기시간 20% 감소,Crow Gate Tengu'S Summoning Brain Administration Summons 20% Reduction
-Constellation.Sara1,까마귀 깃 텐구의 뇌정 소환의 공격력 증가효과 2 증가,Increasing The Damage Effect Of The Brain Summoning Of The Crow Mitigu Increases 2
+Constellation.Sara1,까마귀 깃 텐구의 뇌정 소환의 공격력 증가효과 20% 증가,Increasing The Damage Effect Of The Brain Summoning Of The Crow Mitigu By 20% Increase
 Constellation.Sara2,빛나는 천도의 진법의 대미지 20% 증가,20% Increase In Damage To The Brilliant Cheondo
 Constellation.Sara3,빛나는 천도의 진법의 번개 개수가 2 증가,The Number Of Lightning Of The Shining Cheondo Is Increased By 2
 Constellation.Sara4,까마귀 깃 텐구의 뇌정 소환의 대미지 20% 증가,20% Increase In Damage To Brain Summons By Crow Feathers
@@ -256,7 +256,7 @@ Constellation.Sara5,공격력 증가효과에 행운 5증가가 추가됨,Lucky 
 Constellation.Kokomi0,해인화우(海人化羽) 상태에서 대미지가 체력의 2% 추가로 증가,Damage Increases With 2% Of Health In Haein Hwa -Woo.
 Constellation.Kokomi1,해파리의 서약과 해인화우(海人化羽)의 회복량이 20% 증가,The Pledge Of Jellyfish And The Recovery Amount Of Hua -In Hua Woo Increase By 20%
 Constellation.Kokomi2,해인화우(海人化羽)의 회복량 20% 증가,20% Increase In Recovery Of Haein Hua Woo
-Constellation.Kokomi3,해인화우(海人化羽) 상태에서 일반공격 재사용 대기시간 10% 감소. 일반공격 사용 시 원소 에너지 1 회복. 재사용 대기시간 1초,A 10% Reduction In Waiting Time For General Attack Reuse In Haein Hua Woo. Elemental Energy 1 Restoration When Using A Normal Attack. Reuse Waiting Time 1 Second
+Constellation.Kokomi3,해인화우(海人化羽) 상태에서 일반공격 재사용 대기시간 10% 감소. 일반공격 사용 시 원소 에너지 1 회복,A 10% Reduction In Waiting Time For General Attack Reuse In Haein Hua Woo. Elemental Energy 1 Recovery When Using A General Attack
 Constellation.Kokomi4,해파리의 서약 대미지 20% 증가,20% Increase In The Pledge Of Jellyfish
 Constellation.Kokomi5,해인화우(海人化羽) 상태에서 물 원소 피해 보너스 40% 증가,40% Increase In Water Element Damage Bonuses In Haein Hwa -Woo
 Constellation.Ito0,방어력 5 증가,5 Increase In Defense
@@ -298,12 +298,12 @@ Constellation.Miko5,야칸의 소환 · 살생앵이 적의 방어력을 무시�
 Constellation.Ayato0,카미사토류 · 거울꽃의 대미지가 40% 증가함,40% Increase In Damage To Kamisa Earth And Mirror Flowers
 Constellation.Ayato1,체력이 50% 증가함,50% Increase In Health
 Constellation.Ayato2,카미사토류 · 거울꽃의 대미지가 20% 증가함,The Damage Of Kamisa Earth And Mirror Flowers Increases By 20%
-Constellation.Ayato3,카미사토류 · 물의 영역 지속시간 동안 카미사토류 · 거울꽃의 재사용 대기시간 20% 감소,Kamisa Earth And Water Area Decrease By 20% Of The Cooldown Of Kamisa Earth And Mirror Flowers During The Duration Of Water.
-Constellation.Ayato4,카미사토류 · 물의 영역역의 대미지 20% 증가,20% Increase In Damage In The Area Of ​​Kamisa Earth And Water Area
+Constellation.Ayato3,카미사토류 · 거울꽃의 재사용 대기시간 20% 감소,20% Reduction In Waiting Time For Reuse Of Kamisa Earth And Mirror Flowers
+Constellation.Ayato4,카미사토류 · 물의 영역의 대미지 20% 증가,20% Increase In Damage In The Area Of ​​Kamisa Earth And Water
 Constellation.Ayato5,카미사토류 · 거울꽃의 대미지 40% 증가,40% Increase In Damage To Kamisa Earth And Mirror Flowers
 Constellation.Yelan0,뒤얽힌 생명줄의 재사용 대기시간 20% 감소,20% Reduction In Waiting Time For Reusable Lives
 Constellation.Yelan1,심오하고 영롱한 주사위의 투사체 발사 개수 1 증가,Increased Number Of Projectiles Of Profound And Brilliant Dice
-Constellation.Yelan2,심오하고 영롱한 주사위 대미지 20% 증가,Increased Profound And Brilliant Dice Damage By 20%
+Constellation.Yelan2,심오하고 영롱한 주사위 대미지 20% 증가,Increased Profound And Brilliant Dice Damage 20% Increase
 Constellation.Yelan3,뒤얽힌 생명줄 지속시간동안 적을 통과할수 있으며 무적상태가 됨,You Can Pass The Enemy During The Duration Of The Entangled Life And Become Invincible.
 Constellation.Yelan4,뒤얽힌 생명줄의 대미지 20% 증가,20% Increase In Damage To The Entangled Life String
 Constellation.Yelan5,심오하고 영롱한 주사위에 적에게 맞을시 폭발하며 물원소 범위피해를 주는 효과가 추가됨,"The Effect Of Exploding When The Enemy Is Hit By A Profound And Brilliant Dice, And The Effect Of Damaging The Scope Of The Botanical Element Is Added."

@@ -859,6 +859,7 @@ public class StatCalculator
                     }
                 }
             }
+            result += (Health * statBuff.EB_Kokomi);
         }
 
         return result;
@@ -934,6 +935,14 @@ public class StatCalculator
             criticalRate += criticalRate * GameManager.instance.artifactData.BaseAttackCriticalRate;
         }
         if (parameterWithKey.name == SkillName.EB_Xinyan)
+        {
+            if (parameterWithKey.constellations.num1)
+            {
+                result += criticalDamage;
+                return result;
+            }
+        }
+        if (parameterWithKey.name == SkillName.E_Yoimiya)
         {
             if (parameterWithKey.constellations.num1)
             {

@@ -162,6 +162,12 @@ public class SkillObject : MonoBehaviour
                 GameManager.instance.statBuff.eulaStack++;
             }
         }
+        switch (parameterWithKey.name)
+        {
+            case SkillName.E_Miko:
+                GameManager.instance.statBuff.EB_Miko_Stack++;
+                break;
+        }
     }
 
     void InvokeEndListeners()
@@ -170,6 +176,12 @@ public class SkillObject : MonoBehaviour
         foreach (UnityAction action in skill.skillEndListener)
         {
             action.Invoke();
+        }
+        switch (parameterWithKey.name)
+        {
+            case SkillName.EB_Miko:
+                GameManager.instance.statBuff.EB_Miko_Stack = 0;
+                break;
         }
     }
 
@@ -370,7 +382,8 @@ public class SkillObject : MonoBehaviour
         return skillObject;
     }
 
-    public void AddSkillTime(float time) {
+    public void AddSkillTime(float time)
+    {
         skillTime += time;
     }
 }

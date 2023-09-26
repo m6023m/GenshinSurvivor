@@ -1848,10 +1848,10 @@ public class ConstellationData
             burst.parameter.damage *= 1.2f;
         }
         if (character.constellation[3])
-        { // 카미사토류 · 멸망의 서리는 적의 방어력을 30% 감소 시킴. 지속 6초
+        { // 카미사토류 · 멸망의 서리는 적의 방어력을 5 감소 시킴. 지속 6초
             burst.constellations.num3 = true;
             burst.parameter.isDebuffable = true;
-            //Enemy.cs
+            //EnemyDebuff.cs
         }
         if (character.constellation[4])
         { // 카미사토류 · 얼음꽃의 대미지 20% 증가
@@ -1912,16 +1912,15 @@ public class ConstellationData
             burst.parameter.damage *= 1.2f;
         }
         if (character.constellation[3])
-        { // 확산반응 발생시 원소 에너지 2 회복. 재사용 대기시간 2초
-            skill.constellations.num3 = true;
-            //Skill.cs
+        { // 원소충전 효율 20% 증가
+            statBuff.Regen += 0.2f;
         }
         if (character.constellation[4])
         { // 유후류 · 풍은 돌진의 대미지 20%증가
             skill.parameter.damage *= 1.2f;
         }
         if (character.constellation[5])
-        { // 유후류 · 너구리 분신술의 대미지와 회복량이 원소마스터리의 20% 만큼 증가함
+        { // 유후류 · 너구리 분신술의 대미지와 회복량이 원소마스터리의 2% 만큼 증가함
             burst.constellations.num5 = true;
             //StatCalculator.cs
         }
@@ -1962,8 +1961,8 @@ public class ConstellationData
     private void Sara(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.skills[SkillName.E_Travler_Geo];
-        SkillData.ParameterWithKey burst = skillData.skills[SkillName.EB_Travler_Geo];
+        SkillData.ParameterWithKey skill = skillData.skills[SkillName.E_Sara];
+        SkillData.ParameterWithKey burst = skillData.skills[SkillName.EB_Sara];
         if (character.constellation[0])
         { // 까마귀 깃 텐구의 뇌정 소환의 재사용 대기시간 20% 감소
             skill.parameter.coolTime *= 0.8f;
@@ -1971,6 +1970,7 @@ public class ConstellationData
         if (character.constellation[1])
         { // 까마귀 깃 텐구의 뇌정 소환의 공격력 증가효과 20% 증가
             skill.constellations.num1 = true;
+            burst.constellations.num1 = true;
             //buff.cs
         }
         if (character.constellation[2])
@@ -1988,29 +1988,39 @@ public class ConstellationData
         if (character.constellation[5])
         { // 공격력 증가효과에 행운 5증가가 추가됨
             skill.constellations.num5 = true;
+            burst.constellations.num5 = true;
             //buff.cs
         }
     }
     private void Kokomi(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.skills[SkillName.E_Travler_Geo];
-        SkillData.ParameterWithKey burst = skillData.skills[SkillName.EB_Travler_Geo];
+        SkillData.ParameterWithKey skill = skillData.skills[SkillName.E_Kokomi];
+        SkillData.ParameterWithKey burst = skillData.skills[SkillName.EB_Kokomi];
         if (character.constellation[0])
         { // 해인화우(海人化羽) 상태에서 대미지가 체력의 2% 추가로 증가
             skill.constellations.num0 = true;
+            //Buff.cs
         }
         if (character.constellation[1])
         { // 해파리의 서약과 해인화우(海人化羽)의 회복량이 20% 증가
-            skill.parameter.coolTime *= 0.8f;
+            skill.parameter.healPer *= 1.2f;
+            burst.parameter.healPer *= 1.2f;
         }
         if (character.constellation[2])
         { // 해인화우(海人化羽)의 회복량 20% 증가
-            burst.parameter.damage *= 1.2f;
+            burst.parameter.healPer *= 1.2f;
         }
         if (character.constellation[3])
-        { // 해인화우(海人化羽) 상태에서 일반공격 재사용 대기시간 10% 감소. 일반공격 사용 시 원소 에너지 1 회복. 재사용 대기시간 1초
-            burst.parameter.elementGaugeMax -= 20;
+        { // 해인화우(海人化羽) 상태에서 일반공격 재사용 대기시간 10% 감소. 일반공격 사용 시 원소 에너지 1 회복
+            burst.AddStartListener(() =>
+            {
+                statBuff.BaseCooltime += 0.1f;
+                baseAttack.AddStartListener(() =>
+                {
+                    GameManager.instance.AddElementGauge(1.0f);
+                });
+            });
         }
         if (character.constellation[4])
         { // 해파리의 서약 대미지 20% 증가
@@ -2018,108 +2028,118 @@ public class ConstellationData
         }
         if (character.constellation[5])
         { // 해인화우(海人化羽) 상태에서 물 원소 피해 보너스 40% 증가
-            skill.parameter.duration *= 1.3f;
-            burst.parameter.duration *= 1.3f;
+            burst.AddStartListener(() =>
+            {
+                statBuff.HydroDmg += 0.4f;
+            });
         }
     }
     private void Ito(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.skills[SkillName.E_Travler_Geo];
-        SkillData.ParameterWithKey burst = skillData.skills[SkillName.EB_Travler_Geo];
+        SkillData.ParameterWithKey skill = skillData.skills[SkillName.E_Ito];
+        SkillData.ParameterWithKey burst = skillData.skills[SkillName.EB_Ito];
         if (character.constellation[0])
         { // 방어력 5 증가
-            skill.constellations.num0 = true;
+            statBuff.Armor += 5;
         }
         if (character.constellation[1])
         { // 파티의 바위원소 캐릭터 1명당 방어력 2 증가
-            skill.parameter.coolTime *= 0.8f;
+            foreach (Character checkCharacter in GameDataManager.instance.saveData.userData.selectChars)
+            {
+                if (checkCharacter.elementType == Element.Type.Geo)
+                {
+                    statBuff.Armor += 2;
+                }
+            }
         }
         if (character.constellation[2])
         { // 마살 절기 · 적우발파!의 대미지 20% 증가
-            burst.parameter.damage *= 1.2f;
+            skill.parameter.damage *= 1.2f;
         }
         if (character.constellation[3])
         { // 일반공격 범위 20% 증가
-            burst.parameter.elementGaugeMax -= 20;
+            baseAttack.parameter.area *= 1.2f;
         }
         if (character.constellation[4])
         { // 방어력 5 증가
-            skill.parameter.damage *= 1.2f;
+            statBuff.Armor += 5;
         }
         if (character.constellation[5])
         { // 행운 5 증가
-            skill.parameter.duration *= 1.3f;
-            burst.parameter.duration *= 1.3f;
+            statBuff.Luck += 5;
         }
     }
     private void Goro(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.skills[SkillName.E_Travler_Geo];
-        SkillData.ParameterWithKey burst = skillData.skills[SkillName.EB_Travler_Geo];
+        SkillData.ParameterWithKey skill = skillData.skills[SkillName.E_Goro];
+        SkillData.ParameterWithKey burst = skillData.skills[SkillName.EB_Goro];
         if (character.constellation[0])
         { // 이누자카 멍멍 방원진의 재사용 대기시간 20% 감소
-            skill.constellations.num0 = true;
+            skill.parameter.coolTime *= 0.8f;
         }
         if (character.constellation[1])
         { // 이누자카 멍멍 방원진의 지속시간 20% 증가
-            skill.parameter.coolTime *= 0.8f;
+            skill.parameter.duration *= 1.2f;
         }
         if (character.constellation[2])
         { // 이누자카 멍멍 방원진의 대미지 20% 증가
-            burst.parameter.damage *= 1.2f;
+            skill.parameter.damage *= 1.2f;
         }
         if (character.constellation[3])
         { // 이누자카 멍멍 방원진 발동 시 방어력의 50% 만큼 체력을 회복
-            burst.parameter.elementGaugeMax -= 20;
+            skill.AddStartListener(() =>
+            {
+                player.HealHealth(GameManager.instance.statCalcuator.Armor * 0.5f);
+            });
         }
         if (character.constellation[4])
         { // 야수 이빨 돌격형 승전법의 지속시간 20% 증가
-            skill.parameter.damage *= 1.2f;
+            burst.parameter.duration *= 1.2f;
         }
         if (character.constellation[5])
         { // 이누자카 멍멍 방원진효과에 캐릭터 하나당 행운이 3씩 증가함
-            skill.parameter.duration *= 1.3f;
-            burst.parameter.duration *= 1.3f;
+            skill.constellations.num5 = true;
+            burst.constellations.num5 = true;
         }
     }
     private void Thoma(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.skills[SkillName.E_Travler_Geo];
-        SkillData.ParameterWithKey burst = skillData.skills[SkillName.EB_Travler_Geo];
+        SkillData.ParameterWithKey skill = skillData.skills[SkillName.E_Thoma];
+        SkillData.ParameterWithKey burst = skillData.skills[SkillName.EB_Thoma];
         if (character.constellation[0])
         { // 타오르는 우명의 보호와 진홍 열화의 오오요로이의 재사용 대기시간이 20% 감소
-            skill.constellations.num0 = true;
+            skill.parameter.coolTime *= 0.8f;
+            burst.parameter.coolTime *= 0.2f;
         }
         if (character.constellation[1])
         { // 진홍 열화의 오오요로이의 지속시간 20% 증가
-            skill.parameter.coolTime *= 0.8f;
+            burst.parameter.coolTime *= 1.2f;
         }
         if (character.constellation[2])
         { // 타오르는 우명의 보호의 대미지 20% 증가
-            burst.parameter.damage *= 1.2f;
+            skill.parameter.damage *= 1.2f;
         }
         if (character.constellation[3])
         { // 진홍 열화의 오오요로이의 최대 원소 에너지 15 감소
-            burst.parameter.elementGaugeMax -= 20;
+            burst.parameter.elementGaugeMax -= 15;
         }
         if (character.constellation[4])
         { // 진홍 열화의 오오요로이의 대미지 20% 증가
-            skill.parameter.damage *= 1.2f;
+            burst.parameter.damage *= 1.2f;
         }
         if (character.constellation[5])
         { // 일반공격 피해 20% 증가
-            skill.parameter.duration *= 1.3f;
-            burst.parameter.duration *= 1.3f;
+            baseAttack.parameter.damage *= 1.2f;
         }
     }
     private void Shenhe(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.skills[SkillName.E_Travler_Geo];
-        SkillData.ParameterWithKey burst = skillData.skills[SkillName.EB_Travler_Geo];
+        SkillData.ParameterWithKey skill = skillData.skills[SkillName.E_Shenhe];
+        SkillData.ParameterWithKey burst = skillData.skills[SkillName.EB_Shenhe];
         if (character.constellation[0])
         { // 위령 소환 구사술의 재사용 대기시간 20% 감소
             skill.constellations.num0 = true;
@@ -2130,7 +2150,7 @@ public class ConstellationData
         }
         if (character.constellation[2])
         { // 위령 소환 구사술의 대미지 20% 증가
-            burst.parameter.damage *= 1.2f;
+            skill.parameter.damage *= 1.2f;
         }
         if (character.constellation[3])
         { // 위령 소환 구사술의 피해증가 효과가 20% 추가
@@ -2138,34 +2158,40 @@ public class ConstellationData
         }
         if (character.constellation[4])
         { // 신녀 강경 비결 대미지 20% 증가
-            skill.parameter.damage *= 1.2f;
+            burst.parameter.damage *= 1.2f;
         }
         if (character.constellation[5])
         { // 위령 소환 구사술의 피해증가 효과가 영구 지속 됨
-            skill.parameter.duration *= 1.3f;
-            burst.parameter.duration *= 1.3f;
+            statBuff.E_Shenhe_Stack_Minus = 0;
         }
     }
     private void Yunjin(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.skills[SkillName.E_Travler_Geo];
-        SkillData.ParameterWithKey burst = skillData.skills[SkillName.EB_Travler_Geo];
+        SkillData.ParameterWithKey skill = skillData.skills[SkillName.E_Yunjin];
+        SkillData.ParameterWithKey burst = skillData.skills[SkillName.EB_Yunjin];
         if (character.constellation[0])
         { // 선운개상의 재사용 대기시간 20% 감소함
-            skill.constellations.num0 = true;
+            skill.parameter.coolTime *= 0.8f;
         }
         if (character.constellation[1])
         { // 절벽을 깎는 깃발 효과에 일반공격 피해증가 15%가 추가됨
-            skill.parameter.coolTime *= 0.8f;
+            burst.AddStartListener(() =>
+            {
+                statBuff.BaseDamage += 0.15f;
+            });
+            burst.AddEndListener(() =>
+            {
+                statBuff.BaseDamage -= 0.15f;
+            });
         }
         if (character.constellation[2])
         { // 선운개상의 재사용 대기시간 20% 감소
-            burst.parameter.damage *= 1.2f;
+            skill.parameter.coolTime *= 0.8f;
         }
         if (character.constellation[3])
         { // 방어력 5 증가
-            burst.parameter.elementGaugeMax -= 20;
+            statBuff.Armor += 5;
         }
         if (character.constellation[4])
         { // 선운개상의 대미지 20% 증가
@@ -2173,84 +2199,89 @@ public class ConstellationData
         }
         if (character.constellation[5])
         { // 절벽을 깎는 깃발 효과에 일반공격 재사용 대기시간 12% 감소가 추가됨
-            skill.parameter.duration *= 1.3f;
-            burst.parameter.duration *= 1.3f;
+            burst.AddStartListener(() =>
+            {
+                statBuff.BaseCooltime += 0.12f;
+            });
+            burst.AddEndListener(() =>
+            {
+                statBuff.BaseCooltime -= 0.12f;
+            });
         }
     }
     private void Miko(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.skills[SkillName.E_Travler_Geo];
-        SkillData.ParameterWithKey burst = skillData.skills[SkillName.EB_Travler_Geo];
+        SkillData.ParameterWithKey skill = skillData.skills[SkillName.E_Miko];
+        SkillData.ParameterWithKey burst = skillData.skills[SkillName.EB_Miko];
         if (character.constellation[0])
         { // 대비법 · 천호(天狐) 현신의 최대 원소에너지가 24 감소함
-            skill.constellations.num0 = true;
+            burst.parameter.elementGaugeMax -= 24;
         }
         if (character.constellation[1])
         { // 야칸의 소환 · 살생앵의 범위가 40% 증가하고 재사용 대기시간이 20% 감소함
             skill.parameter.coolTime *= 0.8f;
+            skill.parameter.area *= 1.4f;
         }
         if (character.constellation[2])
         { // 야칸의 소환 · 살생앵의 대미지 20% 증가
-            burst.parameter.damage *= 1.2f;
+            skill.parameter.damage *= 1.2f;
         }
         if (character.constellation[3])
         { // 번개 원소 피해 20% 증가
-            burst.parameter.elementGaugeMax -= 20;
+            statBuff.ElectroDmg += 0.2f;
         }
         if (character.constellation[4])
         { // 대비법 · 천호(天狐)현신의 대미지 20% 증가
-            skill.parameter.damage *= 1.2f;
+            burst.parameter.damage *= 1.2f;
         }
         if (character.constellation[5])
-        { // 야칸의 소환 · 살생앵이 적의 방어력을 무시함
-            skill.parameter.duration *= 1.3f;
-            burst.parameter.duration *= 1.3f;
+        { // 야칸의 소환 · 살생앵의 재사용 대기시간 20% 감소
+            skill.parameter.coolTime *= 0.8f;
         }
     }
     private void Ayato(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.skills[SkillName.E_Travler_Geo];
-        SkillData.ParameterWithKey burst = skillData.skills[SkillName.EB_Travler_Geo];
+        SkillData.ParameterWithKey skill = skillData.skills[SkillName.E_Ayato];
+        SkillData.ParameterWithKey burst = skillData.skills[SkillName.EB_Ayato];
         if (character.constellation[0])
         { // 카미사토류 · 거울꽃의 대미지가 40% 증가함
-            skill.constellations.num0 = true;
+            skill.parameter.damage *= 1.4f;
         }
         if (character.constellation[1])
         { // 체력이 50% 증가함
-            skill.parameter.coolTime *= 0.8f;
+            statBuff.Hp += player.stat.hp * 0.5f;
         }
         if (character.constellation[2])
         { // 카미사토류 · 거울꽃의 대미지가 20% 증가함
-            burst.parameter.damage *= 1.2f;
+            skill.parameter.damage *= 1.2f;
         }
         if (character.constellation[3])
-        { // 카미사토류 · 물의 영역 지속시간 동안 카미사토류 · 거울꽃의 재사용 대기시간 20% 감소
-            burst.parameter.elementGaugeMax -= 20;
+        { // 카미사토류 · 거울꽃의 재사용 대기시간 20% 감소
+            skill.parameter.coolTime *= 0.8f;
         }
         if (character.constellation[4])
-        { // 카미사토류 · 물의 영역역의 대미지 20% 증가
-            skill.parameter.damage *= 1.2f;
+        { // 카미사토류 · 물의 영역의 대미지 20% 증가
+            burst.parameter.damage *= 1.2f;
         }
         if (character.constellation[5])
         { // 카미사토류 · 거울꽃의 대미지 40% 증가
-            skill.parameter.duration *= 1.3f;
-            burst.parameter.duration *= 1.3f;
+            skill.parameter.damage *= 1.4f;
         }
     }
     private void Yelan(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.skills[SkillName.E_Travler_Geo];
-        SkillData.ParameterWithKey burst = skillData.skills[SkillName.EB_Travler_Geo];
+        SkillData.ParameterWithKey skill = skillData.skills[SkillName.E_Yelan];
+        SkillData.ParameterWithKey burst = skillData.skills[SkillName.EB_Yelan];
         if (character.constellation[0])
         { // 뒤얽힌 생명줄의 재사용 대기시간 20% 감소
-            skill.constellations.num0 = true;
+            skill.parameter.coolTime *= 0.8f;
         }
         if (character.constellation[1])
         { // 심오하고 영롱한 주사위의 투사체 발사 개수 1 증가
-            skill.parameter.coolTime *= 0.8f;
+            burst.parameter.count += 1;
         }
         if (character.constellation[2])
         { // 심오하고 영롱한 주사위 대미지 20% 증가
@@ -2258,7 +2289,13 @@ public class ConstellationData
         }
         if (character.constellation[3])
         { // 뒤얽힌 생명줄 지속시간동안 적을 통과할수 있으며 무적상태가 됨
-            burst.parameter.elementGaugeMax -= 20;
+            skill.AddStartListener(() =>
+            {
+                float duration = skill.skillSet.sequences[0].duration
+                * GameManager.instance.statCalcuator.Duration
+                * skill.parameter.duration;
+                player.ReceiveDamage(0, duration);
+            });
         }
         if (character.constellation[4])
         { // 뒤얽힌 생명줄의 대미지 20% 증가
@@ -2266,70 +2303,87 @@ public class ConstellationData
         }
         if (character.constellation[5])
         { // 심오하고 영롱한 주사위에 적에게 맞을시 폭발하며 물원소 범위피해를 주는 효과가 추가됨
-            skill.parameter.duration *= 1.3f;
-            burst.parameter.duration *= 1.3f;
+            burst.constellations.num5 = true;
         }
     }
     private void Heizo(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.skills[SkillName.E_Travler_Geo];
-        SkillData.ParameterWithKey burst = skillData.skills[SkillName.EB_Travler_Geo];
+        SkillData.ParameterWithKey skill = skillData.skills[SkillName.E_Heizo];
+        SkillData.ParameterWithKey burst = skillData.skills[SkillName.EB_Heizo];
         if (character.constellation[0])
         { // 일반공격-헤이조로 변격 스택이 쌓일 경우 1개 더 획득함
-            skill.constellations.num0 = true;
+            statBuff.E_Heizo_Stack_Plus++;
         }
         if (character.constellation[1])
         { // 선풍각의 끌어당기는 범위, 속도 20% 증가
-            skill.parameter.coolTime *= 0.8f;
+            burst.parameter.magnet *= 1.2f;
+            burst.parameter.magnetSpeed *= 1.2f;
         }
         if (character.constellation[2])
         { // 쇄심권의 대미지 20% 증가
-            burst.parameter.damage *= 1.2f;
+            skill.parameter.damage *= 1.2f;
         }
         if (character.constellation[3])
         { // 선풍각의 최대 원소 에너지 20 감소, 재사용 대기시간 20% 감소
             burst.parameter.elementGaugeMax -= 20;
+            burst.parameter.coolTime *= 0.8f;
         }
         if (character.constellation[4])
         { // 선풍각의 대미지 20% 증가
-            skill.parameter.damage *= 1.2f;
+            burst.parameter.damage *= 1.2f;
         }
         if (character.constellation[5])
         { // 행운 5 증가
-            skill.parameter.duration *= 1.3f;
-            burst.parameter.duration *= 1.3f;
+            statBuff.Luck += 5;
         }
     }
     private void Shinobu(Character character)
     {
         SkillData.ParameterWithKey baseAttack = GameManager.instance.baseAttack.parameterWithKey;
-        SkillData.ParameterWithKey skill = skillData.skills[SkillName.E_Travler_Geo];
-        SkillData.ParameterWithKey burst = skillData.skills[SkillName.EB_Travler_Geo];
+        SkillData.ParameterWithKey skill = skillData.skills[SkillName.E_Shinobu];
+        SkillData.ParameterWithKey burst = skillData.skills[SkillName.EB_Shinobu];
         if (character.constellation[0])
         { // 교에 나루카미 카리야마 의식의 범위 50% 증가
-            skill.constellations.num0 = true;
+            burst.parameter.area *= 1.5f;
         }
         if (character.constellation[1])
         { // 제액의 뇌초지륜 지속시간이 20% 증가함
-            skill.parameter.coolTime *= 0.8f;
+            skill.parameter.duration *= 1.2f;
         }
         if (character.constellation[2])
         { // 제액의 뇌초지륜의 대미지 20% 증가
-            burst.parameter.damage *= 1.2f;
+            skill.parameter.damage *= 1.2f;
         }
         if (character.constellation[3])
         { // 제액의 뇌초지륜의 범위 20% 증가
-            burst.parameter.elementGaugeMax -= 20;
+            skill.parameter.area *= 1.2f;
         }
         if (character.constellation[4])
         { // 교에 나루카미 카리야마 의식의 대미지 20% 증가
-            skill.parameter.damage *= 1.2f;
+            burst.parameter.damage *= 1.2f;
         }
         if (character.constellation[5])
         { // 원소마스터리가 100 증가, 전투불능 상태의 대미지를 받을 경우 전투불능 상태가 되지 않고 3초간 무적이 됨. 재사용 대기시간 60초
-            skill.parameter.duration *= 1.3f;
-            burst.parameter.duration *= 1.3f;
+            statBuff.ElementMastery += 100;
+            player.onDamaged.Add((damage) =>
+            {
+                ShinobuBuff();
+            });
         }
+    }
+    bool isShinobu = false;
+    void ShinobuBuff()
+    {
+        if (isShinobu) return;
+        isShinobu = true;
+        player.ReceiveDamage(0, 3.0f);
+        player.StartCoroutine(ShinobuBuffCooltime());
+    }
+
+    IEnumerator ShinobuBuffCooltime()
+    {
+        yield return new WaitForSeconds(60.0f);
+        isShinobu = false;
     }
 }

@@ -510,4 +510,10 @@ public class StatBuff
 
     public int E_Travler_Electro = 1;
     public float immuneTimeRaiden = 3.0f;
+    public float E_Shenhe_Stack = 0;
+    public float E_Shenhe_Stack_Minus = 1;
+    public float E_Heizo_Stack = 0;
+    public float E_Heizo_Stack_Plus = 1;
+    public float EB_Kokomi = 0.00f;
+    public float EB_Miko_Stack = 0;
 }

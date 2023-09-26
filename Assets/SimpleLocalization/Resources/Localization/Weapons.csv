@@ -23,7 +23,7 @@ Weapon.Claymore_The_Bell,시간의 검,Time
 Weapon.Claymore_Sacrificial,제례 대검,Ritual
 Weapon.Claymore_Rainslasher,빗물 베기,Rainwater
 Weapon.Claymore_Lithic_Blade,천암고검,Cheonam
-Weapon.Claymore_Serpent_Spine,이무기 검,Baulk
+Weapon.Claymore_Serpent_Spine,이무기 검,Weapon Sword
 Weapon.Claymore_Skyward_Pride,천공의 긍지,Pride
 Weapon.Claymore_Wolfs_Gravestone,늑대의 말로,In The Words Of The Wolf
 Weapon.Claymore_The_Unforged,무공의 검,Sword
@@ -59,7 +59,7 @@ Weapon.Bow_Polar_Star,극지의 별,Polar
 Weapon.Discription.Sword_Favonius,{0}초마다 {1:P}의 확률로 원소 에너지를 6pt 회복함,Each Second Is {1: P} With The Probability Of Restoring Element Energy 6Pt 6Pt
 Weapon.Discription.Sword_The_Flute,5초마다 주변 적에게 공격력 {0:P}의 피해를 줌,"Every 5 Seconds, The Damage Of The Attack Power {0: P}"
 Weapon.Discription.Sword_Sacrificial,원소전투 스킬을 사용할 때 {0:P}의 확률로 해당 스킬의 재사용 대기시간이 초기화됨. 해당 효과는 {1}초마다 발동가능,"When Using Elemental Combat Skills, The Probability Of {0: P} Is Initialized. This Effect Can Be Activated Every Second Of {1}"
-Weapon.Discription.Sword_Lions_Loar,불 원소 또는 번개 원소가 부착된 적에게 가하는 피해가 {0:P}증가함,Damage To Enemies With Non -Element Or Lightning Elements Increases {0: P}.
+Weapon.Discription.Sword_Lions_Loar,불 원소 또는 번개 원소가 부착된 적에게 가하는 피해가 {0:P}증가함,Damage To Enemies With Non -Element Or Lightning Elements Increases {0: P}
 Weapon.Discription.Sword_The_Alley_Flash,피해가 {0:P}증가함 적에게 체력이 감소된 경우 해당 효과가 5초동안 사라짐,"If The Damage Is Reduced By {0: P} Increase, The Relevant Effect Disappears For 5 Seconds."
 Weapon.Discription.Sword_The_Black,일반공격 피해가 {0:P}증가함. 일반공격 사용 시 공격력의 {1:P}에 해당하는 HP를 회복함. 재사용 대기시간 10초,General Attack Damage Increases {0: P}. Recovering Hp Corresponding To {1: P} Of Attack Power When Using Ordinary Attacks. Reuse Waiting Time 10 Seconds
 Weapon.Discription.Sword_Aquila_Favonia,공격력이 {0:P}증가함. 적에게 체력이 감소된 경우 공격력의 {1:P}만큼 HP를 회복하고 그 두배만큼의 피해를 주변 적에게 줌. 재사용 대기시간 15초,"The Damage Increases {0: P}. If The Enemy Has A Reduction In Stamina, He Restores Hp As Much As {1: P} Of Attack Power And Doubles The Damage To The Surrounding Enemies. Reuse Waiting Time 15 Seconds"
@@ -92,7 +92,7 @@ Weapon.Discription.Catalist_Eye_Of_Perception,{0}초마다 적 사이를 4번 �
 Weapon.Discription.Catalist_Wine_And_Song,이동속도가 {0:P} 증가함. 이동 중 공격력이 {1:P} 증가함,Movement Speed Increases {0: P}. Attack On The Move Increases {1: P}
 Weapon.Discription.Catalist_Solar_Pearl,피해 {0:P}증가,Damage {0: P} Increase
 Weapon.Discription.Catalist_Skyward_Atlas,원소 피해 보너스 {0:P} 증가. 30초마다 가장 가까운 적을 향해 발사해 {1:P}의 피해를 주는 투사체를 지속적으로 생성함. 지속 15초,Elemental Damage Bonus {0: P} Increased. It Fires Toward The Nearest Enemy Every 30 Seconds And Constantly Generates A Projectile That Damages {1: P}. 15 Seconds
-Weapon.Discription.Catalist_Lost_Prayer_To_The_Sacered_Winds,"이동속도 10%, 피해 {0:P}증가","Movement Speed 10%, Damage {0: P} Increases"
+Weapon.Discription.Catalist_Lost_Prayer_To_The_Sacered_Winds,"이동속도 10%, 피해 {0:P}증가","10%Movement Speed, Damage {0: P} Increases"
 Weapon.Discription.Catalist_Memory_Of_Dust,보호막 체력이 {0:P}증가함. 공격력이 {1:P} 증가함. 보호막이 존재하면 공격력 증가 효과가 두배가 됨,"Shield Health Increases {0: P}. The Damage Increases {1: P}. If There Is A Shield, The Effect Of Increasing Damage Is Doubled."
 Weapon.Discription.Bow_Favonius,{0}초마다 {1:P}의 확률로 원소 에너지를 6pt 회복함,Each Second Is {1: P} With The Probability Of Restoring Element Energy 6Pt 6Pt
 Weapon.Discription.Bow_The_Stringless,원소 전투스킬과 원소폭발 피해가 {0:P} 증가함,Elemental Combat Skills And Element Explosion Damage Increases {0: P}
