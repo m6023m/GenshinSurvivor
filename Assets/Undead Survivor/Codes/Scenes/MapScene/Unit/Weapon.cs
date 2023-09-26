@@ -171,4 +171,18 @@ public enum WeaponName
     Bow_Amos_Bow,//아모스의 활
     Bow_Elegy_For_The_End, //종말 탄식의 노래
     Bow_Polar_Star, //극지의 별
+    
+    Sword_Mistsplitter_Reforged, //안개를 가르는 회광
+    Bow_Thundering_Pulse, //비뢰의 고동
+    Spear_Engulfing_Lightning, //예초의 번개
+    Catalist_Everlating_Moonglow, //불멸의 달빛
+    Claymore_Akuomaru, //아쿠오마루
+    Spear_Wavebreakers_Fin, //파도베는 지느러미
+    Bow_Mouuns_Moon, //모운의 달
+    Claymore_Redhorn_Stonethresher, //쇄석의 붉은 뿔
+    Spear_Calamity_Queller, //식재
+    Catalist_Kaguras_Verirty, //카구라의 진의
+    Sword_Harn_Geppaku_Futsu, //하란 월백의 후츠
+    Bow_Aqua_Simulacra, //약수
+
 }
