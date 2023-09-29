@@ -93,7 +93,7 @@ Artifact.Up.Set.Maiden_Beloved,치유보너스 30% 증가,30% Increase In Healin
 Artifact.Up.Set.Viridescent_Venerer,"확산 반응이 가하는 피해 40% 증가, 끌어당기는 범위 40% 증가","The Damage Increases By 40% Of The Damage Caused By The Diffusion Reaction, 40% Increase"
 Artifact.Up.Set.Retracing_Bolide,보호막 존재 시 일반공격 피해 +40%,General Attack Damage In Case Of A Shield +40%
 Artifact.Up.Set.Crimson_Witch_of_Flames,불 관련 원소반응 피해 40% 증가 ,40% Increase In Damage To The Fire -Related Elements
-Artifact.Up.Set.Thundering_Fury,"번개 관련 원소반응의 피해 40% 증가, 해당 반응 시 원소전투 스킬 재사용 대기시간 1초 감소(재사용 대기시간 감소효과는 4초마다 한 번 씩 발동)","Increases The Damage Of Lightning Elemental Reactions By 40%, Reducing 1 Second Of Waiting Time For Reuse Of Elemental Combat Skills When The Reaction Is Reactivated (The Effect Of Reducing Cooldown Is Triggered Once Every 4 Seconds)"
+Artifact.Up.Set.Thundering_Fury,"번개 관련 원소반응의 피해 40% 증가, 해당 반응 시 원소전투 스킬 재사용 대기시간 1초 감소(재사용 대기시간 감소효과는 4초마다 한 번 씩 발동)","Increases The Damage Of Lightning Elemental Reactions By 40%, Reducing 1 Second Of Waiting Time For Reuse Of Elemental Combat Skills When The Reaction Is (The Effect Of Reducing Cooldown Is Triggered Once Every 4 Seconds)"
 Artifact.Up.Set.Archaic_Petra,보호막 체력 40% 증가,40% Increase In Shield Health
 Artifact.Up.Set.Pale_Flame,물리 피해 +60%,Physical Damage +60%
 Artifact.Up.Set.Reminiscence_of_Shime,원소폭발 최대 게이지 +15 일반공격 피해 +100%,Elemental Explosion Maximum Gauge +15 General Attack Damage +100%

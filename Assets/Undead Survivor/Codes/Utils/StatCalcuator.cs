@@ -80,7 +80,7 @@ public class StatCalculator
             {
                 result += (result * weaponStat.ATK_PER);
                 result += weaponStat.ATK;
-                result += Health * statBuff.HealthDamagePer;
+                result += Health * statBuff.HealthAtkPer;
             }
             result += GetRankUpValue(stat, StatType.ATK);
             result += (stat.atk * upgradeComponents[(int)UpgradeType.ATK].GetValue());
@@ -682,7 +682,7 @@ public class StatCalculator
         if (parameterWithKey.type == Skill.Type.Basic)
         {
             result += artifactData.BaseDamageMultiplier(parameterWithKey.name);
-            result += statBuff.BaseDamage;
+            result += statBuff.BaseDamagePer;
         }
         if (elementType == Element.Type.Physics)
         {

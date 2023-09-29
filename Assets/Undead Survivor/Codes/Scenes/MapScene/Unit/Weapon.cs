@@ -182,7 +182,7 @@ public enum WeaponName
     Claymore_Redhorn_Stonethresher, //쇄석의 붉은 뿔
     Spear_Calamity_Queller, //식재
     Catalist_Kaguras_Verirty, //카구라의 진의
-    Sword_Harn_Geppaku_Futsu, //하란 월백의 후츠
+    Sword_Haran_Geppaku_Futsu, //하란 월백의 후츠
     Bow_Aqua_Simulacra, //약수
 
 }

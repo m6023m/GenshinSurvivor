@@ -2178,11 +2178,11 @@ public class ConstellationData
         { // 절벽을 깎는 깃발 효과에 일반공격 피해증가 15%가 추가됨
             burst.AddStartListener(() =>
             {
-                statBuff.BaseDamage += 0.15f;
+                statBuff.BaseDamagePer += 0.15f;
             });
             burst.AddEndListener(() =>
             {
-                statBuff.BaseDamage -= 0.15f;
+                statBuff.BaseDamagePer -= 0.15f;
             });
         }
         if (character.constellation[2])

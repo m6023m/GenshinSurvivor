@@ -23,7 +23,7 @@ Weapon.Claymore_The_Bell,시간의 검,Time
 Weapon.Claymore_Sacrificial,제례 대검,Ritual
 Weapon.Claymore_Rainslasher,빗물 베기,Rainwater
 Weapon.Claymore_Lithic_Blade,천암고검,Cheonam
-Weapon.Claymore_Serpent_Spine,이무기 검,Weapon Sword
+Weapon.Claymore_Serpent_Spine,이무기 검,Baulk
 Weapon.Claymore_Skyward_Pride,천공의 긍지,Pride
 Weapon.Claymore_Wolfs_Gravestone,늑대의 말로,In The Words Of The Wolf
 Weapon.Claymore_The_Unforged,무공의 검,Sword
@@ -105,3 +105,27 @@ Weapon.Discription.Bow_SkyWard_Harp,행운 {0} 증가 {1}초마다 명중 시 {2
 Weapon.Discription.Bow_Amos_Bow,일반공격 피해 {0:P}증가 일반공격이 원거리 공격일 경우 해당 효과 4배 증가,"General Attack Damage {0: P} Increase In General Attacks, 4 Times The Effectiveness Of The Effect"
 Weapon.Discription.Bow_Elegy_For_The_End,"원소마스터리가 {0}증가함 20초마다 원소마스터리 {1} 증가, 공격력 {2:P}증가함 지속 12초","Elemental Mastery Increases {0} Increase Every 20 Seconds Of Element {1}, Attack Power {2: P} Increases 12 Seconds"
 Weapon.Discription.Bow_Polar_Star,원소전투 스킬과 원소폭발의 피해 {0:P}증가. 공격력 {1:P} 증가,Damage To Elemental Combat Skills And Element Explosions {0: P}. Attack {1: P} Increase
+Weapon.Sword_Mistsplitter_Reforged,안개를 가르는 회광,
+Weapon.Bow_Thundering_Pulse,비뢰의 고동,
+Weapon.Spear_Engulfing_Lightning,예초의 번개,
+Weapon.Catalist_Everlating_Moonglow,불멸의 달빛,
+Weapon.Claymore_Akuomaru,아쿠오마루,
+Weapon.Spear_Wavebreakers_Fin,파도베는 지느러미,
+Weapon.Bow_Mouuns_Moon,모운의 달,
+Weapon.Claymore_Redhorn_Stonethresher,쇄석의 붉은 뿔,
+Weapon.Spear_Calamity_Queller,식재,
+Weapon.Catalist_Kaguras_Verirty,카구라의 진의,
+Weapon.Sword_Haran_Geppaku_Futsu,하란 월백의 후츠,
+Weapon.Bow_Aqua_Simulacra,약수,
+Weapon.Discription.Sword_Mistsplitter_Reforged,"모든 원소피해 보너스를 {0:P} 증가, 장착 캐릭터의 원소타입의 원소피해 보너스 {1:P} 증가",
+Weapon.Discription.Bow_Thundering_Pulse,공격력이 {0:P} 증가함. 일반공격 피해 {1:P} 증가,
+Weapon.Discription.Spear_Engulfing_Lightning,공격력이 원소충전 효율의 {0:P} 만큼 증가함. 원소 충전효율이 {1:P} 만큼 증가함,
+Weapon.Discription.Catalist_Everlating_Moonglow,치유 보너스가 {0:P} 증가. 일반공격의 피해가 HP 최대치의 {1:P} 만큼 증가함,
+Weapon.Discription.Claymore_Akuomaru,파티 내 캐릭터의 원소에너지 최대치 총합 x {0:P}만큼 원소폭발 피해가 증가함. 최대 {1:P} 만큼 증가함,
+Weapon.Discription.Spear_Wavebreakers_Fin,파티 내 캐릭터의 원소에너지 최대치 총합 x {0:P}만큼 원소폭발 피해가 증가함. 최대 {1:P} 만큼 증가함,
+Weapon.Discription.Bow_Mouuns_Moon,파티 내 캐릭터의 원소에너지 최대치 총합 x {0:P}만큼 원소폭발 피해가 증가함. 최대 {1:P} 만큼 증가함,
+Weapon.Discription.Claymore_Redhorn_Stonethresher,방어력이 {0:P} 증가함. 일반공격의 피해가 방어력의 {1:P} 만큼 증가함,
+Weapon.Discription.Spear_Calamity_Queller,"모든 원소피해 보너스를 {0:P} 증가, 공격력이 {1:P} 증가. 장착한 캐릭터가 메인캐릭터가 아닐 경우 효과가 두배가 됨",
+Weapon.Discription.Catalist_Kaguras_Verirty,원소전투 스킬의 피해가 {0:P}증가. 모든 원소 피해 보너스 {1:P} 증가함,
+Weapon.Discription.Sword_Haran_Geppaku_Futsu,모든 원소피해 보너스 {0:P} 증가. 일반공격 피해 {1:P} 증가,
+Weapon.Discription.Bow_Aqua_Simulacra,"HP가 {0:P} 증가하고, 모든 피해 {1:P} 증가함",

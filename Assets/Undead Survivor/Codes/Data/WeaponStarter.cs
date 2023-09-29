@@ -171,6 +171,42 @@ public class WeaponStarter
             case WeaponName.Bow_Polar_Star:
                 Bow_Polar_Star();
                 break;
+            case WeaponName.Sword_Mistsplitter_Reforged:
+                Sword_Mistsplitter_Reforged();
+                break;
+            case WeaponName.Bow_Thundering_Pulse:
+                Bow_Thundering_Pulse();
+                break;
+            case WeaponName.Spear_Engulfing_Lightning:
+                Spear_Engulfing_Lightning();
+                break;
+            case WeaponName.Catalist_Everlating_Moonglow:
+                Catalist_Everlating_Moonglow();
+                break;
+            case WeaponName.Claymore_Akuomaru:
+                Claymore_Akuomaru();
+                break;
+            case WeaponName.Spear_Wavebreakers_Fin:
+                Spear_Wavebreakers_Fin();
+                break;
+            case WeaponName.Bow_Mouuns_Moon:
+                Bow_Mouuns_Moon();
+                break;
+            case WeaponName.Claymore_Redhorn_Stonethresher:
+                Claymore_Redhorn_Stonethresher();
+                break;
+            case WeaponName.Spear_Calamity_Queller:
+                Spear_Calamity_Queller();
+                break;
+            case WeaponName.Catalist_Kaguras_Verirty:
+                Catalist_Kaguras_Verirty();
+                break;
+            case WeaponName.Sword_Haran_Geppaku_Futsu:
+                Sword_Haran_Geppaku_Futsu();
+                break;
+            case WeaponName.Bow_Aqua_Simulacra:
+                Bow_Aqua_Simulacra();
+                break;
         }
     }
     void WeaponFade(bool fade)
@@ -384,12 +420,12 @@ public class WeaponStarter
             WeaponFade(true);
             statBuff.BaseCooltime += 0.1f;
             statBuff.Speed += 0.1f;
-            statBuff.BaseDamage += weaponParameter.valueSums[1];
+            statBuff.BaseDamagePer += weaponParameter.valueSums[1];
             weapon.PatternDelay(12.0f).OnComplete(() =>
             {
                 statBuff.BaseCooltime -= 0.1f;
                 statBuff.Speed -= 0.1f;
-                statBuff.BaseDamage -= weaponParameter.valueSums[1];
+                statBuff.BaseDamagePer -= weaponParameter.valueSums[1];
                 isSword_Skyword_Blade = false;
                 WeaponFade(true);
             });
@@ -403,7 +439,7 @@ public class WeaponStarter
     void Sword_Primordial_Jade_Cutter() //HP가 {0:P} 증가하고, HP최대치의 {1:P}에 해당하는 공격력 보너스를 획득함
     {
         statBuff.Hp += player.stat.hp * weaponParameter.valueSums[0];
-        statBuff.HealthDamagePer += weaponParameter.valueSums[1];
+        statBuff.HealthAtkPer += weaponParameter.valueSums[1];
     }
     void Sword_Freedom_Sworn() //가하는 피해 {0:P}증가함. 20초마다 일반공격피해 {1:P}증가, 공격력 {2:P} 증가함. 지속 12초
     {
@@ -412,14 +448,14 @@ public class WeaponStarter
         weapon.StartCoroutine(WeaponCooltime(20.0f, time,
         () =>
         {
-            statBuff.BaseDamage += weaponParameter.valueSums[1];
+            statBuff.BaseDamagePer += weaponParameter.valueSums[1];
             float atk = player.stat.atk * weaponParameter.valueSums[2];
             statBuff.Atk += atk;
             WeaponFade(true);
 
             weapon.PatternDelay(12.0f).OnComplete(() =>
             {
-                statBuff.BaseDamage -= weaponParameter.valueSums[1];
+                statBuff.BaseDamagePer -= weaponParameter.valueSums[1];
                 statBuff.Atk -= atk;
                 WeaponFade(false);
             });
@@ -665,7 +701,7 @@ public class WeaponStarter
     void Spear_Staff_Of_Homa() //최대 체력 {0:P}증가. 공격력이 HP 최대치의 {1:P}만큼 증가함 HP가 50% 미만일 경우 공격력 증가효과가 두배가 됨
     {
         statBuff.Hp += player.stat.hp * weaponParameter.valueSums[0];
-        statBuff.HealthDamagePer += weaponParameter.valueSums[1];
+        statBuff.HealthAtkPer += weaponParameter.valueSums[1];
         weapon.StartCoroutine(Spear_Staff_Of_HomaBuff());
     }
 
@@ -677,13 +713,13 @@ public class WeaponStarter
             float healthPer = player.health / GameManager.instance.statCalcuator.Health;
             if (healthPer < 0.5f && !isBuff)
             {
-                statBuff.HealthDamagePer += weaponParameter.valueSums[1];
+                statBuff.HealthAtkPer += weaponParameter.valueSums[1];
                 isBuff = true;
 
             }
             else if (healthPer >= 0.5f && isBuff)
             {
-                statBuff.HealthDamagePer -= weaponParameter.valueSums[1];
+                statBuff.HealthAtkPer -= weaponParameter.valueSums[1];
                 isBuff = false;
             }
 
@@ -833,7 +869,7 @@ public class WeaponStarter
     }
     void Bow_Rust() //일반 공격 피해 {0:P} 증가함
     {
-        statBuff.BaseDamage += weaponParameter.valueSums[0];
+        statBuff.BaseDamagePer += weaponParameter.valueSums[0];
     }
     void Bow_Alley_Hunter() //무기를 장착한 캐릭터가 메인캐릭터가 아닐경우 피해 {0:P} 증가함
     {
@@ -842,7 +878,7 @@ public class WeaponStarter
     }
     void Bow_Mitternachts_Waltz() //일반 공격 피해와 원소전투 스킬의 피해가 {0:P} 증가함
     {
-        statBuff.BaseDamage += weaponParameter.valueSums[0];
+        statBuff.BaseDamagePer += weaponParameter.valueSums[0];
         statBuff.SkillDamage += weaponParameter.valueSums[0];
     }
     void Bow_Viridescent_Hunt() //{0} 초마다 제일 가까운 적 방향에 적을 끌어당기고 공격력의 {1:P}의 지속피해를 주는 공격을함. 지속 4초
@@ -890,7 +926,7 @@ public class WeaponStarter
         {
             damage *= 4.0f;
         }
-        statBuff.BaseDamage += damage;
+        statBuff.BaseDamagePer += damage;
     }
     void Bow_Elegy_For_The_End() //원소마스터리가 {0}증가함 20초마다 원소마스터리 {1} 증가, 공격력 {2:P}증가함 지속 12초
     {
@@ -918,6 +954,141 @@ public class WeaponStarter
         statBuff.SkillDamage += weaponParameter.valueSums[0];
         statBuff.BurstDamage += weaponParameter.valueSums[0];
         statBuff.Atk += player.stat.atk * weaponParameter.valueSums[1];
+    }
+
+    void Sword_Mistsplitter_Reforged() //모든 원소피해 보너스를 {0:P} 증가, 장착 캐릭터의 원소타입의 원소피해 보너스 {1:P} 증가
+    {
+        statBuff.elementalDamageAdd(weaponParameter.valueSums[0]);
+        switch (character.elementType)
+        {
+            case Element.Type.Physics:
+                statBuff.PhysicsDmg += weaponParameter.valueSums[1];
+                break;
+            case Element.Type.Pyro:
+                statBuff.PyroDmg += weaponParameter.valueSums[1];
+                break;
+            case Element.Type.Hydro:
+                statBuff.HydroDmg += weaponParameter.valueSums[1];
+                break;
+            case Element.Type.Anemo:
+                statBuff.AnemoDmg += weaponParameter.valueSums[1];
+                break;
+            case Element.Type.Dendro:
+                statBuff.DendroDmg += weaponParameter.valueSums[1];
+                break;
+            case Element.Type.Electro:
+                statBuff.ElectroDmg += weaponParameter.valueSums[1];
+                break;
+            case Element.Type.Cyro:
+                statBuff.CyroDmg += weaponParameter.valueSums[1];
+                break;
+            case Element.Type.Geo:
+                statBuff.GeoDmg += weaponParameter.valueSums[1];
+                break;
+        }
+    }
+    void Bow_Thundering_Pulse() //공격력이 {0:P} 증가함. 일반공격 피해 {1:P} 증가
+    {
+        float addAtk = player.stat.atk * weaponParameter.valueSums[0];
+        statBuff.Atk += addAtk;
+        statBuff.BaseDamagePer += weaponParameter.valueSums[1];
+    }
+    void Spear_Engulfing_Lightning() //공격력이 원소충전 효율의 {0:P} 만큼 증가함. 원소 충전효율이 {1:P} 만큼 증가함
+    {
+        statBuff.RegenDamagePer += weaponParameter.valueSums[0];
+        statBuff.Regen += weaponParameter.valueSums[1];
+    }
+    void Catalist_Everlating_Moonglow() //치유 보너스가 {0:P} 증가. 일반공격의 피해가 HP 최대치의 {1:P} 만큼 증가함
+    {
+        statBuff.Heal += weaponParameter.valueSums[0];
+        statBuff.HealthBaseDamagePer += weaponParameter.valueSums[1];
+
+    }
+    void Claymore_Akuomaru() //파티 내 캐릭터의 원소에너지 최대치 총합 x {0:P}만큼 원소폭발 피해가 증가함. 최대 {1:P} 만큼 증가함
+    {
+        float burstDamagePer = 0;
+        float burstGaugeMax = 0;
+        foreach (Character character in GameDataManager.instance.saveData.userData.selectChars)
+        {
+            CharacterData characterData = GameManager.instance.characterData;
+            SkillData.ParameterWithKey param = GameManager.instance.skillData.skills[characterData.Get(character.charNum).skill];
+            SkillData.ParameterWithKey burst = GameManager.instance.skillData.skills[param.burst];
+            burstGaugeMax += burst.parameter.elementGaugeMax;
+        }
+        burstDamagePer = burstGaugeMax * weaponParameter.valueSums[0];
+        if (burstDamagePer > weaponParameter.valueSums[1])
+        {
+            burstDamagePer = weaponParameter.valueSums[1];
+        }
+        statBuff.BurstDamagePer += burstDamagePer;
+    }
+    void Spear_Wavebreakers_Fin() //파티 내 캐릭터의 원소에너지 최대치 총합 x {0:P}만큼 원소폭발 피해가 증가함. 최대 {1:P} 만큼 증가함
+    {
+        float burstDamagePer = 0;
+        float burstGaugeMax = 0;
+        foreach (Character character in GameDataManager.instance.saveData.userData.selectChars)
+        {
+            CharacterData characterData = GameManager.instance.characterData;
+            SkillData.ParameterWithKey param = GameManager.instance.skillData.skills[characterData.Get(character.charNum).skill];
+            SkillData.ParameterWithKey burst = GameManager.instance.skillData.skills[param.burst];
+            burstGaugeMax += burst.parameter.elementGaugeMax;
+        }
+        burstDamagePer = burstGaugeMax * weaponParameter.valueSums[0];
+        if (burstDamagePer > weaponParameter.valueSums[1])
+        {
+            burstDamagePer = weaponParameter.valueSums[1];
+        }
+        statBuff.BurstDamagePer += burstDamagePer;
+    }
+    void Bow_Mouuns_Moon() //파티 내 캐릭터의 원소에너지 최대치 총합 x {0:P}만큼 원소폭발 피해가 증가함. 최대 {1:P} 만큼 증가함
+    {
+        float burstDamagePer = 0;
+        float burstGaugeMax = 0;
+        foreach (Character character in GameDataManager.instance.saveData.userData.selectChars)
+        {
+            CharacterData characterData = GameManager.instance.characterData;
+            SkillData.ParameterWithKey param = GameManager.instance.skillData.skills[characterData.Get(character.charNum).skill];
+            SkillData.ParameterWithKey burst = GameManager.instance.skillData.skills[param.burst];
+            burstGaugeMax += burst.parameter.elementGaugeMax;
+        }
+        burstDamagePer = burstGaugeMax * weaponParameter.valueSums[0];
+        if (burstDamagePer > weaponParameter.valueSums[1])
+        {
+            burstDamagePer = weaponParameter.valueSums[1];
+        }
+        statBuff.BurstDamagePer += burstDamagePer;
+    }
+    void Claymore_Redhorn_Stonethresher() //방어력이 {0:P} 증가함. 일반공격의 피해가 방어력의 {1:P} 만큼 증가함
+    {
+        statBuff.Armor += player.stat.armor * weaponParameter.valueSums[0];
+        statBuff.ArmorBaseDamagePer += weaponParameter.valueSums[1];
+    }
+    void Spear_Calamity_Queller() //모든 원소피해 보너스를 {0:P} 증가, 공격력이 {1:P} 증가. 장착한 캐릭터가 메인캐릭터가 아닐 경우 효과가 두배가 됨
+    {
+        statBuff.elementalDamageAdd(weaponParameter.valueSums[0]);
+        float addAtk = player.stat.atk * weaponParameter.valueSums[1];
+        statBuff.Atk += addAtk;
+        if (GameDataManager.instance.saveData.userData.selectChars[0].charNum != character.charNum)
+        {
+            statBuff.elementalDamageAdd(weaponParameter.valueSums[0]);
+            statBuff.Atk += addAtk;
+        }
+
+    }
+    void Catalist_Kaguras_Verirty() //원소전투 스킬의 피해가 {0:P}증가. 모든 원소 피해 보너스 {1:P} 증가함
+    {
+        statBuff.SkillDamage += weaponParameter.valueSums[0];
+        statBuff.elementalDamageAdd(weaponParameter.valueSums[1]);
+    }
+    void Sword_Haran_Geppaku_Futsu() //모든 원소피해 보너스 {0:P} 증가. 일반공격 피해 {1:P} 증가
+    {
+        statBuff.elementalDamageAdd(weaponParameter.valueSums[0]);
+        statBuff.BaseDamagePer += weaponParameter.valueSums[1];
+    }
+    void Bow_Aqua_Simulacra() //HP가 {0:P} 증가하고, 모든 피해 {1:P} 증가함
+    {
+        statBuff.Hp += player.stat.hp * weaponParameter.valueSums[0];
+        statBuff.allDamageAdd(weaponParameter.valueSums[1]);
     }
 
 }

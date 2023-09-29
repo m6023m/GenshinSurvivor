@@ -4,40 +4,40 @@ using UnityEngine;
 using static Character;
 public class StatBuff
 {
-    public float _Atk = 0.0f;
-    public float _Armor = 0.0f;
-    public float _Hp = 0.0f;
-    public float _Heal = 0.0f;
-    public float _Cooltime = 0.0f;
-    public float _Area = 0.0f;
-    public float _Aspeed = 0.0f;
-    public float _Duration = 0.0f;
-    public float _Amount = 0.0f;
-    public float _Speed = 0.0f;
-    public float _Magnet = 0.0f;
-    public float _Luck = 0.0f;
-    public float _Regen = 0.0f;
-    public float _Exp = 0.0f;
-    public float _Greed = 0.0f;
-    public float _Curse = 0.0f;
-    public float _Resurraction = 0.0f;
-    public float _Reroll = 0.0f;
-    public float _Skip = 0.0f;
-    public float _PhysicsDmg = 0.0f;
-    public float _PyroDmg = 0.0f;
-    public float _HydroDmg = 0.0f;
-    public float _AnemoDmg = 0.0f;
-    public float _DendroDmg = 0.0f;
-    public float _ElectroDmg = 0.0f;
-    public float _CyroDmg = 0.0f;
-    public float _GeoDmg = 0.0f;
-    public float _BaseCooltime = 0.0f;
-    public float _BaseDamage = 0.0f;
-    public float _SkillDamage = 0.0f;
-    public float _BurstDamage = 0.0f;
-    public float _SheildPer = 0.0f;
-    public float _KnwooDamagePer = 0.0f;
-    public float _HealthDamagePer = 0.0f;
+    float _Atk = 0.0f;
+    float _Armor = 0.0f;
+    float _Hp = 0.0f;
+    float _Heal = 0.0f;
+    float _Cooltime = 0.0f;
+    float _Area = 0.0f;
+    float _Aspeed = 0.0f;
+    float _Duration = 0.0f;
+    float _Amount = 0.0f;
+    float _Speed = 0.0f;
+    float _Magnet = 0.0f;
+    float _Luck = 0.0f;
+    float _Regen = 0.0f;
+    float _Exp = 0.0f;
+    float _Greed = 0.0f;
+    float _Curse = 0.0f;
+    float _Resurraction = 0.0f;
+    float _Reroll = 0.0f;
+    float _Skip = 0.0f;
+    float _PhysicsDmg = 0.0f;
+    float _PyroDmg = 0.0f;
+    float _HydroDmg = 0.0f;
+    float _AnemoDmg = 0.0f;
+    float _DendroDmg = 0.0f;
+    float _ElectroDmg = 0.0f;
+    float _CyroDmg = 0.0f;
+    float _GeoDmg = 0.0f;
+    float _BaseCooltime = 0.0f;
+    float _BaseDamage = 0.0f;
+    float _SkillDamage = 0.0f;
+    float _BurstDamage = 0.0f;
+    float _SheildPer = 0.0f;
+    float _KnwooDamagePer = 0.0f;
+    float _HealthDamagePer = 0.0f;
     public float Atk
     {
         get
@@ -444,12 +444,17 @@ public class StatBuff
         }
     }
     public float BaseCooltime = 0.0f;
+    public float BaseDamagePer = 0.0f;
     public float BaseDamage = 0.0f;
     public float SkillDamage = 0.0f;
     public float BurstDamage = 0.0f;
     public float SheildPer = 0.0f;
     public float KnwooDamagePer = 0.0f;
-    public float HealthDamagePer = 0.0f;
+    public float HealthAtkPer = 0.0f;
+    public float HealthBaseDamagePer = 0.0f;
+    public float ArmorBaseDamagePer = 0.0f;
+    public float RegenDamagePer = 0.0f;
+    public float BurstDamagePer = 0.0f;
     public void allDamageAdd(float value)
     {
         PhysicsDmg += value;

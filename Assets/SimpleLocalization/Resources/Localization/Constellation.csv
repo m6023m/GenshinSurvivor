@@ -65,10 +65,10 @@ Constellation.Xingqiu2,고화검 · 재우유홍의 대미지 20% 증가,20% Inc
 Constellation.Xingqiu3,고화검 · 재우유홍의 효과가 지속되는 동안 고화검 · 화우농산으로 가하는 피해가 50% 증가한다.,"During The Effects Of High Painting Swords And Jaus Urong, The Damage Caused By High Painting Swords And Hwahwa Farming Increases By 50%."
 Constellation.Xingqiu4,고화검 · 화우농산의 대미지 20% 증가,20% Increase In Damage To High Painting Swords And Hwawoo Agricultural Production
 Constellation.Xingqiu5,"고화검 · 재우유홍 사용 시 원소 에너지 10 획득, 대미지 20% 증가","10% Of Element Energy Is Acquired When Used In High Painting Swords And Jaewokhongs, 20% Increase In Damage"
-Constellation.Mona0,별의 운명의 내성감소 20% 증가,20% Increase In Resistance To Star Fate
+Constellation.Mona0,별의 운명의 내성감소 20% 증가,20% Increase In Resistance To The Fate Of Stars
 Constellation.Mona1,일반공격의 대미지 20% 증가,20% Increase In Damage To General Attacks
 Constellation.Mona2,별의 운명 대미지 20% 증가,20% Increase In Star Fate Damage
-Constellation.Mona3,별의 운명의 내성감소 20% 증가,20% Increase In Resistance To Star Fate
+Constellation.Mona3,별의 운명의 내성감소 20% 증가,20% Increase In Resistance To The Fate Of Stars
 Constellation.Mona4,수중 환원의 대미지 20% 증가,20% Increase In Damage To Underwater Reduction
 Constellation.Mona5,이동 중일때 대미지 20% 증가,20% Increase In Damage When Moving
 Constellation.Sucrose0,풍령 작성 · 육삼공팔의 쿨타임 20% 감소,"Pungryeong Preparation, 20% Reduction In Cooldown Of Six Samgong Arms"
@@ -140,7 +140,7 @@ Constellation.Qiqi5,부활 회수 2 증가,2 Increase In Resurrection
 Constellation.Ningguang0,관통이 있는 일반공격의 관통 2 증가,2 Increase In Penetration Of General Attacks With Penetration
 Constellation.Ningguang1,선기 병풍의 재사용 대기시간 20% 감소,20% Reduction In Waiting Time For Reusable Screens
 Constellation.Ningguang2,천권 봉옥의 대미지 20% 증가,20% Increase In Damage To Cheon Kwon Bongok
-Constellation.Ningguang3,선기 병풍의 지속시간 동안 방어력 2 증가,2 Increase In Defense During The Duration Of Sunshop Screens
+Constellation.Ningguang3,선기 병풍의 지속시간 동안 방어력 2 증가,2 Increase In Defense During The Duration Of The Line Screens
 Constellation.Ningguang4,선기 병풍의 대미지 20% 증가,20% Increase In Damage To Sunscreen
 Constellation.Ningguang5,천권 붕옥의 개수 7개 증가,7 Increase In The Number Of Celestial Bores
 Constellation.Noelle0,대청소 또는 호심경 사용시 HP 20% 회복,20% Hp When Cleaning Or Use
@@ -198,7 +198,7 @@ Constellation.Hutao1,일반 공격이 가하는 피해량이 HP의 2% 만큼 증
 Constellation.Hutao2,나비의 서 지속시간 20% 증가,Butterfly'S Duration Increases By 20%
 Constellation.Hutao3,행운 3증가,Lucky 3 Increase
 Constellation.Hutao4,평안의 서 대미지 20% 증가,20% Increase In Western Damage In Peace
-Constellation.Hutao5,HP가 25% 이하로 떨어지거나 전투 불능이 될 정도의 피해를 입으면 10초동안 무적이 되며 모든 공격이 치명타가 됨 쿨타임 60초,"If The Hp Falls To 25% Or Less Or Suffers Enough To Be Unable To Combat, It Will Be Invincible For 10 Seconds And All Attacks Become A Critical Hit."
+Constellation.Hutao5,HP가 25% 이하로 떨어지거나 전투 불능이 될 정도의 피해를 입으면 10초동안 무적이 되며 모든 공격이 치명타가 됨 쿨타임 60초,"If The Hp Falls Below 25% Or Suffers Enough To Be Unable To Combat, It Will Be Invincible For 10 Seconds And All Attacks Become Critical. Cool Time 60 Seconds"
 Constellation.Rosaria0,"일반 공격 피해 10%증가, 일반 공격 재사용 대기시간 10% 감소","10% Increase In General Attack Damage, 10% Reduction In Waiting Time For General Attack Reuse"
 Constellation.Rosaria1,죽음의 성례의 지속시간 20% 증가,20% Increase In Duration Of Death Of Death
 Constellation.Rosaria2,죄를 삼키는 고해의 대미지 20% 증가,20% Increase In Damage To Confession That Swallows Sin
@@ -235,7 +235,7 @@ Constellation.Yoimiya2,염초 정화(庭火)의 춤의 대미지 20% 증가,20% 
 Constellation.Yoimiya3,염초 정화(庭火)의 춤의 재사용 대기시간 20% 감소,20% Reduction In Waiting Time For Reusable Dances Of Yeomcho Purification
 Constellation.Yoimiya4,유금 운간초의 대미지 20% 증가,20% Increase In Damage To Oil Luck
 Constellation.Yoimiya5,염초 정화(庭火)의 춤의 재사용 대기시간 30% 감소,30% Reduction In Waiting Time For Reusable Dances Of Yeomcho Purification
-Constellation.Sayu0,유후류 · 너구리 분신술의 회복량과 대미지 20% 증가,The Amount Of Recovery And Damage Increase Of Yufu And Raccoons Increased By 20%
+Constellation.Sayu0,유후류 · 너구리 분신술의 회복량과 대미지 20% 증가,The Amount Of Recovery And Damage Increase Of Yufu -Yu And Raccoons Increased By 20%
 Constellation.Sayu1,유후류 · 풍은 돌진의 대미지 주기가 0.1초 감소,Yumu And Winds Are Reduced By 0.1 Seconds.
 Constellation.Sayu2,유후류 · 너구리 분신술의 대미지 20% 증가,20% Increase In Damage To Yufu And Raccoons
 Constellation.Sayu3,원소충전 효율 20% 증가,20% Increase In Elemental Charging Efficiency
@@ -303,7 +303,7 @@ Constellation.Ayato4,카미사토류 · 물의 영역의 대미지 20% 증가,20
 Constellation.Ayato5,카미사토류 · 거울꽃의 대미지 40% 증가,40% Increase In Damage To Kamisa Earth And Mirror Flowers
 Constellation.Yelan0,뒤얽힌 생명줄의 재사용 대기시간 20% 감소,20% Reduction In Waiting Time For Reusable Lives
 Constellation.Yelan1,심오하고 영롱한 주사위의 투사체 발사 개수 1 증가,Increased Number Of Projectiles Of Profound And Brilliant Dice
-Constellation.Yelan2,심오하고 영롱한 주사위 대미지 20% 증가,Increased Profound And Brilliant Dice Damage 20% Increase
+Constellation.Yelan2,심오하고 영롱한 주사위 대미지 20% 증가,Increased Profound And Brilliant Dice Damage By 20%
 Constellation.Yelan3,뒤얽힌 생명줄 지속시간동안 적을 통과할수 있으며 무적상태가 됨,You Can Pass The Enemy During The Duration Of The Entangled Life And Become Invincible.
 Constellation.Yelan4,뒤얽힌 생명줄의 대미지 20% 증가,20% Increase In Damage To The Entangled Life String
 Constellation.Yelan5,심오하고 영롱한 주사위에 적에게 맞을시 폭발하며 물원소 범위피해를 주는 효과가 추가됨,"The Effect Of Exploding When The Enemy Is Hit By A Profound And Brilliant Dice, And The Effect Of Damaging The Scope Of The Botanical Element Is Added."

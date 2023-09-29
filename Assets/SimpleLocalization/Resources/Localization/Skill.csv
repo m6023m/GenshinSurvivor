@@ -17,7 +17,7 @@ Skill.Discription.Basic_Claymore,자신 주변 범위에 공격을 가함,Attack
 Skill.Discription.Basic_Spear,전방에 공격을 가함,Attack
 Skill.Discription.Basic_Arrow,가장 가까운 적에게 투사체를 날리는 공격을 함,Attack To Blow A Projectile To The Nearest Enemy
 Skill.Discription.Basic_Catalist,가장 가까운 적에게 투사체를 날리는 공격을 함,Attack To Blow A Projectile To The Nearest Enemy
-Skill.Discription.Basic_Klee,약간의 딜레이 후 화염 속성 범위 피해를 줌,"After A Little Delay, The Flame Properties Range Damage"
+Skill.Discription.Basic_Klee,약간의 딜레이 후 화염 속성 범위 피해를 줌,"After A Little Delay, The Flame Property Range Damage"
 Skill.Discription.Basic_Mona,적이 있는 방향에 물 속성 범위 피해를 줌,Damage To The Water Attribute Range In The Direction Of The Enemy
 Skill.Discription.Basic_Ganyu,얼음 속성 투사체를 날리고 적에게 닿으면 폭발하며 얼음 원소 피해를 줌,"If You Blow The Ice Properties Projectile And Reach The Enemy, It Explodes And Causes Damage To The Ice Element."
 Skill.Discription.Basic_Hutao,베기 공격 이후 찌르기 공격을 가함,Picking Attack After The Cutting Attack
@@ -106,7 +106,7 @@ Skill.Diluc1,레벨 10 오를 때 마다 행운 1 증가,Luck 1 Increase Every T
 Skill.Klee0,게임 시작 시 통통 폭탄을 가진 채로 시작,Start With A Plump Bomb At The Start Of The Game
 Skill.Klee1,레벨 10 오를 때 마다 화염대미지 7.2% 증가,"Every Time You Climb Level 10, The Flame Damage Increases 7.2%"
 Skill.Barbara0,"게임 시작 시 공연, 시작♪을 가진 채로 시작","Start With The Performance, Starting ♪ At The Start Of The Game"
-Skill.Barbara1,레벨 10 오를 때 마다 최대체력 10% 증가,Maximum Health Increases By 10% Every Time You Go Up To Level 10
+Skill.Barbara1,레벨 10 오를 때 마다 최대체력 10% 증가,Maximum Health Increase By 10% Every Time You Go Up To 10%
 Skill.Xingqiu0,게임 시작 시 고화검 · 화우농산을 가진 채로 시작,Starting With High Painting Swords And Hwawoo Farming At The Start Of The Game
 Skill.Xingqiu1,레벨 10 오를 때 마다 공격력 10% 증가,Each Time You Go Up To 10% Of Damage Increases By 10%
 Skill.Mona0,게임 시작 시 수중 환원을 가진 채로 시작,Start With A Underwater Reduction At The Start Of The Game
@@ -119,16 +119,16 @@ Skill.Venti0,게임 시작 시 높은 하늘의 노래를 가진 채로 시작,S
 Skill.Venti1,레벨 10 오를 때 마다 원소 충전 효율 12% 증가,Elemental Charging Efficiency Increases 12% Every Time You Go Up To Level 10
 Skill.Lisa0,게임 시작 시 창뢰를 가진 채로 시작,Starting With A Grievous Light At The Start Of The Game
 Skill.Lisa1,레벨 10 오를 때 마다 원소마스터리 24 증가,Element Mastery Increased 24 Every Time You Climb Level 10
-Skill.Razor0,게임 시작 시 날카로운 발톱과 창뢰를 가진 채로 시작,Starting With Sharp Claws And Crowds At The Start Of The Game
+Skill.Razor0,게임 시작 시 날카로운 발톱과 창뢰를 가진 채로 시작,Start With Sharp Claws And Groom At The Start Of The Game
 Skill.Razor1,레벨 10 오를 때 마다 물리대미지가 6% 증가,"Every Time Level 10 Climbs, Physiotherapy Increases 6%"
 Skill.Beidou0,게임 시작 시 파도잡이를 가진 채로 시작,Start With A Waves At The Start Of The Game
-Skill.Beidou1,레벨 10 오를 때 마다 번개 원소 피해 6% 증가,"Each Time You Go To Level 10, 6% Increase In Lightning Elements"
+Skill.Beidou1,레벨 10 오를 때 마다 번개 원소 피해 6% 증가,"Each Time You Climb Level 10, 6% Increase In Lightning Elements"
 Skill.Fischl0,게임 시작 시 밤을 순찰하는 그림자 날개를 가진 채로 시작,Start With Shadow Wings That Patrol The Night At The Start Of The Game
 Skill.Fischl1,레벨 10 오를 때 마다 공격력 10% 증가,Each Time You Go Up To 10% Of Damage Increases By 10%
 Skill.Keqing0,게임 시작 시 성신 회귀를 가진 채로 시작,Start With A Return Of The Holy Ghost At The Start Of The Game
 Skill.Keqing1,레벨 10 오를 때 마다 행운 1 증가,Luck 1 Increase Every Time You Go Up To Level 10
 Skill.Kaeya0,게임 시작 시 서리 엄습을 가진 채로 시작,Starting With Frost At The Start Of The Game
-Skill.Kaeya1,레벨 10 오를 때 마다 원소 충전 효율 10% 증,Each Level 10 Increases By 10% Of Element Charging Efficiency
+Skill.Kaeya1,레벨 10 오를 때 마다 원소 충전 효율 10% 증,Elemental Charging Efficiency 10% Increase Every Time You Go Up To Level 10
 Skill.Chongyun0,게임 시작 시 영도 · 떨어지는 별을 가진 채로 시작,Start With A Star That Has A Falling Star At The Start Of The Game
 Skill.Chongyun1,레벨 10 오를 때 마다 공격력 10% 증가,Each Time You Go Up To 10% Of Damage Increases By 10%
 Skill.Qiqi0,게임 시작 시 선법 · 한병의 귀차를 가진 채로 시작,Starting With The Right Law And One Bottle At The Start Of The Game
@@ -169,7 +169,7 @@ Skill.Discription.E_Lisa,주변 적에게 번개 속성 지속피해를 주는 �
 Skill.Discription.EB_Lisa,번개 속성 지속피해를 주는 장판 생성,Create A Plate That Causes Lightning Attribute Damage
 Skill.Discription.E_Razor,주변 범위에 번개 속성 피해를 줌,Lightning Attribute Damage To The Surrounding Range
 Skill.Discription.EB_Razor,일반 공격 쿨타임이 감소하고 일반 공격의 쿨타임의 딜레이를 가지는 번개 속성 피해를 주는 늑대 소환,Summon A Wolf That Reduces The General Attack Cooldown And A Lightning Attribute Damage With A Delay Of General Attack Cooldown
-Skill.Discription.E_Beidou,일정 시간 보호막이 생성되고 보호막 지속시간이 끝나면 주변에 번개 속성 범위 피해를 줌,"After A Certain Time Shield Is Generated And The Protective Film Duration, The Lightning Property Range Damage Is Damaged Around."
+Skill.Discription.E_Beidou,일정 시간 보호막이 생성되고 보호막 지속시간이 끝나면 주변에 번개 속성 범위 피해를 줌,"After A Certain Time Shield Is Generated And The Protective Barrier Duration, The Scope Of Lightning Properties Is Damaged Around."
 Skill.Discription.EB_Beidou,번개 속성 범위 피해를 주고 일반 공격에 번개 속성 추가 피해를 주는 버프 생성,Create A Buff That Causes The Scope Of Lightning Properties And Adds To The General Attack To Add Lightning Attribute Damage
 Skill.Discription.E_Fischl,번개 속성 피해를 주는 투사체를 생성하는 소환물 소환,Summon Summon To Create A Projectile That Causes Lightning Attribute Damage
 Skill.Discription.EB_Fischl,번개 속성 범위 피해를 주는 까마귀를 두르고 지속시간이 끝나면 밤을 순찰하는 그림자 날개의 쿨타임을 초기화 함,Put A Crow That Damages The Lightning Attribute Range And Initialize The Cooldown Of The Shadow Wings That Patrol The Night After The Duration
@@ -177,9 +177,9 @@ Skill.Discription.E_Keqing,전방에 표식을 생성하고 일정 시간 후에
 Skill.Discription.EB_Keqing,큰 범위에 번개 속성 지속피해를 주는 장판 생성,Create A Plate That Continues To Damage Lightning Attributes In A Large Range
 Skill.Discription.E_Kaeya,전방에 얼음 속성 피해를 줌,Ice Attribute Damage Ahead
 Skill.Discription.EB_Kaeya,플레이어 주변을 돌며 얼음 속성 피해를 주는 스킬 생성,Create A Skill That Turns Around The Player Around The Player
-Skill.Discription.E_Chongyun,전방에 얼음 속성 범위 피해를 주고 초기 속성이 물리 속성인 기본 공격을 얼음 속성으로 바꿔주는 장판 생성 ,"Create A Floorboard That Causes The Ice Properties To Damage The Front Attack To The Ice Properties, Which The Initial Attribute Is Physical Attribute."
+Skill.Discription.E_Chongyun,전방에 얼음 속성 범위 피해를 주고 초기 속성이 물리 속성인 기본 공격을 얼음 속성으로 바꿔주는 장판 생성 ,"Create A Floor Plate That Causes The Ice Properties To Damage The Front Attack To The Ice Properties, Which The Initial Attribute Is Physical Attribute."
 Skill.Discription.EB_Chongyun,범위에 얼음 속성 지속 피해를 줌,Ice Properties In The Range
-Skill.Discription.E_Qiqi,얼음 속성 피해를 주고 플레이어를 지속적으로 회복시키는 장판을 플레이어 주변에 소환,Summon A Blanket That Causes Ice Properties And Continues To Restore The Player.
+Skill.Discription.E_Qiqi,얼음 속성 피해를 주고 플레이어를 지속적으로 회복시키는 장판을 플레이어 주변에 소환,Summon The Blanket That Causes Ice Properties And Continues To Restore The Player Around The Player
 Skill.Discription.EB_Qiqi,범위에 얼음 속성 피해를 주고 플레이어 HP를 대량으로 회복함,Ice Attribute Damage To The Range And Recovers The Player Hp In Large Quantities
 Skill.Discription.E_Ninguang,바위 원소 범위 피해를 주고 적의 이동경로를 방해하고 투사체를 막는 벽을 생성,"Create A Wall That Causes Damage To The Rock Element, Interferes With The Enemy'S Movement Path, And Blocks The Projectile."
 Skill.Discription.EB_Ninguang,바위 원소 피해를 주는 투사체를 던짐,Throwing A Projectile That Damages The Rock Element
@@ -253,7 +253,7 @@ Skill.Eula0,게임 시작 시 얼음 파도의 와류를 가진 채로 시작,St
 Skill.Eula1,레벨이 10 오를 때 마다 행운 1 증가,Luck 1 Increase Every Time The Level Is Up 10
 Skill.E_Kazuha,치하야부루,Chihaya Buru
 Skill.EB_Kazuha,카즈하의 일도,Kazuha'S Work
-Skill.Discription.E_Kazuha,바람 원소 피해를 주며 주변 적과 아이템을 끌어당기고 일정 시간 주변 지형지물과 적을 통과할 수 있게된다. 지속시간이 끝나면 주변에 바람 원소피해를 주고 적들을 밀어낸다 원소전환이 발생할 수 있음,"It Can Damage The Wind Element, Attract The Surrounding Enemies And Items, And Pass Through The Terrain And Enemies Around Them For A Certain Period Of Time. At The End Of The Duration, The Winding Element Damage And The Enemies Are Pushed Out."
+Skill.Discription.E_Kazuha,바람 원소 피해를 주며 주변 적과 아이템을 끌어당기고 일정 시간 주변 지형지물과 적을 통과할 수 있게된다. 지속시간이 끝나면 주변에 바람 원소피해를 주고 적들을 밀어낸다 원소전환이 발생할 수 있음,"It Can Damage The Wind Element, Attract The Surrounding Enemies And Items, And Pass Through The Terrain And Enemies Around For A Certain Time. At The End Of The Duration, The Winding Element Damage And The Enemies Are Pushed Out."
 Skill.Discription.EB_Kazuha,바람 속성 범위 피해를 주는 장판 생성 원소전환이 발생할 수 있음,The Transition To The Plate Generating Element That Causes Damage To The Wind Attribute Can Occur
 Skill.Kazuha0,게임 시작 시 치하야부루를 가진 채로 시작,Start With Chihaya Buru At The Start Of The Game
 Skill.Kazuha1,레벨이 10 오를 때 마다 원소마스터리 29 증가,Element Mastery 29 Increases Every 10 Levels Up
@@ -289,7 +289,7 @@ Skill.Sara0,까마귀 깃 텐구의 뇌정 소환,Summon The Brain Tablet Of Cro
 Skill.Sara1,레벨이 10 오를 때 마다 공격력 6% 증가,"Each Time The Level Is Up 10, 6% Increase In Damage"
 Skill.E_Kokomi,해파리의 서약,Jellyfish
 Skill.EB_Kokomi,해인화우(海人化羽),Haein Hua (人 化 羽)
-Skill.Discription.E_Kokomi,물 원소 범위피해를 주고 캐릭터를 회복하는 장판 생성,Create A Floorboard That Provides Damage To The Character And Restores The Character
+Skill.Discription.E_Kokomi,물 원소 범위피해를 주고 캐릭터를 회복하는 장판 생성,Create A Floorboard That Causes Damage To Water Elements And Restores Characters
 Skill.Discription.EB_Kokomi,일반공격의 대미지가 체력의 5%증가하고 일반공격이 발동 시 체력을 1 회복함,Damage Of General Attacks Increases By 5%Of Health And One Attack Is Once Restored When A General Attack Is Activated.
 Skill.Kokomi0,게임 시작 시 해파리의 서약을 가진 채로 시작,Start With A Pledge Of Jellyfish At The Start Of The Game
 Skill.Kokomi1,레벨이 10 오를 때 마다 물 원소 피해 7.2% 증가,"Each Time The Level Is Up, 7.2% Increase In Water Elements"
@@ -331,7 +331,7 @@ Skill.Miko0,게임 시작 시 야칸의 소환 · 살생앵을 가진 채로 시
 Skill.Miko1,레벨이 10 오를 때 마다 행운 1 증가,Luck 1 Increase Every Time The Level Is Up 10
 Skill.E_Ayato,카미사토류 · 거울꽃,Kamisa Earth And Mirror Flowers
 Skill.EB_Ayato,카미사토류 · 물의 영역,Kamisa Earth And Water Area
-Skill.Discription.E_Ayato,전방에 물 속성 피해를 입힘,Water Properties In Front Of
+Skill.Discription.E_Ayato,전방에 물 속성 피해를 입힘,Damage Water Attribute In Front Of
 Skill.Discription.EB_Ayato,넓은 범위에 물 속성 지속피해를 입히는 장판 생성,Create A Plate That Causes Continuous Damage To Water Properties In A Wide Range
 Skill.Ayato0,게임 시작 시 카미사토류 · 거울꽃을 가진 채로 시작,Start With Kamisa Earth And Mirror Flowers At The Start Of The Game
 Skill.Ayato1,레벨이 10 오를 때 마다 행운 1 증가,Luck 1 Increase Every Time The Level Is Up 10
