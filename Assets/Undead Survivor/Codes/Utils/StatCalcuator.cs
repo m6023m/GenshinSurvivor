@@ -736,7 +736,13 @@ public class StatCalculator
             damageMultipllier *= Claymore_Rainslasher((EnemyNormal)enemy);
             damageMultipllier *= Spear_Dragons_Bane((EnemyNormal)enemy);
         }
-
+        if (parameterWithKey.parameter.type == Element.Type.Cyro)
+        {
+            if (GameManager.instance.statBuff.E_Shenhe_Stack > 0)
+            {
+                result += GameManager.instance.statCalcuator.Atk * 0.3f;
+            }
+        }
         damageMultipllier += statBuff.Claymore_Serpent_SpineStack * statBuff.Claymore_Serpent_SpineDamage;
 
         if (result < 0)
@@ -860,7 +866,15 @@ public class StatCalculator
                 }
             }
             result += (Health * statBuff.EB_Kokomi);
+            result += (Health * statBuff.HealthBaseDamagePer);
+            result += (Armor * statBuff.ArmorBaseDamagePer);
         }
+        if (parameterWithKey.type == Skill.Type.Burst)
+        {
+            result += (result * statBuff.BurstDamagePer);
+        }
+        result += (result * statBuff.RegenDamagePer);
+
 
         return result;
     }

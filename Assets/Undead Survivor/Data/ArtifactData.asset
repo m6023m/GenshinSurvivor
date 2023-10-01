@@ -16,9 +16,6 @@ MonoBehaviour:
   - icon: {fileID: 21300000, guid: c0d941d74fff3d843b2f897a7b06873a, type: 3}
     level: 0
     name: 0
-  - icon: {fileID: 0}
-    level: 0
-    name: 0
   - icon: {fileID: 21300000, guid: 5a3be7c7d0c040d419273a96496c77dc, type: 3}
     level: 0
     name: 1

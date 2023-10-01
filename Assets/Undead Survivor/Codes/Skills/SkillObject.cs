@@ -167,6 +167,9 @@ public class SkillObject : MonoBehaviour
             case SkillName.E_Miko:
                 GameManager.instance.statBuff.EB_Miko_Stack++;
                 break;
+            case SkillName.E_Shenhe:
+                GameManager.instance.statBuff.E_Shenhe_Stack = 7;
+                break;
         }
     }
 
@@ -181,6 +184,9 @@ public class SkillObject : MonoBehaviour
         {
             case SkillName.EB_Miko:
                 GameManager.instance.statBuff.EB_Miko_Stack = 0;
+                break;
+            case SkillName.E_Heizo:
+                GameManager.instance.statBuff.E_Heizo_Stack = 0;
                 break;
         }
     }

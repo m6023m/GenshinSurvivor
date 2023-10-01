@@ -131,6 +131,9 @@ public class Skill : SkillMoveSet
             case SkillName.EB_Miko:
                 skillDamage *= 1.0f + (0.3f * GameManager.instance.statBuff.EB_Miko_Stack);
                 break;
+            case SkillName.E_Heizo:
+                skillDamage *= 1.0f + (0.5f * GameManager.instance.statBuff.E_Heizo_Stack);
+                break;
         }
         if (parameterWithKey.type == Skill.Type.Reaction)
         {
