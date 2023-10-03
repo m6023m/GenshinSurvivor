@@ -29,7 +29,7 @@ Constellation.Amber2,화살비 대미지 20% 증가,20% Increase In Arrows Damag
 Constellation.Amber3,폭탄 인형의 쿨타임 50% 감소,50% Reduction In Cooldown Of Bomb Dolls
 Constellation.Amber4,폭탄 인형의 대미지 20% 증가,20% Increase In Damage To Bomb Dolls
 Constellation.Amber5,"화살비 발동 후 10초동안 이동속도 15%, 공격력 15% 증가",10 Seconds Of Movement Speed And 15% Increase
-Constellation.Xiangling0,"누룽지의 공격에 피격된 적은 불원소 내성이 15% 감소, 지속 6초","Enemies Hit By Nurungji'S Attack Reduced 15%, 6 Seconds"
+Constellation.Xiangling0,"누룽지의 공격에 피격된 적은 불원소 내성이 15% 감소, 지속 6초","Enemies Hit By Nurungji'S Attacks Reduced 15%, 6 Seconds"
 Constellation.Xiangling1,일반공격 대미지 20% 증가,20% Increase In General Attack Damage
 Constellation.Xiangling2,화륜의 대미지 20% 증가,20% Increase In Damage To Fire Wheel
 Constellation.Xiangling3,화륜의 지속시간 40% 증가,40% Increase In Duration Of Fire Wheel
@@ -106,7 +106,7 @@ Constellation.Beidou1,작뢰의 대미지 20% 증가,20% Increase In Damage
 Constellation.Beidou2,파도잡이의 대미지 20% 증가,20% Increase In Damage To Waves
 Constellation.Beidou3,작뢰의 대미지 20% 증가,20% Increase In Damage
 Constellation.Beidou4,작뢰의 대미지 20% 증가,20% Increase In Damage
-Constellation.Beidou5,작뢰가 지속되는 동안 번개 원소 피해 20% 증가,Lightning Element Damage Increases By 20% While The Work Continues
+Constellation.Beidou5,작뢰가 지속되는 동안 번개 원소 피해 20% 증가,20% Increase In Lightning Elements While The Work Continues
 Constellation.Fischl0,일반공격의 대미지 20% 증가,20% Increase In Damage To General Attacks
 Constellation.Fischl1,밤을 순찰하는 그림자 날개의 관통 1 증가,1 Increase In Shadow Wings That Patrol The Night
 Constellation.Fischl2,밤을 순찰하는 그림자 날개의 대미지 20% 증가,20% Increase In Damage To Shadow Wings That Patrol The Night
@@ -114,7 +114,7 @@ Constellation.Fischl3,"암야의 환상 발동 시 HP 20% 회복, 암야의 환�
 Constellation.Fischl4,암야의 환상 대미지 20% 증가,20% Increase In Fantasy Damage In Dark Night
 Constellation.Fischl5,암야의 환상과 밤을 순찰하는 그림자 날개 지속시간 20% 증가,Fantasy Of Dark Night And 20% Increase In Shadow Wings That Patrol The Night
 Constellation.Keqing0,성신회귀의 범위 50% 증가,50% Increase In The Range Of Regression
-Constellation.Keqing1,원소 충전 효율 20% 증가,20% Increase In Elemental Charging Efficiency
+Constellation.Keqing1,원소 충전 효율 20% 증가,Elemental Charging Efficiency Increases By 20%
 Constellation.Keqing2,천가 순유의 대미지 20% 증가,20% Increase In Damage To Cloth Net Oil
 Constellation.Keqing3,공격력 2 증가,Damage 2 Increase
 Constellation.Keqing4,성신 회귀의 대미지 20% 증가,20% Increase In Damage To Holy Ghost Regression
@@ -141,7 +141,7 @@ Constellation.Ningguang0,관통이 있는 일반공격의 관통 2 증가,2 Incr
 Constellation.Ningguang1,선기 병풍의 재사용 대기시간 20% 감소,20% Reduction In Waiting Time For Reusable Screens
 Constellation.Ningguang2,천권 봉옥의 대미지 20% 증가,20% Increase In Damage To Cheon Kwon Bongok
 Constellation.Ningguang3,선기 병풍의 지속시간 동안 방어력 2 증가,2 Increase In Defense During The Duration Of The Line Screens
-Constellation.Ningguang4,선기 병풍의 대미지 20% 증가,20% Increase In Damage To Sunscreen
+Constellation.Ningguang4,선기 병풍의 대미지 20% 증가,20% Increase In Damage To Sunshop Screens
 Constellation.Ningguang5,천권 붕옥의 개수 7개 증가,7 Increase In The Number Of Celestial Bores
 Constellation.Noelle0,대청소 또는 호심경 사용시 HP 20% 회복,20% Hp When Cleaning Or Use
 Constellation.Noelle1,일반공격 피해 20% 증가,20% Increase In General Attack Damage
@@ -162,7 +162,7 @@ Constellation.Diona3,일반 공격 재사용 대기시간이 10% 감소,The Wait
 Constellation.Diona4,꽁꽁젤리의 대미지 20% 증가,20% Increase In Damages Of Cord Jelly
 Constellation.Diona5,"특제 칵테일 영역 내의 캐릭터는 치유 보너스 30% 증가, 원소마스터리 200 증가","Characters In Special Cocktail Areas Increase By 30% Healing Bonus, 200 Elemental Mastery Increases 200"
 Constellation.Zhongli0,지핵의 재사용 대기시간 20% 감소,20% Reduction In Waiting Time For Reuse Of Tuberculosis
-Constellation.Zhongli1,천성의 발동 후 지핵의 재사용 대기시간 초기화됨,Initialization Of The Cooldown Of The Nucleus After The Activity Of Nature
+Constellation.Zhongli1,천성의 발동 후 지핵의 재사용 대기시간 초기화됨,Initialization Of The Cooldown Of The Core After The Activity Of Nature
 Constellation.Zhongli2,지핵의 대미지 20% 증가,20% Increase In Damage
 Constellation.Zhongli3,"천성의 범위가 20%증가, 또한 석화 지속시간 2초 증가","The Scope Of Nature Increases By 20%, Also Increases 2 Seconds Of Duration"
 Constellation.Zhongli4,천성의 대미지 20% 증가,20% Increase In Damage To Nature
@@ -198,7 +198,7 @@ Constellation.Hutao1,일반 공격이 가하는 피해량이 HP의 2% 만큼 증
 Constellation.Hutao2,나비의 서 지속시간 20% 증가,Butterfly'S Duration Increases By 20%
 Constellation.Hutao3,행운 3증가,Lucky 3 Increase
 Constellation.Hutao4,평안의 서 대미지 20% 증가,20% Increase In Western Damage In Peace
-Constellation.Hutao5,HP가 25% 이하로 떨어지거나 전투 불능이 될 정도의 피해를 입으면 10초동안 무적이 되며 모든 공격이 치명타가 됨 쿨타임 60초,"If The Hp Falls Below 25% Or Suffers Enough To Be Unable To Combat, It Will Be Invincible For 10 Seconds And All Attacks Become Critical. Cool Time 60 Seconds"
+Constellation.Hutao5,HP가 25% 이하로 떨어지거나 전투 불능이 될 정도의 피해를 입으면 10초동안 무적이 되며 모든 공격이 치명타가 됨 쿨타임 60초,"If The Hp Falls To 25% Or Less Or Suffers Enough To Be Unable To Combat, It Will Be Invincible For 10 Seconds And All Attacks Become A Critical Hit."
 Constellation.Rosaria0,"일반 공격 피해 10%증가, 일반 공격 재사용 대기시간 10% 감소","10% Increase In General Attack Damage, 10% Reduction In Waiting Time For General Attack Reuse"
 Constellation.Rosaria1,죽음의 성례의 지속시간 20% 증가,20% Increase In Duration Of Death Of Death
 Constellation.Rosaria2,죄를 삼키는 고해의 대미지 20% 증가,20% Increase In Damage To Confession That Swallows Sin
@@ -253,7 +253,7 @@ Constellation.Sara2,빛나는 천도의 진법의 대미지 20% 증가,20% Incre
 Constellation.Sara3,빛나는 천도의 진법의 번개 개수가 2 증가,The Number Of Lightning Of The Shining Cheondo Is Increased By 2
 Constellation.Sara4,까마귀 깃 텐구의 뇌정 소환의 대미지 20% 증가,20% Increase In Damage To Brain Summons By Crow Feathers
 Constellation.Sara5,공격력 증가효과에 행운 5증가가 추가됨,Lucky 5 Increase Is Added To The Effect Of Increasing Damage
-Constellation.Kokomi0,해인화우(海人化羽) 상태에서 대미지가 체력의 2% 추가로 증가,Damage Increases With 2% Of Health In Haein Hwa -Woo.
+Constellation.Kokomi0,해인화우(海人化羽) 상태에서 대미지가 체력의 2% 추가로 증가,Damage Increases With 2% Of Health In The State Of Haein Hua.
 Constellation.Kokomi1,해파리의 서약과 해인화우(海人化羽)의 회복량이 20% 증가,The Pledge Of Jellyfish And The Recovery Amount Of Hua -In Hua Woo Increase By 20%
 Constellation.Kokomi2,해인화우(海人化羽)의 회복량 20% 증가,20% Increase In Recovery Of Haein Hua Woo
 Constellation.Kokomi3,해인화우(海人化羽) 상태에서 일반공격 재사용 대기시간 10% 감소. 일반공격 사용 시 원소 에너지 1 회복,A 10% Reduction In Waiting Time For General Attack Reuse In Haein Hua Woo. Elemental Energy 1 Recovery When Using A General Attack
@@ -272,7 +272,7 @@ Constellation.Goro3,이누자카 멍멍 방원진 발동 시 방어력의 50% �
 Constellation.Goro4,야수 이빨 돌격형 승전법의 지속시간 20% 증가,20% Increase In Duration Of The Beast Teeth
 Constellation.Goro5,이누자카 멍멍 방원진효과에 캐릭터 하나당 행운이 3씩 증가함,Inuzaka Duwon Debut Effects Increase 3 Luck Per Character.
 Constellation.Thoma0,타오르는 우명의 보호와 진홍 열화의 오오요로이의 재사용 대기시간이 20% 감소,The Protection Of The Burning Motto And The Reduction Of The Cooldown Of The Crimalism Of The Crimson Deterioration Decrease By 20%
-Constellation.Thoma1,진홍 열화의 오오요로이의 지속시간 20% 증가,The Duration Of The Duration Of The Oyyo Roy Of The Degree Of Criminal Deterioration Increases By 20%
+Constellation.Thoma1,진홍 열화의 오오요로이의 지속시간 20% 증가,The Duration Of The Duration Of The Oyoyo Roy Of The Degree Of Criminal Deterioration Increases By 20%
 Constellation.Thoma2,타오르는 우명의 보호의 대미지 20% 증가,20% Increase In Damage To The Protection Of The Burning Motto
 Constellation.Thoma3,진홍 열화의 오오요로이의 최대 원소 에너지 15 감소,Maximum Element Of The Crimalic Deterioration Reduction Of The Maximum Elemental Energy
 Constellation.Thoma4,진홍 열화의 오오요로이의 대미지 20% 증가,The 20% Increase In Damage To The Oyoyo Roy Of The Crimson Thermal History
@@ -280,7 +280,7 @@ Constellation.Thoma5,일반공격 피해 20% 증가,20% Increase In General Atta
 Constellation.Shenhe0,위령 소환 구사술의 재사용 대기시간 20% 감소,20% Reduction In Waiting Time For Reuse Of Summons Summons
 Constellation.Shenhe1,신녀 강령 비결의 지속시간 30% 증가 얼음원소 내성 감소량 15% 추가,Increased 30% Duration Of The Secret Of New Women
 Constellation.Shenhe2,위령 소환 구사술의 대미지 20% 증가,20% Increase In Damage To Summons Summons
-Constellation.Shenhe3,위령 소환 구사술의 피해증가 효과가 20% 추가,20% Of The Effect Of Damage Increase In The Damage
+Constellation.Shenhe3,위령 소환 구사술의 피해증가 효과가 20% 추가,The Effect Of Increasing Damage To The Damage Of The Memorandum Summons Is Added 20%
 Constellation.Shenhe4,신녀 강경 비결 대미지 20% 증가,20% Increase In Damage To New Women'S Hardships
 Constellation.Shenhe5,위령 소환 구사술의 피해증가 효과가 영구 지속 됨,The Effect Of Increasing Damage To The Summons Of Summons Continues To Be Permanently
 Constellation.Yunjin0,선운개상의 재사용 대기시간 20% 감소함,20% Reduction In Waiting Time For Reusable Reuse Of Sun Union Award

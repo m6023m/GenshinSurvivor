@@ -199,7 +199,7 @@ Skill.Diona0,게임 시작 시 꽁꽁젤리를 가진 채로 시,"At The Start O
 Skill.Diona1,레벨 10 오를 때 마다 얼음 원소 대미지 6% 증가,"Every Time You Climb Level 10, 6% Increase In Ice Element Damage"
 Skill.E_Zhongli,지핵,Core
 Skill.EB_Zhongli,천성,Nature
-Skill.Discription.E_Zhongli,바위 원소 창조물과 바위 원소 공명을 하며 주변 적에게 피해를 주는 암주를 생성하고 적의 피해를 막고 모든 내성을 20% 감소시키는 보호막 생성,"Rock Element Creation And Rock Element Resonance, Producing A Protective Film That Produces Rocks That Cause Damage To The Surrounding Enemies, Prevents The Damage Of The Enemy, And Reduces All Resistance By 20%."
+Skill.Discription.E_Zhongli,바위 원소 창조물과 바위 원소 공명을 하며 주변 적에게 피해를 주는 암주를 생성하고 적의 피해를 막고 모든 내성을 20% 감소시키는 보호막 생성,"Rock Element Creation And Rock Element Resonance, Producing A Protective Film That Produces Rocks That Cause Damage To The Surrounding Enemies, Prevents The Damage Of The Enemy, And Reduces All Resistance By 20% Resistance"
 Skill.Discription.EB_Zhongli,넓은 범위에 바위 원소 피해를 주고 적을 4초간 석화 시킴,Damage To Rock Elements In A Wide Range And Petrifying The Enemy For 4 Seconds
 Skill.Zhongli0,지핵을 가진 채로 시작,Start With A Core
 Skill.Zhongli1,레벨이 10 오를 때 마다 체력 10% 증가,"Each Time The Level Is Up, 10% Increase In Health"
@@ -217,7 +217,7 @@ Skill.Albedo0,창생법 · 모조 태양꽃을 가진 채로 시작,Start With A
 Skill.Albedo1,레벨이 10 오를 때 마다 바위 원소 피해 7.2% 증가,"Every Time The Level Is Up, The Rock Element Is Increased By 7.2%"
 Skill.E_Ganyu,산과 강의 기린 흔적,Traces Of Giraffe In Mountains And Rivers
 Skill.EB_Ganyu,"쏟아지는 천화","Pouring"
-Skill.Discription.E_Ganyu,주변 적과 아이템을 끌어들이고 얼음 원소 피해를 주는 소환물 생성,Summoned To Attract Surrounding Enemies And Items And To Damage Ice Elements
+Skill.Discription.E_Ganyu,주변 적과 아이템을 끌어들이고 얼음 원소 피해를 주는 소환물 생성,Summoning To Attract Surrounding Enemies And Items And To Damage Ice Elements
 Skill.Discription.EB_Ganyu,넓은 범위에 얼음 원소 지속 피해를 주는 장판 생성,Create A Board That Continues To Damage Ice Elements In A Wide Range
 Skill.Ganyu0,산과 강의 기린 흔적을 가진 채로 시작,Start With Traces Of Giraffes Of Mountains And Rivers
 Skill.Ganyu1,레벨이 10 오를 때 마다 행운 1 증가,Luck 1 Increase Every Time The Level Is Up 10
@@ -266,7 +266,7 @@ Skill.Ayaka1,레벨이 10 오를 때 마다 행운 1 증가,Luck 1 Increase Ever
 Skill.E_Yoimiya,염초 정화(庭火)의 춤,Dance Of Yeomcho Purification
 Skill.EB_Yoimiya,"유금 운간초","Yu Geum Luck"
 Skill.Discription.E_Yoimiya,적에게 닿으면 폭발하여 화염 속성 범위 피해를 주는 화살을 발사 함,"When It Touches The Enemy, It Explodes And Fires An Arrow That Damages The Flame Properties."
-Skill.Discription.EB_Yoimiya,적에게 닿으면 폭발하여 범위피해를 주는 화염속성 범위 피해를 줌,"When It Touches The Enemy, It Explodes And Causes Damage To The Flame Resistance."
+Skill.Discription.EB_Yoimiya,적에게 닿으면 폭발하여 범위피해를 주는 화염속성 범위 피해를 줌,"When It Touches The Enemy, It Explodes And Causes Damage To The Flame Resistance Range That Damages The Range."
 Skill.Yoimiya0,염초 정화(庭火)의 춤,Dance Of Yeomcho Purification
 Skill.Yoimiya1,레벨이 10 오를 때 마다 행운 1 증가,Luck 1 Increase Every Time The Level Is Up 10
 Skill.E_Sayu,유후류 · 풍은 돌진,Yufu And Wind Rushes
@@ -290,7 +290,7 @@ Skill.Sara1,레벨이 10 오를 때 마다 공격력 6% 증가,"Each Time The Le
 Skill.E_Kokomi,해파리의 서약,Jellyfish
 Skill.EB_Kokomi,해인화우(海人化羽),Haein Hua (人 化 羽)
 Skill.Discription.E_Kokomi,물 원소 범위피해를 주고 캐릭터를 회복하는 장판 생성,Create A Floorboard That Causes Damage To Water Elements And Restores Characters
-Skill.Discription.EB_Kokomi,일반공격의 대미지가 체력의 5%증가하고 일반공격이 발동 시 체력을 1 회복함,Damage Of General Attacks Increases By 5%Of Health And One Attack Is Once Restored When A General Attack Is Activated.
+Skill.Discription.EB_Kokomi,일반공격의 대미지가 체력의 5%증가하고 일반공격이 발동 시 체력을 1 회복함,Damage Of General Attacks Increases By 5%Of Health And One Attack Is Once Restored When A Normal Attack Is Activated.
 Skill.Kokomi0,게임 시작 시 해파리의 서약을 가진 채로 시작,Start With A Pledge Of Jellyfish At The Start Of The Game
 Skill.Kokomi1,레벨이 10 오를 때 마다 물 원소 피해 7.2% 증가,"Each Time The Level Is Up, 7.2% Increase In Water Elements"
 Skill.E_Ito,마살 절기 · 적우발파!,Machine Season And Enemy!

@@ -54,25 +54,25 @@ Artifact.Up.Blizzard_Strayer,스킬 지속 시간 +6%,Skill Duration +6%
 Artifact.Up.Heart_of_Depth,재사용 대기시간 -6%,Reuse Waiting Time -6%
 Artifact.Up.Tenacity_of_the_Millelith,HP +10%,Hp +10%
 Artifact.Up.Maiden_Beloved,치유강화 +10%,Healing +10%
-Artifact.Up.Viridescent_Venerer,끌어당기는 범위 +10%,Pulling Range +10%
+Artifact.Up.Viridescent_Venerer,"끌어당기는 범위, 속도 +10%","Pulling Range, Speed +10%"
 Artifact.Up.Retracing_Bolide,획득 보호막체력 +10%,Acquisition Protection Members +10%
 Artifact.Up.Crimson_Witch_of_Flames,피해 +10%,+10% Damage
 Artifact.Up.Thundering_Fury,공격 속도 +10%,Attack Speed +10%
 Artifact.Up.Archaic_Petra,범위 +10%,Range +10%
 Artifact.Up.Pale_Flame,물리 피해 +10%,Physical Damage +10%
-Artifact.Up.Reminiscence_of_Shime,일반공격 재사용 대기시간 -6%,General Attack Cooldown -6%
-Artifact.Up.Emblem_of_Severed_Fate,원소 충전 효율 및 경험치 획득량 +10%,Elemental Charging Efficiency And Experience Acquisition +10%
+Artifact.Up.Reminiscence_of_Shime,스킬 개수 +0.6,Skills +0.6
+Artifact.Up.Emblem_of_Severed_Fate,원소 충전 효율 +20%,Elemental Charging Efficiency +20%
 Artifact.Up.Ocean_Hued_Clam,치유강화 +10%,Healing +10%
 Artifact.Up.Husk_of_Opulent_Dreams,방어력 +15%,Defense +15%
-Artifact.Up.Vermillion_Hereafter,공격력 +10%,Attack +10%
-Artifact.Up.Echoes_of_an_Offering,공격력 +10%,Attack +10%
+Artifact.Up.Vermillion_Hereafter,저주 +10%,Curse +10%
+Artifact.Up.Echoes_of_an_Offering,레벨 최대치 +10,Level Max10
 Artifact.Up.Memory_of_the_Forest,풀 원소 피해 +10%,Pool Element Damage +10%
 Artifact.Up.Gilded_Dream,원소 마스터리 +20%,Elemental Mastery +20%
 Artifact.Up.Desert_Pavilion_Chronicle,바람 원소 피해 +10%,Wind Element Damage +10%
 Artifact.Up.Lost_Flower_of_Paradise,원소마스터리 +20,Elemental Mastery +20
 Artifact.Up.Nymphs_Dream,물 원소 피해 +10%,Water Element Damage +10%
 Artifact.Up.Vourukashas_Glow,HP +10%,Hp +10%
-Artifact.Up.Set.Resolution_of_Sojourner,일반 공격의 치명타 확률 +30%,+30% Of The Critical Hit Of General Attack
+Artifact.Up.Set.Resolution_of_Sojourner,지속 피해 스킬의 스킬 대미지 주기 50% 감소,50% Reduction In Skill Damage Cycle Of Sustained Damage Skills
 Artifact.Up.Set.Instructor,원소마스터리 +120,Elemental Mastery +120
 Artifact.Up.Set.The_Exile,원소폭발 발동 시 다른 원소폭발의 원소게이지 +5,Remenes Of Other Element Explosions +5
 Artifact.Up.Set.Defenders_Will,파티의 원소 타입 1종류당 방어력 +2,Elemental Type Of Party Events Per Type +2
@@ -83,25 +83,25 @@ Artifact.Up.Set.Scholar,원소구슬 획득 시 얻는 원소게이지 +1,Elemen
 Artifact.Up.Set.Berserker,HP 70% 미만 시 행운이 추가로 10 증가,Luck In Hp Less Than 70% Of Hp Increases 10 Additional Increase
 Artifact.Up.Set.Tiny_Miracle,부활회수 +1,Resurrection Number +1
 Artifact.Up.Set.Gladiators_Finale,근접 일반 공격 피해 +40%,Melee General Attack Damage +40%
-Artifact.Up.Set.Wanderers_Troupe,원거리 일반 공격 피해 +40%,Ranged General Attack Damage +40%
+Artifact.Up.Set.Wanderers_Troupe,관통 +2,Penetration +2
 Artifact.Up.Set.Bloodstained_Chivalry,일반공격 재사용 대기시간 -20%,General Attack Reuse Waiting Time -20%
 Artifact.Up.Set.Noblesse_Oblige,공격력 +5,Attack +5
 Artifact.Up.Set.Blizzard_Strayer,행운 +5,Lucky +5
-Artifact.Up.Set.Heart_of_Depth,일반 공격 피해 +40%,General Attack Damage +40%
+Artifact.Up.Set.Heart_of_Depth,스킬개수 +2,Skills +2
 Artifact.Up.Set.Tenacity_of_the_Millelith,"공격력 +20%, 획득 보호막체력 +20%","Attack +20%, Acquisition Protection Membrane Health +20%"
-Artifact.Up.Set.Maiden_Beloved,치유보너스 30% 증가,30% Increase In Healing Bonuses
-Artifact.Up.Set.Viridescent_Venerer,"확산 반응이 가하는 피해 40% 증가, 끌어당기는 범위 40% 증가","The Damage Increases By 40% Of The Damage Caused By The Diffusion Reaction, 40% Increase"
+Artifact.Up.Set.Maiden_Beloved,치유보너스를 대미지 비율에 추가,Add Healing Bonuses To The Damage Ratio
+Artifact.Up.Set.Viridescent_Venerer,"확산 반응이 가하는 피해 40% 증가, 끌어당기는 범위, 속도 40% 증가","The Damage Of The Diffusion Reaction Increases By 40%, Pulling The Range, Rate Of 40% Increase"
 Artifact.Up.Set.Retracing_Bolide,보호막 존재 시 일반공격 피해 +40%,General Attack Damage In Case Of A Shield +40%
 Artifact.Up.Set.Crimson_Witch_of_Flames,불 관련 원소반응 피해 40% 증가 ,40% Increase In Damage To The Fire -Related Elements
-Artifact.Up.Set.Thundering_Fury,"번개 관련 원소반응의 피해 40% 증가, 해당 반응 시 원소전투 스킬 재사용 대기시간 1초 감소(재사용 대기시간 감소효과는 4초마다 한 번 씩 발동)","Increases The Damage Of Lightning Elemental Reactions By 40%, Reducing 1 Second Of Waiting Time For Reuse Of Elemental Combat Skills When The Reaction Is (The Effect Of Reducing Cooldown Is Triggered Once Every 4 Seconds)"
+Artifact.Up.Set.Thundering_Fury,"번개 관련 원소반응의 피해 40% 증가, 해당 반응 시 원소전투 스킬 재사용 대기시간 1초 감소(재사용 대기시간 감소효과는 4초마다 한 번 씩 발동)","Increases The Damage Of Lightning Elemental Reactions By 40%, Reducing 1 Second Of Waiting Time For Reuse Of Elemental Combat Skills When The Reaction Is Reactivated (The Effect Of Reducing Cooldown Is Triggered Once Every 4 Seconds)"
 Artifact.Up.Set.Archaic_Petra,보호막 체력 40% 증가,40% Increase In Shield Health
 Artifact.Up.Set.Pale_Flame,물리 피해 +60%,Physical Damage +60%
-Artifact.Up.Set.Reminiscence_of_Shime,원소폭발 최대 게이지 +15 일반공격 피해 +100%,Elemental Explosion Maximum Gauge +15 General Attack Damage +100%
-Artifact.Up.Set.Emblem_of_Severed_Fate,"원소폭발로 가하는 피해가 원소 충전 효율의 25% 만큼 증가, 해당 방식으로 최대 75% 까지 증가함, 원소폭발 재사용 대기시간 20% 감소","The Damage Caused By Element Explosion Increases By 25% Of The Elemental Charging Efficiency, Up To 75% In The Corresponding Method, 20% Reduction In Waiting Time For Element Explosion."
-Artifact.Up.Set.Ocean_Hued_Clam,치유강화효과 10%당 공격력 +1,Healing Enhancement Effect +1 Attacks Per 10%
+Artifact.Up.Set.Reminiscence_of_Shime,원소폭발 최대 게이지 +15 일반공격 피해가 3배가 됨,Elemental Explosion Maximum Gauge +15 General Attack Damage Is Tripled
+Artifact.Up.Set.Emblem_of_Severed_Fate,"원소폭발로 가하는 피해가 원소 충전 효율 만큼 증가, 원소폭발 재사용 대기시간 20% 감소","The Damage Caused By Element Explosion Is Increased By The Efficiency Of Elemental Charging, 20% Of The Waiting Time For Reuse Of Elemental Explosion"
+Artifact.Up.Set.Ocean_Hued_Clam,치유강화효과 만큼 체력 증가,Increased Health As Much As The Effect Of Healing Strengthening
 Artifact.Up.Set.Husk_of_Opulent_Dreams,방어력 +75%,Defense +75%
-Artifact.Up.Set.Vermillion_Hereafter,잃은 체력% 만큼 피해 증가,Increased Damage By The Loss Of Lost Health
-Artifact.Up.Set.Echoes_of_an_Offering,일반 공격 피해 +40%,General Attack Damage +40%
+Artifact.Up.Set.Vermillion_Hereafter,처치한 적의 수 x 5% 만큼 대미지 증가,Increased Damage By 5% Of The Number Of Enemies Killed
+Artifact.Up.Set.Echoes_of_an_Offering,레벨 10당 늘어나는 효과가 3배가 됨,The Effect Of Increasing The Increase Per Level Is Tripled
 Artifact.Up.Set.Memory_of_the_Forest,원소전투 스킬 또는 원소폭발 공격에 명중된 적은 풀 원소 내성이 30% 감소,Enemies Hit By Elemental Combat Skills Or Elemental Explosion Attacks By 30% Reduction In Full Element Resistance.
 Artifact.Up.Set.Gilded_Dream,동일한 원소타입당 공격력 +20% 다른 원소 타입당 원소마스터리 +50,The Same Element Type Attack Power +20% Different Element Of Elemental Element +50
 Artifact.Up.Set.Desert_Pavilion_Chronicle,"일반 공격 쿨타임 -20%, 일반 공격 피해 +40%","General Attack Cooldown -20%, General Attack Damage +40%"
