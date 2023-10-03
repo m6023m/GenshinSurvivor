@@ -109,6 +109,10 @@ public class ArtifactData : ScriptableObject
         result += Martial_Artist();
         result += Gladiators_Finale(skillName);
         result += Retracing_Bolide();
+        if (Reminiscence_of_Shime())
+        {
+            result *= 3;
+        }
         return result;
     }
     public float SkillDamageMultiplier
@@ -125,11 +129,32 @@ public class ArtifactData : ScriptableObject
         get
         {
             float result = 0f;
+            result += artifacts[ArtifactName.The_Exile].level * 10 / 100.0f;
             result += artifacts[ArtifactName.Scholar].level * 10 / 100.0f;
-            // result += artifacts[ArtifactName.Emblem_of_Severed_Fate].level * 10 / 100.0f;
+            result += artifacts[ArtifactName.Emblem_of_Severed_Fate].level * 20 / 100.0f;
             return result;
         }
     }
+    public float ExpMultiplier
+    {
+        get
+        {
+            float result = 0f;
+            result += artifacts[ArtifactName.The_Exile].level * 10 / 100.0f;
+            result += artifacts[ArtifactName.Scholar].level * 10 / 100.0f;
+            return result;
+        }
+    }
+    public float GreedMultiplier
+    {
+        get
+        {
+            float result = 0f;
+            result += artifacts[ArtifactName.Echoes_of_an_Offering].level * 10 / 100.0f;
+            return result;
+        }
+    }
+
     public float MoveSpeedMultiplier
     {
         get
@@ -177,6 +202,7 @@ public class ArtifactData : ScriptableObject
         {
             float result = 0f;
             result += artifacts[ArtifactName.Noblesse_Oblige].level * 10 / 100.0f;
+            result += Emblem_of_Severed_Fate();
             return result;
         }
     }
@@ -202,6 +228,7 @@ public class ArtifactData : ScriptableObject
         {
             float result = 0f;
             result += artifacts[ArtifactName.Tenacity_of_the_Millelith].level * 10 / 100.0f;
+            result += Ocean_Hued_Clam();
             return result;
         }
     }
@@ -211,7 +238,7 @@ public class ArtifactData : ScriptableObject
         {
             float result = 0f;
             result += artifacts[ArtifactName.Maiden_Beloved].level * 10 / 100.0f;
-            // result += artifacts[ArtifactName.Ocean_Hued_Clam].level * 10 / 100.0f;
+            result += artifacts[ArtifactName.Ocean_Hued_Clam].level * 10 / 100.0f;
             return result;
         }
     }
@@ -242,7 +269,7 @@ public class ArtifactData : ScriptableObject
         {
             float result = 0f;
             result += artifacts[ArtifactName.Crimson_Witch_of_Flames].level * 10 / 100.0f;
-            // result += Husk_of_Opulent_Dreams();
+            result += Vermillion_Hereafter();
             return result;
         }
     }
@@ -279,6 +306,7 @@ public class ArtifactData : ScriptableObject
         get
         {
             float result = 0f;
+            result += artifacts[ArtifactName.Reminiscence_of_Shime].level * 0.6f;
             result += Heart_of_Depth();
             return result;
         }
@@ -288,7 +316,6 @@ public class ArtifactData : ScriptableObject
         get
         {
             float result = 0f;
-            // result += artifacts[ArtifactName.Reminiscence_of_Shime].level * 10 / 100.0f;
             return result;
         }
     }
@@ -297,7 +324,8 @@ public class ArtifactData : ScriptableObject
         get
         {
             float result = 0f;
-            // result += artifacts[ArtifactName.Husk_of_Opulent_Dreams].level * 10 / 100.0f;
+            result += artifacts[ArtifactName.Husk_of_Opulent_Dreams].level * 10 / 100.0f;
+            result += Husk_of_Opulent_Dreams();
             return result;
         }
     }
@@ -318,6 +346,16 @@ public class ArtifactData : ScriptableObject
         {
             int result = 0;
             result += Tiny_Miracle();
+            return result;
+        }
+    }
+
+    public float Curse
+    {
+        get
+        {
+            float result = 0;
+            result += artifacts[ArtifactName.Vermillion_Hereafter].level * 10 / 100.0f;
             return result;
         }
     }
@@ -490,9 +528,7 @@ public class ArtifactData : ScriptableObject
     }
     float Husk_of_Opulent_Dreams() //보호막 개수 x 20% 피해 증가
     {
-        if (artifacts[ArtifactName.Husk_of_Opulent_Dreams].level < SET_COUNT) return 0;
-        int sheildCount = 0;
-        return sheildCount * 20 / 100.0f;
+        return artifacts[ArtifactName.Husk_of_Opulent_Dreams].level < SET_COUNT ? 0 : 0.75f;
     }
     float Defenders_Will()
     {
@@ -536,13 +572,32 @@ public class ArtifactData : ScriptableObject
         return result;
     }
 
+    public bool Reminiscence_of_Shime()
+    {
+        return artifacts[ArtifactName.Reminiscence_of_Shime].level < SET_COUNT;
+    }
+
+    float Emblem_of_Severed_Fate()
+    {
+        return artifacts[ArtifactName.Emblem_of_Severed_Fate].level < SET_COUNT ? 0 : GameManager.instance.statCalcuator.Regen;
+    }
+
+    float Ocean_Hued_Clam()
+    {
+        return artifacts[ArtifactName.Ocean_Hued_Clam].level < SET_COUNT ? 0 : GameManager.instance.statCalcuator.HealBonus;
+    }
+
+    float Vermillion_Hereafter()
+    {
+        return artifacts[ArtifactName.Vermillion_Hereafter].level < SET_COUNT ? 0 : GameManager.instance.battleResult.kill * 0.05f / 100.0f;
+    }
+
+    public float Echoes_of_an_Offering()
+    {
+        return artifacts[ArtifactName.Echoes_of_an_Offering].level < SET_COUNT ? 1 : 3;
+    }
 
     //TODO: 미등록 아티팩트
-    // Artifact.Up.Reminiscence_of_Shime
-    // Artifact.Up.Ocean_Hued_Clam
-    // Artifact.Up.Husk_of_Opulent_Dreams
-    // Artifact.Up.Vermillion_Hereafter
-    // Artifact.Up.Echoes_of_an_Offering
     // Artifact.Up.Memory_of_the_Forest
     // Artifact.Up.Gilded_Dream
     // Artifact.Up.Desert_Pavilion_Chronicle

@@ -95,6 +95,13 @@ public class SkillIcon : MonoBehaviour
         if (skillObject == null || imageElementalGauge == null) return;
         float elementGauge = skillParameter.parameter.elementGauge;
         float elementGaugeMax = skillParameter.parameter.elementGaugeMax;
+        if (GameManager.instance.artifactData != null)
+        {
+            if (GameManager.instance.artifactData.Reminiscence_of_Shime())
+            {
+                elementGaugeMax += 15;
+            }
+        }
         float fillAmount = (elementGauge / elementGaugeMax);
 
 

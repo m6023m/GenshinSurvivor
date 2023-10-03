@@ -373,7 +373,7 @@ public class StatCalculator
             float result = stat.exp;
             if (artifactData != null)
             {
-                result += artifactData.RegenMultiplier;
+                result += artifactData.ExpMultiplier;
             }
             result += GetRankUpValue(stat, StatType.EXP);
             result += (stat.regen * upgradeComponents[(int)UpgradeType.GROWTH].GetValue());
@@ -392,6 +392,7 @@ public class StatCalculator
             float result = stat.greed;
             if (artifactData != null)
             {
+                result += artifactData.GreedMultiplier;
             }
             result += GetRankUpValue(stat, StatType.GREED);
             result += upgradeComponents[(int)UpgradeType.GREED].GetValue();
@@ -1172,6 +1173,11 @@ public class StatCalculator
                 break;
             default:
                 break;
+        }
+
+        if (artifactData != null)
+        {
+            result *= artifactData.Echoes_of_an_Offering();
         }
 
         return result;

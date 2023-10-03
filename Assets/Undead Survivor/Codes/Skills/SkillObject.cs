@@ -26,6 +26,12 @@ public class SkillObject : MonoBehaviour
     {
         if (parameterWithKey == null || GameManager.instance.IsPause || isSkillActivated) return;
         Skill_Parameter skillParam = parameterWithKey.parameter;
+        float elementGaugeMax = skillParam.elementGaugeMax;
+
+        if (GameManager.instance.artifactData.Reminiscence_of_Shime())
+        {
+            elementGaugeMax += 15;
+        }
 
         skillTime += (1 * Time.deltaTime);
         if (skillParam.elementGauge > 9999)
@@ -37,7 +43,7 @@ public class SkillObject : MonoBehaviour
         if (coolTime <= 0) coolTime = 0.02f;
         if (skillTime >= coolTime)
         {
-            if (parameterWithKey.type == Skill.Type.Burst && skillParam.elementGauge < skillParam.elementGaugeMax) return;
+            if (parameterWithKey.type == Skill.Type.Burst && skillParam.elementGauge < elementGaugeMax) return;
             skillTime = 0;
             skillParam.elementGauge = 0;
             StartCoroutine(SkillCast());
