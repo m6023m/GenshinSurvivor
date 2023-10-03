@@ -53,6 +53,7 @@ public class Character
         AREA,
         ASPEED,
         DURATION,
+        Penetrate,
         AMOUNT,
         SPEED,
         MAGNET,

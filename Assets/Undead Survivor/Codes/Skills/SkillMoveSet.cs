@@ -121,7 +121,7 @@ public class SkillMoveSet : MonoBehaviour
         skillObjects = new List<GameObject>();
         this.parameterWithKey = parameterWithKey;
         this.skillSequence = skillSequence;
-        this.penetrate = parameterWithKey.parameter.penetrate;
+        this.penetrate = (int)(parameterWithKey.parameter.penetrate + GameManager.instance.statCalcuator.Penetrate);
         this.prevTransform = prevTransform;
         player = GameManager.instance.player;
         isSetTarget = false;

@@ -277,7 +277,7 @@ public class EnemyNormal : Enemy
     void Magnet(Vector3 target, float magnetSpeed)
     {
         Vector3 targetPosition = target;
-        magnetVec = (targetPosition - transform.position).normalized * magnetSpeed;
+        magnetVec = (targetPosition - transform.position).normalized * magnetSpeed * GameManager.instance.statCalcuator.Magnet;
     }
 
     protected override void LiveCheck()

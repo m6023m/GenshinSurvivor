@@ -108,8 +108,6 @@ public class ArtifactData : ScriptableObject
         result += artifacts[ArtifactName.Martial_Artist].level * 10 / 100.0f;
         result += Martial_Artist();
         result += Gladiators_Finale(skillName);
-        result += Wanderers_Troupe(skillName);
-        result += Heart_of_Depth(skillName);
         result += Retracing_Bolide();
         return result;
     }
@@ -214,7 +212,6 @@ public class ArtifactData : ScriptableObject
             float result = 0f;
             result += artifacts[ArtifactName.Maiden_Beloved].level * 10 / 100.0f;
             // result += artifacts[ArtifactName.Ocean_Hued_Clam].level * 10 / 100.0f;
-            result += Maiden_Beloved();
             return result;
         }
     }
@@ -267,6 +264,25 @@ public class ArtifactData : ScriptableObject
             return result;
         }
     }
+    public float Penetrate
+    {
+        get
+        {
+            float result = 0f;
+            result += Wanderers_Troupe();
+            return result;
+        }
+    }
+
+    public float Amount
+    {
+        get
+        {
+            float result = 0f;
+            result += Heart_of_Depth();
+            return result;
+        }
+    }
     public float BaseAttackCooltimeMultiplier
     {
         get
@@ -292,7 +308,6 @@ public class ArtifactData : ScriptableObject
         get
         {
             float result = 0f;
-            result += Resolution_of_Sojourner();
             return result;
         }
     }
@@ -373,16 +388,9 @@ public class ArtifactData : ScriptableObject
         return 0.4f;
     }
 
-    float Wanderers_Troupe(SkillName skillName) //원거리 일반 공격 피해 40%
+    float Wanderers_Troupe() //관통 +2
     {
-        if (artifacts[ArtifactName.Wanderers_Troupe].level < SET_COUNT) return 0;
-        switch (skillName)
-        {
-            case SkillName.Basic_Catalist:
-            case SkillName.Basic_Arrow:
-                return 0.4f;
-        }
-        return 0;
+        return artifacts[ArtifactName.Wanderers_Troupe].level < SET_COUNT ? 0 : 2;
     }
 
     float Bloodstained_Chivalry(Skill.Type skillType) //일반공격 재사용 대기시간 -20%
@@ -409,25 +417,15 @@ public class ArtifactData : ScriptableObject
         return 10;
     }
 
-    float Heart_of_Depth(SkillName skillName)
+    float Heart_of_Depth()
     {
-        if (artifacts[ArtifactName.Heart_of_Depth].level < SET_COUNT) return 0;
-        switch (skillName)
-        {
-            case SkillName.Basic_Claymore:
-            case SkillName.Basic_Spear:
-            case SkillName.Basic_Sword:
-            case SkillName.Basic_Catalist:
-            case SkillName.Basic_Arrow:
-                return 0.4f;
-        }
-        return 0;
+        return artifacts[ArtifactName.Heart_of_Depth].level < SET_COUNT ? 0 : 2;
     }
 
-    float Maiden_Beloved()
+    public float Maiden_Beloved()//치유보너스를 대미지 비율에 추가
     {
         if (artifacts[ArtifactName.Maiden_Beloved].level < SET_COUNT) return 0;
-        return 0.3f;
+        return GameManager.instance.statCalcuator.HealBonus;
     }
 
     public float Viridescent_Venerer(SkillName skillName)
@@ -511,10 +509,9 @@ public class ArtifactData : ScriptableObject
         }
         return (elementTypes.Count * 2);
     }
-    float Resolution_of_Sojourner()
+    public float Resolution_of_Sojourner() // 지속 피해 스킬의 스킬 대미지 주기 50% 감소
     {
-        if (artifacts[ArtifactName.Resolution_of_Sojourner].level < SET_COUNT) return 0;
-        return 0.3f;
+        return artifacts[ArtifactName.Resolution_of_Sojourner].level < SET_COUNT ? 1.0f : 0.5f;
     }
     float Martial_Artist()//일반 공격 피해 +30%
     {

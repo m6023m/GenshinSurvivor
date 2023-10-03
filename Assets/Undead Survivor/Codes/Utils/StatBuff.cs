@@ -443,6 +443,8 @@ public class StatBuff
             }
         }
     }
+
+    public float Penetrate = 0.0f;
     public float BaseCooltime = 0.0f;
     public float BaseDamagePer = 0.0f;
     public float BaseDamage = 0.0f;

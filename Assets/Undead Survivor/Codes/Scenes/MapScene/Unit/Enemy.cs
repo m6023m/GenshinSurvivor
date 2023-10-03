@@ -227,7 +227,7 @@ public class Enemy : MonoBehaviour
         foreach (KeyValuePair<int, Skill> skill in skills)
         {
             damageTimers[skill.Key] += Time.deltaTime;
-            if (damageTimers[skill.Key] >= skill.Value.parameterWithKey.parameter.skillTick)
+            if (damageTimers[skill.Key] >= skill.Value.parameterWithKey.parameter.skillTick * GameManager.instance.artifactData.Resolution_of_Sojourner())
             {
                 ReceiveDamage(skill.Value);
 

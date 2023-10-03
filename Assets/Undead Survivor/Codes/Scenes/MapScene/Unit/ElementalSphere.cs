@@ -108,6 +108,6 @@ public class ElementalSphere : MonoBehaviour
     void Magnet(Vector3 target, float magnetSpeed)
     {
         Vector3 targetPosition = target;
-        magnetVec = (targetPosition - transform.position).normalized * magnetSpeed;
+        magnetVec = (targetPosition - transform.position).normalized * magnetSpeed * GameManager.instance.statCalcuator.Magnet;
     }
 }

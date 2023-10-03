@@ -242,6 +242,24 @@ public class StatCalculator
             return _Duration;
         }
     }
+    float _Penetrate;
+    public float Penetrate
+    {
+        get
+        {
+            if (!CheckChangedType(StatType.Penetrate)) return _Penetrate;
+            float result = stat.amount;
+            if (artifactData != null)
+            {
+                result += artifactData.Penetrate;
+            }
+            result += GetRankUpValue(stat, StatType.Penetrate);
+            result += statBuff.Penetrate;
+            _Penetrate = result;
+            isStatusChangedType[StatType.Penetrate] = false;
+            return _Penetrate;
+        }
+    }
     float _Amount;
     public float Amount
     {
@@ -251,6 +269,7 @@ public class StatCalculator
             float result = stat.amount;
             if (artifactData != null)
             {
+                result += artifactData.Amount;
             }
             result += GetRankUpValue(stat, StatType.AMOUNT);
             result += upgradeComponents[(int)UpgradeType.AMOUNT].GetValue();
@@ -716,7 +735,10 @@ public class StatCalculator
         {
             result += GeoDamage;
         }
-
+        if (artifactData != null)
+        {
+            result += artifactData.Maiden_Beloved();
+        }
         return result;
     }
     public float CalcDamage(Enemy enemy, SkillData.ParameterWithKey parameterWithKey, float damage, Element.Type elementType)
