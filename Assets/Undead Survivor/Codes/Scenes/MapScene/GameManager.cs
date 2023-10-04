@@ -73,8 +73,6 @@ public class GameManager : MonoBehaviour
         ownArtifacts = new Dictionary<ArtifactName, ArtifactData.ParameterWithKey>();
         constellationData = new ConstellationData();
         IsInfinityMode = GameDataManager.instance.saveData.option.isInfinityMode;
-        GameDataManager.instance.saveData.record.playCount++;
-        GameDataManager.instance.saveData.record.formPlayCount++;
         PlayBattleBGM();
     }
     void PlayBattleBGM()
@@ -107,6 +105,8 @@ public class GameManager : MonoBehaviour
             gameInfoData.battleResult = battleResult;
             gameInfoData.reroll = (int)statCalcuator.Reroll;
             gameInfoData.skip = (int)statCalcuator.Skip;
+            GameDataManager.instance.saveData.record.playCount++;
+            GameDataManager.instance.saveData.record.formPlayCount++;
         }
         gameInfoData.isGameContinue = true;
         GameDataManager.instance.saveData.gameInfoData = gameInfoData;
