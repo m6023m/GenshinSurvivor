@@ -19,8 +19,6 @@ public class LevelUpManager : MonoBehaviour
     public ArtifactData artifactData;
     public Sprite spriteMora;
     public Sprite spriteHeal;
-    int skip = 0;
-    int reroll = 0;
     int currentSkillCount = 0;
     int currentArtifactCount = 0;
     int maxSkillCount = 6;
@@ -31,16 +29,20 @@ public class LevelUpManager : MonoBehaviour
     string textHeal = "Basic.LevelUp.Heal";
     int selectedButtonIndex = 0;
     Rewired.Player rewiredPlayer;
+    GameInfoData gameInfoData;
 
     private void Awake()
     {
-        skip = GameDataManager.instance.saveData.userData.upgrade.upgradeComponents[(int)UpgradeType.SKIP].cnt;
-        reroll = GameDataManager.instance.saveData.userData.upgrade.upgradeComponents[(int)UpgradeType.REROLL].cnt;
-        skipCount.text = skip.ToString();
-        rerollCount.text = reroll.ToString();
         btnSkip.onClick.AddListener(OnClickSkip);
         btnReroll.onClick.AddListener(OnClickReroll);
         rewiredPlayer = Rewired.ReInput.players.GetPlayer(0);
+    }
+
+    void Start()
+    {
+        gameInfoData = GameManager.instance.gameInfoData;
+        skipCount.text = gameInfoData.skip.ToString();
+        rerollCount.text = gameInfoData.reroll.ToString();
     }
     private void Update()
     {
@@ -54,17 +56,17 @@ public class LevelUpManager : MonoBehaviour
     void OnClickSkip()
     {
         AudioManager.instance.PlaySFX(AudioManager.SFX.Click);
-        if (skip == 0) return;
-        skip--;
-        skipCount.text = skip.ToString();
+        if (gameInfoData.skip == 0) return;
+        gameInfoData.skip--;
+        skipCount.text = gameInfoData.skip.ToString();
         CloseLevelUpDisplayOnLevelUp();
     }
     void OnClickReroll()
     {
         AudioManager.instance.PlaySFX(AudioManager.SFX.Click);
-        if (reroll == 0) return;
-        reroll--;
-        rerollCount.text = reroll.ToString();
+        if (gameInfoData.reroll == 0) return;
+        gameInfoData.reroll--;
+        rerollCount.text = gameInfoData.reroll.ToString();
         ShowRandomSkillOrArtifact();
     }
 

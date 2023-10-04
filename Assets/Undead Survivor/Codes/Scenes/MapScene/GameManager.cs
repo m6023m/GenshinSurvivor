@@ -58,7 +58,6 @@ public class GameManager : MonoBehaviour
 
     void Awake()
     {
-        InitBattleSave();
         InitMap();
         instance = this;
         Pause(false);
@@ -68,6 +67,7 @@ public class GameManager : MonoBehaviour
         artifactData.ResetArtifacts();
         statBuff = new StatBuff();
         statCalcuator = new StatCalculator(player.stat).ArtifactData(artifactData).WeaponData(weaponData.Get(player.stat.weaponName)).StatBuff(statBuff);
+        InitBattleSave();
         ownSkills = new Dictionary<SkillName, SkillObject>();
         ownBursts = new Dictionary<SkillName, SkillObject>();
         ownArtifacts = new Dictionary<ArtifactName, ArtifactData.ParameterWithKey>();
@@ -105,6 +105,8 @@ public class GameManager : MonoBehaviour
         {
             gameInfoData = new GameInfoData();
             gameInfoData.battleResult = battleResult;
+            gameInfoData.reroll = (int)statCalcuator.Reroll;
+            gameInfoData.skip = (int)statCalcuator.Skip;
         }
         gameInfoData.isGameContinue = true;
         GameDataManager.instance.saveData.gameInfoData = gameInfoData;
@@ -256,7 +258,7 @@ public class GameManager : MonoBehaviour
 
     public void AddSkill(SkillName skillName)
     {
-        if(ownSkills.ContainsKey(skillName)) return;
+        if (ownSkills.ContainsKey(skillName)) return;
         GameObject skillObject = poolManager.Get(PoolManager.Type.SkillObject);
         SkillData.ParameterWithKey param = skillData.skills[skillName];
         SkillObject skillObj = skillObject.GetComponent<SkillObject>();
@@ -272,7 +274,8 @@ public class GameManager : MonoBehaviour
             }
         }
         param.level = 1;
-        if(param.type == Skill.Type.Basic) {
+        if (param.type == Skill.Type.Basic)
+        {
             baseAttack = skillObj;
         }
 
@@ -285,7 +288,7 @@ public class GameManager : MonoBehaviour
     public void AddBurst(SkillName skillName)
     {
         if (ownBursts.Count == maxBurstCount) return;
-        if(ownBursts.ContainsKey(skillName)) return;
+        if (ownBursts.ContainsKey(skillName)) return;
 
         GameObject skillObject = poolManager.Get(PoolManager.Type.SkillObject);
         SkillData.ParameterWithKey param = skillData.skills[skillName];

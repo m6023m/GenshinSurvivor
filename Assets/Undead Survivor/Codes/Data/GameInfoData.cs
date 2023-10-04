@@ -16,6 +16,9 @@ public class GameInfoData
     public int mora = 0;
     public int primoGem = 0;
     public int gameLevel = 1;
+    public int rebirth = 0;
+    public int reroll = 0;
+    public int skip = 0;
     public Dictionary<SkillName, int> getSkills;
     public Dictionary<SkillName, int> getBursts;
     public Dictionary<ArtifactName, int> getArtifacts;
@@ -37,6 +40,7 @@ public class GameInfoData
         exp = 0;
         mora = 0;
         primoGem = 0;
+        rebirth = 0;
         getSkills = new Dictionary<SkillName, int>();
         getBursts = new Dictionary<SkillName, int>();
         getArtifacts = new Dictionary<ArtifactName, int>();

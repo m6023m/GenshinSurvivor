@@ -20,7 +20,6 @@ public class Player : SkillOwner
     public Animator animator;
     public Collider2D coll;
     Rewired.Player rewiredPlayer;
-    int rebirthCnt = 0;
     public RuntimeAnimatorController[] animCon;
     Dictionary<SkillName, Sheild> _sheilds;
     public Dictionary<SkillName, Sheild> sheilds
@@ -60,7 +59,6 @@ public class Player : SkillOwner
         elementReactionObject = GetComponentInChildren<ElementReactionObject>();
         weapons = GetComponentsInChildren<Weapon>();
         moraAttach = GetComponentInChildren<DamageAttach>();
-        rebirthCnt = 0;
         rewiredPlayer = ReInput.players.GetPlayer(0);
         Init();
     }
@@ -196,7 +194,7 @@ public class Player : SkillOwner
 
     public void Surrender()
     {
-        rebirthCnt = (int)GameManager.instance.statCalcuator.Rebirth;
+        GameManager.instance.gameInfoData.rebirth = (int)GameManager.instance.statCalcuator.Rebirth;
         OnDead();
     }
 
@@ -209,11 +207,11 @@ public class Player : SkillOwner
     private void Dead()
     {
         GameDataManager.instance.saveData.record.deadCount++;
-        if (rebirthCnt < (int)GameManager.instance.statCalcuator.Rebirth)
+        if (GameManager.instance.gameInfoData.rebirth < (int)GameManager.instance.statCalcuator.Rebirth)
         {
             Init();
             ResetHealth();
-            rebirthCnt++;
+            GameManager.instance.gameInfoData.rebirth++;
             animator.SetTrigger("Rebirth");
             Hit(0, 3);
             GameDataManager.instance.saveData.record.rebirthCount++;
