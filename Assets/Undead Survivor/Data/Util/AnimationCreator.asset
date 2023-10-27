@@ -12,4 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b493e8db1a89fe74c99010345fb7d7e8, type: 3}
   m_Name: AnimationCreator
   m_EditorClassIdentifier: 
-  asepriteObject: {fileID: -2253911629886400664, guid: 187820cccad1f214b8a605bdf42df846, type: 3}
+  asepriteObject: {fileID: -2253911629886400664, guid: caab7125382e3894d9d945aa3e37e552, type: 3}
+  saveFolderPath: Assets/Undead Survivor/Animations/Enemy
+  animationStartEvents: []
+  animationEndEvents:
+  - name: Dead
+    eventName: Dead
