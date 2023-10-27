@@ -3505,6 +3505,9 @@ MonoBehaviour:
       mora: 0
       primoGem: 0
       gameLevel: 1
+      rebirth: 0
+      reroll: 0
+      skip: 0
       battleResult:
         suvivorTime: 0
         kill: 0

@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4618297120860682885
 Transform:
   m_ObjectHideFlags: 0
@@ -71,6 +71,7 @@ MonoBehaviour:
   elementType: 0
   isLive: 0
   isEnable: 0
+  bossIcon: {fileID: 0}
   bossName: 0
   overrideControllers:
   - {fileID: 22100000, guid: 12f55d855c7cf0e488a26664da7c7895, type: 2}
