@@ -35,7 +35,7 @@ AnimationClip:
     - time: 0.6000001
       value: {fileID: 1894057805826007399, guid: caab7125382e3894d9d945aa3e37e552, type: 3}
     attribute: m_Sprite
-    path: specter_cyro
+    path: 
     classID: 212
     script: {fileID: 0}
     flags: 2
@@ -47,7 +47,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 998887866
+      path: 0
       attribute: 0
       script: {fileID: 0}
       typeID: 212

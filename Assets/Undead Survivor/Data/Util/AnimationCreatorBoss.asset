@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b493e8db1a89fe74c99010345fb7d7e8, type: 3}
   m_Name: AnimationCreatorBoss
   m_EditorClassIdentifier: 
-  asepriteObject: {fileID: -2253911629886400664, guid: caab7125382e3894d9d945aa3e37e552, type: 3}
+  asepriteObject: {fileID: -2253911629886400664, guid: 4fa2f7d175f5d504e885d1f25564ca91, type: 3}
   saveFolderPath: Assets/Undead Survivor/Animations/Boss/Azdaha
   animationStartEvents: []
   animationEndEvents: []

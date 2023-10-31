@@ -18,3 +18,5 @@ MonoBehaviour:
   animationEndEvents:
   - name: Dead
     eventName: Dead
+  - name: dead
+    eventName: Dead

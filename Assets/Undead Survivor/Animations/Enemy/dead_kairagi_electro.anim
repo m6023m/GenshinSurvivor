@@ -35,7 +35,7 @@ AnimationClip:
     - time: 0.59999996
       value: {fileID: -3627888515496085682, guid: 6585785258f2e6d4cb673cb59924230b, type: 3}
     attribute: m_Sprite
-    path: kairagi_electro
+    path: 
     classID: 212
     script: {fileID: 0}
     flags: 2
@@ -47,7 +47,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 2289986206
+      path: 0
       attribute: 0
       script: {fileID: 0}
       typeID: 212
@@ -87,4 +87,11 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0.6166666
+    functionName: Dead
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

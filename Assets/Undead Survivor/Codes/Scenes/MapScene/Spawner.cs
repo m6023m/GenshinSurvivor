@@ -141,6 +141,11 @@ public class Spawner : MonoBehaviour
             newEnemyStat.size *= 1.5f;
             if (spawnData.spriteName == EnemyNormal.Name.Chuchu_Big_Basic ||
             spawnData.spriteName == EnemyNormal.Name.Chuchu_Big_Shield ||
+            spawnData.spriteName == EnemyNormal.Name.Chuchu_King_Cyro ||
+            spawnData.spriteName == EnemyNormal.Name.Chuchu_King_Electro ||
+            spawnData.spriteName == EnemyNormal.Name.Chuchu_King_Geo ||
+            spawnData.spriteName == EnemyNormal.Name.Kairagi_Electro ||
+            spawnData.spriteName == EnemyNormal.Name.Kairagi_Pyro ||
             spawnData.spriteName == EnemyNormal.Name.Whopperflower_Pyro ||
             spawnData.spriteName == EnemyNormal.Name.Whopperflower_Cyro ||
             spawnData.spriteName == EnemyNormal.Name.Whopperflower_Electro)

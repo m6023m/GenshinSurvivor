@@ -265,7 +265,8 @@ public class Player : SkillOwner
     {
         float armor = stat.armor + GameManager.instance.artifactData.Armor;
         armor = armor + (armor * GameManager.instance.artifactData.ArmorMultiplier);
-        float damageResult = (damage - armor)
+        float armorMultiplier = 4 / (5 + armor);
+        float damageResult = damage * armorMultiplier
          * (1.0f + GameManager.instance.statBuff.Claymore_Serpent_SpineStack
          * GameManager.instance.statBuff.Claymore_Serpent_SpineReceiveDamage);
         if (damageResult <= 0) damageResult = 0.2f;

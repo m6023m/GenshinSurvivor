@@ -25,7 +25,7 @@ AnimationClip:
     - time: 0.1
       value: {fileID: -5776244493592206325, guid: 6585785258f2e6d4cb673cb59924230b, type: 3}
     attribute: m_Sprite
-    path: kairagi_pyro
+    path: 
     classID: 212
     script: {fileID: 0}
     flags: 2
@@ -37,7 +37,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 1998308160
+      path: 0
       attribute: 0
       script: {fileID: 0}
       typeID: 212

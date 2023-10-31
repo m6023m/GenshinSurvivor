@@ -752,13 +752,18 @@ public class StatCalculator
         damageMultipllier += GameManager.instance.artifactData.Brave_Heart(enemy.maxHealth, enemy.health);
 
         damageMultipllier *= CalcCritical(enemy, parameterWithKey);
-        result = ((damage * damageMultipllier) - enemy.armor);
+
+        damageMultipllier += statBuff.Claymore_Serpent_SpineStack * statBuff.Claymore_Serpent_SpineDamage;
+
         if (typeof(EnemyNormal) == enemy.GetType())
         {
             damageMultipllier *= Sword_Lions_Loar((EnemyNormal)enemy);
             damageMultipllier *= Claymore_Rainslasher((EnemyNormal)enemy);
             damageMultipllier *= Spear_Dragons_Bane((EnemyNormal)enemy);
-        }
+        } 
+        float armorMultiplier = 10 / (10 + enemy.armor);
+        result = damage * damageMultipllier * armorMultiplier;
+
         if (parameterWithKey.parameter.type == Element.Type.Cyro)
         {
             if (GameManager.instance.statBuff.E_Shenhe_Stack > 0)
@@ -766,13 +771,12 @@ public class StatCalculator
                 result += GameManager.instance.statCalcuator.Atk * 0.3f;
             }
         }
-        damageMultipllier += statBuff.Claymore_Serpent_SpineStack * statBuff.Claymore_Serpent_SpineDamage;
 
         if (result < 0)
         {
             result = 0;
         }
-        return (result) + FinalDamage;
+        return result + FinalDamage;
     }
 
     float Sword_Lions_Loar(EnemyNormal enemy)

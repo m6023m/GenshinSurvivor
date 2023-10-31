@@ -33,7 +33,7 @@ AnimationClip:
     - time: 0.5
       value: {fileID: 3526915243953559289, guid: 187820cccad1f214b8a605bdf42df846, type: 3}
     attribute: m_Sprite
-    path: Chuchu_King_Cyro
+    path: 
     classID: 212
     script: {fileID: 0}
     flags: 2
@@ -45,7 +45,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 2812700600
+      path: 0
       attribute: 0
       script: {fileID: 0}
       typeID: 212

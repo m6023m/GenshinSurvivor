@@ -21,7 +21,7 @@ public class UserData
     {
         get
         {
-            return 1.0f + (stageLevel * 0.5f);
+            return 0.4f + (stageLevel * 0.3f);
         }
     }
 
@@ -29,7 +29,7 @@ public class UserData
     {
         get
         {
-            return 1.0f + (stageLevel * 0.2f);
+            return 0.4f + (stageLevel * 0.3f);
         }
     }
 

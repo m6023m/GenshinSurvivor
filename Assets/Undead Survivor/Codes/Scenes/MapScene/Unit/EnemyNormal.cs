@@ -24,7 +24,21 @@ public class EnemyNormal : Enemy
         Chuchu_Arrow,
         Whopperflower_Pyro,
         Whopperflower_Cyro,
-        Whopperflower_Electro
+        Whopperflower_Electro,
+        Chuchu_King_Cyro,
+        Chuchu_King_Electro,
+        Chuchu_King_Geo,
+        Kairagi_Electro,
+        Kairagi_Pyro,
+        Nobushi,
+        Specter_Anemo,
+        Specter_Cyro,
+        Specter_Dendro,
+        Specter_Electro,
+        Specter_Geo,
+        Specter_Hydro,
+        Specter_Pyro,
+        Treasure_Hunter,
     }
 
     public enum Pattern
@@ -32,7 +46,9 @@ public class EnemyNormal : Enemy
         No_Pattern,
         Charge,
         Range,
-        Warp
+        Warp,
+        Jump,
+        Suicide_Bomb
     }
 
     public float patternRange = 0;
@@ -391,7 +407,7 @@ public class EnemyNormal : Enemy
             animator.SetBool("Pattern", true);
 
             Vector2 dirVec = target.position - rigid.position;
-            rigid.AddForce(dirVec.normalized * speed * 3f, ForceMode2D.Impulse);
+            rigid.AddForce(dirVec.normalized * speed * enemyAttackData.speed, ForceMode2D.Impulse);
 
             PatternDelay(1.0f).OnComplete(() =>
             {

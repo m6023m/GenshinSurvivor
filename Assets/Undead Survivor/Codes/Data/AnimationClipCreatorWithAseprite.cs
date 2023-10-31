@@ -41,29 +41,28 @@ public class AnimationClipCreatorWithAseprite : ScriptableObject
         List<AnimationClip> newClips = new List<AnimationClip>();
         EditorCurveBinding[] editorCurves = AnimationUtility.GetObjectReferenceCurveBindings(clip);
 
-        foreach (EditorCurveBinding editorCurve in editorCurves)
+        foreach (EditorCurveBinding originalCurve in editorCurves)
         {
             AnimationClip newClip = new AnimationClip();
-            string name = $"{clip.name}_{editorCurve.path}";
+            string name = $"{clip.name}_{originalCurve.path}";
             newClip.name = name;
 
-            ObjectReferenceKeyframe[] keyframes = AnimationUtility.GetObjectReferenceCurve(clip, editorCurve);
+            ObjectReferenceKeyframe[] keyframes = AnimationUtility.GetObjectReferenceCurve(clip, originalCurve);
 
-            AnimationUtility.SetObjectReferenceCurve(newClip, editorCurve, keyframes);
+            EditorCurveBinding modifiedCurve = originalCurve;
+            modifiedCurve.path = "";
 
+            AnimationUtility.SetObjectReferenceCurve(newClip, modifiedCurve, keyframes);
 
             AddEvent(newClip, animationStartEvents, 0);
             AddEvent(newClip, animationEndEvents, newClip.length);
 
-
-
             newClips.Add(newClip);
 
             AssetDatabase.CreateAsset(newClip, $"{saveFolderPath}/{name}.anim");
-
         }
-
     }
+
     public void AddEvent(AnimationClip newClip, List<AnimationEventer> animationEventers, float time)
     {
         List<AnimationEvent> eventsToAdd = new List<AnimationEvent>();

@@ -318,17 +318,19 @@ public class GameManager : MonoBehaviour
     public void GainMora(int mora)
     {
         if (mora < 1) return;
-        int moraResult = (int)(mora * statCalcuator.Greed);
-        gameInfoData.mora += mora;
-        battleResult.gainMora += mora;
-        WriteMora(player.transform, mora);
+        float stageValue = 1.0f + GameDataManager.instance.saveData.userData.stageLevel * 0.1f;
+        int moraResult = (int)(mora * statCalcuator.Greed * stageValue);
+        gameInfoData.mora += moraResult;
+        battleResult.gainMora += moraResult;
+        WriteMora(player.transform, moraResult);
     }
     public void GainPrimoGem(int primoGem)
     {
         if (primoGem < 1) return;
-        int primoGemResult = primoGem + (int)(primoGem * statCalcuator.Greed);
-        gameInfoData.primoGem += primoGem;
-        battleResult.gainPrimoGem += primoGem;
+        float stageValue = 1.0f + GameDataManager.instance.saveData.userData.stageLevel * 0.1f;
+        int primoGemResult = primoGem + (int)(primoGem * statCalcuator.Greed * stageValue);
+        gameInfoData.primoGem += primoGemResult;
+        battleResult.gainPrimoGem += primoGemResult;
     }
 
 
