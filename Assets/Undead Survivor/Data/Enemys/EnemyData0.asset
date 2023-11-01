@@ -514,9 +514,9 @@ MonoBehaviour:
       targetDirection: {x: 0, y: 0, z: 0}
       patternSize: 1
       damage: 0
-      speed: 5
-      patternDelay: 0
-      duration: 0
+      speed: 0.5
+      patternDelay: 1.5
+      duration: 1
       isDamage: 0
     patternCoolTime: 10
     patternRange: 8
@@ -543,9 +543,9 @@ MonoBehaviour:
       targetDirection: {x: 0, y: 0, z: 0}
       patternSize: 1
       damage: 0
-      speed: 5
-      patternDelay: 0
-      duration: 0
+      speed: 0.5
+      patternDelay: 1.5
+      duration: 1
       isDamage: 0
     patternCoolTime: 10
     patternRange: 8
@@ -572,9 +572,9 @@ MonoBehaviour:
       targetDirection: {x: 0, y: 0, z: 0}
       patternSize: 1
       damage: 0
-      speed: 5
-      patternDelay: 0
-      duration: 0
+      speed: 0.5
+      patternDelay: 1.5
+      duration: 1
       isDamage: 0
     patternCoolTime: 10
     patternRange: 8

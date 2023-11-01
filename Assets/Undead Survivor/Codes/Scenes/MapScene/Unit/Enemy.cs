@@ -11,6 +11,7 @@ public class Enemy : MonoBehaviour
         Boss
     }
     public float speed;
+    public float addSpeed = 1;
     public float armor;
     public float health;
     public float maxHealth;

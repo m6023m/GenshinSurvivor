@@ -106,7 +106,7 @@ public class EnemyNormal : Enemy
 
         if (!isPattern)
         {
-            Vector2 nextVec = dirVec.normalized * speed * Time.fixedDeltaTime;
+            Vector2 nextVec = dirVec.normalized * speed * addSpeed * Time.fixedDeltaTime;
             nextVec += magnetVec * Time.fixedDeltaTime;
             nextVec += pushVec * Time.fixedDeltaTime;
             nextVec += knockBackVec * Time.fixedDeltaTime;
@@ -140,6 +140,12 @@ public class EnemyNormal : Enemy
             case Pattern.Warp:
                 WarpPattern();
                 break;
+            case Pattern.Jump:
+                JumpPattern();
+                break;
+            case Pattern.Suicide_Bomb:
+                Suicide_BombPattern();
+                break;
         }
     }
 
@@ -164,6 +170,7 @@ public class EnemyNormal : Enemy
     public override void Init(SpawnData data)
     {
         base.Init(data);
+        addSpeed = 1;
         animator.runtimeAnimatorController = animCon[(int)data.spriteName];
 
         InitPatternData(data);
@@ -496,6 +503,64 @@ public class EnemyNormal : Enemy
 
             });
         });
+    }
+
+    void JumpPattern()
+    {
+        isPatternCoolTime = true;
+        isPattern = true;
+        isNodamage = true;
+
+
+        rigid.isKinematic = true;
+        Vector2 dirVec = target.position - rigid.position;
+        Vector2 vecDestination = dirVec.normalized * speed * 3f;
+        if (vecDestination.magnitude > dirVec.magnitude)
+        {
+            vecDestination = target.position;
+        }
+
+        enemyAttack.transform.parent = transform;
+        enemyAttackData.targetDirection = vecDestination;
+        enemyAttack.GetComponent<EnemyAttack>().Init(enemyAttackData);
+
+
+
+        animator.SetBool("Pattern", true);
+        PatternDelay(enemyAttackData.patternDelay).OnComplete(() =>
+        {
+            rigid.isKinematic = true;
+            animator.SetBool("Pattern", false);
+
+            transform.DOJump(vecDestination, enemyAttackData.speed, 1, enemyAttackData.duration, true)
+                        .OnStart(() =>
+                        {
+                            // 점프 시작시 실행할 로직
+                        })
+                        .OnComplete(() =>
+                        {
+                            animator.SetTrigger("PatternStop");
+                            isPattern = false;
+                            isNodamage = false;
+                            PatternDelay(patternCoolTime).OnComplete(() =>
+                            {
+                                isPatternCoolTime = false;
+                            });
+                        });
+
+        });
+    }
+
+    public void Suicide_BombPattern()
+    {
+        addSpeed = 2;
+        animator.SetBool("Pattern", true);
+        PatternDelay(enemyAttackData.patternDelay).OnComplete(() =>
+        {
+            animator.SetBool("Pattern", false);
+
+        });
+
     }
 
     public void Stop(bool isStop)

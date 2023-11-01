@@ -4697,8 +4697,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2139815062}
   - component: {fileID: 2139815063}
-  - component: {fileID: 2139815065}
-  - component: {fileID: 2139815064}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -4764,24 +4762,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: bce92a04fa22fb842affe83fa688a650, type: 3}
   sfxChannels: 16
   sfxPlayers: []
---- !u!165 &2139815064
-AudioHighPassFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2139815061}
-  m_Enabled: 1
-  m_CutoffFrequency: 5000
-  m_HighpassResonanceQ: 1
---- !u!81 &2139815065
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2139815061}
-  m_Enabled: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
