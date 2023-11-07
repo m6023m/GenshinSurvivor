@@ -15,7 +15,8 @@ public class EnemyAttack : MonoBehaviour
         Warp,
         Howling,
         Wave,
-        Charge
+        Charge,
+        Suicide_Bomb
     }
     public EnemyAttackData attackData;
     RuntimeAnimatorController animatorController;
@@ -82,6 +83,10 @@ public class EnemyAttack : MonoBehaviour
                 attackData.targetDirection = dir;
                 transform.ScaleFront(enemy.transform, new Vector3(1.0f, attackData.patternSize));
                 transform.rotation = Quaternion.FromToRotation(Vector3.up, dir);
+                break;
+            case PatternType.Suicide_Bomb:
+                transform.localScale = new Vector2(1.0f * attackData.patternSize, 1.0f * attackData.patternSize);
+                transform.localPosition = Vector2.zero;
                 break;
         }
         PatternAreaCheck();

@@ -99,7 +99,7 @@ public class EnemyNormal : Enemy
         Vector2 dirVec = target.position - rigid.position;
         float distanceToPlayer = dirVec.magnitude;
 
-        if (!isPatternCoolTime && distanceToPlayer <= patternRange)
+        if (!isPatternCoolTime && distanceToPlayer <= patternRange && patternRange != 0)
         {
             PatternCheck();
         }
@@ -531,8 +531,8 @@ public class EnemyNormal : Enemy
         {
             rigid.isKinematic = true;
             animator.SetBool("Pattern", false);
-
-            transform.DOJump(vecDestination, enemyAttackData.speed, 1, enemyAttackData.duration, true)
+            transform.DOJump(vecDestination, enemyAttackData.speed, 1, enemyAttackData.duration)
+            .SetEase(Ease.InSine)
                         .OnStart(() =>
                         {
                             // 점프 시작시 실행할 로직
@@ -554,10 +554,14 @@ public class EnemyNormal : Enemy
     public void Suicide_BombPattern()
     {
         addSpeed = 2;
+        enemyAttack.transform.parent = transform;
+        
+        enemyAttack.GetComponent<EnemyAttack>().Init(enemyAttackData);
         animator.SetBool("Pattern", true);
         PatternDelay(enemyAttackData.patternDelay).OnComplete(() =>
         {
             animator.SetBool("Pattern", false);
+            
 
         });
 

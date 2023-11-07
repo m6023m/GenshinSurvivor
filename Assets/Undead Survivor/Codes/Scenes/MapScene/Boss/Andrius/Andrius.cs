@@ -157,7 +157,7 @@ public class Andrius : Boss
         PatternDelay(1.0f).OnComplete(() =>
         {
             Vector3 targetPosition = transform.up * distance;
-            transform.DOMove(targetPosition, duration).SetEase(Ease.Linear);
+            transform.DOMove(targetPosition, duration).SetEase(Ease.InOutSine);
         });
 
         return PatternDelay(4.0f);

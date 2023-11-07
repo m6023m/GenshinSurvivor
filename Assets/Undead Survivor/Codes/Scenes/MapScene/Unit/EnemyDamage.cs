@@ -11,7 +11,8 @@ public class EnemyDamage : MonoBehaviour
         Breath,
         Meteor,
         Melee,
-        Charge
+        Charge,
+        Suicide_Bomb
 
     }
     EnemyAttackData attackData;
@@ -117,6 +118,10 @@ public class EnemyDamage : MonoBehaviour
                 break;
             case EnemyAttack.PatternType.Charge:
                 attackName = AttackName.Charge;
+                spriteRenderer.material.SetFloat(shaderOutlineID, 0.0f);
+                break;
+            case EnemyAttack.PatternType.Suicide_Bomb:
+                attackName = AttackName.Suicide_Bomb;
                 spriteRenderer.material.SetFloat(shaderOutlineID, 0.0f);
                 break;
 

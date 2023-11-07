@@ -117,7 +117,7 @@ public class Dvalin : Boss
         PatternDelay(1.0f).OnComplete(() =>
         {
             Vector3 targetPosition = transform.up * distance;
-            transform.DOMove(targetPosition, duration).SetEase(Ease.Linear);
+            transform.DOMove(targetPosition, duration).SetEase(Ease.InOutSine);
         });
 
         return PatternDelay(4.0f);
@@ -349,7 +349,7 @@ public class Dvalin : Boss
         LookPlayer();
         armRight.StartPattern();
         armRight.PatternDelayColorChange(1.0f);
-        Tweener tweener = armRight.transform.DOMove(playerTransform.position, 0.2f).SetDelay(1.0f);
+        Tweener tweener = armRight.transform.DOMove(playerTransform.position, 0.2f).SetDelay(1.0f).SetEase(Ease.InOutSine);
         return tweener.OnComplete(() =>
         {
             armRight.EndPattern();
@@ -362,7 +362,7 @@ public class Dvalin : Boss
         LookPlayer();
         armLeft.StartPattern();
         armLeft.PatternDelayColorChange(1.0f);
-        Tweener tweener = armLeft.transform.DOMove(playerTransform.position, 0.2f).SetDelay(1.0f);
+        Tweener tweener = armLeft.transform.DOMove(playerTransform.position, 0.2f).SetDelay(1.0f).SetEase(Ease.InOutSine);
         return tweener.OnComplete(() =>
         {
             armLeft.EndPattern();
