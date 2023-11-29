@@ -519,7 +519,7 @@ MonoBehaviour:
       duration: 1
       isDamage: 0
     patternCoolTime: 10
-    patternRange: 8
+    patternRange: 5
     elementType: 0
     health: 200
     damage: 15
@@ -548,7 +548,7 @@ MonoBehaviour:
       duration: 1
       isDamage: 0
     patternCoolTime: 10
-    patternRange: 8
+    patternRange: 5
     elementType: 0
     health: 200
     damage: 15
@@ -577,7 +577,7 @@ MonoBehaviour:
       duration: 1
       isDamage: 0
     patternCoolTime: 10
-    patternRange: 8
+    patternRange: 5
     elementType: 0
     health: 200
     damage: 15
@@ -606,7 +606,7 @@ MonoBehaviour:
       duration: 0
       isDamage: 0
     patternCoolTime: 10
-    patternRange: 8
+    patternRange: 5
     elementType: 0
     health: 200
     damage: 15
@@ -635,7 +635,7 @@ MonoBehaviour:
       duration: 0
       isDamage: 0
     patternCoolTime: 10
-    patternRange: 8
+    patternRange: 5
     elementType: 0
     health: 200
     damage: 15
@@ -664,7 +664,7 @@ MonoBehaviour:
       duration: 0
       isDamage: 0
     patternCoolTime: 10
-    patternRange: 8
+    patternRange: 5
     elementType: 0
     health: 50
     damage: 10
@@ -689,11 +689,11 @@ MonoBehaviour:
       patternSize: 2
       damage: 20
       speed: 2
-      patternDelay: 0
-      duration: 3
+      patternDelay: 3
+      duration: 1
       isDamage: 1
     patternCoolTime: 2
-    patternRange: 2
+    patternRange: 4
     elementType: 0
     health: 10
     damage: 1
@@ -718,11 +718,11 @@ MonoBehaviour:
       patternSize: 2
       damage: 20
       speed: 2
-      patternDelay: 0
-      duration: 3
+      patternDelay: 3
+      duration: 1
       isDamage: 1
     patternCoolTime: 2
-    patternRange: 2
+    patternRange: 4
     elementType: 0
     health: 10
     damage: 1
@@ -747,11 +747,11 @@ MonoBehaviour:
       patternSize: 2
       damage: 20
       speed: 2
-      patternDelay: 0
-      duration: 3
+      patternDelay: 3
+      duration: 1
       isDamage: 1
     patternCoolTime: 2
-    patternRange: 2
+    patternRange: 4
     elementType: 0
     health: 10
     damage: 1
@@ -776,11 +776,11 @@ MonoBehaviour:
       patternSize: 2
       damage: 20
       speed: 2
-      patternDelay: 0
-      duration: 3
+      patternDelay: 3
+      duration: 1
       isDamage: 1
     patternCoolTime: 2
-    patternRange: 2
+    patternRange: 4
     elementType: 0
     health: 10
     damage: 1
@@ -805,11 +805,11 @@ MonoBehaviour:
       patternSize: 2
       damage: 20
       speed: 2
-      patternDelay: 0
-      duration: 3
+      patternDelay: 3
+      duration: 1
       isDamage: 1
     patternCoolTime: 2
-    patternRange: 2
+    patternRange: 4
     elementType: 0
     health: 10
     damage: 1
@@ -834,11 +834,11 @@ MonoBehaviour:
       patternSize: 2
       damage: 20
       speed: 2
-      patternDelay: 0
-      duration: 3
+      patternDelay: 3
+      duration: 1
       isDamage: 1
     patternCoolTime: 2
-    patternRange: 2
+    patternRange: 4
     elementType: 0
     health: 10
     damage: 1
@@ -863,11 +863,11 @@ MonoBehaviour:
       patternSize: 2
       damage: 20
       speed: 2
-      patternDelay: 0
-      duration: 3
+      patternDelay: 3
+      duration: 1
       isDamage: 1
     patternCoolTime: 2
-    patternRange: 2
+    patternRange: 4
     elementType: 0
     health: 10
     damage: 1

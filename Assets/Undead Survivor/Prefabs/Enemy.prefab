@@ -297,6 +297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+  addSpeed: 1
   armor: 0
   health: 0
   maxHealth: 0
@@ -559,6 +560,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyAttack
       objectReference: {fileID: 0}
+    - target: {fileID: 6581064078491258247, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: animationClips.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6581064078491258247, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: animationClips.Array.data[4]
+      value: 
+      objectReference: {fileID: 7400000, guid: 4a7ed7997cb67aa47b8a6fffb5acfaec, type: 2}
+    - target: {fileID: 6581064078491258247, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: animationClips.Array.data[5]
+      value: 
+      objectReference: {fileID: 7400000, guid: 4a7ed7997cb67aa47b8a6fffb5acfaec, type: 2}
+    - target: {fileID: 6581064078491258247, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: animationClips.Array.data[6]
+      value: 
+      objectReference: {fileID: 7400000, guid: 0870a5a24e73d7b4688eec8fb711f332, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

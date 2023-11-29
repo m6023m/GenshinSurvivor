@@ -103,6 +103,11 @@ public class EnemyPatternArea : MonoBehaviour
                 animator.runtimeAnimatorController = patternSquare;
                 SetPatternAlpha(1.0f);
                 break;
+            case EnemyAttack.PatternType.Suicide_Bomb:
+                isPatterEnd = false;
+                animator.runtimeAnimatorController = patternCircle;
+                SetPatternAlpha(0.0f);
+                break;
         }
         GetComponent<Animator>().speed = 1;
         if (animationDuration > 0)
