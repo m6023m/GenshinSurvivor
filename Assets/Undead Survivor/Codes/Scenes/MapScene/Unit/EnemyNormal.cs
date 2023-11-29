@@ -554,7 +554,7 @@ public class EnemyNormal : Enemy
 
     public void Suicide_BombPattern()
     {
-        addSpeed = 2;
+        addSpeed = enemyAttack.attackData.speed;
         enemyAttack.transform.parent = transform;
         
         enemyAttack.GetComponent<EnemyAttack>().Init(enemyAttackData);
