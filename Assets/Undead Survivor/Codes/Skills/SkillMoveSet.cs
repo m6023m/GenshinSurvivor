@@ -61,7 +61,7 @@ public class SkillMoveSet : MonoBehaviour
         if (skillSequence.objectType != Skill.ObjectType.Sheild &&
          skillSequence.objectType != Skill.ObjectType.Summon)
         {
-            area *= parameterWithKey.parameter.area * GameManager.instance.statCalcuator.Area;
+            area *= parameterWithKey.parameter.area * GameManager.instance.statCalculator.Area;
         }
         if (parameterWithKey.name == SkillName.EB_Eula && skillSequence.isConditionChange)
         {
@@ -121,12 +121,12 @@ public class SkillMoveSet : MonoBehaviour
         skillObjects = new List<GameObject>();
         this.parameterWithKey = parameterWithKey;
         this.skillSequence = skillSequence;
-        this.penetrate = (int)(parameterWithKey.parameter.penetrate + GameManager.instance.statCalcuator.Penetrate);
+        this.penetrate = (int)(parameterWithKey.parameter.penetrate + GameManager.instance.statCalculator.Penetrate);
         this.prevTransform = prevTransform;
         player = GameManager.instance.player;
         isSetTarget = false;
         isMove = false;
-        attackSpeed = parameterWithKey.parameter.speed * GameManager.instance.statCalcuator.Aspeed;
+        attackSpeed = parameterWithKey.parameter.speed * GameManager.instance.statCalculator.Aspeed;
         skillParent = GetComponentInParent<SkillObject>();
         scanner = GetComponent<SkillScanner>();
         scanner.Init(skillSequence.scanRange);
@@ -198,7 +198,7 @@ public class SkillMoveSet : MonoBehaviour
         if (skillSequence.isSkillAdd)
         {
             skillCount += parameterWithKey.parameter.count;
-            skillCount += (int)GameManager.instance.statCalcuator.Amount;
+            skillCount += (int)GameManager.instance.statCalculator.Amount;
         }
 
         float rotationAngle = 360 / skillCount * index;
@@ -214,8 +214,8 @@ public class SkillMoveSet : MonoBehaviour
             float playerY = player.transform.position.y;
             float radian = rotationAngle * Mathf.Deg2Rad;
 
-            float x = (Mathf.Sin(radian) * skillSequence.createRange * GameManager.instance.statCalcuator.Area);
-            float y = (Mathf.Cos(radian) * skillSequence.createRange * GameManager.instance.statCalcuator.Area);
+            float x = (Mathf.Sin(radian) * skillSequence.createRange * GameManager.instance.statCalculator.Area);
+            float y = (Mathf.Cos(radian) * skillSequence.createRange * GameManager.instance.statCalculator.Area);
 
             transform.localPosition = new Vector3(-x, y, transform.position.z);
 
@@ -322,7 +322,7 @@ public class SkillMoveSet : MonoBehaviour
         if (skillSequence.isAnimationSpeedMatchDuration)
         {
             float duration = skillSequence.duration
-                * GameManager.instance.statCalcuator.Duration
+                * GameManager.instance.statCalculator.Duration
                 * parameterWithKey.parameter.duration;
             GetComponent<Animator>().speed = skillSequence.animation.length / duration;
         }
@@ -338,7 +338,7 @@ public class SkillMoveSet : MonoBehaviour
         if (skillSequence.duration > 0 && !skillSequence.isSummonAttack)
         {
             duration = skillSequence.duration
-                * GameManager.instance.statCalcuator.Duration
+                * GameManager.instance.statCalculator.Duration
                 * parameterWithKey.parameter.duration;
         }
         if (skillSequence.isProjectile)
@@ -404,8 +404,8 @@ public class SkillMoveSet : MonoBehaviour
         {
             float directionX = transform.localPosition.x > 0 ? 1 : -1;
             float directionY = transform.localPosition.y > 0 ? 1 : -1;
-            float offsetX = skillSequence.centerOffset.x * GameManager.instance.statCalcuator.Area;
-            float offsetY = skillSequence.centerOffset.y * GameManager.instance.statCalcuator.Area;
+            float offsetX = skillSequence.centerOffset.x * GameManager.instance.statCalculator.Area;
+            float offsetY = skillSequence.centerOffset.y * GameManager.instance.statCalculator.Area;
             float positionX = directionX * transform.localScale.x / 2;
             float positionY = directionY * transform.localScale.y / 2;
             Vector3 position = new Vector3(positionX + prevTransform.position.x + offsetX, positionY + prevTransform.position.y + offsetY);
@@ -506,16 +506,16 @@ public class SkillMoveSet : MonoBehaviour
         if (skillSequence.objectType != Skill.ObjectType.Sheild &&
          skillSequence.objectType != Skill.ObjectType.Summon)
         {
-            area *= parameterWithKey.parameter.area * GameManager.instance.statCalcuator.Area;
+            area *= parameterWithKey.parameter.area * GameManager.instance.statCalculator.Area;
         }
-        float magentArea = parameterWithKey.parameter.magnet * GameManager.instance.statCalcuator.Magnet;
+        float magentArea = parameterWithKey.parameter.magnet * GameManager.instance.statCalculator.Magnet;
 
         int skillCount = skillSequence.skillCount;
         if (skillCount <= 0) skillCount = 1;
         if (skillSequence.isSkillAdd)
         {
             skillCount += parameterWithKey.parameter.count;
-            skillCount += (int)GameManager.instance.statCalcuator.Amount;
+            skillCount += (int)GameManager.instance.statCalculator.Amount;
         }
 
         PoolManager.Type objectType = PoolManager.Type.Skill;

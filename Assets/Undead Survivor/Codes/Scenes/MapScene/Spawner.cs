@@ -42,7 +42,7 @@ public class Spawner : MonoBehaviour
         {
             timers[item.index] += Time.deltaTime;
             float spawnTime = item.spawnData.spawnTime;
-            spawnTime /= GameManager.instance.statCalcuator.Curse;
+            spawnTime /= GameManager.instance.statCalculator.Curse;
 
             if (item.spawnData.spawnTimeMin < gameTime && item.spawnData.spawnTimeMax > gameTime && timers[item.index] > spawnTime)
             {

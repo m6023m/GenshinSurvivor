@@ -148,11 +148,15 @@ public class EnemyDamage : MonoBehaviour
         StartCoroutine(AnimationEnd(duration));
     }
 
-
     IEnumerator AnimationEnd(float duration)
     {
         yield return new WaitForSeconds(duration);
-        DisableObject();
+        // EnemyAttack 클래스의 메서드를 호출하여 객체를 비활성화합니다.
+        parentEnemyAttack.DeactivateEnemyDamage();
+        if (attackData.endListener != null)
+        {
+            attackData.endListener.Invoke();
+        }
     }
 
 

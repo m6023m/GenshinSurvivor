@@ -101,7 +101,7 @@ public class EnemyObject : Enemy
         int dropPer = 0;
         if (type == Type.Normal)
         {
-            dropPer = 1 + (int)GameManager.instance.statCalcuator.Luck;
+            dropPer = 1 + (int)GameManager.instance.statCalculator.Luck;
             if (randomNum <= dropPer)
             {
                 int randomBox = Random.Range(0, 6);

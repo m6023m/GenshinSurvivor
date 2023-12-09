@@ -81,7 +81,7 @@ public class SkillIcon : MonoBehaviour
         float coolTime = skillParameter.parameter.coolTime;
         SkillSet skillSet = skillParameter.skillSet;
         if (skillSet == null) return;
-        coolTime -= coolTime * GameManager.instance.statCalcuator.CooltimeWithArtifact(skillParameter.type);
+        coolTime -= coolTime * GameManager.instance.statCalculator.CooltimeWithArtifact(skillParameter.type);
         float fillAmount = (skillTime / coolTime);
         foreach (SkillSet.SkillSequence skillSequence in skillSet.sequences)
         {

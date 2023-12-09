@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class EnemyAttack : MonoBehaviour
 {
@@ -40,6 +41,8 @@ public class EnemyAttack : MonoBehaviour
         patternDamage = GetComponentInChildren<EnemyDamage>(true);
         patternDamage.gameObject.SetActive(false);
         enemy = GetComponentInParent<Enemy>();
+        DeactivateEnemyDamage();
+        DeactivateEnemyPatternArea();
         InitAttack();
     }
 
@@ -47,6 +50,9 @@ public class EnemyAttack : MonoBehaviour
     {
         if (isInit) return;
         isInit = true;
+
+        // 공통적으로 필요한 설정
+        transform.localScale = new Vector2(1.0f * attackData.patternSize, 1.0f * attackData.patternSize);
 
         switch (attackData.patternType)
         {
@@ -61,46 +67,57 @@ public class EnemyAttack : MonoBehaviour
                 transform.ScaleFront(enemy.transform, new Vector3(1.0f * attackData.patternSize, 25.0f));
                 break;
             case PatternType.Meteor:
-                transform.localScale = new Vector2(1.0f * attackData.patternSize, 1.0f * attackData.patternSize);
                 transform.position = GameManager.instance.player.transform.position;
                 break;
             case PatternType.Warp:
-                transform.localScale = new Vector2(1.0f * attackData.patternSize, 1.0f * attackData.patternSize);
                 transform.position = attackData.targetDirection;
                 break;
             case PatternType.Howling:
-                transform.localScale = new Vector2(1.0f * attackData.patternSize, 1.0f * attackData.patternSize);
+                // 특별한 설정이 필요 없는 경우
                 break;
             case PatternType.Wave:
                 PatternWave();
                 break;
             case PatternType.Charge:
-                Transform nearestTarget = GameManager.instance.player.scanner.nearestTarget;
-                Vector3 targetPos = GameManager.instance.player.transform.position;
-                Vector3 dir = targetPos - transform.position;
-                float size = 1.0f * attackData.patternSize;
-                dir = dir.normalized;
-                attackData.targetDirection = dir;
-                transform.ScaleFront(enemy.transform, new Vector3(1.0f, attackData.patternSize));
-                transform.rotation = Quaternion.FromToRotation(Vector3.up, dir);
+                SetChargePattern();
                 break;
             case PatternType.Suicide_Bomb:
-                transform.localScale = new Vector2(1.0f * attackData.patternSize, 1.0f * attackData.patternSize);
                 transform.localPosition = Vector2.zero;
                 break;
         }
         PatternAreaCheck();
     }
 
+    void SetChargePattern()
+    {
+        Transform nearestTarget = GameManager.instance.player.scanner.nearestTarget;
+        Vector3 targetPos = GameManager.instance.player.transform.position;
+        Vector3 dir = targetPos - transform.position;
+        dir = dir.normalized;
+        attackData.targetDirection = dir;
+        transform.ScaleFront(enemy.transform, new Vector3(1.0f, attackData.patternSize));
+        transform.rotation = Quaternion.FromToRotation(Vector3.up, dir);
+    }
+
+
+
     void PatternAreaCheck()
     {
         patternArea.Init(attackData).OnAnimationEnd(() =>
         {
-            patternDamage.gameObject.SetActive(true);
-            patternDamage.Init(attackData);
+            ActivateEnemyDamage();
         });
-        patternArea.SetPatternAlpha(1.0f);
+
+        if (attackData.patternDelay == 0)
+        {
+            ActivateEnemyDamage();
+        }
+        else
+        {
+            patternArea.SetPatternAlpha(1.0f);
+        }
     }
+
     void PatternNormal()
     {
         Transform nearestTarget = GameManager.instance.player.scanner.nearestTarget;
@@ -112,12 +129,59 @@ public class EnemyAttack : MonoBehaviour
         transform.localScale = new Vector3(size, size);
         transform.rotation = Quaternion.FromToRotation(Vector3.up, dir);
     }
+    public void ActivateEnemyDamage()
+    {
+        if (patternDamage != null)
+        {
+            patternDamage.gameObject.SetActive(true);
+            patternDamage.Init(attackData);
+        }
+    }
+
+    public void DeactivateEnemyDamage()
+    {
+        if (patternDamage != null)
+        {
+            patternDamage.gameObject.SetActive(false);
+        }
+    }
+    public void ActivateEnemyPatternArea()
+    {
+        if (patternArea != null)
+        { 
+            patternArea.gameObject.SetActive(true);
+            patternArea.Init(attackData).OnAnimationEnd(() =>
+            {
+                DeactivateObjectsAfterAnimation();
+                if (attackData.endListener != null)
+                {
+                    attackData.endListener.Invoke();
+                }
+            });
+        }
+    }
+
+
+    public void DeactivateEnemyPatternArea()
+    {
+        if (patternArea != null)
+        {
+            patternArea.gameObject.SetActive(false);
+        }
+    }
+
+    private void DeactivateObjectsAfterAnimation()
+    {
+        DeactivateEnemyDamage();
+        DeactivateEnemyPatternArea();
+    }
 
     void PatternWave()
     {
         float size = 1.0f * attackData.patternSize;
         transform.localScale = new Vector3(size, size);
-        transform.rotation = Quaternion.FromToRotation(Vector3.up, attackData.targetDirection);
+        transform.rotation
+         = Quaternion.FromToRotation(Vector3.up, attackData.targetDirection);
     }
 }
 
@@ -132,12 +196,15 @@ public class EnemyAttackData
     public float patternDelay;
     public float duration;
     public bool isDamage;
+    public UnityAction endListener;
     public EnemyAttackData(EnemyAttackData data)
     {
+        float gameLevelCorrection = GameManager.instance.statCalculator.GameLevelCorrection;
+        UserData userData = GameDataManager.instance.saveData.userData;
         patternType = data.patternType;
         targetDirection = data.targetDirection;
         patternSize = data.patternSize;
-        damage = data.damage;
+        damage = data.damage * gameLevelCorrection * userData.stageATK;
         speed = data.speed;
         patternDelay = data.patternDelay;
         duration = data.duration;
@@ -155,4 +222,7 @@ public class EnemyAttackData
         duration = 0f;
         isDamage = false;
     }
+
+
+
 }

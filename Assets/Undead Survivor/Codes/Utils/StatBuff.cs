@@ -49,7 +49,7 @@ public class StatBuff
             if (value != _Atk)
             {
                 _Atk = value;
-                GameManager.instance.statCalcuator.isStatusChangedType[StatType.ATK] = true;
+                GameManager.instance.statCalculator.isStatusChangedType[StatType.ATK] = true;
             }
         }
     }
@@ -64,7 +64,7 @@ public class StatBuff
             if (value != _Armor)
             {
                 _Armor = value;
-                GameManager.instance.statCalcuator.isStatusChangedType[StatType.ARMOR] = true;
+                GameManager.instance.statCalculator.isStatusChangedType[StatType.ARMOR] = true;
             }
         }
     }
@@ -79,7 +79,7 @@ public class StatBuff
             if (value != _Hp)
             {
                 _Hp = value;
-                GameManager.instance.statCalcuator.isStatusChangedType[StatType.HP] = true;
+                GameManager.instance.statCalculator.isStatusChangedType[StatType.HP] = true;
             }
         }
     }
@@ -94,7 +94,7 @@ public class StatBuff
             if (value != _Heal)
             {
                 _Heal = value;
-                GameManager.instance.statCalcuator.isStatusChangedType[StatType.HEAL] = true;
+                GameManager.instance.statCalculator.isStatusChangedType[StatType.HEAL] = true;
             }
         }
     }
@@ -109,7 +109,7 @@ public class StatBuff
             if (value != _Cooltime)
             {
                 _Cooltime = value;
-                GameManager.instance.statCalcuator.isStatusChangedType[StatType.COOLTIME] = true;
+                GameManager.instance.statCalculator.isStatusChangedType[StatType.COOLTIME] = true;
             }
         }
     }
@@ -124,7 +124,7 @@ public class StatBuff
             if (value != _Area)
             {
                 _Area = value;
-                GameManager.instance.statCalcuator.isStatusChangedType[StatType.AREA] = true;
+                GameManager.instance.statCalculator.isStatusChangedType[StatType.AREA] = true;
             }
         }
     }
@@ -139,7 +139,7 @@ public class StatBuff
             if (value != _Aspeed)
             {
                 _Aspeed = value;
-                GameManager.instance.statCalcuator.isStatusChangedType[StatType.ASPEED] = true;
+                GameManager.instance.statCalculator.isStatusChangedType[StatType.ASPEED] = true;
             }
         }
     }
@@ -154,7 +154,7 @@ public class StatBuff
             if (value != _Duration)
             {
                 _Duration = value;
-                GameManager.instance.statCalcuator.isStatusChangedType[StatType.DURATION] = true;
+                GameManager.instance.statCalculator.isStatusChangedType[StatType.DURATION] = true;
             }
         }
     }
@@ -169,7 +169,7 @@ public class StatBuff
             if (value != _Amount)
             {
                 _Amount = value;
-                GameManager.instance.statCalcuator.isStatusChangedType[StatType.AMOUNT] = true;
+                GameManager.instance.statCalculator.isStatusChangedType[StatType.AMOUNT] = true;
             }
         }
     }
@@ -184,7 +184,7 @@ public class StatBuff
             if (value != _Speed)
             {
                 _Speed = value;
-                GameManager.instance.statCalcuator.isStatusChangedType[StatType.SPEED] = true;
+                GameManager.instance.statCalculator.isStatusChangedType[StatType.SPEED] = true;
             }
         }
     }
@@ -199,7 +199,7 @@ public class StatBuff
             if (value != _Magnet)
             {
                 _Magnet = value;
-                GameManager.instance.statCalcuator.isStatusChangedType[StatType.MAGNET] = true;
+                GameManager.instance.statCalculator.isStatusChangedType[StatType.MAGNET] = true;
             }
         }
     }
@@ -214,7 +214,7 @@ public class StatBuff
             if (value != _Luck)
             {
                 _Luck = value;
-                GameManager.instance.statCalcuator.isStatusChangedType[StatType.LUCK] = true;
+                GameManager.instance.statCalculator.isStatusChangedType[StatType.LUCK] = true;
             }
         }
     }
@@ -229,7 +229,7 @@ public class StatBuff
             if (value != _Regen)
             {
                 _Regen = value;
-                GameManager.instance.statCalcuator.isStatusChangedType[StatType.REGEN] = true;
+                GameManager.instance.statCalculator.isStatusChangedType[StatType.REGEN] = true;
             }
         }
     }
@@ -244,7 +244,7 @@ public class StatBuff
             if (value != _Exp)
             {
                 _Exp = value;
-                GameManager.instance.statCalcuator.isStatusChangedType[StatType.EXP] = true;
+                GameManager.instance.statCalculator.isStatusChangedType[StatType.EXP] = true;
             }
         }
     }
@@ -259,7 +259,7 @@ public class StatBuff
             if (value != _Greed)
             {
                 _Greed = value;
-                GameManager.instance.statCalcuator.isStatusChangedType[StatType.GREED] = true;
+                GameManager.instance.statCalculator.isStatusChangedType[StatType.GREED] = true;
             }
         }
     }
@@ -274,7 +274,7 @@ public class StatBuff
             if (value != _Curse)
             {
                 _Curse = value;
-                GameManager.instance.statCalcuator.isStatusChangedType[StatType.CURSE] = true;
+                GameManager.instance.statCalculator.isStatusChangedType[StatType.CURSE] = true;
             }
         }
     }
@@ -289,7 +289,7 @@ public class StatBuff
             if (value != _Resurraction)
             {
                 _Resurraction = value;
-                GameManager.instance.statCalcuator.isStatusChangedType[StatType.RESURRATION] = true;
+                GameManager.instance.statCalculator.isStatusChangedType[StatType.RESURRATION] = true;
             }
         }
     }
@@ -304,7 +304,7 @@ public class StatBuff
             if (value != _Reroll)
             {
                 _Reroll = value;
-                GameManager.instance.statCalcuator.isStatusChangedType[StatType.REROLL] = true;
+                GameManager.instance.statCalculator.isStatusChangedType[StatType.REROLL] = true;
             }
         }
     }
@@ -319,7 +319,7 @@ public class StatBuff
             if (value != _Skip)
             {
                 _Skip = value;
-                GameManager.instance.statCalcuator.isStatusChangedType[StatType.SKIP] = true;
+                GameManager.instance.statCalculator.isStatusChangedType[StatType.SKIP] = true;
             }
         }
     }
@@ -334,7 +334,7 @@ public class StatBuff
             if (value != _PhysicsDmg)
             {
                 _PhysicsDmg = value;
-                GameManager.instance.statCalcuator.isStatusChangedType[StatType.PHYSICS_DMG] = true;
+                GameManager.instance.statCalculator.isStatusChangedType[StatType.PHYSICS_DMG] = true;
             }
         }
     }
@@ -349,7 +349,7 @@ public class StatBuff
             if (value != _PyroDmg)
             {
                 _PyroDmg = value;
-                GameManager.instance.statCalcuator.isStatusChangedType[StatType.PYRO_DMG] = true;
+                GameManager.instance.statCalculator.isStatusChangedType[StatType.PYRO_DMG] = true;
             }
         }
     }
@@ -364,7 +364,7 @@ public class StatBuff
             if (value != _HydroDmg)
             {
                 _HydroDmg = value;
-                GameManager.instance.statCalcuator.isStatusChangedType[StatType.HYDRO_DMG] = true;
+                GameManager.instance.statCalculator.isStatusChangedType[StatType.HYDRO_DMG] = true;
             }
         }
     }
@@ -379,7 +379,7 @@ public class StatBuff
             if (value != _AnemoDmg)
             {
                 _AnemoDmg = value;
-                GameManager.instance.statCalcuator.isStatusChangedType[StatType.ANEMO_DMG] = true;
+                GameManager.instance.statCalculator.isStatusChangedType[StatType.ANEMO_DMG] = true;
             }
         }
     }
@@ -394,7 +394,7 @@ public class StatBuff
             if (value != _DendroDmg)
             {
                 _DendroDmg = value;
-                GameManager.instance.statCalcuator.isStatusChangedType[StatType.DENDRO_DMG] = true;
+                GameManager.instance.statCalculator.isStatusChangedType[StatType.DENDRO_DMG] = true;
             }
         }
     }
@@ -409,7 +409,7 @@ public class StatBuff
             if (value != _ElectroDmg)
             {
                 _ElectroDmg = value;
-                GameManager.instance.statCalcuator.isStatusChangedType[StatType.ELECTRO_DMG] = true;
+                GameManager.instance.statCalculator.isStatusChangedType[StatType.ELECTRO_DMG] = true;
             }
         }
     }
@@ -424,7 +424,7 @@ public class StatBuff
             if (value != _CyroDmg)
             {
                 _CyroDmg = value;
-                GameManager.instance.statCalcuator.isStatusChangedType[StatType.CYRO_DMG] = true;
+                GameManager.instance.statCalculator.isStatusChangedType[StatType.CYRO_DMG] = true;
             }
         }
     }
@@ -439,7 +439,7 @@ public class StatBuff
             if (value != _GeoDmg)
             {
                 _GeoDmg = value;
-                GameManager.instance.statCalcuator.isStatusChangedType[StatType.GEO_DMG] = true;
+                GameManager.instance.statCalculator.isStatusChangedType[StatType.GEO_DMG] = true;
             }
         }
     }

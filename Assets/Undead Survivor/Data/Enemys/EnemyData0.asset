@@ -689,14 +689,14 @@ MonoBehaviour:
       patternSize: 2
       damage: 20
       speed: 2
-      patternDelay: 3
+      patternDelay: 2.5
       duration: 1
       isDamage: 1
     patternCoolTime: 2
     patternRange: 4
     elementType: 0
     health: 10
-    damage: 1
+    damage: 0
     armor: 0
     speed: 1.5
     size: 0.8
@@ -718,14 +718,14 @@ MonoBehaviour:
       patternSize: 2
       damage: 20
       speed: 2
-      patternDelay: 3
+      patternDelay: 2.5
       duration: 1
       isDamage: 1
     patternCoolTime: 2
     patternRange: 4
     elementType: 0
     health: 10
-    damage: 1
+    damage: 0
     armor: 0
     speed: 1.5
     size: 0.8
@@ -747,14 +747,14 @@ MonoBehaviour:
       patternSize: 2
       damage: 20
       speed: 2
-      patternDelay: 3
+      patternDelay: 2.5
       duration: 1
       isDamage: 1
     patternCoolTime: 2
     patternRange: 4
     elementType: 0
     health: 10
-    damage: 1
+    damage: 0
     armor: 0
     speed: 1.5
     size: 0.8
@@ -776,14 +776,14 @@ MonoBehaviour:
       patternSize: 2
       damage: 20
       speed: 2
-      patternDelay: 3
+      patternDelay: 2.5
       duration: 1
       isDamage: 1
     patternCoolTime: 2
     patternRange: 4
     elementType: 0
     health: 10
-    damage: 1
+    damage: 0
     armor: 0
     speed: 1.5
     size: 0.8
@@ -805,14 +805,14 @@ MonoBehaviour:
       patternSize: 2
       damage: 20
       speed: 2
-      patternDelay: 3
+      patternDelay: 2.5
       duration: 1
       isDamage: 1
     patternCoolTime: 2
     patternRange: 4
     elementType: 0
     health: 10
-    damage: 1
+    damage: 0
     armor: 0
     speed: 1.5
     size: 0.8
@@ -834,14 +834,14 @@ MonoBehaviour:
       patternSize: 2
       damage: 20
       speed: 2
-      patternDelay: 3
+      patternDelay: 2.5
       duration: 1
       isDamage: 1
     patternCoolTime: 2
     patternRange: 4
     elementType: 0
     health: 10
-    damage: 1
+    damage: 0
     armor: 0
     speed: 1.5
     size: 0.8
@@ -863,14 +863,14 @@ MonoBehaviour:
       patternSize: 2
       damage: 20
       speed: 2
-      patternDelay: 3
+      patternDelay: 2.5
       duration: 1
       isDamage: 1
     patternCoolTime: 2
     patternRange: 4
     elementType: 0
     health: 10
-    damage: 1
+    damage: 0
     armor: 0
     speed: 1.5
     size: 0.8

@@ -8,6 +8,7 @@ public class EnemyPatternArea : MonoBehaviour
 
     public RuntimeAnimatorController patternCircle;
     public RuntimeAnimatorController patternSquare;
+    public RuntimeAnimatorController patternNone;
     Animator animator;
     UnityAction onAnimationEnd;
     EnemyAttack parentEnemyAttack;
@@ -30,7 +31,7 @@ public class EnemyPatternArea : MonoBehaviour
         if (!gameObject.activeInHierarchy) return;
         animationTime += Time.deltaTime;
         if (isPatterEnd) return;
-        if (animationTime > animationDuration)
+        if (animationTime > animationDuration && animationDuration != 0)
         {
             AnimationEnd();
             animationTime = 0;
@@ -41,9 +42,10 @@ public class EnemyPatternArea : MonoBehaviour
     public EnemyPatternArea Init(EnemyAttackData attackData)
     {
         parentEnemyAttack = GetComponentInParent<EnemyAttack>(true);
+        animator = GetComponent<Animator>();
+        animator.runtimeAnimatorController = null;
         if (parentEnemyAttack == null) return this;
         SetPatternAlpha(0.0f);
-        animator = GetComponent<Animator>();
         animationDuration = attackData.patternDelay;
 
         animationTime = 0;
@@ -106,7 +108,7 @@ public class EnemyPatternArea : MonoBehaviour
             case EnemyAttack.PatternType.Suicide_Bomb:
                 isPatterEnd = false;
                 animator.runtimeAnimatorController = patternCircle;
-                SetPatternAlpha(0.0f);
+                SetPatternAlpha(1.0f);
                 break;
         }
         GetComponent<Animator>().speed = 1;

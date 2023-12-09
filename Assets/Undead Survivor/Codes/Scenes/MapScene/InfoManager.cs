@@ -22,7 +22,7 @@ public class InfoManager : MonoBehaviour
 
     public void Init()
     {
-        UpdateTooltip(GameManager.instance.statCalcuator.ToolTip());
+        UpdateTooltip(GameManager.instance.statCalculator.ToolTip());
         UpdateInfo();
         SetTooltipStatInfo();
     }

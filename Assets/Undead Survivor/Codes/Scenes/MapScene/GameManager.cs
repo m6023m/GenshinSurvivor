@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
     public CharacterData characterData;
     public WeaponData weaponData;
     ConstellationData constellationData;
-    public StatCalculator statCalcuator;
+    public StatCalculator statCalculator;
     public StatBuff statBuff;
     public GameObject playerSkills;
     public SkillPanel playerSkillIcons;
@@ -66,7 +66,7 @@ public class GameManager : MonoBehaviour
         skillData.Reset();
         artifactData.ResetArtifacts();
         statBuff = new StatBuff();
-        statCalcuator = new StatCalculator(player.stat).ArtifactData(artifactData).WeaponData(weaponData.Get(player.stat.weaponName)).StatBuff(statBuff);
+        statCalculator = new StatCalculator(player.stat).ArtifactData(artifactData).WeaponData(weaponData.Get(player.stat.weaponName)).StatBuff(statBuff);
         InitBattleSave();
         ownSkills = new Dictionary<SkillName, SkillObject>();
         ownBursts = new Dictionary<SkillName, SkillObject>();
@@ -103,8 +103,8 @@ public class GameManager : MonoBehaviour
         {
             gameInfoData = new GameInfoData();
             gameInfoData.battleResult = battleResult;
-            gameInfoData.reroll = (int)statCalcuator.Reroll;
-            gameInfoData.skip = (int)statCalcuator.Skip;
+            gameInfoData.reroll = (int)statCalculator.Reroll;
+            gameInfoData.skip = (int)statCalculator.Skip;
             GameDataManager.instance.saveData.record.playCount++;
             GameDataManager.instance.saveData.record.formPlayCount++;
         }
@@ -224,7 +224,7 @@ public class GameManager : MonoBehaviour
     public void GetExp(float exp)
     {
         if (gameInfoData.level == gameInfoData.maxLevel) return;
-        float result = exp * statCalcuator.Exp;
+        float result = exp * statCalculator.Exp;
         gameInfoData.exp += result;
         if (gameInfoData.exp >= ReqExp(gameInfoData.level))
         {
@@ -319,7 +319,7 @@ public class GameManager : MonoBehaviour
     {
         if (mora < 1) return;
         float stageValue = 1.0f + GameDataManager.instance.saveData.userData.stageLevel * 0.1f;
-        int moraResult = (int)(mora * statCalcuator.Greed * stageValue);
+        int moraResult = (int)(mora * statCalculator.Greed * stageValue);
         gameInfoData.mora += moraResult;
         battleResult.gainMora += moraResult;
         WriteMora(player.transform, moraResult);
@@ -328,7 +328,7 @@ public class GameManager : MonoBehaviour
     {
         if (primoGem < 1) return;
         float stageValue = 1.0f + GameDataManager.instance.saveData.userData.stageLevel * 0.1f;
-        int primoGemResult = primoGem + (int)(primoGem * statCalcuator.Greed * stageValue);
+        int primoGemResult = primoGem + (int)(primoGem * statCalculator.Greed * stageValue);
         gameInfoData.primoGem += primoGemResult;
         battleResult.gainPrimoGem += primoGemResult;
     }
@@ -367,7 +367,7 @@ public class GameManager : MonoBehaviour
         foreach (KeyValuePair<SkillName, SkillObject> skills in ownBursts)
         {
             SkillData.ParameterWithKey param = skills.Value.parameterWithKey;
-            float result = value * statCalcuator.Regen;
+            float result = value * statCalculator.Regen;
             result += artifactData.Scholar();
             param.parameter.elementGauge += result;
         }

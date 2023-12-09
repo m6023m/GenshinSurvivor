@@ -768,7 +768,7 @@ public class StatCalculator
         {
             if (GameManager.instance.statBuff.E_Shenhe_Stack > 0)
             {
-                result += GameManager.instance.statCalcuator.Atk * 0.3f;
+                result += GameManager.instance.statCalculator.Atk * 0.3f;
             }
         }
 
@@ -968,7 +968,7 @@ public class StatCalculator
     {
         float result = 1.0f;
         int randomNum = Random.Range(0, 100);
-        float luck = GameManager.instance.statCalcuator.Luck;
+        float luck = GameManager.instance.statCalculator.Luck;
         float criticalRate = luck;
         float criticalDamage = 0.5f + (luck * 5 / 100.0f);
         if (parameterWithKey.type == Skill.Type.Basic)
@@ -1193,7 +1193,7 @@ public class StatCalculator
         {
             float result = 1.0f;
             float gameLevel = GameManager.instance.gameInfoData.gameLevel - 1;
-            result *= GameManager.instance.statCalcuator.Curse;
+            result *= GameManager.instance.statCalculator.Curse;
             if (gameLevel > 0)
             {
                 result += (result * (GameManager.instance.gameInfoData.gameLevel * 0.2f));

@@ -35,22 +35,22 @@ public class Sheild : SkillMoveSet
         switch (skillSequence.damageStat)
         {
             case SkillSet.SkillDamageStat.ATK:
-                health = sheild * GameManager.instance.statCalcuator.Atk * sheildPer * GameManager.instance.statCalcuator.SheildMultipllier;
+                health = sheild * GameManager.instance.statCalculator.Atk * sheildPer * GameManager.instance.statCalculator.SheildMultipllier;
                 break;
             case SkillSet.SkillDamageStat.ARMOR:
-                health = sheild * GameManager.instance.statCalcuator.Armor * sheildPer * GameManager.instance.statCalcuator.SheildMultipllier;
+                health = sheild * GameManager.instance.statCalculator.Armor * sheildPer * GameManager.instance.statCalculator.SheildMultipllier;
                 break;
             case SkillSet.SkillDamageStat.HP:
-                health = sheild * GameManager.instance.statCalcuator.Health * sheildPer * GameManager.instance.statCalcuator.SheildMultipllier;
+                health = sheild * GameManager.instance.statCalculator.Health * sheildPer * GameManager.instance.statCalculator.SheildMultipllier;
                 break;
             case SkillSet.SkillDamageStat.ELEMENT_MASTERY:
-                health = sheild * GameManager.instance.statCalcuator.ElementalMastery * sheildPer * GameManager.instance.statCalcuator.SheildMultipllier;
+                health = sheild * GameManager.instance.statCalculator.ElementalMastery * sheildPer * GameManager.instance.statCalculator.SheildMultipllier;
                 break;
         }
         switch (parameterWithKey.name)
         {
             case SkillName.Crystalize:
-                health = GameManager.instance.statCalcuator.ReactionSheid;
+                health = GameManager.instance.statCalculator.ReactionSheid;
                 break;
         }
     }

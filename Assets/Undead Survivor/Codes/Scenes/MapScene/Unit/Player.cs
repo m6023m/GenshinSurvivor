@@ -81,8 +81,8 @@ public class Player : SkillOwner
 
     public void ResetHealth()
     {
-        health = GameManager.instance.statCalcuator.Health;
-        maxHealth = GameManager.instance.statCalcuator.Health;
+        health = GameManager.instance.statCalculator.Health;
+        maxHealth = GameManager.instance.statCalculator.Health;
     }
 
     private void Start()
@@ -110,7 +110,7 @@ public class Player : SkillOwner
     {
         GetInput();
         ProcessInput();
-        Vector2 nextVec = inputVec.normalized * GameManager.instance.statCalcuator.Speed * Time.fixedDeltaTime;
+        Vector2 nextVec = inputVec.normalized * GameManager.instance.statCalculator.Speed * Time.fixedDeltaTime;
         rigid.MovePosition(rigid.position + nextVec);
 
 
@@ -144,7 +144,7 @@ public class Player : SkillOwner
 
         if (GameManager.instance.statBuff.hutaoConstell5)
         {
-            if (health / GameManager.instance.statCalcuator.Health <= 0.25f)
+            if (health / GameManager.instance.statCalculator.Health <= 0.25f)
             {
                 health = 1;
                 ReceiveDamage(0, 10.0f);
@@ -194,7 +194,7 @@ public class Player : SkillOwner
 
     public void Surrender()
     {
-        GameManager.instance.gameInfoData.rebirth = (int)GameManager.instance.statCalcuator.Rebirth;
+        GameManager.instance.gameInfoData.rebirth = (int)GameManager.instance.statCalculator.Rebirth;
         OnDead();
     }
 
@@ -207,7 +207,7 @@ public class Player : SkillOwner
     private void Dead()
     {
         GameDataManager.instance.saveData.record.deadCount++;
-        if (GameManager.instance.gameInfoData.rebirth < (int)GameManager.instance.statCalcuator.Rebirth)
+        if (GameManager.instance.gameInfoData.rebirth < (int)GameManager.instance.statCalculator.Rebirth)
         {
             Init();
             ResetHealth();
@@ -296,8 +296,8 @@ public class Player : SkillOwner
 
     public void HealHealth(float value)
     {
-        float maxHealth = GameManager.instance.statCalcuator.Health;
-        float healResult = value + (value * GameManager.instance.statCalcuator.HealBonus);
+        float maxHealth = GameManager.instance.statCalculator.Health;
+        float healResult = value + (value * GameManager.instance.statCalculator.HealBonus);
 
         health += healResult;
         GameManager.instance.battleResult.healHealth += healResult;

@@ -39,7 +39,7 @@ public class SkillObject : MonoBehaviour
             skillTime = 9999;
         }
         float coolTime = skillParam.coolTime;
-        coolTime -= skillParam.coolTime * GameManager.instance.statCalcuator.CooltimeWithArtifact(parameterWithKey.type);
+        coolTime -= skillParam.coolTime * GameManager.instance.statCalculator.CooltimeWithArtifact(parameterWithKey.type);
         if (coolTime <= 0) coolTime = 0.02f;
         if (skillTime >= coolTime)
         {
@@ -94,7 +94,7 @@ public class SkillObject : MonoBehaviour
             if (skillSequence.duration > 0)
             {
                 duration = skillSequence.duration
-                * GameManager.instance.statCalcuator.Duration
+                * GameManager.instance.statCalculator.Duration
                 * parameterWithKey.parameter.duration;
             }
             if (skillSequence.isContinue)
@@ -264,21 +264,21 @@ public class SkillObject : MonoBehaviour
         if (skillSequence.objectType != Skill.ObjectType.Sheild &&
          skillSequence.objectType != Skill.ObjectType.Summon)
         {
-            area *= parameterWithKey.parameter.area * GameManager.instance.statCalcuator.Area;
+            area *= parameterWithKey.parameter.area * GameManager.instance.statCalculator.Area;
         }
         if (parameterWithKey.name == SkillName.EB_Eula && skillSequence.isConditionChange)
         {
             float areaPer = 1.0f + (GameManager.instance.statBuff.eulaStack * 0.05f);
             area *= areaPer;
         }
-        float magentArea = parameterWithKey.parameter.magnet * GameManager.instance.statCalcuator.Magnet;
+        float magentArea = parameterWithKey.parameter.magnet * GameManager.instance.statCalculator.Magnet;
 
         int skillCount = skillSequence.skillCount;
         if (skillCount <= 0) skillCount = 1;
         if (skillSequence.isSkillAdd)
         {
             skillCount += parameterWithKey.parameter.count;
-            skillCount += (int)GameManager.instance.statCalcuator.Amount;
+            skillCount += (int)GameManager.instance.statCalculator.Amount;
         }
         PoolManager.Type objectType = PoolManager.Type.Skill;
 

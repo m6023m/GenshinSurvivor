@@ -367,7 +367,7 @@ public class WeaponStarter
             if (isSword_The_Black) return;
             isSword_The_Black = true;
             WeaponFade();
-            player.HealHealth(GameManager.instance.statCalcuator.Atk * weaponParameter.valueSums[1]);
+            player.HealHealth(GameManager.instance.statCalculator.Atk * weaponParameter.valueSums[1]);
             weapon.PatternDelay(10.0f).OnComplete(() =>
             {
                 isSword_The_Black = false;
@@ -710,7 +710,7 @@ public class WeaponStarter
         bool isBuff = false;
         while (true)
         {
-            float healthPer = player.health / GameManager.instance.statCalcuator.Health;
+            float healthPer = player.health / GameManager.instance.statCalculator.Health;
             if (healthPer < 0.5f && !isBuff)
             {
                 statBuff.HealthAtkPer += weaponParameter.valueSums[1];

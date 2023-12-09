@@ -152,7 +152,7 @@ public class MapObject : MonoBehaviour
         int dropPer = 0;
         if (objectName == Name.Box0 || objectName == Name.Box1)
         {
-            dropPer = 1 + (int)GameManager.instance.statCalcuator.Luck;
+            dropPer = 1 + (int)GameManager.instance.statCalculator.Luck;
             if (randomNum <= dropPer)
             {
                 int randomBox = Random.Range(0, 20);

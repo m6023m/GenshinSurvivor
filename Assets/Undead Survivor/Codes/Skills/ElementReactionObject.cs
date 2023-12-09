@@ -64,7 +64,7 @@ public class ElementReactionObject : MonoBehaviour
             if (skillSequence.duration > 0)
             {
                 duration = skillSequence.duration
-                * GameManager.instance.statCalcuator.Duration
+                * GameManager.instance.statCalculator.Duration
                 * parameterWithKey.parameter.duration;
             }
             if (skillSequence.delay > 0)
@@ -111,15 +111,15 @@ public class ElementReactionObject : MonoBehaviour
 
     private void CreateObjects(SkillSet.SkillSequence skillSequence, SkillSet.SkillSequence subSkillSequence)
     {
-        float area = parameterWithKey.parameter.area * GameManager.instance.statCalcuator.Area * skillSequence.skillSize;
-        float magentArea = parameterWithKey.parameter.magnet * GameManager.instance.statCalcuator.Magnet;
+        float area = parameterWithKey.parameter.area * GameManager.instance.statCalculator.Area * skillSequence.skillSize;
+        float magentArea = parameterWithKey.parameter.magnet * GameManager.instance.statCalculator.Magnet;
 
         int skillCount = skillSequence.skillCount;
         if (skillCount <= 0) skillCount = 1;
         if (skillSequence.isSkillAdd)
         {
             skillCount += parameterWithKey.parameter.count;
-            skillCount += (int)GameManager.instance.statCalcuator.Amount;
+            skillCount += (int)GameManager.instance.statCalculator.Amount;
         }
 
         PoolManager.Type objectType = PoolManager.Type.Skill;

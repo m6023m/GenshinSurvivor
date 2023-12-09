@@ -463,7 +463,7 @@ public class ArtifactData : ScriptableObject
     public float Maiden_Beloved()//치유보너스를 대미지 비율에 추가
     {
         if (artifacts[ArtifactName.Maiden_Beloved].level < SET_COUNT) return 0;
-        return GameManager.instance.statCalcuator.HealBonus;
+        return GameManager.instance.statCalculator.HealBonus;
     }
 
     public float Viridescent_Venerer(SkillName skillName)
@@ -579,12 +579,12 @@ public class ArtifactData : ScriptableObject
 
     float Emblem_of_Severed_Fate()
     {
-        return artifacts[ArtifactName.Emblem_of_Severed_Fate].level < SET_COUNT ? 0 : GameManager.instance.statCalcuator.Regen;
+        return artifacts[ArtifactName.Emblem_of_Severed_Fate].level < SET_COUNT ? 0 : GameManager.instance.statCalculator.Regen;
     }
 
     float Ocean_Hued_Clam()
     {
-        return artifacts[ArtifactName.Ocean_Hued_Clam].level < SET_COUNT ? 0 : GameManager.instance.statCalcuator.HealBonus;
+        return artifacts[ArtifactName.Ocean_Hued_Clam].level < SET_COUNT ? 0 : GameManager.instance.statCalculator.HealBonus;
     }
 
     float Vermillion_Hereafter()

@@ -1178,7 +1178,7 @@ public class ConstellationData
             burst.parameter.duration *= 1.2f;
             burst.AddStartListener(() =>
             {
-                buffValue = GameManager.instance.statCalcuator.Armor * 0.5f;
+                buffValue = GameManager.instance.statCalculator.Armor * 0.5f;
                 statBuff.Atk += buffValue;
             });
 
@@ -1453,11 +1453,11 @@ public class ConstellationData
         float buffValue = player.stat.armor;
         while (true)
         {
-            float healthPer = player.health / GameManager.instance.statCalcuator.Health;
+            float healthPer = player.health / GameManager.instance.statCalculator.Health;
             if (healthPer <= 0.5f && !isBuff)
             {
                 isBuff = true;
-                buffValue = GameManager.instance.statCalcuator.Armor;
+                buffValue = GameManager.instance.statCalculator.Armor;
                 statBuff.Armor += buffValue;
             }
 
@@ -2091,7 +2091,7 @@ public class ConstellationData
         { // 이누자카 멍멍 방원진 발동 시 방어력의 50% 만큼 체력을 회복
             skill.AddStartListener(() =>
             {
-                player.HealHealth(GameManager.instance.statCalcuator.Armor * 0.5f);
+                player.HealHealth(GameManager.instance.statCalculator.Armor * 0.5f);
             });
         }
         if (character.constellation[4])
@@ -2292,7 +2292,7 @@ public class ConstellationData
             skill.AddStartListener(() =>
             {
                 float duration = skill.skillSet.sequences[0].duration
-                * GameManager.instance.statCalcuator.Duration
+                * GameManager.instance.statCalculator.Duration
                 * skill.parameter.duration;
                 player.ReceiveDamage(0, duration);
             });

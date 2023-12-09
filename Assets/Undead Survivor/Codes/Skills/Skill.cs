@@ -64,9 +64,9 @@ public class Skill : SkillMoveSet
     public override SkillMoveSet Init(SkillData.ParameterWithKey parameterWithKey, SkillSet.SkillSequence skillSequence, TransformValue prevTransform, int index)
     {
         this.skillSequence = skillSequence;
-        float atk = GameManager.instance.statCalcuator.Atk;
+        float atk = GameManager.instance.statCalculator.Atk;
         elementType = skillSequence.elementType;
-        skillDamage = GameManager.instance.statCalcuator.CalcDamageSkill(skillSequence, parameterWithKey, elementType);
+        skillDamage = GameManager.instance.statCalculator.CalcDamageSkill(skillSequence, parameterWithKey, elementType);
         ChangeDamageCalc(parameterWithKey);
         isChanged = false;
         base.Init(parameterWithKey, skillSequence, prevTransform, index);
@@ -90,7 +90,7 @@ public class Skill : SkillMoveSet
     {
         SkillData.ParameterWithKey baseAttackParameter = GameManager.instance.baseAttack.parameterWithKey;
         SkillSet.SkillSequence skillSequence = baseAttackParameter.skillSet.sequences[0];
-        float atk = GameManager.instance.statCalcuator.Atk;
+        float atk = GameManager.instance.statCalculator.Atk;
         switch (parameterWithKey.name)
         {
             case SkillName.EB_Razor:
@@ -101,17 +101,17 @@ public class Skill : SkillMoveSet
                         skillSequence = sequence;
                     }
                 }
-                skillDamage = GameManager.instance.statCalcuator.CalcDamageSkill(skillSequence, baseAttackParameter, Element.Type.Electro);
+                skillDamage = GameManager.instance.statCalculator.CalcDamageSkill(skillSequence, baseAttackParameter, Element.Type.Electro);
                 break;
             case SkillName.EB_Hutao:
-                if (GameManager.instance.player.health / GameManager.instance.statCalcuator.Health <= 0.5f)
+                if (GameManager.instance.player.health / GameManager.instance.statCalculator.Health <= 0.5f)
                 {
                     skillDamage *= 1.5f;
-                    GameManager.instance.player.HealHealth(GameManager.instance.statCalcuator.Health * 0.45f);
+                    GameManager.instance.player.HealHealth(GameManager.instance.statCalculator.Health * 0.45f);
                 }
                 else
                 {
-                    GameManager.instance.player.HealHealth(GameManager.instance.statCalcuator.Health * 0.3f);
+                    GameManager.instance.player.HealHealth(GameManager.instance.statCalculator.Health * 0.3f);
                 }
                 break;
             case SkillName.EB_Eula:
@@ -125,7 +125,7 @@ public class Skill : SkillMoveSet
 
                 if (parameterWithKey.constellations.num5)
                 {
-                    skillDamage += (GameManager.instance.statCalcuator.ElementalMastery * 0.02f);
+                    skillDamage += (GameManager.instance.statCalculator.ElementalMastery * 0.02f);
                 }
                 break;
             case SkillName.EB_Miko:
@@ -137,7 +137,7 @@ public class Skill : SkillMoveSet
         }
         if (parameterWithKey.type == Skill.Type.Reaction)
         {
-            skillDamage = GameManager.instance.statCalcuator.ReactionDamage(parameterWithKey, reactedDamage, skillSequence.elementType);
+            skillDamage = GameManager.instance.statCalculator.ReactionDamage(parameterWithKey, reactedDamage, skillSequence.elementType);
         }
     }
     protected override void OnTriggerEnter2D(Collider2D collider2D)

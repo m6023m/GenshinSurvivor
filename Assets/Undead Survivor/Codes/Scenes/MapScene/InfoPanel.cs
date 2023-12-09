@@ -105,7 +105,7 @@ public class InfoPanel : MonoBehaviour
         if (!IsRelevantSkillType(skillSequence.objectType) && (skillSequence.subSkillSequence == null || !IsRelevantSkillType(skillSequence.subSkillSequence.objectType)))
             return info;
 
-        float calcValue = (skillSequence.objectType == Skill.ObjectType.Sheild) ? CalcHealth(skillParameter, skillSequence) : GameManager.instance.statCalcuator.CalcDamageSkill(skillSequence, skillParameter, skillSequence.elementType);
+        float calcValue = (skillSequence.objectType == Skill.ObjectType.Sheild) ? CalcHealth(skillParameter, skillSequence) : GameManager.instance.statCalculator.CalcDamageSkill(skillSequence, skillParameter, skillSequence.elementType);
 
         info.Append("Element.Type.".AddString(skillSequence.elementType.ToString()).Localize());
         info.Append(" ");
@@ -161,16 +161,16 @@ public class InfoPanel : MonoBehaviour
         switch (skillSequence.damageStat)
         {
             case SkillSet.SkillDamageStat.ATK:
-                health = sheild * GameManager.instance.statCalcuator.Atk * sheildPer * GameManager.instance.statCalcuator.SheildMultipllier;
+                health = sheild * GameManager.instance.statCalculator.Atk * sheildPer * GameManager.instance.statCalculator.SheildMultipllier;
                 break;
             case SkillSet.SkillDamageStat.ARMOR:
-                health = sheild * GameManager.instance.statCalcuator.Armor * sheildPer * GameManager.instance.statCalcuator.SheildMultipllier;
+                health = sheild * GameManager.instance.statCalculator.Armor * sheildPer * GameManager.instance.statCalculator.SheildMultipllier;
                 break;
             case SkillSet.SkillDamageStat.HP:
-                health = sheild * GameManager.instance.statCalcuator.Health * sheildPer * GameManager.instance.statCalcuator.SheildMultipllier;
+                health = sheild * GameManager.instance.statCalculator.Health * sheildPer * GameManager.instance.statCalculator.SheildMultipllier;
                 break;
             case SkillSet.SkillDamageStat.ELEMENT_MASTERY:
-                health = sheild * GameManager.instance.statCalcuator.ElementalMastery * sheildPer * GameManager.instance.statCalcuator.SheildMultipllier;
+                health = sheild * GameManager.instance.statCalculator.ElementalMastery * sheildPer * GameManager.instance.statCalculator.SheildMultipllier;
                 break;
         }
         return health;

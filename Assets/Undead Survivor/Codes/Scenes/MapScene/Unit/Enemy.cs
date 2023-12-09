@@ -63,7 +63,7 @@ public class Enemy : MonoBehaviour
     }
     public virtual void Init(SpawnData data)
     {
-        float gameLevelCorrection = GameManager.instance.statCalcuator.GameLevelCorrection;
+        float gameLevelCorrection = GameManager.instance.statCalculator.GameLevelCorrection;
         UserData userData = GameDataManager.instance.saveData.userData;
         summons = new Dictionary<int, Summon>();
         damageTimers = new Dictionary<int, float>();
@@ -107,7 +107,7 @@ public class Enemy : MonoBehaviour
                 {
                     elementType = extendParameter.changeElementType;
                 }
-                float damageResult = GameManager.instance.statCalcuator.CalcDamage(this, extendParameter, extendDamage.Value, elementType);
+                float damageResult = GameManager.instance.statCalculator.CalcDamage(this, extendParameter, extendDamage.Value, elementType);
 
                 ReceiveDamage(extendDamage.Key, damageResult, elementType);
                 if (damageAttach != null)
@@ -121,7 +121,7 @@ public class Enemy : MonoBehaviour
     public void ReceiveDamage(Skill skill)
     {
         SkillData.ParameterWithKey parameterWithKey = skill.parameterWithKey;
-        float skillDamage = GameManager.instance.statCalcuator.CalcDamage(this, parameterWithKey, skill.Damage, skill.elementType);
+        float skillDamage = GameManager.instance.statCalculator.CalcDamage(this, parameterWithKey, skill.Damage, skill.elementType);
 
         Skill_Parameter parameter = parameterWithKey.parameter;
         if (damageAttach != null)

@@ -167,18 +167,18 @@ public class Buff : SkillMoveSet
                 player.HealHealth(player.maxHealth / 20.0f * parameterWithKey.parameter.healPer);
                 break;
             case SkillName.EB_Jean:
-                player.HealHealth(GameManager.instance.statCalcuator.Atk / 2.0f * parameterWithKey.parameter.healPer);
+                player.HealHealth(GameManager.instance.statCalculator.Atk / 2.0f * parameterWithKey.parameter.healPer);
                 break;
             case SkillName.E_Qiqi:
-                player.HealHealth(GameManager.instance.statCalcuator.Atk * 1.0f * parameterWithKey.parameter.healPer);
+                player.HealHealth(GameManager.instance.statCalculator.Atk * 1.0f * parameterWithKey.parameter.healPer);
                 break;
             case SkillName.EB_Diona:
-                player.HealHealth(GameManager.instance.statCalcuator.Health * 0.1f * parameterWithKey.parameter.healPer);
+                player.HealHealth(GameManager.instance.statCalculator.Health * 0.1f * parameterWithKey.parameter.healPer);
                 break;
             case SkillName.EB_Sayu:
                 float sayuBonus = 0;
-                if (parameterWithKey.constellations.num5) sayuBonus += GameManager.instance.statCalcuator.ElementalMastery * 0.02f;
-                player.HealHealth((GameManager.instance.statCalcuator.Health * 0.1f * parameterWithKey.parameter.healPer) + sayuBonus);
+                if (parameterWithKey.constellations.num5) sayuBonus += GameManager.instance.statCalculator.ElementalMastery * 0.02f;
+                player.HealHealth((GameManager.instance.statCalculator.Health * 0.1f * parameterWithKey.parameter.healPer) + sayuBonus);
                 break;
         }
     }
@@ -205,8 +205,8 @@ public class Buff : SkillMoveSet
     {
         enemy = GetComponentInParent<Enemy>();
         if (enemy == null || !enemy.isLive) return;
-        float reactionDamage = GameManager.instance.statCalcuator.ReactionDamage(parameterWithKey, reactedDamage, skillSequence.elementType);
-        skillDamage = GameManager.instance.statCalcuator.CalcDamage(enemy, parameterWithKey, reactionDamage, skillSequence.elementType);
+        float reactionDamage = GameManager.instance.statCalculator.ReactionDamage(parameterWithKey, reactedDamage, skillSequence.elementType);
+        skillDamage = GameManager.instance.statCalculator.CalcDamage(enemy, parameterWithKey, reactionDamage, skillSequence.elementType);
         switch (parameterWithKey.name)
         {
             case SkillName.Vaporize:
@@ -260,10 +260,10 @@ public class Buff : SkillMoveSet
                 baseAttack.parameter.coolTime -= this.buffValue0;
                 break;
             case SkillName.EB_Qiqi:
-                player.HealHealth(GameManager.instance.statCalcuator.Atk * 3.0f * parameterWithKey.parameter.healPer);
+                player.HealHealth(GameManager.instance.statCalculator.Atk * 3.0f * parameterWithKey.parameter.healPer);
                 break;
             case SkillName.EB_Noelle:
-                buffValue0 = GameManager.instance.statCalcuator.Armor * 0.7f;
+                buffValue0 = GameManager.instance.statCalculator.Armor * 0.7f;
                 this.buffValue0 = buffValue0;//방어력의 70%만큼 공격력 증가
                 statBuff.Atk += this.buffValue0;
                 baseAttack.parameter.area += 0.5f;
@@ -292,8 +292,8 @@ public class Buff : SkillMoveSet
             case SkillName.E_Hutao:
                 float loseHp = GameManager.instance.player.health * 0.3f;
                 GameManager.instance.player.health -= loseHp;
-                buffValue0 = GameManager.instance.statCalcuator.Health * 0.02f;
-                if (GameManager.instance.player.health / GameManager.instance.statCalcuator.Health <= 0.5f)
+                buffValue0 = GameManager.instance.statCalculator.Health * 0.02f;
+                if (GameManager.instance.player.health / GameManager.instance.statCalculator.Health <= 0.5f)
                 {
                     buffValue0 *= 1.5f;
                 }

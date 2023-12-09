@@ -167,7 +167,7 @@ public class LevelUpManager : MonoBehaviour
         }
         artifact.level++;
         GameManager.instance.gameInfoData.getArtifacts.AddOrUpdate(artifactName, artifact.level);
-        GameManager.instance.statCalcuator.OnValidateStatAll();
+        GameManager.instance.statCalculator.OnValidateStatAll();
     }
 
 

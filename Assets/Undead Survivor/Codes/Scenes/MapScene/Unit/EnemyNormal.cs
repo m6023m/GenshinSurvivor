@@ -214,9 +214,6 @@ public class EnemyNormal : Enemy
         patternCoolTime = data.enemyStat.patternCoolTime;
         patternRange = data.enemyStat.patternRange;
         enemyAttackData = data.enemyStat.enemyAttackData;
-        enemyAttackData.damage = data.enemyStat.damage;
-        EnemyAttackData defalutAttack = new EnemyAttackData();
-        enemyAttack.Init(defalutAttack);
     }
 
 
@@ -301,7 +298,7 @@ public class EnemyNormal : Enemy
     void Magnet(Vector3 target, float magnetSpeed)
     {
         Vector3 targetPosition = target;
-        magnetVec = (targetPosition - transform.position).normalized * magnetSpeed * GameManager.instance.statCalcuator.Magnet;
+        magnetVec = (targetPosition - transform.position).normalized * magnetSpeed * GameManager.instance.statCalculator.Magnet;
     }
 
     protected override void LiveCheck()
@@ -371,7 +368,7 @@ public class EnemyNormal : Enemy
         int dropPer = 0;
         if (type == Type.Normal)
         {
-            dropPer = 1 + (int)GameManager.instance.statCalcuator.Luck;
+            dropPer = 1 + (int)GameManager.instance.statCalculator.Luck;
             if (randomNum <= dropPer)
             {
                 int randomBox = Random.Range(0, 10);
@@ -481,7 +478,7 @@ public class EnemyNormal : Enemy
 
         enemyAttack.transform.parent = transform;
         enemyAttackData.targetDirection = vecDestination;
-        enemyAttack.GetComponent<EnemyAttack>().Init(enemyAttackData);
+        enemyAttack.Init(enemyAttackData);
 
 
 
@@ -523,7 +520,7 @@ public class EnemyNormal : Enemy
 
         enemyAttack.transform.parent = transform;
         enemyAttackData.targetDirection = vecDestination;
-        enemyAttack.GetComponent<EnemyAttack>().Init(enemyAttackData);
+        enemyAttack.Init(enemyAttackData);
 
 
 
@@ -551,22 +548,24 @@ public class EnemyNormal : Enemy
 
         });
     }
-
     public void Suicide_BombPattern()
     {
         addSpeed = enemyAttack.attackData.speed;
         enemyAttack.transform.parent = transform;
-        
-        enemyAttack.GetComponent<EnemyAttack>().Init(enemyAttackData);
+
         animator.SetBool("Pattern", true);
-        PatternDelay(enemyAttackData.patternDelay).OnComplete(() =>
+
+        enemyAttack.attackData.endListener = () =>
         {
             animator.SetBool("Pattern", false);
-            
+            health = -1;
+            LiveCheck();
+        };
+        enemyAttack.Init(enemyAttackData);
 
-        });
-
+        enemyAttack.ActivateEnemyPatternArea();
     }
+
 
     public void Stop(bool isStop)
     {
