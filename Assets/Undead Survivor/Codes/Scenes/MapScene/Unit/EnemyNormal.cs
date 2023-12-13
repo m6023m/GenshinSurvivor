@@ -555,7 +555,7 @@ public class EnemyNormal : Enemy
 
         animator.SetBool("Pattern", true);
 
-        enemyAttack.attackData.endListener = () =>
+        enemyAttack.attackData.endDamageListener = () =>
         {
             animator.SetBool("Pattern", false);
             health = -1;

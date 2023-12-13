@@ -20,10 +20,8 @@ public class EnemyAttack : MonoBehaviour
         Suicide_Bomb
     }
     public EnemyAttackData attackData;
-    RuntimeAnimatorController animatorController;
 
     bool isInit = false;
-    bool isPattenStart = false;
     EnemyPatternArea patternArea;
     public EnemyDamage patternDamage;
     Enemy enemy;
@@ -33,7 +31,6 @@ public class EnemyAttack : MonoBehaviour
 
     public void Init(EnemyAttackData data)
     {
-        isPattenStart = false;
         isInit = false;
         attackData = data;
         transform.localPosition = Vector3.zero;
@@ -85,7 +82,6 @@ public class EnemyAttack : MonoBehaviour
                 transform.localPosition = Vector2.zero;
                 break;
         }
-        PatternAreaCheck();
     }
 
     void SetChargePattern()
@@ -99,24 +95,6 @@ public class EnemyAttack : MonoBehaviour
         transform.rotation = Quaternion.FromToRotation(Vector3.up, dir);
     }
 
-
-
-    void PatternAreaCheck()
-    {
-        patternArea.Init(attackData).OnAnimationEnd(() =>
-        {
-            ActivateEnemyDamage();
-        });
-
-        if (attackData.patternDelay == 0)
-        {
-            ActivateEnemyDamage();
-        }
-        else
-        {
-            patternArea.SetPatternAlpha(1.0f);
-        }
-    }
 
     void PatternNormal()
     {
@@ -150,14 +128,7 @@ public class EnemyAttack : MonoBehaviour
         if (patternArea != null)
         { 
             patternArea.gameObject.SetActive(true);
-            patternArea.Init(attackData).OnAnimationEnd(() =>
-            {
-                DeactivateObjectsAfterAnimation();
-                if (attackData.endListener != null)
-                {
-                    attackData.endListener.Invoke();
-                }
-            });
+            patternArea.Init(attackData);
         }
     }
 
@@ -189,6 +160,8 @@ public class EnemyAttack : MonoBehaviour
 public class EnemyAttackData
 {
     public EnemyAttack.PatternType patternType;
+    public AnimationClip patternAnimationClip;
+    public AnimationClip damageAnimationClip;
     public Vector3 targetDirection;
     public float patternSize = 1.0f;
     public float damage;
@@ -196,12 +169,17 @@ public class EnemyAttackData
     public float patternDelay;
     public float duration;
     public bool isDamage;
-    public UnityAction endListener;
+    public UnityAction startDamageListener;
+    public UnityAction endDamageListener;
+    public UnityAction startPatternListener;
+    public UnityAction endPatternListener;
     public EnemyAttackData(EnemyAttackData data)
     {
         float gameLevelCorrection = GameManager.instance.statCalculator.GameLevelCorrection;
         UserData userData = GameDataManager.instance.saveData.userData;
         patternType = data.patternType;
+        patternAnimationClip = data.patternAnimationClip;
+        damageAnimationClip = data.damageAnimationClip;
         targetDirection = data.targetDirection;
         patternSize = data.patternSize;
         damage = data.damage * gameLevelCorrection * userData.stageATK;
@@ -209,6 +187,10 @@ public class EnemyAttackData
         patternDelay = data.patternDelay;
         duration = data.duration;
         isDamage = data.isDamage;
+        startDamageListener = data.startDamageListener;
+        endDamageListener = data.endDamageListener;
+        startPatternListener = data.startPatternListener;
+        endPatternListener = data.endPatternListener;
     }
 
     public EnemyAttackData()

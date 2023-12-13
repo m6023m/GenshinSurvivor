@@ -153,9 +153,9 @@ public class EnemyDamage : MonoBehaviour
         yield return new WaitForSeconds(duration);
         // EnemyAttack 클래스의 메서드를 호출하여 객체를 비활성화합니다.
         parentEnemyAttack.DeactivateEnemyDamage();
-        if (attackData.endListener != null)
+        if (attackData.endDamageListener != null)
         {
-            attackData.endListener.Invoke();
+            attackData.endDamageListener.Invoke();
         }
     }
 
