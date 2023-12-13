@@ -21,139 +21,98 @@ public class EnemyAttack : MonoBehaviour
     }
     public EnemyAttackData attackData;
 
-    bool isInit = false;
-    EnemyPatternArea patternArea;
-    public EnemyDamage patternDamage;
-    Enemy enemy;
+    EnemyPatternArea _patternArea;
+    EnemyDamage _patternDamage;
+    EnemyPatternArea patternArea
+    {
+        get
+        {
+            if (_patternArea == null) _patternArea = GetComponentInChildren<EnemyPatternArea>(true);
+            return _patternArea;
+        }
+    }
+    EnemyDamage patternDamage
+    {
+        get
+        {
+            if (_patternDamage == null) _patternDamage = GetComponentInChildren<EnemyDamage>(true);
+            return _patternDamage;
+        }
+    }
+    Enemy _enemy;
+    public Enemy enemy
+    {
+        get
+        {
+            if (_enemy == null) _enemy = GetComponentInParent<Enemy>();
+            return _enemy;
+        }
+    }
 
 
 
 
     public void Init(EnemyAttackData data)
     {
-        isInit = false;
-        attackData = data;
-        transform.localPosition = Vector3.zero;
-        patternArea = GetComponentInChildren<EnemyPatternArea>(true);
-        patternDamage = GetComponentInChildren<EnemyDamage>(true);
+        attackData = new EnemyAttackData(data);
+        patternArea.gameObject.SetActive(false);
         patternDamage.gameObject.SetActive(false);
-        enemy = GetComponentInParent<Enemy>();
-        DeactivateEnemyDamage();
-        DeactivateEnemyPatternArea();
-        InitAttack();
-    }
-
-    void InitAttack()
-    {
-        if (isInit) return;
-        isInit = true;
-
-        // 공통적으로 필요한 설정
-        transform.localScale = new Vector2(1.0f * attackData.patternSize, 1.0f * attackData.patternSize);
-
-        switch (attackData.patternType)
+        patternArea.onAnimationStart = () =>
         {
-            case PatternType.Melee:
-                transform.localPosition = Vector3.zero;
-                PatternNormal();
-                break;
-            case PatternType.Range:
-                PatternNormal();
-                break;
-            case PatternType.Breath:
-                transform.ScaleFront(enemy.transform, new Vector3(1.0f * attackData.patternSize, 25.0f));
-                break;
-            case PatternType.Meteor:
-                transform.position = GameManager.instance.player.transform.position;
-                break;
-            case PatternType.Warp:
-                transform.position = attackData.targetDirection;
-                break;
-            case PatternType.Howling:
-                // 특별한 설정이 필요 없는 경우
-                break;
-            case PatternType.Wave:
-                PatternWave();
-                break;
-            case PatternType.Charge:
-                SetChargePattern();
-                break;
-            case PatternType.Suicide_Bomb:
-                transform.localPosition = Vector2.zero;
-                break;
-        }
-    }
-
-    void SetChargePattern()
-    {
-        Transform nearestTarget = GameManager.instance.player.scanner.nearestTarget;
-        Vector3 targetPos = GameManager.instance.player.transform.position;
-        Vector3 dir = targetPos - transform.position;
-        dir = dir.normalized;
-        attackData.targetDirection = dir;
-        transform.ScaleFront(enemy.transform, new Vector3(1.0f, attackData.patternSize));
-        transform.rotation = Quaternion.FromToRotation(Vector3.up, dir);
-    }
-
-
-    void PatternNormal()
-    {
-        Transform nearestTarget = GameManager.instance.player.scanner.nearestTarget;
-        Vector3 targetPos = GameManager.instance.player.transform.position;
-        Vector3 dir = targetPos - transform.position;
-        float size = 1.0f * attackData.patternSize;
-        dir = dir.normalized;
-        attackData.targetDirection = dir;
-        transform.localScale = new Vector3(size, size);
-        transform.rotation = Quaternion.FromToRotation(Vector3.up, dir);
-    }
-    public void ActivateEnemyDamage()
-    {
-        if (patternDamage != null)
+            PatternStart();
+        };
+        patternArea.onAnimationEnd = () =>
         {
+            PatternEnd();
             patternDamage.gameObject.SetActive(true);
-            patternDamage.Init(attackData);
-        }
-    }
-
-    public void DeactivateEnemyDamage()
-    {
-        if (patternDamage != null)
-        {
-            patternDamage.gameObject.SetActive(false);
-        }
-    }
-    public void ActivateEnemyPatternArea()
-    {
-        if (patternArea != null)
-        { 
-            patternArea.gameObject.SetActive(true);
-            patternArea.Init(attackData);
-        }
-    }
-
-
-    public void DeactivateEnemyPatternArea()
-    {
-        if (patternArea != null)
-        {
             patternArea.gameObject.SetActive(false);
-        }
+        };
+        patternDamage.onAnimationStart = () =>
+        {
+            DamageStart();
+        };
+        patternDamage.onAnimationEnd = () =>
+        {
+            DamageEnd();
+            patternDamage.gameObject.SetActive(false);
+        };
+        patternArea.Init(this);
+        patternDamage.Init(this);
+    }
+    public void AnimationStart()
+    {
+        patternArea.gameObject.SetActive(true);
     }
 
-    private void DeactivateObjectsAfterAnimation()
+    void PatternStart()
     {
-        DeactivateEnemyDamage();
-        DeactivateEnemyPatternArea();
+        if (attackData.startPatternListener == null) return;
+        attackData.startPatternListener.Invoke();
+    }
+    void PatternEnd()
+    {
+        if (attackData.endPatternListener == null) return;
+        attackData.endPatternListener.Invoke();
+    }
+    void DamageStart()
+    {
+        if (attackData.startDamageListener == null) return;
+        attackData.startDamageListener.Invoke();
+
+    }
+    void DamageEnd()
+    {
+        if (attackData.endDamageListener == null) return;
+        attackData.endDamageListener.Invoke();
     }
 
-    void PatternWave()
-    {
-        float size = 1.0f * attackData.patternSize;
-        transform.localScale = new Vector3(size, size);
-        transform.rotation
-         = Quaternion.FromToRotation(Vector3.up, attackData.targetDirection);
+    public void ResetAnimation() {
+        patternArea.isInit = false;
+        patternDamage.isInit = false;
+        patternArea.gameObject.SetActive(false);
+        patternDamage.gameObject.SetActive(false);
     }
+
 }
 
 [System.Serializable]
@@ -169,10 +128,10 @@ public class EnemyAttackData
     public float patternDelay;
     public float duration;
     public bool isDamage;
-    public UnityAction startDamageListener;
-    public UnityAction endDamageListener;
     public UnityAction startPatternListener;
     public UnityAction endPatternListener;
+    public UnityAction startDamageListener;
+    public UnityAction endDamageListener;
     public EnemyAttackData(EnemyAttackData data)
     {
         float gameLevelCorrection = GameManager.instance.statCalculator.GameLevelCorrection;

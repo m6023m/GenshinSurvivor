@@ -186,7 +186,6 @@ public class Tartaglia : Boss
         attackData.patternSize = 5.0f;
         attackData.speed = 1.0f;
         attackData.isDamage = true;
-        body.enemyAttack.patternDamage.animationClips[(int)EnemyDamage.AttackName.Melee] = meleeClips[attackNumber - 1];
         attackData.targetDirection = new Vector3(playerTransform.position.x, playerTransform.position.y);
         body.enemyAttack.Init(attackData);
 

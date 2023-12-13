@@ -83,7 +83,7 @@ public class EnemyNormal : Enemy
         elementReaction = GetComponentInChildren<ElementReaction>();
         wait = new WaitForFixedUpdate();
         magnetVec = Vector2.zero;
-        enemyAttack = GetComponentInChildren<EnemyAttack>();
+        enemyAttack = GetComponentInChildren<EnemyAttack>(true);
     }
 
     void FixedUpdate()
@@ -170,9 +170,9 @@ public class EnemyNormal : Enemy
     public override void Init(SpawnData data)
     {
         base.Init(data);
+        enemyAttack.ResetAnimation();
         addSpeed = 1;
         animator.runtimeAnimatorController = animCon[(int)data.spriteName];
-
         InitPatternData(data);
         size = data.enemyStat.size;
         transform.localScale = Vector3.one * size;
@@ -440,7 +440,8 @@ public class EnemyNormal : Enemy
 
             animator.SetBool("Pattern", true);
             enemyAttack.transform.parent = transform;
-            enemyAttack.GetComponent<EnemyAttack>().Init(enemyAttackData);
+            enemyAttack.Init(enemyAttackData);
+            enemyAttack.AnimationStart();
 
             PatternDelay(1.0f).OnComplete(() =>
             {
@@ -479,6 +480,7 @@ public class EnemyNormal : Enemy
         enemyAttack.transform.parent = transform;
         enemyAttackData.targetDirection = vecDestination;
         enemyAttack.Init(enemyAttackData);
+        enemyAttack.AnimationStart();
 
 
 
@@ -521,6 +523,7 @@ public class EnemyNormal : Enemy
         enemyAttack.transform.parent = transform;
         enemyAttackData.targetDirection = vecDestination;
         enemyAttack.Init(enemyAttackData);
+        enemyAttack.AnimationStart();
 
 
 
@@ -553,17 +556,20 @@ public class EnemyNormal : Enemy
         addSpeed = enemyAttack.attackData.speed;
         enemyAttack.transform.parent = transform;
 
-        animator.SetBool("Pattern", true);
 
-        enemyAttack.attackData.endDamageListener = () =>
+        enemyAttackData.startDamageListener = () =>
         {
+            addSpeed = 0;
             animator.SetBool("Pattern", false);
+        };
+        enemyAttackData.endDamageListener = () =>
+        {
             health = -1;
             LiveCheck();
         };
         enemyAttack.Init(enemyAttackData);
-
-        enemyAttack.ActivateEnemyPatternArea();
+        animator.SetBool("Pattern", true);
+        enemyAttack.AnimationStart();
     }
 
 

@@ -28,13 +28,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2386309968556310123}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4410707892560769480}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6535053813005809418
 SpriteRenderer:
@@ -90,7 +90,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!95 &4289940694584639133
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -107,7 +107,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &6581064078491258247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120,11 +121,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50492dcd6a8803244abf8f495f858f05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animationClips:
-  - {fileID: 7400000, guid: 4a7ed7997cb67aa47b8a6fffb5acfaec, type: 2}
-  - {fileID: 7400000, guid: cede099dee997914b822c6bf79d55518, type: 2}
-  - {fileID: 7400000, guid: 39fb2395d342ef34c992ebfacb3c7a9a, type: 2}
-  - {fileID: 7400000, guid: 8e03a4073d3cecf49842bf1a54a6b6b9, type: 2}
 --- !u!50 &2374303038789111427
 Rigidbody2D:
   serializedVersion: 4
@@ -142,6 +138,12 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -156,6 +158,25 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -188,13 +209,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2888385463900821815}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4410707892560769480}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &464331760316109429
 SpriteRenderer:
@@ -250,7 +271,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!95 &2145429858691753024
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -258,7 +279,7 @@ Animator:
   m_GameObject: {fileID: 2888385463900821815}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 703a896d70d29534a8e526f3e36bb53e, type: 2}
+  m_Controller: {fileID: 9100000, guid: 72d75a0382473974392ed258e194a1e2, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -267,7 +288,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &5304413440035362485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -280,8 +302,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caa2abc9f9b88eb488c2de033ed4bace, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  patternCircle: {fileID: 9100000, guid: 7fbb06a8a68b1794a9857460f8dc41d1, type: 2}
-  patternSquare: {fileID: 9100000, guid: 703a896d70d29534a8e526f3e36bb53e, type: 2}
 --- !u!1 &4410707892560769482
 GameObject:
   m_ObjectHideFlags: 0
@@ -306,6 +326,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4410707892560769482}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -314,7 +335,6 @@ Transform:
   - {fileID: 8650144620025539024}
   - {fileID: 3652106221168249247}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &705996722850385787
 MonoBehaviour:
@@ -328,3 +348,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d6a9ede41c157e46af111b6f06b0653, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackData:
+    patternType: -1
+    patternAnimationClip: {fileID: 0}
+    damageAnimationClip: {fileID: 0}
+    targetDirection: {x: 0, y: 0, z: 0}
+    patternSize: 1
+    damage: 0
+    speed: 1
+    patternDelay: 1
+    duration: 0
+    isDamage: 0
