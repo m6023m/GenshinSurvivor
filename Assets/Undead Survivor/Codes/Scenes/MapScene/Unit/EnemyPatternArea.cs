@@ -30,7 +30,7 @@ public class EnemyPatternArea : MonoBehaviour
     float animationDuration = 9999;
     public bool isInit = false;
 
-    private void Update()
+    void FixedUpdate()
     {
         if (parentEnemyAttack == null || !gameObject.activeInHierarchy) return;
         if (parentEnemyAttack.attackData.patternAnimationClip == null) return;
@@ -39,7 +39,7 @@ public class EnemyPatternArea : MonoBehaviour
         {
             return;
         }
-        if (isInit) animationTime += Time.deltaTime;
+        if (isInit) animationTime += Time.fixedDeltaTime;
         if (animationTime > animationDuration && animationDuration != 0)
         {
             AnimationEnd();
@@ -100,8 +100,10 @@ public class EnemyPatternArea : MonoBehaviour
     {
         AnimationClip animationClip = parentEnemyAttack.attackData.patternAnimationClip;
         animationDuration = animationClip.length;
-        if(parentEnemyAttack.attackData.duration != 0) {
+        if (parentEnemyAttack.attackData.patternDelay != 0)
+        {
             animator.speed = animationClip.length / parentEnemyAttack.attackData.patternDelay;
+            animationDuration = parentEnemyAttack.attackData.patternDelay;
         }
     }
     void SetAnimation(AnimationClip animationClip)

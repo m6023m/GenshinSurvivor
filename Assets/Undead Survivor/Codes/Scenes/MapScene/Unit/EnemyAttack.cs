@@ -55,8 +55,6 @@ public class EnemyAttack : MonoBehaviour
     public void Init(EnemyAttackData data)
     {
         attackData = new EnemyAttackData(data);
-        patternArea.gameObject.SetActive(false);
-        patternDamage.gameObject.SetActive(false);
         patternArea.onAnimationStart = () =>
         {
             PatternStart();
@@ -106,11 +104,16 @@ public class EnemyAttack : MonoBehaviour
         attackData.endDamageListener.Invoke();
     }
 
-    public void ResetAnimation() {
+    public void ResetAnimation()
+    {
         patternArea.isInit = false;
         patternDamage.isInit = false;
-        patternArea.gameObject.SetActive(false);
+    }
+
+    void OnDisable()
+    {
         patternDamage.gameObject.SetActive(false);
+        patternArea.gameObject.SetActive(false);
     }
 
 }

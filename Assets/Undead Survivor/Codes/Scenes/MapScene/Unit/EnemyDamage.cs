@@ -43,6 +43,12 @@ public class EnemyDamage : MonoBehaviour
     private void FixedUpdate()
     {
         if (!isInit) return;
+        animationTime += Time.fixedDeltaTime;
+        if (animationTime > animationDuration && animationDuration != 0)
+        {
+            animationTime = 0;
+            AnimationEnd();
+        }
         if (parentEnemyAttack.attackData.patternType != EnemyAttack.PatternType.Range &&
         parentEnemyAttack.attackData.patternType != EnemyAttack.PatternType.Wave) return;
         Vector2 nextVec = originalPosition + (targetDir.normalized * parentEnemyAttack.attackData.speed * Time.fixedDeltaTime);
@@ -53,12 +59,6 @@ public class EnemyDamage : MonoBehaviour
     protected virtual void Update()
     {
         OnStayDamage();
-        if (isInit) animationTime += Time.deltaTime;
-        if (animationTime > animationDuration && animationDuration != 0)
-        {
-            animationTime = 0;
-            AnimationEnd();
-        }
     }
 
     public void Init(EnemyAttack enemyAttack)
@@ -104,11 +104,11 @@ public class EnemyDamage : MonoBehaviour
             case EnemyAttack.PatternType.Charge:
                 break;
             case EnemyAttack.PatternType.Suicide_Bomb:
+                transform.localScale = new Vector2(3.0f, 3.0f);
                 break;
 
         }
         CalcAnimationEndDuration();
-        AnimationStart();
 
         isInit = true;
     }
@@ -120,6 +120,7 @@ public class EnemyDamage : MonoBehaviour
         animationDuration = animationClip.length;
         if(parentEnemyAttack.attackData.duration != 0) {
             animator.speed = animationClip.length / parentEnemyAttack.attackData.duration;
+            animationDuration = parentEnemyAttack.attackData.duration;
         }
         if (parentEnemyAttack.attackData.patternType == EnemyAttack.PatternType.Range)
         {
@@ -159,6 +160,11 @@ public class EnemyDamage : MonoBehaviour
     void OnDisable()
     {
         isInit = false;
+    }
+
+    void OnEnable()
+    {
+        AnimationStart();
     }
 
     void OnEnterDamage(Collider2D collision)

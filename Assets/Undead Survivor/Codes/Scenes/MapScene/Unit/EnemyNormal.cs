@@ -176,6 +176,7 @@ public class EnemyNormal : Enemy
         InitPatternData(data);
         size = data.enemyStat.size;
         transform.localScale = Vector3.one * size;
+        isPattern = false;
         isPatternCoolTime = false;
         isNodamage = false;
 
@@ -553,6 +554,8 @@ public class EnemyNormal : Enemy
     }
     public void Suicide_BombPattern()
     {
+        isPatternCoolTime = true;
+        isPattern = true;
         addSpeed = enemyAttack.attackData.speed;
         enemyAttack.transform.parent = transform;
 
