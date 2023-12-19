@@ -74,7 +74,7 @@ ScriptedImporter:
     fileImportMode: 1
     importHiddenLayers: 0
     layerImportMode: 0
-    defaultPivotSpace: 0
+    defaultPivotSpace: 1
     defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
     spritePadding: 0
@@ -86,7 +86,7 @@ ScriptedImporter:
     fileImportMode: 1
     importHiddenLayers: 0
     layerImportMode: 0
-    defaultPivotSpace: 0
+    defaultPivotSpace: 1
     defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
     spritePadding: 0
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638337574653378514
+  platformSettingsDirtyTick: 638385933638326278
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,8 +121,8 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: treasure_hunter_Frame_0
     originalName: 
-    pivot: {x: 0.5, y: 0.53333336}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -142,7 +142,7 @@ ScriptedImporter:
   - name: treasure_hunter_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -161,8 +161,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: treasure_hunter_Frame_2
     originalName: 
-    pivot: {x: 0.5, y: 0.53333336}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -182,7 +182,7 @@ ScriptedImporter:
   - name: treasure_hunter_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -202,7 +202,7 @@ ScriptedImporter:
   - name: treasure_hunter_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -222,7 +222,7 @@ ScriptedImporter:
   - name: treasure_hunter_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -242,7 +242,7 @@ ScriptedImporter:
   - name: treasure_hunter_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -262,7 +262,7 @@ ScriptedImporter:
   - name: treasure_hunter_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -281,8 +281,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 124}
   - name: treasure_hunter_Frame_8
     originalName: 
-    pivot: {x: 0.5, y: 0.53333336}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -301,8 +301,8 @@ ScriptedImporter:
     uvTransform: {x: 99, y: 124}
   - name: treasure_hunter_Frame_9
     originalName: 
-    pivot: {x: 0.5, y: 0.53333336}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -321,8 +321,8 @@ ScriptedImporter:
     uvTransform: {x: 99, y: 147}
   - name: treasure_hunter_Frame_10
     originalName: 
-    pivot: {x: 0.5, y: 0.53333336}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -341,8 +341,8 @@ ScriptedImporter:
     uvTransform: {x: 99, y: 170}
   - name: treasure_hunter_Frame_11
     originalName: 
-    pivot: {x: 0.5, y: 0.53333336}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -361,8 +361,8 @@ ScriptedImporter:
     uvTransform: {x: 99, y: 193}
   - name: treasure_hunter_Frame_12
     originalName: 
-    pivot: {x: 0.5, y: 0.53333336}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -381,8 +381,8 @@ ScriptedImporter:
     uvTransform: {x: 99, y: 216}
   - name: treasure_hunter_Frame_13
     originalName: 
-    pivot: {x: 0, y: 0}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -401,8 +401,8 @@ ScriptedImporter:
     uvTransform: {x: -10, y: 229}
   - name: treasure_hunter_Frame_14
     originalName: 
-    pivot: {x: 0.5, y: 0.53333336}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -421,8 +421,8 @@ ScriptedImporter:
     uvTransform: {x: 121, y: 4}
   - name: nobushi_Frame_0
     originalName: 
-    pivot: {x: 0.53333336, y: 0.53333336}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -441,8 +441,8 @@ ScriptedImporter:
     uvTransform: {x: 52, y: 194}
   - name: nobushi_Frame_1
     originalName: 
-    pivot: {x: 0.4666667, y: 0.5}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -461,8 +461,8 @@ ScriptedImporter:
     uvTransform: {x: 52, y: 98}
   - name: nobushi_Frame_2
     originalName: 
-    pivot: {x: 0.4666667, y: 0.53333336}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -481,8 +481,8 @@ ScriptedImporter:
     uvTransform: {x: 52, y: 217}
   - name: nobushi_Frame_3
     originalName: 
-    pivot: {x: 0.4666667, y: 0.5}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -501,8 +501,8 @@ ScriptedImporter:
     uvTransform: {x: 52, y: 122}
   - name: nobushi_Frame_4
     originalName: 
-    pivot: {x: 0.53333336, y: 0.53333336}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -521,8 +521,8 @@ ScriptedImporter:
     uvTransform: {x: 76, y: 4}
   - name: nobushi_Frame_5
     originalName: 
-    pivot: {x: 0.4666667, y: 0.5}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -541,8 +541,8 @@ ScriptedImporter:
     uvTransform: {x: 52, y: 146}
   - name: nobushi_Frame_6
     originalName: 
-    pivot: {x: 0.4666667, y: 0.53333336}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -561,8 +561,8 @@ ScriptedImporter:
     uvTransform: {x: 76, y: 27}
   - name: nobushi_Frame_7
     originalName: 
-    pivot: {x: 0.4666667, y: 0.5}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -581,8 +581,8 @@ ScriptedImporter:
     uvTransform: {x: 52, y: 170}
   - name: nobushi_Frame_8
     originalName: 
-    pivot: {x: 0.4615385, y: 0.53333336}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -601,8 +601,8 @@ ScriptedImporter:
     uvTransform: {x: 121, y: 27}
   - name: nobushi_Frame_9
     originalName: 
-    pivot: {x: 0.4615385, y: 0.53333336}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -621,8 +621,8 @@ ScriptedImporter:
     uvTransform: {x: 121, y: 50}
   - name: nobushi_Frame_10
     originalName: 
-    pivot: {x: 0.4615385, y: 0.53333336}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -641,8 +641,8 @@ ScriptedImporter:
     uvTransform: {x: 121, y: 73}
   - name: nobushi_Frame_11
     originalName: 
-    pivot: {x: 0.4615385, y: 0.53333336}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -661,8 +661,8 @@ ScriptedImporter:
     uvTransform: {x: 121, y: 96}
   - name: nobushi_Frame_12
     originalName: 
-    pivot: {x: 0.4615385, y: 0.53333336}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -681,8 +681,8 @@ ScriptedImporter:
     uvTransform: {x: 121, y: 119}
   - name: nobushi_Frame_13
     originalName: 
-    pivot: {x: 0, y: 0}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -702,7 +702,7 @@ ScriptedImporter:
   - name: nobushi_Frame_14
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -722,7 +722,7 @@ ScriptedImporter:
   - name: kairagi_pyro_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -742,7 +742,7 @@ ScriptedImporter:
   - name: kairagi_pyro_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -762,7 +762,7 @@ ScriptedImporter:
   - name: kairagi_pyro_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -782,7 +782,7 @@ ScriptedImporter:
   - name: kairagi_pyro_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -802,7 +802,7 @@ ScriptedImporter:
   - name: kairagi_pyro_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -822,7 +822,7 @@ ScriptedImporter:
   - name: kairagi_pyro_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -842,7 +842,7 @@ ScriptedImporter:
   - name: kairagi_pyro_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -862,7 +862,7 @@ ScriptedImporter:
   - name: kairagi_pyro_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -882,7 +882,7 @@ ScriptedImporter:
   - name: kairagi_pyro_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -902,7 +902,7 @@ ScriptedImporter:
   - name: kairagi_pyro_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -922,7 +922,7 @@ ScriptedImporter:
   - name: kairagi_pyro_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -942,7 +942,7 @@ ScriptedImporter:
   - name: kairagi_pyro_Frame_11
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -962,7 +962,7 @@ ScriptedImporter:
   - name: kairagi_pyro_Frame_12
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -981,8 +981,8 @@ ScriptedImporter:
     uvTransform: {x: 76, y: 170}
   - name: kairagi_pyro_Frame_13
     originalName: 
-    pivot: {x: 0, y: 0}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1002,7 +1002,7 @@ ScriptedImporter:
   - name: kairagi_pyro_Frame_14
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1022,7 +1022,7 @@ ScriptedImporter:
   - name: kairagi_electro_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1042,7 +1042,7 @@ ScriptedImporter:
   - name: kairagi_electro_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1062,7 +1062,7 @@ ScriptedImporter:
   - name: kairagi_electro_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1082,7 +1082,7 @@ ScriptedImporter:
   - name: kairagi_electro_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1102,7 +1102,7 @@ ScriptedImporter:
   - name: kairagi_electro_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1122,7 +1122,7 @@ ScriptedImporter:
   - name: kairagi_electro_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1142,7 +1142,7 @@ ScriptedImporter:
   - name: kairagi_electro_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1162,7 +1162,7 @@ ScriptedImporter:
   - name: kairagi_electro_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1182,7 +1182,7 @@ ScriptedImporter:
   - name: kairagi_electro_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1202,7 +1202,7 @@ ScriptedImporter:
   - name: kairagi_electro_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1222,7 +1222,7 @@ ScriptedImporter:
   - name: kairagi_electro_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1242,7 +1242,7 @@ ScriptedImporter:
   - name: kairagi_electro_Frame_11
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1262,7 +1262,7 @@ ScriptedImporter:
   - name: kairagi_electro_Frame_12
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1281,8 +1281,8 @@ ScriptedImporter:
     uvTransform: {x: 99, y: 76}
   - name: kairagi_electro_Frame_13
     originalName: 
-    pivot: {x: 0, y: 0}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1302,7 +1302,7 @@ ScriptedImporter:
   - name: kairagi_electro_Frame_14
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2

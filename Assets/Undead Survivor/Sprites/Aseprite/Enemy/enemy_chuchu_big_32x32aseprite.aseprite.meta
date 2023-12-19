@@ -75,7 +75,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 7
+    defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
     spritePadding: 0
     generateModelPrefab: 1
@@ -87,7 +87,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 7
+    defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
     spritePadding: 0
     generateModelPrefab: 1
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638385933795240547
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,7 +121,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: enemy_chuchu_big_32x32aseprite_Frame_0
     originalName: 
-    pivot: {x: 0.7222222, y: 0}
+    pivot: {x: 0.7222222, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -141,7 +141,7 @@ ScriptedImporter:
     uvTransform: {x: 1, y: 42}
   - name: enemy_chuchu_big_32x32aseprite_Frame_1
     originalName: 
-    pivot: {x: 0.7222222, y: 0}
+    pivot: {x: 0.7222222, y: 0.53333336}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -161,7 +161,7 @@ ScriptedImporter:
     uvTransform: {x: 1, y: 202}
   - name: enemy_chuchu_big_32x32aseprite_Frame_2
     originalName: 
-    pivot: {x: 0.7222222, y: 0}
+    pivot: {x: 0.7222222, y: 0.55172414}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -181,7 +181,7 @@ ScriptedImporter:
     uvTransform: {x: 31, y: 42}
   - name: enemy_chuchu_big_32x32aseprite_Frame_3
     originalName: 
-    pivot: {x: 0.7222222, y: 0}
+    pivot: {x: 0.7222222, y: 0.53333336}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -201,7 +201,7 @@ ScriptedImporter:
     uvTransform: {x: 31, y: 4}
   - name: enemy_chuchu_big_32x32aseprite_Frame_4
     originalName: 
-    pivot: {x: 0.6818182, y: 0}
+    pivot: {x: 0.6818182, y: 0.53333336}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -221,7 +221,7 @@ ScriptedImporter:
     uvTransform: {x: 3, y: 4}
   - name: enemy_chuchu_big_32x32aseprite_Frame_5
     originalName: 
-    pivot: {x: 0.7222222, y: 0}
+    pivot: {x: 0.7222222, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -241,7 +241,7 @@ ScriptedImporter:
     uvTransform: {x: 1, y: 82}
   - name: enemy_chuchu_big_32x32aseprite_Frame_6
     originalName: 
-    pivot: {x: 0.7647059, y: 0}
+    pivot: {x: 0.7647059, y: 0.53333336}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -261,7 +261,7 @@ ScriptedImporter:
     uvTransform: {x: 31, y: 79}
   - name: enemy_chuchu_big_32x32aseprite_Frame_7
     originalName: 
-    pivot: {x: 0.7222222, y: 0}
+    pivot: {x: 0.7222222, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -281,7 +281,7 @@ ScriptedImporter:
     uvTransform: {x: 1, y: 122}
   - name: enemy_chuchu_big_32x32aseprite_Frame_8
     originalName: 
-    pivot: {x: 0.68421054, y: 0}
+    pivot: {x: 0.68421054, y: 0.5925926}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -301,7 +301,7 @@ ScriptedImporter:
     uvTransform: {x: 57, y: 4}
   - name: enemy_chuchu_big_32x32aseprite_Frame_9
     originalName: 
-    pivot: {x: 0.75, y: 0}
+    pivot: {x: 0.75, y: 0.516129}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -321,7 +321,7 @@ ScriptedImporter:
     uvTransform: {x: 30, y: 117}
   - name: enemy_chuchu_big_32x32aseprite_Frame_10
     originalName: 
-    pivot: {x: 0.75, y: 0}
+    pivot: {x: 0.75, y: 0.516129}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -341,7 +341,7 @@ ScriptedImporter:
     uvTransform: {x: 30, y: 156}
   - name: enemy_chuchu_big_32x32aseprite_Frame_11
     originalName: 
-    pivot: {x: 0.75, y: 0}
+    pivot: {x: 0.75, y: 0.516129}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -361,7 +361,7 @@ ScriptedImporter:
     uvTransform: {x: 30, y: 195}
   - name: enemy_chuchu_big_32x32aseprite_Frame_12
     originalName: 
-    pivot: {x: 0.75, y: 0}
+    pivot: {x: 0.75, y: 0.516129}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -381,7 +381,7 @@ ScriptedImporter:
     uvTransform: {x: 56, y: 39}
   - name: enemy_chuchu_big_32x32aseprite_Frame_13
     originalName: 
-    pivot: {x: 0.75, y: 0}
+    pivot: {x: 0.75, y: 0.516129}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -421,7 +421,7 @@ ScriptedImporter:
     uvTransform: {x: -28, y: 208}
   - name: enemy_chuchu_big_32x32aseprite_Frame_15
     originalName: 
-    pivot: {x: 0.7222222, y: 0}
+    pivot: {x: 0.7222222, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -578,7 +578,67 @@ ScriptedImporter:
       spriteId: 8d95d5c0edbb5b041819467f819b5879
     linkedCells: []
     parentIndex: -1
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Windows Store Apps
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 32, y: 32}

@@ -512,21 +512,37 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4410707892560769480}
     m_Modifications:
+    - target: {fileID: 464331760316109429, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 464331760316109429, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2145429858691753024, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2145429858691753024, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
       propertyPath: m_CullingMode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2386309968556310123, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2888385463900821815, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4289940694584639133, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4289940694584639133, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
       propertyPath: m_CullingMode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4410707892560769480, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
       propertyPath: m_RootOrder
@@ -580,6 +596,14 @@ PrefabInstance:
       propertyPath: patternNone
       value: 
       objectReference: {fileID: 9100000, guid: 72d75a0382473974392ed258e194a1e2, type: 2}
+    - target: {fileID: 6535053813005809418, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535053813005809418, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6581064078491258247, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
       propertyPath: animationClips.Array.size
       value: 7

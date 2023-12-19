@@ -734,11 +734,11 @@ MonoBehaviour:
       patternAnimationClip: {fileID: 7400000, guid: 4a7ed7997cb67aa47b8a6fffb5acfaec, type: 2}
       damageAnimationClip: {fileID: 7400000, guid: 6c52e7f47630670438ed676d4942218c, type: 2}
       targetDirection: {x: 0, y: 0, z: 0}
-      patternSize: 2
+      patternSize: 2.5
       damage: 20
       speed: 2
       patternDelay: 2.5
-      duration: 1
+      duration: 0.2
       isDamage: 1
     patternCoolTime: 2
     patternRange: 4
@@ -765,11 +765,11 @@ MonoBehaviour:
       patternAnimationClip: {fileID: 7400000, guid: 4a7ed7997cb67aa47b8a6fffb5acfaec, type: 2}
       damageAnimationClip: {fileID: 7400000, guid: 6c52e7f47630670438ed676d4942218c, type: 2}
       targetDirection: {x: 0, y: 0, z: 0}
-      patternSize: 2
+      patternSize: 2.5
       damage: 20
       speed: 2
       patternDelay: 2.5
-      duration: 1
+      duration: 0.2
       isDamage: 1
     patternCoolTime: 2
     patternRange: 4
@@ -796,11 +796,11 @@ MonoBehaviour:
       patternAnimationClip: {fileID: 7400000, guid: 4a7ed7997cb67aa47b8a6fffb5acfaec, type: 2}
       damageAnimationClip: {fileID: 7400000, guid: 6c52e7f47630670438ed676d4942218c, type: 2}
       targetDirection: {x: 0, y: 0, z: 0}
-      patternSize: 2
+      patternSize: 2.5
       damage: 20
       speed: 2
       patternDelay: 2.5
-      duration: 1
+      duration: 0.2
       isDamage: 1
     patternCoolTime: 2
     patternRange: 4
@@ -827,11 +827,11 @@ MonoBehaviour:
       patternAnimationClip: {fileID: 7400000, guid: 4a7ed7997cb67aa47b8a6fffb5acfaec, type: 2}
       damageAnimationClip: {fileID: 7400000, guid: 6c52e7f47630670438ed676d4942218c, type: 2}
       targetDirection: {x: 0, y: 0, z: 0}
-      patternSize: 2
+      patternSize: 2.5
       damage: 20
       speed: 2
       patternDelay: 2.5
-      duration: 1
+      duration: 0.2
       isDamage: 1
     patternCoolTime: 2
     patternRange: 4
@@ -858,11 +858,11 @@ MonoBehaviour:
       patternAnimationClip: {fileID: 7400000, guid: 4a7ed7997cb67aa47b8a6fffb5acfaec, type: 2}
       damageAnimationClip: {fileID: 7400000, guid: 6c52e7f47630670438ed676d4942218c, type: 2}
       targetDirection: {x: 0, y: 0, z: 0}
-      patternSize: 2
+      patternSize: 2.5
       damage: 20
       speed: 2
       patternDelay: 2.5
-      duration: 1
+      duration: 0.2
       isDamage: 1
     patternCoolTime: 2
     patternRange: 4
@@ -889,11 +889,11 @@ MonoBehaviour:
       patternAnimationClip: {fileID: 7400000, guid: 4a7ed7997cb67aa47b8a6fffb5acfaec, type: 2}
       damageAnimationClip: {fileID: 7400000, guid: 6c52e7f47630670438ed676d4942218c, type: 2}
       targetDirection: {x: 0, y: 0, z: 0}
-      patternSize: 2
+      patternSize: 2.5
       damage: 20
       speed: 2
       patternDelay: 2.5
-      duration: 1
+      duration: 0.2
       isDamage: 1
     patternCoolTime: 2
     patternRange: 4
@@ -920,11 +920,11 @@ MonoBehaviour:
       patternAnimationClip: {fileID: 7400000, guid: 4a7ed7997cb67aa47b8a6fffb5acfaec, type: 2}
       damageAnimationClip: {fileID: 7400000, guid: 6c52e7f47630670438ed676d4942218c, type: 2}
       targetDirection: {x: 0, y: 0, z: 0}
-      patternSize: 2
+      patternSize: 2.5
       damage: 20
       speed: 2
       patternDelay: 2.5
-      duration: 1
+      duration: 0.2
       isDamage: 1
     patternCoolTime: 2
     patternRange: 4

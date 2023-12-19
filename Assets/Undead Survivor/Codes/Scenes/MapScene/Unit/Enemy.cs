@@ -33,6 +33,7 @@ public class Enemy : MonoBehaviour
     protected float damageTime = 0;
     protected float damageTimeMax = 0.5f;
     protected bool isNodamage = false;
+    public static float DEFAULT_SPEED = 1.0f;
     DamageAttach _damageAttach;
     public DamageAttach damageAttach
     {

@@ -34,7 +34,6 @@ public class SaveManager
         string saveJson = JsonConvert.SerializeObject(saveData);
         string saveFilePath = SavePath + saveFileName + ".json";
         await WriteFileAsync(saveFilePath, saveJson);
-        Debug.Log("Save Success: " + saveFilePath);
     }
 
     private static Task WriteFileAsync(string path, string content)

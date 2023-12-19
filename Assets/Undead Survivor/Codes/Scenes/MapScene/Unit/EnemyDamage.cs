@@ -24,6 +24,24 @@ public class EnemyDamage : MonoBehaviour
             return _animatorController;
         }
     }
+    Rigidbody2D _rigid;
+    Rigidbody2D rigid
+    {
+        get
+        {
+            if (_rigid == null) _rigid = GetComponent<Rigidbody2D>();
+            return _rigid;
+        }
+    }
+    SpriteRenderer _spriteRenderer;
+    SpriteRenderer spriteRenderer
+    {
+        get
+        {
+            if (_spriteRenderer == null) _spriteRenderer = GetComponent<SpriteRenderer>();
+            return _spriteRenderer;
+        }
+    }
     public UnityAction onAnimationStart;
     public UnityAction onAnimationEnd;
     float damageTime = 0;
@@ -46,8 +64,8 @@ public class EnemyDamage : MonoBehaviour
         animationTime += Time.fixedDeltaTime;
         if (animationTime > animationDuration && animationDuration != 0)
         {
-            animationTime = 0;
             AnimationEnd();
+            animationTime = 0;
         }
         if (parentEnemyAttack.attackData.patternType != EnemyAttack.PatternType.Range &&
         parentEnemyAttack.attackData.patternType != EnemyAttack.PatternType.Wave) return;
@@ -63,6 +81,7 @@ public class EnemyDamage : MonoBehaviour
 
     public void Init(EnemyAttack enemyAttack)
     {
+        spriteRenderer.sprite = null;
         parentEnemyAttack = enemyAttack;
         if (parentEnemyAttack.attackData.damageAnimationClip == null) return;
         summons = new Dictionary<int, Summon>();
@@ -86,46 +105,56 @@ public class EnemyDamage : MonoBehaviour
         switch (parentEnemyAttack.attackData.patternType)
         {
             case EnemyAttack.PatternType.Range:
+                rigid.bodyType = RigidbodyType2D.Dynamic;
                 break;
             case EnemyAttack.PatternType.Breath:
+                rigid.bodyType = RigidbodyType2D.Kinematic;
                 break;
             case EnemyAttack.PatternType.Meteor:
                 transform.RotationFix(Vector3.up);
+                rigid.bodyType = RigidbodyType2D.Dynamic;
                 break;
             case EnemyAttack.PatternType.Warp:
+                rigid.bodyType = RigidbodyType2D.Kinematic;
                 return;
             case EnemyAttack.PatternType.Howling:
                 transform.localScale = new Vector3(10.0f, 10.0f, 10.0f);
+                rigid.bodyType = RigidbodyType2D.Dynamic;
                 return;
             case EnemyAttack.PatternType.Wave:
+                rigid.bodyType = RigidbodyType2D.Dynamic;
                 break;
             case EnemyAttack.PatternType.Melee:
+                rigid.bodyType = RigidbodyType2D.Kinematic;
                 break;
             case EnemyAttack.PatternType.Charge:
+                rigid.bodyType = RigidbodyType2D.Kinematic;
                 break;
             case EnemyAttack.PatternType.Suicide_Bomb:
-                transform.localScale = new Vector2(3.0f, 3.0f);
+                rigid.bodyType = RigidbodyType2D.Kinematic;
+                transform.localScale = new Vector2(parentEnemyAttack.attackData.patternSize, parentEnemyAttack.attackData.patternSize);
                 break;
 
         }
         CalcAnimationEndDuration();
 
-        isInit = true;
     }
 
 
     void CalcAnimationEndDuration()
     {
         AnimationClip animationClip = parentEnemyAttack.attackData.damageAnimationClip;
-        animationDuration = animationClip.length;
-        if(parentEnemyAttack.attackData.duration != 0) {
+        float duration = animationClip.length;
+        if (parentEnemyAttack.attackData.patternDelay != 0)
+        {
             animator.speed = animationClip.length / parentEnemyAttack.attackData.duration;
-            animationDuration = parentEnemyAttack.attackData.duration;
+            duration = parentEnemyAttack.attackData.duration * 1.05f;//AnimationEnd가 애니메이션이 끝나는 것 보다 먼저 호출되는 것 방지
         }
         if (parentEnemyAttack.attackData.patternType == EnemyAttack.PatternType.Range)
         {
-            animationDuration = 3.0f; //원거리 공격이면 3초만 활성화 됨
+            duration = 3.0f; //원거리 공격이면 3초만 활성화 됨
         }
+        animationDuration = duration;
     }
 
     void SetAnimation(AnimationClip animationClip)
@@ -160,11 +189,6 @@ public class EnemyDamage : MonoBehaviour
     void OnDisable()
     {
         isInit = false;
-    }
-
-    void OnEnable()
-    {
-        AnimationStart();
     }
 
     void OnEnterDamage(Collider2D collision)
@@ -210,13 +234,17 @@ public class EnemyDamage : MonoBehaviour
         if (parentEnemyAttack.attackData.patternType != EnemyAttack.PatternType.Range) return;
         AnimationEnd();
     }
-    void AnimationStart()
+    public void AnimationStart()
     {
+        animator.enabled = true;
+        isInit = true;
         if (onAnimationStart == null) return;
         onAnimationStart.Invoke();
     }
     void AnimationEnd()
     {
+        Debug.Log("AnimationEndDamage");
+        animator.enabled = false;
         if (onAnimationEnd == null) return;
         onAnimationEnd.Invoke();
     }

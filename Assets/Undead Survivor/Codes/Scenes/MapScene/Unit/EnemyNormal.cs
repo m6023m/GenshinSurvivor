@@ -101,21 +101,36 @@ public class EnemyNormal : Enemy
 
         if (!isPatternCoolTime && distanceToPlayer <= patternRange && patternRange != 0 && distanceToPlayer != 0)
         {
+            Debug.Log(" distanceToPlayer: " + distanceToPlayer + " patternRange: " + patternRange);
             PatternCheck();
         }
 
-        if (!isPattern)
-        {
-            Vector2 nextVec = dirVec.normalized * speed * addSpeed * Time.fixedDeltaTime;
-            nextVec += magnetVec * Time.fixedDeltaTime;
-            nextVec += pushVec * Time.fixedDeltaTime;
-            nextVec += knockBackVec * Time.fixedDeltaTime;
+        Vector2 nextVec = dirVec.normalized * speed * addSpeed * Time.fixedDeltaTime;
+        nextVec += magnetVec * Time.fixedDeltaTime;
+        nextVec += pushVec * Time.fixedDeltaTime;
+        nextVec += knockBackVec * Time.fixedDeltaTime;
 
-            rigid.MovePosition(rigid.position + nextVec);
-            rigid.velocity = Vector2.zero;
+        rigid.MovePosition(rigid.position + nextVec);
+        rigid.velocity = Vector2.zero;
+    }
+#if UNITY_EDITOR
+    void OnDrawGizmos()
+    {
+        if (target != null)
+        {
+
+            Vector2 dirVec = target.position - rigid.position;
+            float distance = dirVec.magnitude;
+
+            Gizmos.color = Color.red;
+            Gizmos.DrawLine(rigid.position, target.position);
+
+            Vector3 midPoint = (rigid.position + target.position) / 2;
+            UnityEditor.Handles.Label(midPoint, $"Distance: {distance}");
         }
     }
 
+#endif
     void ElementAttachCheck()
     {
         elementAttachTime += 1 * Time.fixedDeltaTime;
@@ -157,7 +172,7 @@ public class EnemyNormal : Enemy
 
     void OnEnable()
     {
-        target = GameManager.instance.player.GetComponent<Rigidbody2D>();
+        target = GameManager.instance.player.rigid;
         isLive = true;
         coll.enabled = true;
         rigid.simulated = true;
@@ -171,7 +186,7 @@ public class EnemyNormal : Enemy
     {
         base.Init(data);
         enemyAttack.ResetAnimation();
-        addSpeed = 1;
+        addSpeed = DEFAULT_SPEED;
         animator.runtimeAnimatorController = animCon[(int)data.spriteName];
         InitPatternData(data);
         size = data.enemyStat.size;
@@ -189,7 +204,7 @@ public class EnemyNormal : Enemy
         elementReaction.Frozen(0.0f);
         elementReaction.Petrification(0.0f);
         ResetReaction();
-        animator.Rebind();
+        animator.Play("Run");
     }
     void SetOnDead()
     {
@@ -311,9 +326,6 @@ public class EnemyNormal : Enemy
             isLive = false;
             elementReaction.Frozen(0.0f);
             elementReaction.Petrification(0.0f);
-            animator.SetBool("Pattern", false);
-            animator.SetTrigger("PatternStop");
-            animator.SetBool("Stop", false);
             coll.enabled = false;
             rigid.simulated = false;
             spriter.sortingOrder = 1;
@@ -407,6 +419,7 @@ public class EnemyNormal : Enemy
     {
         isPatternCoolTime = true;
         isPattern = true;
+        addSpeed = 0;
 
         PatternDelay(1.0f).OnComplete(() =>
         {
@@ -421,6 +434,7 @@ public class EnemyNormal : Enemy
                 animator.SetBool("Pattern", false);
                 animator.SetTrigger("PatternStop");
                 isPattern = false;
+                addSpeed = DEFAULT_SPEED;
 
                 PatternDelay(patternCoolTime).OnComplete(() =>
                 {
@@ -434,6 +448,7 @@ public class EnemyNormal : Enemy
     {
         isPatternCoolTime = true;
         isPattern = true;
+        addSpeed = 0;
 
 
         PatternDelay(1.0f).OnComplete(() =>
@@ -449,6 +464,7 @@ public class EnemyNormal : Enemy
                 animator.SetBool("Pattern", false);
                 animator.SetTrigger("PatternStop");
                 isPattern = false;
+                addSpeed = DEFAULT_SPEED;
 
                 PatternDelay(patternCoolTime).OnComplete(() =>
                 {
@@ -468,7 +484,7 @@ public class EnemyNormal : Enemy
         isPatternCoolTime = true;
         isPattern = true;
         isNodamage = true;
-
+        addSpeed = 0;
 
         rigid.isKinematic = true;
         Vector2 dirVec = target.position - rigid.position;
@@ -497,6 +513,7 @@ public class EnemyNormal : Enemy
                 animator.SetTrigger("PatternStop");
                 isPattern = false;
                 isNodamage = false;
+                addSpeed = DEFAULT_SPEED;
                 PatternDelay(patternCoolTime).OnComplete(() =>
                 {
                     isPatternCoolTime = false;
@@ -511,6 +528,7 @@ public class EnemyNormal : Enemy
         isPatternCoolTime = true;
         isPattern = true;
         isNodamage = true;
+        addSpeed = 0;
 
 
         rigid.isKinematic = true;
@@ -544,6 +562,7 @@ public class EnemyNormal : Enemy
                             animator.SetTrigger("PatternStop");
                             isPattern = false;
                             isNodamage = false;
+                            addSpeed = DEFAULT_SPEED;
                             PatternDelay(patternCoolTime).OnComplete(() =>
                             {
                                 isPatternCoolTime = false;
@@ -556,11 +575,11 @@ public class EnemyNormal : Enemy
     {
         isPatternCoolTime = true;
         isPattern = true;
-        addSpeed = enemyAttack.attackData.speed;
+        addSpeed = enemyAttackData.speed;
         enemyAttack.transform.parent = transform;
 
-
-        enemyAttackData.startDamageListener = () =>
+        Debug.Log("Suicide_BombPattern");
+        enemyAttackData.endPatternListener = () =>
         {
             addSpeed = 0;
             animator.SetBool("Pattern", false);

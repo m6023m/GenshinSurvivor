@@ -74,7 +74,7 @@ ScriptedImporter:
     fileImportMode: 1
     importHiddenLayers: 1
     layerImportMode: 0
-    defaultPivotSpace: 0
+    defaultPivotSpace: 1
     defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
     spritePadding: 0
@@ -86,7 +86,7 @@ ScriptedImporter:
     fileImportMode: 1
     importHiddenLayers: 1
     layerImportMode: 0
-    defaultPivotSpace: 0
+    defaultPivotSpace: 1
     defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
     spritePadding: 0
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638340166894212985
+  platformSettingsDirtyTick: 638385933740590439
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -122,7 +122,7 @@ ScriptedImporter:
   - name: Chuchu_King_Geo_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -141,8 +141,8 @@ ScriptedImporter:
     uvTransform: {x: 36, y: 121}
   - name: Chuchu_King_Geo_Frame_1
     originalName: 
-    pivot: {x: 0.5, y: 0.53333336}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -162,7 +162,7 @@ ScriptedImporter:
   - name: Chuchu_King_Geo_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -181,8 +181,8 @@ ScriptedImporter:
     uvTransform: {x: 36, y: 161}
   - name: Chuchu_King_Geo_Frame_3
     originalName: 
-    pivot: {x: 0.52380955, y: 0.53333336}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -201,8 +201,8 @@ ScriptedImporter:
     uvTransform: {x: 98, y: 4}
   - name: Chuchu_King_Geo_Frame_4
     originalName: 
-    pivot: {x: 0.5, y: 0.55172414}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -221,8 +221,8 @@ ScriptedImporter:
     uvTransform: {x: 183, y: 4}
   - name: Chuchu_King_Geo_Frame_5
     originalName: 
-    pivot: {x: 0.5, y: 0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -241,8 +241,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: Chuchu_King_Geo_Frame_6
     originalName: 
-    pivot: {x: 0.5, y: 0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -261,8 +261,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 43}
   - name: Chuchu_King_Geo_Frame_7
     originalName: 
-    pivot: {x: 0.5, y: 0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -281,8 +281,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 82}
   - name: Chuchu_King_Geo_Frame_8
     originalName: 
-    pivot: {x: 0.5, y: 0.55172414}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -301,8 +301,8 @@ ScriptedImporter:
     uvTransform: {x: 183, y: 41}
   - name: Chuchu_King_Geo_Frame_9
     originalName: 
-    pivot: {x: 0.5, y: 0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -321,8 +321,8 @@ ScriptedImporter:
     uvTransform: {x: 98, y: 118}
   - name: Chuchu_King_Geo_Frame_10
     originalName: 
-    pivot: {x: 0.5, y: 0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -341,8 +341,8 @@ ScriptedImporter:
     uvTransform: {x: 98, y: 157}
   - name: Chuchu_King_Geo_Frame_11
     originalName: 
-    pivot: {x: 0.5, y: 0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -361,8 +361,8 @@ ScriptedImporter:
     uvTransform: {x: 98, y: 196}
   - name: Chuchu_King_Geo_Frame_12
     originalName: 
-    pivot: {x: 0.5, y: 0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -381,8 +381,8 @@ ScriptedImporter:
     uvTransform: {x: 127, y: 4}
   - name: Chuchu_King_Geo_Frame_13
     originalName: 
-    pivot: {x: 0, y: 0}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -401,8 +401,8 @@ ScriptedImporter:
     uvTransform: {x: 107, y: 207}
   - name: Chuchu_King_Geo_Frame_14
     originalName: 
-    pivot: {x: 0.5, y: 0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -422,7 +422,7 @@ ScriptedImporter:
   - name: Chuchu_King_Cyro_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -441,8 +441,8 @@ ScriptedImporter:
     uvTransform: {x: 36, y: 201}
   - name: Chuchu_King_Cyro_Frame_1
     originalName: 
-    pivot: {x: 0.5, y: 0.53333336}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -462,7 +462,7 @@ ScriptedImporter:
   - name: Chuchu_King_Cyro_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -481,8 +481,8 @@ ScriptedImporter:
     uvTransform: {x: 68, y: 4}
   - name: Chuchu_King_Cyro_Frame_3
     originalName: 
-    pivot: {x: 0.52380955, y: 0.53333336}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -501,8 +501,8 @@ ScriptedImporter:
     uvTransform: {x: 98, y: 42}
   - name: Chuchu_King_Cyro_Frame_4
     originalName: 
-    pivot: {x: 0.5, y: 0.55172414}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -521,8 +521,8 @@ ScriptedImporter:
     uvTransform: {x: 183, y: 78}
   - name: Chuchu_King_Cyro_Frame_5
     originalName: 
-    pivot: {x: 0.5, y: 0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -541,8 +541,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 121}
   - name: Chuchu_King_Cyro_Frame_6
     originalName: 
-    pivot: {x: 0.5, y: 0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -561,8 +561,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 160}
   - name: Chuchu_King_Cyro_Frame_7
     originalName: 
-    pivot: {x: 0.5, y: 0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -581,8 +581,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 199}
   - name: Chuchu_King_Cyro_Frame_8
     originalName: 
-    pivot: {x: 0.5, y: 0.55172414}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -601,8 +601,8 @@ ScriptedImporter:
     uvTransform: {x: 183, y: 115}
   - name: Chuchu_King_Cyro_Frame_9
     originalName: 
-    pivot: {x: 0.5, y: 0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -621,8 +621,8 @@ ScriptedImporter:
     uvTransform: {x: 127, y: 82}
   - name: Chuchu_King_Cyro_Frame_10
     originalName: 
-    pivot: {x: 0.5, y: 0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -641,8 +641,8 @@ ScriptedImporter:
     uvTransform: {x: 127, y: 121}
   - name: Chuchu_King_Cyro_Frame_11
     originalName: 
-    pivot: {x: 0.5, y: 0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -661,8 +661,8 @@ ScriptedImporter:
     uvTransform: {x: 127, y: 160}
   - name: Chuchu_King_Cyro_Frame_12
     originalName: 
-    pivot: {x: 0.5, y: 0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -681,8 +681,8 @@ ScriptedImporter:
     uvTransform: {x: 127, y: 199}
   - name: Chuchu_King_Cyro_Frame_13
     originalName: 
-    pivot: {x: 0, y: 0}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -701,8 +701,8 @@ ScriptedImporter:
     uvTransform: {x: 115, y: 207}
   - name: Chuchu_King_Cyro_Frame_14
     originalName: 
-    pivot: {x: 0.5, y: 0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -722,7 +722,7 @@ ScriptedImporter:
   - name: Chuchu_King_Electro_Frame_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -741,8 +741,8 @@ ScriptedImporter:
     uvTransform: {x: 68, y: 44}
   - name: Chuchu_King_Electro_Frame_1
     originalName: 
-    pivot: {x: 0.5, y: 0.53333336}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -762,7 +762,7 @@ ScriptedImporter:
   - name: Chuchu_King_Electro_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -781,8 +781,8 @@ ScriptedImporter:
     uvTransform: {x: 68, y: 84}
   - name: Chuchu_King_Electro_Frame_3
     originalName: 
-    pivot: {x: 0.52380955, y: 0.53333336}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -801,8 +801,8 @@ ScriptedImporter:
     uvTransform: {x: 98, y: 80}
   - name: Chuchu_King_Electro_Frame_4
     originalName: 
-    pivot: {x: 0.5, y: 0.55172414}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -821,8 +821,8 @@ ScriptedImporter:
     uvTransform: {x: 183, y: 152}
   - name: Chuchu_King_Electro_Frame_5
     originalName: 
-    pivot: {x: 0.5, y: 0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -841,8 +841,8 @@ ScriptedImporter:
     uvTransform: {x: 36, y: 4}
   - name: Chuchu_King_Electro_Frame_6
     originalName: 
-    pivot: {x: 0.5, y: 0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -861,8 +861,8 @@ ScriptedImporter:
     uvTransform: {x: 36, y: 43}
   - name: Chuchu_King_Electro_Frame_7
     originalName: 
-    pivot: {x: 0.5, y: 0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -881,8 +881,8 @@ ScriptedImporter:
     uvTransform: {x: 36, y: 82}
   - name: Chuchu_King_Electro_Frame_8
     originalName: 
-    pivot: {x: 0.5, y: 0.55172414}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -901,8 +901,8 @@ ScriptedImporter:
     uvTransform: {x: 183, y: 189}
   - name: Chuchu_King_Electro_Frame_9
     originalName: 
-    pivot: {x: 0.5, y: 0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -921,8 +921,8 @@ ScriptedImporter:
     uvTransform: {x: 155, y: 43}
   - name: Chuchu_King_Electro_Frame_10
     originalName: 
-    pivot: {x: 0.5, y: 0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -941,8 +941,8 @@ ScriptedImporter:
     uvTransform: {x: 155, y: 82}
   - name: Chuchu_King_Electro_Frame_11
     originalName: 
-    pivot: {x: 0.5, y: 0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -961,8 +961,8 @@ ScriptedImporter:
     uvTransform: {x: 155, y: 121}
   - name: Chuchu_King_Electro_Frame_12
     originalName: 
-    pivot: {x: 0.5, y: 0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -981,8 +981,8 @@ ScriptedImporter:
     uvTransform: {x: 155, y: 160}
   - name: Chuchu_King_Electro_Frame_13
     originalName: 
-    pivot: {x: 0, y: 0}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1001,8 +1001,8 @@ ScriptedImporter:
     uvTransform: {x: 123, y: 207}
   - name: Chuchu_King_Electro_Frame_14
     originalName: 
-    pivot: {x: 0.5, y: 0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2

@@ -62,8 +62,7 @@ public class EnemyAttack : MonoBehaviour
         patternArea.onAnimationEnd = () =>
         {
             PatternEnd();
-            patternDamage.gameObject.SetActive(true);
-            patternArea.gameObject.SetActive(false);
+            patternDamage.AnimationStart();
         };
         patternDamage.onAnimationStart = () =>
         {
@@ -72,14 +71,13 @@ public class EnemyAttack : MonoBehaviour
         patternDamage.onAnimationEnd = () =>
         {
             DamageEnd();
-            patternDamage.gameObject.SetActive(false);
         };
         patternArea.Init(this);
         patternDamage.Init(this);
     }
     public void AnimationStart()
     {
-        patternArea.gameObject.SetActive(true);
+        patternArea.AnimationStart();
     }
 
     void PatternStart()

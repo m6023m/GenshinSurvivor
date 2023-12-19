@@ -23,12 +23,22 @@ public class EnemyPatternArea : MonoBehaviour
             return _animatorController;
         }
     }
+    SpriteRenderer _spriteRenderer;
+    SpriteRenderer spriteRenderer
+    {
+        get
+        {
+            if (_spriteRenderer == null) _spriteRenderer = GetComponent<SpriteRenderer>();
+            return _spriteRenderer;
+        }
+    }
     public UnityAction onAnimationEnd;
     public UnityAction onAnimationStart;
     EnemyAttack parentEnemyAttack;
     float animationTime = 0;
     float animationDuration = 9999;
     public bool isInit = false;
+
 
     void FixedUpdate()
     {
@@ -53,13 +63,13 @@ public class EnemyPatternArea : MonoBehaviour
     {
         parentEnemyAttack = enemyAttack;
         animationDuration = enemyAttack.attackData.patternDelay;
+        spriteRenderer.sprite = null;
         SetAnimation(enemyAttack.attackData.patternAnimationClip);
 
         animationTime = 0;
         switch (parentEnemyAttack.attackData.patternType)
         {
             case EnemyAttack.PatternType.None:
-                animationDuration = 0.1f;
                 break;
             case EnemyAttack.PatternType.Melee:
                 transform.localScale = new Vector2(1f, 1f);
@@ -92,19 +102,20 @@ public class EnemyPatternArea : MonoBehaviour
         }
         animator.speed = 1;
         CalcAnimationEndDuration();
-        isInit = true;
         return this;
     }
 
     void CalcAnimationEndDuration()
     {
         AnimationClip animationClip = parentEnemyAttack.attackData.patternAnimationClip;
-        animationDuration = animationClip.length;
+        float duration = animationClip.length;
         if (parentEnemyAttack.attackData.patternDelay != 0)
         {
             animator.speed = animationClip.length / parentEnemyAttack.attackData.patternDelay;
-            animationDuration = parentEnemyAttack.attackData.patternDelay;
+            duration = parentEnemyAttack.attackData.patternDelay * 1.05f; //AnimationEnd가 애니메이션이 끝나는 것 보다 먼저 호출되는 것 방지
         }
+
+        animationDuration = duration;
     }
     void SetAnimation(AnimationClip animationClip)
     {
@@ -113,23 +124,23 @@ public class EnemyPatternArea : MonoBehaviour
         aoc["Skill_None"] = animationClip;
         animator.runtimeAnimatorController = aoc;
     }
-    void OnEnable()
-    {
-        AnimationStart();
-    }
-
     void OnDisable()
     {
         isInit = false;
     }
 
-    void AnimationStart()
+
+    public void AnimationStart()
     {
+        animator.enabled = true;
+        isInit = true;
         if (onAnimationStart == null) return;
         onAnimationStart.Invoke();
     }
     void AnimationEnd()
     {
+        Debug.Log("AnimationEndPattern");
+        animator.enabled = false;
         if (onAnimationEnd == null) return;
         onAnimationEnd.Invoke();
     }
