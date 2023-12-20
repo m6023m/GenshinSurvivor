@@ -61,9 +61,12 @@ public class EnemyPatternArea : MonoBehaviour
 
     public EnemyPatternArea Init(EnemyAttack enemyAttack)
     {
+        isInit = false;
         parentEnemyAttack = enemyAttack;
         animationDuration = enemyAttack.attackData.patternDelay;
         spriteRenderer.sprite = null;
+        transform.localScale = Vector3.zero;
+        parentEnemyAttack.transform.rotation = Quaternion.identity;
         SetAnimation(enemyAttack.attackData.patternAnimationClip);
 
         animationTime = 0;
@@ -77,6 +80,7 @@ public class EnemyPatternArea : MonoBehaviour
                 break;
             case EnemyAttack.PatternType.Range:
                 transform.ScaleFront(parentEnemyAttack.transform, new Vector3(1.0f, 25.0f));
+                parentEnemyAttack.transform.RotationFix(parentEnemyAttack.attackData.targetDirection);
                 break;
             case EnemyAttack.PatternType.Breath:
                 transform.localScale = new Vector2(1f, 1f);
@@ -127,6 +131,7 @@ public class EnemyPatternArea : MonoBehaviour
     void OnDisable()
     {
         isInit = false;
+        spriteRenderer.sprite = null;
     }
 
 
@@ -141,6 +146,7 @@ public class EnemyPatternArea : MonoBehaviour
     {
         Debug.Log("AnimationEndPattern");
         animator.enabled = false;
+        spriteRenderer.sprite = null;
         if (onAnimationEnd == null) return;
         onAnimationEnd.Invoke();
     }

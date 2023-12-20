@@ -104,7 +104,7 @@ public class EnemyNormal : Enemy
             Debug.Log(" distanceToPlayer: " + distanceToPlayer + " patternRange: " + patternRange);
             PatternCheck();
         }
-
+        if (addSpeed == 0) return;
         Vector2 nextVec = dirVec.normalized * speed * addSpeed * Time.fixedDeltaTime;
         nextVec += magnetVec * Time.fixedDeltaTime;
         nextVec += pushVec * Time.fixedDeltaTime;
@@ -418,14 +418,14 @@ public class EnemyNormal : Enemy
         isPattern = true;
         addSpeed = 0;
 
-        PatternDelay(1.0f).OnComplete(() =>
+        PatternDelay(enemyAttackData.patternDelay).OnComplete(() =>
         {
             animator.SetBool("Pattern", true);
 
             Vector2 dirVec = target.position - rigid.position;
             rigid.AddForce(dirVec.normalized * speed * enemyAttackData.speed, ForceMode2D.Impulse);
 
-            PatternDelay(1.0f).OnComplete(() =>
+            PatternDelay(enemyAttackData.duration).OnComplete(() =>
             {
                 // 돌진 종료 애니메이션 트리거
                 animator.SetBool("Pattern", false);
@@ -447,28 +447,23 @@ public class EnemyNormal : Enemy
         isPattern = true;
         addSpeed = 0;
 
-
-        PatternDelay(1.0f).OnComplete(() =>
+        animator.SetBool("Pattern", true);
+        enemyAttackData.targetDirection = target.position - rigid.position;
+        enemyAttack.transform.parent = transform;
+        enemyAttackData.endPatternListener = () =>
         {
+            animator.SetBool("Pattern", false);
+            animator.SetTrigger("PatternStop");
+            isPattern = false;
+            addSpeed = DEFAULT_SPEED;
 
-            animator.SetBool("Pattern", true);
-            enemyAttack.transform.parent = transform;
-            enemyAttack.Init(enemyAttackData);
-            enemyAttack.AnimationStart();
-
-            PatternDelay(1.0f).OnComplete(() =>
+            PatternDelay(patternCoolTime).OnComplete(() =>
             {
-                animator.SetBool("Pattern", false);
-                animator.SetTrigger("PatternStop");
-                isPattern = false;
-                addSpeed = DEFAULT_SPEED;
-
-                PatternDelay(patternCoolTime).OnComplete(() =>
-                {
-                    isPatternCoolTime = false;
-                });
+                isPatternCoolTime = false;
             });
-        });
+        };
+        enemyAttack.Init(enemyAttackData);
+        enemyAttack.AnimationStart();
     }
 
 

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Entities.UniversalDelegates;
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -81,6 +82,7 @@ public class EnemyDamage : MonoBehaviour
 
     public void Init(EnemyAttack enemyAttack)
     {
+        isInit = false;
         spriteRenderer.sprite = null;
         parentEnemyAttack = enemyAttack;
         if (parentEnemyAttack.attackData.damageAnimationClip == null) return;
@@ -89,11 +91,7 @@ public class EnemyDamage : MonoBehaviour
         transform.localPosition = Vector3.zero;
         originalPosition = transform.position;
         transform.localScale = new Vector3(1f, 1f, 1f);
-        targetDir = parentEnemyAttack.attackData.targetDirection;
-        if (parentEnemyAttack.attackData.patternType == EnemyAttack.PatternType.Wave)
-        {
-            targetDir = transform.up;
-        }
+        targetDir = transform.up;
         damageTime = 0;
         SetAnimation(parentEnemyAttack.attackData.damageAnimationClip);
         InitAttack();
@@ -189,6 +187,7 @@ public class EnemyDamage : MonoBehaviour
     void OnDisable()
     {
         isInit = false;
+        spriteRenderer.sprite = null;
     }
 
     void OnEnterDamage(Collider2D collision)
@@ -245,6 +244,7 @@ public class EnemyDamage : MonoBehaviour
     {
         Debug.Log("AnimationEndDamage");
         animator.enabled = false;
+        spriteRenderer.sprite = null;
         if (onAnimationEnd == null) return;
         onAnimationEnd.Invoke();
     }
