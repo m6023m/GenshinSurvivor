@@ -170,17 +170,6 @@ public class EnemyNormal : Enemy
         spriter.flipX = target.position.x < rigid.position.x;
     }
 
-    void OnEnable()
-    {
-        target = GameManager.instance.player.rigid;
-        isLive = true;
-        coll.enabled = true;
-        rigid.simulated = true;
-        spriter.sortingOrder = 2;
-        shadow.gameObject.SetActive(true);
-        elementReaction.gameObject.SetActive(true);
-        health = maxHealth;
-    }
 
     public override void Init(SpawnData data)
     {
@@ -194,6 +183,14 @@ public class EnemyNormal : Enemy
         isPattern = false;
         isPatternCoolTime = false;
         isNodamage = false;
+        target = GameManager.instance.player.rigid;
+        isLive = true;
+        coll.enabled = true;
+        rigid.simulated = true;
+        spriter.sortingOrder = 2;
+        shadow.gameObject.SetActive(true);
+        elementReaction.gameObject.SetActive(true);
+        health = maxHealth;
 
         SetOnDead();
         rigid.velocity = Vector2.zero;

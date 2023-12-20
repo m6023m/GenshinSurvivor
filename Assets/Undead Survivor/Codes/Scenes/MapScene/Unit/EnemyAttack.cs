@@ -107,13 +107,6 @@ public class EnemyAttack : MonoBehaviour
         patternArea.isInit = false;
         patternDamage.isInit = false;
     }
-
-    void OnDisable()
-    {
-        patternDamage.gameObject.SetActive(false);
-        patternArea.gameObject.SetActive(false);
-    }
-
 }
 
 [System.Serializable]
