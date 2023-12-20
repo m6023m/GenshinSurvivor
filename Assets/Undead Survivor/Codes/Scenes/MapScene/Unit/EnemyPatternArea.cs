@@ -49,11 +49,13 @@ public class EnemyPatternArea : MonoBehaviour
         {
             return;
         }
-        if (isInit) animationTime += Time.fixedDeltaTime;
+        if (!isInit) return;
+        animationTime += Time.fixedDeltaTime;
         if (animationTime > animationDuration && animationDuration != 0)
         {
-            AnimationEnd();
             animationTime = 0;
+            isInit = false;
+            AnimationEnd();
         }
     }
 
@@ -139,6 +141,7 @@ public class EnemyPatternArea : MonoBehaviour
     {
         animator.enabled = true;
         isInit = true;
+        animator.Rebind();
         if (onAnimationStart == null) return;
         onAnimationStart.Invoke();
     }

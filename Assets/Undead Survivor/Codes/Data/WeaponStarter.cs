@@ -368,7 +368,7 @@ public class WeaponStarter
             isSword_The_Black = true;
             WeaponFade();
             player.HealHealth(GameManager.instance.statCalculator.Atk * weaponParameter.valueSums[1]);
-            weapon.PatternDelay(10.0f).OnComplete(() =>
+            DOVirtual.DelayedCall(10.0f, () =>
             {
                 isSword_The_Black = false;
             });
@@ -398,7 +398,7 @@ public class WeaponStarter
             isSword_Aquila_Favonia = true;
             player.HealHealth(weaponParameter.valueSums[1]);
             skillParameter.parameter.elementGauge = 10000;
-            weapon.PatternDelay(15.0f).OnComplete(() =>
+            DOVirtual.DelayedCall(15.0f, () =>
             {
                 isSword_Aquila_Favonia = false;
             });
@@ -421,7 +421,7 @@ public class WeaponStarter
             statBuff.BaseCooltime += 0.1f;
             statBuff.Speed += 0.1f;
             statBuff.BaseDamagePer += weaponParameter.valueSums[1];
-            weapon.PatternDelay(12.0f).OnComplete(() =>
+            DOVirtual.DelayedCall(12.0f, () =>
             {
                 statBuff.BaseCooltime -= 0.1f;
                 statBuff.Speed -= 0.1f;
@@ -453,7 +453,7 @@ public class WeaponStarter
             statBuff.Atk += atk;
             WeaponFade(true);
 
-            weapon.PatternDelay(12.0f).OnComplete(() =>
+            DOVirtual.DelayedCall(12.0f, () =>
             {
                 statBuff.BaseDamagePer -= weaponParameter.valueSums[1];
                 statBuff.Atk -= atk;
@@ -491,7 +491,7 @@ public class WeaponStarter
             isClaymore_The_Bell = true;
             weapon.skillObj.SkillCastAbsolute();
 
-            weapon.PatternDelay(45.0f).OnComplete(() =>
+            DOVirtual.DelayedCall(45.0f, () =>
             {
                 WeaponFade(false);
                 isClaymore_The_Bell = false;
@@ -551,7 +551,7 @@ public class WeaponStarter
                 statBuff.Claymore_Serpent_SpineStack--;
             }
             isClaymore_Serpent_SpineStack = true;
-            weapon.PatternDelay(1.0f).OnComplete(() =>
+            DOVirtual.DelayedCall(1.0f, () =>
             {
                 isClaymore_Serpent_SpineStack = false;
             });
@@ -603,7 +603,7 @@ public class WeaponStarter
             statBuff.Atk += atk;
             WeaponFade(true);
 
-            weapon.PatternDelay(12.0f).OnComplete(() =>
+            DOVirtual.DelayedCall(12.0f, () =>
             {
                 statBuff.Atk -= atk;
                 WeaponFade(false);
@@ -631,7 +631,7 @@ public class WeaponStarter
             statBuff.BaseCooltime += weaponParameter.valueSums[1];
             statBuff.Atk += atk;
             WeaponFade(true);
-            weapon.PatternDelay(12.0f).OnComplete(() =>
+            DOVirtual.DelayedCall(12.0f, () =>
             {
                 WeaponFade(false);
                 statBuff.BaseCooltime -= weaponParameter.valueSums[1];
@@ -754,7 +754,7 @@ public class WeaponStarter
             }
             WeaponFade(true);
 
-            weapon.PatternDelay(12.0f).OnComplete(() =>
+            DOVirtual.DelayedCall(12.0f, () =>
             {
                 switch (randomNum)
                 {
@@ -938,7 +938,7 @@ public class WeaponStarter
             statBuff.ElementMastery += weaponParameter.valueSums[1];
             WeaponFade(true);
 
-            weapon.PatternDelay(12.0f).OnComplete(() =>
+            DOVirtual.DelayedCall(12.0f, () =>
             {
                 statBuff.ElementMastery -= weaponParameter.valueSums[1];
                 WeaponFade(false);

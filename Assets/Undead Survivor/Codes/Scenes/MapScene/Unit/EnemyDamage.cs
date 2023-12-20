@@ -65,8 +65,9 @@ public class EnemyDamage : MonoBehaviour
         animationTime += Time.fixedDeltaTime;
         if (animationTime > animationDuration && animationDuration != 0)
         {
-            AnimationEnd();
             animationTime = 0;
+            isInit = false;
+            AnimationEnd();
         }
         if (parentEnemyAttack.attackData.patternType != EnemyAttack.PatternType.Range &&
         parentEnemyAttack.attackData.patternType != EnemyAttack.PatternType.Wave) return;
@@ -237,6 +238,7 @@ public class EnemyDamage : MonoBehaviour
     {
         animator.enabled = true;
         isInit = true;
+        animator.Rebind();
         if (onAnimationStart == null) return;
         onAnimationStart.Invoke();
     }

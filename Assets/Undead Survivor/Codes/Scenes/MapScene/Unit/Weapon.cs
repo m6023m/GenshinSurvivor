@@ -44,10 +44,6 @@ public class Weapon : MonoBehaviour
     }
 
 
-    public Tweener PatternDelay(float delay)
-    {
-        return spriteRenderer.DOColor(new Color(1, 1, 1, 1), delay);
-    }
     void ChangeCurrentWeaponType()
     {
         spriteRenderer.color = new Color(1, 1, 1, 1);

@@ -147,20 +147,20 @@ public class Andrius : Boss
     }
 
 
-    private Tweener MoveToPlayer()
+    private Tween MoveToPlayer()
     {
         float distance = 100.0f;
         float duration = 3f;
 
         LookPlayer();
 
-        PatternDelay(1.0f).OnComplete(() =>
+        DOVirtual.DelayedCall(1.0f, () =>
         {
             Vector3 targetPosition = transform.up * distance;
             transform.DOMove(targetPosition, duration).SetEase(Ease.InOutSine);
         });
 
-        return PatternDelay(4.0f);
+        return DOVirtual.DelayedCall(4.0f, ()=>{});
     }
 
 
@@ -222,13 +222,6 @@ public class Andrius : Boss
         action.Invoke();
     }
 
-
-
-    Tweener PatternDelay(float delay)
-    {
-        Parts body = parts[(int)PartsName.Body];
-        return body.spriteRenderer.DOColor(new Color(1, 1, 1, 1), 0f).SetDelay(delay);
-    }
     void PatternMeteor()
     {
         int patternCount = 5;
@@ -248,7 +241,7 @@ public class Andrius : Boss
         });
     }
 
-    Tweener Meteor()
+    Tween Meteor()
     {
         Parts tail = parts[(int)PartsName.Tail];
         float patternDelay = 1.0f;
@@ -265,7 +258,7 @@ public class Andrius : Boss
         attackData.isDamage = true;
         tail.enemyAttack.Init(attackData);
 
-        return PatternDelay(patternCoolTime);
+        return DOVirtual.DelayedCall(patternCoolTime, ()=>{});
     }
     void PatternMelee()
     {
@@ -294,7 +287,7 @@ public class Andrius : Boss
         {
             transform.DOLocalRotate(new Vector3(0, 0, currentAngle + 359f), moveTime, RotateMode.FastBeyond360).SetEase(Ease.InQuad).OnComplete(() =>
             {
-                PatternDelay(4.0f).OnComplete(() =>
+                DOVirtual.DelayedCall(4.0f, () =>
                             {
                                 isPattern = false;
                             });
@@ -321,7 +314,8 @@ public class Andrius : Boss
         attackData.isDamage = true;
         attackData.targetDirection = new Vector3(playerTransform.position.x, playerTransform.position.y);
         head.enemyAttack.Init(attackData);
-        PatternDelay(patternDelay + attackData.duration).OnComplete(() =>
+        
+        DOVirtual.DelayedCall(patternDelay + attackData.duration, () =>
         {
             isPattern = false;
         });
@@ -352,7 +346,7 @@ public class Andrius : Boss
         {
             transform.DOMove(attackData.targetDirection, moveDuration).SetEase(Ease.InQuad).OnComplete(() =>
             {
-                PatternDelay(4.0f).OnComplete(() =>
+                DOVirtual.DelayedCall(4.0f, () =>
                             {
                                 if (action != null)
                                 {
@@ -417,14 +411,14 @@ public class Andrius : Boss
         LookPlayer();
         RightWave().OnComplete(() =>
         {
-            PatternDelay(4.0f).OnComplete(() =>
+            DOVirtual.DelayedCall(4.0f, () =>
             {
                 isPattern = false;
             });
         });
     }
 
-    Tweener RightWave()
+    Tween RightWave()
     {
         float patternDelay = 1.0f;
         Parts rightWing = parts[(int)PartsName.WingRight];
@@ -450,7 +444,7 @@ public class Andrius : Boss
             count++;
         }
 
-        return PatternDelay(4.0f);
+        return DOVirtual.DelayedCall(4.0f, ()=>{});
     }
 
 

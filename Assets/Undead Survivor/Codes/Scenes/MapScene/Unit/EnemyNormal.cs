@@ -418,14 +418,14 @@ public class EnemyNormal : Enemy
         isPattern = true;
         addSpeed = 0;
 
-        PatternDelay(enemyAttackData.patternDelay).OnComplete(() =>
+        DOVirtual.DelayedCall(enemyAttackData.patternDelay, () =>
         {
             animator.SetBool("Pattern", true);
 
             Vector2 dirVec = target.position - rigid.position;
             rigid.AddForce(dirVec.normalized * speed * enemyAttackData.speed, ForceMode2D.Impulse);
 
-            PatternDelay(enemyAttackData.duration).OnComplete(() =>
+            DOVirtual.DelayedCall(enemyAttackData.duration, () =>
             {
                 // 돌진 종료 애니메이션 트리거
                 animator.SetBool("Pattern", false);
@@ -433,7 +433,7 @@ public class EnemyNormal : Enemy
                 isPattern = false;
                 addSpeed = DEFAULT_SPEED;
 
-                PatternDelay(patternCoolTime).OnComplete(() =>
+                DOVirtual.DelayedCall(patternCoolTime, () =>
                 {
                     isPatternCoolTime = false;
                 });
@@ -456,8 +456,7 @@ public class EnemyNormal : Enemy
             animator.SetTrigger("PatternStop");
             isPattern = false;
             addSpeed = DEFAULT_SPEED;
-
-            PatternDelay(patternCoolTime).OnComplete(() =>
+            DOVirtual.DelayedCall(patternCoolTime, () =>
             {
                 isPatternCoolTime = false;
             });
@@ -467,10 +466,6 @@ public class EnemyNormal : Enemy
     }
 
 
-    Tweener PatternDelay(float delay)
-    {
-        return spriter.DOColor(new Color(1, 1, 1, 1), delay);
-    }
     void WarpPattern()
     {
         isPatternCoolTime = true;
@@ -494,19 +489,19 @@ public class EnemyNormal : Enemy
 
 
         animator.SetBool("Pattern", true);
-        PatternDelay(enemyAttackData.patternDelay).OnComplete(() =>
+        DOVirtual.DelayedCall(enemyAttackData.patternDelay, () =>
         {
             transform.position = vecDestination;
             rigid.isKinematic = true;
             animator.SetBool("Pattern", false);
 
-            PatternDelay(enemyAttackData.patternDelay).OnComplete(() =>
+            DOVirtual.DelayedCall(enemyAttackData.patternDelay, () =>
             {
                 animator.SetTrigger("PatternStop");
                 isPattern = false;
                 isNodamage = false;
                 addSpeed = DEFAULT_SPEED;
-                PatternDelay(patternCoolTime).OnComplete(() =>
+                DOVirtual.DelayedCall(patternCoolTime, () =>
                 {
                     isPatternCoolTime = false;
                 });
@@ -539,7 +534,7 @@ public class EnemyNormal : Enemy
 
 
         animator.SetBool("Pattern", true);
-        PatternDelay(enemyAttackData.patternDelay).OnComplete(() =>
+        DOVirtual.DelayedCall(enemyAttackData.patternDelay, () =>
         {
             rigid.isKinematic = true;
             animator.SetBool("Pattern", false);
@@ -555,7 +550,7 @@ public class EnemyNormal : Enemy
                             isPattern = false;
                             isNodamage = false;
                             addSpeed = DEFAULT_SPEED;
-                            PatternDelay(patternCoolTime).OnComplete(() =>
+                            DOVirtual.DelayedCall(patternCoolTime, () =>
                             {
                                 isPatternCoolTime = false;
                             });

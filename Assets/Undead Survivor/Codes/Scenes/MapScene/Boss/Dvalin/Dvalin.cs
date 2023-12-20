@@ -107,7 +107,7 @@ public class Dvalin : Boss
     }
 
 
-    private Tweener MoveToPlayer()
+    private Tween MoveToPlayer()
     {
         float distance = 100.0f;
         float duration = 3f;
@@ -225,10 +225,9 @@ public class Dvalin : Boss
         });
     }
 
-    Tweener PatternDelay(float delay)
+    Tween PatternDelay(float delay)
     {
-        Parts body = parts[(int)PartsName.Body];
-        return body.spriteRenderer.DOColor(new Color(1, 1, 1, 1), 0f).SetDelay(delay);
+        return DOVirtual.DelayedCall(delay,()=>{}); 
     }
     void PatternMeteor()
     {
@@ -259,7 +258,7 @@ public class Dvalin : Boss
         });
     }
 
-    Tweener Meteor()
+    Tween Meteor()
     {
         Parts head = parts[(int)PartsName.Head];
         float patternDelay = 2.0f;
@@ -310,7 +309,7 @@ public class Dvalin : Boss
             });
         }));
     }
-    Tweener RightRange()
+    Tween RightRange()
     {
         float patternDelay = 1.0f;
         Parts rightWing = parts[(int)PartsName.WingRight];
@@ -326,7 +325,7 @@ public class Dvalin : Boss
 
         return PatternDelay(1.0f);
     }
-    Tweener LeftRange()
+    Tween LeftRange()
     {
         float patternDelay = 1.0f;
         Parts leftWing = parts[(int)PartsName.WingLeft];

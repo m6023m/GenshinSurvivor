@@ -167,7 +167,7 @@ public class Tartaglia : Boss
         });
     }
 
-    Tweener Melee(int attackNum)
+    Tween Melee(int attackNum)
     {
         float patternDelay = 1f;
         int attackNumber = attackNum;
@@ -259,7 +259,7 @@ public class Tartaglia : Boss
         });
     }
 
-    Tweener Range()
+    Tween Range()
     {
         float patternDelay = 0.5f;
         EnemyAttackData attackData = new EnemyAttackData();
@@ -277,11 +277,10 @@ public class Tartaglia : Boss
     }
 
 
-    Tweener PatternDelay(float delay)
+    Tween PatternDelay(float delay)
     {
-        return body.spriteRenderer.DOColor(new Color(1, 1, 1, 1), 0f).SetDelay(delay);
+        return DOVirtual.DelayedCall(delay,()=>{}); 
     }
-
 
 
     void PatternMeteor()
@@ -305,7 +304,7 @@ public class Tartaglia : Boss
         });
     }
 
-    Tweener Meteor()
+    Tween Meteor()
     {
         float patternDelay = 1.0f;
         float patternCoolTime = 2.0f;
@@ -326,7 +325,7 @@ public class Tartaglia : Boss
     }
 
 
-    Tweener PatternWhale()
+    Tween PatternWhale()
     {
 
         float patternDelay = 3f;
