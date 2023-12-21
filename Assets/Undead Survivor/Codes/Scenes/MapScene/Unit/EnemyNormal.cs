@@ -475,22 +475,13 @@ public class EnemyNormal : Enemy
 
         rigid.isKinematic = true;
         Vector2 dirVec = target.position - rigid.position;
-        Vector2 vecDestination = dirVec.normalized * speed * 3f;
-        if (vecDestination.magnitude > dirVec.magnitude)
-        {
-            vecDestination = target.position;
-        }
-
-        enemyAttack.transform.parent = transform;
-        enemyAttackData.targetDirection = vecDestination;
-        enemyAttack.Init(enemyAttackData);
-        enemyAttack.AnimationStart();
-
-
+        Vector2 vecDestination = target.position;
 
         animator.SetBool("Pattern", true);
-        DOVirtual.DelayedCall(enemyAttackData.patternDelay, () =>
-        {
+        enemyAttack.transform.parent = transform;
+        enemyAttackData.targetDirection = vecDestination;
+        enemyAttackData.endPatternListener = () => {
+
             transform.position = vecDestination;
             rigid.isKinematic = true;
             animator.SetBool("Pattern", false);
@@ -507,7 +498,9 @@ public class EnemyNormal : Enemy
                 });
 
             });
-        });
+        };
+        enemyAttack.Init(enemyAttackData);
+        enemyAttack.AnimationStart();
     }
 
     void JumpPattern()
@@ -518,32 +511,18 @@ public class EnemyNormal : Enemy
         addSpeed = 0;
 
 
+        animator.SetBool("Pattern", true);
         rigid.isKinematic = true;
-        Vector2 dirVec = target.position - rigid.position;
-        Vector2 vecDestination = dirVec.normalized * speed * 3f;
-        if (vecDestination.magnitude > dirVec.magnitude)
-        {
-            vecDestination = target.position;
-        }
+        Vector2 vecDestination = new Vector2(target.position.x, target.position.y);
 
         enemyAttack.transform.parent = transform;
         enemyAttackData.targetDirection = vecDestination;
-        enemyAttack.Init(enemyAttackData);
-        enemyAttack.AnimationStart();
-
-
-
-        animator.SetBool("Pattern", true);
-        DOVirtual.DelayedCall(enemyAttackData.patternDelay, () =>
+        enemyAttackData.endPatternListener = () =>
         {
             rigid.isKinematic = true;
             animator.SetBool("Pattern", false);
             transform.DOJump(vecDestination, enemyAttackData.speed, 1, enemyAttackData.duration)
             .SetEase(Ease.OutQuad)
-                        .OnStart(() =>
-                        {
-                            // 점프 시작시 실행할 로직
-                        })
                         .OnComplete(() =>
                         {
                             animator.SetTrigger("PatternStop");
@@ -556,7 +535,12 @@ public class EnemyNormal : Enemy
                             });
                         });
 
-        });
+        };
+        enemyAttack.Init(enemyAttackData);
+
+
+        enemyAttack.AnimationStart();
+
     }
     public void Suicide_BombPattern()
     {

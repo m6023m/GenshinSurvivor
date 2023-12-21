@@ -67,6 +67,7 @@ public class EnemyDamage : MonoBehaviour
         {
             animationTime = 0;
             isInit = false;
+            rigid.simulated = false;
             AnimationEnd();
         }
         if (parentEnemyAttack.attackData.patternType != EnemyAttack.PatternType.Range &&
@@ -84,6 +85,7 @@ public class EnemyDamage : MonoBehaviour
     public void Init(EnemyAttack enemyAttack)
     {
         isInit = false;
+        rigid.simulated = false;
         spriteRenderer.sprite = null;
         parentEnemyAttack = enemyAttack;
         if (parentEnemyAttack.attackData.damageAnimationClip == null) return;
@@ -239,6 +241,7 @@ public class EnemyDamage : MonoBehaviour
         animator.enabled = true;
         isInit = true;
         animator.Rebind();
+        rigid.simulated = true;
         if (onAnimationStart == null) return;
         onAnimationStart.Invoke();
     }

@@ -32,6 +32,15 @@ public class EnemyPatternArea : MonoBehaviour
             return _spriteRenderer;
         }
     }
+    Rigidbody2D _rigid;
+    Rigidbody2D rigid
+    {
+        get
+        {
+            if (_rigid == null) _rigid = GetComponent<Rigidbody2D>();
+            return _rigid;
+        }
+    }
     public UnityAction onAnimationEnd;
     public UnityAction onAnimationStart;
     EnemyAttack parentEnemyAttack;
@@ -90,9 +99,11 @@ public class EnemyPatternArea : MonoBehaviour
             case EnemyAttack.PatternType.Meteor:
                 transform.localScale = new Vector2(1f, 1f);
                 transform.localPosition = Vector3.zero;
+                parentEnemyAttack.transform.position = parentEnemyAttack.attackData.targetDirection;
                 break;
             case EnemyAttack.PatternType.Warp:
                 transform.localScale = new Vector2(1f, 1f);
+                parentEnemyAttack.transform.position = parentEnemyAttack.attackData.targetDirection;
                 break;
             case EnemyAttack.PatternType.Howling:
                 transform.localScale = new Vector2(1f, 1f);
