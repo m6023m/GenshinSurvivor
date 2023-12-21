@@ -365,7 +365,7 @@ public class EnemyNormal : Enemy
     }
     void DropRandomItem()
     {
-        GameObject elementalSphere = GameManager.instance.poolManager.Get(PoolManager.Type.ElementalSphere);
+        ElementalSphere elementalSphere = GameManager.instance.poolManager.GetElementalSphere();
         elementalSphere.transform.position = gameObject.transform.position;
 
         RandomDrop();
@@ -480,7 +480,8 @@ public class EnemyNormal : Enemy
         animator.SetBool("Pattern", true);
         enemyAttack.transform.parent = transform;
         enemyAttackData.targetDirection = vecDestination;
-        enemyAttackData.endPatternListener = () => {
+        enemyAttackData.endPatternListener = () =>
+        {
 
             transform.position = vecDestination;
             rigid.isKinematic = true;

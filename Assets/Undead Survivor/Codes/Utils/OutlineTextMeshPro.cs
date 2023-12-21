@@ -5,13 +5,13 @@ using TMPro;
 
 public class OutlineTextMeshPro : MonoBehaviour
 {
-    TextMeshProUGUI textMesh;
-    TextMeshProUGUI _textMesh
+    TextMeshPro _textMesh;
+    TextMeshPro textMesh
     {
 
         get
         {
-            if (_textMesh == null) textMesh = GetComponent<TextMeshProUGUI>();
+            if (_textMesh == null) _textMesh = GetComponent<TextMeshPro>();
             return _textMesh;
         }
     }

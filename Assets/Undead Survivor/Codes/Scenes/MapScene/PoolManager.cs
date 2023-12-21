@@ -26,8 +26,8 @@ public class PoolManager : MonoBehaviour
     }
     public GameObject[] prefabs;
     List<GameObject>[] pools;
-    public List<GameObject> enemys;
-    public List<GameObject> elementalSpheres;
+    public List<Enemy> enemyLists;
+    public List<ElementalSphere> elementalSphereLists;
 
     void Awake()
     {
@@ -37,8 +37,6 @@ public class PoolManager : MonoBehaviour
         {
             pools[i] = new List<GameObject>();
         }
-        pools[(int)Type.Enemy] = enemys;
-        pools[(int)Type.ElementalSphere] = elementalSpheres;
     }
 
     public GameObject Get(Type type)
@@ -80,6 +78,46 @@ public class PoolManager : MonoBehaviour
         {
             select = Instantiate(prefabs[(int)type], transform);
             parents.Add(select);
+        }
+
+        return select;
+    }
+    public Enemy GetEnemy()
+    {
+        Enemy select = null;
+        foreach (Enemy item in enemyLists)
+        {
+            if (item != null && !item.gameObject.activeSelf)
+            {
+                select = item;
+                select.gameObject.SetActive(true);
+                break;
+            }
+        }
+        if (!select)
+        {
+            select = Instantiate(prefabs[(int)Type.Enemy], transform).GetComponent<Enemy>();
+            enemyLists.Add(select);
+        }
+
+        return select;
+    }
+    public ElementalSphere GetElementalSphere()
+    {
+        ElementalSphere select = null;
+        foreach (ElementalSphere item in elementalSphereLists)
+        {
+            if (item != null && !item.gameObject.activeSelf)
+            {
+                select = item;
+                select.gameObject.SetActive(true);
+                break;
+            }
+        }
+        if (!select)
+        {
+            select = Instantiate(prefabs[(int)Type.ElementalSphere], transform).GetComponent<ElementalSphere>();
+            elementalSphereLists.Add(select);
         }
 
         return select;

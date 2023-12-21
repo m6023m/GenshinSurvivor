@@ -99,9 +99,9 @@ public class Spawner : MonoBehaviour
     {
         SpawnData newSpawnData = spawnData;
         newSpawnData.enemyStat = NewEnemyStat(newSpawnData.spriteName, newSpawnData);
-        GameObject enemy = GameManager.instance.poolManager.Get((int)PoolManager.Type.Enemy);
+        EnemyNormal enemy = (EnemyNormal)GameManager.instance.poolManager.GetEnemy();
         enemy.transform.position = spawnPoint[Random.Range(1, spawnPoint.Length)].position;
-        enemy.GetComponent<EnemyNormal>().Init(newSpawnData);
+        enemy.Init(newSpawnData);
     }
 
     EnemyData.EnemyStat NewEnemyStat(EnemyNormal.Name newEnemy, SpawnData spawnData)

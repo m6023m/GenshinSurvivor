@@ -139,7 +139,7 @@ public class MapObject : MonoBehaviour
     }
     void DropRandomItem()
     {
-        GameObject elementalSphere = GameManager.instance.poolManager.Get(PoolManager.Type.ElementalSphere);
+        ElementalSphere elementalSphere = GameManager.instance.poolManager.GetElementalSphere();
         elementalSphere.transform.position = gameObject.transform.position;
 
         RandomDrop();
