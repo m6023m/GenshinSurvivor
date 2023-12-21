@@ -10,6 +10,15 @@ namespace Assets.SimpleLocalization
     [RequireComponent(typeof(TMP_Dropdown))]
     public class LocalizedTextProDropdown : MonoBehaviour
     {
+        TMP_Dropdown _dropdown;
+        TMP_Dropdown dropdown
+        {
+            get
+            {
+                if (_dropdown == null) _dropdown = GetComponent<TMP_Dropdown>();
+                return _dropdown;
+            }
+        }
         public void Start()
         {
             Localize();
@@ -38,7 +47,6 @@ namespace Assets.SimpleLocalization
 
         private void LocalizeCaption()
         {
-            TMP_Dropdown dropdown = GetComponent<TMP_Dropdown>();
             string captionText = dropdown.captionText.text;
             dropdown.captionText.text = captionText.Localize();
         }

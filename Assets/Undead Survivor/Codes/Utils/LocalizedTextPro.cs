@@ -4,13 +4,22 @@ using TMPro;
 
 namespace Assets.SimpleLocalization
 {
-	/// <summary>
-	/// Localize text component.
-	/// </summary>
+    /// <summary>
+    /// Localize text component.
+    /// </summary>
     [RequireComponent(typeof(TextMeshProUGUI))]
     public class LocalizedTextPro : MonoBehaviour
     {
         public string LocalizationKey;
+        TextMeshProUGUI _textMesh;
+        TextMeshProUGUI textMesh
+        {
+            get
+            {
+                if (_textMesh == null) _textMesh = GetComponent<TextMeshProUGUI>();
+                return _textMesh;
+            }
+        }
 
         public void Start()
         {
@@ -25,7 +34,7 @@ namespace Assets.SimpleLocalization
 
         private void Localize()
         {
-            GetComponent<TextMeshProUGUI>().text = LocalizationKey.Localize();
+            textMesh.text = LocalizationKey.Localize();
         }
     }
 }

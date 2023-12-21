@@ -8,14 +8,21 @@ public class InfoButton : MonoBehaviour
     public InfoPanel infoPanel;
     public SkillName skillName;
     public ArtifactName artifactName;
-    Button button;
+    Button _button;
+    Button button
+    {
+        get
+        {
+            if (_button == null) _button = GetComponent<Button>();
+            return _button;
+        }
+    }
 
     public void Init(SkillName skillName, ArtifactName artifactName)
     {
-        button = GetComponent<Button>();
         button.onClick.RemoveAllListeners();
         button.onClick.AddListener(() =>
-        { 
+        {
             infoPanel.Init(skillName, artifactName);
             infoPanel.gameObject.SetActive(true);
         });
@@ -23,7 +30,8 @@ public class InfoButton : MonoBehaviour
         this.artifactName = artifactName;
     }
 
-    public void Click() {
+    public void Click()
+    {
         button.onClick.Invoke();
     }
 }

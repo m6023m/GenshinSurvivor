@@ -5,7 +5,16 @@ using TMPro;
 
 public class OutlineTextMeshPro : MonoBehaviour
 {
-    TextMeshPro textMesh;
+    TextMeshProUGUI textMesh;
+    TextMeshProUGUI _textMesh
+    {
+
+        get
+        {
+            if (_textMesh == null) textMesh = GetComponent<TextMeshProUGUI>();
+            return _textMesh;
+        }
+    }
     public Color color;
 
     [Range(0.0f, 2.0f)]
@@ -13,7 +22,6 @@ public class OutlineTextMeshPro : MonoBehaviour
 
     void Awake()
     {
-        textMesh = GetComponent<TextMeshPro>();
         textMesh.outlineColor = color;
         textMesh.outlineWidth = outlineWidth;
     }

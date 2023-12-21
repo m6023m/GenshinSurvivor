@@ -18,7 +18,8 @@ public class CrystalizeObject : MonoBehaviour
 
     private void Awake()
     {
-        InitValues();
+        rigid = GetComponent<Rigidbody2D>();
+        coll = GetComponent<Collider2D>();
     }
     private void LateUpdate()
     {
@@ -48,17 +49,10 @@ public class CrystalizeObject : MonoBehaviour
         }
     }
 
-    void InitValues()
-    {
-        rigid = GetComponent<Rigidbody2D>();
-        coll = GetComponent<Collider2D>();
-        magnetVec = Vector2.zero;
-    }
-
 
     public void Init(Element.Type elementType)
     {
-        InitValues();
+        magnetVec = Vector2.zero;
         spriteRenderer.color = Element.Color(elementType);
         dropColliders = new HashSet<Collider2D>();
         skillMoveSets = new HashSet<SkillMoveSet>();

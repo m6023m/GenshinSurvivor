@@ -7,12 +7,44 @@ public class ElementReaction : MonoBehaviour
 {
     public ElementReactionObject elementReactionObject;
     SkillData skillData;
-    public ElementAttach elementAttach1;
-    public ElementAttach elementAttach2;
+    ElementAttach _elementAttach1;
+    ElementAttach _elementAttach2;
+    public ElementAttach elementAttach1
+    {
+        get
+        {
+            if (_elementAttach1 == null) _elementAttach1 = GetComponentsInChildren<ElementAttach>(true)[0];
+            return _elementAttach1;
+        }
+    }
+    public ElementAttach elementAttach2
+    {
+        get
+        {
+            if (_elementAttach1 == null) _elementAttach1 = GetComponentsInChildren<ElementAttach>(true)[1];
+            return _elementAttach1;
+        }
+    }
 
-    SkillName currentReaction;
-    Enemy parentEnemy;
-    Material parentMaterial;
+    Enemy _parentEnemy;
+    Enemy parentEnemy
+    {
+        get
+        {
+            if (_parentEnemy == null) _parentEnemy = GetComponentInParent<Enemy>(true);
+            return _parentEnemy;
+        }
+
+    }
+    Material _parentMaterial;
+    Material parentMaterial
+    {
+        get
+        {
+            if (_parentMaterial == null) _parentMaterial = parentEnemy.GetComponent<SpriteRenderer>().material;
+            return _parentMaterial;
+        }
+    }
     bool isFrozen = false;
     int frozenMaterialID;
     float frozenTime;
@@ -74,13 +106,9 @@ public class ElementReaction : MonoBehaviour
 
     public void Init()
     {
-        elementAttach1 = GetComponentsInChildren<ElementAttach>(true)[0];
-        elementAttach2 = GetComponentsInChildren<ElementAttach>(true)[1];
-        parentEnemy = GetComponentInParent<Enemy>(true);
-        skillData = GameManager.instance.skillData;
 
+        skillData = GameManager.instance.skillData;
         if (parentEnemy.type == Enemy.Type.Boss) return;
-        parentMaterial = parentEnemy.GetComponent<SpriteRenderer>().material;
         frozenMaterialID = Shader.PropertyToID("_FrozenFade");
         frozenTime = 0;
         petrificationMaterialID = Shader.PropertyToID("_MetalFade");
@@ -356,8 +384,10 @@ public class ElementReaction : MonoBehaviour
         InvokeReaction(parameterWithKey);
     }
 
-    void InvokeReaction(SkillData.ParameterWithKey parameterWithKey) {
-        foreach(UnityAction<SkillName> action in parameterWithKey.reactionListener) {
+    void InvokeReaction(SkillData.ParameterWithKey parameterWithKey)
+    {
+        foreach (UnityAction<SkillName> action in parameterWithKey.reactionListener)
+        {
             action.Invoke(parameterWithKey.name);
         }
     }

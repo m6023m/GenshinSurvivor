@@ -4,10 +4,17 @@ using UnityEngine;
 using UnityEngine.UI;
 public class WishSlotRarity : MonoBehaviour
 {
-    Image image;
+    Image _image;
+    Image image
+    {
+        get
+        {
+            if (_image == null) _image = GetComponent<Image>();
+            return _image;
+        }
+    }
     public void Init(Sprite sprite)
     {
-        image = GetComponent<Image>();
         image.sprite = sprite;
     }
 }

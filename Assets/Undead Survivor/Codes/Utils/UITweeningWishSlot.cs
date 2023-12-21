@@ -11,6 +11,15 @@ public class UITweeningWishSlot : MonoBehaviour
     bool isFlipped;
     int index;
     int maxCount;
+    RectTransform _parentRect;
+    RectTransform parentRect
+    {
+        get
+        {
+            if (_parentRect == null) uiObject.transform.parent.GetComponent<RectTransform>();
+            return _parentRect;
+        }
+    }
     void Start()
     {
         uiObject = GetComponent<RectTransform>();
@@ -25,7 +34,7 @@ public class UITweeningWishSlot : MonoBehaviour
     private void LateUpdate()
     {
         defaultPosition = uiObject.transform.position;
-        RectTransform parentRect = uiObject.transform.parent.GetComponent<RectTransform>();
+
 
         float scale = uiObject.rect.size.x / 2;
         if (!isFlipped) return;

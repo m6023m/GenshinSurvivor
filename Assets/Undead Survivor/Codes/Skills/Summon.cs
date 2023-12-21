@@ -10,7 +10,24 @@ public class Summon : SkillMoveSet
     bool noDamage = false;
     float skillTime = 0;
     float skillCoolTime = 0;
-
+    Collider2D _collider2D;
+    Collider2D collider2D
+    {
+        get
+        {
+            if (_collider2D == null) _collider2D = GetComponent<Collider2D>();
+            return _collider2D;
+        }
+    }
+    Rigidbody2D _rigidbody2D;
+    Rigidbody2D rigidbody2D
+    {
+        get
+        {
+            if (_rigidbody2D == null) _rigidbody2D = GetComponent<Rigidbody2D>();
+            return _rigidbody2D;
+        }
+    }
     protected override void Update()
     {
         base.Update();
@@ -61,8 +78,8 @@ public class Summon : SkillMoveSet
 
     void InitMass(SkillSet.SkillSequence skillSequence)
     {
-        GetComponent<Collider2D>().isTrigger = !skillSequence.isMass; //질량을 가지는 소환물이면 트리거를 Off 함
-        GetComponent<Rigidbody2D>().bodyType = skillSequence.isMass ? RigidbodyType2D.Dynamic : RigidbodyType2D.Kinematic;//질량을 가지는 소환물이면 고정, 아니면 플레이어를 따라다님
+        collider2D.isTrigger = !skillSequence.isMass; //질량을 가지는 소환물이면 트리거를 Off 함
+        rigidbody2D.bodyType = skillSequence.isMass ? RigidbodyType2D.Dynamic : RigidbodyType2D.Kinematic;//질량을 가지는 소환물이면 고정, 아니면 플레이어를 따라다님
     }
 
     void InitHealth(SkillData.ParameterWithKey parameterWithKey, SkillSet.SkillSequence skillSequence)

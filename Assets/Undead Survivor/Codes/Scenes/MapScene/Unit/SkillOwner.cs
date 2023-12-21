@@ -9,7 +9,15 @@ public class SkillOwner : MonoBehaviour
     public bool isLive = true;
     public float maxHealth;
     public bool noDamage;
-    public Scanner scanner;
+    public Scanner _scanner;
+    public Scanner scanner
+    {
+        get
+        {
+            if (_scanner == null) _scanner = GetComponent<Scanner>();
+            return _scanner;
+        }
+    }
     private void Awake()
     {
         Init(GameDataManager.instance.saveData.userData.selectChars[0]);
@@ -17,7 +25,7 @@ public class SkillOwner : MonoBehaviour
     public void Init(Character stat)
     {
         this.stat = JsonUtility.FromJson<Character>(JsonUtility.ToJson(stat));
-        scanner = GetComponent<Scanner>();
+
         isLive = true;
         noDamage = false;
         health = stat.hp;

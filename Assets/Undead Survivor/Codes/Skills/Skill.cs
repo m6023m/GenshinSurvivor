@@ -8,6 +8,15 @@ using DG.Tweening;
 public class Skill : SkillMoveSet
 {
     bool isChanged = false;
+    SpriteRenderer _spriteRenderer;
+    SpriteRenderer spriteRenderer
+    {
+        get
+        {
+            if (_spriteRenderer == null) _spriteRenderer = GetComponent<SpriteRenderer>();
+            return _spriteRenderer;
+        }
+    }
     protected override void LateUpdate()
     {
         base.LateUpdate();
@@ -23,7 +32,7 @@ public class Skill : SkillMoveSet
 
         if (isChanged && parameterWithKey.changeElementType != Element.Type.Physics)
         {
-            GetComponent<SpriteRenderer>().color = Element.Color(parameterWithKey.changeElementType);
+            spriteRenderer.color = Element.Color(parameterWithKey.changeElementType);
         }
     }
     public enum Type
