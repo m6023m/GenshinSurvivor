@@ -151,6 +151,9 @@ public class EnemyDamage : MonoBehaviour
             animator.speed = animationClip.length / parentEnemyAttack.attackData.duration;
             duration = parentEnemyAttack.attackData.duration * 1.05f;//AnimationEnd가 애니메이션이 끝나는 것 보다 먼저 호출되는 것 방지
         }
+        if(parentEnemyAttack.attackData.animationSpeed != 0) {
+            animator.speed = parentEnemyAttack.attackData.animationSpeed;
+        }
         if (parentEnemyAttack.attackData.patternType == EnemyAttack.PatternType.Range)
         {
             duration = 3.0f; //원거리 공격이면 3초만 활성화 됨

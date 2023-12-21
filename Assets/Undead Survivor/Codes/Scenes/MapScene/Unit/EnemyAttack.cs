@@ -122,6 +122,7 @@ public class EnemyAttackData
     public float patternDelay;
     public float duration;
     public bool isDamage;
+    public float animationSpeed = 0;
     public UnityAction startPatternListener;
     public UnityAction endPatternListener;
     public UnityAction startDamageListener;
@@ -144,6 +145,7 @@ public class EnemyAttackData
         endDamageListener = data.endDamageListener;
         startPatternListener = data.startPatternListener;
         endPatternListener = data.endPatternListener;
+        animationSpeed = data.animationSpeed;
     }
 
     public EnemyAttackData()

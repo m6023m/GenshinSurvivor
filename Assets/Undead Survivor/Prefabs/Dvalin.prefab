@@ -54,6 +54,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  addSpeed: 1
   armor: 7
   health: 2000
   maxHealth: 2000
@@ -263,6 +264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+  addSpeed: 1
   armor: 0
   health: 0
   maxHealth: 0
@@ -326,7 +328,8 @@ Transform:
   m_LocalPosition: {x: 0, y: -2, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 568932087692468810}
   m_Father: {fileID: 4618297120860682885}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &7315448533810011859
@@ -477,6 +480,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+  addSpeed: 1
   armor: 0
   health: 0
   maxHealth: 0
@@ -691,6 +695,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+  addSpeed: 1
   armor: 0
   health: 0
   maxHealth: 0
@@ -905,6 +910,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+  addSpeed: 1
   armor: 0
   health: 0
   maxHealth: 0
@@ -1119,6 +1125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+  addSpeed: 1
   armor: 0
   health: 0
   maxHealth: 0
@@ -1334,6 +1341,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+  addSpeed: 1
   armor: 0
   health: 0
   maxHealth: 0
@@ -1549,6 +1557,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+  addSpeed: 1
   armor: 0
   health: 0
   maxHealth: 0
@@ -1765,6 +1774,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+  addSpeed: 1
   armor: 0
   health: 0
   maxHealth: 0
@@ -1802,6 +1812,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1354628548324566382}
     m_Modifications:
+    - target: {fileID: 705996722850385787, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: attackData.damageAnimationClip
+      value: 
+      objectReference: {fileID: 7400000, guid: 740c8b2de0d7d0d428a9c8625415b7ee, type: 2}
+    - target: {fileID: 705996722850385787, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: attackData.patternAnimationClip
+      value: 
+      objectReference: {fileID: 7400000, guid: a9867cba2b9e06f4387f9f787494b01e, type: 2}
     - target: {fileID: 4410707892560769480, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1872,6 +1890,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7965140298171239594}
     m_Modifications:
+    - target: {fileID: 705996722850385787, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: attackData.damageAnimationClip
+      value: 
+      objectReference: {fileID: 7400000, guid: 740c8b2de0d7d0d428a9c8625415b7ee, type: 2}
+    - target: {fileID: 705996722850385787, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: attackData.patternAnimationClip
+      value: 
+      objectReference: {fileID: 7400000, guid: a9867cba2b9e06f4387f9f787494b01e, type: 2}
     - target: {fileID: 4410707892560769480, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1933,6 +1959,96 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4410707892560769480, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
   m_PrefabInstance: {fileID: 4207428858746112997}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4238093741520556930
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8342027949945572389}
+    m_Modifications:
+    - target: {fileID: 705996722850385787, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: attackData.damageAnimationClip
+      value: 
+      objectReference: {fileID: 7400000, guid: 8e03a4073d3cecf49842bf1a54a6b6b9, type: 2}
+    - target: {fileID: 705996722850385787, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: attackData.patternAnimationClip
+      value: 
+      objectReference: {fileID: 7400000, guid: 42738923ca05d904489c98f9bed5d4fd, type: 2}
+    - target: {fileID: 4410707892560769480, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4410707892560769480, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4410707892560769480, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4410707892560769480, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4410707892560769480, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4410707892560769480, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4410707892560769480, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4410707892560769480, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4410707892560769480, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4410707892560769480, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4410707892560769480, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4410707892560769480, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4410707892560769480, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4410707892560769480, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4410707892560769482, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: m_Name
+      value: EnemyAttack
+      objectReference: {fileID: 0}
+    - target: {fileID: 5304413440035362485, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: patternCircle
+      value: 
+      objectReference: {fileID: 22100000, guid: 9e6044f4162f30d43ae23147b6e571eb, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+--- !u!4 &568932087692468810 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4410707892560769480, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+  m_PrefabInstance: {fileID: 4238093741520556930}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4349198119091325167
 PrefabInstance:
@@ -2106,6 +2222,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5392838730957968898}
     m_Modifications:
+    - target: {fileID: 705996722850385787, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: attackData.damageAnimationClip
+      value: 
+      objectReference: {fileID: 7400000, guid: 39fb2395d342ef34c992ebfacb3c7a9a, type: 2}
+    - target: {fileID: 705996722850385787, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
+      propertyPath: attackData.patternAnimationClip
+      value: 
+      objectReference: {fileID: 7400000, guid: a9867cba2b9e06f4387f9f787494b01e, type: 2}
     - target: {fileID: 4410707892560769480, guid: 7881eeb97393267499801d0cdcff2c48, type: 3}
       propertyPath: m_RootOrder
       value: 1

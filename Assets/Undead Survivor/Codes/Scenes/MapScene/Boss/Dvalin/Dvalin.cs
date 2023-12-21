@@ -195,7 +195,7 @@ public class Dvalin : Boss
             }
         );
 
-        EnemyAttackData attackData = new EnemyAttackData();
+        EnemyAttackData attackData = head.enemyAttack.attackData;
 
         attackData.damage = damage;
         attackData.patternDelay = patternDelay;
@@ -204,6 +204,7 @@ public class Dvalin : Boss
         attackData.speed = 1.0f;
         attackData.isDamage = true;
         head.enemyAttack.Init(attackData);
+        head.enemyAttack.AnimationStart();
     }
 
     void PatternCrack()
@@ -260,16 +261,16 @@ public class Dvalin : Boss
 
     Tween Meteor()
     {
-        Parts head = parts[(int)PartsName.Head];
+        Parts tail = parts[(int)PartsName.Tail];
         float patternDelay = 2.0f;
         float patternCoolTime = 3.0f;
 
-        head.patternAnimationController = overrideControllers[(int)AnimationType.BreathDelay];
-        head.patternAnimation.gameObject.transform.localScale = new Vector2(1.0f, 1.0f);
+        tail.patternAnimationController = overrideControllers[(int)AnimationType.BreathDelay];
+        tail.patternAnimation.gameObject.transform.localScale = new Vector2(1.0f, 1.0f);
 
-        head.patternAnimation.gameObject.SetActive(false);
+        tail.patternAnimation.gameObject.SetActive(false);
 
-        EnemyAttackData attackData = new EnemyAttackData();
+        EnemyAttackData attackData = tail.enemyAttack.attackData;
 
         attackData.damage = damage;
         attackData.patternDelay = patternDelay;
@@ -278,7 +279,8 @@ public class Dvalin : Boss
         attackData.patternSize = 2.0f;
         attackData.speed = 1.0f;
         attackData.isDamage = true;
-        head.enemyAttack.Init(attackData);
+        tail.enemyAttack.Init(attackData);
+        tail.enemyAttack.AnimationStart();
 
         return PatternDelay(patternCoolTime);
     }
@@ -313,15 +315,18 @@ public class Dvalin : Boss
     {
         float patternDelay = 1.0f;
         Parts rightWing = parts[(int)PartsName.WingRight];
-        EnemyAttackData attackData = new EnemyAttackData();
+        EnemyAttackData attackData = rightWing.enemyAttack.attackData;
 
         attackData.damage = damage / 2;
         attackData.patternDelay = patternDelay;
         attackData.duration = 0f;
         attackData.patternType = EnemyAttack.PatternType.Range;
+        attackData.targetDirection = playerTransform.position - rightWing.transform.position;
         attackData.speed = 10.0f;
+        attackData.animationSpeed = 4.0f;
         attackData.isDamage = true;
         rightWing.enemyAttack.Init(attackData);
+        rightWing.enemyAttack.AnimationStart();
 
         return PatternDelay(1.0f);
     }
@@ -329,15 +334,18 @@ public class Dvalin : Boss
     {
         float patternDelay = 1.0f;
         Parts leftWing = parts[(int)PartsName.WingLeft];
-        EnemyAttackData attackData = new EnemyAttackData();
+        EnemyAttackData attackData = leftWing.enemyAttack.attackData;
 
         attackData.damage = damage / 2;
         attackData.patternDelay = patternDelay;
         attackData.duration = 0f;
         attackData.patternType = EnemyAttack.PatternType.Range;
+        attackData.targetDirection = playerTransform.position - leftWing.transform.position;
         attackData.speed = 10.0f;
+        attackData.animationSpeed = 4.0f;
         attackData.isDamage = true;
         leftWing.enemyAttack.Init(attackData);
+        leftWing.enemyAttack.AnimationStart();
 
         return PatternDelay(4.0f);
     }
