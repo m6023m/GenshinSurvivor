@@ -365,7 +365,7 @@ public class ElementReaction : MonoBehaviour
         GameManager.instance.damageAttach.WriteReaction(parentEnemy.transform, parameterWithKey, elementAttach.elementType);
 
 
-        GameObject crystalizeObject = GameManager.instance.poolManager.Get(PoolManager.Type.Crystalize);
+        CrystalizeObject crystalizeObject = GameManager.instance.poolManager.GetObject<CrystalizeObject>();
         crystalizeObject.transform.position = parentEnemy.gameObject.transform.position;
     }
     void EnemyStop(bool isStop)

@@ -8,15 +8,6 @@ using DG.Tweening;
 public class Skill : SkillMoveSet
 {
     bool isChanged = false;
-    SpriteRenderer _spriteRenderer;
-    SpriteRenderer spriteRenderer
-    {
-        get
-        {
-            if (_spriteRenderer == null) _spriteRenderer = GetComponent<SpriteRenderer>();
-            return _spriteRenderer;
-        }
-    }
     protected override void LateUpdate()
     {
         base.LateUpdate();

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ElementalSphere : MonoBehaviour
+public class ElementalSphere : PoolingObject
 {
     float speed = 2.0f;
     Rigidbody2D rigid;

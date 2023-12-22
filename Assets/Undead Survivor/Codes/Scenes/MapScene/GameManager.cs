@@ -259,12 +259,12 @@ public class GameManager : MonoBehaviour
     public void AddSkill(SkillName skillName)
     {
         if (ownSkills.ContainsKey(skillName)) return;
-        GameObject skillObject = poolManager.Get(PoolManager.Type.SkillObject);
+
         SkillData.ParameterWithKey param = skillData.skills[skillName];
-        SkillObject skillObj = skillObject.GetComponent<SkillObject>();
+        SkillObject skillObj = poolManager.GetObject<SkillObject>();
+        skillObj.transform.parent = playerSkills.transform;
+        skillObj.transform.localPosition = Vector3.zero;
         skillObj.Init(param);
-        skillObject.transform.parent = playerSkills.transform;
-        skillObject.transform.localPosition = Vector3.zero;
 
         if (param.name == SkillName.Basic_Catalist)
         {
@@ -290,12 +290,11 @@ public class GameManager : MonoBehaviour
         if (ownBursts.Count == maxBurstCount) return;
         if (ownBursts.ContainsKey(skillName)) return;
 
-        GameObject skillObject = poolManager.Get(PoolManager.Type.SkillObject);
         SkillData.ParameterWithKey param = skillData.skills[skillName];
-        SkillObject skillObj = skillObject.GetComponent<SkillObject>();
+        SkillObject skillObj = poolManager.GetObject<SkillObject>();
+        skillObj.transform.parent = playerSkills.transform;
+        skillObj.transform.localPosition = Vector3.zero;
         skillObj.Init(param);
-        skillObject.transform.parent = playerSkills.transform;
-        skillObject.transform.localPosition = Vector3.zero;
 
         playerBurstIcons.AddSkillData(param, skillObj);
 

@@ -4,7 +4,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class SkillObject : MonoBehaviour
+public class SkillObject : PoolingObject
 {
     private Transform nearestTarget;
     List<GameObject> _skillObjects;
@@ -280,50 +280,51 @@ public class SkillObject : MonoBehaviour
             skillCount += parameterWithKey.parameter.count;
             skillCount += (int)GameManager.instance.statCalculator.Amount;
         }
-        PoolManager.Type objectType = PoolManager.Type.Skill;
-
-        switch (skillSequence.objectType)
-        {
-            case Skill.ObjectType.Skill:
-                objectType = PoolManager.Type.Skill;
-                break;
-            case Skill.ObjectType.Buff:
-                objectType = PoolManager.Type.Buff;
-                break;
-            case Skill.ObjectType.Sheild:
-                objectType = PoolManager.Type.Sheild;
-                break;
-            case Skill.ObjectType.Summon:
-                objectType = PoolManager.Type.Summon;
-                break;
-            case Skill.ObjectType.SkillEffect:
-                objectType = PoolManager.Type.SkillEffect;
-                break;
-        }
 
         for (int i = 0; i < skillCount; i++)
         {
             int idx = i;
 
-            Transform skill = GetSkillObject(objectType);
+            SkillMoveSet skill = null;
+
+            switch (skillSequence.objectType)
+            {
+                case Skill.ObjectType.Skill:
+                    skill = GameManager.instance.poolManager.GetObject<Skill>();
+                    break;
+                case Skill.ObjectType.Buff:
+                    skill = GameManager.instance.poolManager.GetObject<Buff>();
+                    break;
+                case Skill.ObjectType.Sheild:
+                    skill = GameManager.instance.poolManager.GetObject<Sheild>();
+                    break;
+                case Skill.ObjectType.Summon:
+                    skill = GameManager.instance.poolManager.GetObject<Summon>();
+                    break;
+                case Skill.ObjectType.SkillEffect:
+                    skill = GameManager.instance.poolManager.GetObject<SkillEffect>();
+                    break;
+            }
+
 
             if (skill != null)
             {
 
                 CapsuleCollider2D skillEffectArea = skill.GetComponentInChildren<CapsuleCollider2D>();
                 skill.gameObject.SetActive(true);
-                skill.parent = transform;
+                skill.transform.parent = transform;
                 if (skillSequence.layerOrder != 0)
                 {
-                    skill.GetComponent<SpriteRenderer>().sortingOrder = skillSequence.layerOrder;
+                    skill.spriteRenderer.sortingOrder = skillSequence.layerOrder;
                 }
                 else
                 {
-                    skill.GetComponent<SpriteRenderer>().sortingOrder = 800;
+                    skill.spriteRenderer.sortingOrder = 800;
                 }
 
+
                 skillEffectArea.size = new Vector2(magentArea, magentArea);
-                skill.localScale = new Vector2(area, area);
+                skill.transform.localScale = new Vector2(area, area);
 
                 TransformValue currentTransform = new TransformValue();
                 if (currentTransforms.Count > idx)
@@ -332,40 +333,11 @@ public class SkillObject : MonoBehaviour
                 }
 
 
-                switch (skillSequence.objectType)
-                {
-                    case Skill.ObjectType.Skill:
-                        if (!gameObject.activeInHierarchy) return;
-                        skill.GetComponent<Skill>()
-                        .Init(parameterWithKey, skillSequence, currentTransform, idx)
-                        .AddEndListener(() => AddCurrentTransform(skill, skillSequence, idx));
-                        break;
-                    case Skill.ObjectType.Buff:
-                        if (!gameObject.activeInHierarchy) return;
-                        skill.GetComponent<Buff>()
-                        .Init(parameterWithKey, skillSequence, currentTransform, idx)
-                        .AddEndListener(() => AddCurrentTransform(skill, skillSequence, idx));
-                        break;
-                    case Skill.ObjectType.Sheild:
-                        if (!gameObject.activeInHierarchy) return;
-                        skill.GetComponent<Sheild>()
-                        .Init(parameterWithKey, skillSequence, currentTransform, idx)
-                        .AddEndListener(() => AddCurrentTransform(skill, skillSequence, idx));
-                        break;
-                    case Skill.ObjectType.Summon:
-                        if (!gameObject.activeInHierarchy) return;
-                        skill.GetComponent<Summon>()
-                        .Init(parameterWithKey, skillSequence, currentTransform, idx)
-                        .AddEndListener(() => AddCurrentTransform(skill, skillSequence, idx));
-                        break;
-                    case Skill.ObjectType.SkillEffect:
-                        skill.GetComponent<SkillEffect>()
-                        .Init(parameterWithKey, skillSequence, currentTransform, idx)
-                        .AddEndListener(() => AddCurrentTransform(skill, skillSequence, idx));
-                        break;
-                }
+                if (!gameObject.activeInHierarchy) return;
+                skill.Init(parameterWithKey, skillSequence, currentTransform, idx)
+                .AddEndListener(() => AddCurrentTransform(skill.transform, skillSequence, idx));
 
-                AddCurrentTransform(skill, skillSequence, idx);
+                AddCurrentTransform(skill.transform, skillSequence, idx);
             }
 
         }
@@ -384,14 +356,6 @@ public class SkillObject : MonoBehaviour
                 currentTransforms[idx] = skill.CopyTransformValue();
             }
         }
-    }
-
-
-    private Transform GetSkillObject(PoolManager.Type type)
-    {
-        Transform skillObject = GameManager.instance.poolManager.Get(type, skillObjects).transform;
-        skillObjects.Add(skillObject.gameObject);
-        return skillObject;
     }
 
     public void AddSkillTime(float time)

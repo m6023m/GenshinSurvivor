@@ -99,7 +99,7 @@ public class Spawner : MonoBehaviour
     {
         SpawnData newSpawnData = spawnData;
         newSpawnData.enemyStat = NewEnemyStat(newSpawnData.spriteName, newSpawnData);
-        EnemyNormal enemy = (EnemyNormal)GameManager.instance.poolManager.GetEnemy();
+        EnemyNormal enemy = GameManager.instance.poolManager.GetObject<EnemyNormal>();
         enemy.transform.position = spawnPoint[Random.Range(1, spawnPoint.Length)].position;
         enemy.Init(newSpawnData);
     }

@@ -365,7 +365,7 @@ public class EnemyNormal : Enemy
     }
     void DropRandomItem()
     {
-        ElementalSphere elementalSphere = GameManager.instance.poolManager.GetElementalSphere();
+        ElementalSphere elementalSphere = GameManager.instance.poolManager.GetObject<ElementalSphere>();
         elementalSphere.transform.position = gameObject.transform.position;
 
         RandomDrop();
@@ -382,9 +382,8 @@ public class EnemyNormal : Enemy
             if (randomNum <= dropPer)
             {
                 int randomBox = Random.Range(0, 10);
-                GameObject dropItem = GameManager.instance.poolManager.Get(PoolManager.Type.DropItem);
-                dropItem.transform.position = gameObject.transform.position;
-                DropItem drop = dropItem.GetComponent<DropItem>();
+                DropItem drop = GameManager.instance.poolManager.GetObject<DropItem>();
+                drop.transform.position = gameObject.transform.position;
                 if (randomBox == 1)
                 {
                     drop.Init(DropItem.Name.Box_Ex);
@@ -397,9 +396,8 @@ public class EnemyNormal : Enemy
         }
         else if (type == Type.Elite)
         {
-            GameObject dropItem = GameManager.instance.poolManager.Get(PoolManager.Type.DropItem);
-            dropItem.transform.position = gameObject.transform.position;
-            DropItem drop = dropItem.GetComponent<DropItem>();
+            DropItem drop = GameManager.instance.poolManager.GetObject<DropItem>();
+            drop.transform.position = gameObject.transform.position;
             drop.Init(DropItem.Name.Box_Ex);
         }
     }

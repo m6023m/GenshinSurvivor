@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MapObject : MonoBehaviour
+public class MapObject : PoolingObject
 {
     public enum Name
     {
@@ -34,7 +34,7 @@ public class MapObject : MonoBehaviour
         isLive = true;
         coll.enabled = true;
         rigid.simulated = true;
-        spriter.sortingOrder = 20; 
+        spriter.sortingOrder = 20;
         float size = 1;
         if (objectName == Name.Tree)
         {
@@ -139,7 +139,7 @@ public class MapObject : MonoBehaviour
     }
     void DropRandomItem()
     {
-        ElementalSphere elementalSphere = GameManager.instance.poolManager.GetElementalSphere();
+        ElementalSphere elementalSphere = GameManager.instance.poolManager.GetObject<ElementalSphere>();
         elementalSphere.transform.position = gameObject.transform.position;
 
         RandomDrop();
@@ -156,9 +156,8 @@ public class MapObject : MonoBehaviour
             if (randomNum <= dropPer)
             {
                 int randomBox = Random.Range(0, 20);
-                GameObject dropItem = GameManager.instance.poolManager.Get(PoolManager.Type.DropItem);
-                dropItem.transform.position = gameObject.transform.position;
-                DropItem drop = dropItem.GetComponent<DropItem>();
+                DropItem drop = GameManager.instance.poolManager.GetObject<DropItem>();
+                drop.transform.position = gameObject.transform.position;
                 if (randomBox > 0 && randomBox < 5)
                 {
                     drop.Init(DropItem.Name.Box_Ex);
@@ -175,9 +174,8 @@ public class MapObject : MonoBehaviour
         }
         else if (objectName == Name.Tree)
         {
-            GameObject dropItem = GameManager.instance.poolManager.Get(PoolManager.Type.DropItem);
-            dropItem.transform.position = gameObject.transform.position;
-            DropItem drop = dropItem.GetComponent<DropItem>();
+            DropItem drop = GameManager.instance.poolManager.GetObject<DropItem>();
+            drop.transform.position = gameObject.transform.position;
             drop.Init(DropItem.Name.Heal);
         }
     }

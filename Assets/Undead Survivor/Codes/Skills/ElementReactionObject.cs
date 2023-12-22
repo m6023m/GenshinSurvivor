@@ -122,83 +122,64 @@ public class ElementReactionObject : MonoBehaviour
             skillCount += (int)GameManager.instance.statCalculator.Amount;
         }
 
-        PoolManager.Type objectType = PoolManager.Type.Skill;
-
-        switch (skillSequence.objectType)
-        {
-            case Skill.ObjectType.Skill:
-                objectType = PoolManager.Type.Skill;
-                break;
-            case Skill.ObjectType.Buff:
-                objectType = PoolManager.Type.Buff;
-                break;
-            case Skill.ObjectType.Sheild:
-                objectType = PoolManager.Type.Sheild;
-                break;
-            case Skill.ObjectType.Summon:
-                objectType = PoolManager.Type.Summon;
-                break;
-            case Skill.ObjectType.SkillEffect:
-                objectType = PoolManager.Type.SkillEffect;
-                break;
-        }
-
         for (int i = 0; i < skillCount; i++)
         {
             int idx = i;
 
-            Transform skill = GetSkillObject(idx, objectType);
+            SkillMoveSet skill = null;
+
+            switch (skillSequence.objectType)
+            {
+                case Skill.ObjectType.Skill:
+                    skill = GameManager.instance.poolManager.GetObject<Skill>();
+                    break;
+                case Skill.ObjectType.Buff:
+                    skill = GameManager.instance.poolManager.GetObject<Buff>();
+                    break;
+                case Skill.ObjectType.Sheild:
+                    skill = GameManager.instance.poolManager.GetObject<Sheild>();
+                    break;
+                case Skill.ObjectType.Summon:
+                    skill = GameManager.instance.poolManager.GetObject<Summon>();
+                    break;
+                case Skill.ObjectType.SkillEffect:
+                    skill = GameManager.instance.poolManager.GetObject<SkillEffect>();
+                    break;
+            }
 
             if (skill != null)
             {
                 CapsuleCollider2D skillEffectArea = skill.GetComponentInChildren<CapsuleCollider2D>();
                 skill.gameObject.SetActive(true);
-                skill.SetParent(transform);
+                skill.transform.SetParent(transform);
                 if (skillSequence.layerOrder != 0)
                 {
-                    skill.GetComponent<SpriteRenderer>().sortingOrder = skillSequence.layerOrder;
+                    skill.spriteRenderer.sortingOrder = skillSequence.layerOrder;
                 }
                 else
                 {
-                    skill.GetComponent<SpriteRenderer>().sortingOrder = 800;
+                    skill.spriteRenderer.sortingOrder = 800;
                 }
 
                 skillEffectArea.size = new Vector2(magentArea, magentArea);
-                skill.localScale = new Vector2(area, area);
+                skill.transform.localScale = new Vector2(area, area);
 
 
                 switch (skillSequence.objectType)
                 {
                     case Skill.ObjectType.Skill:
-                        skill.GetComponent<Skill>().ReactedDamage(reactedDamage).Init(parameterWithKey, skillSequence, transform.CopyTransformValue(), idx);
-                        break;
                     case Skill.ObjectType.Buff:
-                        skill.GetComponent<Buff>().ReactedDamage(reactedDamage).Init(parameterWithKey, skillSequence, transform.CopyTransformValue(), idx);
+                        skill.ReactedDamage(reactedDamage).Init(parameterWithKey, skillSequence, transform.CopyTransformValue(), idx);
                         break;
                     case Skill.ObjectType.Sheild:
-                        skill.GetComponent<Sheild>().Init(parameterWithKey, skillSequence, transform.CopyTransformValue(), idx);
-                        break;
                     case Skill.ObjectType.Summon:
-                        skill.GetComponent<Summon>().Init(parameterWithKey, skillSequence, transform.CopyTransformValue(), idx);
-                        break;
                     case Skill.ObjectType.SkillEffect:
-                        skill.GetComponent<SkillEffect>().Init(parameterWithKey, skillSequence, transform.CopyTransformValue(), idx);
+                        skill.Init(parameterWithKey, skillSequence, transform.CopyTransformValue(), idx);
                         break;
                 }
             }
 
         }
     }
-
-
-
-    private Transform GetSkillObject(int idx, PoolManager.Type type)
-    {
-        Transform skillObject = null;
-        skillObject = GameManager.instance.poolManager.Get(type, skillObjects).transform;
-        skillObjects.Add(skillObject.gameObject);
-        return skillObject;
-    }
-
 
 }

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DropItem : MonoBehaviour
+public class DropItem : PoolingObject
 {
     public Name dropName;
     public Sprite[] sprites;

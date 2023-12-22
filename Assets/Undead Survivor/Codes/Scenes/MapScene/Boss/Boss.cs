@@ -56,9 +56,8 @@ public class Boss : Enemy
 
     void DropQniqueBox()
     {
-        GameObject dropItem = GameManager.instance.poolManager.Get(PoolManager.Type.DropItem);
-        dropItem.transform.position = gameObject.transform.position;
-        DropItem drop = dropItem.GetComponent<DropItem>();
+        DropItem drop = GameManager.instance.poolManager.GetObject<DropItem>();
+        drop.transform.position = gameObject.transform.position;
         drop.Init(DropItem.Name.Box_Unique);
     }
 

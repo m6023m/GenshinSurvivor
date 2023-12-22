@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6175296135381636437}
+  - component: {fileID: -9087148726518451204}
   m_Layer: 0
   m_Name: DvalinCrackArea
   m_TagString: Untagged
@@ -23,6 +24,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6175296135381636442}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -43,13 +45,25 @@ Transform:
   - {fileID: 7531976156310426159}
   - {fileID: 7531976156446182506}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-9087148726518451204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6175296135381636442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2528932ec1cb447448b598498897c270, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6175296133472111002
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 6175296135381636437}
     m_Modifications:
     - target: {fileID: 4410707892560769480, guid: 1c473838a2d76c34f90045555e9ae1ff, type: 3}
@@ -101,6 +115,9 @@ PrefabInstance:
       value: DvalinCrack (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c473838a2d76c34f90045555e9ae1ff, type: 3}
 --- !u!4 &7531976154780694610 stripped
 Transform:
@@ -112,6 +129,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 6175296135381636437}
     m_Modifications:
     - target: {fileID: 4410707892560769480, guid: 1c473838a2d76c34f90045555e9ae1ff, type: 3}
@@ -163,6 +181,9 @@ PrefabInstance:
       value: DvalinCrack (6)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c473838a2d76c34f90045555e9ae1ff, type: 3}
 --- !u!4 &7531976154512305738 stripped
 Transform:
@@ -174,6 +195,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 6175296135381636437}
     m_Modifications:
     - target: {fileID: 4410707892560769480, guid: 1c473838a2d76c34f90045555e9ae1ff, type: 3}
@@ -225,6 +247,9 @@ PrefabInstance:
       value: DvalinCrack (11)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c473838a2d76c34f90045555e9ae1ff, type: 3}
 --- !u!4 &7531976154560250336 stripped
 Transform:
@@ -236,6 +261,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 6175296135381636437}
     m_Modifications:
     - target: {fileID: 4410707892560769480, guid: 1c473838a2d76c34f90045555e9ae1ff, type: 3}
@@ -287,6 +313,9 @@ PrefabInstance:
       value: DvalinCrack (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c473838a2d76c34f90045555e9ae1ff, type: 3}
 --- !u!4 &7531976154909095111 stripped
 Transform:
@@ -298,6 +327,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 6175296135381636437}
     m_Modifications:
     - target: {fileID: 4410707892560769480, guid: 1c473838a2d76c34f90045555e9ae1ff, type: 3}
@@ -349,6 +379,9 @@ PrefabInstance:
       value: DvalinCrack (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c473838a2d76c34f90045555e9ae1ff, type: 3}
 --- !u!4 &7531976155877824825 stripped
 Transform:
@@ -360,6 +393,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 6175296135381636437}
     m_Modifications:
     - target: {fileID: 4410707892560769480, guid: 1c473838a2d76c34f90045555e9ae1ff, type: 3}
@@ -411,6 +445,9 @@ PrefabInstance:
       value: DvalinCrack (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c473838a2d76c34f90045555e9ae1ff, type: 3}
 --- !u!4 &7531976155907254338 stripped
 Transform:
@@ -422,6 +459,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 6175296135381636437}
     m_Modifications:
     - target: {fileID: 4410707892560769480, guid: 1c473838a2d76c34f90045555e9ae1ff, type: 3}
@@ -473,6 +511,9 @@ PrefabInstance:
       value: DvalinCrack (10)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c473838a2d76c34f90045555e9ae1ff, type: 3}
 --- !u!4 &7531976155809752903 stripped
 Transform:
@@ -484,6 +525,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 6175296135381636437}
     m_Modifications:
     - target: {fileID: 4410707892560769480, guid: 1c473838a2d76c34f90045555e9ae1ff, type: 3}
@@ -535,6 +577,9 @@ PrefabInstance:
       value: DvalinCrack (7)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c473838a2d76c34f90045555e9ae1ff, type: 3}
 --- !u!4 &7531976155628516965 stripped
 Transform:
@@ -546,6 +591,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 6175296135381636437}
     m_Modifications:
     - target: {fileID: 4410707892560769480, guid: 1c473838a2d76c34f90045555e9ae1ff, type: 3}
@@ -597,6 +643,9 @@ PrefabInstance:
       value: DvalinCrack (9)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c473838a2d76c34f90045555e9ae1ff, type: 3}
 --- !u!4 &7531976155415415072 stripped
 Transform:
@@ -608,6 +657,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 6175296135381636437}
     m_Modifications:
     - target: {fileID: 4410707892560769480, guid: 1c473838a2d76c34f90045555e9ae1ff, type: 3}
@@ -659,6 +709,9 @@ PrefabInstance:
       value: DvalinCrack (13)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c473838a2d76c34f90045555e9ae1ff, type: 3}
 --- !u!4 &7531976156446182506 stripped
 Transform:
@@ -670,6 +723,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 6175296135381636437}
     m_Modifications:
     - target: {fileID: 4410707892560769480, guid: 1c473838a2d76c34f90045555e9ae1ff, type: 3}
@@ -721,6 +775,9 @@ PrefabInstance:
       value: DvalinCrack (12)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c473838a2d76c34f90045555e9ae1ff, type: 3}
 --- !u!4 &7531976156310426159 stripped
 Transform:
@@ -732,6 +789,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 6175296135381636437}
     m_Modifications:
     - target: {fileID: 4410707892560769480, guid: 1c473838a2d76c34f90045555e9ae1ff, type: 3}
@@ -783,6 +841,9 @@ PrefabInstance:
       value: DvalinCrack
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c473838a2d76c34f90045555e9ae1ff, type: 3}
 --- !u!4 &7531976156162448353 stripped
 Transform:
@@ -794,6 +855,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 6175296135381636437}
     m_Modifications:
     - target: {fileID: 4410707892560769480, guid: 1c473838a2d76c34f90045555e9ae1ff, type: 3}
@@ -845,6 +907,9 @@ PrefabInstance:
       value: DvalinCrack (8)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c473838a2d76c34f90045555e9ae1ff, type: 3}
 --- !u!4 &7531976156001715787 stripped
 Transform:
@@ -856,6 +921,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 6175296135381636437}
     m_Modifications:
     - target: {fileID: 4410707892560769480, guid: 1c473838a2d76c34f90045555e9ae1ff, type: 3}
@@ -907,6 +973,9 @@ PrefabInstance:
       value: DvalinCrack (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c473838a2d76c34f90045555e9ae1ff, type: 3}
 --- !u!4 &7531976156060855506 stripped
 Transform:

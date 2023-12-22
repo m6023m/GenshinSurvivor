@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class SkillIcon : MonoBehaviour
+public class SkillIcon : PoolingObject
 {
     Image imageSkill;
     Image imageBackground;

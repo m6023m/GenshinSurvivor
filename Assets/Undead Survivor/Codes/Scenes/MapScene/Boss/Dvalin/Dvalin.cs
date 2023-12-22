@@ -223,7 +223,7 @@ public class Dvalin : Boss
             PatternDelay(3.0f).OnComplete(
                 () =>
                 {
-                    GameObject crackArea = GameManager.instance.poolManager.Get(PoolManager.Type.DvalinCrackArea);
+                    DvalinCrackArea crackArea = GameManager.instance.poolManager.GetObject<DvalinCrackArea>();
                     crackArea.transform.position = playerTransform.position;
                     body.patternAnimation.gameObject.SetActive(false);
                     PatternEnd();

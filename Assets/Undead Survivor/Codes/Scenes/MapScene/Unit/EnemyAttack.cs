@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class EnemyAttack : MonoBehaviour
+public class EnemyAttack : PoolingObject
 {
 
     public enum PatternType

@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8536140920001554917}
   - component: {fileID: -4088284028599629958}
   - component: {fileID: 6335605303514497907}
+  - component: {fileID: -3254989190630905574}
   m_Layer: 0
   m_Name: DamageText
   m_TagString: Untagged
@@ -35,7 +36,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -235,3 +235,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: {r: 0, g: 0, b: 0, a: 0.5058824}
   outlineWidth: 0.04
+--- !u!114 &-3254989190630905574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8536140920001554912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7775be7fb9054aa4e859aad2d6ce4b88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

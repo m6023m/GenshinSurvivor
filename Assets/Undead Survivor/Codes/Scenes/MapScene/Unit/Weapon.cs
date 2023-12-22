@@ -94,7 +94,7 @@ public class Weapon : MonoBehaviour
 
     public void AddWeaponSkill(SkillName skillName)
     {
-        GameObject skillObject = GameManager.instance.poolManager.Get(PoolManager.Type.SkillObject);
+        SkillObject skillObject = GameManager.instance.poolManager.GetObject<SkillObject>();
         SkillData.ParameterWithKey param = GameManager.instance.skillData.skills[skillName];
         skillObj = skillObject.GetComponent<SkillObject>();
         skillObj.Init(param);
@@ -167,7 +167,7 @@ public enum WeaponName
     Bow_Amos_Bow,//아모스의 활
     Bow_Elegy_For_The_End, //종말 탄식의 노래
     Bow_Polar_Star, //극지의 별
-    
+
     Sword_Mistsplitter_Reforged, //안개를 가르는 회광
     Bow_Thundering_Pulse, //비뢰의 고동
     Spear_Engulfing_Lightning, //예초의 번개

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CrystalizeObject : MonoBehaviour
+public class CrystalizeObject : PoolingObject
 {
     float speed = 2.0f;
     Rigidbody2D rigid;

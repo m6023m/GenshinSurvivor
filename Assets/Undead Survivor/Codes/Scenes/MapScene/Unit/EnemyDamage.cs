@@ -5,7 +5,7 @@ using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class EnemyDamage : MonoBehaviour
+public class EnemyDamage : PoolingObject
 {
     Animator _animator;
     Animator animator
