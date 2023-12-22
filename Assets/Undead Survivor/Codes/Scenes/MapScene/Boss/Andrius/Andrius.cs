@@ -248,7 +248,7 @@ public class Andrius : Boss
         float patternCoolTime = 2.0f;
 
 
-        EnemyAttackData attackData = new EnemyAttackData();
+        EnemyAttackData attackData = tail.enemyAttack.attackData;
 
         attackData.damage = damage;
         attackData.patternDelay = patternDelay;
@@ -257,6 +257,7 @@ public class Andrius : Boss
         attackData.speed = 1.0f;
         attackData.isDamage = true;
         tail.enemyAttack.Init(attackData);
+        tail.enemyAttack.AnimationStart();
 
         return DOVirtual.DelayedCall(patternCoolTime, ()=>{});
     }
@@ -268,7 +269,7 @@ public class Andrius : Boss
         LookPlayer();
         Parts body = parts[(int)PartsName.Body];
 
-        EnemyAttackData attackData = new EnemyAttackData();
+        EnemyAttackData attackData = body.enemyAttack.attackData;
 
         attackData.damage = damage;
         attackData.patternDelay = patternDelay + moveTime;
@@ -279,6 +280,7 @@ public class Andrius : Boss
         attackData.isDamage = true;
         attackData.targetDirection = new Vector3(playerTransform.position.x, playerTransform.position.y);
         body.enemyAttack.Init(attackData);
+        body.enemyAttack.AnimationStart();
 
         float currentAngle = transform.localEulerAngles.z;
 
@@ -303,7 +305,7 @@ public class Andrius : Boss
         LookPlayer();
         Parts head = parts[(int)PartsName.Head];
 
-        EnemyAttackData attackData = new EnemyAttackData();
+        EnemyAttackData attackData = head.enemyAttack.attackData;
 
         attackData.damage = damage / 2.0f;
         attackData.patternDelay = patternDelay;
@@ -314,6 +316,7 @@ public class Andrius : Boss
         attackData.isDamage = true;
         attackData.targetDirection = new Vector3(playerTransform.position.x, playerTransform.position.y);
         head.enemyAttack.Init(attackData);
+        head.enemyAttack.AnimationStart();
         
         DOVirtual.DelayedCall(patternDelay + attackData.duration, () =>
         {
@@ -329,7 +332,8 @@ public class Andrius : Boss
         LookPlayer();
         Vector3 targetPosition = (playerTransform.position - transform.position).normalized * 2.0f;
         Vector3 jumpPosition = transform.position - targetPosition;
-        EnemyAttackData attackData = new EnemyAttackData();
+        Parts armRight = parts[(int)PartsName.ArmRight];
+        EnemyAttackData attackData = armRight.enemyAttack.attackData;
 
         attackData.damage = damage;
         attackData.patternDelay = moveDuration + patternDelay;
@@ -340,6 +344,7 @@ public class Andrius : Boss
         attackData.isDamage = true;
         attackData.targetDirection = new Vector3(playerTransform.position.x, playerTransform.position.y);
         enemyAttack.Init(attackData);
+        enemyAttack.AnimationStart();
 
         Tweener tweener = transform.DOMove(jumpPosition, patternDelay).SetEase(Ease.InQuad);
         tweener.OnComplete(() =>
@@ -422,8 +427,7 @@ public class Andrius : Boss
     {
         float patternDelay = 1.0f;
         Parts rightWing = parts[(int)PartsName.WingRight];
-        EnemyAttackData attackData = new EnemyAttackData();
-
+        EnemyAttackData attackData = rightWing.enemyAttack.attackData;
         attackData.damage = damage;
         attackData.patternDelay = patternDelay;
         attackData.duration = 0f;
@@ -441,6 +445,7 @@ public class Andrius : Boss
             Vector3 targetDirection = rotation * dir;
             attackData.targetDirection = targetDirection;
             enemyAttack.Init(attackData);
+            enemyAttack.AnimationStart();
             count++;
         }
 

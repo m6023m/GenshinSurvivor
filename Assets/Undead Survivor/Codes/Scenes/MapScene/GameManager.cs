@@ -120,7 +120,7 @@ public class GameManager : MonoBehaviour
         Spawner spawner = map.GetComponentInChildren<Spawner>(true);
         spawner.transform.parent = player.transform;
         map.SetActive(true);
-        Boss boss = map.GetComponentInChildren<Boss>(true);
+        boss = map.GetComponentInChildren<Boss>(true);
         bossTracker.trackedObject = boss.gameObject;
         bossTracker.objectIcon = boss.bossIcon;
     }

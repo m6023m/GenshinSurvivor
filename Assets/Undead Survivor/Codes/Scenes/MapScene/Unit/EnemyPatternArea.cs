@@ -86,7 +86,7 @@ public class EnemyPatternArea : MonoBehaviour
             case EnemyAttack.PatternType.None:
                 break;
             case EnemyAttack.PatternType.Melee:
-                transform.localScale = new Vector2(1f, 1f);
+                transform.localScale = new Vector3(parentEnemyAttack.attackData.patternSize, parentEnemyAttack.attackData.patternSize);
                 transform.localPosition = Vector3.zero;
                 break;
             case EnemyAttack.PatternType.Range:
@@ -97,7 +97,7 @@ public class EnemyPatternArea : MonoBehaviour
                 transform.ScaleFront(parentEnemyAttack.transform, new Vector3(1.0f, 25.0f));
                 break;
             case EnemyAttack.PatternType.Meteor:
-                transform.localScale = new Vector2(1f, 1f);
+                transform.localScale = new Vector3(parentEnemyAttack.attackData.patternSize, parentEnemyAttack.attackData.patternSize);
                 transform.localPosition = Vector3.zero;
                 parentEnemyAttack.transform.position = parentEnemyAttack.attackData.targetDirection;
                 break;
@@ -109,7 +109,7 @@ public class EnemyPatternArea : MonoBehaviour
                 transform.localScale = new Vector2(1f, 1f);
                 break;
             case EnemyAttack.PatternType.Wave:
-                transform.ScaleFront(parentEnemyAttack.transform, new Vector3(1.0f, 25.0f));
+                transform.ScaleFront(parentEnemyAttack.transform, new Vector3(parentEnemyAttack.attackData.patternSize, 25.0f));
                 break;
             case EnemyAttack.PatternType.Charge:
                 transform.ScaleFront(parentEnemyAttack.transform, new Vector3(1.0f, parentEnemyAttack.attackData.patternSize));

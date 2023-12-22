@@ -113,6 +113,7 @@ public class EnemyDamage : MonoBehaviour
                 rigid.bodyType = RigidbodyType2D.Kinematic;
                 break;
             case EnemyAttack.PatternType.Meteor:
+                transform.localScale = new Vector3(parentEnemyAttack.attackData.patternSize, parentEnemyAttack.attackData.patternSize);
                 transform.RotationFix(Vector3.up);
                 rigid.bodyType = RigidbodyType2D.Dynamic;
                 break;
@@ -124,9 +125,11 @@ public class EnemyDamage : MonoBehaviour
                 rigid.bodyType = RigidbodyType2D.Dynamic;
                 return;
             case EnemyAttack.PatternType.Wave:
+                transform.localScale = new Vector2(1f, 1f);
                 rigid.bodyType = RigidbodyType2D.Dynamic;
                 break;
             case EnemyAttack.PatternType.Melee:
+                transform.localScale = new Vector3(parentEnemyAttack.attackData.patternSize, parentEnemyAttack.attackData.patternSize);
                 rigid.bodyType = RigidbodyType2D.Kinematic;
                 break;
             case EnemyAttack.PatternType.Charge:
@@ -152,7 +155,8 @@ public class EnemyDamage : MonoBehaviour
             animator.speed = animationClip.length / parentEnemyAttack.attackData.duration;
             duration = parentEnemyAttack.attackData.duration * 1.05f;//AnimationEnd가 애니메이션이 끝나는 것 보다 먼저 호출되는 것 방지
         }
-        if(parentEnemyAttack.attackData.animationSpeed != 0) {
+        if (parentEnemyAttack.attackData.animationSpeed != 0)
+        {
             animator.speed = parentEnemyAttack.attackData.animationSpeed;
         }
         if (parentEnemyAttack.attackData.patternType == EnemyAttack.PatternType.Range)
