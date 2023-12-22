@@ -77,7 +77,7 @@ public class EnemyPatternArea : MonoBehaviour
         animationDuration = enemyAttack.attackData.patternDelay;
         spriteRenderer.sprite = null;
         transform.localScale = Vector3.zero;
-        parentEnemyAttack.transform.rotation = Quaternion.identity;
+        parentEnemyAttack.transform.localRotation = Quaternion.identity;
         SetAnimation(enemyAttack.attackData.patternAnimationClip);
 
         animationTime = 0;
@@ -94,7 +94,7 @@ public class EnemyPatternArea : MonoBehaviour
                 parentEnemyAttack.transform.RotationFix(parentEnemyAttack.attackData.targetDirection);
                 break;
             case EnemyAttack.PatternType.Breath:
-                transform.localScale = new Vector2(1f, 1f);
+                transform.ScaleFront(parentEnemyAttack.transform, new Vector3(1.0f, 25.0f));
                 break;
             case EnemyAttack.PatternType.Meteor:
                 transform.localScale = new Vector2(1f, 1f);

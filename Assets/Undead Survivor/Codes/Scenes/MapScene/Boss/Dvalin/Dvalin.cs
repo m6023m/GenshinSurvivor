@@ -86,7 +86,11 @@ public class Dvalin : Boss
         else if (distance > 20f)//거리가 너무 멀어지면 플레이어 쪽으로 이동
         {
             isPattern = true;
-            ResetPositionDoTween().OnComplete(() => isPattern = false);
+            ResetPositionDoTween().OnComplete(() =>
+            {
+                LookPlayer();
+                isPattern = false;
+            });
         }
         else
         {
@@ -154,18 +158,17 @@ public class Dvalin : Boss
     {
         float elapsedTime = 0;
 
-        float angle = transform.eulerAngles.z;
+        float angle = transform.rotation.eulerAngles.z;
 
         Vector2 direction = playerTransform.position - transform.position;
-
         float targetAngle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        float targetAngleDirection = targetAngle >= 0 ? 1 : -1;
+        float targetAngleDirection = Mathf.Sign(angle - targetAngle);
 
         while (elapsedTime < duration)
         {
             elapsedTime += Time.deltaTime;
 
-            angle = angle + (targetAngleDirection * rotateSpeed * Time.deltaTime);
+            angle += targetAngleDirection * rotateSpeed * Time.deltaTime;
 
             transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
 
@@ -175,36 +178,38 @@ public class Dvalin : Boss
         action.Invoke();
     }
 
+
     void PatternBreath()
     {
-        ResetPositionDoTween();
         Parts head = parts[(int)PartsName.Head];
         float patternDuration = 5.0f;
         float patternDelay = 3.0f;
+        ResetPositionDoTween().OnComplete(() =>
+        {
+            LookPlayer();
+            head.patternAnimationController = overrideControllers[(int)AnimationType.BreathDelay];
+            head.patternAnimation.gameObject.transform.localScale = new Vector2(1.0f, 1.0f);
 
-        head.patternAnimationController = overrideControllers[(int)AnimationType.BreathDelay];
-        head.patternAnimation.gameObject.transform.localScale = new Vector2(1.0f, 1.0f);
-        PatternDelay(patternDelay).OnComplete(
-            () =>
+            EnemyAttackData attackData = head.enemyAttack.attackData;
+            attackData.endPatternListener = () =>
             {
                 StartCoroutine(RotatePlayerInDelay(10.0f, patternDuration, () =>
                 {
                     head.patternAnimation.gameObject.SetActive(false);
                     PatternEnd();
                 }));
-            }
-        );
+            };
 
-        EnemyAttackData attackData = head.enemyAttack.attackData;
-
-        attackData.damage = damage;
-        attackData.patternDelay = patternDelay;
-        attackData.duration = patternDuration;
-        attackData.patternType = EnemyAttack.PatternType.Breath;
-        attackData.speed = 1.0f;
-        attackData.isDamage = true;
-        head.enemyAttack.Init(attackData);
-        head.enemyAttack.AnimationStart();
+            attackData.damage = damage;
+            attackData.patternDelay = patternDelay;
+            attackData.duration = patternDuration;
+            attackData.patternType = EnemyAttack.PatternType.Breath;
+            attackData.targetDirection = Vector2.up;
+            attackData.speed = 1.0f;
+            attackData.isDamage = true;
+            head.enemyAttack.Init(attackData);
+            head.enemyAttack.AnimationStart();
+        });
     }
 
     void PatternCrack()
@@ -212,6 +217,7 @@ public class Dvalin : Boss
         Parts body = parts[(int)PartsName.Body];
         ResetPositionDoTween().OnComplete(() =>
         {
+            LookPlayer();
             body.patternAnimationController = overrideControllers[(int)AnimationType.CrackDealy];
             body.patternAnimation.gameObject.transform.localScale = new Vector2(15.0f, 15.0f);
             PatternDelay(3.0f).OnComplete(
@@ -228,15 +234,15 @@ public class Dvalin : Boss
 
     Tween PatternDelay(float delay)
     {
-        return DOVirtual.DelayedCall(delay,()=>{}); 
+        return DOVirtual.DelayedCall(delay, () => { });
     }
     void PatternMeteor()
     {
-        Parts head = parts[(int)PartsName.Head];
         float patternDelay = 3.0f;
         int patternCount = 5;
         ResetPositionDoTween().OnComplete(() =>
         {
+            LookPlayer();
             transform.position = playerTransform.position + new Vector3(0, 20.0f);
 
             CallMeteor(patternCount);
@@ -265,10 +271,6 @@ public class Dvalin : Boss
         float patternDelay = 2.0f;
         float patternCoolTime = 3.0f;
 
-        tail.patternAnimationController = overrideControllers[(int)AnimationType.BreathDelay];
-        tail.patternAnimation.gameObject.transform.localScale = new Vector2(1.0f, 1.0f);
-
-        tail.patternAnimation.gameObject.SetActive(false);
 
         EnemyAttackData attackData = tail.enemyAttack.attackData;
 
@@ -411,7 +413,10 @@ public class Dvalin : Boss
 
     void PatternEnd()
     {
-        isPattern = false;
-        ResetPositionDoTween();
+        ResetPositionDoTween().OnComplete(() =>
+        {
+            LookPlayer();
+            isPattern = false;
+        });
     }
 }

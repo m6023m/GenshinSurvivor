@@ -109,6 +109,7 @@ public class EnemyDamage : MonoBehaviour
                 rigid.bodyType = RigidbodyType2D.Dynamic;
                 break;
             case EnemyAttack.PatternType.Breath:
+                transform.ScaleFront(parentEnemyAttack.transform, new Vector3(1.0f, 25.0f));
                 rigid.bodyType = RigidbodyType2D.Kinematic;
                 break;
             case EnemyAttack.PatternType.Meteor:

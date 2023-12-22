@@ -75,7 +75,7 @@ public class Boss : Enemy
     }
 
     public virtual void ResetPosition()
-    { 
+    {
         transform.position = playerTransform.position + new Vector3(0, 10.0f);
         LookPlayer();
     }
@@ -86,17 +86,14 @@ public class Boss : Enemy
 
         Vector2 direction = transform.CalcTarget(targetPosition);
         transform.rotation = Quaternion.FromToRotation(Vector3.up, direction);
-        return transform.DOMove(targetPosition, 4.0f).SetEase(Ease.Linear).OnComplete(() =>
-        {
-            LookPlayer();
-        });
+        return transform.DOMove(targetPosition, 4.0f).SetEase(Ease.InOutSine);
     }
 
 
     protected void LookPlayer()
     {
         Vector2 direction = transform.CalcTarget(playerTransform);
-        transform.rotation = Quaternion.FromToRotation(Vector3.up, direction);
+        transform.RotationFix(direction);
     }
 
 }
