@@ -104,8 +104,8 @@ public class EnemyAttack : PoolingObject
 
     public void ResetAnimation()
     {
-        patternArea.isInit = false;
-        patternDamage.isInit = false;
+        patternArea.ResetAnimation();
+        patternDamage.ResetAnimation();
     }
 }
 

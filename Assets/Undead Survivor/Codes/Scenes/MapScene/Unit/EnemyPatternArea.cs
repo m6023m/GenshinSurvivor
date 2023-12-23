@@ -164,5 +164,11 @@ public class EnemyPatternArea : MonoBehaviour
         if (onAnimationEnd == null) return;
         onAnimationEnd.Invoke();
     }
+    public void ResetAnimation()
+    {
+        spriteRenderer.sprite = null;
+        animator.enabled = false;
+        isInit = false;
+    }
 
 }

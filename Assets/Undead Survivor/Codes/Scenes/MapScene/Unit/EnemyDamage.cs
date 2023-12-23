@@ -261,5 +261,12 @@ public class EnemyDamage : PoolingObject
         if (onAnimationEnd == null) return;
         onAnimationEnd.Invoke();
     }
+
+    public void ResetAnimation()
+    {
+        spriteRenderer.sprite = null;
+        animator.enabled = false;
+        isInit = false;
+    }
 }
 
