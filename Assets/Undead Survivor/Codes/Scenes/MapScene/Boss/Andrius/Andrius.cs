@@ -34,7 +34,6 @@ public class Andrius : Boss
     float nextPatternTime = 30;
     int currentPattern;
     public EnemyAttack enemyAttack;
-    public AnimatorOverrideController[] overrideControllers;
     bool isPhase2 = false;
     public GameObject bossMap = null;
     string sineGlowId = "_SineGlowFade";
@@ -160,7 +159,7 @@ public class Andrius : Boss
             transform.DOMove(targetPosition, duration).SetEase(Ease.InOutSine);
         });
 
-        return DOVirtual.DelayedCall(4.0f, ()=>{});
+        return DOVirtual.DelayedCall(4.0f, () => { });
     }
 
 
@@ -197,30 +196,6 @@ public class Andrius : Boss
         }
     }
 
-    IEnumerator RotatePlayerInDelay(float rotateSpeed, float duration, UnityAction action)
-    {
-        float elapsedTime = 0;
-
-        float angle = transform.eulerAngles.z;
-
-        Vector2 direction = playerTransform.position - transform.position;
-
-        float targetAngle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        float targetAngleDirection = targetAngle >= 0 ? 1 : -1;
-
-        while (elapsedTime < duration)
-        {
-            elapsedTime += Time.deltaTime;
-
-            angle = angle + (targetAngleDirection * rotateSpeed * Time.deltaTime);
-
-            transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
-
-            yield return null;
-        }
-
-        action.Invoke();
-    }
 
     void PatternMeteor()
     {
@@ -259,7 +234,7 @@ public class Andrius : Boss
         tail.enemyAttack.Init(attackData);
         tail.enemyAttack.AnimationStart();
 
-        return DOVirtual.DelayedCall(patternCoolTime, ()=>{});
+        return DOVirtual.DelayedCall(patternCoolTime, () => { });
     }
     void PatternMelee()
     {
@@ -273,12 +248,10 @@ public class Andrius : Boss
 
         attackData.damage = damage;
         attackData.patternDelay = patternDelay + moveTime;
-        attackData.duration = 0f;
+        attackData.duration = 0.8f;
         attackData.patternType = EnemyAttack.PatternType.Melee;
         attackData.patternSize = 5.0f;
-        attackData.speed = 1.0f;
         attackData.isDamage = true;
-        attackData.targetDirection = new Vector3(playerTransform.position.x, playerTransform.position.y);
         body.enemyAttack.Init(attackData);
         body.enemyAttack.AnimationStart();
 
@@ -317,7 +290,7 @@ public class Andrius : Boss
         attackData.targetDirection = new Vector3(playerTransform.position.x, playerTransform.position.y);
         head.enemyAttack.Init(attackData);
         head.enemyAttack.AnimationStart();
-        
+
         DOVirtual.DelayedCall(patternDelay + attackData.duration, () =>
         {
             isPattern = false;
@@ -330,24 +303,17 @@ public class Andrius : Boss
         float moveDuration = 0.5f;
         isPattern = true;
         LookPlayer();
-        Vector3 targetPosition = (playerTransform.position - transform.position).normalized * 2.0f;
-        Vector3 jumpPosition = transform.position - targetPosition;
         Parts armRight = parts[(int)PartsName.ArmRight];
         EnemyAttackData attackData = armRight.enemyAttack.attackData;
 
         attackData.damage = damage;
         attackData.patternDelay = moveDuration + patternDelay;
-        attackData.duration = 0f;
+        attackData.duration = 0.5f;
         attackData.patternType = EnemyAttack.PatternType.Meteor;
         attackData.patternSize = 8.0f;
-        attackData.speed = 1.0f;
         attackData.isDamage = true;
-        attackData.targetDirection = new Vector3(playerTransform.position.x, playerTransform.position.y);
-        enemyAttack.Init(attackData);
-        enemyAttack.AnimationStart();
-
-        Tweener tweener = transform.DOMove(jumpPosition, patternDelay).SetEase(Ease.InQuad);
-        tweener.OnComplete(() =>
+        attackData.targetDirection = GameManager.instance.player.transform.position;
+        attackData.endPatternListener = () =>
         {
             transform.DOMove(attackData.targetDirection, moveDuration).SetEase(Ease.InQuad).OnComplete(() =>
             {
@@ -363,7 +329,10 @@ public class Andrius : Boss
                                 }
                             });
             });
-        });
+        };
+        enemyAttack.Init(attackData);
+        enemyAttack.AnimationStart();
+
     }
 
     protected override void Dead()
@@ -440,16 +409,14 @@ public class Andrius : Boss
         int count = 0;
         foreach (EnemyAttack enemyAttack in rightWing.enemyAttacks)
         {
-            float angle = -15 + (count * 15); // 각도 (단위: 도)
-            Quaternion rotation = Quaternion.Euler(0f, 0f, angle);
-            Vector3 targetDirection = rotation * dir;
-            attackData.targetDirection = targetDirection;
-            enemyAttack.Init(attackData);
+            EnemyAttackData newAttackData = new EnemyAttackData(attackData);
+            newAttackData.angle = -15 + (count * 15);
+            enemyAttack.Init(newAttackData);
             enemyAttack.AnimationStart();
             count++;
         }
 
-        return DOVirtual.DelayedCall(4.0f, ()=>{});
+        return DOVirtual.DelayedCall(4.0f, () => { });
     }
 
 

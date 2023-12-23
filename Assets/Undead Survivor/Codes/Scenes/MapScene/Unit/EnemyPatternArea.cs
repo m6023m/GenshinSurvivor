@@ -77,7 +77,7 @@ public class EnemyPatternArea : MonoBehaviour
         animationDuration = enemyAttack.attackData.patternDelay;
         spriteRenderer.sprite = null;
         transform.localScale = Vector3.zero;
-        parentEnemyAttack.transform.localRotation = Quaternion.identity;
+        parentEnemyAttack.transform.localRotation = Quaternion.Euler(0, 0, parentEnemyAttack.attackData.angle);
         SetAnimation(enemyAttack.attackData.patternAnimationClip);
 
         animationTime = 0;
@@ -158,9 +158,7 @@ public class EnemyPatternArea : MonoBehaviour
     }
     void AnimationEnd()
     {
-        Debug.Log("AnimationEndPattern");
-        animator.enabled = false;
-        spriteRenderer.sprite = null;
+        ResetAnimation();
         if (onAnimationEnd == null) return;
         onAnimationEnd.Invoke();
     }

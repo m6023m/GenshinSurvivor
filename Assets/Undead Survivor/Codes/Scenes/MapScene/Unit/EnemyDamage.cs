@@ -66,8 +66,6 @@ public class EnemyDamage : PoolingObject
         if (animationTime > animationDuration && animationDuration != 0)
         {
             animationTime = 0;
-            isInit = false;
-            rigid.simulated = false;
             AnimationEnd();
         }
         if (parentEnemyAttack.attackData.patternType != EnemyAttack.PatternType.Range &&
@@ -84,9 +82,7 @@ public class EnemyDamage : PoolingObject
 
     public void Init(EnemyAttack enemyAttack)
     {
-        isInit = false;
-        rigid.simulated = false;
-        spriteRenderer.sprite = null;
+        ResetAnimation();
         parentEnemyAttack = enemyAttack;
         if (parentEnemyAttack.attackData.damageAnimationClip == null) return;
         summons = new Dictionary<int, Summon>();
@@ -255,9 +251,7 @@ public class EnemyDamage : PoolingObject
     }
     void AnimationEnd()
     {
-        Debug.Log("AnimationEndDamage");
-        animator.enabled = false;
-        spriteRenderer.sprite = null;
+        ResetAnimation();
         if (onAnimationEnd == null) return;
         onAnimationEnd.Invoke();
     }
@@ -266,6 +260,7 @@ public class EnemyDamage : PoolingObject
     {
         spriteRenderer.sprite = null;
         animator.enabled = false;
+        rigid.simulated = false;
         isInit = false;
     }
 }

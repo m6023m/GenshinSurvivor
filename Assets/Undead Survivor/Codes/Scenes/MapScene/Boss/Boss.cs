@@ -75,6 +75,7 @@ public class Boss : Enemy
 
     public virtual void ResetPosition()
     {
+        playerTransform = GameManager.instance.player.transform;
         transform.position = playerTransform.position + new Vector3(0, 10.0f);
         LookPlayer();
     }

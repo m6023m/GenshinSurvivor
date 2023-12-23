@@ -101,7 +101,6 @@ public class EnemyNormal : Enemy
 
         if (!isPatternCoolTime && distanceToPlayer <= patternRange && patternRange != 0 && distanceToPlayer != 0)
         {
-            Debug.Log(" distanceToPlayer: " + distanceToPlayer + " patternRange: " + patternRange);
             PatternCheck();
         }
         if (addSpeed == 0) return;
