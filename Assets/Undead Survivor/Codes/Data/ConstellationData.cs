@@ -2289,13 +2289,7 @@ public class ConstellationData
         }
         if (character.constellation[3])
         { // 뒤얽힌 생명줄 지속시간동안 적을 통과할수 있으며 무적상태가 됨
-            skill.AddStartListener(() =>
-            {
-                float duration = skill.skillSet.sequences[0].duration
-                * GameManager.instance.statCalculator.Duration
-                * skill.parameter.duration;
-                player.ReceiveDamage(0, duration);
-            });
+            skill.constellations.num3 = true;
         }
         if (character.constellation[4])
         { // 뒤얽힌 생명줄의 대미지 20% 증가

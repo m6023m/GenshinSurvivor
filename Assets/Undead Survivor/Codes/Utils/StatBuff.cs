@@ -523,4 +523,6 @@ public class StatBuff
     public float E_Heizo_Stack_Plus = 1;
     public float EB_Kokomi = 0.00f;
     public float EB_Miko_Stack = 0;
+    public Vector3 E_Yelan_Position_First = Vector2.zero;
+    public float E_Yelan_Size = 1.0f;
 }

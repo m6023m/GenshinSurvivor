@@ -82,6 +82,11 @@ public class Skill : SkillMoveSet
                 float hp = player.health * 0.02f;
                 player.health -= hp;
                 break;
+            case SkillName.E_Yelan:
+                Vector2 direction = player.transform.position - GameManager.instance.statBuff.E_Yelan_Position_First;
+                float distance = direction.magnitude;
+                GameManager.instance.statBuff.E_Yelan_Size = distance;
+                break;
         }
 
     }

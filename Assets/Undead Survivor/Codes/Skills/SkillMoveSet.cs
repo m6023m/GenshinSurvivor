@@ -80,6 +80,10 @@ public class SkillMoveSet : PoolingObject
         {
             currentSize = area;
             transform.localScale = new Vector2(currentSize, currentSize);
+            if (parameterWithKey.name == SkillName.E_Yelan)
+            {
+                transform.localScale = new Vector2(currentSize, currentSize) * GameManager.instance.statBuff.E_Yelan_Size;
+            }
         }
         Projectile();
         ResizeCollision();

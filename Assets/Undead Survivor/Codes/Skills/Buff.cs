@@ -148,6 +148,12 @@ public class Buff : SkillMoveSet
                 if (nearestSecond != null)
                     nearestSecond.GetComponentInChildren<ElementReaction>().AddElement(Element.Type.Electro, 0f);
                 break;
+            case SkillName.E_Yelan:
+                if (player.inputVec.x != 0)
+                {
+                    spriteRenderer.flipX = player.inputVec.x < 0;
+                }
+                break;
         }
     }
 
@@ -359,6 +365,18 @@ public class Buff : SkillMoveSet
                 if (parameterWithKey.constellations.num0)
                 {
                     statBuff.EB_Kokomi = 0.07f;
+                }
+                break;
+            case SkillName.E_Yelan:
+                statBuff.Speed += 0.7f;
+                statBuff.E_Yelan_Position_First = new Vector2(transform.position.x, transform.position.y);
+                if (parameterWithKey.constellations.num3)
+                {
+                    float duration = skillSequence.duration
+                    * GameManager.instance.statCalculator.Duration
+                    * parameterWithKey.parameter.duration;
+                    player.coll.isTrigger = false;
+                    player.Hit(0, duration);
                 }
                 break;
         }
@@ -629,6 +647,13 @@ public class Buff : SkillMoveSet
                 break;
             case SkillName.E_Kazuha:
                 GameManager.instance.player.coll.isTrigger = false;
+                break;
+            case SkillName.E_Yelan:
+                statBuff.Speed -= 0.7f;
+                if (parameterWithKey.constellations.num3)
+                {
+                    player.coll.isTrigger = false;
+                }
                 break;
         }
     }
