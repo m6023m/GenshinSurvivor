@@ -112,7 +112,8 @@ public class EnemyPatternArea : MonoBehaviour
                 transform.ScaleFront(parentEnemyAttack.transform, new Vector3(parentEnemyAttack.attackData.patternSize, 25.0f));
                 break;
             case EnemyAttack.PatternType.Charge:
-                transform.ScaleFront(parentEnemyAttack.transform, new Vector3(1.0f, parentEnemyAttack.attackData.patternSize));
+                transform.ScaleFront(parentEnemyAttack.transform, new Vector3(parentEnemyAttack.attackData.patternSize, 25.0f));
+                parentEnemyAttack.transform.RotationFix(parentEnemyAttack.attackData.targetDirection);
                 break;
             case EnemyAttack.PatternType.Suicide_Bomb:
                 break;

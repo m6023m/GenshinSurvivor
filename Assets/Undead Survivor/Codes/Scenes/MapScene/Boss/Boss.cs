@@ -28,6 +28,7 @@ public class Boss : Enemy
     {
         Enable();
         base.Init(spawnData);
+        isPattern = false;
         isLive = true;
         playerTransform = GameManager.instance.player.transform;
     }

@@ -22,42 +22,45 @@ public class Parts : Enemy
             patternAnimation.gameObject.SetActive(true);
         }
     }
+    public Animator _partsAnimator;
     public RuntimeAnimatorController partsAnimation
     {
         get
         {
-            return GetComponent<Animator>().runtimeAnimatorController;
+            if (_partsAnimator == null) _partsAnimator = GetComponent<Animator>();
+            return _partsAnimator.runtimeAnimatorController;
         }
         set
         {
-            GetComponent<Animator>().runtimeAnimatorController = value;
+            if (_partsAnimator == null) _partsAnimator = GetComponent<Animator>();
+            _partsAnimator.runtimeAnimatorController = value;
         }
     }
 
 
+    public EnemyAttack _enemyAttack;
     public EnemyAttack enemyAttack
     {
         get
         {
-            if (GetComponentInChildren<EnemyAttack>(true) == null) return null;
-            return GetComponentInChildren<EnemyAttack>(true);
+            if (_enemyAttack == null) _enemyAttack = GetComponentInChildren<EnemyAttack>(true);
+            return _enemyAttack;
         }
     }
     public EnemyAttack[] enemyAttacks
     {
         get
         {
-            if (GetComponentInChildren<EnemyAttack>(true) == null) return null;
             return GetComponentsInChildren<EnemyAttack>(true);
         }
     }
-
+    public PatternAnimation _patternAnimation;
     public PatternAnimation patternAnimation
     {
         get
         {
-            if (GetComponentInChildren<PatternAnimation>(true) == null) return null;
-            return GetComponentInChildren<PatternAnimation>(true);
+            if (_patternAnimation == null) _patternAnimation = GetComponentInChildren<PatternAnimation>(true);
+            return _patternAnimation;
         }
     }
     Boss boss;

@@ -68,6 +68,7 @@ public class Andrius : Boss
     public override void InitBoss(SpawnData spawnData)
     {
         isPhase2 = false;
+        currentPattern = 0;
         base.InitBoss(spawnData);
     }
     protected override void Update()

@@ -17,6 +17,19 @@ public class Tartaglia : Boss
     }
     enum AnimationType
     {
+        Pattern_Square,
+        Pattern_Circle,
+        Melee_Water_L,
+        Melee_Water_R,
+        Melee_Electro_L,
+        Melee_Electro_R,
+        Range,
+        Meteor_Area,
+        Meteor_Damage,
+        Whale_Area,
+        Whale_Damage,
+        Charge
+
     }
     Parts[] parts;
     float patternTime = 0;
@@ -25,7 +38,7 @@ public class Tartaglia : Boss
     public EnemyAttack enemyAttack;
     public AnimatorOverrideController[] overrideControllers;
     public RuntimeAnimatorController[] phaseForm;
-    public AnimationClip[] meleeClips;
+    public AnimationClip[] animationClips;
     int phase = 0;
     public GameObject bossMap = null;
     string sineGlowId = "_SineGlowFade";
@@ -67,6 +80,8 @@ public class Tartaglia : Boss
         body = parts[(int)PartsName.Body];
         body.partsAnimation = phaseForm[phase];
         bossName = BossName.Tartaglia0;
+        isPattern = false;
+        currentPattern = 0;
         Phase(0);
     }
     void Phase2()
@@ -147,47 +162,44 @@ public class Tartaglia : Boss
     void PatternMelee()
     {
         isPattern = true;
-
-        CallMelee(2);
-    }
-    void CallMelee(int count)
-    {
-        if (count <= 0)
+        AnimationType meleeL = AnimationType.Melee_Water_L;
+        AnimationType meleeR = AnimationType.Melee_Water_R;
+        if (phase > 0)
         {
-            PatternDelay(4.0f).OnComplete(() =>
-                        {
-                            isPattern = false;
-                        });
-            return;
+            meleeL = AnimationType.Melee_Electro_L;
+            meleeR = AnimationType.Melee_Electro_R;
         }
-
-        Melee(count).OnComplete(() =>
+        Melee(meleeL, 0).OnComplete(() =>
         {
-            CallMelee(count - 1);
+            Melee(meleeR, 1).OnComplete(() =>
+            {
+                PatternDelay(4.0f).OnComplete(() =>
+                {
+                    isPattern = false;
+                });
+            });
         });
     }
 
-    Tween Melee(int attackNum)
+    Tween Melee(AnimationType animationType, int index)
     {
         float patternDelay = 1f;
-        int attackNumber = attackNum;
         float damagePer = phase * damage * 0.5f;
-        if (phase > 0)
-        {
-            attackNumber += 2;
-        }
 
-        EnemyAttackData attackData = new EnemyAttackData();
+        EnemyAttackData attackData = body.enemyAttacks[index].attackData;
+        attackData.patternAnimationClip = animationClips[(int)AnimationType.Pattern_Circle];
+        attackData.damageAnimationClip = animationClips[(int)animationType];
 
         attackData.damage = damagePer;
         attackData.patternDelay = patternDelay;
-        attackData.duration = 0f;
+        attackData.duration = 0.5f;
         attackData.patternType = EnemyAttack.PatternType.Melee;
         attackData.patternSize = 5.0f;
         attackData.speed = 1.0f;
         attackData.isDamage = true;
         attackData.targetDirection = new Vector3(playerTransform.position.x, playerTransform.position.y);
-        body.enemyAttack.Init(attackData);
+        body.enemyAttacks[index].Init(attackData);
+        body.enemyAttacks[index].AnimationStart();
 
 
         return PatternDelay(1.5f);
@@ -208,31 +220,37 @@ public class Tartaglia : Boss
         isPattern = true;
         Vector3 targetVector = playerTransform.position - transform.position;
         float patternDelay = 1.0f;
-        // EnemyAttackData attackData = new EnemyAttackData();
-        // Transform nearestTarget = GameManager.instance.player.scanner.nearestTarget;
-        // Vector3 targetPos = GameManager.instance.player.transform.position;
-        // Vector3 dir = targetPos - transform.position;
-        // float damagePer = phase * damage * 0.5f;
+        EnemyAttackData attackData = new EnemyAttackData();
+        Transform nearestTarget = GameManager.instance.player.scanner.nearestTarget;
+        Vector3 targetPos = GameManager.instance.player.transform.position;
+        Vector3 dir = targetPos - transform.position;
+        float damagePer = phase * damage * 0.5f;
 
-        // attackData.damage = damagePer;
-        // attackData.patternDelay = patternDelay;
-        // attackData.duration = 0f;
-        // attackData.patternType = EnemyAttack.PatternType.Charge;
-        // Quaternion rotation = Quaternion.Euler(0f, 0f, 0);
-        // Vector3 targetDirection = rotation * dir;
-        // attackData.targetDirection = targetDirection;
-        // attackData.patternSize = 8.0f;
-        // attackData.speed = 15.0f;
-        // attackData.isDamage = false;
-        // body.enemyAttack.Init(attackData);
-        PatternDelay(patternDelay).OnComplete(() =>
+        attackData.patternAnimationClip = animationClips[(int)AnimationType.Pattern_Square];
+        attackData.damageAnimationClip = animationClips[(int)AnimationType.Charge];
+        attackData.damage = damagePer;
+        attackData.patternDelay = patternDelay;
+        attackData.duration = 0f;
+        attackData.patternType = EnemyAttack.PatternType.Charge;
+        Quaternion rotation = Quaternion.Euler(0f, 0f, 0);
+        Vector3 targetDirection = rotation * dir;
+        attackData.targetDirection = targetDirection;
+        attackData.patternSize = 8.0f;
+        attackData.speed = 15.0f;
+        attackData.isDamage = false;
+        body.enemyAttack.Init(attackData);
+        attackData.endPatternListener = () =>
         {
             transform.DOMove(transform.position + targetVector.normalized * 8.0f, 0.5f).OnComplete(() =>
             {
-                isPattern = false;
+                PatternDelay(1.0f).OnComplete(() =>
+                {
+                    isPattern = false;
+                });
             });
-        });
+        };
 
+        body.enemyAttack.AnimationStart();
     }
 
     void PatternRange()
@@ -253,25 +271,32 @@ public class Tartaglia : Boss
             return;
         }
 
-        Range().OnComplete(() =>
+        Range(count - 1).OnComplete(() =>
         {
             CallRange(count - 1);
         });
     }
 
-    Tween Range()
+    Tween Range(int index)
     {
         float patternDelay = 0.5f;
         EnemyAttackData attackData = new EnemyAttackData();
         float damagePer = phase * damage * 0.5f;
+        Vector3 targetPos = GameManager.instance.player.transform.position;
+        Vector3 dir = targetPos - transform.position;
 
+
+        attackData.patternAnimationClip = animationClips[(int)AnimationType.Pattern_Square];
+        attackData.damageAnimationClip = animationClips[(int)AnimationType.Range];
         attackData.damage = damagePer;
+        attackData.targetDirection = dir;
         attackData.patternDelay = patternDelay;
         attackData.duration = 0f;
         attackData.patternType = EnemyAttack.PatternType.Range;
         attackData.speed = 15.0f;
         attackData.isDamage = true;
-        body.enemyAttack.Init(attackData);
+        body.enemyAttacks[index].Init(attackData);
+        body.enemyAttacks[index].AnimationStart();
 
         return PatternDelay(1.0f);
     }
@@ -279,7 +304,7 @@ public class Tartaglia : Boss
 
     Tween PatternDelay(float delay)
     {
-        return DOVirtual.DelayedCall(delay,()=>{}); 
+        return DOVirtual.DelayedCall(delay, () => { });
     }
 
 
@@ -308,10 +333,12 @@ public class Tartaglia : Boss
     {
         float patternDelay = 1.0f;
         float patternCoolTime = 2.0f;
+        Transform playerTransform = GameManager.instance.player.transform;
 
 
         EnemyAttackData attackData = new EnemyAttackData();
-
+        attackData.patternAnimationClip = animationClips[(int)AnimationType.Meteor_Area];
+        attackData.damageAnimationClip = animationClips[(int)AnimationType.Meteor_Damage];
         attackData.damage = damage;
         attackData.patternDelay = patternDelay;
         attackData.duration = 0f;
@@ -319,7 +346,9 @@ public class Tartaglia : Boss
         attackData.patternSize = phase + 2f;
         attackData.speed = 1.0f;
         attackData.isDamage = true;
+        attackData.targetDirection = new Vector3(playerTransform.position.x, playerTransform.position.y);
         body.enemyAttack.Init(attackData);
+        body.enemyAttack.AnimationStart();
 
         return PatternDelay(patternCoolTime);
     }
@@ -332,7 +361,8 @@ public class Tartaglia : Boss
         float damagePer = phase * damage * 2f;
 
         EnemyAttackData attackData = new EnemyAttackData();
-
+        attackData.patternAnimationClip = animationClips[(int)AnimationType.Whale_Area];
+        attackData.damageAnimationClip = animationClips[(int)AnimationType.Whale_Damage];
         attackData.damage = damagePer;
         attackData.patternDelay = patternDelay;
         attackData.duration = 0f;
