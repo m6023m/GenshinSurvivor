@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 166
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -134,7 +134,427 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_Area_Cyro_166x166_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 498
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495b9f3e11782544b9e235f72a160ed2
+      internalID: 125393312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_Area_Cyro_166x166_1
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 498
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb21fe4be5024d4ab3b115a5953ea4f
+      internalID: -975885729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_Area_Cyro_166x166_2
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 498
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681588ee6be099f46855d2fbd02d34de
+      internalID: -804769781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_Area_Cyro_166x166_3
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 498
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034092bcc525e6a448a6ffed5d527797
+      internalID: -371533171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_Area_Cyro_166x166_4
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 498
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bdba62798cfe443873af329e7c86f0
+      internalID: 781350945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_Area_Cyro_166x166_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 332
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c202f8ae563254b826976c121a753d
+      internalID: -1476935129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_Area_Cyro_166x166_6
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 332
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97612d84456e9ed48b613c23a2e41b53
+      internalID: -813014037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_Area_Cyro_166x166_7
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 332
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3cc1d918659944418b3c7d8580a4566
+      internalID: 858279847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_Area_Cyro_166x166_8
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 332
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97565c575a3be814495cef35d94c4ca5
+      internalID: 141547289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_Area_Cyro_166x166_9
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 332
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4cf411a2b7cad48af9a21d11fc4b36
+      internalID: -1365101445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_Area_Cyro_166x166_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 166
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08e5dab3e4fc1a41bed12df1ecf4cfd
+      internalID: 1435346619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_Area_Cyro_166x166_11
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 166
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1347853e917d0eb4c858b21432d59018
+      internalID: 1983327259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_Area_Cyro_166x166_12
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 166
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b494acd59bf4047bb6e5c201a7ab7d
+      internalID: 2085263125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_Area_Cyro_166x166_13
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 166
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f50c5e68f611024eba7a6d2e3742515
+      internalID: 570889720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_Area_Cyro_166x166_14
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 166
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4432b1d126e90424b88dcd47fe90aaf0
+      internalID: 2118586110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_Area_Cyro_166x166_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed31634d31b7ddb4e8470c4123453a5a
+      internalID: -1409769887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_Area_Cyro_166x166_16
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 0
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9fafbb514eb30f4db2e0d5637279d36
+      internalID: 723686685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_Area_Cyro_166x166_17
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 0
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5950a7cfe8687f45a64f985aa72c87b
+      internalID: 256177882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_Area_Cyro_166x166_18
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 0
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca01bf3f1626414a8bcad5ab325bdb9
+      internalID: -140734425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_Area_Cyro_166x166_19
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 0
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9399c4bab8a8704bb1b6a50aa08948e
+      internalID: 967951329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +565,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Boss_Azdaha_Meteor_Area_Cyro_166x166_0: 125393312
+      Boss_Azdaha_Meteor_Area_Cyro_166x166_1: -975885729
+      Boss_Azdaha_Meteor_Area_Cyro_166x166_10: 1435346619
+      Boss_Azdaha_Meteor_Area_Cyro_166x166_11: 1983327259
+      Boss_Azdaha_Meteor_Area_Cyro_166x166_12: 2085263125
+      Boss_Azdaha_Meteor_Area_Cyro_166x166_13: 570889720
+      Boss_Azdaha_Meteor_Area_Cyro_166x166_14: 2118586110
+      Boss_Azdaha_Meteor_Area_Cyro_166x166_15: -1409769887
+      Boss_Azdaha_Meteor_Area_Cyro_166x166_16: 723686685
+      Boss_Azdaha_Meteor_Area_Cyro_166x166_17: 256177882
+      Boss_Azdaha_Meteor_Area_Cyro_166x166_18: -140734425
+      Boss_Azdaha_Meteor_Area_Cyro_166x166_19: 967951329
+      Boss_Azdaha_Meteor_Area_Cyro_166x166_2: -804769781
+      Boss_Azdaha_Meteor_Area_Cyro_166x166_3: -371533171
+      Boss_Azdaha_Meteor_Area_Cyro_166x166_4: 781350945
+      Boss_Azdaha_Meteor_Area_Cyro_166x166_5: -1476935129
+      Boss_Azdaha_Meteor_Area_Cyro_166x166_6: -813014037
+      Boss_Azdaha_Meteor_Area_Cyro_166x166_7: 858279847
+      Boss_Azdaha_Meteor_Area_Cyro_166x166_8: 141547289
+      Boss_Azdaha_Meteor_Area_Cyro_166x166_9: -1365101445
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

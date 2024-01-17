@@ -29,7 +29,7 @@ Constellation.Amber2,화살비 대미지 20% 증가,20% Increase In Arrows Damag
 Constellation.Amber3,폭탄 인형의 쿨타임 50% 감소,50% Reduction In Cooldown Of Bomb Dolls
 Constellation.Amber4,폭탄 인형의 대미지 20% 증가,20% Increase In Damage To Bomb Dolls
 Constellation.Amber5,"화살비 발동 후 10초동안 이동속도 15%, 공격력 15% 증가",10 Seconds Of Movement Speed And 15% Increase
-Constellation.Xiangling0,"누룽지의 공격에 피격된 적은 불원소 내성이 15% 감소, 지속 6초","Enemies Hit By Nurungji'S Attack Reduced 15%, 6 Seconds"
+Constellation.Xiangling0,"누룽지의 공격에 피격된 적은 불원소 내성이 15% 감소, 지속 6초","Enemies Hit By Nurungji'S Attacks Reduced 15%, 6 Seconds"
 Constellation.Xiangling1,일반공격 대미지 20% 증가,20% Increase In General Attack Damage
 Constellation.Xiangling2,화륜의 대미지 20% 증가,20% Increase In Damage To Fire Wheel
 Constellation.Xiangling3,화륜의 지속시간 40% 증가,40% Increase In Duration Of Fire Wheel
@@ -112,7 +112,7 @@ Constellation.Fischl1,밤을 순찰하는 그림자 날개의 관통 1 증가,1 
 Constellation.Fischl2,밤을 순찰하는 그림자 날개의 대미지 20% 증가,20% Increase In Damage To Shadow Wings That Patrol The Night
 Constellation.Fischl3,"암야의 환상 발동 시 HP 20% 회복, 암야의 환상 범위 50% 증가","Hp 20% Recovery When It Is Fantastically Triggered By Dark Night, And 50% Increase In Illusions In The Night"
 Constellation.Fischl4,암야의 환상 대미지 20% 증가,20% Increase In Fantasy Damage In Dark Night
-Constellation.Fischl5,암야의 환상과 밤을 순찰하는 그림자 날개 지속시간 20% 증가,Fantasy Of Dark Night And 20% Increase In Shadow Wings That Patrol The Night
+Constellation.Fischl5,암야의 환상과 밤을 순찰하는 그림자 날개 지속시간 20% 증가,Fantasy Of Dark Night And Shadow Wings That Patrol The Night 20% Increase
 Constellation.Keqing0,성신회귀의 범위 50% 증가,50% Increase In The Range Of Regression
 Constellation.Keqing1,원소 충전 효율 20% 증가,20% Increase In Elemental Charging Efficiency
 Constellation.Keqing2,천가 순유의 대미지 20% 증가,20% Increase In Damage To Cloth Net Oil
@@ -159,7 +159,7 @@ Constellation.Diona0,특제 칵테일의 최대 원소 에너지 15 감소,Maxim
 Constellation.Diona1,꽁꽁 젤리의 관통 1 증가,One Increase In Penetration Of The Jelly Jelly
 Constellation.Diona2,특제 칵테일의 회복량 20% 증가,20% Increase In Recovery Of Special Cocktails
 Constellation.Diona3,일반 공격 재사용 대기시간이 10% 감소,The Waiting Time For General Attack Reuse Decreases By 10%
-Constellation.Diona4,꽁꽁젤리의 대미지 20% 증가,20% Increase In Damage To The Jelly
+Constellation.Diona4,꽁꽁젤리의 대미지 20% 증가,20% Increase In Damages Of Cord Jelly
 Constellation.Diona5,"특제 칵테일 영역 내의 캐릭터는 치유 보너스 30% 증가, 원소마스터리 200 증가","Characters In Special Cocktail Areas Increase By 30% Healing Bonus, 200 Elemental Mastery Increases 200"
 Constellation.Zhongli0,지핵의 재사용 대기시간 20% 감소,20% Reduction In Waiting Time For Reuse Of Tuberculosis
 Constellation.Zhongli1,천성의 발동 후 지핵의 재사용 대기시간 초기화됨,Initialization Of The Cooldown Of The Nucleus After The Activity Of Nature
@@ -247,7 +247,7 @@ Constellation.Raiden2,오의 · 몽상진설의 대미지 20% 증가,20% Increas
 Constellation.Raiden3,오의 · 몽상진설의 무적시간이 2초 증가,Invincible Time Of Ohui And Dreams Increased 2 Seconds
 Constellation.Raiden4,초월 · 악요개안의 대미지 20% 증가,20% Increase In Damage To Transcendence And Males
 Constellation.Raiden5,오의 · 몽상진설의 최대 원소 에너지가 200 감소,The Maximum Element Energy Of Ohui And Dreams Decreased 200
-Constellation.Sara0,까마귀 깃 텐구의 뇌정 소환의 재사용 대기시간 20% 감소,Crow Gate Tengu'S Summoning Brain Administration Summons 20% Reduction
+Constellation.Sara0,까마귀 깃 텐구의 뇌정 소환의 재사용 대기시간 20% 감소,Crow Gate Tengu'S Summoning Brain Administration Summoning 20% ​​Reduction
 Constellation.Sara1,까마귀 깃 텐구의 뇌정 소환의 공격력 증가효과 20% 증가,Increasing The Damage Effect Of The Brain Summoning Of The Crow Mitigu By 20% Increase
 Constellation.Sara2,빛나는 천도의 진법의 대미지 20% 증가,20% Increase In Damage To The Brilliant Cheondo
 Constellation.Sara3,빛나는 천도의 진법의 번개 개수가 2 증가,The Number Of Lightning Of The Shining Cheondo Is Increased By 2
@@ -301,7 +301,7 @@ Constellation.Ayato2,카미사토류 · 거울꽃의 대미지가 20% 증가함,
 Constellation.Ayato3,카미사토류 · 거울꽃의 재사용 대기시간 20% 감소,20% Reduction In Waiting Time For Reuse Of Kamisa Earth And Mirror Flowers
 Constellation.Ayato4,카미사토류 · 물의 영역의 대미지 20% 증가,20% Increase In Damage In The Area Of ​​Kamisa Earth And Water
 Constellation.Ayato5,카미사토류 · 거울꽃의 대미지 40% 증가,40% Increase In Damage To Kamisa Earth And Mirror Flowers
-Constellation.Yelan0,뒤얽힌 생명줄의 재사용 대기시간 20% 감소,20% Reduction In Waiting Time For Reusable Lives
+Constellation.Yelan0,뒤얽힌 생명줄의 재사용 대기시간 20% 감소,20% Reduction In Waiting Time For Reusable Life Strings
 Constellation.Yelan1,심오하고 영롱한 주사위의 투사체 발사 개수 1 증가,Increased Number Of Projectiles Of Profound And Brilliant Dice
 Constellation.Yelan2,심오하고 영롱한 주사위 대미지 20% 증가,Increased Profound And Brilliant Dice Damage By 20%
 Constellation.Yelan3,뒤얽힌 생명줄 지속시간동안 적을 통과할수 있으며 무적상태가 됨,You Can Pass The Enemy During The Duration Of The Entangled Life And Become Invincible.

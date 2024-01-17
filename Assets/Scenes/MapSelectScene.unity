@@ -246,13 +246,16 @@ MonoBehaviour:
   - MapScene0
   - MapScene1
   - MapScene2
+  - MapScene3
   sceneNames:
   - Map.Num0
   - Map.Num1
   - Map.Num2
+  - Map.Num3
   mapSprites:
   - {fileID: 21300000, guid: 57adc004fbe0def4c9edc97f7c8d13a4, type: 3}
   - {fileID: 21300000, guid: b43b7c4cc0c75f14a95ca5873c922a88, type: 3}
+  - {fileID: 21300000, guid: 9d16bae57e92d7d4d865eedd7bc2084e, type: 3}
   - {fileID: 21300000, guid: 9d16bae57e92d7d4d865eedd7bc2084e, type: 3}
   imgDiscription: {fileID: 53109471}
   nameDiscription: {fileID: 1372697751}

@@ -1,0 +1,593 @@
+fileFormatVersion: 2
+guid: 7d3fd4238c98f97459ff365f48e1dda3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 510
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boss_Azdaha_Thunder_507x517_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1551
+        width: 507
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42017f449ada3ff4eadd15ce21bde8c9
+      internalID: 1869579673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Thunder_507x517_1
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1551
+        width: 507
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7943392a9e076344aa1ca1ff8ae5c17
+      internalID: -1444220146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Thunder_507x517_2
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 1551
+        width: 507
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eca2c73d885143439dc221fe877ad33
+      internalID: 2079485639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Thunder_507x517_3
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 1551
+        width: 507
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bf670f126521c4ca7008fc3cbb6cc3
+      internalID: -1728957290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Thunder_507x517_4
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 1551
+        width: 507
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c6f2aa34bdb1043a1235e650953b49
+      internalID: -465995156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Thunder_507x517_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1034
+        width: 507
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ac41080b6162b4485d34497aa02574
+      internalID: 288577000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Thunder_507x517_6
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1034
+        width: 507
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259dc9c250c8bcd4fb2f9957083d29dd
+      internalID: -1110983892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Thunder_507x517_7
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 1034
+        width: 507
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68a29d2971e40140a5b3fc65343247a
+      internalID: -1576301626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Thunder_507x517_8
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 1034
+        width: 507
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83261984b3fbb448b425a17782d599f
+      internalID: -624035696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Thunder_507x517_9
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 1034
+        width: 507
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10838237bccbf1648a14835ef0186acb
+      internalID: -1744398367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Thunder_507x517_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 517
+        width: 507
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb22d56785c36594c9c07c3e76999ca9
+      internalID: -893881296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Thunder_507x517_11
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 517
+        width: 507
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ab1c9f158edd044915d2755056b3d4
+      internalID: -1567669391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Thunder_507x517_12
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 517
+        width: 507
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787ee0b479fa46246bad9340205924b1
+      internalID: 1868659424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Thunder_507x517_13
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 517
+        width: 507
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92075710c8c37164e8e64b9b42e0d283
+      internalID: -1877310101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Thunder_507x517_14
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 517
+        width: 507
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9d0b1c86d9dd04aa18dbf50be1c0a3
+      internalID: 648254248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Thunder_507x517_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 507
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7486daae94c44c94fa86b25eee0d7cbf
+      internalID: 528483247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Thunder_507x517_16
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 0
+        width: 507
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd7f9e1abc14e14b961bf5fe924aec5
+      internalID: -1000818141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Thunder_507x517_17
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 0
+        width: 507
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ac6fe6c0bc97b4b9e46275ddeb89aa
+      internalID: -1795766073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Thunder_507x517_18
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 0
+        width: 507
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92bc568dd6054af43975e0bb8749405d
+      internalID: 1610611319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Thunder_507x517_19
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 0
+        width: 507
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d182d60bbe89e46807729b265d8aa5
+      internalID: 2140143677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Boss_Azdaha_Thunder_507x517_0: 1869579673
+      Boss_Azdaha_Thunder_507x517_1: -1444220146
+      Boss_Azdaha_Thunder_507x517_10: -893881296
+      Boss_Azdaha_Thunder_507x517_11: -1567669391
+      Boss_Azdaha_Thunder_507x517_12: 1868659424
+      Boss_Azdaha_Thunder_507x517_13: -1877310101
+      Boss_Azdaha_Thunder_507x517_14: 648254248
+      Boss_Azdaha_Thunder_507x517_15: 528483247
+      Boss_Azdaha_Thunder_507x517_16: -1000818141
+      Boss_Azdaha_Thunder_507x517_17: -1795766073
+      Boss_Azdaha_Thunder_507x517_18: 1610611319
+      Boss_Azdaha_Thunder_507x517_19: 2140143677
+      Boss_Azdaha_Thunder_507x517_2: 2079485639
+      Boss_Azdaha_Thunder_507x517_3: -1728957290
+      Boss_Azdaha_Thunder_507x517_4: -465995156
+      Boss_Azdaha_Thunder_507x517_5: 288577000
+      Boss_Azdaha_Thunder_507x517_6: -1110983892
+      Boss_Azdaha_Thunder_507x517_7: -1576301626
+      Boss_Azdaha_Thunder_507x517_8: -624035696
+      Boss_Azdaha_Thunder_507x517_9: -1744398367
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

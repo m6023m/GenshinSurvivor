@@ -50,7 +50,7 @@ Upgrade.Discription.LUCK,행운을 업그레이드 개수 x {0}% 만큼 올려�
 Upgrade.Discription.GROWTH,경험치 획득량과 원소충전효율을 업그레이드 개수 x {0}% 만큼 올려준다.,Increase The Amount Of Experience Acquisition And Elemental Charging Efficiency By The Number Of Upgrades X {0}%.
 Upgrade.Discription.GREED,게임 중 획득하는 모라와 원석 획득량을 업그레이드 개수 x {0}% 만큼 올려준다.,Upgrade The Amount Of Mora And Gemstone Acquired During The Game X {0}%.
 Upgrade.Discription.CURSE,"적의 공격력, 체력, 속도, 생성 주기가 업그레이드 개수 x {0}%오름.","Enemy Attack Power, Health, Speed, And Generation Cycle Upgrade Number X {0}%Climbed."
-Upgrade.Discription.REBIRTH,치명적인 공격을 받았을 경우 업그레이드 개수 x {0}회 부활하고 3초동안 무적이 됨.,"If You Have A Deadly Attack, The Number Of Upgrades Will Be Revived X {0} And Become Invincible For 3 Seconds."
+Upgrade.Discription.REBIRTH,치명적인 공격을 받았을 경우 업그레이드 개수 x {0}회 부활하고 3초동안 무적이 됨.,"If You Have A Fatal Attack, The Number Of Upgrades Will Be Revived X {0} And Become Invincible For 3 Seconds."
 Upgrade.Discription.REROLL,업그레이드 개수 x {0}회 재선택 가능.,Upgrade Number X {0} Re -Election.
 Upgrade.Discription.SKIP,업그레이드 개수 x {0}회 선택을 건너뛸 수 있음.,Upgrade Number Of Upgrade X {0} You Can Skip The Selection.
 Upgrade.Skill.Damage,대미지가 {0:P0} 만큼 증가,Damage increases by {0:P0}

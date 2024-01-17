@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 461
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -134,7 +134,217 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_Damage_Cyro_461x463_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1389
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809f1c735e0def04db355dd1cb153c6e
+      internalID: -110366024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_Damage_Cyro_461x463_1
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1389
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a43ac07cc93f8b40af605e041981954
+      internalID: 333446519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_Damage_Cyro_461x463_2
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1389
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903aa4860db447e44ad794f06b07cdd5
+      internalID: -645079497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_Damage_Cyro_461x463_3
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1389
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5fec2c9aedca664e865286dbd192668
+      internalID: -1875892940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_Damage_Cyro_461x463_4
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 1389
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020302ed8101e054aa3983bbcfed9fdf
+      internalID: 475771574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_Damage_Cyro_461x463_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 926
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58da89a455cec5847870850a6b1134ac
+      internalID: 616022417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_Damage_Cyro_461x463_6
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 926
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34010bde2b88cf5428f61c20aaf83a8f
+      internalID: -2098558435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_Damage_Cyro_461x463_7
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 926
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ad13daa9a53e04fa1b9457e2cc1b52
+      internalID: 1358288753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_Damage_Cyro_461x463_8
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 926
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f506908a96286b4f8e56144d1ffa107
+      internalID: -458870514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_Damage_Cyro_461x463_9
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 926
+        width: 461
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07763e8951e22d478ba54948ee78667
+      internalID: 571228013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +355,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Boss_Azdaha_Meteor_Damage_Cyro_461x463_0: -110366024
+      Boss_Azdaha_Meteor_Damage_Cyro_461x463_1: 333446519
+      Boss_Azdaha_Meteor_Damage_Cyro_461x463_10: 65145676
+      Boss_Azdaha_Meteor_Damage_Cyro_461x463_11: -2126516147
+      Boss_Azdaha_Meteor_Damage_Cyro_461x463_12: 1667463413
+      Boss_Azdaha_Meteor_Damage_Cyro_461x463_13: 1861239078
+      Boss_Azdaha_Meteor_Damage_Cyro_461x463_14: 36849907
+      Boss_Azdaha_Meteor_Damage_Cyro_461x463_15: -1778513388
+      Boss_Azdaha_Meteor_Damage_Cyro_461x463_16: 1230825233
+      Boss_Azdaha_Meteor_Damage_Cyro_461x463_17: 706719385
+      Boss_Azdaha_Meteor_Damage_Cyro_461x463_18: 1916986642
+      Boss_Azdaha_Meteor_Damage_Cyro_461x463_19: 1245143143
+      Boss_Azdaha_Meteor_Damage_Cyro_461x463_2: -645079497
+      Boss_Azdaha_Meteor_Damage_Cyro_461x463_3: -1875892940
+      Boss_Azdaha_Meteor_Damage_Cyro_461x463_4: 475771574
+      Boss_Azdaha_Meteor_Damage_Cyro_461x463_5: 616022417
+      Boss_Azdaha_Meteor_Damage_Cyro_461x463_6: -2098558435
+      Boss_Azdaha_Meteor_Damage_Cyro_461x463_7: 1358288753
+      Boss_Azdaha_Meteor_Damage_Cyro_461x463_8: -458870514
+      Boss_Azdaha_Meteor_Damage_Cyro_461x463_9: 571228013
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

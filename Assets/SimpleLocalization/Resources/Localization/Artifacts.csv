@@ -75,7 +75,7 @@ Artifact.Up.Vourukashas_Glow,HP +10%,Hp +10%
 Artifact.Up.Set.Resolution_of_Sojourner,지속 피해 스킬의 스킬 대미지 주기 50% 감소,50% Reduction In Skill Damage Cycle Of Sustained Damage Skills
 Artifact.Up.Set.Instructor,원소마스터리 +120,Elemental Mastery +120
 Artifact.Up.Set.The_Exile,원소폭발 발동 시 다른 원소폭발의 원소게이지 +5,Remenes Of Other Element Explosions +5
-Artifact.Up.Set.Defenders_Will,파티의 원소 타입 1종류당 방어력 +2,Elemental Type Of Party Events Per Type +2
+Artifact.Up.Set.Defenders_Will,파티의 원소 타입 1종류당 방어력 +2,Elemental Type Of Party Defense Per Type +2
 Artifact.Up.Set.Brave_Heart,HP가 50%를 초과하는 적에게 가하는 피해 +30%,+30%Damage To Enemies With Hp Exceeding 50%
 Artifact.Up.Set.Martial_Artist,일반 공격 피해 +30%,General Attack Damage +30%
 Artifact.Up.Set.Gambler,스킬 사용 1초 후에 20% 확률로 재사용 대기시간 초기화,Initializing The Waiting Time For Reuse With A 20% Chance After 1 Second Of Skill Use

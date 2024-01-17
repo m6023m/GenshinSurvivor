@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 205
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -134,7 +134,427 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_202x219_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 657
+        width: 202
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de1e4d2b1da71541b2b6b94637b81b9
+      internalID: 1280523845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_202x219_1
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 657
+        width: 202
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b65a207c7ec8e2439b038c9093bd5e2
+      internalID: 665756750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_202x219_2
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 657
+        width: 202
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ed7e3c6ce7c8d478b02fd7dc81cb53
+      internalID: 1823166775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_202x219_3
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 657
+        width: 202
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e2eeff32968e24b870577b057a814e
+      internalID: 41400688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_202x219_4
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 657
+        width: 202
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640c2446f28a87a4cbb74fc2a9d54468
+      internalID: -1273977401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_202x219_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 438
+        width: 202
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5baa5187fbca34da8740c1b85988ad
+      internalID: 2054984808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_202x219_6
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 438
+        width: 202
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4136feceb1ea64db52e18887e76cbe
+      internalID: -988691204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_202x219_7
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 438
+        width: 202
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbdaf8c75a1acf419dccc5d05518229
+      internalID: 91513277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_202x219_8
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 438
+        width: 202
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81eb2c016f8be8c46886ce264fa68d62
+      internalID: -1684787004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_202x219_9
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 438
+        width: 202
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0217ecba590fb46909e8b25757759e
+      internalID: 1329083379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_202x219_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 219
+        width: 202
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca326ef7b390f34b9122f7ca73aceb8
+      internalID: 968273783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_202x219_11
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 219
+        width: 202
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f46a938e542a2c46b44762f6de13ebf
+      internalID: -402815573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_202x219_12
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 219
+        width: 202
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14c58279eb70634193b2031744ef51a
+      internalID: -1216689587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_202x219_13
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 219
+        width: 202
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a160610ee67cf394a9e53da96ebace52
+      internalID: 889075576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_202x219_14
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 219
+        width: 202
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21cffaa4bcc93e940bd49c8fea147373
+      internalID: 933849047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_202x219_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 202
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868368c27c63e114b86424d097590a03
+      internalID: -499922735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_202x219_16
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 0
+        width: 202
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83511d9faa3b9874ea503151c54c418b
+      internalID: -1976329144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_202x219_17
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 0
+        width: 202
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa74000e0f440a47bfda0624d725f99
+      internalID: 757269598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_202x219_18
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 0
+        width: 202
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f649c4629d06614aabcda57247984c8
+      internalID: -2095499913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Meteor_202x219_19
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 0
+        width: 202
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3fa08a1cf292d428ff6e2d464a184c
+      internalID: -477958300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +565,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Boss_Azdaha_Meteor_202x219_0: 1280523845
+      Boss_Azdaha_Meteor_202x219_1: 665756750
+      Boss_Azdaha_Meteor_202x219_10: 968273783
+      Boss_Azdaha_Meteor_202x219_11: -402815573
+      Boss_Azdaha_Meteor_202x219_12: -1216689587
+      Boss_Azdaha_Meteor_202x219_13: 889075576
+      Boss_Azdaha_Meteor_202x219_14: 933849047
+      Boss_Azdaha_Meteor_202x219_15: -499922735
+      Boss_Azdaha_Meteor_202x219_16: -1976329144
+      Boss_Azdaha_Meteor_202x219_17: 757269598
+      Boss_Azdaha_Meteor_202x219_18: -2095499913
+      Boss_Azdaha_Meteor_202x219_19: -477958300
+      Boss_Azdaha_Meteor_202x219_2: 1823166775
+      Boss_Azdaha_Meteor_202x219_3: 41400688
+      Boss_Azdaha_Meteor_202x219_4: -1273977401
+      Boss_Azdaha_Meteor_202x219_5: 2054984808
+      Boss_Azdaha_Meteor_202x219_6: -988691204
+      Boss_Azdaha_Meteor_202x219_7: 91513277
+      Boss_Azdaha_Meteor_202x219_8: -1684787004
+      Boss_Azdaha_Meteor_202x219_9: 1329083379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

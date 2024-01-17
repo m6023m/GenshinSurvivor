@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 260
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -134,7 +134,427 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Boss_Azdaha_Flooring_261x257_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 771
+        width: 261
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e08250ada5876418cdb7f83bc747a3
+      internalID: -1727059665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Flooring_261x257_1
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 771
+        width: 261
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4eae981ccfca724f8946ffd17b97335
+      internalID: -757685785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Flooring_261x257_2
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 771
+        width: 261
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3008e7eff10ed428f712e2056e5fb5
+      internalID: -973968463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Flooring_261x257_3
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 771
+        width: 261
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f801be0041b007846ae61b0729c30a71
+      internalID: -1285901701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Flooring_261x257_4
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 771
+        width: 261
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609ed206979f78a4aa729d120555311f
+      internalID: -1580092739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Flooring_261x257_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 514
+        width: 261
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c416326a0620d35488968508706b787c
+      internalID: -797352397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Flooring_261x257_6
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 514
+        width: 261
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e0dd2a8b83f9045befacc593eedd75
+      internalID: 759187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Flooring_261x257_7
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 514
+        width: 261
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb555d8f197c214ba078aad943c2889
+      internalID: 180910536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Flooring_261x257_8
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 514
+        width: 261
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133cc1d9728d7614599729b1d263db02
+      internalID: -1559786378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Flooring_261x257_9
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 514
+        width: 261
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587cc198326d7bf418d23ab22a4ede2a
+      internalID: -328590051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Flooring_261x257_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 257
+        width: 261
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d20655f4300ec408b4f7f992d18950
+      internalID: -180370441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Flooring_261x257_11
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 257
+        width: 261
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b09774734f195f43bafadef0c1881c6
+      internalID: 680565733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Flooring_261x257_12
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 257
+        width: 261
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d6365ea127f074f936a05de3852fe0
+      internalID: 286576219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Flooring_261x257_13
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 257
+        width: 261
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8ffdb78f0dd3d4298b56e7d0b3601d
+      internalID: -1279889756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Flooring_261x257_14
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 257
+        width: 261
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820f1efaf1b0ba341aad5cebbfc3b495
+      internalID: 1783015801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Flooring_261x257_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 261
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca329d04990b57046a0dca386b8f3a83
+      internalID: -762885587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Flooring_261x257_16
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 0
+        width: 261
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5771948a402e36a4d85c91947a93e9c6
+      internalID: 874951019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Flooring_261x257_17
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 0
+        width: 261
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a19c0ebc29db84aa8ea84cbe82ea72
+      internalID: 640620680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Flooring_261x257_18
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 0
+        width: 261
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15cca88a95d18840aa5859ee8c0b36b
+      internalID: -945596193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Flooring_261x257_19
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 0
+        width: 261
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ce40b7a3083ae43a7cd0c9f935fd71
+      internalID: 521145005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +565,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Boss_Azdaha_Flooring_261x257_0: -1727059665
+      Boss_Azdaha_Flooring_261x257_1: -757685785
+      Boss_Azdaha_Flooring_261x257_10: -180370441
+      Boss_Azdaha_Flooring_261x257_11: 680565733
+      Boss_Azdaha_Flooring_261x257_12: 286576219
+      Boss_Azdaha_Flooring_261x257_13: -1279889756
+      Boss_Azdaha_Flooring_261x257_14: 1783015801
+      Boss_Azdaha_Flooring_261x257_15: -762885587
+      Boss_Azdaha_Flooring_261x257_16: 874951019
+      Boss_Azdaha_Flooring_261x257_17: 640620680
+      Boss_Azdaha_Flooring_261x257_18: -945596193
+      Boss_Azdaha_Flooring_261x257_19: 521145005
+      Boss_Azdaha_Flooring_261x257_2: -973968463
+      Boss_Azdaha_Flooring_261x257_3: -1285901701
+      Boss_Azdaha_Flooring_261x257_4: -1580092739
+      Boss_Azdaha_Flooring_261x257_5: -797352397
+      Boss_Azdaha_Flooring_261x257_6: 759187
+      Boss_Azdaha_Flooring_261x257_7: 180910536
+      Boss_Azdaha_Flooring_261x257_8: -1559786378
+      Boss_Azdaha_Flooring_261x257_9: -328590051
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

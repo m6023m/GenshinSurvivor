@@ -131,7 +131,7 @@ Skill.Kaeya0,게임 시작 시 서리 엄습을 가진 채로 시작,Starting Wi
 Skill.Kaeya1,레벨 10 오를 때 마다 원소 충전 효율 10% 증,Elemental Charging Efficiency 10% Increase Every Time You Go Up To Level 10
 Skill.Chongyun0,게임 시작 시 영도 · 떨어지는 별을 가진 채로 시작,Start With A Star That Has A Falling Star At The Start Of The Game
 Skill.Chongyun1,레벨 10 오를 때 마다 공격력 10% 증가,Each Time You Go Up To 10% Of Damage Increases By 10%
-Skill.Qiqi0,게임 시작 시 선법 · 한병의 귀차를 가진 채로 시작,Starting With The Right Law And One Bottle At The Start Of The Game
+Skill.Qiqi0,게임 시작 시 선법 · 한병의 귀차를 가진 채로 시작,Starting With A Line Of Line And A Bottle At The Start Of The Game
 Skill.Qiqi1,레벨 10 오를 때 마다 치유강화 6% 증가,6% Increase In Healing By Level 10
 Skill.Ningguang0,게임 시작 시 선기 병풍을 가진 채로 시작,Start With A Sunshop Screen At The Start Of The Game
 Skill.Ningguang1,레벨 10 오를 때 마다 바위 원소 피해 6% 증가,"Whenever Level 10 Goes Up, 6% Increase In Rock Elements"
@@ -177,7 +177,7 @@ Skill.Discription.E_Keqing,전방에 표식을 생성하고 일정 시간 후에
 Skill.Discription.EB_Keqing,큰 범위에 번개 속성 지속피해를 주는 장판 생성,Create A Plate That Continues To Damage Lightning Attributes In A Large Range
 Skill.Discription.E_Kaeya,전방에 얼음 속성 피해를 줌,Ice Attribute Damage Ahead
 Skill.Discription.EB_Kaeya,플레이어 주변을 돌며 얼음 속성 피해를 주는 스킬 생성,Create A Skill That Turns Around The Player Around The Player
-Skill.Discription.E_Chongyun,전방에 얼음 속성 범위 피해를 주고 초기 속성이 물리 속성인 기본 공격을 얼음 속성으로 바꿔주는 장판 생성 ,"Create A Floor Plate That Causes The Ice Properties To Damage The Front Attack To The Ice Properties, Which The Initial Attribute Is Physical Attribute."
+Skill.Discription.E_Chongyun,전방에 얼음 속성 범위 피해를 주고 초기 속성이 물리 속성인 기본 공격을 얼음 속성으로 바꿔주는 장판 생성 ,"Create A Floorboard That Causes The Ice Properties To Damage The Front Attack To The Ice Properties, Which The Initial Attribute Is Physical Attribute."
 Skill.Discription.EB_Chongyun,범위에 얼음 속성 지속 피해를 줌,Ice Properties In The Range
 Skill.Discription.E_Qiqi,얼음 속성 피해를 주고 플레이어를 지속적으로 회복시키는 장판을 플레이어 주변에 소환,Summon The Blanket That Causes Ice Properties And Continues To Restore The Player Around The Player
 Skill.Discription.EB_Qiqi,범위에 얼음 속성 피해를 주고 플레이어 HP를 대량으로 회복함,Ice Attribute Damage To The Range And Recovers The Player Hp In Large Quantities
@@ -199,7 +199,7 @@ Skill.Diona0,게임 시작 시 꽁꽁젤리를 가진 채로 시,"At The Start O
 Skill.Diona1,레벨 10 오를 때 마다 얼음 원소 대미지 6% 증가,"Every Time You Climb Level 10, 6% Increase In Ice Element Damage"
 Skill.E_Zhongli,지핵,Core
 Skill.EB_Zhongli,천성,Nature
-Skill.Discription.E_Zhongli,바위 원소 창조물과 바위 원소 공명을 하며 주변 적에게 피해를 주는 암주를 생성하고 적의 피해를 막고 모든 내성을 20% 감소시키는 보호막 생성,"Rock Element Creation And Rock Element Resonance, Producing A Protective Film That Produces Rocks That Cause Damage To The Surrounding Enemies, Prevents The Damage Of The Enemy, And Reduces All Resistance By 20% Resistance"
+Skill.Discription.E_Zhongli,바위 원소 창조물과 바위 원소 공명을 하며 주변 적에게 피해를 주는 암주를 생성하고 적의 피해를 막고 모든 내성을 20% 감소시키는 보호막 생성,"Rock Element Creation And Rock Element Resonance, Producing A Protective Film That Produces Rocks That Cause Damage To The Surrounding Enemies, Prevents The Damage Of The Enemy, And Reduces All Resistance By 20%."
 Skill.Discription.EB_Zhongli,넓은 범위에 바위 원소 피해를 주고 적을 4초간 석화 시킴,Damage To Rock Elements In A Wide Range And Petrifying The Enemy For 4 Seconds
 Skill.Zhongli0,지핵을 가진 채로 시작,Start With A Core
 Skill.Zhongli1,레벨이 10 오를 때 마다 체력 10% 증가,"Each Time The Level Is Up, 10% Increase In Health"
@@ -217,7 +217,7 @@ Skill.Albedo0,창생법 · 모조 태양꽃을 가진 채로 시작,Start With A
 Skill.Albedo1,레벨이 10 오를 때 마다 바위 원소 피해 7.2% 증가,"Every Time The Level Is Up, The Rock Element Is Increased By 7.2%"
 Skill.E_Ganyu,산과 강의 기린 흔적,Traces Of Giraffe In Mountains And Rivers
 Skill.EB_Ganyu,"쏟아지는 천화","Pouring"
-Skill.Discription.E_Ganyu,주변 적과 아이템을 끌어들이고 얼음 원소 피해를 주는 소환물 생성,Summoning To Attract Surrounding Enemies And Items And To Damage Ice Elements
+Skill.Discription.E_Ganyu,주변 적과 아이템을 끌어들이고 얼음 원소 피해를 주는 소환물 생성,Summoned To Attract Surrounding Enemies And Items And To Damage Ice Elements
 Skill.Discription.EB_Ganyu,넓은 범위에 얼음 원소 지속 피해를 주는 장판 생성,Create A Board That Continues To Damage Ice Elements In A Wide Range
 Skill.Ganyu0,산과 강의 기린 흔적을 가진 채로 시작,Start With Traces Of Giraffes Of Mountains And Rivers
 Skill.Ganyu1,레벨이 10 오를 때 마다 행운 1 증가,Luck 1 Increase Every Time The Level Is Up 10
@@ -266,7 +266,7 @@ Skill.Ayaka1,레벨이 10 오를 때 마다 행운 1 증가,Luck 1 Increase Ever
 Skill.E_Yoimiya,염초 정화(庭火)의 춤,Dance Of Yeomcho Purification
 Skill.EB_Yoimiya,"유금 운간초","Yu Geum Luck"
 Skill.Discription.E_Yoimiya,적에게 닿으면 폭발하여 화염 속성 범위 피해를 주는 화살을 발사 함,"When It Touches The Enemy, It Explodes And Fires An Arrow That Damages The Flame Properties."
-Skill.Discription.EB_Yoimiya,적에게 닿으면 폭발하여 범위피해를 주는 화염속성 범위 피해를 줌,"When It Touches The Enemy, It Explodes And Causes Damage To The Flame Resistance Range That Damages The Range."
+Skill.Discription.EB_Yoimiya,적에게 닿으면 폭발하여 범위피해를 주는 화염속성 범위 피해를 줌,"When It Touches The Enemy, It Explodes And Causes Damage To The Flame Resistance."
 Skill.Yoimiya0,염초 정화(庭火)의 춤,Dance Of Yeomcho Purification
 Skill.Yoimiya1,레벨이 10 오를 때 마다 행운 1 증가,Luck 1 Increase Every Time The Level Is Up 10
 Skill.E_Sayu,유후류 · 풍은 돌진,Yufu And Wind Rushes
@@ -337,7 +337,7 @@ Skill.Ayato0,게임 시작 시 카미사토류 · 거울꽃을 가진 채로 시
 Skill.Ayato1,레벨이 10 오를 때 마다 행운 1 증가,Luck 1 Increase Every Time The Level Is Up 10
 Skill.E_Yelan,뒤얽힌 생명줄,Entangled Life
 Skill.EB_Yelan,심오하고 영롱한 주사위,Profound And Brilliant Dice
-Skill.Discription.E_Yelan,이동속도가 70% 증가하고 주변에 물 원소 대미지를 줌,The Movement Speed Increases By 70% And Water Elemental Damage Around
+Skill.Discription.E_Yelan,이동속도가 70% 증가하고 스킬 시작 시 거리와 스킬 종료 시 직선 거리를 계산해 범위가 커지는 물 원소 대미지를 줌,The Movement Speed Increases By 70% And The Distance Is Calculated When The Skill Starts And The Straight Distance Is Calculated By Calculating The Water Elemental Damage.
 Skill.Discription.EB_Yelan,물 원소 대미지를 주는 투사체를 발사하는 소환물을 생성함,Creating A Summoning Material That Fires A Projectile That Damages Water Elemental Damage
 Skill.Yelan0,게임 시작 시 뒤얽힌 생명줄을 가진 채로 시작,Start With A Lifeline Line That Is Entangled At The Start Of The Game
 Skill.Yelan1,레벨이 10 오를 때 마다 행운 1 증가,Luck 1 Increase Every Time The Level Is Up 10

@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 259
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -134,7 +134,427 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Boss_Azdaha_Water_Ball_259x257_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 771
+        width: 259
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48cb21f8197b8a14ca8d48c0b1acf686
+      internalID: 175422450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Water_Ball_259x257_1
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 771
+        width: 259
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07661040eb9b9a041b42ba8faa8ac77c
+      internalID: -1694822031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Water_Ball_259x257_2
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 771
+        width: 259
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d467d23d7d8fb2b4599930d8f798d102
+      internalID: 795288680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Water_Ball_259x257_3
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 771
+        width: 259
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e1fb8ad743b244daf7717a0da84471
+      internalID: -1277859205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Water_Ball_259x257_4
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 771
+        width: 259
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971cbfa2dc4ab3945a47ed5b89e40430
+      internalID: 125979153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Water_Ball_259x257_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 514
+        width: 259
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38433113524a5c4d90e8fa9ee0c389e
+      internalID: -962103741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Water_Ball_259x257_6
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 514
+        width: 259
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd936e1be827e8a4b9d95cd2e133393d
+      internalID: -2140164941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Water_Ball_259x257_7
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 514
+        width: 259
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7524ec611810184889c915ecc620b82
+      internalID: -1553229814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Water_Ball_259x257_8
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 514
+        width: 259
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a50ae145a6a34498955b6ea9bc8ce9
+      internalID: 1973873954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Water_Ball_259x257_9
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 514
+        width: 259
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294e317de975e1a4098e4b90c06fa010
+      internalID: 674237288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Water_Ball_259x257_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 257
+        width: 259
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14606848f076bd4ca64f183214a5187
+      internalID: 975852196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Water_Ball_259x257_11
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 257
+        width: 259
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d040426007cc5ba488cae7d52a2c37ef
+      internalID: -647330293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Water_Ball_259x257_12
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 257
+        width: 259
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77c489531f48e647ab3bcfdf051dd61
+      internalID: 1174517200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Water_Ball_259x257_13
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 257
+        width: 259
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d75edb323e324f49957be8ed2a6456f
+      internalID: 528268778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Water_Ball_259x257_14
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 257
+        width: 259
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc59cfeadf2cdc4fa4eba6cc401b1a4
+      internalID: -170652097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Water_Ball_259x257_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 259
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8c3e5738317e94eb386b1c998e000b
+      internalID: 881319292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Water_Ball_259x257_16
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 0
+        width: 259
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02270499502b5ba438af6e90e69b2dd5
+      internalID: -1182550892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Water_Ball_259x257_17
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 0
+        width: 259
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e32611a8dc21c84f9a4f5240813eaf9
+      internalID: -1729902565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Water_Ball_259x257_18
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 0
+        width: 259
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0cd177760483924d9204eade6272f92
+      internalID: 973559682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Water_Ball_259x257_19
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 0
+        width: 259
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac2547411465dd44be5c48c526f799f
+      internalID: 726489667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +565,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Boss_Azdaha_Water_Ball_259x257_0: 175422450
+      Boss_Azdaha_Water_Ball_259x257_1: -1694822031
+      Boss_Azdaha_Water_Ball_259x257_10: 975852196
+      Boss_Azdaha_Water_Ball_259x257_11: -647330293
+      Boss_Azdaha_Water_Ball_259x257_12: 1174517200
+      Boss_Azdaha_Water_Ball_259x257_13: 528268778
+      Boss_Azdaha_Water_Ball_259x257_14: -170652097
+      Boss_Azdaha_Water_Ball_259x257_15: 881319292
+      Boss_Azdaha_Water_Ball_259x257_16: -1182550892
+      Boss_Azdaha_Water_Ball_259x257_17: -1729902565
+      Boss_Azdaha_Water_Ball_259x257_18: 973559682
+      Boss_Azdaha_Water_Ball_259x257_19: 726489667
+      Boss_Azdaha_Water_Ball_259x257_2: 795288680
+      Boss_Azdaha_Water_Ball_259x257_3: -1277859205
+      Boss_Azdaha_Water_Ball_259x257_4: 125979153
+      Boss_Azdaha_Water_Ball_259x257_5: -962103741
+      Boss_Azdaha_Water_Ball_259x257_6: -2140164941
+      Boss_Azdaha_Water_Ball_259x257_7: -1553229814
+      Boss_Azdaha_Water_Ball_259x257_8: 1973873954
+      Boss_Azdaha_Water_Ball_259x257_9: 674237288
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

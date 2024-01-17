@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 461
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -134,7 +134,217 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Boss_Azdaha_Stomp_461x461_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1383
+        width: 461
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98cc46d4532173f44ab23b3e2a693292
+      internalID: 1086753078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Stomp_461x461_1
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1383
+        width: 461
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcdbb25ef67ec845a8338988606ce55
+      internalID: -1459611468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Stomp_461x461_2
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1383
+        width: 461
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e86031f595e914488e1e0b5ab0a8656
+      internalID: 1442211346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Stomp_461x461_3
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1383
+        width: 461
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e0f0c102d0d4444b74027286d03687
+      internalID: 1351115735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Stomp_461x461_4
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 1383
+        width: 461
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94cbe4fe57e74a44abdd1a8d69cbfd6a
+      internalID: 324456996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Stomp_461x461_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 922
+        width: 461
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5887ba1dbbe6b0543a3c506c67e0a804
+      internalID: 1440328747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Stomp_461x461_6
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 922
+        width: 461
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702b2bb8e3615a34eb18ad1ed2924823
+      internalID: -326571074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Stomp_461x461_7
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 922
+        width: 461
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7507f33474f2a9842b943d7f72800ab6
+      internalID: 1361111953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Stomp_461x461_8
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 922
+        width: 461
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d755acd5f49dd824cb691df8a79d31e2
+      internalID: 1050228928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Azdaha_Stomp_461x461_9
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 922
+        width: 461
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ec8ee7dd93fdd4c8cdebf4df96a431
+      internalID: -1080695440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +355,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Boss_Azdaha_Stomp_461x461_0: 1086753078
+      Boss_Azdaha_Stomp_461x461_1: -1459611468
+      Boss_Azdaha_Stomp_461x461_10: -103289050
+      Boss_Azdaha_Stomp_461x461_11: 1759937911
+      Boss_Azdaha_Stomp_461x461_12: 1152184965
+      Boss_Azdaha_Stomp_461x461_13: 113810620
+      Boss_Azdaha_Stomp_461x461_14: 233004709
+      Boss_Azdaha_Stomp_461x461_15: -1360736171
+      Boss_Azdaha_Stomp_461x461_16: 1024875375
+      Boss_Azdaha_Stomp_461x461_17: 5166360
+      Boss_Azdaha_Stomp_461x461_18: -327843681
+      Boss_Azdaha_Stomp_461x461_19: -190016416
+      Boss_Azdaha_Stomp_461x461_2: 1442211346
+      Boss_Azdaha_Stomp_461x461_3: 1351115735
+      Boss_Azdaha_Stomp_461x461_4: 324456996
+      Boss_Azdaha_Stomp_461x461_5: 1440328747
+      Boss_Azdaha_Stomp_461x461_6: -326571074
+      Boss_Azdaha_Stomp_461x461_7: 1361111953
+      Boss_Azdaha_Stomp_461x461_8: 1050228928
+      Boss_Azdaha_Stomp_461x461_9: -1080695440
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

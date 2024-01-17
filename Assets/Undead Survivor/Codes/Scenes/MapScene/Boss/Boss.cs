@@ -14,7 +14,8 @@ public class Boss : Enemy
         Andrius,
         Tartaglia0,
         Tartaglia1,
-        Tartaglia2
+        Tartaglia2,
+        Azdaha
     }
     public BossName bossName;
 
@@ -91,7 +92,7 @@ public class Boss : Enemy
     }
 
 
-    protected void LookPlayer()
+    protected virtual void LookPlayer()
     {
         Vector2 direction = transform.CalcTarget(playerTransform);
         transform.RotationFix(direction);

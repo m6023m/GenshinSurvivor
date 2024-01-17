@@ -51,6 +51,11 @@ public static class TransformExtention
         target.rotation = Quaternion.identity;
         target.rotation = Quaternion.FromToRotation(Vector3.up, defaultRotation);
     }
+    public static void RotationFixReverse(this Transform target, Vector3 defaultRotation)
+    {
+        target.rotation = Quaternion.identity;
+        target.rotation = Quaternion.FromToRotation(Vector3.down, defaultRotation);
+    }
 
     public static void ScaleFront(this Transform target, Transform parent, Vector3 scale)
     {
